@@ -26,7 +26,6 @@
 
 <body>
 <canvas id="canvas"></canvas>
-<!-- <div id="info">Hello</div> -->
 
 <script type="text/javascript">
 window.onerror = function(message, url, lineNumber) {  
@@ -47,7 +46,6 @@ function sign(val) {
 var w, h;
 
 var canvas = document.getElementById("canvas");
-//var info = document.getElementById("info");
 var ctx = canvas.getContext("2d");
 
 var boxHeight = 60;
@@ -104,7 +102,6 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     joystickUpdate();
-    //playerPhsxUpdate();
     PhsxStep();
     
     drawGround();
@@ -140,8 +137,6 @@ function playerPhsxUpdate() {
         playerPos.y = 0;
     }
 }
-
-
 
 
 var OnGround = false, Jumped = false, FallingCount = 0, CountSinceApex = 0,
@@ -409,10 +404,6 @@ function PhsxStep() {
 }
 
 
-
-
-        
-
 function setCanvasSize() {
     canvas.width = document.body.clientWidth;
     canvas.height = document.body.clientHeight;
@@ -456,9 +447,7 @@ function joystickUpdate() {
     
     if (joyTouch && joy_x === 0 && !joyHadTouchEvent) {
         var s = 0.85, t = 1 - s;
-        
-        //if (touchCenterX > joyCenter)
-        
+
         joyCenter = s * joyCenter + t * touchX;
         maxThreshold = s * maxThreshold + t * 4;
         minThreshold = s * minThreshold + t * 3;
@@ -524,14 +513,12 @@ function handleMove(e) {
                 if (diff > maxThreshold) {
                     joy_x = 1;
                 } else {
-                    //joy_x = (diff - minThreshold) / (maxThreshold - minThreshold);
                     joy_x = 1;
                 }
             } else if (diff < -minThreshold) {
                 if (diff < -maxThreshold) {
                     joy_x = -1;
                 } else {
-                    //joy_x = (diff + minThreshold) / (maxThreshold - minThreshold);
                     joy_x = -1;
                 }
             } else {
