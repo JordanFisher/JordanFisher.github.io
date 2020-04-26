@@ -103,9 +103,6 @@
 /******/ 					"__wbg_get_85f2643915197b44": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_get_85f2643915197b44"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_log_c180b836187d3c94": function(p0i32) {
-/******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_log_c180b836187d3c94"](p0i32);
-/******/ 					},
 /******/ 					"__wbg_instanceof_CanvasRenderingContext2d_06ca182218e69b94": function(p0i32) {
 /******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_instanceof_CanvasRenderingContext2d_06ca182218e69b94"](p0i32);
 /******/ 					},
@@ -261,7 +258,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/blue_box_bg.wasm":"ce06fa65be40df0a8fdb"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/blue_box_bg.wasm":"9be08669c924969a439c"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
