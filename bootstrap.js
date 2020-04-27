@@ -91,11 +91,11 @@
 /******/ 					"__wbg_identifier_e42a6bbe579dcc9b": function(p0i32) {
 /******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_identifier_e42a6bbe579dcc9b"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_screenX_f8a88e9db981d69e": function(p0i32) {
-/******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_screenX_f8a88e9db981d69e"](p0i32);
+/******/ 					"__wbg_clientX_b4f2402aef4df8d0": function(p0i32) {
+/******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_clientX_b4f2402aef4df8d0"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_screenY_e6a67ddf8ac453a3": function(p0i32) {
-/******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_screenY_e6a67ddf8ac453a3"](p0i32);
+/******/ 					"__wbg_clientY_1ec0cc03ba0d3646": function(p0i32) {
+/******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_clientY_1ec0cc03ba0d3646"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_length_473c2b3c01d5d0ac": function(p0i32) {
 /******/ 						return installedModules["../pkg/blue_box.js"].exports["__wbg_length_473c2b3c01d5d0ac"](p0i32);
@@ -258,7 +258,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/blue_box_bg.wasm":"34db76ba88f55d7e7926"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/blue_box_bg.wasm":"5bd69447c924223278b6"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
