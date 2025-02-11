@@ -81,23 +81,38 @@ def fetch_document_content(service, doc_id):
         print(f"Error fetching document {doc_id}: {str(e)}")
         return None
 
-def save_doc(doc: str):
+def save_doc(doc: str) -> str:
     title = doc.split('\n')[0].strip()
     filename = title.replace(' ', '_').lower() + '.txt'
     with open(os.path.join("fetched_docs", filename), 'w') as f:
         f.write(doc)
+    return doc
 
 with open('post_template.html') as f:
     POST_HTML_TEMPLATE = f.read()
 
-def save_html(doc: str):
+with open('index_template.html') as f:
+    INDEX_HTML_TEMPLATE = f.read()
+
+def save_html(doc: str) -> tuple[str, str, str]:
     lines = doc.split('\n')
     title = lines[0].strip()
+    
+    description = None
+    line_index = 1
+    while description is None:
+        if lines[line_index].strip() != '':
+            description = lines[line_index].strip()[1:-1].strip()  # Strip off the surrounding brackets.
+            print(description)
+            break
+        line_index += 1
+
     filename = title.replace(' ', '_').lower() + '.html'
-    post = '\n'.join(f'            <p>{line.strip()}</p>' for line in lines[1:] if line.strip() != '')
+    post = '\n'.join(f'            <p>{line.strip()}</p>' for line in lines[line_index + 1:] if line.strip() != '')
     html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", post)
     with open(os.path.join("posts", filename), 'w') as f:
         f.write(html)
+    return title, description, filename
 
 def main():
     # Get credentials and build service
@@ -114,19 +129,33 @@ def main():
 
     # Process each document
     documents = {}
+    links = []
     for url in gdoc_urls:
         try:
             doc_id = extract_doc_id(url)
             content = fetch_document_content(service, doc_id)
             if content:
-                documents[url] = content
-                save_doc(content)
-                save_html(content)
+                documents[url] = save_doc(content)
+                title, description, post_url = save_html(content)
+                print("!", description)
+                links.append((title, description, post_url))
             else:
                 print(f"Failed to fetch content for {url}")
         except ValueError as e:
             print(f"Error processing URL {url}: {str(e)}")
     
+    # Generate index.html
+    links_html = ''
+    for title, description, post_url in links:
+        links_html += f'''
+        <a href="posts/{post_url}" class="story-link">
+            <div class="story-title"><h1>{title}</h1></div>
+            <div class="story-description">{description}</div>
+        </a>'''
+    index_html = INDEX_HTML_TEMPLATE.replace("LINKS", links_html)
+    with open("index.html", 'w') as f:
+        f.write(index_html)
+
     return documents
 
 if __name__ == '__main__':
