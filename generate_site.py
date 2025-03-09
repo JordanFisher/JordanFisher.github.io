@@ -8,7 +8,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 import pickle
-from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service
+from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service, set_drive_service
 
 from doc_list import gdoc_urls
 
@@ -136,16 +136,47 @@ def main():
     service = build('docs', 'v1', credentials=creds)
     drive_service = build('drive', 'v3', credentials=creds)
     
-    # Initialize the global docs service for document fetching
+    # Initialize the global docs service and drive service
     set_docs_service(service)
+    set_drive_service(drive_service)
         
-    # Delete existing fetched_docs and posts directory.
+    # Delete existing fetched_docs directory
     if os.path.exists('fetched_docs'):
         shutil.rmtree('fetched_docs')
     os.makedirs('fetched_docs')
+    
+    # Create or preserve the posts/images directory when recreating posts directory
+    posts_images_dir = os.path.join('posts', 'images')
+    posts_images_existed = os.path.exists(posts_images_dir)
+    
+    # Save the images directory if it exists
+    temp_images = None
+    if posts_images_existed:
+        import tempfile
+        temp_images = tempfile.mkdtemp()
+        print(f"Preserving images directory: {posts_images_dir}")
+        shutil.copytree(posts_images_dir, os.path.join(temp_images, 'images'))
+    
+    # Delete existing posts directory
     if os.path.exists('posts'):
         shutil.rmtree('posts')
     os.makedirs('posts')
+    
+    # Restore images directory if it existed
+    if posts_images_existed and temp_images:
+        print(f"Restoring images directory to: {posts_images_dir}")
+        os.makedirs(posts_images_dir)
+        for item in os.listdir(os.path.join(temp_images, 'images')):
+            s = os.path.join(temp_images, 'images', item)
+            d = os.path.join(posts_images_dir, item)
+            if os.path.isdir(s):
+                shutil.copytree(s, d)
+            else:
+                shutil.copy2(s, d)
+        shutil.rmtree(temp_images)
+    else:
+        # Create images directory if it didn't exist
+        os.makedirs(posts_images_dir)
 
     # Process each document
     documents = {}

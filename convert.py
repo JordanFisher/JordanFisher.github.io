@@ -3,10 +3,14 @@ from typing import Optional, Dict, Tuple, List, Any
 import re
 import copy
 import inspect
+import os
+import requests
+import urllib.parse
 from bs4 import BeautifulSoup
 
 # Global service for document fetching, to be set by the application
 _docs_service = None
+_drive_service = None
 
 def set_docs_service(service):
     """Set the global docs service for document fetching.
@@ -16,6 +20,15 @@ def set_docs_service(service):
     """
     global _docs_service
     _docs_service = service
+
+def set_drive_service(service):
+    """Set the global drive service for downloading images.
+    
+    Args:
+        service: The Google Drive API service instance
+    """
+    global _drive_service
+    _drive_service = service
 
 @functools.lru_cache(maxsize=128)
 def fetch_gdoc(doc_id: str) -> Optional[Dict]:
@@ -54,6 +67,64 @@ def extract_doc_id(url: str) -> Optional[str]:
     elif 'id=' in url:
         doc_id = url.split('id=')[1].split('&')[0]
         return doc_id
+    return None
+
+def download_image(image_id: str, image_url: str, doc_id: str) -> Optional[str]:
+    """Downloads an image from Google Docs and saves it to a local file.
+    
+    Args:
+        image_id (str): The ID of the image
+        image_url (str): The URL of the image
+        doc_id (str): The ID of the Google Doc containing the image
+        
+    Returns:
+        str: The path to the saved image file, or None if download failed
+    """
+    # Create the images directory if it doesn't exist
+    images_dir = os.path.join('posts', 'images')
+    if not os.path.exists(images_dir):
+        os.makedirs(images_dir)
+    
+    # Generate a filename based on the doc ID and image ID
+    filename = f"{doc_id}_{image_id}.png"
+    image_path = os.path.join(images_dir, filename)
+    
+    # If the file already exists, return its path
+    if os.path.exists(image_path):
+        return image_path
+    
+    try:
+        # Try to download using Drive API if available
+        if _drive_service and image_id:
+            try:
+                # Get the image data using the Google Drive API
+                response = _drive_service.files().get_media(fileId=image_id).execute()
+                
+                # Save the image
+                with open(image_path, 'wb') as f:
+                    f.write(response)
+                    
+                return image_path
+            except Exception as e:
+                print(f"Error downloading image with Drive API: {e}")
+                # Fall back to URL download
+        
+        # Download using the URL if Drive API failed or is not available
+        if image_url:
+            response = requests.get(image_url)
+            if response.status_code == 200:
+                with open(image_path, 'wb') as f:
+                    f.write(response.content)
+                return image_path
+            else:
+                print(f"Error downloading image: HTTP {response.status_code}")
+                return None
+        else:
+            return None
+    except Exception as e:
+        print(f"Error downloading image: {str(e)}")
+        return None
+    
     return None
 
 def convert_doc_to_text(doc: dict) -> str:
@@ -312,6 +383,7 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                 # Process text elements within the paragraph
                 para_content = ''
                 for para_elem in paragraph.get('elements', []):
+                    
                     if 'textRun' in para_elem:
                         text_run = para_elem.get('textRun', {})
                         text_content = text_run.get('content', '')
@@ -335,6 +407,45 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                             styled_text = f'<strong>{styled_text}</strong>'
                             
                         para_content += styled_text
+                    elif 'inlineObjectElement' in para_elem:
+                        # Process inline objects (e.g., images)
+                        inline_object_id = para_elem.get('inlineObjectElement', {}).get('inlineObjectId')
+                        if inline_object_id and 'inlineObjects' in doc:
+                            inline_object = doc.get('inlineObjects', {}).get(inline_object_id)
+                            if inline_object:
+                                embedded_object = inline_object.get('inlineObjectProperties', {}).get('embeddedObject', {})
+                                
+                                # Initialize variables
+                                image_source = None
+                                image_id = None
+                                
+                                # Check if this is an image
+                                if embedded_object.get('imageProperties'):
+                                    print(f"DEBUG: Found image in paragraph. Object ID: {inline_object_id}")
+                                    # Try to get the image source
+                                    image_source = embedded_object.get('imageProperties', {}).get('contentUri')
+                                    print(f"DEBUG: Image source URL: {image_source}")
+                                    
+                                    # Get image ID from the source URL or from the embedded object
+                                    if image_source and 'id=' in image_source:
+                                        image_id = image_source.split('id=')[1].split('&')[0]
+                                        print(f"DEBUG: Extracted image ID from URL: {image_id}")
+                                    elif embedded_object.get('embeddedObjectId'):
+                                        image_id = embedded_object.get('embeddedObjectId')
+                                        print(f"DEBUG: Using embedded object ID: {image_id}")
+                                    else:
+                                        print(f"DEBUG: Could not determine image ID from source or object")
+                                        
+                                    # Download the image
+                                    doc_id = doc.get('documentId', 'unknown')
+                                    image_path = download_image(image_id, image_source, doc_id)
+                                
+                                    if image_path:
+                                        # Create a relative path for HTML
+                                        relative_path = os.path.relpath(image_path, 'posts')
+                                        
+                                        # Add the image to para_content
+                                        para_content += f'<div class="image-container"><img src="{relative_path}" alt="Image from Google Doc" class="doc-image" /></div>'
                     elif 'richLink' in para_elem:
                         # Process rich links (e.g., links to other Google Docs)
                         rich_link = para_elem.get('richLink', {})
@@ -352,7 +463,49 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                 
                 content += para_content + tag_close
             
-            # Add support for other element types as needed (tables, images, etc.)
+            # Handle images
+            elif 'inlineObjectElement' in elem:
+                inline_object_id = elem.get('inlineObjectElement', {}).get('inlineObjectId')
+                if inline_object_id and 'inlineObjects' in doc:
+                    inline_object = doc.get('inlineObjects', {}).get(inline_object_id)
+                    if inline_object:
+                        embedded_object = inline_object.get('inlineObjectProperties', {}).get('embeddedObject', {})
+                        
+                        # Initialize variables
+                        image_source = None
+                        image_id = None
+                        
+                        # Check if this is an image
+                        if embedded_object.get('imageProperties'):
+                            print(f"DEBUG: Found image in document. Object ID: {inline_object_id}")
+                            # Try to get the image source
+                            image_source = embedded_object.get('imageProperties', {}).get('contentUri')
+                            print(f"DEBUG: Image source URL: {image_source}")
+                            
+                            # Get image ID from the source URL or from the embedded object
+                            if image_source and 'id=' in image_source:
+                                image_id = image_source.split('id=')[1].split('&')[0]
+                                print(f"DEBUG: Extracted image ID from URL: {image_id}")
+                            elif embedded_object.get('embeddedObjectId'):
+                                image_id = embedded_object.get('embeddedObjectId')
+                                print(f"DEBUG: Using embedded object ID: {image_id}")
+                            else:
+                                print(f"DEBUG: Could not determine image ID from source or object")
+                                
+                            # Download the image
+                            doc_id = doc.get('documentId', 'unknown')
+                            image_path = download_image(image_id, image_source, doc_id)
+                        
+                            if image_path:
+                                # Create a relative path for HTML
+                                relative_path = os.path.relpath(image_path, 'posts')
+                                
+                                # Add the image to HTML with styling for centered, full width display
+                                content += f"""<div class="image-container">
+  <img src="{relative_path}" alt="Image from Google Doc" class="doc-image" />
+</div>
+"""
+            # Add support for other element types as needed (tables, etc.)
         
         # Close any remaining open lists at the end of the document
         if current_list_level >= 0:

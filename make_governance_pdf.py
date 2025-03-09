@@ -257,6 +257,25 @@ def html_to_latex(html_path: str) -> LatexDocument:
             latex_content += f"""\\begin{{fancyquote}}
 {quote_content.strip()}
 \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
+        elif element.name == 'div' and 'image-container' in element.get('class', []):
+            # Process image container for PDF
+            img = element.find('img')
+            if img and img.get('src'):
+                img_path = img.get('src')
+                # If it's a relative path, make it absolute
+                if not img_path.startswith('/'):
+                    img_path = os.path.join(os.path.dirname(html_path), img_path)
+                
+                # Place image on its own page with max size
+                latex_content += f"""
+\\clearpage
+\\begin{{figure}}[p]
+\\centering
+\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{"{img_path}"}}
+\\end{{figure}}
+\\clearpage
+
+"""
         elif element.name == 'div':
             # Skip description blocks that were already processed with their associated title
             if 'description-block' in element.get('class', []) and element.get('processed'):
@@ -340,6 +359,9 @@ def process_inline_elements(element, in_quote=False) -> str:
             href = content.get('href', '#')
             text = escape_latex(content.get_text())
             result += f"\\href{{{href}}}{{{text}}}"
+        elif content.name == 'img':
+            # Skip, images are handled separately
+            pass
         else:
             # Recursively process other elements
             result += process_inline_elements(content, in_quote)
