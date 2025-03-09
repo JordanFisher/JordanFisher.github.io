@@ -477,6 +477,13 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     new_heading = soup.new_tag(first_heading.name)
                     new_heading['id'] = sanitized_id  # Use the sanitized ID we created
                     
+                    # If the original heading from linked doc was a title/h1, add title-header class
+                    if first_heading.name == 'h1' or 'title-header' in first_heading.get('class', []):
+                        if 'class' in new_heading.attrs:
+                            new_heading['class'].append('title-header')
+                        else:
+                            new_heading['class'] = ['title-header']
+                    
                     # Copy the contents of the first heading including any formatting
                     for child in first_heading.children:
                         new_heading.append(copy.copy(child))
