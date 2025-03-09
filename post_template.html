@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TITLE</title>
     <style>
+        /* Define a variable for the font size */
+        :root {
+            --font-size: 1.25rem;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -32,13 +37,13 @@
         }
 
         #story p {
-            font-size: 1.25rem;
+            font-size: var(--font-size);
             margin-bottom: 1.5rem;
         }
         
         /* List styling */
         #story ul, #story ol {
-            font-size: 1.25rem;
+            font-size: var(--font-size);
             margin-bottom: 1.5rem;
             margin-left: 2rem;
         }
@@ -88,7 +93,7 @@
             #story p, 
             #story ul,
             #story ol {
-                font-size: 1.125rem;
+                font-size: var(--font-size);
             }
         }
     </style>
