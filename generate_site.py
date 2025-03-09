@@ -19,6 +19,7 @@ def get_credentials():
     Returns:
         Credentials, the obtained credential.
     """
+
     creds = None
     # The file token.pickle stores the user's access and refresh tokens
     if os.path.exists('token.pickle'):
@@ -28,11 +29,16 @@ def get_credentials():
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
+            try:
+                creds.refresh(Request())
+            except google.auth.exceptions.RefreshError as e:
+                cred = None
+        
+        if cred is None:
             flow = InstalledAppFlow.from_client_secrets_file(
                 'client_secret_73374229538-l7u9qnk182a3m309ivk097928smmtjjj.apps.googleusercontent.com.json', SCOPES)
             creds = flow.run_local_server(port=0)
+        
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
@@ -171,10 +177,14 @@ if __name__ == '__main__':
         documents = main()
         print(f"Fetched {len(documents)} documents.")
     except google.auth.exceptions.RefreshError as e:
-        print(e)
         print()
         print("You need to re-auth. Trying running these commands:")
         print("  * Make sure you're in the right project, `gcloud config list`, we want `cool-snowfall-429620-i6`")
         print("  * `gcloud auth application-default login`")
+        print("  * Delete the `token.pickle` file")
         print("  * Re-run this script")
+        print()
+        print()
+        print("...")
+        print()
         raise e
