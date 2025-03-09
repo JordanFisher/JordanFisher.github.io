@@ -4,6 +4,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
+\usepackage{textcomp}  % Extended text companion symbols
+\usepackage{upquote}   % Straight quotes in verbatim environments
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{setspace}
@@ -58,17 +60,25 @@
 \maketitle
 \thispagestyle{empty}
 
-% Description block
-
+% Description block for main document (special treatment with more spacing)
+\begin{center}
+\vspace*{1cm}
 \begin{fancyquote}
 Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it s a quick read
 \end{fancyquote}
-
-\clearpage
-
+\vspace*{0.5cm}
+\end{center}
 
 \mainmatter
 \setcounter{page}{1}
+
+% Repeat the title at the beginning of main content
+\clearpage
+\begin{center}
+\vspace*{1cm}
+{\Large\bfseries The Tiny Book on the Governance of Machine}
+\vspace*{1cm}
+\end{center}
 
 No one wants to read 50 pages on governance in one go. So this book is built to be read in parts, or just pick the parts you re interested in.
 
@@ -83,7 +93,9 @@ Only have 30 seconds? Read the \href{#tl-dr}{AI Governance TL;DR}.
 Or, fuck it, YOLO your way through the whole book.
 
 \clearpage
+\vspace*{1.5cm}
 \section*{don t be silly}
+\vspace{0.7cm}
 
 \begin{fancyquote}
 or do be silly, i don t care. or i maybe i do care. ok yeah i do care
@@ -110,7 +122,9 @@ These are serious fucking things. And they re silly too. The last half century h
 It s OK to be silly. Now let s talk about it.
 
 \clearpage
+\vspace*{1.5cm}
 \section*{TL;DR}
+\vspace{0.7cm}
 
 \begin{itemize}
 \item \textbf{AI changes what we need from governance}
@@ -147,7 +161,9 @@ It s OK to be silly. Now let s talk about it.
     \end{itemize}
 
 \clearpage
+\vspace*{1.5cm}
 \section*{Intro}
+\vspace{0.7cm}
 
 We assume that machines will achieve human level intelligence. We assume they will exceed it. We assume that they will have ethics, aligned to a human or group of humans.
 
@@ -188,6 +204,7 @@ The governance of machine poses an equally profound question. We won't have a th
 But we must find an answer.
 
 \section*{Contents}
+\vspace{0.5cm}
 
 The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up mankind and allows this new age that s upon us to be a noble one, not a dark one.
 
@@ -201,6 +218,7 @@ In this tiny book we ll cover the basics:
 \end{itemize}
 
 \section*{Why}
+\vspace{0.5cm}
 
 Some might say,  One problem at a time. 
 
@@ -245,6 +263,7 @@ This is all we ll say on the why. The rest of this writing we ll focus on the ha
 Let's begin.
 
 \section*{Complexity and Iterative Design}
+\vspace{0.5cm}
 
 Civilization is complex. To study complex systems we often make simplifying assumptions.
 
@@ -272,7 +291,9 @@ This is how we ll forge a resilient system.
 Let s start with the first approach: to understand what works today. In particular, what are the hidden, implicit forces that hold civilization together that may disappear in an automated world.
 
 \clearpage
+\vspace*{1.5cm}
 \section*{Implicit Guardrails}
+\vspace{0.7cm}
 
 \begin{fancyquote}
 Much of what makes our society function well is hidden in implicit guardrails, rather than explicit governance. If we enumerate these implicit guardrails, maybe we can better prepare for an AI-powered world where these guardrails may disappear.
@@ -505,7 +526,9 @@ Examples of implicit guardrails
     \end{itemize}
 
 \clearpage
+\vspace*{1.5cm}
 \section*{By any other name}
+\vspace{0.7cm}
 
 \begin{fancyquote}
 Removing implicit guardrails will have many effects. Let s focus specifically on how it removes impediments to concentration of power.
@@ -585,7 +608,9 @@ The best predictor of human behavior is incentives, and the incentives are quick
 As I write this today, we are doing neither.
 
 \clearpage
+\vspace*{1.5cm}
 \section*{Rapid Fire Governance}
+\vspace{0.7cm}
 
 \begin{fancyquote}
 If we can YOLO research we can YOLO new forms of governance. lol. LFG [rock hand]
@@ -596,6 +621,7 @@ There s a lot that can go wrong, but things don t \textit{have} to go wrong. The
 More importantly, we need to consider many ideas. Below we ll canvas the space with a broad swath of considerations. Some ideas below are bad, some good, some we endorse, some we reject. Everything is up for debate.
 
 \section*{The AI-powered Legislature}
+\vspace{0.5cm}
 
 By default, it is the executive branch that benefits from automation. AI is a continuation of human labor, and we already see that human labor is drastically multiplied in the executive compared to the legislature. AI will amplify this a million fold by default. How can a human legislature be a check on a superintelligent executive?
 
@@ -610,12 +636,14 @@ What recourse does Congress have if it discovers unconstitutional behavior in th
 But this alone isn t enough.
 
 \section*{Constitution-abiding AI}
+\vspace{0.5cm}
 
 AI itself, especially frontier AI and AI wielded by government, must abide the constitution.
 
 Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AI s must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution. And, if such AI s are created anyway, it must be unconstitutional for the government to use them.
 
 \section*{Oversight of AI creators}
+\vspace{0.5cm}
 
 Like any supply chain the government uses, AI that the government buys must be audited and guaranteed. We know that backdoors can be placed in AI systems by their creators, that means that a government can t trust an AI unless it can audit the creation of the AI itself. This is true even if the government has access to the model weights. That means an audit process for the training data and training protocols.
 
@@ -624,6 +652,7 @@ The audit must be powerful enough to ensure that datasets and training procedure
 So we ll need constant audits that cover every aspect of training. How do we achieve that without violating privacy or being overbearing and slowing down the competitiveness of our AI industry?
 
 \section*{AI-powered, memory-free audits}
+\vspace{0.5cm}
 
 AI itself can perform these audits. This has many benefits:
 
@@ -636,6 +665,7 @@ AI itself can perform these audits. This has many benefits:
 But if the AI is being used to audit the AI makers to ensure that the next AI is trustworthy, how do we know the first AI is trustworthy to begin with?
 
 \section*{The Trust Relay}
+\vspace{0.5cm}
 
 If tomorrow you are handed an AI you don t already trust, and you are tasked to use this AI to help you gain confidence that it and future AIs will be trustworthy, you will be in an impossible situation.
 
@@ -646,6 +676,7 @@ This creates an extreme imperative for the future s ability to trust AI and gove
 Even if this trust relay is established, the relay might break.
 
 \section*{Cross-check}
+\vspace{0.5cm}
 
 Long chains only need a single chink to break. Therefore we should create a braid of many chains, such that any given chain can have breakage, but we will still recover and repair the chain while maintaining trust in the overall braid.
 
@@ -656,6 +687,7 @@ It is an extremely fortunate fact about the world today that we already have mul
 Even still, can we trust those that make the braid and oversee it?
 
 \section*{Social Personal Media}
+\vspace{0.5cm}
 
 Media is a largely maligned entity today; social media doubly so. But the original goal of media is even more necessary in an AI future. We need to stay educated. We need to know what s really happening. We need to be informed as a people, so that we can elect good leaders to represent us. And we must know what our leaders are doing so we can hold them to account.
 
@@ -668,6 +700,7 @@ A personal AI can work to ingest this information for you, analyze it for the th
 For people to trust their personal media, they must trust their personal AI.
 
 \section*{Open Source AI}
+\vspace{0.5cm}
 
 No one will ever fully trust a black box AI, built behind closed doors. No matter how successful our audits, no matter how trusted our government oversight, we will never fully trust these machines to be our closest confidants in matters of governance if we can t trust how they were built.
 
@@ -680,6 +713,7 @@ We already see a strong capable open source AI today. And, exactly as needed, it
 To empower people with AI we need more than open source AI though. Every citizen will need the most important resource in the world: compute.
 
 \section*{Your computational birthright}
+\vspace{0.5cm}
 
 The most important asset we have is our brain. With it we can work a job, build a company, or run for Congress. It sounds silly and obvious, but this is a powerful fact: Every person has a brain. And the brain is today the most powerful computer in the universe.
 
@@ -696,6 +730,7 @@ This compute must be non-transferable. Today, you can \textit{temporarily} decid
 This of course has its own requirement: energy. And growth.
 
 \section*{Energy today}
+\vspace{0.5cm}
 
 Compute is ultimately just a form of energy. Without rapidly expanding energy sources, we will be forced to make extremely hard tradeoffs on what to compute, especially if we face geopolitical adversaries that may unilaterally redeploy all of their compute toward military ends.
 
@@ -704,6 +739,7 @@ We must have so much compute that we can build a worthy future, while having so 
 But even still, we ve seen that an automated dictatorship could outstrip our own energy if they are ruthless enough with their domestic policy. And they very well might be. We thus need even more energy. More energy than exists or can exist for any nation on Earth.
 
 \section*{A shared prize}
+\vspace{0.5cm}
 
 There s only one place that has the extreme energy we demand: space.
 
@@ -720,6 +756,7 @@ That could make it a decisive high ground for the free world.
 And with that high ground, we can promise to share its wealth with everyone, including the power hungry would-be dictators. We can bring them to the world table by offering them bounty they couldn t achieve if they instead seized power of their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power ---and there are many--- even then it s in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.
 
 \section*{The AI-powered Judiciary}
+\vspace{0.5cm}
 
 You thought I forgot about the Judiciary, but I snuck it in at the bottom here as a bookend. By default the Executive will be automated, so we must sandwich it with an AI-powered Legislature and an AI-powered Judiciary. This is the only way to ensure a future of checks and balances. The only way to ensure government stays democratic, in check, at the service of all of us. For the people, even when it s no longer strictly of the people.
 
@@ -728,7 +765,9 @@ We must ultimately seek not just exceptional intelligence, in the form of AI mac
 While all three branches of government were designed to be co-equal, the Executive has crept up to become the dominant branch. As a practical point, we should first upgrade the Legislature and Judiciary with AI, or we risk an overpowered Executive. With no change in course, however, it s the Executive that will embrace AI first, further disrupting the balance of power.
 
 \clearpage
+\vspace*{1.5cm}
 \section*{An exponential, if you can keep it}
+\vspace{0.7cm}
 
 \begin{fancyquote}
 yadda yadda yadda, ben franklin, yadda yadda yadda
@@ -753,10 +792,14 @@ When we re afraid, when we re up against impossible odds, what we control is who
 \vspace{0.5em}
 
 \clearpage
+\vspace*{1.5cm}
 \section*{Appendix}
+\vspace{0.7cm}
 
 \clearpage
+\vspace*{1.5cm}
 \section*{A Crash Course on AI}
+\vspace{0.7cm}
 
 \begin{itemize}
 \item Model

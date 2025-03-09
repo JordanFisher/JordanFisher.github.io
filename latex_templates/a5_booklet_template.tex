@@ -4,6 +4,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
+\usepackage{textcomp}  % Extended text companion symbols
+\usepackage{upquote}   % Straight quotes in verbatim environments
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{setspace}
@@ -58,11 +60,25 @@
 \maketitle
 \thispagestyle{empty}
 
-% Description block
-$description_block$
+% Description block for main document (special treatment with more spacing)
+\begin{center}
+\vspace*{1cm}
+\begin{fancyquote}
+$main_description$
+\end{fancyquote}
+\vspace*{0.5cm}
+\end{center}
 
 \mainmatter
 \setcounter{page}{1}
+
+% Repeat the title at the beginning of main content
+\clearpage
+\begin{center}
+\vspace*{1cm}
+{\Large\bfseries $title$}
+\vspace*{1cm}
+\end{center}
 
 $content$
 

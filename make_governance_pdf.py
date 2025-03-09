@@ -39,7 +39,7 @@ class LatexDocument:
 
         # Replace placeholders in template
         latex = template.replace("$title$", self.title)
-        latex = latex.replace("$description_block$", description_block)
+        latex = latex.replace("$main_description$", self.description or "")
         latex = latex.replace("$content$", self.content)
         
         return latex
@@ -51,6 +51,8 @@ class LatexDocument:
 \\usepackage[T1]{fontenc}
 \\usepackage{lmodern}
 \\usepackage{microtype}
+\\usepackage{textcomp}  % Extended text companion symbols
+\\usepackage{upquote}   % Straight quotes in verbatim environments
 \\usepackage{graphicx}
 \\usepackage{hyperref}
 \\usepackage{setspace}
@@ -105,19 +107,28 @@ class LatexDocument:
 \\thispagestyle{empty}
 """
         
-        # Add description as a styled quote with page break if available
+        # Add description as a styled quote with extra spacing if available
         if self.description:
             latex += """
+\\begin{center}
+\\vspace*{1cm}
 \\begin{fancyquote}
 """ + self.description + """
 \\end{fancyquote}
-
-\\clearpage
+\\vspace*{0.5cm}
+\\end{center}
 """
 
         latex += """
 \\mainmatter
 \\setcounter{page}{1}
+
+\\clearpage
+\\begin{center}
+\\vspace*{1cm}
+{\\Large\\bfseries """ + self.title + """}
+\\vspace*{1cm}
+\\end{center}
 
 """ + self.content + """
 
@@ -180,7 +191,8 @@ def html_to_latex(html_path: str) -> LatexDocument:
         if element.name == 'h1':
             # Only add page break if it's a title header (new document being inlined)
             if 'title-header' in element.get('class', []):
-                latex_content += f"\\clearpage\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
+                # Add spacing after page break before the title header
+                latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
@@ -193,11 +205,11 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     # Skip this description block when we encounter it in the normal loop
                     next_elem['processed'] = True
             else:
-                latex_content += f"\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
+                latex_content += f"\\section*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.5cm}}\n\n"
         elif element.name == 'h2':
-            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
-            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.2cm}}\n\n"
         elif element.name == 'p':
             # Check if this is a quote block (typically italicized paragraphs)
             is_quote = element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em'
@@ -243,11 +255,11 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     # Recursively process the child as if it were a direct child of story_div
                     if child.name == 'h1':
                         # Handle h1 elements (similar to above, but simplified)
-                        latex_content += f"\\section*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                        latex_content += f"\\section*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.5cm}}\n\n"
                     elif child.name == 'h2':
-                        latex_content += f"\\subsection*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                        latex_content += f"\\subsection*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
-                        latex_content += f"\\subsubsection*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                        latex_content += f"\\subsubsection*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.2cm}}\n\n"
                     elif child.name == 'p':
                         para_content = process_inline_elements(child)
                         latex_content += para_content + "\n\n"
@@ -335,8 +347,9 @@ def escape_latex(text):
         '—': '---',
         '"': '"',
         '"': '"',
-        ''': "'",
-        ''': "'",
+        ''': "\'",
+        ''': "\'",
+        "'": "\'",
         '•': '\\textbullet{}',
         '≠': '$\\neq$',
         '≤': '$\\leq$',
