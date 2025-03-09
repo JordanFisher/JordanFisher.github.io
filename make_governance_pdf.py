@@ -161,12 +161,14 @@ def html_to_latex(html_path: str) -> LatexDocument:
     html_content = html_content.replace('</li>\n<ul>', '<ul>')
     html_content = html_content.replace('</ul>\n<li>', '</ul></li>\n<li>')
     
+    
     soup = BeautifulSoup(html_content, 'html.parser')
     
     # Extract content from the #story div
     story_div = soup.find('div', id='story')
     if not story_div:
         raise ValueError("Could not find #story div in HTML file")
+        
     
     # Get title
     title_element = story_div.find('h1', class_='title-header')
@@ -224,10 +226,30 @@ def html_to_latex(html_path: str) -> LatexDocument:
         elif element.name == 'h3':
             latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.2cm}}\n\n"
         elif element.name == 'p':
+            # Check if this paragraph contains an image container
+            img_container = element.find('div', class_='image-container')
+            if img_container:
+                # Extract the image container and process it separately
+                img = img_container.find('img')
+                if img and img.get('src'):
+                    img_path = img.get('src')
+                    
+                    # If it's a relative path, make it absolute
+                    if not img_path.startswith('/'):
+                        img_path = os.path.join(os.path.dirname(html_path), img_path)
+                    
+                    # Place image on its own page with max size
+                    latex_content += f"""
+\\clearpage
+\\begin{{figure}}[p]
+\\centering
+\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}
+\\end{{figure}}
+\\clearpage
+
+"""
             # Check if this is a quote block (typically italicized paragraphs)
-            is_quote = element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em'
-            
-            if is_quote:
+            elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
                 # If the entire paragraph is in italics, treat it as a quote
                 # Process with in_quote=True to avoid redundant italic formatting
                 para_content = process_inline_elements(element, in_quote=True)
@@ -262,20 +284,31 @@ def html_to_latex(html_path: str) -> LatexDocument:
             img = element.find('img')
             if img and img.get('src'):
                 img_path = img.get('src')
+                print(f"Found image in HTML: {img_path}")
+                
                 # If it's a relative path, make it absolute
                 if not img_path.startswith('/'):
-                    img_path = os.path.join(os.path.dirname(html_path), img_path)
+                    abs_img_path = os.path.join(os.path.dirname(html_path), img_path)
+                    print(f"Resolved to absolute path: {abs_img_path}")
+                    img_path = abs_img_path
+                
+                # Verify the image exists
+                if os.path.exists(img_path):
+                    print(f"Image file exists at: {img_path}")
+                else:
+                    print(f"WARNING: Image file not found at: {img_path}")
                 
                 # Place image on its own page with max size
                 latex_content += f"""
 \\clearpage
 \\begin{{figure}}[p]
 \\centering
-\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{"{img_path}"}}
+\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}
 \\end{{figure}}
 \\clearpage
 
 """
+                print(f"Added image to LaTeX content with path: {img_path}")
         elif element.name == 'div':
             # Skip description blocks that were already processed with their associated title
             if 'description-block' in element.get('class', []) and element.get('processed'):
