@@ -378,9 +378,10 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
 def inline_links(html_content: str) -> str:
     """Process Google Doc links in HTML content.
     
-    This function handles two types of links:
+    This function handles three types of links:
     1. Links in headers: Replace directly with the content of the linked document
-    2. Links in body: Replace with a link to the anchor in the post
+    2. Links to documents that are already inlined in this doc: Replace with anchor references
+    3. Links in body to other documents: Replace with a link to the corresponding HTML file
     
     Args:
         html_content (str): HTML content to process
@@ -389,6 +390,9 @@ def inline_links(html_content: str) -> str:
         str: HTML content with links processed
     """
     soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Store the IDs of documents that get inlined, and track their first headings for anchors
+    inlined_doc_ids = {}
     
     # First pass: Find and replace links in headers
     for heading in soup.find_all(['h1', 'h2', 'h3']):
@@ -404,6 +408,17 @@ def inline_links(html_content: str) -> str:
                     
                     # Parse the linked document's HTML
                     linked_soup = BeautifulSoup(linked_html, 'html.parser')
+                    
+                    # Record that this document has been inlined
+                    # Find the first heading to use as an anchor point
+                    first_heading = linked_soup.find(['h1', 'h2', 'h3'])
+                    if first_heading:
+                        # Create a sanitized ID from the heading text
+                        heading_text = first_heading.get_text().strip()
+                        sanitized_id = re.sub(r'[^a-zA-Z0-9]', '-', heading_text).lower()
+                        # Add an ID attribute to the first heading for anchoring
+                        first_heading['id'] = sanitized_id
+                        inlined_doc_ids[doc_id] = sanitized_id
                     
                     # Replace the header with the linked content directly
                     # Create a parent container for all the content
@@ -429,32 +444,53 @@ def inline_links(html_content: str) -> str:
         if href and 'docs.google.com/document' in href:
             doc_id = extract_doc_id(href)
             if doc_id:
-                # Try to find a post with this content
-                post_url = None
-                anchor = None
-                
-                # Extract anchor if present
+                # Extract anchor if present in the original link
+                orig_anchor = None
                 if '#' in href:
-                    anchor = href.split('#')[-1]
+                    orig_anchor = href.split('#')[-1]
                 
-                # Look for existing post with this doc_id
-                from doc_list import gdoc_urls
-                for url_names, url in gdoc_urls:
-                    target_doc_id = extract_doc_id(url)
-                    if doc_id == target_doc_id:
-                        post_url = f"{url_names[0]}.html"
-                        break
-                
-                # Update the link
-                if post_url:
-                    if anchor and anchor.startswith("heading="):
+                # Check if this document is already inlined
+                if doc_id in inlined_doc_ids:
+                    # If there's an original anchor, try to find it in the inlined content
+                    if orig_anchor and orig_anchor.startswith("heading="):
                         # Extract heading reference and convert to proper anchor format
-                        heading_ref = anchor.split("=")[1]
-                        # Remove any non-alphanumeric characters and convert to lowercase
+                        heading_ref = orig_anchor.split("=")[1]
                         clean_anchor = re.sub(r'[^a-zA-Z0-9]', '-', heading_ref).lower()
-                        link['href'] = f"{post_url}#{clean_anchor}"
+                        # Try to find a heading with this text in the document
+                        # This is a best-effort approach
+                        link['href'] = f"#{clean_anchor}"
                     else:
-                        link['href'] = post_url
+                        # Otherwise, link to the first heading of the inlined content
+                        link['href'] = f"#{inlined_doc_ids[doc_id]}"
+                    
+                    # Update the link text to indicate it's an internal reference
+                    if not link.string or link.string.strip() == '':
+                        # If link has no text, use "See section: heading"
+                        heading_text = inlined_doc_ids[doc_id].replace('-', ' ').title()
+                        link.string = f"See section: {heading_text}"
+                else:
+                    # This document is not inlined, so link to its HTML file
+                    # Try to find a post with this content
+                    post_url = None
+                    
+                    # Look for existing post with this doc_id
+                    from doc_list import gdoc_urls
+                    for url_names, url in gdoc_urls:
+                        target_doc_id = extract_doc_id(url)
+                        if doc_id == target_doc_id:
+                            post_url = f"{url_names[0]}.html"
+                            break
+                    
+                    # Update the link
+                    if post_url:
+                        if orig_anchor and orig_anchor.startswith("heading="):
+                            # Extract heading reference and convert to proper anchor format
+                            heading_ref = orig_anchor.split("=")[1]
+                            # Remove any non-alphanumeric characters and convert to lowercase
+                            clean_anchor = re.sub(r'[^a-zA-Z0-9]', '-', heading_ref).lower()
+                            link['href'] = f"{post_url}#{clean_anchor}"
+                        else:
+                            link['href'] = post_url
     
     return str(soup)
 
@@ -693,6 +729,8 @@ if __name__ == '__main__':
     <h2>Heading with <a href="https://docs.google.com/document/d/12345">Link to Doc</a></h2>
     <p>This is a paragraph with a <a href="https://docs.google.com/document/d/67890#heading=h.abc123">link to another doc with anchor</a>.</p>
     <p>This is a paragraph with a <a href="https://docs.google.com/document/d/67890">link to another doc</a>.</p>
+    <p>This is a paragraph with a <a href="https://docs.google.com/document/d/12345#heading=h.xyz789">link to an already inlined doc with anchor</a>.</p>
+    <p>This is a paragraph with a <a href="https://docs.google.com/document/d/12345">link to an already inlined doc</a>.</p>
     """
     
     # Mock gdoc_urls for testing
