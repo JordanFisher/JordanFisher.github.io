@@ -43,10 +43,17 @@
             margin-left: 2rem;
         }
         
-        #story li {
-            margin-bottom: 0.5rem;
+        /* Top level list items */
+        #story > ul > li,
+        #story > ol > li {
+            margin-bottom: 0.9rem;
         }
         
+        /* Nested list items */
+        #story li li {
+            margin-bottom: 0.65rem;
+        }
+
         /* Nested lists styling */
         #story ul ul, 
         #story ul ol,
