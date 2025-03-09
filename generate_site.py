@@ -1,5 +1,6 @@
 import os
 import shutil
+import google
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -98,14 +99,21 @@ def save_html(doc: str) -> tuple[str, str, str]:
     lines = doc.split('\n')
     title = lines[0].strip()
     
-    description = None
+    description = ""
     line_index = 1
-    while description is None:
-        if lines[line_index].strip() != '':
-            description = lines[line_index].strip()[1:-1].strip()  # Strip off the surrounding brackets.
-            print(description)
-            break
+    description_end = False
+    while not description_end:
+        if description != "":
+            description += "<br><br>"
+        line = lines[line_index].strip()
+        if line.startswith("["):
+            line = line[1:]
+        if line.endswith("]"):
+            line = line[:-1]        
+            description_end = True
         line_index += 1
+        description += line
+    print(description)
 
     filename = title.replace(' ', '_').lower() + '.html'
     post = '\n'.join(f'            <p>{line.strip()}</p>' for line in lines[line_index + 1:] if line.strip() != '')
@@ -159,5 +167,14 @@ def main():
     return documents
 
 if __name__ == '__main__':
-    documents = main()
-    print(f"Fetched {len(documents)} documents.")
+    try:
+        documents = main()
+        print(f"Fetched {len(documents)} documents.")
+    except google.auth.exceptions.RefreshError as e:
+        print(e)
+        print()
+        print("You need to re-auth. Trying running these commands:")
+        print("  * Make sure you're in the right project, `gcloud config list`, we want `cool-snowfall-429620-i6`")
+        print("  * `gcloud auth application-default login`")
+        print("  * Re-run this script")
+        raise e
