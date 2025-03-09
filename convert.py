@@ -470,8 +470,11 @@ def inline_links(html_content: str) -> str:
                         if orig_anchor.startswith("heading="):
                             # Extract heading reference from the anchor
                             heading_ref = orig_anchor.split("=")[1]
+                            # Special case for "Implicit Guardrails"
+                            if heading_ref == "h.34v88su648ei":
+                                link['href'] = "#implicit-guardrails"
                             # If it's a heading ID (format: h.12345)
-                            if heading_ref.startswith("h."):
+                            elif heading_ref.startswith("h."):
                                 # Use h-[id] format for the anchor
                                 link['href'] = f"#h-{heading_ref[2:]}"
                             else:
