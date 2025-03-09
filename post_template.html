@@ -43,15 +43,17 @@
             margin-left: 2rem;
         }
         
-        /* Top level list items */
-        #story > ul > li,
-        #story > ol > li {
-            margin-bottom: 0.9rem;
+        /* All list items get the same spacing */
+        #story li {
+            margin-bottom: 0.65rem;
         }
         
-        /* Nested list items */
-        #story li li {
-            margin-bottom: 0.65rem;
+        /* Add more space after a list ends inside a top-level list item */
+        #story > ul > li > ul,
+        #story > ul > li > ol,
+        #story > ol > li > ul,
+        #story > ol > li > ol {
+            margin-bottom: 0.9rem;
         }
 
         /* Nested lists styling */
