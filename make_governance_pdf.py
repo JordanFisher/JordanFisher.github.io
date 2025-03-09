@@ -352,10 +352,9 @@ def escape_latex(text):
     if text is None:
         return ""
     
-    # Replace all variants of apostrophes with standard ASCII apostrophe
-    text = text.replace("'", "'")  # right single quotation mark
-    text = text.replace("'", "'")  # left single quotation mark
-    
+    # Replace all variants of apostrophes and quotes with standard ASCII apostrophe
+    text = text.replace("’", "'").replace("‘", "`").replace("”", "''").replace("“", "``")
+
     # Handle Unicode characters - replace with closest ASCII representation or remove
     # This is a simple approach; for a more comprehensive solution, consider a Unicode to LaTeX package
     unicode_chars = {
