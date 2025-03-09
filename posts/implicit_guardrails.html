@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Implicit Guardrails</title>
+    <title>Implicit Guardrails [Final]</title>
     <style>
+        /* Define a variable for the font size */
+        :root {
+            --font-size: 1.25rem;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -32,8 +37,37 @@
         }
 
         #story p {
-            font-size: 1.25rem;
+            font-size: var(--font-size);
             margin-bottom: 1.5rem;
+        }
+        
+        /* List styling */
+        #story ul, #story ol {
+            font-size: var(--font-size);
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+        
+        /* All list items get the same spacing */
+        #story li {
+            margin-bottom: 0.65rem;
+        }
+        
+        /* Add more space after a list ends inside a top-level list item */
+        #story > ul > li > ul,
+        #story > ul > li > ol,
+        #story > ol > li > ul,
+        #story > ol > li > ol {
+            margin-bottom: 0.9rem;
+        }
+
+        /* Nested lists styling */
+        #story ul ul, 
+        #story ul ol,
+        #story ol ul,
+        #story ol ol {
+            margin-top: 0.5rem;
+            margin-bottom: 1.6rem;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -56,27 +90,24 @@
                 font-size: 2rem;
             }
 
-            #story p {
-                font-size: 1.125rem;
+            #story p, 
+            #story ul,
+            #story ol {
+                font-size: var(--font-size);
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Implicit Guardrails</h1>
         <div id="story">
 <h1><s>Implicit</s> Guardrails</h1>
-<br>
 <p>Governance often focuses on explicit structures. Our constitution, judicial precedent, legislation, and all the writing, debating, and hand wringing that surrounds the power struggle to define and defend these explicit institutions.</p>
-<br>
-<p>But there is a much bigger, implicit set of guardrails in our society. It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.</p>
-<br>
+<p>But there is a much bigger, implicit set of guardrails in our society.</p>
+<p>It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.</p>
 <p>Let’s try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI we will be explicitly removing these implicit forces, and we’ll need to find explicit ways to reintroduce their effects.</p>
 <br>
-<br>
 <p>Examples of implicit guardrails</p>
-<br>
 <ul>
   <li>Knowledge convection</li>
   <ul>
@@ -206,6 +237,12 @@
     <li>A corporation is dependent on an ecosystem</li>
     <li>Full vertical integration is nearly impossible today, but may not be tomorrow</li>
   </ul>
+  <li>Surveillance is hard</li>
+  <ul>
+    <li>We’ve had the ability to record every form of communication for decades</li>
+    <li>But <em>analyzing</em> all communication has been required an infeasible amount of human power</li>
+    <li>With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties</li>
+  </ul>
   <li>There’s general friction in visibility of what people are doing</li>
   <ul>
     <li>States see like states</li>
@@ -227,6 +264,10 @@
     </ul>
     <li>In at least 2 cases (Cuban missile crisis + Petrov incident) one single human’s moral compass is all that prevented a general nuclear exchange</li>
     <li>Culture is the final backstop </li>
+  </ul>
+  <li>Even dictators need their citizens</li>
+  <ul>
+    <li>With AI this will no longer be true </li>
   </ul>
   <li>Elite social pressure matters to many leaders</li>
   <ul>

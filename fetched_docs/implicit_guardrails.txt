@@ -3,7 +3,9 @@ Implicit Guardrails
 
 Governance often focuses on explicit structures. Our constitution, judicial precedent, legislation, and all the writing, debating, and hand wringing that surrounds the power struggle to define and defend these explicit institutions.
 
-But there is a much bigger, implicit set of guardrails in our society. It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.
+But there is a much bigger, implicit set of guardrails in our society.
+
+It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.
 
 Let’s try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI we will be explicitly removing these implicit forces, and we’ll need to find explicit ways to reintroduce their effects.
 
@@ -116,6 +118,11 @@ Corporate ecosystem
 A corporation is dependent on an ecosystem
 Full vertical integration is nearly impossible today, but may not be tomorrow
 
+Surveillance is hard
+We’ve had the ability to record every form of communication for decades
+But analyzing all communication has been required an infeasible amount of human power
+With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties
+
 There’s general friction in visibility of what people are doing
 States see like states
 States lack perfect visibility of all the laws that are broken
@@ -132,6 +139,9 @@ Limits to this; plenty of folks wanted to staff concentration camps
 In the long run you can also train your society to be less moral (or differently moral)
 In at least 2 cases (Cuban missile crisis + Petrov incident) one single human’s moral compass is all that prevented a general nuclear exchange
 Culture is the final backstop 
+
+Even dictators need their citizens
+With AI this will no longer be true 
 
 Elite social pressure matters to many leaders
 Elites do have some ability to informally influence leaders

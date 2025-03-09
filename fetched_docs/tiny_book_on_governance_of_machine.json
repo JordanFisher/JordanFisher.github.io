@@ -1,0 +1,6033 @@
+{
+  "title": "The Governance of Machine",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 44,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 44,
+              "textRun": {
+                "content": "The Tiny Book on the Governance of Machine\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.6qz0us798tre",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 44,
+        "endIndex": 222,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 44,
+              "endIndex": 222,
+              "textRun": {
+                "content": "[[[Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it\u2019s a quick read]]]\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 222,
+        "endIndex": 223,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 222,
+              "endIndex": 223,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 223,
+        "endIndex": 345,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 223,
+              "endIndex": 345,
+              "textRun": {
+                "content": "No one wants to read 50 pages on governance. This book is built to be read in parts; pick the parts you\u2019re interested in.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 345,
+        "endIndex": 346,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 345,
+              "endIndex": 346,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 346,
+        "endIndex": 381,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 346,
+              "endIndex": 378,
+              "textRun": {
+                "content": "Want a primer on AI? Start with ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 378,
+              "endIndex": 379,
+              "richLink": {
+                "richLinkId": "kix.38lappplo925",
+                "textStyle": {},
+                "richLinkProperties": {
+                  "title": "A Crash Course on AI",
+                  "uri": "https://docs.google.com/document/u/0/d/1g1MrziAeRAOkppKQvBdSgGJqC5d-pr4F5-i1mcRNJGQ/edit",
+                  "mimeType": "application/vnd.google-apps.document"
+                }
+              }
+            },
+            {
+              "startIndex": 379,
+              "endIndex": 381,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 381,
+        "endIndex": 382,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 381,
+              "endIndex": 382,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 382,
+        "endIndex": 455,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 382,
+              "endIndex": 451,
+              "textRun": {
+                "content": "Already up to speed on AI and understand the risks? Jump straight to ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 451,
+              "endIndex": 452,
+              "richLink": {
+                "richLinkId": "kix.c1v8j17wvmrn",
+                "textStyle": {},
+                "richLinkProperties": {
+                  "title": "Implicit Guardrails",
+                  "uri": "https://docs.google.com/document/u/0/d/1t04E8WY-0purWxgSpSr3KFv63b5YWMY_LpwmU1NZ0cQ/edit",
+                  "mimeType": "application/vnd.google-apps.document"
+                }
+              }
+            },
+            {
+              "startIndex": 452,
+              "endIndex": 455,
+              "textRun": {
+                "content": ". \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 455,
+        "endIndex": 456,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 455,
+              "endIndex": 456,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 456,
+        "endIndex": 518,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 456,
+              "endIndex": 515,
+              "textRun": {
+                "content": "Just want to read some new ideas in AI governance? Jump to ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 515,
+              "endIndex": 516,
+              "richLink": {
+                "richLinkId": "kix.m6w9b2ccc504",
+                "textStyle": {},
+                "richLinkProperties": {
+                  "title": "Rapid Fire Governance",
+                  "uri": "https://docs.google.com/document/u/0/d/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8/edit",
+                  "mimeType": "application/vnd.google-apps.document"
+                }
+              }
+            },
+            {
+              "startIndex": 516,
+              "endIndex": 518,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 518,
+        "endIndex": 519,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 518,
+              "endIndex": 519,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 519,
+        "endIndex": 556,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 519,
+              "endIndex": 556,
+              "textRun": {
+                "content": "Only have 30 seconds? Read the TL;DR\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 556,
+        "endIndex": 557,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 556,
+              "endIndex": 557,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 557,
+        "endIndex": 558,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 557,
+              "endIndex": 558,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 558,
+        "endIndex": 564,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 558,
+              "endIndex": 564,
+              "textRun": {
+                "content": "TL;DR\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ycrlp79yfe4o",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 564,
+        "endIndex": 565,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 564,
+              "endIndex": 565,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 565,
+        "endIndex": 605,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 565,
+              "endIndex": 604,
+              "textRun": {
+                "content": "AI changes what we need from governance",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 604,
+              "endIndex": 605,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "textStyle": {
+              "bold": true
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 605,
+        "endIndex": 689,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 605,
+              "endIndex": 689,
+              "textRun": {
+                "content": "Societies that allow for freedom and maximum human flourishing aren\u2019t easy to build\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 689,
+        "endIndex": 690,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 689,
+              "endIndex": 690,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 690,
+        "endIndex": 770,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 690,
+              "endIndex": 770,
+              "textRun": {
+                "content": "Ours took thousands of years of trial and error and is still a work in progress\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 770,
+        "endIndex": 771,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 770,
+              "endIndex": 771,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 771,
+        "endIndex": 863,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 771,
+              "endIndex": 863,
+              "textRun": {
+                "content": "What allows a society to function depends strongly on the details of its members: us humans\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 863,
+        "endIndex": 864,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 863,
+              "endIndex": 864,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 864,
+        "endIndex": 923,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 864,
+              "endIndex": 923,
+              "textRun": {
+                "content": "Introducing AI will completely change all of those details\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 923,
+        "endIndex": 924,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 923,
+              "endIndex": 924,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 924,
+        "endIndex": 1016,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 924,
+              "endIndex": 1016,
+              "textRun": {
+                "content": "Because of that, we must rethink society if we want it to be resilient to the arrival of AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1016,
+        "endIndex": 1017,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1016,
+              "endIndex": 1017,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1017,
+        "endIndex": 1092,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1017,
+              "endIndex": 1091,
+              "textRun": {
+                "content": "There are many risks we\u2019ll face, and some risks aren\u2019t yet being discussed",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1091,
+              "endIndex": 1092,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "textStyle": {
+              "bold": true
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1092,
+        "endIndex": 1207,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1092,
+              "endIndex": 1207,
+              "textRun": {
+                "content": "In particular, the risk of concentration of power and dictatorship is extreme with the full power of AI automation\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1207,
+        "endIndex": 1208,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1207,
+              "endIndex": 1208,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1208,
+        "endIndex": 1338,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1208,
+              "endIndex": 1338,
+              "textRun": {
+                "content": "Without changes, dictatorships are a default outcome of AI. And it will be increasingly hard for us to resist it the later we act\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1338,
+        "endIndex": 1339,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1338,
+              "endIndex": 1339,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1339,
+        "endIndex": 1457,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1339,
+              "endIndex": 1369,
+              "textRun": {
+                "content": "We must evolve our governance ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1369,
+              "endIndex": 1375,
+              "textRun": {
+                "content": "before",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 1375,
+              "endIndex": 1451,
+              "textRun": {
+                "content": " strong AI arrives, or we may not have any power left as citizens to fix it ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1451,
+              "endIndex": 1457,
+              "textRun": {
+                "content": "after\n",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1457,
+        "endIndex": 1458,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1457,
+              "endIndex": 1458,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1458,
+        "endIndex": 1520,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1458,
+              "endIndex": 1520,
+              "textRun": {
+                "content": "Humans alone won\u2019t be able to oversee leaders empowered by AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1520,
+        "endIndex": 1521,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1520,
+              "endIndex": 1521,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1521,
+        "endIndex": 1549,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1521,
+              "endIndex": 1548,
+              "textRun": {
+                "content": "AI-powered governance of AI",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1548,
+              "endIndex": 1549,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "textStyle": {
+              "bold": true
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1549,
+        "endIndex": 1667,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1549,
+              "endIndex": 1667,
+              "textRun": {
+                "content": "Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1667,
+        "endIndex": 1668,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1667,
+              "endIndex": 1668,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1668,
+        "endIndex": 1713,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1668,
+              "endIndex": 1713,
+              "textRun": {
+                "content": "Passing laws is necessary but not sufficient\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1713,
+        "endIndex": 1714,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1713,
+              "endIndex": 1714,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1714,
+        "endIndex": 1872,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1714,
+              "endIndex": 1872,
+              "textRun": {
+                "content": "We must enshrine the oversight inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1872,
+        "endIndex": 1873,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1872,
+              "endIndex": 1873,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1873,
+        "endIndex": 1897,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1873,
+              "endIndex": 1897,
+              "textRun": {
+                "content": "We all are part of this\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "textStyle": {
+              "bold": true
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1897,
+        "endIndex": 1981,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1897,
+              "endIndex": 1981,
+              "textRun": {
+                "content": "AI is the most important event in our life time, but the outcome is not yet written\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1981,
+        "endIndex": 1982,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1981,
+              "endIndex": 1982,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1982,
+        "endIndex": 2044,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1982,
+              "endIndex": 2043,
+              "textRun": {
+                "content": "We all own the conversation for what we want the future to be",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 2043,
+              "endIndex": 2044,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.v5sn25eht0c5",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2044,
+        "endIndex": 2045,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2044,
+              "endIndex": 2045,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2045,
+        "endIndex": 2046,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2045,
+              "endIndex": 2046,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2046,
+        "endIndex": 2052,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2046,
+              "endIndex": 2052,
+              "textRun": {
+                "content": "Intro\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.cm0mnx2pqmy0",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2052,
+        "endIndex": 2223,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2052,
+              "endIndex": 2223,
+              "textRun": {
+                "content": "We assume that machines will achieve human level intelligence. We assume they will exceed it. We assume that they will have ethics, aligned to a human or group of humans.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2223,
+        "endIndex": 2224,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2223,
+              "endIndex": 2224,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2224,
+        "endIndex": 2392,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2224,
+              "endIndex": 2392,
+              "textRun": {
+                "content": "Then the question remains: which human or group of humans. To which other humans are those humans accountable and by what means. Where does the demos in democracy sit?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2392,
+        "endIndex": 2393,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2392,
+              "endIndex": 2393,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2393,
+        "endIndex": 2762,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2393,
+              "endIndex": 2762,
+              "textRun": {
+                "content": "The ambition of people leads to cathedrals and death camps. Prosperity and war. Governance is how we harness our collective ambitions to aim for the good. It's not just laws, it's culture, norms, and expectations we place upon ourselves, our neighbors, and our children. It's the combined wisdom of society for how we can stand both free and together to march forward.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2762,
+        "endIndex": 2763,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2762,
+              "endIndex": 2763,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2763,
+        "endIndex": 3201,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2763,
+              "endIndex": 3201,
+              "textRun": {
+                "content": "There aren\u2019t easy answers for what governance should look like, only tradeoffs and complex second order dynamics. Should we empower a strong leader to move rapidly, hoping they won\u2019t abuse their position? Or should we create a slow moving bureaucracy, resilient to corruption but unresponsive to changing needs? Outside of government we must answer similar questions for our communities and companies. How much power? How much oversight?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3201,
+        "endIndex": 3202,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3201,
+              "endIndex": 3202,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3202,
+        "endIndex": 4089,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3202,
+              "endIndex": 4089,
+              "textRun": {
+                "content": "The US has a mixture of answers to these questions. We allow CEOs to be board elected dictators of companies. With it can come great speed, vision, coordination, or rapid failure. There are checks though: The board. The market. Employees can vote with their feet, or the implied threat of them. Regulation limits the most extreme excesses and the worst tragedy of the commons. But even still, a successful CEO can amass so much wealth as to pose unacceptable danger, as we saw with the robber barons. So we further limit what wealth can achieve: bribes are illegal and we curtail the ability to buy politicians outright. Failing to curtail the abilities of wealth itself, we curtail the maximum accumulation of wealth by breaking up monopolies. We invest in common goods like education so that others can rise up and build their own wealth, to counter the entrenched wealth of the past.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4089,
+        "endIndex": 4090,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4089,
+              "endIndex": 4090,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4090,
+        "endIndex": 4590,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4090,
+              "endIndex": 4590,
+              "textRun": {
+                "content": "We elect a president of a strong federal government to have time limited, broad authority. With checks. There\u2019s only ever one president at a time, so there is no free market of presidents, so we can\u2019t allow outright failure when it might mean the end of democracy. So we prevent the use of power to further seek power, such as to influence an election. We empower Congress and the judiciary to prevent the executive from granting itself more power and creating a runaway process toward dictatorship.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4590,
+        "endIndex": 4591,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4590,
+              "endIndex": 4591,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4591,
+        "endIndex": 5113,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4591,
+              "endIndex": 5113,
+              "textRun": {
+                "content": "Implicit but just as important is culture. The American tradition of democracy and standing against tyrants. The President\u2019s cabinet is a set of Americans beholden to this culture, upheld by social pressure from their friends, family, and community. The federal agencies they oversee are composed of millions of Americans, allowing a million opportunities for American culture to uphold itself. A million opportunities to thwart a would-be tyrant. Once we fully automate government, where will these guardrails come from?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5113,
+        "endIndex": 5114,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5113,
+              "endIndex": 5114,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5114,
+        "endIndex": 5223,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5114,
+              "endIndex": 5223,
+              "textRun": {
+                "content": "What mechanism will ensure government is for the people when it\u2019s no longer of the people and by the people?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5223,
+        "endIndex": 5224,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5223,
+              "endIndex": 5224,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5224,
+        "endIndex": 5576,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5224,
+              "endIndex": 5389,
+              "textRun": {
+                "content": "We\u2019re rapidly approaching AI strong enough to automate our government, without understanding how we\u2019ll hold government accountable with that new power. It may prove ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5389,
+              "endIndex": 5399,
+              "textRun": {
+                "content": "impossible",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 5399,
+              "endIndex": 5576,
+              "textRun": {
+                "content": " to control government after we give it this power, if we haven\u2019t put controls in place beforehand. There is a path dependence to our future, and timing is a critical variable:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5576,
+        "endIndex": 5577,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5576,
+              "endIndex": 5577,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5577,
+        "endIndex": 6087,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5577,
+              "endIndex": 5639,
+              "textRun": {
+                "content": "You don't grant Caesar an army to conquer Gaul for Rome until ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5639,
+              "endIndex": 5644,
+              "textRun": {
+                "content": "after",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 5644,
+              "endIndex": 6087,
+              "textRun": {
+                "content": " you are confident you can govern Caesar. The Rubicon is not a sufficient form of governance definition, no matter how strong the norms not to march across it are. In this sense we see that governance is a form of alignment, where we want helpful results for society (build Rome!) while minimizing the harmful outcomes (don\u2019t conquer Rome!). This abstraction applies then to machine, humans, organizations, and machine powered organizations. \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6087,
+        "endIndex": 6088,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6087,
+              "endIndex": 6088,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6088,
+        "endIndex": 6516,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6088,
+              "endIndex": 6516,
+              "textRun": {
+                "content": "There aren't easy answers, despite the allure of simple ideologies and absolutisms. Even today our governance is imperfect, and we risk devolution and dictatorship at all turns without constant vigilance and adaption. What was needed to govern well the Romans is not what is needed to govern well today. And it\u2019s almost certainly not what\u2019s needed to govern a human-machine civilization tomorrow. And tomorrow may be very soon.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6516,
+        "endIndex": 6517,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6516,
+              "endIndex": 6517,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6517,
+        "endIndex": 6930,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6517,
+              "endIndex": 6566,
+              "textRun": {
+                "content": "The core question of governance is how to govern ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 6566,
+              "endIndex": 6579,
+              "textRun": {
+                "content": "intelligences",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 6579,
+              "endIndex": 6930,
+              "textRun": {
+                "content": ", human or otherwise: collections of forces that can achieve what they seek, can win more power, can cooperate, compete, and destroy. Governance is a set of yes\u2019s and no\u2019s: yes compete this way, no don\u2019t destroy this way, such that the citizens mutually benefit and consolidation of power into dictators is prevented. And the dangers of power abound.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6930,
+        "endIndex": 6931,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6930,
+              "endIndex": 6931,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6931,
+        "endIndex": 7206,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6931,
+              "endIndex": 7206,
+              "textRun": {
+                "content": "A glib history of governance: governance too weak can lead to hard times and dictators; too strong can lead to hard times and dictators. And there isn\u2019t a simple line between weak and strong. There is no simple compromise, and compromise itself is only sometimes the answer.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7206,
+        "endIndex": 7207,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7206,
+              "endIndex": 7207,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7207,
+        "endIndex": 7498,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7207,
+              "endIndex": 7498,
+              "textRun": {
+                "content": "Machines will likely enumerate a range of intelligences, requiring a range of governance types. With that lens humans are a special case of governing intelligence. But we further see that a society of humans and machines combined is another case again, and is likely the future we\u2019ll be in.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7498,
+        "endIndex": 7499,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7498,
+              "endIndex": 7499,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7499,
+        "endIndex": 7742,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7499,
+              "endIndex": 7742,
+              "textRun": {
+                "content": "The question of how to govern machine is thus a question of how to govern man. What social compact must we craft so that an aggregate society of diverse intelligences is a net good for those intelligences, and a net good for us in particular.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7742,
+        "endIndex": 7743,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7742,
+              "endIndex": 7743,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7743,
+        "endIndex": 7887,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7743,
+              "endIndex": 7887,
+              "textRun": {
+                "content": "Thousands of years have been spent on the question of human governance. Millions of thinkers. Countless debates. Dense treatise. Horrible wars.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7887,
+        "endIndex": 7888,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7887,
+              "endIndex": 7888,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7888,
+        "endIndex": 7972,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7888,
+              "endIndex": 7972,
+              "textRun": {
+                "content": "The question touches the nature of our existence. What world do we want to live in?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7972,
+        "endIndex": 7973,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7972,
+              "endIndex": 7973,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7973,
+        "endIndex": 8179,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7973,
+              "endIndex": 8179,
+              "textRun": {
+                "content": "The governance of machine poses an equally profound question. We won't have a thousand years to arrive at good answers. We can't afford the deaths of past wars to settle disagreements. We have little time.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8179,
+        "endIndex": 8180,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8179,
+              "endIndex": 8180,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8180,
+        "endIndex": 8208,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8180,
+              "endIndex": 8208,
+              "textRun": {
+                "content": "But we must find an answer.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8208,
+        "endIndex": 8209,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8208,
+              "endIndex": 8209,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8209,
+        "endIndex": 8218,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8209,
+              "endIndex": 8218,
+              "textRun": {
+                "content": "Contents\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ot7jvzkmuf3g",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8218,
+        "endIndex": 8219,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8218,
+              "endIndex": 8219,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8219,
+        "endIndex": 8590,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8219,
+              "endIndex": 8590,
+              "textRun": {
+                "content": "The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up mankind and allows this new age that\u2019s upon us to be a noble one, not a dark one.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8590,
+        "endIndex": 8591,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8590,
+              "endIndex": 8591,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8591,
+        "endIndex": 8633,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8591,
+              "endIndex": 8633,
+              "textRun": {
+                "content": "In this tiny book we\u2019ll cover the basics:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8633,
+        "endIndex": 8634,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8633,
+              "endIndex": 8634,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8634,
+        "endIndex": 8696,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8634,
+              "endIndex": 8696,
+              "textRun": {
+                "content": "Why is this important, aren\u2019t there bigger problems to solve?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.83rxrcbmxjly",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8696,
+        "endIndex": 8780,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8696,
+              "endIndex": 8780,
+              "textRun": {
+                "content": "How does our current civilization work, and what will stop working once we have AI?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.83rxrcbmxjly",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8780,
+        "endIndex": 8874,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8780,
+              "endIndex": 8874,
+              "textRun": {
+                "content": "What does the current political, cultural, and power landscape look like as it relates to AI?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.83rxrcbmxjly",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8874,
+        "endIndex": 9001,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8874,
+              "endIndex": 9001,
+              "textRun": {
+                "content": "What might a human-machine society look like, what might governance look like, and how can we leverage AI to make it possible?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.83rxrcbmxjly",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9001,
+        "endIndex": 9002,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9001,
+              "endIndex": 9002,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9002,
+        "endIndex": 9006,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9002,
+              "endIndex": 9006,
+              "textRun": {
+                "content": "Why\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qddk5qswvklu",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9006,
+        "endIndex": 9007,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9006,
+              "endIndex": 9007,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9007,
+        "endIndex": 9048,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9007,
+              "endIndex": 9048,
+              "textRun": {
+                "content": "Some might say, \u201cOne problem at a time.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9048,
+        "endIndex": 9049,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9048,
+              "endIndex": 9049,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9049,
+        "endIndex": 9102,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9049,
+              "endIndex": 9102,
+              "textRun": {
+                "content": "First, let\u2019s build the machine. This is hard enough.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9102,
+        "endIndex": 9103,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9102,
+              "endIndex": 9103,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9103,
+        "endIndex": 9157,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9103,
+              "endIndex": 9157,
+              "textRun": {
+                "content": "Then, let\u2019s make sure it\u2019s safe. This is hard enough.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9157,
+        "endIndex": 9158,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9157,
+              "endIndex": 9158,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9158,
+        "endIndex": 9336,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9158,
+              "endIndex": 9336,
+              "textRun": {
+                "content": "Finally, let\u2019s see how to integrate it into society. Let\u2019s only then craft a world with AI that\u2019s still a world for humans, with all the challenges and upheavals that will take.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9336,
+        "endIndex": 9337,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9336,
+              "endIndex": 9337,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9337,
+        "endIndex": 10160,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9337,
+              "endIndex": 10057,
+              "textRun": {
+                "content": "Depending on how spaced apart these events are, that\u2019s a reasonable position. 50 years ago certainly there was enough time to focus on the first problem only. 5 years ago perhaps it was fair to focus only on the hard problem of making AI safe. Today, these three events may all happen in the next few years. If so, practically, we can\u2019t wait to solve each problem one by one. There won\u2019t be enough time to do it right. Worse, if we build controllable AI but don\u2019t know how to govern that new human-machine world, there may not be any way to prevent the worst outcomes of concentration of power and the rise of durable dictatorships. The path to a good human-machine world very likely requires taking the correct actions ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 10057,
+              "endIndex": 10070,
+              "textRun": {
+                "content": "leading up to",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 10070,
+              "endIndex": 10097,
+              "textRun": {
+                "content": " the arrival of strong AI, ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 10097,
+              "endIndex": 10104,
+              "textRun": {
+                "content": "even if",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 10104,
+              "endIndex": 10160,
+              "textRun": {
+                "content": " we have solved the problem of ensuring the AI is safe.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10160,
+        "endIndex": 10161,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10160,
+              "endIndex": 10161,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10161,
+        "endIndex": 10250,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10161,
+              "endIndex": 10193,
+              "textRun": {
+                "content": "There is a path dependence, and ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 10193,
+              "endIndex": 10248,
+              "textRun": {
+                "content": "our actions today matter more than our actions tomorrow",
+                "textStyle": {
+                  "bold": true,
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 10248,
+              "endIndex": 10250,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10250,
+        "endIndex": 10251,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10250,
+              "endIndex": 10251,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10251,
+        "endIndex": 10930,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10251,
+              "endIndex": 10930,
+              "textRun": {
+                "content": "If you\u2019re an AI researcher, today your voice matters, tomorrow you will be automated and will lose your currency. If you\u2019re a government employee, today your voice matters, tomorrow you will be automated. If you\u2019re a voting citizen, today your vote matters, tomorrow it might not be possible to vote out an automated government dictatorship. If you\u2019re any person at all, of any walk of life or nation, today your actions impact the shared culture of humanity, which helps pressure and guide the actions of every other person. Tomorrow, we may live in a world where no amount of cultural pressure matters. Your actions matter today, use them to ensure they still matter tomorrow.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10930,
+        "endIndex": 10931,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10930,
+              "endIndex": 10931,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10931,
+        "endIndex": 11490,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10931,
+              "endIndex": 11169,
+              "textRun": {
+                "content": "How soon will strong AI arrive? We won\u2019t spend time analyzing timelines here. There are great discussions about this, it\u2019s increasingly important, but it\u2019s overall a well trod area. What\u2019s not well trod is what the world should look like ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 11169,
+              "endIndex": 11174,
+              "textRun": {
+                "content": "after",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 11174,
+              "endIndex": 11490,
+              "textRun": {
+                "content": ". After we\u2019ve built and aligned the machine. And, anyway, the timeline discussions are changing rapidly, anything we write here will likely be outdated before this is published or before you read this. Regardless of timelines, whether we have two years or ten years, there isn\u2019t enough time. We have to prepare now.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11490,
+        "endIndex": 11491,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11490,
+              "endIndex": 11491,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11491,
+        "endIndex": 12206,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11491,
+              "endIndex": 11983,
+              "textRun": {
+                "content": "Nonetheless, keep engaging in timeline discussions. Keep an array of timelines in your mind. The future is a portfolio of risks and investments. With great uncertainty we should maintain wide error bars and consider many outcomes. Our discussions on governance here should be informed by changing timelines in practice. We\u2019ll discuss proposals that will be good or bad depending on timelines; meaning a bad proposal today may be good tomorrow, and the reverse too. Good risk management means ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 11983,
+              "endIndex": 11992,
+              "textRun": {
+                "content": "sometimes",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 11992,
+              "endIndex": 12083,
+              "textRun": {
+                "content": " charging forward boldly, it\u2019s sometimes too risky to be timid. Good risk management means ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 12083,
+              "endIndex": 12092,
+              "textRun": {
+                "content": "sometimes",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 12092,
+              "endIndex": 12206,
+              "textRun": {
+                "content": " hedging. Picking correctly isn\u2019t a matter of principle, it\u2019s a matter of skill applied to ever changing details.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12206,
+        "endIndex": 12207,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12206,
+              "endIndex": 12207,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12207,
+        "endIndex": 12520,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12207,
+              "endIndex": 12520,
+              "textRun": {
+                "content": "As you consider proposals here and elsewhere, if you dislike them, ask yourself if it\u2019s because you disagree with the implied timelines. If so, say out loud, \u201cI don\u2019t think X will happen soon, therefore the cost of Y is too high and I\u2019m willing to risk Z.\u201d Often this is correct. But not always. Say it out loud.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12520,
+        "endIndex": 12521,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12520,
+              "endIndex": 12521,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12521,
+        "endIndex": 12766,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12521,
+              "endIndex": 12766,
+              "textRun": {
+                "content": "If you like or dislike a proposal, ask yourself if it\u2019s because it matches your ideology, rather than a calculus on outcomes. If so, say out loud, \u201cI prefer to live in a world with X as a principle, even if the worst form of Y outcome results.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12766,
+        "endIndex": 12767,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12766,
+              "endIndex": 12767,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12767,
+        "endIndex": 12953,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12767,
+              "endIndex": 12953,
+              "textRun": {
+                "content": "Often this too is correct and good. Speak clearly to yourself and others when you think this. There\u2019s no good in securing a future where we\u2019ve negotiated away our most cherished rights.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12953,
+        "endIndex": 12954,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12953,
+              "endIndex": 12954,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12954,
+        "endIndex": 13664,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12954,
+              "endIndex": 13664,
+              "textRun": {
+                "content": "What we\u2019re seeing today in AI research is that one of the hardest problems in AI capabilities is teaching the machine to self reflect accurately. Teaching it to recognize when it\u2019s uncertain, when it\u2019s made an unstated assumption, when it\u2019s caught in a doom loop and can\u2019t break free. Improving introspection and self-mastery is key to improving an AI\u2019s ability. Ironically, we know this is true for us humans as well. The low quality of much of our discourse echoes the same reasoning failures we see from AIs today: failure to generalize, failure to highlight unstated assumptions, failure to rethink from first principles and not just pattern match, failure to recognize our own mistakes and self-correct. \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13664,
+        "endIndex": 13665,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13664,
+              "endIndex": 13665,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13665,
+        "endIndex": 13722,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13665,
+              "endIndex": 13722,
+              "textRun": {
+                "content": "Failure to be honest: to yourself first, then to others.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13722,
+        "endIndex": 13723,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13722,
+              "endIndex": 13723,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13723,
+        "endIndex": 13894,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13723,
+              "endIndex": 13894,
+              "textRun": {
+                "content": "Because timelines are short, we need to compress a thousand years of governance debate into just a few years. We can do that, but only if we raise the level of discourse.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13894,
+        "endIndex": 13895,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13894,
+              "endIndex": 13895,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13895,
+        "endIndex": 14383,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13895,
+              "endIndex": 14383,
+              "textRun": {
+                "content": "In the early days of the United States there were great debates on governance. What makes a resilient republic? Volumes were written, dissected, prosecuted. The greatest minds of the time partook. Society as a whole partook. The path forward wasn\u2019t clear, and so we embraced the uncertainty and dug into the hard work of debate to form a more perfect democracy. This took years, it took war, and we are still debating today. But a resilient democracy has endured 250 years because of it.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 14383,
+        "endIndex": 14384,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14383,
+              "endIndex": 14384,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 14384,
+        "endIndex": 15004,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14384,
+              "endIndex": 15004,
+              "textRun": {
+                "content": "That democracy, and many others like it, has been the bedrock that\u2019s supported science, technology, social progress, and all of society\u2019s many investments. Investments that have led to the incredible human flourishing we have today. By the standards of any other time in human history, today is the best day. And it\u2019s built upon our modern governance. We know that good governance is the first requirement to prosperity. We know it through the thousand failed experiments, failed governments, failed nations, failed societies, that have caused untold suffering. We know it through the veritable paradise we enjoy today.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15004,
+        "endIndex": 15005,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15004,
+              "endIndex": 15005,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15005,
+        "endIndex": 15390,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15005,
+              "endIndex": 15390,
+              "textRun": {
+                "content": "The details of good governance depend on the details of what humanity is. If humanity were different, governance would be different. Machine is different from human, and will need different governance. The incentives at play, the instincts, the interplay between dynamics, the form of self-correcting guardrails, everything will be different. Sometimes obviously so. Sometimes subtly.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15390,
+        "endIndex": 15391,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15390,
+              "endIndex": 15391,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15391,
+        "endIndex": 15518,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15391,
+              "endIndex": 15518,
+              "textRun": {
+                "content": "We won\u2019t get it perfectly right, but we must get it right enough. Right enough to fortify democracy for the human-machine age.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15518,
+        "endIndex": 15519,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15518,
+              "endIndex": 15519,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15519,
+        "endIndex": 15718,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15519,
+              "endIndex": 15718,
+              "textRun": {
+                "content": "This is all we\u2019ll say on the why. The rest of this writing we\u2019ll focus on the hard question of what. Where we\u2019ll finish by the end will barely constitute an introduction. The rest will be up to you.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15718,
+        "endIndex": 15719,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15718,
+              "endIndex": 15719,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15719,
+        "endIndex": 15732,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15719,
+              "endIndex": 15732,
+              "textRun": {
+                "content": "Let's begin.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15732,
+        "endIndex": 15764,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15732,
+              "endIndex": 15764,
+              "textRun": {
+                "content": "Complexity and Iterative Design\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qp9nz1czn8a8",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15764,
+        "endIndex": 15853,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15764,
+              "endIndex": 15853,
+              "textRun": {
+                "content": "Civilization is complex. To study complex systems we often make simplifying assumptions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15853,
+        "endIndex": 15854,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15853,
+              "endIndex": 15854,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15854,
+        "endIndex": 16544,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15854,
+              "endIndex": 16544,
+              "textRun": {
+                "content": "When we build models for how fluids like water and air behave, we wash away the details of H2O molecules or air molecules and arrive at a higher level theory of how water and air moves, described by relatively simple equations like Navier Stokes. The success of computational fluid dynamics vindicates this approach, along with the safety of aircraft and multitudes of other technologies predicated on our correct-enough understanding of fluids like air. Even in these simplified theories we see complexity continue to counter us. Fluids become turbulent and enter chaotic regimes where it\u2019s not just our current models that lose predictive powers, rather all models must lose their power.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 16544,
+        "endIndex": 16545,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16544,
+              "endIndex": 16545,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 16545,
+        "endIndex": 17051,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16545,
+              "endIndex": 17051,
+              "textRun": {
+                "content": "Civilization is more complex. Models that average over the human molecules are alluring but fraught, in fiction and reality. Economics treats humans like a smooth fluid, averaging out our uniqueness and quirks. The truth is these quirks matter. The outliers matter \u2014 at an individual and global level. We may still debate the great man theory of history, but there\u2019s no doubt that Nazi Germany would have played out differently without Adolf Hitler. And thus likely the entire history of the 21st century.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17051,
+        "endIndex": 17052,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17051,
+              "endIndex": 17052,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17052,
+        "endIndex": 17358,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17052,
+              "endIndex": 17358,
+              "textRun": {
+                "content": "Still, there are limits on how much a single human can impact the world. We have limited lifespans and limited ability to change ourselves. With AI this gets more complex. AI\u2019s that can self-modify will create a world that is even more sensitive to initial conditions and the path of individual molecules.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17358,
+        "endIndex": 17359,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17358,
+              "endIndex": 17359,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17359,
+        "endIndex": 18019,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17359,
+              "endIndex": 17556,
+              "textRun": {
+                "content": "Civilization is a system with emergent turbulence at the largest scale, but where the path of individual molecules also matters at the smallest scale. In systems theory this is the hardest type of ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17556,
+              "endIndex": 17567,
+              "textRun": {
+                "content": "multi-scale",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 17567,
+              "endIndex": 17710,
+              "textRun": {
+                "content": " system to predict and engineer for. With AI, we will be introducing a further complication: changing the dynamics of the molecules themselves ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17710,
+              "endIndex": 17730,
+              "textRun": {
+                "content": "on a continual basis",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 17730,
+              "endIndex": 18019,
+              "textRun": {
+                "content": ". The AI molecule will change constantly, will individually shape the outcomes of the world, and will be shaped by the global process as well. A complex system where the small scale matters, the large scale matters, and where each scale can rewrite the rules of the other scale every day.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18019,
+        "endIndex": 18020,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18019,
+              "endIndex": 18020,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18020,
+        "endIndex": 18663,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18020,
+              "endIndex": 18663,
+              "textRun": {
+                "content": "Managing fluids is much easier, but we can still learn from it. We see where there is turbulence and where our models fail, so we engineer our planes to avoid those territories. Our theories remain imperfect and planes crash, so we iterate and refine both our theories and engineering practices. Like all complex engineering processes, we follow an iterative design philosophy. We\u2019ve iterated on civilization and governance for thousands of years. We\u2019ve crashed many civilizations, built many wrong theories of governance, but through it all we\u2019ve iterated and arrived at a beautiful, complicated, impossible creation: the world we see today.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18663,
+        "endIndex": 18664,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18663,
+              "endIndex": 18664,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18664,
+        "endIndex": 18733,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18664,
+              "endIndex": 18733,
+              "textRun": {
+                "content": "To build the world of tomorrow we\u2019ll need to use all our approaches:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18733,
+        "endIndex": 18834,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18733,
+              "endIndex": 18834,
+              "textRun": {
+                "content": "a theorist\u2019s dissection of why civilization works, especially the implicit dynamics often overlooked\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.axnh6lt57ovy",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 18834,
+        "endIndex": 18930,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18834,
+              "endIndex": 18930,
+              "textRun": {
+                "content": "a willingness to abandon and remake our theory, and to hold multiple competing theories at once\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.axnh6lt57ovy",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 18930,
+        "endIndex": 19004,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18930,
+              "endIndex": 19004,
+              "textRun": {
+                "content": "an engineering mindset to steer away from where we know our theories fail\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.axnh6lt57ovy",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 19004,
+        "endIndex": 19086,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19004,
+              "endIndex": 19086,
+              "textRun": {
+                "content": "a designer\u2019s mindset to iterate quickly as reality pulls your planes from the sky\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.axnh6lt57ovy",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 19086,
+        "endIndex": 19087,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19086,
+              "endIndex": 19087,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19087,
+        "endIndex": 19131,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19087,
+              "endIndex": 19131,
+              "textRun": {
+                "content": "This is how we\u2019ll forge a resilient system.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19131,
+        "endIndex": 19132,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19131,
+              "endIndex": 19132,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19132,
+        "endIndex": 19327,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19132,
+              "endIndex": 19326,
+              "textRun": {
+                "content": "Let\u2019s start with the first approach: to understand what works today. In particular, what are the hidden, implicit forces that hold civilization together that may disappear in an automated world.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19326,
+              "endIndex": 19327,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19327,
+        "endIndex": 19347,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19327,
+              "endIndex": 19335,
+              "textRun": {
+                "content": "Implicit",
+                "textStyle": {
+                  "strikethrough": true
+                }
+              }
+            },
+            {
+              "startIndex": 19335,
+              "endIndex": 19346,
+              "textRun": {
+                "content": " Guardrails",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19346,
+              "endIndex": 19347,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.34v88su648ei",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19347,
+        "endIndex": 19361,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19347,
+              "endIndex": 19359,
+              "textRun": {
+                "content": "Link out to ",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19359,
+              "endIndex": 19360,
+              "richLink": {
+                "richLinkId": "kix.pcu34zp8bgu5",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                },
+                "richLinkProperties": {
+                  "title": "Implicit Guardrails",
+                  "uri": "https://docs.google.com/document/d/1t04E8WY-0purWxgSpSr3KFv63b5YWMY_LpwmU1NZ0cQ/edit?tab=t.0",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 19360,
+              "endIndex": 19361,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19361,
+        "endIndex": 19362,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19361,
+              "endIndex": 19362,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19362,
+        "endIndex": 19380,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19362,
+              "endIndex": 19379,
+              "textRun": {
+                "content": "By any other name",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19379,
+              "endIndex": 19380,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.z7n0mo9jfirq",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19380,
+        "endIndex": 19403,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19380,
+              "endIndex": 19392,
+              "textRun": {
+                "content": "Link out to ",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19392,
+              "endIndex": 19393,
+              "richLink": {
+                "richLinkId": "kix.bp2vrfnsmy79",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                },
+                "richLinkProperties": {
+                  "title": "By any other name",
+                  "uri": "https://docs.google.com/document/u/0/d/1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag/edit",
+                  "mimeType": "application/vnd.google-apps.document"
+                }
+              }
+            },
+            {
+              "startIndex": 19393,
+              "endIndex": 19401,
+              "textRun": {
+                "content": " and/or ",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 19401,
+              "endIndex": 19402,
+              "richLink": {
+                "richLinkId": "kix.x14estha2umz",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                },
+                "richLinkProperties": {
+                  "title": "Insufficient",
+                  "uri": "https://docs.google.com/document/d/1lTWbjXVOpfBaKiWfsBPmUyx0Y0CFpGskUz6cRhYEQQE/edit?tab=t.0",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 19402,
+              "endIndex": 19403,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19403,
+        "endIndex": 19404,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19403,
+              "endIndex": 19404,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19404,
+        "endIndex": 19426,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19404,
+              "endIndex": 19425,
+              "textRun": {
+                "content": "Rapid fire governance",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19425,
+              "endIndex": 19426,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.hzu7z1widztk",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19426,
+        "endIndex": 19428,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19426,
+              "endIndex": 19427,
+              "richLink": {
+                "richLinkId": "kix.uctt1b6r5z7s",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                },
+                "richLinkProperties": {
+                  "title": "Rapid Fire Governance",
+                  "uri": "https://docs.google.com/document/d/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8/edit?tab=t.0",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 19427,
+              "endIndex": 19428,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19428,
+        "endIndex": 19429,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19428,
+              "endIndex": 19429,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19429,
+        "endIndex": 19464,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19429,
+              "endIndex": 19463,
+              "textRun": {
+                "content": "An exponential, if you can keep it",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19463,
+              "endIndex": 19464,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ruf1i0ufnsn2",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19464,
+        "endIndex": 19466,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19464,
+              "endIndex": 19465,
+              "richLink": {
+                "richLinkId": "kix.jyxcfrysry8z",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                },
+                "richLinkProperties": {
+                  "title": "An exponential, if you can keep it",
+                  "uri": "https://docs.google.com/document/d/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI/edit?tab=t.0#heading=h.xedv3dcift3s",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 19465,
+              "endIndex": 19466,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19466,
+        "endIndex": 19467,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19466,
+              "endIndex": 19467,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19467,
+        "endIndex": 19468,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19467,
+              "endIndex": 19468,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19468,
+        "endIndex": 19469,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19468,
+              "endIndex": 19469,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19469,
+        "endIndex": 19478,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19469,
+              "endIndex": 19478,
+              "textRun": {
+                "content": "Appendix\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.4k8eut34fmck",
+            "namedStyleType": "TITLE",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19478,
+        "endIndex": 19480,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19478,
+              "endIndex": 19479,
+              "richLink": {
+                "richLinkId": "kix.3gtfxqnd71oq",
+                "textStyle": {},
+                "richLinkProperties": {
+                  "title": "A Crash Course on AI",
+                  "uri": "https://docs.google.com/document/d/1g1MrziAeRAOkppKQvBdSgGJqC5d-pr4F5-i1mcRNJGQ/edit?tab=t.0",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 19479,
+              "endIndex": 19480,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19480,
+        "endIndex": 19481,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19480,
+              "endIndex": 19481,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "backgroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.91764706,
+                        "green": 0.81960785,
+                        "blue": 0.8627451
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 792,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 612,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.7c74gwx8tz04": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.7cjdhimug8kz": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.83rxrcbmxjly": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.axnh6lt57ovy": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.cbd293rnor5e": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.v5sn25eht0c5": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4LulfdU8lAIYsaUqKXLLxRL0Mamygwx-yOJiA4qGmi0UT75QXmhLYJ_OCTBLthRoAD5ztlmBDsD4KdVOiw",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1-CifFI15IsW5fj4DvSrH9SmpKJbAELyeHTKCfdGT6rs"
+}
