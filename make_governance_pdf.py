@@ -47,12 +47,25 @@ class LatexDocument:
     def _generate_fallback_template(self) -> str:
         """Generate a fallback LaTeX document if template file is missing."""
         latex = """\\documentclass[12pt,twoside]{book}
-\\usepackage[utf8]{inputenc}
-\\usepackage[T1]{fontenc}
-\\usepackage{lmodern}
+
+% LaTeX engine detection
+\\usepackage{ifxetex}
+\\ifxetex
+  % XeTeX-specific settings for better Unicode support
+  \\usepackage{fontspec}
+  \\setmainfont{Times New Roman}
+  \\usepackage{xunicode}
+  \\usepackage{xltxtra}
+\\else
+  % pdfTeX settings
+  \\usepackage[utf8]{inputenc}
+  \\usepackage[T1]{fontenc}
+  \\usepackage{lmodern}
+  \\usepackage{textcomp}  % Extended text companion symbols
+  \\usepackage{upquote}   % Straight quotes in verbatim environments
+\\fi
+
 \\usepackage{microtype}
-\\usepackage{textcomp}  % Extended text companion symbols
-\\usepackage{upquote}   % Straight quotes in verbatim environments
 \\usepackage{graphicx}
 \\usepackage{hyperref}
 \\usepackage{setspace}
@@ -338,7 +351,11 @@ def escape_latex(text):
     """Escape LaTeX special characters and handle non-ASCII Unicode."""
     if text is None:
         return ""
-        
+    
+    # Replace all variants of apostrophes with standard ASCII apostrophe
+    text = text.replace("'", "'")  # right single quotation mark
+    text = text.replace("'", "'")  # left single quotation mark
+    
     # Handle Unicode characters - replace with closest ASCII representation or remove
     # This is a simple approach; for a more comprehensive solution, consider a Unicode to LaTeX package
     unicode_chars = {
@@ -347,9 +364,7 @@ def escape_latex(text):
         '—': '---',
         '"': '"',
         '"': '"',
-        ''': "\'",
-        ''': "\'",
-        "'": "\'",
+        # Apostrophes are already handled in the pre-processing step above
         '•': '\\textbullet{}',
         '≠': '$\\neq$',
         '≤': '$\\leq$',
@@ -500,11 +515,23 @@ def latex_to_pdf(latex_content, output_path):
         current_dir = os.getcwd()
         os.chdir(temp_dir)
         
-        # Run pdflatex with the actual filename
+        # First check if xelatex (better Unicode support) is installed
+        try:
+            xelatex_result = subprocess.run(['which', 'xelatex'], 
+                                         check=False, capture_output=True, text=True)
+            has_xelatex = xelatex_result.returncode == 0
+        except Exception:
+            has_xelatex = False
+            
+        # Use xelatex if available, otherwise fallback to pdflatex
         tex_filename = os.path.basename(tex_path)
-        subprocess.run(['pdflatex', '-interaction=nonstopmode', tex_filename], 
+        latex_engine = 'xelatex' if has_xelatex else 'pdflatex'
+        
+        print(f"Using {latex_engine} for PDF generation...")
+        
+        subprocess.run([latex_engine, '-interaction=nonstopmode', tex_filename], 
                        check=True, capture_output=True)
-        subprocess.run(['pdflatex', '-interaction=nonstopmode', tex_filename], 
+        subprocess.run([latex_engine, '-interaction=nonstopmode', tex_filename], 
                        check=True, capture_output=True)
         
         # Move back to original directory

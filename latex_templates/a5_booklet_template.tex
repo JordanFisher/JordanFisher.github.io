@@ -1,11 +1,27 @@
 % A5 booklet LaTeX template
 \documentclass[12pt,twoside]{book}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+
+% LaTeX engine detection
+\usepackage{ifxetex}
+\ifxetex
+  % XeTeX-specific settings for better Unicode support
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+  \usepackage{xunicode}
+  \usepackage{xltxtra}
+\else
+  % pdfTeX settings
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+  \usepackage{textcomp}  % Extended text companion symbols
+  \usepackage{upquote}   % Straight quotes in verbatim environments
+\fi
+
+% Special handling for apostrophes in text mode
+\DeclareTextCommandDefault{\textasciiacute}{\symbol{"B4}}
+
 \usepackage{microtype}
-\usepackage{textcomp}  % Extended text companion symbols
-\usepackage{upquote}   % Straight quotes in verbatim environments
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{setspace}
