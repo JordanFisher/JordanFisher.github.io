@@ -80,10 +80,8 @@ class LatexDocument:
 
 % Configure hyperref for better internal references
 \\hypersetup{
-  colorlinks=true,
-  linkcolor=blue,
-  filecolor=magenta,      
-  urlcolor=cyan,
+  colorlinks=false,  % No colored links for print
+  pdfborder={0 0 0}, % Remove link borders
   pdftitle={""" + self.title + """},
   bookmarks=true,
   pdfpagemode=FullScreen,
@@ -279,18 +277,18 @@ def html_to_latex(html_path: str) -> LatexDocument:
             elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
                 # If the entire paragraph is in italics, treat it as a quote
                 # Process with in_quote=True to avoid redundant italic formatting
-                para_content = process_inline_elements(element, in_quote=True)
+                para_content = process_inline_elements(element, in_quote=True, story_div=story_div)
                 latex_content += f"""\\begin{{fancyquote}}
 {para_content}
 \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
                 # Regular paragraph
-                para_content = process_inline_elements(element)
+                para_content = process_inline_elements(element, story_div=story_div)
                 latex_content += para_content + "\n\n"
         elif element.name == 'ul':
-            latex_content += process_list(element, 'itemize')
+            latex_content += process_list(element, 'itemize', story_div)
         elif element.name == 'ol':
-            latex_content += process_list(element, 'enumerate')
+            latex_content += process_list(element, 'enumerate', story_div)
         elif element.name == 'br':
             latex_content += "\\vspace{0.5em}\n\n"
         elif element.name == 'blockquote':
@@ -299,9 +297,9 @@ def html_to_latex(html_path: str) -> LatexDocument:
             for child in element.children:
                 if child.name == 'p':
                     # Process with in_quote=True to avoid redundant italic formatting
-                    quote_content += process_inline_elements(child, in_quote=True) + "\n\n"
+                    quote_content += process_inline_elements(child, in_quote=True, story_div=story_div) + "\n\n"
                 elif child.name in ['ul', 'ol']:
-                    quote_content += process_list(child, 'itemize' if child.name == 'ul' else 'enumerate')
+                    quote_content += process_list(child, 'itemize' if child.name == 'ul' else 'enumerate', story_div)
                     
             latex_content += f"""\\begin{{fancyquote}}
 {quote_content.strip()}
@@ -368,16 +366,16 @@ def html_to_latex(html_path: str) -> LatexDocument:
                         header_text = escape_latex(child.get_text().strip())
                         latex_content += f"\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
                     elif child.name == 'p':
-                        para_content = process_inline_elements(child)
+                        para_content = process_inline_elements(child, story_div=story_div)
                         latex_content += para_content + "\n\n"
                     elif child.name == 'ul':
-                        latex_content += process_list(child, 'itemize')
+                        latex_content += process_list(child, 'itemize', story_div)
                     elif child.name == 'ol':
-                        latex_content += process_list(child, 'enumerate')
+                        latex_content += process_list(child, 'enumerate', story_div)
     
     return LatexDocument(title=title, content=latex_content, description=description)
 
-def process_list(list_element, list_type):
+def process_list(list_element, list_type, story_div=None):
     """Process a list element (ul or ol) and any nested lists recursively."""
     result = f"\\begin{{{list_type}}}\n"
     
@@ -391,27 +389,46 @@ def process_list(list_element, list_type):
             nested_list.extract()
         
         # Get the list item content without nested lists
-        li_content = process_inline_elements(li_content_element)
+        li_content = process_inline_elements(li_content_element, story_div=story_div)
         result += f"\\item {li_content}\n"
         
         # Process any nested lists from the original item
         for nested_list in li.find_all(['ul', 'ol'], recursive=False):
             if nested_list.name == 'ul':
-                result += "    " + process_list(nested_list, 'itemize').replace('\n', '\n    ')
+                result += "    " + process_list(nested_list, 'itemize', story_div).replace('\n', '\n    ')
             else:  # ol
-                result += "    " + process_list(nested_list, 'enumerate').replace('\n', '\n    ')
+                result += "    " + process_list(nested_list, 'enumerate', story_div).replace('\n', '\n    ')
         
     result += f"\\end{{{list_type}}}\n\n"
     return result
 
 
-def process_inline_elements(element, in_quote=False) -> str:
+def get_header_text_by_id(soup, element_id):
+    """Find the actual header text for a given ID."""
+    # Look for any element with this ID
+    element = soup.find(id=element_id)
+    if not element:
+        return None
+    
+    # If it's a header, return its text
+    if element.name in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+        return element.get_text().strip()
+    
+    # If it's not a header, look for the closest header in parents
+    header = element.find_parent(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+    if header:
+        return header.get_text().strip()
+    
+    return None
+
+def process_inline_elements(element, in_quote=False, story_div=None) -> str:
     """Convert HTML inline elements to LaTeX syntax.
     
     Args:
         element: The BeautifulSoup element to process
         in_quote: Whether this element is within a quote environment
                  (prevents applying redundant italic formatting)
+        story_div: The parent story div, used for finding header references
     """
     result = ""
     for content in element.contents:
@@ -432,20 +449,30 @@ def process_inline_elements(element, in_quote=False) -> str:
             result += f"\\underline{{{escape_latex(content.get_text())}}}"
         elif content.name == 'a':
             href = content.get('href', '#')
-            text = escape_latex(content.get_text())
+            link_text = escape_latex(content.get_text())
             
             # If this is an anchor link, create a page reference
-            if href.startswith('#'):
+            if href.startswith('#') and story_div:
                 anchor_id = href[1:]  # Remove the # from the href
-                result += f"``{text}'' on page~\\pageref{{{anchor_id}}}"
+                
+                # Try to find the actual header text from the referenced element
+                header_text = get_header_text_by_id(story_div, anchor_id)
+                
+                if header_text:
+                    # Use the header text instead of the link text
+                    header_text = escape_latex(header_text)
+                    result += f"``{header_text}'' on page~\\pageref{{{anchor_id}}}"
+                else:
+                    # Fallback to the link text if header not found
+                    result += f"``{link_text}'' on page~\\pageref{{{anchor_id}}}"
             else:
-                result += f"\\href{{{href}}}{{{text}}}"
+                result += f"\\href{{{href}}}{{{link_text}}}"
         elif content.name == 'img':
             # Skip, images are handled separately
             pass
         else:
             # Recursively process other elements
-            result += process_inline_elements(content, in_quote)
+            result += process_inline_elements(content, in_quote, story_div)
     
     return result
 
