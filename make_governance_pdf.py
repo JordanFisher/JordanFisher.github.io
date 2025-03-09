@@ -15,48 +15,114 @@ class LatexDocument:
     description: Optional[str] = None
     
     def to_latex(self) -> str:
-        """Generate a complete LaTeX document string."""
-        latex = (
-            "\\documentclass[12pt]{article}\n"
-            "\\usepackage[utf8]{inputenc}\n"
-            "\\usepackage[T1]{fontenc}\n"
-            "\\usepackage{lmodern}\n"
-            "\\usepackage{microtype}\n"
-            "\\usepackage{graphicx}\n"
-            "\\usepackage{hyperref}\n"
-            "\\usepackage{geometry}\n"
-            "\\usepackage{setspace}\n"
-            "\\usepackage{parskip}\n"
-            "\\usepackage{color}\n"
-            "\\usepackage{soul}\n"
-            "\n"
-            "\\geometry{a4paper, margin=1.2in}\n"
-            "\\setstretch{1.15}\n"
-            "\\setlength{\\parindent}{0pt}\n"
-            "\n"
-            f"\\title{{{self.title}}}\n"
-            "\\author{Jordan Ezra Fisher}\n"
-            "\\date{\\today}\n"
-            "\n"
-            "\\begin{document}\n"
-            "\n"
-            "\\maketitle\n"
-            "\n"
-        )
+        """Generate a complete LaTeX document string using template file."""
+        template_path = os.path.join(os.path.dirname(__file__), "latex_templates", "a5_booklet_template.tex")
         
-        # Add description as a quote if available
+        try:
+            with open(template_path, "r") as f:
+                template = f.read()
+        except FileNotFoundError:
+            # Fallback if template file is missing
+            print(f"Warning: Template file {template_path} not found. Using built-in template.")
+            return self._generate_fallback_template()
+            
+        # Prepare description block with page break after
+        description_block = ""
         if self.description:
-            latex += (
-                "\\begin{quote}\n"
-                "\\textit{" + self.description + "}\n"
-                "\\end{quote}\n\n"
-            )
+            description_block = f"""
+\\begin{{fancyquote}}
+{self.description}
+\\end{{fancyquote}}
+
+\\clearpage
+"""
+
+        # Replace placeholders in template
+        latex = template.replace("$title$", self.title)
+        latex = latex.replace("$description_block$", description_block)
+        latex = latex.replace("$content$", self.content)
         
-        # Add content
-        latex += self.content + "\n"
+        return latex
         
-        # End document
-        latex += "\\end{document}\n"
+    def _generate_fallback_template(self) -> str:
+        """Generate a fallback LaTeX document if template file is missing."""
+        latex = """\\documentclass[12pt,twoside]{book}
+\\usepackage[utf8]{inputenc}
+\\usepackage[T1]{fontenc}
+\\usepackage{lmodern}
+\\usepackage{microtype}
+\\usepackage{graphicx}
+\\usepackage{hyperref}
+\\usepackage{setspace}
+\\usepackage{parskip}
+\\usepackage{color}
+\\usepackage{soul}
+\\usepackage{titlesec}
+\\usepackage{mdframed}
+\\usepackage{xcolor}
+\\usepackage{needspace}
+\\usepackage{afterpage}
+
+% A5 papersize
+\\usepackage[a5paper, inner=20mm, outer=10mm, top=15mm, bottom=15mm, twoside]{geometry}
+
+% Styling
+\\setstretch{1.15}
+\\setlength{\\parindent}{0pt}
+
+% Custom quote environment
+\\definecolor{quotecolor}{rgb}{0.4,0.4,0.4}
+\\definecolor{quotebackground}{rgb}{0.97,0.97,0.97}
+\\definecolor{quoteborder}{rgb}{0.85,0.85,0.85}
+
+\\newenvironment{fancyquote}{%
+  \\begin{mdframed}[
+    linecolor=quoteborder,
+    backgroundcolor=quotebackground,
+    linewidth=1pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    roundcorner=5pt
+  ]
+  \\color{quotecolor}
+  \\itshape
+}{%
+  \\end{mdframed}
+}
+
+\\title{""" + self.title + """}
+\\author{Jordan Ezra Fisher}
+\\date{\\today}
+
+\\begin{document}
+
+\\frontmatter
+\\maketitle
+\\thispagestyle{empty}
+"""
+        
+        # Add description as a styled quote with page break if available
+        if self.description:
+            latex += """
+\\begin{fancyquote}
+""" + self.description + """
+\\end{fancyquote}
+
+\\clearpage
+"""
+
+        latex += """
+\\mainmatter
+\\setcounter{page}{1}
+
+""" + self.content + """
+
+\\end{document}
+"""
         
         return latex
 
@@ -112,21 +178,45 @@ def html_to_latex(html_path: str) -> LatexDocument:
             continue
             
         if element.name == 'h1':
-            latex_content += f"\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            latex_content += f"\\clearpage\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
         elif element.name == 'h2':
-            latex_content += f"\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
         elif element.name == 'h3':
-            latex_content += f"\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
         elif element.name == 'p':
-            # Process paragraph with inline formatting
-            para_content = process_inline_elements(element)
-            latex_content += para_content + "\n\n"
+            # Check if this is a quote block (typically italicized paragraphs)
+            is_quote = element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em'
+            
+            if is_quote:
+                # If the entire paragraph is in italics, treat it as a quote
+                # Process with in_quote=True to avoid redundant italic formatting
+                para_content = process_inline_elements(element, in_quote=True)
+                latex_content += f"""\\begin{{fancyquote}}
+{para_content}
+\\end{{fancyquote}}\n\n"""
+            else:
+                # Regular paragraph
+                para_content = process_inline_elements(element)
+                latex_content += para_content + "\n\n"
         elif element.name == 'ul':
             latex_content += process_list(element, 'itemize')
         elif element.name == 'ol':
             latex_content += process_list(element, 'enumerate')
         elif element.name == 'br':
             latex_content += "\\vspace{0.5em}\n\n"
+        elif element.name == 'blockquote':
+            # Process blockquotes with our fancy quote style
+            quote_content = ""
+            for child in element.children:
+                if child.name == 'p':
+                    # Process with in_quote=True to avoid redundant italic formatting
+                    quote_content += process_inline_elements(child, in_quote=True) + "\n\n"
+                elif child.name in ['ul', 'ol']:
+                    quote_content += process_list(child, 'itemize' if child.name == 'ul' else 'enumerate')
+                    
+            latex_content += f"""\\begin{{fancyquote}}
+{quote_content.strip()}
+\\end{{fancyquote}}\n\n"""
     
     return LatexDocument(title=title, content=latex_content, description=description)
 
@@ -158,8 +248,14 @@ def process_list(list_element, list_type):
     return result
 
 
-def process_inline_elements(element) -> str:
-    """Convert HTML inline elements to LaTeX syntax."""
+def process_inline_elements(element, in_quote=False) -> str:
+    """Convert HTML inline elements to LaTeX syntax.
+    
+    Args:
+        element: The BeautifulSoup element to process
+        in_quote: Whether this element is within a quote environment
+                 (prevents applying redundant italic formatting)
+    """
     result = ""
     for content in element.contents:
         if content.name is None:  # Text node
@@ -167,7 +263,12 @@ def process_inline_elements(element) -> str:
         elif content.name == 'strong':
             result += f"\\textbf{{{escape_latex(content.get_text())}}}"
         elif content.name == 'em':
-            result += f"\\textit{{{escape_latex(content.get_text())}}}"
+            # If we're already in a quote environment (which applies italics), 
+            # don't add redundant italic formatting
+            if in_quote:
+                result += escape_latex(content.get_text())
+            else:
+                result += f"\\textit{{{escape_latex(content.get_text())}}}"
         elif content.name == 's':
             result += f"\\st{{{escape_latex(content.get_text())}}}"
         elif content.name == 'u':
@@ -178,7 +279,7 @@ def process_inline_elements(element) -> str:
             result += f"\\href{{{href}}}{{{text}}}"
         else:
             # Recursively process other elements
-            result += process_inline_elements(content)
+            result += process_inline_elements(content, in_quote)
     
     return result
 
@@ -282,11 +383,25 @@ def latex_to_pdf(latex_content, output_path):
         print(f"\nTeX file has been saved to {tex_path}")
 
 
+def ensure_latex_templates_dir():
+    """Ensure the LaTeX templates directory exists."""
+    templates_dir = os.path.join(os.path.dirname(__file__), "latex_templates")
+    if not os.path.exists(templates_dir):
+        try:
+            os.makedirs(templates_dir)
+            print(f"Created templates directory: {templates_dir}")
+        except Exception as e:
+            print(f"Warning: Could not create templates directory: {e}")
+    return templates_dir
+
 def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
                         help='Output PDF file path')
     args = parser.parse_args()
+    
+    # Ensure LaTeX templates directory exists
+    ensure_latex_templates_dir()
     
     # Path to the governance HTML file
     html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
