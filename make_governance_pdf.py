@@ -78,6 +78,17 @@ class LatexDocument:
 \\usepackage{needspace}
 \\usepackage{afterpage}
 
+% Configure hyperref for better internal references
+\\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,      
+  urlcolor=cyan,
+  pdftitle={""" + self.title + """},
+  bookmarks=true,
+  pdfpagemode=FullScreen,
+}
+
 % A5 papersize
 \\usepackage[a5paper, inner=20mm, outer=10mm, top=15mm, bottom=15mm, twoside]{geometry}
 
@@ -204,10 +215,15 @@ def html_to_latex(html_path: str) -> LatexDocument:
             continue
             
         if element.name == 'h1':
+            # Get the ID for label if available
+            element_id = element.get('id', '')
+            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            
             # Only add page break if it's a title header (new document being inlined)
             if 'title-header' in element.get('class', []):
                 # Add spacing after page break before the title header
-                latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.7cm}}\n\n"
+                header_text = escape_latex(element.get_text().strip())
+                latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
@@ -220,11 +236,22 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     # Skip this description block when we encounter it in the normal loop
                     next_elem['processed'] = True
             else:
-                latex_content += f"\\section*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.5cm}}\n\n"
+                header_text = escape_latex(element.get_text().strip())
+                latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
         elif element.name == 'h2':
-            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.3cm}}\n\n"
+            # Get the ID for label if available
+            element_id = element.get('id', '')
+            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            
+            header_text = escape_latex(element.get_text().strip())
+            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
-            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{escape_latex(element.get_text().strip())}}}\n\\vspace{{0.2cm}}\n\n"
+            # Get the ID for label if available
+            element_id = element.get('id', '')
+            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            
+            header_text = escape_latex(element.get_text().strip())
+            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
         elif element.name == 'p':
             # Check if this paragraph contains an image container
             img_container = element.find('div', class_='image-container')
@@ -319,12 +346,27 @@ def html_to_latex(html_path: str) -> LatexDocument:
                 if child.name:  # Skip text nodes
                     # Recursively process the child as if it were a direct child of story_div
                     if child.name == 'h1':
+                        # Get the ID for label if available
+                        element_id = child.get('id', '')
+                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        
                         # Handle h1 elements (similar to above, but simplified)
-                        latex_content += f"\\section*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.5cm}}\n\n"
+                        header_text = escape_latex(child.get_text().strip())
+                        latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
                     elif child.name == 'h2':
-                        latex_content += f"\\subsection*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.3cm}}\n\n"
+                        # Get the ID for label if available
+                        element_id = child.get('id', '')
+                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        
+                        header_text = escape_latex(child.get_text().strip())
+                        latex_content += f"\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
-                        latex_content += f"\\subsubsection*{{{escape_latex(child.get_text().strip())}}}\n\\vspace{{0.2cm}}\n\n"
+                        # Get the ID for label if available
+                        element_id = child.get('id', '')
+                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        
+                        header_text = escape_latex(child.get_text().strip())
+                        latex_content += f"\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
                     elif child.name == 'p':
                         para_content = process_inline_elements(child)
                         latex_content += para_content + "\n\n"
@@ -391,7 +433,13 @@ def process_inline_elements(element, in_quote=False) -> str:
         elif content.name == 'a':
             href = content.get('href', '#')
             text = escape_latex(content.get_text())
-            result += f"\\href{{{href}}}{{{text}}}"
+            
+            # If this is an anchor link, create a page reference
+            if href.startswith('#'):
+                anchor_id = href[1:]  # Remove the # from the href
+                result += f"``{text}'' on page~\\pageref{{{anchor_id}}}"
+            else:
+                result += f"\\href{{{href}}}{{{text}}}"
         elif content.name == 'img':
             # Skip, images are handled separately
             pass
