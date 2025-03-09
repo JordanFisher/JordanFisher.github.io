@@ -1,17 +1,23 @@
+import json
 import os
 import shutil
+from typing import Optional
 import google
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 import pickle
+from convert import convert_doc_to_text
 
 from doc_list import gdoc_urls
 
 
 # If modifying these scopes, delete the file token.pickle.
-SCOPES = ['https://www.googleapis.com/auth/documents.readonly']
+SCOPES = [
+    'https://www.googleapis.com/auth/documents.readonly',
+    'https://www.googleapis.com/auth/drive.readonly',
+]
 
 def get_credentials():
     """Gets valid user credentials from storage.
@@ -32,9 +38,9 @@ def get_credentials():
             try:
                 creds.refresh(Request())
             except google.auth.exceptions.RefreshError as e:
-                cred = None
+                creds = None
         
-        if cred is None:
+        if creds is None:
             flow = InstalledAppFlow.from_client_secrets_file(
                 'client_secret_73374229538-l7u9qnk182a3m309ivk097928smmtjjj.apps.googleusercontent.com.json', SCOPES)
             creds = flow.run_local_server(port=0)
@@ -63,7 +69,7 @@ def extract_doc_id(url):
         raise ValueError(f"Could not extract document ID from URL: {url}")
     return doc_id
 
-def fetch_document_content(service, doc_id):
+def fetch_gdoc(service, doc_id) -> Optional[dict]:
     """Fetches the content of a Google Doc and returns it as a string.
     
     Args:
@@ -71,29 +77,26 @@ def fetch_document_content(service, doc_id):
         doc_id (str): The ID of the document to fetch
         
     Returns:
-        str: The document content as a string
+        dict: The document represented as a dictionary
     """
     try:
-        document = service.documents().get(documentId=doc_id).execute()
-        content = ''
-        
-        for elem in document.get('body').get('content'):
-            if 'paragraph' in elem:
-                for para_elem in elem.get('paragraph').get('elements'):
-                    if 'textRun' in para_elem:
-                        content += para_elem.get('textRun').get('content')
-        
-        return content
+        document: dict = service.documents().get(documentId=doc_id).execute()
+        return document
     except Exception as e:
         print(f"Error fetching document {doc_id}: {str(e)}")
         return None
 
-def save_doc(doc: str) -> str:
-    title = doc.split('\n')[0].strip()
-    filename = title.replace(' ', '_').lower() + '.txt'
-    with open(os.path.join("fetched_docs", filename), 'w') as f:
-        f.write(doc)
-    return doc
+def save_doc(url_names: list[str], doc: dict) -> str:
+    txt = convert_doc_to_text(doc)
+
+    for filename in url_names:
+        with open(os.path.join("fetched_docs", filename + '.json'), 'w') as f:
+            json.dump(doc, f, indent=2)
+
+        with open(os.path.join("fetched_docs", filename + '.txt'), 'w') as f:
+            f.write(txt)
+
+    return txt
 
 with open('post_template.html') as f:
     POST_HTML_TEMPLATE = f.read()
@@ -101,7 +104,7 @@ with open('post_template.html') as f:
 with open('index_template.html') as f:
     INDEX_HTML_TEMPLATE = f.read()
 
-def save_html(doc: str) -> tuple[str, str, str]:
+def save_html(url_names: list[str], doc: str) -> tuple[str, str, str]:
     lines = doc.split('\n')
     title = lines[0].strip()
     
@@ -121,18 +124,23 @@ def save_html(doc: str) -> tuple[str, str, str]:
         description += line
     print(description)
 
-    filename = title.replace(' ', '_').lower() + '.html'
+    # Base the filename on the title.
+    # filename = title.replace(' ', '_').lower() + '.html'
+
     post = '\n'.join(f'            <p>{line.strip()}</p>' for line in lines[line_index + 1:] if line.strip() != '')
     html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", post)
-    with open(os.path.join("posts", filename), 'w') as f:
-        f.write(html)
+    for filename in url_names:
+        with open(os.path.join("posts", filename + ".html"), 'w') as f:
+            f.write(html)
     return title, description, filename
 
 def main():
     # Get credentials and build service
     creds = get_credentials()
     service = build('docs', 'v1', credentials=creds)
-    
+
+    drive_service = build('drive', 'v3', credentials=creds)
+        
     # Delete existing fetched_docs and posts directory.
     if os.path.exists('fetched_docs'):
         shutil.rmtree('fetched_docs')
@@ -144,14 +152,18 @@ def main():
     # Process each document
     documents = {}
     links = []
-    for url in gdoc_urls:
+    for url_names, url in gdoc_urls:
         try:
             doc_id = extract_doc_id(url)
-            content = fetch_document_content(service, doc_id)
-            if content:
-                documents[url] = save_doc(content)
-                title, description, post_url = save_html(content)
-                print("!", description)
+            # request = drive_service.files().export_media(fileId=doc_id, mimeType='text/md')
+            # doc = request.execute()
+            # print(doc)
+            # import ipdb; ipdb.set_trace()
+
+            doc = fetch_gdoc(service, doc_id)
+            if doc:
+                documents[url] = txt = save_doc(url_names, doc)
+                title, description, post_url = save_html(url_names, txt)
                 links.append((title, description, post_url))
             else:
                 print(f"Failed to fetch content for {url}")
