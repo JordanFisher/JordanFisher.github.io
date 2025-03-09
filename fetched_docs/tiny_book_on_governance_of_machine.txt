@@ -1,7 +1,9 @@
 The Tiny Book on the Governance of Machine
-[[[Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it’s a quick read]]]
+[[[Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it’s a quick read.
 
-No one wants to read 50 pages on governance. This book is built to be read in parts, or just pick the parts you’re interested in.
+Good luck.]]]
+
+No one wants to read 50 pages on governance in one go. So this book is built to be read in parts, or just pick the parts you’re interested in.
 
 Want a primer on AI? Start with .
 
@@ -9,42 +11,11 @@ Already up to speed on AI and understand the risks? Jump straight to .
 
 Just want to read some new ideas in AI governance? Jump to .
 
-Only have 30 seconds? Read the TL;DR
+Only have 30 seconds? Read the .
+
+Or, fuck it, YOLO your way through the whole book.
 
 
-TL;DR
-
-AI changes what we need from governance
-Societies that allow for freedom and maximum human flourishing aren’t easy to build
-
-Ours took thousands of years of trial and error and is still a work in progress
-
-What allows a society to function depends strongly on the details of its members: us humans
-
-Introducing AI will completely change all of those details
-
-Because of that, we must rethink society if we want it to be resilient to the arrival of AI
-
-There are many risks we’ll face, and some risks aren’t yet being discussed
-In particular, the risk of concentration of power and dictatorship is extreme with the full power of AI automation
-
-Without changes, dictatorships are a default outcome of AI. And it will be increasingly hard for us to resist it the later we act
-
-We must evolve our governance before strong AI arrives, or we may not have any power left as citizens to fix it after
-
-Humans alone won’t be able to oversee leaders empowered by AI
-
-AI-powered governance of AI
-Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI
-
-Passing laws is necessary but not sufficient
-
-We must enshrine the oversight inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions
-
-We all are part of this
-AI is the most important event in our life time, but the outcome is not yet written
-
-We all own the conversation for what we want the future to be
 
 
 Intro
