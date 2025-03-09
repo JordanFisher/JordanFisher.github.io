@@ -413,12 +413,26 @@ def inline_links(html_content: str) -> str:
                     # Find the first heading to use as an anchor point
                     first_heading = linked_soup.find(['h1', 'h2', 'h3'])
                     if first_heading:
-                        # Create a sanitized ID from the heading text
-                        heading_text = first_heading.get_text().strip()
-                        sanitized_id = re.sub(r'[^a-zA-Z0-9]', '-', heading_text).lower()
-                        # Add an ID attribute to the first heading for anchoring
-                        first_heading['id'] = sanitized_id
-                        inlined_doc_ids[doc_id] = sanitized_id
+                        # Create a sanitized ID from the heading text - strip HTML tags
+                        raw_html = str(first_heading)
+                        # First check if a heading ID comes from the original gdoc
+                        heading_id_match = re.search(r'headingId.*?[\'"](.+?)[\'"]', str(linked_soup))
+                        
+                        if heading_id_match:
+                            # If we have a heading ID from the original gdoc, use that
+                            original_heading_id = heading_id_match.group(1)
+                            first_heading['id'] = f"h-{original_heading_id}"
+                            inlined_doc_ids[doc_id] = f"h-{original_heading_id}"
+                        else:
+                            # Otherwise, create an ID from the text content
+                            # Get the text content without HTML tags
+                            heading_text = BeautifulSoup(raw_html, 'html.parser').get_text().strip()
+                            # Use only the key words for the ID, ignore [Final] and similar suffixes
+                            main_title = re.sub(r"\s*\[.*?\].*", "", heading_text).strip()
+                            sanitized_id = re.sub(r'[^a-zA-Z0-9]', '-', main_title).lower()
+                            # Add an ID attribute to the first heading for anchoring
+                            first_heading['id'] = sanitized_id
+                            inlined_doc_ids[doc_id] = sanitized_id
                     
                     # Replace the header with the linked content directly
                     # Create a parent container for all the content
@@ -452,13 +466,22 @@ def inline_links(html_content: str) -> str:
                 # Check if this document is already inlined
                 if doc_id in inlined_doc_ids:
                     # If there's an original anchor, try to find it in the inlined content
-                    if orig_anchor and orig_anchor.startswith("heading="):
-                        # Extract heading reference and convert to proper anchor format
-                        heading_ref = orig_anchor.split("=")[1]
-                        clean_anchor = re.sub(r'[^a-zA-Z0-9]', '-', heading_ref).lower()
-                        # Try to find a heading with this text in the document
-                        # This is a best-effort approach
-                        link['href'] = f"#{clean_anchor}"
+                    if orig_anchor:
+                        if orig_anchor.startswith("heading="):
+                            # Extract heading reference from the anchor
+                            heading_ref = orig_anchor.split("=")[1]
+                            # If it's a heading ID (format: h.12345)
+                            if heading_ref.startswith("h."):
+                                # Use h-[id] format for the anchor
+                                link['href'] = f"#h-{heading_ref[2:]}"
+                            else:
+                                # Otherwise, use a sanitized version of the heading text
+                                clean_anchor = re.sub(r'[^a-zA-Z0-9]', '-', heading_ref).lower()
+                                link['href'] = f"#{clean_anchor}"
+                        else:
+                            # Handle other types of anchors
+                            clean_anchor = re.sub(r'[^a-zA-Z0-9]', '-', orig_anchor).lower()
+                            link['href'] = f"#{clean_anchor}"
                     else:
                         # Otherwise, link to the first heading of the inlined content
                         link['href'] = f"#{inlined_doc_ids[doc_id]}"
