@@ -106,20 +106,32 @@ with open('index_template.html') as f:
 
 def save_html(url_names: list[str], gdoc_data: dict) -> tuple[str, str, str]:
     # Get title, description, and HTML content from the Google Doc
-    title, description, html_content = convert_doc_to_html(gdoc_data)
-    
-    # Use the first url_name as the filename
-    filename = url_names[0] if url_names else ""
-    
-    # Replace placeholders in the HTML template
-    html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", html_content)
+    gdoc_title, description, html_content = convert_doc_to_html(gdoc_data)
+   
+    # Replace placeholders in the HTML template, but don't add the title again
+    # since it's already in the HTML content
+    html = POST_HTML_TEMPLATE.replace("TITLE", gdoc_title).replace("POST", html_content)
     
     # Write to files
     for filename in url_names:
         with open(os.path.join("posts", filename + ".html"), 'w') as f:
             f.write(html)
-    
-    return title, description, filename
+
+    # Use the first url_name as the link to the post
+    link = url_names[0] + ".html"
+
+    # Return the HTML title which may include formatting
+    # Extract the title from html_content - it should be the first h1 tag
+    import re
+    html_title = ""
+    h1_match = re.search(r'<h1>(.*?)</h1>', html_content)
+    if h1_match:
+        html_title = h1_match.group(1)
+    else:
+        # Fallback to gdoc title if no h1 found
+        html_title = gdoc_title
+
+    return html_title, description, link
 
 def main():
     # Get credentials and build service

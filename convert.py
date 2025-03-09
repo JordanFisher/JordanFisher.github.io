@@ -36,14 +36,15 @@ def convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
         tuple: (title, description, html_content)
             - title (str): The document title
             - description (str): The extracted description
-            - html_content (str): The Google Doc as an HTML string
+            - html_content (str): The Google Doc as an HTML string with the title already included
     """
     try:
         content = ''
         title = ''
         if 'title' in doc:
             title = doc['title']
-            content += f'<h1>{title}</h1>\n'
+            # Don't add the title to the HTML content - it should be part of the document content
+            # and we'll use the first H1 tag as the title in the index
         
         # Track the current list nesting level to properly manage list tags
         current_list_level = -1
