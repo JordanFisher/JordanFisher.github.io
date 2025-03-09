@@ -29,24 +29,16 @@
             },
             {
               "startIndex": 9,
-              "endIndex": 20,
-              "textRun": {
-                "content": " Guardrails",
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 20,
               "endIndex": 21,
               "textRun": {
-                "content": "\n",
+                "content": " Guardrails\n",
                 "textStyle": {}
               }
             }
           ],
           "paragraphStyle": {
             "headingId": "h.34v88su648ei",
-            "namedStyleType": "HEADING_1",
+            "namedStyleType": "TITLE",
             "direction": "LEFT_TO_RIGHT"
           }
         }
@@ -6565,7 +6557,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LsDC4HvUAWJrGN3wfvwoMuBiURiPFMIEby9x1MW7PxKC_gCUEeo5MDBmJ9Wf7OOd743Lz1G0688YL1IyA",
+  "revisionId": "ALBJ4Lv3fCGJZd0na24fGgG-r17VnqBjw68gLiB6dh9mfqL_ZQl-3dcNPWf9-HBF8_G7PoLX7hS6N3N46woHgw",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1YSvUWGOTsk521pFGTIoaw6o375P-Hl5yDnh15dQ9MGg"
 }

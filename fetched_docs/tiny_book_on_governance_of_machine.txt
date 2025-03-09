@@ -1,7 +1,7 @@
 The Tiny Book on the Governance of Machine
 [[[Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it’s a quick read]]]
 
-No one wants to read 50 pages on governance. This book is built to be read in parts; pick the parts you’re interested in.
+No one wants to read 50 pages on governance. This book is built to be read in parts, or just pick the parts you’re interested in.
 
 Want a primer on AI? Start with .
 
@@ -162,20 +162,13 @@ a designer’s mindset to iterate quickly as reality pulls your planes from the 
 This is how we’ll forge a resilient system.
 
 Let’s start with the first approach: to understand what works today. In particular, what are the hidden, implicit forces that hold civilization together that may disappear in an automated world.
-Implicit Guardrails
-Link out to 
-
-By any other name
-Link out to  and/or 
-
-Rapid fire governance
 
 
-An exponential, if you can keep it
+ 
+
 
 
 
 
 Appendix
-
 

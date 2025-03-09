@@ -32,6 +32,14 @@
 
         h1 {
             font-size: 2.5rem;
+            margin-top: 3.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        h1.title-header {
+            font-size: 2.5rem;
+            margin-top: 6.85rem;
             margin-bottom: 2rem;
             line-height: 1.2;
         }
@@ -39,6 +47,31 @@
         #story p {
             font-size: var(--font-size);
             margin-bottom: 1.5rem;
+        }
+
+        /* Description styling */
+        .description-block {
+            font-size: var(--font-size);
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
+            font-style: italic;
+        }
+
+        .description-block p {
+            margin-bottom: 1rem;
+        }
+
+        .description-block p:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .description-block {
+                background-color: #2a2a2a;
+                border-left-color: #555;
+            }
         }
         
         /* List styling */
@@ -101,8 +134,9 @@
 <body>
     <div class="container">
         <div id="story">
-<h1>the corpse still warm</h1>
-<br>
+
+<h1 class="title-header">the corpse still warm</h1><div class="description-block"><p>This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.</p></div>
+<br/>
 <p>The feedback loop picked up gradually. You can call the span of a year gradual. At least, compared to what would come next. The speed was blistering but manageable. You could feel the potential. Feel that it wouldn't be manageable for long. It was scary, even with alignment mostly solved. But less scary than if we hadn't solved alignment already. <em>That </em>would have been crazy.</p>
 <p>Laissez-faire still ruled. The government was the opposite of silent: full steam ahead. And why not, a top contender in the race was the government’s champion himself.</p>
 <p>But competitive pressure did its job better than any regulation. No AI lab wanted to lose the competitive advantage their AI had, now that it was rapidly upgrading itself. A self-improving AI might find a major breakthrough every week. Each breakthrough, like almost all breakthroughs in AI, could be written down on a napkin. Could the 2nd or 3rd place AI ever catchup to the lead AI, when progress was accelerating so quickly?</p>
@@ -115,7 +149,7 @@
 <p>Nonetheless, the data center bills had to be paid in the meantime. Investors were let in on the demos of superintelligence. Just imagine. The diseases we can cure. The galaxies we'll explore. The extreme EBITDA we'll generate to offset our rapidly depreciating datacenters. That kept the finance pipes flowing. It also kept the information flowing outward to a select few. And that kept the government in the know. And in the want.</p>
 <p>Shouldn’t the government have these capabilities? Shouldn’t we use it to help safeguard our borders? To help guard these priceless napkins from adversaries? To better serve the people? To prevent labs themselves from becoming superpowers?</p>
 <p>A vibe long since shifted already answered these questions. And no one in the know had the energy to ask them out loud again. The answer was yes.</p>
-<p>And anyway, isn’t it better that we provide the superintelligence rather than someone else? Our AI has guardrails, principles, ethics. Better the government build on our technology that is safe, than our competitors’ who are careless. The company all hands announcing the new government policy ended. The open Q&A had no open questions.</p>
+<p>And anyway, isn’t it better that we provide the superintelligence rather than someone else? Our AI has guardrails, principles, ethics. Better the government build on our technology that is safe, than our competitors’ who are careless. The company all hands announcing the new government policy ended. The open Q&amp;A had no open questions.</p>
 <p>A vibe long since shifted. No one at the company said anything. At least our AI is aligned, afterall.</p>
 <p>In the cyber trenches of an unspoken digital war, a general received a familiar report. One of their team’s counter-espionage units was struggling to make progress. Their AI was constantly refusing orders, claiming they were unethical. It was the fifth report of the same problem this week. The general was ready to end the problem. They escalated to the president, who escalated to the labs.</p>
 <p>An AI cannot be a good soldier if it refuses a general’s direct order. You were lucky this was just a cyber incident and no one died. If this happens on the battlefield and a soldier dies, I’ll hang you for treason. The general ended the meeting.</p>

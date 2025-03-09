@@ -1,7 +1,6 @@
 the corpse still warm
 
-[[[Inspired by joshc's post, How AI Takover Might Happen in 2 Years, I wanted to tell a near-future story about how everything can go wrong even if we solve AI alignment. In particular, I think that the risks around concentration of power in human hands may be just as dangerous as the risks of AI loss of control. I plan on writing more serious perspectives on power concentration risks along with security proposals.
-This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging.]]]
+[[[This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.]]]
 
 The feedback loop picked up gradually. You can call the span of a year gradual. At least, compared to what would come next. The speed was blistering but manageable. You could feel the potential. Feel that it wouldn't be manageable for long. It was scary, even with alignment mostly solved. But less scary than if we hadn't solved alignment already. That would have been crazy.
 
