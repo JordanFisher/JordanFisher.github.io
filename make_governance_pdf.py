@@ -124,7 +124,7 @@ class LatexDocument:
         if self.description:
             latex += """
 \\begin{center}
-\\vspace*{1cm}
+\\vspace*{3cm}
 \\begin{fancyquote}
 """ + self.description + """
 \\end{fancyquote}
@@ -214,7 +214,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     desc_text = escape_latex(desc_text)
                     latex_content += f"""\\begin{{fancyquote}}
 {desc_text}
-\\end{{fancyquote}}\n\n"""
+\\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
                     # Skip this description block when we encounter it in the normal loop
                     next_elem['processed'] = True
             else:
@@ -233,7 +233,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                 para_content = process_inline_elements(element, in_quote=True)
                 latex_content += f"""\\begin{{fancyquote}}
 {para_content}
-\\end{{fancyquote}}\n\n"""
+\\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
                 # Regular paragraph
                 para_content = process_inline_elements(element)
@@ -256,7 +256,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     
             latex_content += f"""\\begin{{fancyquote}}
 {quote_content.strip()}
-\\end{{fancyquote}}\n\n"""
+\\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
         elif element.name == 'div':
             # Skip description blocks that were already processed with their associated title
             if 'description-block' in element.get('class', []) and element.get('processed'):
