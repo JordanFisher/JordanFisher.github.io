@@ -124,7 +124,7 @@ class LatexDocument:
         if self.description:
             latex += """
 \\begin{center}
-\\vspace*{3cm}
+\\vspace*{7cm}
 \\begin{fancyquote}
 """ + self.description + """
 \\end{fancyquote}

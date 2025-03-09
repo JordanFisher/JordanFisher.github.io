@@ -66,19 +66,29 @@
 }
 
 % Title configuration
-\title{$title$}
-\author{Jordan Ezra Fisher}
-\date{\today}
+\title{}
+\author{}
+\date{}
 
 \begin{document}
 
 \frontmatter
-\maketitle
+
+% Custom title page with left-justified multi-line title
 \thispagestyle{empty}
+\begin{flushleft}
+\vspace*{5cm}
+{\huge\bfseries The Tiny Book}\\[0.3cm]
+{\huge\bfseries on the}\\[0.3cm]
+{\huge\bfseries Governance of Machine}\\[1.5cm]
+{\large Jordan Ezra Fisher}\\[0.3cm]
+\vfill
+{\small \today}
+\end{flushleft}
 
 % Description block for main document (special treatment with more spacing)
 \begin{center}
-\vspace*{1cm}
+\vspace*{7cm}
 \begin{fancyquote}
 $main_description$
 \end{fancyquote}
@@ -88,13 +98,16 @@ $main_description$
 \mainmatter
 \setcounter{page}{1}
 
-% Repeat the title at the beginning of main content
+% Repeat the title at the beginning of main content with left justification
 \clearpage
-\begin{center}
 \vspace*{1cm}
-{\Large\bfseries $title$}
-\vspace*{1cm}
-\end{center}
+\begin{flushleft}
+{\Large\bfseries The Tiny Book}\\[0.3cm]
+{\Large\bfseries on the}\\[0.3cm]
+{\Large\bfseries Governance of Machine}\\[0.5cm]
+{\normalsize Jordan Ezra Fisher}
+\end{flushleft}
+\vspace*{0.5cm}
 
 $content$
 
