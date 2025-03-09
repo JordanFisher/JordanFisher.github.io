@@ -54,6 +54,9 @@ def convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
         in_description = False
         description_paragraphs = []
         
+        # For tracking consecutive empty paragraphs
+        consecutive_empty_paragraphs = 0
+        
         for elem in doc['body']['content']:
             if 'paragraph' in elem:
                 paragraph = elem.get('paragraph')
@@ -107,12 +110,16 @@ def convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                     description_paragraphs.append(raw_text.strip())
                     continue  # Skip adding this to the HTML content
                 
-                # Skip formatting for empty paragraphs but still add some space
+                # Handle consecutive empty paragraphs
                 if is_empty_paragraph and not in_description:
-                    # If we're not in a list, just add a blank line
-                    if current_list_level < 0:
-                        content += '<br>\n'
+                    consecutive_empty_paragraphs += 1
                     continue
+                else:
+                    # Add <br> tags for consecutive empty paragraphs (n-1 of them)
+                    if consecutive_empty_paragraphs > 1 and current_list_level < 0:
+                        for i in range(consecutive_empty_paragraphs - 1):
+                            content += '<br>\n'
+                    consecutive_empty_paragraphs = 0
                 
                 # Skip processing if we're still in the description
                 if in_description:
@@ -220,6 +227,11 @@ def convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
         if current_list_level >= 0:
             for i in range(current_list_level, -1, -1):
                 content += '  ' * i + '</ul>\n'
+                
+        # Handle any trailing empty paragraphs
+        if consecutive_empty_paragraphs > 1:
+            for i in range(consecutive_empty_paragraphs - 1):
+                content += '<br>\n'
         
         # Join the description paragraphs with paragraph breaks
         description = "<br><br>".join(description_paragraphs)
