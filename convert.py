@@ -2,6 +2,7 @@ import functools
 from typing import Optional, Dict, Tuple, List, Any
 import re
 import copy
+import inspect
 from bs4 import BeautifulSoup
 
 # Global service for document fetching, to be set by the application
@@ -124,8 +125,8 @@ def convert_doc_to_html(doc_id: str) -> tuple[str, str, str]:
     # Convert the document to HTML
     title, description, html_content = _convert_doc_to_html(doc)
     
-    # Process links in the HTML
-    processed_html = inline_links(html_content)
+    # Process links in the HTML, but don't handle descriptions (they're handled in generate_site.py)
+    processed_html = inline_links(html_content, handle_descriptions=False)
     
     return title, description, processed_html
 
@@ -376,7 +377,7 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
         raise e
 
 
-def inline_links(html_content: str) -> str:
+def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
     """Process Google Doc links in HTML content.
     
     This function handles three types of links:
@@ -389,6 +390,9 @@ def inline_links(html_content: str) -> str:
     
     Args:
         html_content (str): HTML content to process
+        handle_descriptions (bool): Whether to add description blocks for inlined content.
+                                   Set to False to avoid duplicate descriptions when it's
+                                   handled elsewhere in the process.
     
     Returns:
         str: HTML content with links processed
@@ -452,39 +456,61 @@ def inline_links(html_content: str) -> str:
                             first_heading['id'] = sanitized_id
                             inlined_doc_ids[doc_id] = sanitized_id
                     
-                    # Special handling for specific document IDs
-                    if doc_id == "1t04E8WY-0purWxgSpSr3KFv63b5YWMY_LpwmU1NZ0cQ":  # Implicit Guardrails
-                        # For this specific document, just replace the heading with the first heading from the linked document
-                        new_heading = soup.new_tag(first_heading.name)
-                        new_heading['id'] = first_heading.get('id', 'implicit-guardrails')
+                    # Get the parent and position of the original heading
+                    heading_parent = heading.parent
+                    heading_index = None
+                    
+                    # Find the index of the heading in its parent
+                    for i, child in enumerate(heading_parent.contents):
+                        if child is heading:
+                            heading_index = i
+                            break
+                    
+                    # Extract the original heading text
+                    original_heading_text = heading.get_text().strip()
+                    
+                    # When a heading has a link, we always want to inline the content
+                    # Remove the original heading first
+                    heading.extract()
+                    
+                    # Create a new version of the first heading with correct ID
+                    new_heading = soup.new_tag(first_heading.name)
+                    new_heading['id'] = sanitized_id  # Use the sanitized ID we created
+                    
+                    # Copy the contents of the first heading including any formatting
+                    for child in first_heading.children:
+                        new_heading.append(copy.copy(child))
                         
-                        # Copy the contents of the first heading including any formatting
-                        for child in first_heading.children:
-                            new_heading.append(copy.copy(child))
-                        
-                        # Replace the original heading with the heading from the linked document
-                        heading.replace_with(new_heading)
-                    else:
-                        # For other documents, inline all content
-                        heading_parent = heading.parent
-                        heading_index = None
-                        
-                        # Find the index of the heading in its parent
-                        for i, child in enumerate(heading_parent.contents):
-                            if child is heading:
-                                heading_index = i
-                                break
-                        
-                        # Remove the original heading
-                        heading.extract()
-                        
-                        # Insert all content from the linked document at the position of the original heading
-                        if heading_index is not None:
-                            # Add all elements from the linked document directly at the position of the heading
-                            for element in linked_soup.find_all(True, recursive=False):
-                                if element.name:
-                                    heading_parent.insert(heading_index, copy.copy(element))
-                                    heading_index += 1
+                    # Insert the new heading at the original position
+                    heading_parent.insert(heading_index, new_heading)
+                    heading_index += 1
+                    
+                    # Insert the description if there is one and we're handling descriptions
+                    if handle_descriptions and description and description.strip():
+                        description_html = """<div class="description-block">"""
+                        paragraphs = description.split("<br><br>")
+                        for p in paragraphs:
+                            if p.strip():
+                                description_html += f"<p>{p.strip()}</p>"
+                        description_html += "</div>"
+                        description_block = BeautifulSoup(description_html, 'html.parser')
+                        heading_parent.insert(heading_index, description_block)
+                        heading_index += 1
+                    
+                    # Now insert all the content elements
+                    content_elements = []
+                    for element in linked_soup.find_all(True, recursive=False):
+                        # Skip the first heading since we already added our version
+                        if element == first_heading:
+                            continue
+                        # Add all other elements
+                        if element.name:
+                            content_elements.append(element)
+                    
+                    # Insert all the content at the right position
+                    for element in content_elements:
+                        heading_parent.insert(heading_index, copy.copy(element))
+                        heading_index += 1
     
     # Second pass: Process links in the body
     for link in soup.find_all('a'):
