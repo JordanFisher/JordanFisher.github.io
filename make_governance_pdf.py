@@ -705,10 +705,53 @@ def ensure_latex_templates_dir():
             print(f"Warning: Could not create templates directory: {e}")
     return templates_dir
 
+def merge_pdf_with_cover(original_pdf, cover_pdf, output_pdf):
+    """Merge a PDF with a custom cover and back page."""
+    try:
+        # Check if PyPDF2 is installed
+        import PyPDF2
+    except ImportError:
+        print("Error: PyPDF2 is not installed. Please install it using 'pip install PyPDF2'.")
+        return False
+    
+    try:
+        # Open the original PDF and the cover PDF
+        with open(original_pdf, 'rb') as pdf_file, open(cover_pdf, 'rb') as cover_file:
+            pdf_reader = PyPDF2.PdfReader(pdf_file)
+            cover_reader = PyPDF2.PdfReader(cover_file)
+            
+            # Create a new PDF writer
+            pdf_writer = PyPDF2.PdfWriter()
+            
+            # Add the cover page (first page of cover_pdf)
+            if len(cover_reader.pages) > 0:
+                pdf_writer.add_page(cover_reader.pages[0])
+            
+            # Add all pages from the original PDF (except the first page)
+            for page_num in range(1, len(pdf_reader.pages)):
+                pdf_writer.add_page(pdf_reader.pages[page_num])
+            
+            # Add the back page (second page of cover_pdf)
+            if len(cover_reader.pages) > 1:
+                pdf_writer.add_page(cover_reader.pages[1])
+            
+            # Write the result to the output file
+            with open(output_pdf, 'wb') as output_file:
+                pdf_writer.write(output_file)
+            
+            print(f"Successfully created PDF with custom cover at {output_pdf}")
+            return True
+            
+    except Exception as e:
+        print(f"Error merging PDFs: {e}")
+        return False
+        
 def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
                         help='Output PDF file path')
+    parser.add_argument('--with-cover', action='store_true',
+                        help='Generate a version with custom cover and back page')
     args = parser.parse_args()
     
     # Ensure LaTeX templates directory exists
@@ -738,6 +781,22 @@ def main():
     # Convert LaTeX to PDF
     print(f"Converting LaTeX to PDF...")
     latex_to_pdf(latex_content, args.output)
+    
+    # If --with-cover flag is set, create a second version with custom cover
+    if args.with_cover:
+        # Path to the cover PDF
+        cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
+        
+        if not os.path.exists(cover_pdf):
+            print(f"Error: Cover PDF {cover_pdf} not found.")
+            return
+        
+        # Generate output filename for the version with cover
+        output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
+        
+        # Merge the PDFs
+        print(f"Creating version with custom cover...")
+        merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
 
 
 if __name__ == "__main__":
