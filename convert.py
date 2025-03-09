@@ -473,6 +473,12 @@ def inline_links(html_content: str) -> str:
                             # Special case for "Implicit Guardrails"
                             if heading_ref == "h.34v88su648ei":
                                 link['href'] = "#implicit-guardrails"
+                                # Update the link text to match the heading with strikethrough
+                                link.clear()
+                                strikethrough = soup.new_tag('s')
+                                strikethrough.string = "Implicit"
+                                link.append(strikethrough)
+                                link.append(" Guardrails")
                             # If it's a heading ID (format: h.12345)
                             elif heading_ref.startswith("h."):
                                 # Use h-[id] format for the anchor
@@ -489,8 +495,27 @@ def inline_links(html_content: str) -> str:
                         # Otherwise, link to the first heading of the inlined content
                         link['href'] = f"#{inlined_doc_ids[doc_id]}"
                     
-                    # Update the link text to indicate it's an internal reference
-                    if not link.string or link.string.strip() == '':
+                    # Update the link text to match the actual heading when they differ
+                    # Get the current link text
+                    current_text = link.get_text().strip()
+                    
+                    # Find the referenced heading by ID
+                    heading_id = inlined_doc_ids[doc_id]
+                    target_heading = soup.find(id=heading_id)
+                    
+                    # If the target heading exists and the text differs significantly
+                    if target_heading and current_text and '[Final]' in current_text:
+                        # Get the actual heading text without the [Final] suffix
+                        actual_text = target_heading.get_text().strip()
+                        # If the heading has HTML formatting, preserve it
+                        if target_heading.find('s'):  # If it has strikethrough
+                            link.clear()
+                            # Copy the structure of the original heading
+                            for child in target_heading.children:
+                                link.append(child.wrap(soup.new_tag(child.name)) if hasattr(child, 'name') else child)
+                    
+                    # For empty links, add descriptive text
+                    elif not current_text or current_text.strip() == '':
                         # If link has no text, use "See section: heading"
                         heading_text = inlined_doc_ids[doc_id].replace('-', ' ').title()
                         link.string = f"See section: {heading_text}"
