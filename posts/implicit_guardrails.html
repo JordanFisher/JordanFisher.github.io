@@ -102,6 +102,20 @@
             margin-top: 0.5rem;
             margin-bottom: 1.6rem;
         }
+        
+        /* Image styling */
+        .image-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .doc-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
 
         @media (prefers-color-scheme: dark) {
             body {
@@ -141,9 +155,9 @@
 <p>It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.</p>
 <p>Let’s try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI we will be explicitly removing these implicit forces, and we’ll need to find explicit ways to reintroduce their effects.</p>
 <br/>
-<p>Examples of implicit guardrails</p>
+<h1>Examples of implicit guardrails</h1>
 <ul>
-<li>Knowledge convection</li>
+<li><strong>Knowledge convection</strong></li>
 <ul>
 <li>People move around and take their knowledge with them</li>
 <li>Knowledge is power, so this helps diffuse power</li>
@@ -152,169 +166,170 @@
 <li>At the international level this helps balance power between nations</li>
 <li>Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. Complete lack of info can lead to paranoia and escalation</li>
 </ul>
-<li>Noble causes</li>
+<li><strong>Noble causes</strong></li>
 <ul>
 <li>Many are inspired by noble causes</li>
 <li>That allows noble causes to have an advantage over dishonorable ones</li>
 <li>In an automated world, the only advantage will go to the cause with more machine resources</li>
 </ul>
-<li>Top talent</li>
+<li><strong>Top talent</strong></li>
 <ul>
 <li>The hardest problems in the world require the work of the most talented people in the world</li>
 <li>Literal moonshots today can’t succeed without these people, which allows them to “vote” on what moonshots should be “funded” with their talent</li>
 <li>Can organized, smart people achieve a Bad Thing on behalf of a self-interested owner? Yes, but they often choose not to, and it certainly is an impediment to evil causes.</li>
 <li>Building AI is itself a moonshot. AI researchers have incredible power today to shape the direction of AI, <em>if they choose to wield it</em></li>
 </ul>
-<li>People can quit</li>
+<li><strong>People can quit</strong></li>
 <ul>
 <li>On the flip side of choosing to work for a cause, people can choose to quit or protest</li>
 <li>This limits how nefarious a corporation or government can be</li>
 <li>Employees and soldiers are required by law <strong><em>and by our culture </em></strong>to refuse evil orders</li>
 <li>Conscientious objection is a powerful limit on government malfeasance</li>
 </ul>
-<li>Refusing specific orders</li>
+<li><strong>Refusing specific orders</strong></li>
 <ul>
 <li>Famously, in 1983, Stanislov Petrov saved the world by refusing to launch nuclear weapons against the United States</li>
 <li>There may not be an AI version of Petrov, if the AI is perfectly aligned to do what it’s asked to do</li>
 </ul>
-<li>Whistleblowers</li>
+<li><strong>Whistleblowers</strong></li>
 <ul>
 <li>Often leaders preemptively avoid breaking the law because they are afraid someone may whistleblow, not just quit</li>
 </ul>
-<li>Conspiracies and cartels are hard today</li>
+<li><strong>Conspiracies and cartels are hard today</strong></li>
 <ul>
 <li>Because they take so many people to pull off, compliance to the cartel becomes exponentially harder as the size of the conspiracy grows. Not true with AI.</li>
 </ul>
-<li>Media</li>
+<li><strong>Media</strong></li>
 <ul>
 <li>When someone does have the courage to whistleblow, there are human reporters ready to spread the story</li>
 <li>Media corporations can and do collude with nefarious corporate actors and politicians, but a healthy market of many media companies helps ensure someone will spread the story. </li>
 <li>And, the implicit guard rails within media companies help prevent the worst abuses</li>
 <li>In an automated world, collusion between a politician and a media owner becomes extremely easy to execute</li>
 </ul>
-<li>Social media</li>
+<li><strong>Social media</strong></li>
 <ul>
 <li>Every person can pick up and spread a story they see on social media</li>
 <li>In a world of infinite machines, indistinguishable from humans, the human choice to amplify will be muted.</li>
 </ul>
-<li>Limited power of committees</li>
+<li><strong>Limited power of committees</strong></li>
 <ul>
 <li>A committee may decide something (which gives them a lot of power! democratically granted or not), but the execution of committee-made decision today is done by people, so the power ultimately lies with them</li>
 <li>You may put a committee in charge of overseeing the usage of an AGI, but ultimately the people actually using the AGI don’t need people for it to execute its task, so what action mechanism does the committee have to actually throttle the user of AGI if they aren’t listening to the committee? would the committee even know?</li>
 </ul>
-<li>Principal-agent problems</li>
+<li><strong>Principal-agent problems</strong></li>
 <ul>
 <li>The principal-agent problem is a well studied management problem, where the goals of an employee (the agent) may not align with the goals of the owner (the principal)</li>
 <li>For example, an employee might treat a client or competitor more kindly, because they might work for them in the future</li>
 <li>Or, an employee may seek a project that helps them get promoted, even when it’s the wrong project to help the company. Or a trader may take on risks that net out positive for them, but net out negative for the people who gave them their money.</li>
 <li>This is a strong limiting factor on the power of large organizations</li>
 </ul>
-<li>Community approval</li>
+<li><strong>Community approval</strong></li>
 <ul>
 <li>People want to do things their loved ones/friends would approve of (and that they themselves can be proud of)</li>
 <li>In many ways we’re an honor bound society</li>
 <li>This allows for all of society to apply implicit guardrails on all things</li>
 <li>A soldier wants to act in a way that they can be proud of, or that their family would be proud of</li>
 </ul>
-<li>Personal fear of reprisal</li>
+</ul>
+<p><div class="image-container"><img alt="Image from Google Doc" class="doc-image" src="images/1YSvUWGOTsk521pFGTIoaw6o375P-Hl5yDnh15dQ9MGg_None.png"/></div></p>
+<ul>
+<li><strong>Personal fear of reprisal</strong></li>
 <ul>
 <li>The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey a job or order</li>
 <li>But an AI need not have fear</li>
 </ul>
-<li>In the judiciary</li>
+<li><strong>In the judiciary</strong></li>
 <ul>
 <li>The application of law often requires the personal ethical considerations of the judge, not all law is explicit</li>
 </ul>
-<li>In the executive/law enforcement</li>
+<li><strong>In the executive/law enforcement</strong></li>
 <ul>
 <li>Likewise, a police officer will often “waive” the application of a law if they feel extraneous circumstances warrant it</li>
 </ul>
-<li>The need for competition</li>
+<li><strong>The need for competition</strong></li>
 <ul>
 <li>Today, we often need competition to align human incentives and then get certain outcomes</li>
 <li>This requires having a market, etc, which allows for mini multipolar outcomes</li>
 <li>AI won’t need incentive structures, they will just do the right thing (be “motivated”)</li>
 <li>Currently big orgs/government suffer inefficiencies because they have no internal markets/competition, this won’t be true with AI</li>
 </ul>
-<li>Bread and circus</li>
+<li><strong>Bread and circus</strong></li>
 <ul>
 <li>With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from them</li>
 </ul>
-<li>The “Greg Brockman” problem</li>
+<li><strong>The “Greg Brockman” problem</strong></li>
 <ul>
 <li>We’re seeing the trend today that managers are being more hands on, and need fewer intermediaries</li>
 <li>Typically a leader must act through layers of managers to achieve things</li>
 <li>But tomorrow, a strong enough technical leader may be able to directly pair with an AGI/superintelligence without any additional assistance from employees</li>
 <li>In order to improve security, some labs are already isolating which members have access to the next frontier, so it wouldn’t even raise alarm bells for an employee to no longer have access and to be unaware of who does (perhaps only Greg)</li>
 </ul>
-<li>Time moves slow</li>
+<li><strong>Time moves slow</strong></li>
 <ul>
 <li>We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this</li>
 <li>Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter</li>
 <li>But if AI moves society forward at 10x speed, that's the equivalent of having a president in power for a 40 year term </li>
 </ul>
-<li>Geopolitical interdependence</li>
+<li><strong>Geopolitical interdependence</strong></li>
 <ul>
 <li>Nations are interdependent, as are international markets</li>
 <li>It’s well understood that no nation can stand alone and isolated</li>
 <li>This has a mediating force on international politics and helps ensure peace is a mutually beneficial outcome</li>
 <li>In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers</li>
 </ul>
-<li>Army of the willing</li>
+<li><strong>Army of the willing</strong></li>
 <ul>
 <li>Outright war is extremely unpopular because it compels citizens to fight and die</li>
 <li>Automated wars may be unpopular, but not nearly as unpopular</li>
 <li>We already see this effect with our ability to wage war from the sky</li>
 </ul>
-<li>Corporate ecosystem</li>
+<li><strong>Corporate ecosystem</strong></li>
 <ul>
 <li>A corporation is dependent on an ecosystem</li>
 <li>Full vertical integration is nearly impossible today, but may not be tomorrow</li>
 </ul>
-<li>Surveillance is hard</li>
+<li><strong>Surveillance is hard</strong></li>
 <ul>
 <li>We’ve had the ability to record every form of communication for decades</li>
 <li>But <em>analyzing</em> all communication has been required an infeasible amount of human power</li>
 <li>With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties</li>
 </ul>
-<li>There’s general friction in visibility of what people are doing</li>
+<li><strong>There’s general friction in visibility of what people are doing</strong></li>
 <ul>
 <li>States see like states</li>
 <li>States lack perfect visibility of all the laws that are broken</li>
 <li>People lie a bit on their tax returns and that’s baked into the tax rate</li>
 </ul>
-<li>There’s general friction in enforcement of laws &amp; regs</li>
+<li><strong>There’s general friction in enforcement of laws and regulations</strong></li>
 <ul>
 <li>We can’t enforce all laws all the time and that’s part of our enforcement model</li>
 <li>In the old days a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end to end automated (right down to mailing the ticket to your home) but speed limits haven’t changed</li>
 <li>This is not just a visibility issue but an enforcement issue</li>
 </ul>
-<li>Authorities need to act through human agents</li>
+<li><strong>Authorities need to act through human agents</strong></li>
 <ul>
 <li>Authorities face frictions because human agents can refuse what they see as immoral orders</li>
 <li>Limits to this; plenty of folks wanted to staff concentration camps</li>
-<ul>
 <li>In the long run you can also train your society to be less moral (or differently moral)</li>
-</ul>
-<li>In at least 2 cases (Cuban missile crisis + Petrov incident) one single human’s moral compass is all that prevented a general nuclear exchange</li>
+<li>In at least two cases (Cuban missile crisis + Petrov incident) one single human’s moral compass is all that prevented a general nuclear exchange</li>
 <li>Culture is the final backstop </li>
 </ul>
-<li>Even dictators need their citizens</li>
+<li><strong>Even dictators need their citizens</strong></li>
 <ul>
 <li>With AI this will no longer be true </li>
 </ul>
-<li>Elite social pressure matters to many leaders</li>
+<li><strong>Elite social pressure matters to many leaders</strong></li>
 <ul>
 <li>Elites do have some ability to informally influence leaders</li>
 <li>Elites can be fully captured by leaders (Stalin and Hitler succeeded at this even with primitive tech)</li>
 </ul>
-<li>In the final limit, citizens can revolt</li>
+<li><strong>In the final limit, citizens can revolt</strong></li>
 <ul>
 <li>Even the most authoritarian governments have to consider the risk of pushing the polity beyond the breaking point</li>
 <li>That breaking point was very far in 20th cent (Gulags, etc) and may or may not be farther now depending on existing governance (better ways to surveil, vs better &amp; faster ways for population to coordinate in grassroots) </li>
 <li>There may be no such limit in the future</li>
 </ul>
-<li>Humans have economic and strategic value</li>
+<li><strong>Humans have economic and strategic value</strong></li>
 <ul>
 <li>Authoritarians can’t simply kill all their citizens today, or their economy and warmaking ability would be gutted</li>
 <li>The Khmer Rouge tried exactly this (they killed 25% of their population) but ended up obliterated by a Vietnamese invasion after crippling itself</li>
