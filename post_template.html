@@ -35,6 +35,26 @@
             font-size: 1.25rem;
             margin-bottom: 1.5rem;
         }
+        
+        /* List styling */
+        #story ul, #story ol {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+        
+        #story li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Nested lists styling */
+        #story ul ul, 
+        #story ul ol,
+        #story ol ul,
+        #story ol ol {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
 
         @media (prefers-color-scheme: dark) {
             body {
@@ -56,7 +76,9 @@
                 font-size: 2rem;
             }
 
-            #story p {
+            #story p, 
+            #story ul,
+            #story ol {
                 font-size: 1.125rem;
             }
         }
@@ -64,7 +86,6 @@
 </head>
 <body>
     <div class="container">
-        <h1>TITLE</h1>
         <div id="story">
 POST
         </div>
