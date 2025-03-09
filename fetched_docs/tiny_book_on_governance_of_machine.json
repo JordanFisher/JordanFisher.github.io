@@ -1371,7 +1371,7 @@
               "startIndex": 6808,
               "endIndex": 6809,
               "inlineObjectElement": {
-                "inlineObjectId": "kix.vw8gf9kf220w",
+                "inlineObjectId": "kix.fzxofsp5c0le",
                 "textStyle": {}
               }
             },
@@ -4867,15 +4867,15 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lu3iPJ49rLMl-gbk3zJJd2qXzZVoB3NmI9Yz2h0ilzR2x8Ecbae-TaFpgwPFh5I7tdQ7WKSYcmJ5CoR9A",
+  "revisionId": "ALBJ4LtRGaHW27cSiMABLqoqkVDclQ9_iEhR3cI5gJEdWQanGhJpYac4-nGUDjdYth_mEDQws6Gkqibuy8_vQQ",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
-    "kix.vw8gf9kf220w": {
-      "objectId": "kix.vw8gf9kf220w",
+    "kix.fzxofsp5c0le": {
+      "objectId": "kix.fzxofsp5c0le",
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_K490sit-V56cZHlNYqn9_US7-UQ4z8V7u0-mk4W3pO1wQb83rVYoFo0RWQe5t5M1aKNadNgKN-doxAUV5BUTmpSCtds-jBkVGViG7z4y-OLKUIrz1gF8ugo2hL_p7GpZFo-pLA?key=bNxPp7GAgtEQEP0HJibTZQ",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc6CSXZ6Pq3zPJsXoNTyFpv49-j4beeppM9aFxfWsJ4B00naiZA4TjM88UTSUueKstZgdqZx26JNQnaq-NGdc637oYgFS_Vno66YjQVHxHF5ECjIj4_ee30dr5NZmQIuoNhaSOU?key=bNxPp7GAgtEQEP0HJibTZQ",
             "cropProperties": {}
           },
           "embeddedObjectBorder": {
@@ -4892,11 +4892,11 @@
           },
           "size": {
             "height": {
-              "magnitude": 852,
+              "magnitude": 847.5,
               "unit": "PT"
             },
             "width": {
-              "magnitude": 852,
+              "magnitude": 759.75,
               "unit": "PT"
             }
           },

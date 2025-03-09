@@ -35,14 +35,14 @@
       },
       {
         "startIndex": 16,
-        "endIndex": 92,
+        "endIndex": 49,
         "paragraph": {
           "elements": [
             {
               "startIndex": 16,
-              "endIndex": 92,
+              "endIndex": 49,
               "textRun": {
-                "content": "[[[or do be silly, i don\u2019t care. or i maybe i do care. ok yeah i do care]]]\n",
+                "content": "[[[or do be, that\u2019s great too]]]\n",
                 "textStyle": {}
               }
             }
@@ -54,13 +54,13 @@
         }
       },
       {
-        "startIndex": 92,
-        "endIndex": 93,
+        "startIndex": 49,
+        "endIndex": 50,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 92,
-              "endIndex": 93,
+              "startIndex": 49,
+              "endIndex": 50,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -74,13 +74,13 @@
         }
       },
       {
-        "startIndex": 93,
-        "endIndex": 401,
+        "startIndex": 50,
+        "endIndex": 358,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 93,
-              "endIndex": 401,
+              "startIndex": 50,
+              "endIndex": 358,
               "textRun": {
                 "content": "Serious people have been talking about human-level AI and superintelligence for nearly half a century. But mostly it\u2019s been too silly to talk about. In computer science departments it was implicitly banned from discussing openly, or you\u2019d be made a pariah. Outside academia the public thought it was sci-fi.\n",
                 "textStyle": {}
@@ -94,13 +94,13 @@
         }
       },
       {
-        "startIndex": 401,
-        "endIndex": 402,
+        "startIndex": 358,
+        "endIndex": 359,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 401,
-              "endIndex": 402,
+              "startIndex": 358,
+              "endIndex": 359,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -114,15 +114,15 @@
         }
       },
       {
-        "startIndex": 402,
-        "endIndex": 675,
+        "startIndex": 359,
+        "endIndex": 839,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 402,
-              "endIndex": 675,
+              "startIndex": 359,
+              "endIndex": 839,
               "textRun": {
-                "content": "Even 10 years ago, when AI began showing real promise, you instead had to say you worked on \u201cML\u201d or \u201cMachine Learning\u201d. Only in the last few years has the reality of AI become real enough that we\u2019ve even allowed people to say what they do is \u201cAI\u201d without scoffing at them.\n",
+                "content": "Even 10 years ago, when AI began showing real promise, you instead had to say you worked on \u201cML\u201d or \u201cMachine Learning\u201d. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of mankind\u2019s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we\u2019ve even allowed researchers to say what they do is \u201cAI\u201d without scoffing at them.\n",
                 "textStyle": {}
               }
             }
@@ -134,53 +134,13 @@
         }
       },
       {
-        "startIndex": 675,
-        "endIndex": 676,
+        "startIndex": 839,
+        "endIndex": 840,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 675,
-              "endIndex": 676,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 676,
-        "endIndex": 830,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 676,
-              "endIndex": 830,
-              "textRun": {
-                "content": "Now, here we are, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 830,
-        "endIndex": 831,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 830,
-              "endIndex": 831,
+              "startIndex": 839,
+              "endIndex": 840,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -194,13 +154,53 @@
         }
       },
       {
-        "startIndex": 831,
-        "endIndex": 1064,
+        "startIndex": 840,
+        "endIndex": 1000,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 831,
-              "endIndex": 1064,
+              "startIndex": 840,
+              "endIndex": 1000,
+              "textRun": {
+                "content": "Now, here we are today, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1000,
+        "endIndex": 1001,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1000,
+              "endIndex": 1001,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1001,
+        "endIndex": 1234,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1001,
+              "endIndex": 1234,
               "textRun": {
                 "content": "This may seem like a small thing, but it\u2019s not. We shy away from talking seriously about serious things when we\u2019re afraid it makes us look silly. And it has real consequences. That\u2019s what happened with the discourse around AI risks:\n",
                 "textStyle": {}
@@ -214,13 +214,13 @@
         }
       },
       {
-        "startIndex": 1064,
-        "endIndex": 1065,
+        "startIndex": 1234,
+        "endIndex": 1235,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1064,
-              "endIndex": 1065,
+              "startIndex": 1234,
+              "endIndex": 1235,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -234,13 +234,13 @@
         }
       },
       {
-        "startIndex": 1065,
-        "endIndex": 1510,
+        "startIndex": 1235,
+        "endIndex": 1680,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1065,
-              "endIndex": 1510,
+              "startIndex": 1235,
+              "endIndex": 1680,
               "textRun": {
                 "content": "Now that AI is near it\u2019s becoming plain that sharing the world with another form of intelligence will have risks. Obviously, how could it not? But the risks from AI have been called out by the likes of Bostrom and Yudkowsky for decades now, largely ignored because it was too silly. And the real impact is that we\u2019ve now failed to prepare for those risks. We\u2019ve failed at even discussing them broadly as a society. Now we have little time left.\n",
                 "textStyle": {}
@@ -254,13 +254,13 @@
         }
       },
       {
-        "startIndex": 1510,
-        "endIndex": 1511,
+        "startIndex": 1680,
+        "endIndex": 1681,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1510,
-              "endIndex": 1511,
+              "startIndex": 1680,
+              "endIndex": 1681,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -274,13 +274,13 @@
         }
       },
       {
-        "startIndex": 1511,
-        "endIndex": 1651,
+        "startIndex": 1681,
+        "endIndex": 1821,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1511,
-              "endIndex": 1651,
+              "startIndex": 1681,
+              "endIndex": 1821,
               "textRun": {
                 "content": "It\u2019s time to stop feeling silly and start taking seriously the silly things in front of us that are deadly serious. However silly they are.\n",
                 "textStyle": {}
@@ -294,13 +294,13 @@
         }
       },
       {
-        "startIndex": 1651,
-        "endIndex": 1652,
+        "startIndex": 1821,
+        "endIndex": 1822,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1651,
-              "endIndex": 1652,
+              "startIndex": 1821,
+              "endIndex": 1822,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -314,21 +314,21 @@
         }
       },
       {
-        "startIndex": 1652,
-        "endIndex": 1654,
+        "startIndex": 1822,
+        "endIndex": 1824,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1652,
-              "endIndex": 1653,
+              "startIndex": 1822,
+              "endIndex": 1823,
               "inlineObjectElement": {
                 "inlineObjectId": "kix.ufriq1teeu3s",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 1653,
-              "endIndex": 1654,
+              "startIndex": 1823,
+              "endIndex": 1824,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -342,13 +342,13 @@
         }
       },
       {
-        "startIndex": 1654,
-        "endIndex": 1655,
+        "startIndex": 1824,
+        "endIndex": 1825,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1654,
-              "endIndex": 1655,
+              "startIndex": 1824,
+              "endIndex": 1825,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -362,21 +362,21 @@
         }
       },
       {
-        "startIndex": 1655,
-        "endIndex": 1915,
+        "startIndex": 1825,
+        "endIndex": 2085,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1655,
-              "endIndex": 1724,
+              "startIndex": 1825,
+              "endIndex": 1894,
               "textRun": {
                 "content": "Creating AI is going to change every single aspect of our world. But ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 1724,
-              "endIndex": 1731,
+              "startIndex": 1894,
+              "endIndex": 1901,
               "textRun": {
                 "content": "the way",
                 "textStyle": {
@@ -385,16 +385,16 @@
               }
             },
             {
-              "startIndex": 1731,
-              "endIndex": 1753,
+              "startIndex": 1901,
+              "endIndex": 1923,
               "textRun": {
                 "content": " it changes our world ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 1753,
-              "endIndex": 1781,
+              "startIndex": 1923,
+              "endIndex": 1951,
               "textRun": {
                 "content": "is not yet written in stone.",
                 "textStyle": {
@@ -403,8 +403,8 @@
               }
             },
             {
-              "startIndex": 1781,
-              "endIndex": 1915,
+              "startIndex": 1951,
+              "endIndex": 2085,
               "textRun": {
                 "content": " We all together have a part to play in determining the outcome. But only if we get over ourselves and talk about these silly things.\n",
                 "textStyle": {}
@@ -418,13 +418,13 @@
         }
       },
       {
-        "startIndex": 1915,
-        "endIndex": 1916,
+        "startIndex": 2085,
+        "endIndex": 2086,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1915,
-              "endIndex": 1916,
+              "startIndex": 2085,
+              "endIndex": 2086,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -438,13 +438,13 @@
         }
       },
       {
-        "startIndex": 1916,
-        "endIndex": 2119,
+        "startIndex": 2086,
+        "endIndex": 2289,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1916,
-              "endIndex": 2119,
+              "startIndex": 2086,
+              "endIndex": 2289,
               "textRun": {
                 "content": "We are creating machines smarter than us. They will have their own agency. We may not be able to keep control of them. Even if we do, they may be used by governments to gain unprecedented power over us.\n",
                 "textStyle": {}
@@ -458,13 +458,13 @@
         }
       },
       {
-        "startIndex": 2119,
-        "endIndex": 2120,
+        "startIndex": 2289,
+        "endIndex": 2290,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2119,
-              "endIndex": 2120,
+              "startIndex": 2289,
+              "endIndex": 2290,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -478,13 +478,13 @@
         }
       },
       {
-        "startIndex": 2120,
-        "endIndex": 2403,
+        "startIndex": 2290,
+        "endIndex": 2573,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2120,
-              "endIndex": 2403,
+              "startIndex": 2290,
+              "endIndex": 2573,
               "textRun": {
                 "content": "These are serious fucking things. And they\u2019re silly too. The last half century has coddled us into a false sense of stability. Whispered into our ear that silly things don\u2019t happen on the world stage, not really. But the rules are changing. We don\u2019t know what the new rules will be.\n",
                 "textStyle": {}
@@ -498,13 +498,13 @@
         }
       },
       {
-        "startIndex": 2403,
-        "endIndex": 2404,
+        "startIndex": 2573,
+        "endIndex": 2574,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2403,
-              "endIndex": 2404,
+              "startIndex": 2573,
+              "endIndex": 2574,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -518,13 +518,13 @@
         }
       },
       {
-        "startIndex": 2404,
-        "endIndex": 2450,
+        "startIndex": 2574,
+        "endIndex": 2620,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2404,
-              "endIndex": 2450,
+              "startIndex": 2574,
+              "endIndex": 2620,
               "textRun": {
                 "content": "It\u2019s OK to be silly. Now let\u2019s talk about it.\n",
                 "textStyle": {}
@@ -939,7 +939,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4Lt-7geZLTXSVM41Pa2XxIsbFv2p_GTKmrO3fnkZNeBv81vT0dh593RwzDROtSlR1eFbU1K98X32QUpq6A",
+  "revisionId": "ALBJ4Lu0IGB2chQGeHa52w7Dzg_kjZihaDRXLYGFjWBvBArYWpMfI1XzCUD-vLn71EQsc9doZdOMlDkWbQAlag",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.ufriq1teeu3s": {
