@@ -178,7 +178,22 @@ def html_to_latex(html_path: str) -> LatexDocument:
             continue
             
         if element.name == 'h1':
-            latex_content += f"\\clearpage\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
+            # Only add page break if it's a title header (new document being inlined)
+            if 'title-header' in element.get('class', []):
+                latex_content += f"\\clearpage\n\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
+                
+                # Look for a description block right after this title
+                next_elem = element.find_next_sibling()
+                if next_elem and next_elem.name == 'div' and 'description-block' in next_elem.get('class', []):
+                    desc_text = ' '.join([p.get_text().strip() for p in next_elem.find_all('p')])
+                    desc_text = escape_latex(desc_text)
+                    latex_content += f"""\\begin{{fancyquote}}
+{desc_text}
+\\end{{fancyquote}}\n\n"""
+                    # Skip this description block when we encounter it in the normal loop
+                    next_elem['processed'] = True
+            else:
+                latex_content += f"\\section*{{{escape_latex(element.get_text().strip())}}}\n\n"
         elif element.name == 'h2':
             latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{escape_latex(element.get_text().strip())}}}\n\n"
         elif element.name == 'h3':
@@ -217,6 +232,29 @@ def html_to_latex(html_path: str) -> LatexDocument:
             latex_content += f"""\\begin{{fancyquote}}
 {quote_content.strip()}
 \\end{{fancyquote}}\n\n"""
+        elif element.name == 'div':
+            # Skip description blocks that were already processed with their associated title
+            if 'description-block' in element.get('class', []) and element.get('processed'):
+                continue
+                
+            # Process other div elements as needed
+            for child in element.children:
+                if child.name:  # Skip text nodes
+                    # Recursively process the child as if it were a direct child of story_div
+                    if child.name == 'h1':
+                        # Handle h1 elements (similar to above, but simplified)
+                        latex_content += f"\\section*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                    elif child.name == 'h2':
+                        latex_content += f"\\subsection*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                    elif child.name == 'h3':
+                        latex_content += f"\\subsubsection*{{{escape_latex(child.get_text().strip())}}}\n\n"
+                    elif child.name == 'p':
+                        para_content = process_inline_elements(child)
+                        latex_content += para_content + "\n\n"
+                    elif child.name == 'ul':
+                        latex_content += process_list(child, 'itemize')
+                    elif child.name == 'ol':
+                        latex_content += process_list(child, 'enumerate')
     
     return LatexDocument(title=title, content=latex_content, description=description)
 
@@ -285,10 +323,114 @@ def process_inline_elements(element, in_quote=False) -> str:
 
 
 def escape_latex(text):
-    """Escape LaTeX special characters."""
+    """Escape LaTeX special characters and handle non-ASCII Unicode."""
     if text is None:
         return ""
         
+    # Handle Unicode characters - replace with closest ASCII representation or remove
+    # This is a simple approach; for a more comprehensive solution, consider a Unicode to LaTeX package
+    unicode_chars = {
+        '…': '...',
+        '–': '--',
+        '—': '---',
+        '"': '"',
+        '"': '"',
+        ''': "'",
+        ''': "'",
+        '•': '\\textbullet{}',
+        '≠': '$\\neq$',
+        '≤': '$\\leq$',
+        '≥': '$\\geq$',
+        '←': '$\\leftarrow$',
+        '→': '$\\rightarrow$',
+        '↑': '$\\uparrow$',
+        '↓': '$\\downarrow$',
+        '✓': '\\checkmark{}',
+        '✗': 'x',
+        '✘': 'x',
+        '★': '*',
+        '☆': '*',
+        '♦': '$\\diamond$',
+        '♥': '$\\heartsuit$',
+        '♠': '$\\spadesuit$',
+        '♣': '$\\clubsuit$',
+        '©': '\\copyright{}',
+        '®': '\\textregistered{}',
+        '™': '\\texttrademark{}',
+        '€': '\\euro{}',
+        '£': '\\pounds{}',
+        '¥': '\\yen{}',
+        '°': '$^{\\circ}$',
+        '±': '$\\pm$',
+        '×': '$\\times$',
+        '÷': '$\\div$',
+        '½': '$\\frac{1}{2}$',
+        '¼': '$\\frac{1}{4}$',
+        '¾': '$\\frac{3}{4}$',
+        # Emojis (we'll replace with descriptive text)
+        '🤘': '[rock hand]',
+        '👉': '[pointing right]',
+        '👈': '[pointing left]',
+        '👆': '[pointing up]',
+        '👇': '[pointing down]',
+        '👍': '[thumbs up]',
+        '👎': '[thumbs down]',
+        '😊': '[smile]',
+        '😀': '[smile]',
+        '😃': '[smile]',
+        '😄': '[smile]',
+        '😁': '[smile]',
+        '😆': '[smile]',
+        '😅': '[smile]',
+        '😂': '[laugh]',
+        '🤣': '[laugh]',
+        '😉': '[wink]',
+        '😎': '[cool]',
+        '🙂': '[smile]',
+        '🙃': '[upside-down face]',
+        '🙄': '[eye roll]',
+        '😐': '[neutral face]',
+        '😑': '[neutral face]',
+        '😶': '[no mouth]',
+        '😣': '[persevere]',
+        '😥': '[sad]',
+        '😮': '[surprised]',
+        '😯': '[surprised]',
+        '😪': '[sleepy]',
+        '😫': '[tired]',
+        '😴': '[sleeping]',
+        '😌': '[relieved]',
+        '😛': '[tongue out]',
+        '😜': '[wink tongue]',
+        '😝': '[tongue closed eyes]',
+        '🙁': '[frown]',
+        '😒': '[unamused]',
+        '😓': '[downcast]',
+        '😔': '[pensive]',
+        '😕': '[confused]',
+        '😖': '[confounded]',
+        '😞': '[disappointed]',
+        '😟': '[worried]',
+        '😢': '[crying]',
+        '😭': '[sobbing]',
+        '😤': '[triumphant]',
+        '😠': '[angry]',
+        '😡': '[pouting]',
+        '😳': '[flushed]',
+        '😱': '[scared]',
+        '😨': '[fearful]',
+        '😰': '[anxious]',
+        '😷': '[mask]',
+    }
+    
+    # Replace Unicode characters with their LaTeX equivalents
+    for char, replacement in unicode_chars.items():
+        text = text.replace(char, replacement)
+    
+    # Remove any remaining non-ASCII characters
+    text = ''.join(c if ord(c) < 128 else ' ' for c in text)
+    
+    # Escape LaTeX special characters
     chars = {
         '&': '\\&',
         '%': '\\%',
