@@ -168,8 +168,16 @@ def main():
             raw_doc = fetch_gdoc(doc_id)
             documents[url] = save_doc(url_names, raw_doc)
             
-            # Save the HTML with links processed
-            html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", html_content)
+            # Create a description block if description exists
+            description_html = ""
+            if description and description.strip():
+                # Convert line breaks to paragraphs
+                paragraphs = description.split("<br><br>")
+                description_paragraphs = "".join([f"<p>{p}</p>" for p in paragraphs if p.strip()])
+                description_html = f'<div class="description-block">{description_paragraphs}</div>'
+            
+            # Save the HTML with links processed and description block
+            html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
             for filename in url_names:
                 with open(os.path.join("posts", filename + ".html"), 'w') as f:
                     f.write(html)
