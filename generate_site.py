@@ -175,6 +175,20 @@ def main():
                 paragraphs = description.split("<br><br>")
                 description_paragraphs = "".join([f"<p>{p}</p>" for p in paragraphs if p.strip()])
                 description_html = f'<div class="description-block">{description_paragraphs}</div>'
+                
+                # Find the first heading and place the description after it
+                from bs4 import BeautifulSoup
+                content_soup = BeautifulSoup(html_content, 'html.parser')
+                first_heading = content_soup.find(['h1', 'h2', 'h3'])
+                
+                if first_heading:
+                    # Insert the description block after the first heading
+                    description_div = BeautifulSoup(description_html, 'html.parser')
+                    first_heading.insert_after(description_div)
+                    # Update the HTML content
+                    html_content = str(content_soup)
+                    # Clear the description_html so it's not added twice
+                    description_html = ""
             
             # Save the HTML with links processed and description block
             html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
