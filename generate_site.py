@@ -1,14 +1,14 @@
 import json
 import os
 import shutil
-from typing import Optional
+from typing import Optional, Dict
 import google
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 import pickle
-from convert import convert_doc_to_text, convert_doc_to_html
+from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service
 
 from doc_list import gdoc_urls
 
@@ -69,22 +69,17 @@ def extract_doc_id(url):
         raise ValueError(f"Could not extract document ID from URL: {url}")
     return doc_id
 
-def fetch_gdoc(service, doc_id) -> Optional[dict]:
-    """Fetches the content of a Google Doc and returns it as a string.
+def fetch_gdoc(doc_id) -> Optional[dict]:
+    """Fetches the content of a Google Doc using the convert module's function.
     
     Args:
-        service: The Google Docs API service instance
         doc_id (str): The ID of the document to fetch
         
     Returns:
         dict: The document represented as a dictionary
     """
-    try:
-        document: dict = service.documents().get(documentId=doc_id).execute()
-        return document
-    except Exception as e:
-        print(f"Error fetching document {doc_id}: {str(e)}")
-        return None
+    from convert import fetch_gdoc as convert_fetch_gdoc
+    return convert_fetch_gdoc(doc_id)
 
 def save_doc(url_names: list[str], doc: dict) -> str:
     txt = convert_doc_to_text(doc)
@@ -104,6 +99,8 @@ with open('post_template.html') as f:
 with open('index_template.html') as f:
     INDEX_HTML_TEMPLATE = f.read()
 
+# This function is kept for reference but no longer used
+# The functionality has been integrated into the main function with link processing
 def save_html(url_names: list[str], gdoc_data: dict) -> tuple[str, str, str]:
     # Get title, description, and HTML content from the Google Doc
     gdoc_title, description, html_content = convert_doc_to_html(gdoc_data)
@@ -137,8 +134,10 @@ def main():
     # Get credentials and build service
     creds = get_credentials()
     service = build('docs', 'v1', credentials=creds)
-
     drive_service = build('drive', 'v3', credentials=creds)
+    
+    # Initialize the global docs service for document fetching
+    set_docs_service(service)
         
     # Delete existing fetched_docs and posts directory.
     if os.path.exists('fetched_docs'):
@@ -151,22 +150,46 @@ def main():
     # Process each document
     documents = {}
     links = []
+    
     for url_names, url in gdoc_urls:
         try:
             doc_id = extract_doc_id(url)
-            # request = drive_service.files().export_media(fileId=doc_id, mimeType='text/md')
-            # doc = request.execute()
-            # print(doc)
-            # import ipdb; ipdb.set_trace()
-
-            doc = fetch_gdoc(service, doc_id)
-            if doc:
-                documents[url] = save_doc(url_names, doc)
-                title, description, post_url = save_html(url_names, doc)
-                links.append((title, description, post_url))
+            if not doc_id:
+                print(f"Failed to extract doc ID from URL: {url}")
+                continue
+                
+            # Convert the document to HTML with inlined links
+            title, description, html_content = convert_doc_to_html(doc_id)
+            if not html_content:
+                print(f"Failed to convert document {doc_id} to HTML")
+                continue
+                
+            # Save the raw document for reference
+            raw_doc = fetch_gdoc(doc_id)
+            documents[url] = save_doc(url_names, raw_doc)
+            
+            # Save the HTML with links processed
+            html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", html_content)
+            for filename in url_names:
+                with open(os.path.join("posts", filename + ".html"), 'w') as f:
+                    f.write(html)
+            
+            # Use the first url_name as the link to the post
+            link = url_names[0] + ".html"
+            
+            # Extract the title from the HTML content for index
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(html_content, 'html.parser')
+            h1 = soup.find('h1')
+            if h1:
+                html_title = h1.get_text()
             else:
-                print(f"Failed to fetch content for {url}")
-        except ValueError as e:
+                # Fallback to gdoc title if no h1 found
+                html_title = title
+            
+            links.append((html_title, description, link))
+            
+        except Exception as e:
             print(f"Error processing URL {url}: {str(e)}")
     
     # Generate index.html
