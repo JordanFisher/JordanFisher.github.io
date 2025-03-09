@@ -8,7 +8,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 import pickle
-from convert import convert_doc_to_text
+from convert import convert_doc_to_text, convert_doc_to_html
 
 from doc_list import gdoc_urls
 
@@ -104,34 +104,21 @@ with open('post_template.html') as f:
 with open('index_template.html') as f:
     INDEX_HTML_TEMPLATE = f.read()
 
-def save_html(url_names: list[str], doc: str) -> tuple[str, str, str]:
-    lines = doc.split('\n')
-    title = lines[0].strip()
+def save_html(url_names: list[str], gdoc_data: dict) -> tuple[str, str, str]:
+    # Get title, description, and HTML content from the Google Doc
+    title, description, html_content = convert_doc_to_html(gdoc_data)
     
-    description = ""
-    line_index = 1
-    description_end = False
-    while not description_end:
-        if description != "":
-            description += "<br><br>"
-        line = lines[line_index].strip()
-        if line.startswith("["):
-            line = line[1:]
-        if line.endswith("]"):
-            line = line[:-1]        
-            description_end = True
-        line_index += 1
-        description += line
-    print(description)
-
-    # Base the filename on the title.
-    # filename = title.replace(' ', '_').lower() + '.html'
-
-    post = '\n'.join(f'            <p>{line.strip()}</p>' for line in lines[line_index + 1:] if line.strip() != '')
-    html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", post)
+    # Use the first url_name as the filename
+    filename = url_names[0] if url_names else ""
+    
+    # Replace placeholders in the HTML template
+    html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("POST", html_content)
+    
+    # Write to files
     for filename in url_names:
         with open(os.path.join("posts", filename + ".html"), 'w') as f:
             f.write(html)
+    
     return title, description, filename
 
 def main():
@@ -162,8 +149,8 @@ def main():
 
             doc = fetch_gdoc(service, doc_id)
             if doc:
-                documents[url] = txt = save_doc(url_names, doc)
-                title, description, post_url = save_html(url_names, txt)
+                documents[url] = save_doc(url_names, doc)
+                title, description, post_url = save_html(url_names, doc)
                 links.append((title, description, post_url))
             else:
                 print(f"Failed to fetch content for {url}")

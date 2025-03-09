@@ -25,22 +25,33 @@ def convert_doc_to_text(doc: dict) -> str:
         print()
         raise e
     
-def convert_doc_to_html(doc: dict) -> str:
+def convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
     """Takes a Google Doc dict and converts it to an HTML string.
+    Also extracts the description enclosed in [[[ and ]]] markers.
     
     Args:
         doc (dict): The Google Doc to convert
         
     Returns:
-        str: The Google Doc as an HTML string
+        tuple: (title, description, html_content)
+            - title (str): The document title
+            - description (str): The extracted description
+            - html_content (str): The Google Doc as an HTML string
     """
     try:
         content = ''
+        title = ''
         if 'title' in doc:
-            content += f'<h1>{doc["title"]}</h1>\n'
+            title = doc['title']
+            content += f'<h1>{title}</h1>\n'
         
         # Track the current list nesting level to properly manage list tags
         current_list_level = -1
+        
+        # For extracting description enclosed in [[[ and ]]]
+        description = ""
+        in_description = False
+        description_paragraphs = []
         
         for elem in doc['body']['content']:
             if 'paragraph' in elem:
@@ -59,11 +70,51 @@ def convert_doc_to_html(doc: dict) -> str:
                 paragraph_style = paragraph.get('paragraphStyle', {})
                 named_style_type = paragraph_style.get('namedStyleType', 'NORMAL_TEXT')
                 
+                # Extract the raw text from the paragraph for checking description markers
+                raw_text = ''
+                for para_elem in paragraph.get('elements', []):
+                    if 'textRun' in para_elem:
+                        text_content = para_elem.get('textRun', {}).get('content', '')
+                        if text_content.endswith('\n'):
+                            text_content = text_content[:-1]
+                        raw_text += text_content
+                
+                # Check for description markers - handling both single-paragraph and multi-paragraph cases
+                if raw_text.lstrip().startswith('[[[') and raw_text.rstrip().endswith(']]]'):
+                    # Single paragraph description
+                    in_description = False  # No need to continue in description mode
+                    # Remove the markers from a single-paragraph description
+                    desc_text = raw_text.replace('[[[', '', 1)
+                    desc_text = desc_text.rsplit(']]]', 1)[0].strip()
+                    description_paragraphs.append(desc_text)
+                    continue  # Skip adding this to the HTML content
+                elif raw_text.lstrip().startswith('[[['):
+                    in_description = True
+                    # Remove the [[[ marker from the first paragraph
+                    raw_text = raw_text.replace('[[[', '', 1).strip()
+                    description_paragraphs.append(raw_text)
+                    continue  # Skip adding this to the HTML content
+                elif in_description and raw_text.rstrip().endswith(']]]'):
+                    # Remove the ]]] marker from the last paragraph
+                    raw_text = raw_text.rsplit(']]]', 1)[0].strip()
+                    if raw_text:  # Only add if there's content after removing the marker
+                        description_paragraphs.append(raw_text)
+                    in_description = False
+                    continue  # Skip adding this to the HTML content
+                elif in_description:
+                    # This is a paragraph in the middle of the description
+                    description_paragraphs.append(raw_text.strip())
+                    continue  # Skip adding this to the HTML content
+                
                 # Skip formatting for empty paragraphs but still add some space
-                if is_empty_paragraph:
+                if is_empty_paragraph and not in_description:
                     # If we're not in a list, just add a blank line
                     if current_list_level < 0:
                         content += '<br>\n'
+                    continue
+                
+                # Skip processing if we're still in the description
+                if in_description:
                     continue
                 
                 # Check if this is a heading
@@ -169,7 +220,10 @@ def convert_doc_to_html(doc: dict) -> str:
             for i in range(current_list_level, -1, -1):
                 content += '  ' * i + '</ul>\n'
         
-        return content
+        # Join the description paragraphs with paragraph breaks
+        description = "<br><br>".join(description_paragraphs)
+        
+        return title, description, content
     except KeyError as e:
         print(f"Error converting document to HTML:")
         print(f"Document: {doc}")
@@ -184,6 +238,8 @@ if __name__ == '__main__':
     import os
     from typing import List
     
+    # Test with implicit_guardrails.json which has the marker
+    print("Testing with implicit_guardrails.json:")
     with open('fetched_docs/implicit_guardrails.json') as f:
         doc = json.load(f)
     
@@ -192,12 +248,89 @@ if __name__ == '__main__':
     with open('test_output/implicit_guardrails.txt', 'w') as f:
         f.write(txt)
     
-    html = convert_doc_to_html(doc)
+    title, description, html = convert_doc_to_html(doc)
     with open('test_output/implicit_guardrails.html', 'w') as f:
         f.write(html)
     
-    print(txt)
+    print(f"Title: {title}")
+    print(f"Description: {description}")
     print()
-    print(html)
+    print(f"HTML Content (first 500 chars): {html[:500]}...")
+    print()
+    
+    # Test with a document that uses the [[[ ]]] marker in its content
+    print("\nTest document with [[[ and ]]] markers:")
+    test_data = {
+        "title": "Test Document",
+        "body": {
+            "content": [
+                {
+                    "paragraph": {
+                        "elements": [
+                            {
+                                "textRun": {
+                                    "content": "This is the title\n",
+                                    "textStyle": {}
+                                }
+                            }
+                        ],
+                        "paragraphStyle": {
+                            "namedStyleType": "HEADING_1"
+                        }
+                    }
+                },
+                {
+                    "paragraph": {
+                        "elements": [
+                            {
+                                "textRun": {
+                                    "content": "[[[This is the first paragraph of the description\n",
+                                    "textStyle": {}
+                                }
+                            }
+                        ],
+                        "paragraphStyle": {
+                            "namedStyleType": "NORMAL_TEXT"
+                        }
+                    }
+                },
+                {
+                    "paragraph": {
+                        "elements": [
+                            {
+                                "textRun": {
+                                    "content": "This is the second paragraph of the description]]]\n",
+                                    "textStyle": {}
+                                }
+                            }
+                        ],
+                        "paragraphStyle": {
+                            "namedStyleType": "NORMAL_TEXT"
+                        }
+                    }
+                },
+                {
+                    "paragraph": {
+                        "elements": [
+                            {
+                                "textRun": {
+                                    "content": "This is regular content that should be in the body.\n",
+                                    "textStyle": {}
+                                }
+                            }
+                        ],
+                        "paragraphStyle": {
+                            "namedStyleType": "NORMAL_TEXT"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    
+    title, description, html = convert_doc_to_html(test_data)
+    print(f"Title: {title}")
+    print(f"Description: {description}")
+    print(f"HTML Content: {html}")
     print()
     print("Done.")
