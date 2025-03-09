@@ -2297,12 +2297,60 @@
       },
       {
         "startIndex": 11538,
-        "endIndex": 11553,
+        "endIndex": 11539,
         "paragraph": {
           "elements": [
             {
               "startIndex": 11538,
-              "endIndex": 11553,
+              "endIndex": 11539,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11539,
+        "endIndex": 11541,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11539,
+              "endIndex": 11540,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.wutc4x565sb",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 11540,
+              "endIndex": 11541,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11541,
+        "endIndex": 11556,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11541,
+              "endIndex": 11556,
               "textRun": {
                 "content": "A shared prize\n",
                 "textStyle": {}
@@ -2317,13 +2365,13 @@
         }
       },
       {
-        "startIndex": 11553,
-        "endIndex": 11622,
+        "startIndex": 11556,
+        "endIndex": 11625,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11553,
-              "endIndex": 11622,
+              "startIndex": 11556,
+              "endIndex": 11625,
               "textRun": {
                 "content": "There\u2019s only one place that has the extreme energy we demand: space.\n",
                 "textStyle": {}
@@ -2337,13 +2385,13 @@
         }
       },
       {
-        "startIndex": 11622,
-        "endIndex": 11623,
+        "startIndex": 11625,
+        "endIndex": 11626,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11622,
-              "endIndex": 11623,
+              "startIndex": 11625,
+              "endIndex": 11626,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2357,13 +2405,13 @@
         }
       },
       {
-        "startIndex": 11623,
-        "endIndex": 11832,
+        "startIndex": 11626,
+        "endIndex": 11835,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11623,
-              "endIndex": 11832,
+              "startIndex": 11626,
+              "endIndex": 11835,
               "textRun": {
                 "content": "The sun emits almost a million, trillion gigawatts of power. 3.8 \u00d7 10^26 watts. Almost a billion gigawatts for every human alive today. It radiates out into the vastness of interstellar space, wasted forever.\n",
                 "textStyle": {}
@@ -2377,13 +2425,13 @@
         }
       },
       {
-        "startIndex": 11832,
-        "endIndex": 11833,
+        "startIndex": 11835,
+        "endIndex": 11836,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11832,
-              "endIndex": 11833,
+              "startIndex": 11835,
+              "endIndex": 11836,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2397,13 +2445,13 @@
         }
       },
       {
-        "startIndex": 11833,
-        "endIndex": 12222,
+        "startIndex": 11836,
+        "endIndex": 12225,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11833,
-              "endIndex": 12222,
+              "startIndex": 11836,
+              "endIndex": 12225,
               "textRun": {
                 "content": "There is very simple technology to capture it. Solar panels. What we need is to make them at scale, which requires automation, which is luckily exactly the extreme force that is entering the world at this moment and causing our existential problems. Once again, automation is the key to solving the problems introduced by automation. We need energy \u2014 all of it. Automation can deliver it.\n",
                 "textStyle": {}
@@ -2417,13 +2465,13 @@
         }
       },
       {
-        "startIndex": 12222,
-        "endIndex": 12223,
+        "startIndex": 12225,
+        "endIndex": 12226,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12222,
-              "endIndex": 12223,
+              "startIndex": 12225,
+              "endIndex": 12226,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2437,13 +2485,13 @@
         }
       },
       {
-        "startIndex": 12223,
-        "endIndex": 12657,
+        "startIndex": 12226,
+        "endIndex": 12660,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12223,
-              "endIndex": 12657,
+              "startIndex": 12226,
+              "endIndex": 12660,
               "textRun": {
                 "content": "Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth. And the lunar regolith that makes up the moon\u2019s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface.\n",
                 "textStyle": {}
@@ -2457,13 +2505,13 @@
         }
       },
       {
-        "startIndex": 12657,
-        "endIndex": 12658,
+        "startIndex": 12660,
+        "endIndex": 12661,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12657,
-              "endIndex": 12658,
+              "startIndex": 12660,
+              "endIndex": 12661,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2477,13 +2525,13 @@
         }
       },
       {
-        "startIndex": 12658,
-        "endIndex": 13260,
+        "startIndex": 12661,
+        "endIndex": 13263,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12658,
-              "endIndex": 13260,
+              "startIndex": 12661,
+              "endIndex": 13263,
               "textRun": {
                 "content": "Even this is, of course, an extremely ambitious goal. But it\u2019s exactly the type of extreme windfall that strong AI will deliver. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it\u2019s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it\u2019s not easy to reach.\n",
                 "textStyle": {}
@@ -2497,13 +2545,13 @@
         }
       },
       {
-        "startIndex": 13260,
-        "endIndex": 13261,
+        "startIndex": 13263,
+        "endIndex": 13264,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13260,
-              "endIndex": 13261,
+              "startIndex": 13263,
+              "endIndex": 13264,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2517,13 +2565,13 @@
         }
       },
       {
-        "startIndex": 13261,
-        "endIndex": 13323,
+        "startIndex": 13264,
+        "endIndex": 13326,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13261,
-              "endIndex": 13323,
+              "startIndex": 13264,
+              "endIndex": 13326,
               "textRun": {
                 "content": "That could make it a decisive high ground for the free world.\n",
                 "textStyle": {}
@@ -2537,13 +2585,13 @@
         }
       },
       {
-        "startIndex": 13323,
-        "endIndex": 13324,
+        "startIndex": 13326,
+        "endIndex": 13327,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13323,
-              "endIndex": 13324,
+              "startIndex": 13326,
+              "endIndex": 13327,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2557,13 +2605,13 @@
         }
       },
       {
-        "startIndex": 13324,
-        "endIndex": 13905,
+        "startIndex": 13327,
+        "endIndex": 13908,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13324,
-              "endIndex": 13905,
+              "startIndex": 13327,
+              "endIndex": 13908,
               "textRun": {
                 "content": "And with that high ground, we can promise to share its wealth with everyone, including the power hungry would-be dictators. We can bring them to the world table by offering them bounty they couldn\u2019t achieve if they instead seized power of their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power \u2014and there are many\u2014 even then it\u2019s in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.\n",
                 "textStyle": {}
@@ -2577,13 +2625,13 @@
         }
       },
       {
-        "startIndex": 13905,
-        "endIndex": 13906,
+        "startIndex": 13908,
+        "endIndex": 13909,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13905,
-              "endIndex": 13906,
+              "startIndex": 13908,
+              "endIndex": 13909,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2597,13 +2645,13 @@
         }
       },
       {
-        "startIndex": 13906,
-        "endIndex": 13931,
+        "startIndex": 13909,
+        "endIndex": 13934,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13906,
-              "endIndex": 13931,
+              "startIndex": 13909,
+              "endIndex": 13934,
               "textRun": {
                 "content": "The AI-powered Judiciary\n",
                 "textStyle": {}
@@ -2618,13 +2666,13 @@
         }
       },
       {
-        "startIndex": 13931,
-        "endIndex": 14371,
+        "startIndex": 13934,
+        "endIndex": 14374,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13931,
-              "endIndex": 14371,
+              "startIndex": 13934,
+              "endIndex": 14374,
               "textRun": {
                 "content": "You thought I forgot about the Judiciary, but I snuck it in at the bottom here as a bookend. By default the Executive will be automated, so we must sandwich it with an AI-powered Legislature and an AI-powered Judiciary. This is the only way to ensure a future of checks and balances. The only way to ensure government stays democratic, in check, at the service of all of us. For the people, even when it\u2019s no longer strictly of the people.\n",
                 "textStyle": {}
@@ -2638,13 +2686,13 @@
         }
       },
       {
-        "startIndex": 14371,
-        "endIndex": 14372,
+        "startIndex": 14374,
+        "endIndex": 14375,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14371,
-              "endIndex": 14372,
+              "startIndex": 14374,
+              "endIndex": 14375,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2658,13 +2706,13 @@
         }
       },
       {
-        "startIndex": 14372,
-        "endIndex": 14595,
+        "startIndex": 14375,
+        "endIndex": 14598,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14372,
-              "endIndex": 14595,
+              "startIndex": 14375,
+              "endIndex": 14598,
               "textRun": {
                 "content": "We must ultimately seek not just exceptional intelligence, in the form of AI machines, we must seek exceptional wisdom, in the form of a human-machine civilization. The Judiciary must reflect the highest form of this goal.\n",
                 "textStyle": {}
@@ -2678,13 +2726,13 @@
         }
       },
       {
-        "startIndex": 14595,
-        "endIndex": 14596,
+        "startIndex": 14598,
+        "endIndex": 14599,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14595,
-              "endIndex": 14596,
+              "startIndex": 14598,
+              "endIndex": 14599,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2698,13 +2746,13 @@
         }
       },
       {
-        "startIndex": 14596,
-        "endIndex": 14968,
+        "startIndex": 14599,
+        "endIndex": 14971,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14596,
-              "endIndex": 14968,
+              "startIndex": 14599,
+              "endIndex": 14971,
               "textRun": {
                 "content": "While all three branches of government were designed to be co-equal, the Executive has crept up to become the dominant branch. As a practical point, we should first upgrade the Legislature and Judiciary with AI, or we risk an overpowered Executive. With no change in course, however, it\u2019s the Executive that will embrace AI first, further disrupting the balance of power.\n",
                 "textStyle": {}
@@ -3439,7 +3487,58 @@
       }
     }
   },
-  "revisionId": "ALBJ4LsB692Xyz5oc4Kku_A0xfVBZ-O9KDmNQ6l-3buhk_wd-n7Mq_DgFsVkTq4rl5IUzlN23vDhe3qHZn7aZA",
+  "revisionId": "ALBJ4Lu9MdmaHdR8lqChRi0D_YvVU_I4MZKNvWcQSzo_V7goWXZ997RpMZjRTBKg0jCRLtUf5B_UUwoQdLNMyA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.wutc4x565sb": {
+      "objectId": "kix.wutc4x565sb",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1pYH5ylqKxXwkbyZUky8LVbrJhDLEWTiHbzHew-ewj_qmq9Qq3m-uti0Q1UMpaDxS5zwkHp8hdW0NZdW7BQNWEtrOmk7tkUDTh623cLqTQQjFq0e03rhBFnCtX0gH59_ziVRBFA?key=96oGMgQg_7AyYALfrzcutMGa",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 706.5,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 711.75,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
   "documentId": "1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8"
 }

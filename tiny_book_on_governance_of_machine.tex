@@ -34,6 +34,15 @@
 \usepackage{needspace}
 \usepackage{afterpage}
 
+% Configure hyperref for better internal references
+\hypersetup{
+  colorlinks=false,  % No colored links for print
+  pdfborder={0 0 0}, % Remove link borders
+  pdftitle={The Tiny Book on the Governance of Machine},
+  bookmarks=true,
+  pdfpagemode=FullScreen,
+}
+
 % A5 papersize
 \usepackage[a5paper, inner=20mm, outer=10mm, top=15mm, bottom=15mm, twoside]{geometry}
 
@@ -104,26 +113,25 @@ Well, this is it. I wrote a big ass post about my thoughts on how to improve AI 
 \begin{flushleft}
 {\Large\bfseries The Tiny Book}\\[0.3cm]
 {\Large\bfseries on the}\\[0.3cm]
-{\Large\bfseries Governance of Machine}\\[0.5cm]
-{\normalsize Jordan Ezra Fisher}
+{\Large\bfseries Governance of Machine}
 \end{flushleft}
-\vspace*{0.5cm}
+\vspace*{1cm}
 
 No one wants to read 50 pages on governance in one go. So this book is built to be read in parts, or just pick the parts you're interested in.
 
-Want a primer on AI? Start with \href{#a-crash-course-on-ai}{A Crash Course on AI}.
+Want a primer on AI? Start with ``A Crash Course on AI'' on page~\pageref{a-crash-course-on-ai}.
 
-Already up to speed on AI and understand the risks? Jump straight to \href{#implicit-guardrails}{Implicit Guardrails}. 
+Already up to speed on AI and understand the risks? Jump straight to ``Implicit Guardrails'' on page~\pageref{implicit-guardrails}. 
 
-Just want to read some new ideas in AI governance? Jump to \href{#rapid-fire-governance}{Rapid Fire Governance}.
+Just want to read some new ideas in AI governance? Jump to ``Rapid Fire Governance'' on page~\pageref{rapid-fire-governance}.
 
-Only have 30 seconds? Read the \href{#tl-dr}{AI Governance TL;DR}.
+Only have 30 seconds? Read the ``TL;DR'' on page~\pageref{tl-dr}.
 
 Or, fuck it, YOLO your way through the whole book.
 
 \clearpage
 \vspace*{1.5cm}
-\section*{don't be silly}
+\section*{don't be silly}\label{don-t-be-silly}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -136,11 +144,19 @@ Even 10 years ago, when AI began showing real promise, you instead had to say yo
 
 Now, here we are, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.
 
-This may seem like a small thing, but it's not. We shy away from talking seriously about serious things when we're afraid it makes us look silly. And it has real consequences.
+This may seem like a small thing, but it's not. We shy away from talking seriously about serious things when we're afraid it makes us look silly. And it has real consequences. That's what happened with the discourse around AI risks:
 
 Now that AI is near it's becoming plain that sharing the world with another form of intelligence will have risks. Obviously, how could it not? But the risks from AI have been called out by the likes of Bostrom and Yudkowsky for decades now, largely ignored because it was too silly. And the real impact is that we've now failed to prepare for those risks. We've failed at even discussing them broadly as a society. Now we have little time left.
 
 It's time to stop feeling silly and start taking seriously the silly things in front of us that are deadly serious. However silly they are.
+
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1jKHxIXSFW1zwqVCSuRiTz8_svEtRXSaXqST-SAVe9_U_None.png}
+\end{figure}
+\clearpage
 
 Creating AI is going to change every single aspect of our world. But \textit{the way} it changes our world \textit{is not yet written in stone.} We all together have a part to play in determining the outcome. But only if we get over ourselves and talk about these silly things.
 
@@ -152,7 +168,7 @@ It's OK to be silly. Now let's talk about it.
 
 \clearpage
 \vspace*{1.5cm}
-\section*{TL;DR}
+\section*{TL;DR}\label{tl-dr}
 \vspace{0.7cm}
 
 \begin{itemize}
@@ -231,6 +247,14 @@ The question touches the nature of our existence. What world do we want to live 
 The governance of machine poses an equally profound question. We won't have a thousand years to arrive at good answers. We can't afford the deaths of past wars to settle disagreements. We have little time.
 
 But we must find an answer.
+
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1-CifFI15IsW5fj4DvSrH9SmpKJbAELyeHTKCfdGT6rs_None.png}
+\end{figure}
+\clearpage
 
 \section*{Contents}
 \vspace{0.5cm}
@@ -321,7 +345,7 @@ Let's start with the first approach: to understand what works today. In particul
 
 \clearpage
 \vspace*{1.5cm}
-\section*{Implicit Guardrails}
+\section*{Implicit Guardrails}\label{implicit-guardrails}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -338,10 +362,11 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 
 \vspace{0.5em}
 
-Examples of implicit guardrails
+\section*{Examples of implicit guardrails}
+\vspace{0.5cm}
 
 \begin{itemize}
-\item Knowledge convection
+\item \textbf{Knowledge convection}
     \begin{itemize}
     \item People move around and take their knowledge with them
     \item Knowledge is power, so this helps diffuse power
@@ -351,14 +376,14 @@ Examples of implicit guardrails
     \item Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. Complete lack of info can lead to paranoia and escalation
     \end{itemize}
     
-    \item Noble causes
+    \item \textbf{Noble causes}
     \begin{itemize}
     \item Many are inspired by noble causes
     \item That allows noble causes to have an advantage over dishonorable ones
     \item In an automated world, the only advantage will go to the cause with more machine resources
     \end{itemize}
     
-    \item Top talent
+    \item \textbf{Top talent}
     \begin{itemize}
     \item The hardest problems in the world require the work of the most talented people in the world
     \item Literal moonshots today can't succeed without these people, which allows them to ``vote'' on what moonshots should be ``funded'' with their talent
@@ -366,7 +391,7 @@ Examples of implicit guardrails
     \item Building AI is itself a moonshot. AI researchers have incredible power today to shape the direction of AI, \textit{if they choose to wield it}
     \end{itemize}
     
-    \item People can quit
+    \item \textbf{People can quit}
     \begin{itemize}
     \item On the flip side of choosing to work for a cause, people can choose to quit or protest
     \item This limits how nefarious a corporation or government can be
@@ -374,23 +399,23 @@ Examples of implicit guardrails
     \item Conscientious objection is a powerful limit on government malfeasance
     \end{itemize}
     
-    \item Refusing specific orders
+    \item \textbf{Refusing specific orders}
     \begin{itemize}
     \item Famously, in 1983, Stanislov Petrov saved the world by refusing to launch nuclear weapons against the United States
     \item There may not be an AI version of Petrov, if the AI is perfectly aligned to do what it's asked to do
     \end{itemize}
     
-    \item Whistleblowers
+    \item \textbf{Whistleblowers}
     \begin{itemize}
     \item Often leaders preemptively avoid breaking the law because they are afraid someone may whistleblow, not just quit
     \end{itemize}
     
-    \item Conspiracies and cartels are hard today
+    \item \textbf{Conspiracies and cartels are hard today}
     \begin{itemize}
     \item Because they take so many people to pull off, compliance to the cartel becomes exponentially harder as the size of the conspiracy grows. Not true with AI.
     \end{itemize}
     
-    \item Media
+    \item \textbf{Media}
     \begin{itemize}
     \item When someone does have the courage to whistleblow, there are human reporters ready to spread the story
     \item Media corporations can and do collude with nefarious corporate actors and politicians, but a healthy market of many media companies helps ensure someone will spread the story. 
@@ -398,19 +423,19 @@ Examples of implicit guardrails
     \item In an automated world, collusion between a politician and a media owner becomes extremely easy to execute
     \end{itemize}
     
-    \item Social media
+    \item \textbf{Social media}
     \begin{itemize}
     \item Every person can pick up and spread a story they see on social media
     \item In a world of infinite machines, indistinguishable from humans, the human choice to amplify will be muted.
     \end{itemize}
     
-    \item Limited power of committees
+    \item \textbf{Limited power of committees}
     \begin{itemize}
     \item A committee may decide something (which gives them a lot of power! democratically granted or not), but the execution of committee-made decision today is done by people, so the power ultimately lies with them
     \item You may put a committee in charge of overseeing the usage of an AGI, but ultimately the people actually using the AGI don't need people for it to execute its task, so what action mechanism does the committee have to actually throttle the user of AGI if they aren't listening to the committee? would the committee even know?
     \end{itemize}
     
-    \item Principal-agent problems
+    \item \textbf{Principal-agent problems}
     \begin{itemize}
     \item The principal-agent problem is a well studied management problem, where the goals of an employee (the agent) may not align with the goals of the owner (the principal)
     \item For example, an employee might treat a client or competitor more kindly, because they might work for them in the future
@@ -418,7 +443,8 @@ Examples of implicit guardrails
     \item This is a strong limiting factor on the power of large organizations
     \end{itemize}
     
-    \item Community approval
+    \item \textbf{Community approval}
+
     \begin{itemize}
     \item People want to do things their loved ones/friends would approve of (and that they themselves can be proud of)
     \item In many ways we're an honor bound society
@@ -426,23 +452,34 @@ Examples of implicit guardrails
     \item A soldier wants to act in a way that they can be proud of, or that their family would be proud of
     \end{itemize}
     
-    \item Personal fear of reprisal
+    \end{itemize}
+
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1YSvUWGOTsk521pFGTIoaw6o375P-Hl5yDnh15dQ9MGg_None.png}
+\end{figure}
+\clearpage
+
+\begin{itemize}
+\item \textbf{Personal fear of reprisal}
     \begin{itemize}
     \item The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey a job or order
     \item But an AI need not have fear
     \end{itemize}
     
-    \item In the judiciary
+    \item \textbf{In the judiciary}
     \begin{itemize}
     \item The application of law often requires the personal ethical considerations of the judge, not all law is explicit
     \end{itemize}
     
-    \item In the executive/law enforcement
+    \item \textbf{In the executive/law enforcement}
     \begin{itemize}
     \item Likewise, a police officer will often ``waive'' the application of a law if they feel extraneous circumstances warrant it
     \end{itemize}
     
-    \item The need for competition
+    \item \textbf{The need for competition}
     \begin{itemize}
     \item Today, we often need competition to align human incentives and then get certain outcomes
     \item This requires having a market, etc, which allows for mini multipolar outcomes
@@ -450,12 +487,12 @@ Examples of implicit guardrails
     \item Currently big orgs/government suffer inefficiencies because they have no internal markets/competition, this won't be true with AI
     \end{itemize}
     
-    \item Bread and circus
+    \item \textbf{Bread and circus}
     \begin{itemize}
     \item With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from them
     \end{itemize}
     
-    \item The ``Greg Brockman'' problem
+    \item \textbf{The ``Greg Brockman'' problem}
     \begin{itemize}
     \item We're seeing the trend today that managers are being more hands on, and need fewer intermediaries
     \item Typically a leader must act through layers of managers to achieve things
@@ -463,14 +500,14 @@ Examples of implicit guardrails
     \item In order to improve security, some labs are already isolating which members have access to the next frontier, so it wouldn't even raise alarm bells for an employee to no longer have access and to be unaware of who does (perhaps only Greg)
     \end{itemize}
     
-    \item Time moves slow
+    \item \textbf{Time moves slow}
     \begin{itemize}
     \item We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this
     \item Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter
     \item But if AI moves society forward at 10x speed, that's the equivalent of having a president in power for a 40 year term 
     \end{itemize}
     
-    \item Geopolitical interdependence
+    \item \textbf{Geopolitical interdependence}
     \begin{itemize}
     \item Nations are interdependent, as are international markets
     \item It's well understood that no nation can stand alone and isolated
@@ -478,71 +515,68 @@ Examples of implicit guardrails
     \item In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers
     \end{itemize}
     
-    \item Army of the willing
+    \item \textbf{Army of the willing}
     \begin{itemize}
     \item Outright war is extremely unpopular because it compels citizens to fight and die
     \item Automated wars may be unpopular, but not nearly as unpopular
     \item We already see this effect with our ability to wage war from the sky
     \end{itemize}
     
-    \item Corporate ecosystem
+    \item \textbf{Corporate ecosystem}
     \begin{itemize}
     \item A corporation is dependent on an ecosystem
     \item Full vertical integration is nearly impossible today, but may not be tomorrow
     \end{itemize}
     
-    \item Surveillance is hard
+    \item \textbf{Surveillance is hard}
     \begin{itemize}
     \item We've had the ability to record every form of communication for decades
     \item But \textit{analyzing} all communication has been required an infeasible amount of human power
     \item With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties
     \end{itemize}
     
-    \item There's general friction in visibility of what people are doing
+    \item \textbf{There's general friction in visibility of what people are doing}
     \begin{itemize}
     \item States see like states
     \item States lack perfect visibility of all the laws that are broken
     \item People lie a bit on their tax returns and that's baked into the tax rate
     \end{itemize}
     
-    \item There's general friction in enforcement of laws \& regs
+    \item \textbf{There's general friction in enforcement of laws and regulations}
     \begin{itemize}
     \item We can't enforce all laws all the time and that's part of our enforcement model
     \item In the old days a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end to end automated (right down to mailing the ticket to your home) but speed limits haven't changed
     \item This is not just a visibility issue but an enforcement issue
     \end{itemize}
     
-    \item Authorities need to act through human agents
+    \item \textbf{Authorities need to act through human agents}
     \begin{itemize}
     \item Authorities face frictions because human agents can refuse what they see as immoral orders
     \item Limits to this; plenty of folks wanted to staff concentration camps
-        \begin{itemize}
-        \item In the long run you can also train your society to be less moral (or differently moral)
-        \end{itemize}
-        
-        \item In at least 2 cases (Cuban missile crisis + Petrov incident) one single human's moral compass is all that prevented a general nuclear exchange
+    \item In the long run you can also train your society to be less moral (or differently moral)
+    \item In at least two cases (Cuban missile crisis + Petrov incident) one single human's moral compass is all that prevented a general nuclear exchange
     \item Culture is the final backstop 
     \end{itemize}
     
-    \item Even dictators need their citizens
+    \item \textbf{Even dictators need their citizens}
     \begin{itemize}
     \item With AI this will no longer be true 
     \end{itemize}
     
-    \item Elite social pressure matters to many leaders
+    \item \textbf{Elite social pressure matters to many leaders}
     \begin{itemize}
     \item Elites do have some ability to informally influence leaders
     \item Elites can be fully captured by leaders (Stalin and Hitler succeeded at this even with primitive tech)
     \end{itemize}
     
-    \item In the final limit, citizens can revolt
+    \item \textbf{In the final limit, citizens can revolt}
     \begin{itemize}
     \item Even the most authoritarian governments have to consider the risk of pushing the polity beyond the breaking point
     \item That breaking point was very far in 20th cent (Gulags, etc) and may or may not be farther now depending on existing governance (better ways to surveil, vs better \& faster ways for population to coordinate in grassroots) 
     \item There may be no such limit in the future
     \end{itemize}
     
-    \item Humans have economic and strategic value
+    \item \textbf{Humans have economic and strategic value}
 
     \begin{itemize}
     \item Authoritarians can't simply kill all their citizens today, or their economy and warmaking ability would be gutted
@@ -556,7 +590,7 @@ Examples of implicit guardrails
 
 \clearpage
 \vspace*{1.5cm}
-\section*{By any other name}
+\section*{By any other name}\label{by-any-other-name}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -624,6 +658,14 @@ The US has 100x the energy of North Korea. Many countries have 10x or more. Thes
 
 But available energy won't be a static variable, it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens (which it likely will, if it has access to full automation), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full throttled automated dictatorship, it would need to seriously disrupt its own citizens.
 
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag_None.png}
+\end{figure}
+\clearpage
+
 Everything we've learned from AI is that \textit{the curves don't bend.} More compute yields more capabilities, for whichever task you care about. If that task is military, more compute will give you better military capabilities than less compute. And there will be no limit to \textit{how much}. More will be more.
 
 Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn't have that immunity.
@@ -638,7 +680,7 @@ As I write this today, we are doing neither.
 
 \clearpage
 \vspace*{1.5cm}
-\section*{Rapid Fire Governance}
+\section*{Rapid Fire Governance}\label{rapid-fire-governance}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -767,6 +809,14 @@ We must have so much compute that we can build a worthy future, while having so 
 
 But even still, we've seen that an automated dictatorship could outstrip our own energy if they are ruthless enough with their domestic policy. And they very well might be. We thus need even more energy. More energy than exists or can exist for any nation on Earth.
 
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8_None.png}
+\end{figure}
+\clearpage
+
 \section*{A shared prize}
 \vspace{0.5cm}
 
@@ -795,7 +845,7 @@ While all three branches of government were designed to be co-equal, the Executi
 
 \clearpage
 \vspace*{1.5cm}
-\section*{An exponential, if you can keep it}
+\section*{An exponential, if you can keep it}\label{an-exponential--if-you-can-keep-it}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -810,11 +860,25 @@ Exponentials happen when the next step is made easier by the last one. They aren
 
 We all have a place in this discussion. We are today, us humans, the most powerful each of us will ever be to join this moment. There is no other time. It is now. It is here. Meet it.
 
+\vspace{0.5em}
+
 Keep in mind the benevolence of those around you; we can build this together. But don't lose sight of the infinite power that is at stake. There are monsters in this world, and even among the good there is weakness that becomes evil. As the curve accelerates the world will feel like it's coming apart. In those moments, many will act to seize power. We can resist them.
 
 Many good people will also act out of fear, to protect themselves and those they love. When jobs are automated, when the economy becomes opaque and uncertain, when the world is on edge and teeters on war, it's right to be fearful. You and I, dear reader, will be afraid. I am afraid.
 
-When we're afraid, when we're up against impossible odds, what we control is who we are. What we stand for. Stand for the good.
+When we're afraid, when we're up against impossible odds, what we control is who we are. What we stand for.
+
+Stand for the good.
+
+You're part of this now. The future depends on your voice.
+
+
+\clearpage
+\begin{figure}[p]
+\centering
+\includegraphics[width=\textwidth,height=0.9\textheight,keepaspectratio]{posts/images/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI_None.png}
+\end{figure}
+\clearpage
 
 \vspace{0.5em}
 
@@ -827,7 +891,7 @@ When we're afraid, when we're up against impossible odds, what we control is who
 
 \clearpage
 \vspace*{1.5cm}
-\section*{A Crash Course on AI}
+\section*{A Crash Course on AI}\label{a-crash-course-on-ai}
 \vspace{0.7cm}
 
 \begin{itemize}

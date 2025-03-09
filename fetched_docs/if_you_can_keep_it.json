@@ -253,12 +253,32 @@
       },
       {
         "startIndex": 1430,
-        "endIndex": 1801,
+        "endIndex": 1431,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1430,
-              "endIndex": 1801,
+              "endIndex": 1431,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1431,
+        "endIndex": 1802,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1431,
+              "endIndex": 1802,
               "textRun": {
                 "content": "Keep in mind the benevolence of those around you; we can build this together. But don\u2019t lose sight of the infinite power that is at stake. There are monsters in this world, and even among the good there is weakness that becomes evil. As the curve accelerates the world will feel like it\u2019s coming apart. In those moments, many will act to seize power. We can resist them.\n",
                 "textStyle": {}
@@ -272,13 +292,13 @@
         }
       },
       {
-        "startIndex": 1801,
-        "endIndex": 1802,
+        "startIndex": 1802,
+        "endIndex": 1803,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1801,
-              "endIndex": 1802,
+              "startIndex": 1802,
+              "endIndex": 1803,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -292,13 +312,13 @@
         }
       },
       {
-        "startIndex": 1802,
-        "endIndex": 2086,
+        "startIndex": 1803,
+        "endIndex": 2087,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1802,
-              "endIndex": 2086,
+              "startIndex": 1803,
+              "endIndex": 2087,
               "textRun": {
                 "content": "Many good people will also act out of fear, to protect themselves and those they love. When jobs are automated, when the economy becomes opaque and uncertain, when the world is on edge and teeters on war, it\u2019s right to be fearful. You and I, dear reader, will be afraid. I am afraid.\n",
                 "textStyle": {}
@@ -312,13 +332,13 @@
         }
       },
       {
-        "startIndex": 2086,
-        "endIndex": 2087,
+        "startIndex": 2087,
+        "endIndex": 2088,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2086,
-              "endIndex": 2087,
+              "startIndex": 2087,
+              "endIndex": 2088,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -332,21 +352,141 @@
         }
       },
       {
-        "startIndex": 2087,
-        "endIndex": 2215,
+        "startIndex": 2088,
+        "endIndex": 2196,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2087,
-              "endIndex": 2214,
+              "startIndex": 2088,
+              "endIndex": 2196,
               "textRun": {
-                "content": "When we\u2019re afraid, when we\u2019re up against impossible odds, what we control is who we are. What we stand for. Stand for the good.",
+                "content": "When we\u2019re afraid, when we\u2019re up against impossible odds, what we control is who we are. What we stand for.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2196,
+        "endIndex": 2197,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2196,
+              "endIndex": 2197,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2197,
+        "endIndex": 2217,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2197,
+              "endIndex": 2217,
+              "textRun": {
+                "content": "Stand for the good.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2217,
+        "endIndex": 2218,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2217,
+              "endIndex": 2218,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2218,
+        "endIndex": 2277,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2218,
+              "endIndex": 2277,
+              "textRun": {
+                "content": "You\u2019re part of this now. The future depends on your voice.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2277,
+        "endIndex": 2278,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2277,
+              "endIndex": 2278,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2278,
+        "endIndex": 2280,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2278,
+              "endIndex": 2279,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.6ec69yt8qx3p",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 2214,
-              "endIndex": 2215,
+              "startIndex": 2279,
+              "endIndex": 2280,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -761,7 +901,58 @@
       }
     ]
   },
-  "revisionId": "ALBJ4LuRRUGPXH64MOw5A5f7Xv6g0k-raOzouTWR4wQOE99gLbLEoxTtEwMmH-R6CfGzDKCvJcLfYMvkZL7Vgg",
+  "revisionId": "ALBJ4LtD8C_5UTwZhU45Ksjx29B30uvo9PUBqA4m712wxj2Bch_JdUBc-_nA4DcTyB63tCA5N1WFoVsOqVNy2w",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.6ec69yt8qx3p": {
+      "objectId": "kix.6ec69yt8qx3p",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf78dpm-dddViOJRLKXxALuFyAwaFGffOjjVINrr2hqHuguyaTbfZVxH4dHHbyqWAQhLfTcT52RbdsDooPXTu1fd_HheoRff5JwgS13x2qHczOCvvNkoDokngLpbI56x9VW2mjP?key=DvOQZAFuvUrwWCLPESZik1ZS",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 846.75,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 924,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
   "documentId": "1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI"
 }

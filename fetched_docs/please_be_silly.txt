@@ -7,11 +7,13 @@ Even 10 years ago, when AI began showing real promise, you instead had to say yo
 
 Now, here we are, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.
 
-This may seem like a small thing, but it’s not. We shy away from talking seriously about serious things when we’re afraid it makes us look silly. And it has real consequences.
+This may seem like a small thing, but it’s not. We shy away from talking seriously about serious things when we’re afraid it makes us look silly. And it has real consequences. That’s what happened with the discourse around AI risks:
 
 Now that AI is near it’s becoming plain that sharing the world with another form of intelligence will have risks. Obviously, how could it not? But the risks from AI have been called out by the likes of Bostrom and Yudkowsky for decades now, largely ignored because it was too silly. And the real impact is that we’ve now failed to prepare for those risks. We’ve failed at even discussing them broadly as a society. Now we have little time left.
 
 It’s time to stop feeling silly and start taking seriously the silly things in front of us that are deadly serious. However silly they are.
+
+
 
 Creating AI is going to change every single aspect of our world. But the way it changes our world is not yet written in stone. We all together have a part to play in determining the outcome. But only if we get over ourselves and talk about these silly things.
 

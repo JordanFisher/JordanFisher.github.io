@@ -286,7 +286,8 @@
             }
           ],
           "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
+            "headingId": "h.ckd5mleknudi",
+            "namedStyleType": "HEADING_1",
             "direction": "LEFT_TO_RIGHT"
           }
         }
@@ -321,7 +322,9 @@
               "endIndex": 1578,
               "textRun": {
                 "content": "Knowledge convection\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -339,7 +342,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -577,7 +582,9 @@
               "endIndex": 2124,
               "textRun": {
                 "content": "Noble causes\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -596,7 +603,7 @@
           "bullet": {
             "listId": "kix.gyhvd56n84cc",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
@@ -736,7 +743,9 @@
               "endIndex": 2330,
               "textRun": {
                 "content": "Top talent\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -754,7 +763,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -940,7 +951,9 @@
               "endIndex": 2887,
               "textRun": {
                 "content": "People can quit\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -958,7 +971,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -1147,7 +1162,9 @@
               "endIndex": 3215,
               "textRun": {
                 "content": "Refusing specific orders\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1165,7 +1182,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -1265,7 +1284,9 @@
               "endIndex": 3448,
               "textRun": {
                 "content": "Whistleblowers\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1283,7 +1304,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -1350,7 +1373,9 @@
               "endIndex": 3602,
               "textRun": {
                 "content": "Conspiracies and cartels are hard today\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1368,7 +1393,9 @@
           },
           "bullet": {
             "listId": "kix.qx8nu36eyefh",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -1435,7 +1462,9 @@
               "endIndex": 3764,
               "textRun": {
                 "content": "Media\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1454,7 +1483,7 @@
           "bullet": {
             "listId": "kix.qx8nu36eyefh",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
@@ -1629,7 +1658,9 @@
               "endIndex": 4247,
               "textRun": {
                 "content": "Social media\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1648,7 +1679,7 @@
           "bullet": {
             "listId": "kix.qx8nu36eyefh",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
@@ -1753,7 +1784,9 @@
               "endIndex": 4452,
               "textRun": {
                 "content": "Limited power of committees\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1771,7 +1804,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -1871,7 +1906,9 @@
               "endIndex": 5010,
               "textRun": {
                 "content": "Principal-agent problems\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -1889,7 +1926,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -2057,7 +2096,9 @@
               "endIndex": 5630,
               "textRun": {
                 "content": "Community approval\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2075,7 +2116,9 @@
           },
           "bullet": {
             "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
@@ -2233,15 +2276,65 @@
       },
       {
         "startIndex": 5955,
-        "endIndex": 5981,
+        "endIndex": 5957,
         "paragraph": {
           "elements": [
             {
               "startIndex": 5955,
-              "endIndex": 5981,
+              "endIndex": 5956,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.gc5qvuc96ndr",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5956,
+              "endIndex": 5957,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5957,
+        "endIndex": 5958,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5957,
+              "endIndex": 5958,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5958,
+        "endIndex": 5984,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5958,
+              "endIndex": 5984,
               "textRun": {
                 "content": "Personal fear of reprisal\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2258,19 +2351,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 5981,
-        "endIndex": 6118,
+        "startIndex": 5984,
+        "endIndex": 6121,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5981,
-              "endIndex": 6118,
+              "startIndex": 5984,
+              "endIndex": 6121,
               "textRun": {
                 "content": "The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey a job or order\n",
                 "textStyle": {}
@@ -2290,20 +2385,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6118,
-        "endIndex": 6147,
+        "startIndex": 6121,
+        "endIndex": 6150,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6118,
-              "endIndex": 6147,
+              "startIndex": 6121,
+              "endIndex": 6150,
               "textRun": {
                 "content": "But an AI need not have fear\n",
                 "textStyle": {}
@@ -2323,20 +2418,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6147,
-        "endIndex": 6148,
+        "startIndex": 6150,
+        "endIndex": 6151,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6147,
-              "endIndex": 6148,
+              "startIndex": 6150,
+              "endIndex": 6151,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2350,16 +2445,18 @@
         }
       },
       {
-        "startIndex": 6148,
-        "endIndex": 6165,
+        "startIndex": 6151,
+        "endIndex": 6168,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6148,
-              "endIndex": 6165,
+              "startIndex": 6151,
+              "endIndex": 6168,
               "textRun": {
                 "content": "In the judiciary\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2376,19 +2473,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 6165,
-        "endIndex": 6277,
+        "startIndex": 6168,
+        "endIndex": 6280,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6165,
-              "endIndex": 6277,
+              "startIndex": 6168,
+              "endIndex": 6280,
               "textRun": {
                 "content": "The application of law often requires the personal ethical considerations of the judge, not all law is explicit\n",
                 "textStyle": {}
@@ -2408,20 +2507,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6277,
-        "endIndex": 6278,
+        "startIndex": 6280,
+        "endIndex": 6281,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6277,
-              "endIndex": 6278,
+              "startIndex": 6280,
+              "endIndex": 6281,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2435,16 +2534,18 @@
         }
       },
       {
-        "startIndex": 6278,
-        "endIndex": 6311,
+        "startIndex": 6281,
+        "endIndex": 6314,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6278,
-              "endIndex": 6311,
+              "startIndex": 6281,
+              "endIndex": 6314,
               "textRun": {
                 "content": "In the executive/law enforcement\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2461,19 +2562,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 6311,
-        "endIndex": 6431,
+        "startIndex": 6314,
+        "endIndex": 6434,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6311,
-              "endIndex": 6431,
+              "startIndex": 6314,
+              "endIndex": 6434,
               "textRun": {
                 "content": "Likewise, a police officer will often \u201cwaive\u201d the application of a law if they feel extraneous circumstances warrant it\n",
                 "textStyle": {}
@@ -2493,20 +2596,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6431,
-        "endIndex": 6432,
+        "startIndex": 6434,
+        "endIndex": 6435,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6431,
-              "endIndex": 6432,
+              "startIndex": 6434,
+              "endIndex": 6435,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2520,16 +2623,18 @@
         }
       },
       {
-        "startIndex": 6432,
-        "endIndex": 6457,
+        "startIndex": 6435,
+        "endIndex": 6460,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6432,
-              "endIndex": 6457,
+              "startIndex": 6435,
+              "endIndex": 6460,
               "textRun": {
                 "content": "The need for competition\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2546,19 +2651,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 6457,
-        "endIndex": 6546,
+        "startIndex": 6460,
+        "endIndex": 6549,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6457,
-              "endIndex": 6546,
+              "startIndex": 6460,
+              "endIndex": 6549,
               "textRun": {
                 "content": "Today, we often need competition to align human incentives and then get certain outcomes\n",
                 "textStyle": {}
@@ -2578,20 +2685,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6546,
-        "endIndex": 6624,
+        "startIndex": 6549,
+        "endIndex": 6627,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6546,
-              "endIndex": 6624,
+              "startIndex": 6549,
+              "endIndex": 6627,
               "textRun": {
                 "content": "This requires having a market, etc, which allows for mini multipolar outcomes\n",
                 "textStyle": {}
@@ -2611,20 +2718,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6624,
-        "endIndex": 6711,
+        "startIndex": 6627,
+        "endIndex": 6714,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6624,
-              "endIndex": 6711,
+              "startIndex": 6627,
+              "endIndex": 6714,
               "textRun": {
                 "content": "AI won\u2019t need incentive structures, they will just do the right thing (be \u201cmotivated\u201d)\n",
                 "textStyle": {}
@@ -2644,20 +2751,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6711,
-        "endIndex": 6841,
+        "startIndex": 6714,
+        "endIndex": 6844,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6711,
-              "endIndex": 6841,
+              "startIndex": 6714,
+              "endIndex": 6844,
               "textRun": {
                 "content": "Currently big orgs/government suffer inefficiencies because they have no internal markets/competition, this won\u2019t be true with AI\n",
                 "textStyle": {}
@@ -2677,20 +2784,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6841,
-        "endIndex": 6842,
+        "startIndex": 6844,
+        "endIndex": 6845,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6841,
-              "endIndex": 6842,
+              "startIndex": 6844,
+              "endIndex": 6845,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2704,16 +2811,18 @@
         }
       },
       {
-        "startIndex": 6842,
-        "endIndex": 6859,
+        "startIndex": 6845,
+        "endIndex": 6862,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6842,
-              "endIndex": 6859,
+              "startIndex": 6845,
+              "endIndex": 6862,
               "textRun": {
                 "content": "Bread and circus\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2730,19 +2839,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 6859,
-        "endIndex": 6993,
+        "startIndex": 6862,
+        "endIndex": 6996,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6859,
-              "endIndex": 6993,
+              "startIndex": 6862,
+              "endIndex": 6996,
               "textRun": {
                 "content": "With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from them\n",
                 "textStyle": {}
@@ -2762,20 +2873,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 6993,
-        "endIndex": 6994,
+        "startIndex": 6996,
+        "endIndex": 6997,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6993,
-              "endIndex": 6994,
+              "startIndex": 6996,
+              "endIndex": 6997,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2789,16 +2900,18 @@
         }
       },
       {
-        "startIndex": 6994,
-        "endIndex": 7022,
+        "startIndex": 6997,
+        "endIndex": 7025,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6994,
-              "endIndex": 7022,
+              "startIndex": 6997,
+              "endIndex": 7025,
               "textRun": {
                 "content": "The \u201cGreg Brockman\u201d problem\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2815,19 +2928,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 7022,
-        "endIndex": 7120,
+        "startIndex": 7025,
+        "endIndex": 7123,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7022,
-              "endIndex": 7120,
+              "startIndex": 7025,
+              "endIndex": 7123,
               "textRun": {
                 "content": "We\u2019re seeing the trend today that managers are being more hands on, and need fewer intermediaries\n",
                 "textStyle": {}
@@ -2847,20 +2962,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7120,
-        "endIndex": 7193,
+        "startIndex": 7123,
+        "endIndex": 7196,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7120,
-              "endIndex": 7193,
+              "startIndex": 7123,
+              "endIndex": 7196,
               "textRun": {
                 "content": "Typically a leader must act through layers of managers to achieve things\n",
                 "textStyle": {}
@@ -2880,20 +2995,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7193,
-        "endIndex": 7348,
+        "startIndex": 7196,
+        "endIndex": 7351,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7193,
-              "endIndex": 7348,
+              "startIndex": 7196,
+              "endIndex": 7351,
               "textRun": {
                 "content": "But tomorrow, a strong enough technical leader may be able to directly pair with an AGI/superintelligence without any additional assistance from employees\n",
                 "textStyle": {}
@@ -2913,20 +3028,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7348,
-        "endIndex": 7587,
+        "startIndex": 7351,
+        "endIndex": 7590,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7348,
-              "endIndex": 7587,
+              "startIndex": 7351,
+              "endIndex": 7590,
               "textRun": {
                 "content": "In order to improve security, some labs are already isolating which members have access to the next frontier, so it wouldn\u2019t even raise alarm bells for an employee to no longer have access and to be unaware of who does (perhaps only Greg)\n",
                 "textStyle": {}
@@ -2946,20 +3061,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7587,
-        "endIndex": 7588,
+        "startIndex": 7590,
+        "endIndex": 7591,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7587,
-              "endIndex": 7588,
+              "startIndex": 7590,
+              "endIndex": 7591,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2973,16 +3088,18 @@
         }
       },
       {
-        "startIndex": 7588,
-        "endIndex": 7604,
+        "startIndex": 7591,
+        "endIndex": 7607,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7588,
-              "endIndex": 7604,
+              "startIndex": 7591,
+              "endIndex": 7607,
               "textRun": {
                 "content": "Time moves slow\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -2999,19 +3116,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 7604,
-        "endIndex": 7767,
+        "startIndex": 7607,
+        "endIndex": 7770,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7604,
-              "endIndex": 7767,
+              "startIndex": 7607,
+              "endIndex": 7770,
               "textRun": {
                 "content": "We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this\n",
                 "textStyle": {}
@@ -3031,20 +3150,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7767,
-        "endIndex": 7944,
+        "startIndex": 7770,
+        "endIndex": 7947,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7767,
-              "endIndex": 7944,
+              "startIndex": 7770,
+              "endIndex": 7947,
               "textRun": {
                 "content": "Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter\n",
                 "textStyle": {}
@@ -3064,20 +3183,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 7944,
-        "endIndex": 8063,
+        "startIndex": 7947,
+        "endIndex": 8066,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7944,
-              "endIndex": 8063,
+              "startIndex": 7947,
+              "endIndex": 8066,
               "textRun": {
                 "content": "But if AI moves society forward at 10x speed, that's the equivalent of having a president in power for a 40 year term \n",
                 "textStyle": {}
@@ -3097,20 +3216,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8063,
-        "endIndex": 8064,
+        "startIndex": 8066,
+        "endIndex": 8067,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8063,
-              "endIndex": 8064,
+              "startIndex": 8066,
+              "endIndex": 8067,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3124,16 +3243,18 @@
         }
       },
       {
-        "startIndex": 8064,
-        "endIndex": 8093,
+        "startIndex": 8067,
+        "endIndex": 8096,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8064,
-              "endIndex": 8093,
+              "startIndex": 8067,
+              "endIndex": 8096,
               "textRun": {
                 "content": "Geopolitical interdependence\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3150,19 +3271,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 8093,
-        "endIndex": 8150,
+        "startIndex": 8096,
+        "endIndex": 8153,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8093,
-              "endIndex": 8150,
+              "startIndex": 8096,
+              "endIndex": 8153,
               "textRun": {
                 "content": "Nations are interdependent, as are international markets\n",
                 "textStyle": {}
@@ -3182,20 +3305,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8150,
-        "endIndex": 8215,
+        "startIndex": 8153,
+        "endIndex": 8218,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8150,
-              "endIndex": 8215,
+              "startIndex": 8153,
+              "endIndex": 8218,
               "textRun": {
                 "content": "It\u2019s well understood that no nation can stand alone and isolated\n",
                 "textStyle": {}
@@ -3215,22 +3338,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8215,
-        "endIndex": 8324,
+        "startIndex": 8218,
+        "endIndex": 8327,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8215,
-              "endIndex": 8324,
+              "startIndex": 8218,
+              "endIndex": 8327,
               "textRun": {
                 "content": "This has a mediating force on international politics and helps ensure peace is a mutually beneficial outcome\n",
                 "textStyle": {}
@@ -3250,22 +3371,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8324,
-        "endIndex": 8456,
+        "startIndex": 8327,
+        "endIndex": 8459,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8324,
-              "endIndex": 8456,
+              "startIndex": 8327,
+              "endIndex": 8459,
               "textRun": {
                 "content": "In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers\n",
                 "textStyle": {}
@@ -3285,22 +3404,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8456,
-        "endIndex": 8457,
+        "startIndex": 8459,
+        "endIndex": 8460,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8456,
-              "endIndex": 8457,
+              "startIndex": 8459,
+              "endIndex": 8460,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3314,16 +3431,18 @@
         }
       },
       {
-        "startIndex": 8457,
-        "endIndex": 8477,
+        "startIndex": 8460,
+        "endIndex": 8480,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8457,
-              "endIndex": 8477,
+              "startIndex": 8460,
+              "endIndex": 8480,
               "textRun": {
                 "content": "Army of the willing\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3342,19 +3461,19 @@
           "bullet": {
             "listId": "kix.a36xfajsirpr",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
       },
       {
-        "startIndex": 8477,
-        "endIndex": 8558,
+        "startIndex": 8480,
+        "endIndex": 8561,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8477,
-              "endIndex": 8558,
+              "startIndex": 8480,
+              "endIndex": 8561,
               "textRun": {
                 "content": "Outright war is extremely unpopular because it compels citizens to fight and die\n",
                 "textStyle": {}
@@ -3376,20 +3495,18 @@
           "bullet": {
             "listId": "kix.a36xfajsirpr",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8558,
-        "endIndex": 8619,
+        "startIndex": 8561,
+        "endIndex": 8622,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8558,
-              "endIndex": 8619,
+              "startIndex": 8561,
+              "endIndex": 8622,
               "textRun": {
                 "content": "Automated wars may be unpopular, but not nearly as unpopular\n",
                 "textStyle": {}
@@ -3411,20 +3528,18 @@
           "bullet": {
             "listId": "kix.a36xfajsirpr",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8619,
-        "endIndex": 8688,
+        "startIndex": 8622,
+        "endIndex": 8691,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8619,
-              "endIndex": 8688,
+              "startIndex": 8622,
+              "endIndex": 8691,
               "textRun": {
                 "content": "We already see this effect with our ability to wage war from the sky\n",
                 "textStyle": {}
@@ -3446,20 +3561,18 @@
           "bullet": {
             "listId": "kix.a36xfajsirpr",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8688,
-        "endIndex": 8689,
+        "startIndex": 8691,
+        "endIndex": 8692,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8688,
-              "endIndex": 8689,
+              "startIndex": 8691,
+              "endIndex": 8692,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3473,16 +3586,18 @@
         }
       },
       {
-        "startIndex": 8689,
-        "endIndex": 8709,
+        "startIndex": 8692,
+        "endIndex": 8712,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8689,
-              "endIndex": 8709,
+              "startIndex": 8692,
+              "endIndex": 8712,
               "textRun": {
                 "content": "Corporate ecosystem\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3499,19 +3614,21 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
-            "textStyle": {}
+            "listId": "kix.1e1jyhflmrq4",
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 8709,
-        "endIndex": 8752,
+        "startIndex": 8712,
+        "endIndex": 8755,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8709,
-              "endIndex": 8752,
+              "startIndex": 8712,
+              "endIndex": 8755,
               "textRun": {
                 "content": "A corporation is dependent on an ecosystem\n",
                 "textStyle": {}
@@ -3531,20 +3648,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8752,
-        "endIndex": 8830,
+        "startIndex": 8755,
+        "endIndex": 8833,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8752,
-              "endIndex": 8830,
+              "startIndex": 8755,
+              "endIndex": 8833,
               "textRun": {
                 "content": "Full vertical integration is nearly impossible today, but may not be tomorrow\n",
                 "textStyle": {}
@@ -3564,22 +3681,20 @@
             }
           },
           "bullet": {
-            "listId": "kix.7cjdhimug8kz",
+            "listId": "kix.1e1jyhflmrq4",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8830,
-        "endIndex": 8831,
+        "startIndex": 8833,
+        "endIndex": 8834,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8830,
-              "endIndex": 8831,
+              "startIndex": 8833,
+              "endIndex": 8834,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3588,27 +3703,23 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "unit": "PT"
-            },
-            "indentStart": {
-              "unit": "PT"
-            }
+            "direction": "LEFT_TO_RIGHT"
           }
         }
       },
       {
-        "startIndex": 8831,
-        "endIndex": 8852,
+        "startIndex": 8834,
+        "endIndex": 8855,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8831,
-              "endIndex": 8852,
+              "startIndex": 8834,
+              "endIndex": 8855,
               "textRun": {
                 "content": "Surveillance is hard\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3627,19 +3738,19 @@
           "bullet": {
             "listId": "kix.hfyphgmayyye",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
       },
       {
-        "startIndex": 8852,
-        "endIndex": 8924,
+        "startIndex": 8855,
+        "endIndex": 8927,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8852,
-              "endIndex": 8924,
+              "startIndex": 8855,
+              "endIndex": 8927,
               "textRun": {
                 "content": "We\u2019ve had the ability to record every form of communication for decades\n",
                 "textStyle": {}
@@ -3661,28 +3772,26 @@
           "bullet": {
             "listId": "kix.hfyphgmayyye",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 8924,
-        "endIndex": 9010,
+        "startIndex": 8927,
+        "endIndex": 9013,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8924,
-              "endIndex": 8928,
+              "startIndex": 8927,
+              "endIndex": 8931,
               "textRun": {
                 "content": "But ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8928,
-              "endIndex": 8937,
+              "startIndex": 8931,
+              "endIndex": 8940,
               "textRun": {
                 "content": "analyzing",
                 "textStyle": {
@@ -3691,8 +3800,8 @@
               }
             },
             {
-              "startIndex": 8937,
-              "endIndex": 9010,
+              "startIndex": 8940,
+              "endIndex": 9013,
               "textRun": {
                 "content": " all communication has been required an infeasible amount of human power\n",
                 "textStyle": {}
@@ -3714,20 +3823,18 @@
           "bullet": {
             "listId": "kix.hfyphgmayyye",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 9010,
-        "endIndex": 9188,
+        "startIndex": 9013,
+        "endIndex": 9191,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9010,
-              "endIndex": 9188,
+              "startIndex": 9013,
+              "endIndex": 9191,
               "textRun": {
                 "content": "With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties\n",
                 "textStyle": {}
@@ -3749,20 +3856,18 @@
           "bullet": {
             "listId": "kix.hfyphgmayyye",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 9188,
-        "endIndex": 9189,
+        "startIndex": 9191,
+        "endIndex": 9192,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9188,
-              "endIndex": 9189,
+              "startIndex": 9191,
+              "endIndex": 9192,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3771,27 +3876,23 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "unit": "PT"
-            },
-            "indentStart": {
-              "unit": "PT"
-            }
+            "direction": "LEFT_TO_RIGHT"
           }
         }
       },
       {
-        "startIndex": 9189,
-        "endIndex": 9253,
+        "startIndex": 9192,
+        "endIndex": 9256,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9189,
-              "endIndex": 9253,
+              "startIndex": 9192,
+              "endIndex": 9256,
               "textRun": {
                 "content": "There\u2019s general friction in visibility of what people are doing\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3809,18 +3910,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 9253,
-        "endIndex": 9276,
+        "startIndex": 9256,
+        "endIndex": 9279,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9253,
-              "endIndex": 9276,
+              "startIndex": 9256,
+              "endIndex": 9279,
               "textRun": {
                 "content": "States see like states\n",
                 "textStyle": {}
@@ -3847,13 +3950,13 @@
         }
       },
       {
-        "startIndex": 9276,
-        "endIndex": 9339,
+        "startIndex": 9279,
+        "endIndex": 9342,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9276,
-              "endIndex": 9339,
+              "startIndex": 9279,
+              "endIndex": 9342,
               "textRun": {
                 "content": "States lack perfect visibility of all the laws that are broken\n",
                 "textStyle": {}
@@ -3880,13 +3983,13 @@
         }
       },
       {
-        "startIndex": 9339,
-        "endIndex": 9412,
+        "startIndex": 9342,
+        "endIndex": 9415,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9339,
-              "endIndex": 9412,
+              "startIndex": 9342,
+              "endIndex": 9415,
               "textRun": {
                 "content": "People lie a bit on their tax returns and that\u2019s baked into the tax rate\n",
                 "textStyle": {}
@@ -3913,13 +4016,13 @@
         }
       },
       {
-        "startIndex": 9412,
-        "endIndex": 9413,
+        "startIndex": 9415,
+        "endIndex": 9416,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9412,
-              "endIndex": 9413,
+              "startIndex": 9415,
+              "endIndex": 9416,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3933,16 +4036,18 @@
         }
       },
       {
-        "startIndex": 9413,
-        "endIndex": 9468,
+        "startIndex": 9416,
+        "endIndex": 9480,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9413,
-              "endIndex": 9468,
+              "startIndex": 9416,
+              "endIndex": 9480,
               "textRun": {
-                "content": "There\u2019s general friction in enforcement of laws & regs\n",
-                "textStyle": {}
+                "content": "There\u2019s general friction in enforcement of laws and regulations\n",
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -3960,18 +4065,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 9468,
-        "endIndex": 9548,
+        "startIndex": 9480,
+        "endIndex": 9560,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9468,
-              "endIndex": 9548,
+              "startIndex": 9480,
+              "endIndex": 9560,
               "textRun": {
                 "content": "We can\u2019t enforce all laws all the time and that\u2019s part of our enforcement model\n",
                 "textStyle": {}
@@ -3998,13 +4105,13 @@
         }
       },
       {
-        "startIndex": 9548,
-        "endIndex": 9763,
+        "startIndex": 9560,
+        "endIndex": 9775,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9548,
-              "endIndex": 9763,
+              "startIndex": 9560,
+              "endIndex": 9775,
               "textRun": {
                 "content": "In the old days a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end to end automated (right down to mailing the ticket to your home) but speed limits haven\u2019t changed\n",
                 "textStyle": {}
@@ -4031,13 +4138,13 @@
         }
       },
       {
-        "startIndex": 9763,
-        "endIndex": 9824,
+        "startIndex": 9775,
+        "endIndex": 9836,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9763,
-              "endIndex": 9824,
+              "startIndex": 9775,
+              "endIndex": 9836,
               "textRun": {
                 "content": "This is not just a visibility issue but an enforcement issue\n",
                 "textStyle": {}
@@ -4064,13 +4171,13 @@
         }
       },
       {
-        "startIndex": 9824,
-        "endIndex": 9825,
+        "startIndex": 9836,
+        "endIndex": 9837,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9824,
-              "endIndex": 9825,
+              "startIndex": 9836,
+              "endIndex": 9837,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4084,16 +4191,18 @@
         }
       },
       {
-        "startIndex": 9825,
-        "endIndex": 9870,
+        "startIndex": 9837,
+        "endIndex": 9882,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9825,
-              "endIndex": 9870,
+              "startIndex": 9837,
+              "endIndex": 9882,
               "textRun": {
                 "content": "Authorities need to act through human agents\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -4111,18 +4220,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 9870,
-        "endIndex": 9961,
+        "startIndex": 9882,
+        "endIndex": 9973,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9870,
-              "endIndex": 9961,
+              "startIndex": 9882,
+              "endIndex": 9973,
               "textRun": {
                 "content": "Authorities face frictions because human agents can refuse what they see as immoral orders\n",
                 "textStyle": {}
@@ -4149,13 +4260,13 @@
         }
       },
       {
-        "startIndex": 9961,
-        "endIndex": 10029,
+        "startIndex": 9973,
+        "endIndex": 10041,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9961,
-              "endIndex": 10029,
+              "startIndex": 9973,
+              "endIndex": 10041,
               "textRun": {
                 "content": "Limits to this; plenty of folks wanted to staff concentration camps\n",
                 "textStyle": {}
@@ -4182,48 +4293,15 @@
         }
       },
       {
-        "startIndex": 10029,
-        "endIndex": 10117,
+        "startIndex": 10041,
+        "endIndex": 10129,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10029,
-              "endIndex": 10117,
+              "startIndex": 10041,
+              "endIndex": 10129,
               "textRun": {
                 "content": "In the long run you can also train your society to be less moral (or differently moral)\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 90,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 108,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.vi7jyuwozc26",
-            "nestingLevel": 2,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 10117,
-        "endIndex": 10260,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 10117,
-              "endIndex": 10260,
-              "textRun": {
-                "content": "In at least 2 cases (Cuban missile crisis + Petrov incident) one single human\u2019s moral compass is all that prevented a general nuclear exchange\n",
                 "textStyle": {}
               }
             }
@@ -4248,13 +4326,46 @@
         }
       },
       {
-        "startIndex": 10260,
-        "endIndex": 10291,
+        "startIndex": 10129,
+        "endIndex": 10274,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10260,
-              "endIndex": 10291,
+              "startIndex": 10129,
+              "endIndex": 10274,
+              "textRun": {
+                "content": "In at least two cases (Cuban missile crisis + Petrov incident) one single human\u2019s moral compass is all that prevented a general nuclear exchange\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.vi7jyuwozc26",
+            "nestingLevel": 1,
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 10274,
+        "endIndex": 10305,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10274,
+              "endIndex": 10305,
               "textRun": {
                 "content": "Culture is the final backstop \n",
                 "textStyle": {}
@@ -4281,13 +4392,13 @@
         }
       },
       {
-        "startIndex": 10291,
-        "endIndex": 10292,
+        "startIndex": 10305,
+        "endIndex": 10306,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10291,
-              "endIndex": 10292,
+              "startIndex": 10305,
+              "endIndex": 10306,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4301,16 +4412,18 @@
         }
       },
       {
-        "startIndex": 10292,
-        "endIndex": 10327,
+        "startIndex": 10306,
+        "endIndex": 10341,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10292,
-              "endIndex": 10327,
+              "startIndex": 10306,
+              "endIndex": 10341,
               "textRun": {
                 "content": "Even dictators need their citizens\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -4329,19 +4442,19 @@
           "bullet": {
             "listId": "kix.5k85fgcqz3dj",
             "textStyle": {
-              "underline": false
+              "bold": true
             }
           }
         }
       },
       {
-        "startIndex": 10327,
-        "endIndex": 10364,
+        "startIndex": 10341,
+        "endIndex": 10378,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10327,
-              "endIndex": 10364,
+              "startIndex": 10341,
+              "endIndex": 10378,
               "textRun": {
                 "content": "With AI this will no longer be true \n",
                 "textStyle": {}
@@ -4363,20 +4476,18 @@
           "bullet": {
             "listId": "kix.5k85fgcqz3dj",
             "nestingLevel": 1,
-            "textStyle": {
-              "underline": false
-            }
+            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 10364,
-        "endIndex": 10365,
+        "startIndex": 10378,
+        "endIndex": 10379,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10364,
-              "endIndex": 10365,
+              "startIndex": 10378,
+              "endIndex": 10379,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4390,16 +4501,18 @@
         }
       },
       {
-        "startIndex": 10365,
-        "endIndex": 10411,
+        "startIndex": 10379,
+        "endIndex": 10425,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10365,
-              "endIndex": 10411,
+              "startIndex": 10379,
+              "endIndex": 10425,
               "textRun": {
                 "content": "Elite social pressure matters to many leaders\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -4417,18 +4530,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 10411,
-        "endIndex": 10471,
+        "startIndex": 10425,
+        "endIndex": 10485,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10411,
-              "endIndex": 10471,
+              "startIndex": 10425,
+              "endIndex": 10485,
               "textRun": {
                 "content": "Elites do have some ability to informally influence leaders\n",
                 "textStyle": {}
@@ -4455,13 +4570,13 @@
         }
       },
       {
-        "startIndex": 10471,
-        "endIndex": 10574,
+        "startIndex": 10485,
+        "endIndex": 10588,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10471,
-              "endIndex": 10574,
+              "startIndex": 10485,
+              "endIndex": 10588,
               "textRun": {
                 "content": "Elites can be fully captured by leaders (Stalin and Hitler succeeded at this even with primitive tech)\n",
                 "textStyle": {}
@@ -4488,13 +4603,13 @@
         }
       },
       {
-        "startIndex": 10574,
-        "endIndex": 10575,
+        "startIndex": 10588,
+        "endIndex": 10589,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10574,
-              "endIndex": 10575,
+              "startIndex": 10588,
+              "endIndex": 10589,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4508,16 +4623,18 @@
         }
       },
       {
-        "startIndex": 10575,
-        "endIndex": 10615,
+        "startIndex": 10589,
+        "endIndex": 10629,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10575,
-              "endIndex": 10615,
+              "startIndex": 10589,
+              "endIndex": 10629,
               "textRun": {
                 "content": "In the final limit, citizens can revolt\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -4535,18 +4652,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 10615,
-        "endIndex": 10729,
+        "startIndex": 10629,
+        "endIndex": 10743,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10615,
-              "endIndex": 10729,
+              "startIndex": 10629,
+              "endIndex": 10743,
               "textRun": {
                 "content": "Even the most authoritarian governments have to consider the risk of pushing the polity beyond the breaking point\n",
                 "textStyle": {}
@@ -4573,13 +4692,13 @@
         }
       },
       {
-        "startIndex": 10729,
-        "endIndex": 10950,
+        "startIndex": 10743,
+        "endIndex": 10964,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10729,
-              "endIndex": 10950,
+              "startIndex": 10743,
+              "endIndex": 10964,
               "textRun": {
                 "content": "That breaking point was very far in 20th cent (Gulags, etc) and may or may not be farther now depending on existing governance (better ways to surveil, vs better & faster ways for population to coordinate in grassroots) \n",
                 "textStyle": {}
@@ -4606,13 +4725,13 @@
         }
       },
       {
-        "startIndex": 10950,
-        "endIndex": 10991,
+        "startIndex": 10964,
+        "endIndex": 11005,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10950,
-              "endIndex": 10991,
+              "startIndex": 10964,
+              "endIndex": 11005,
               "textRun": {
                 "content": "There may be no such limit in the future\n",
                 "textStyle": {}
@@ -4639,13 +4758,13 @@
         }
       },
       {
-        "startIndex": 10991,
-        "endIndex": 10992,
+        "startIndex": 11005,
+        "endIndex": 11006,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10991,
-              "endIndex": 10992,
+              "startIndex": 11005,
+              "endIndex": 11006,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4659,16 +4778,18 @@
         }
       },
       {
-        "startIndex": 10992,
-        "endIndex": 11033,
+        "startIndex": 11006,
+        "endIndex": 11047,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10992,
-              "endIndex": 11033,
+              "startIndex": 11006,
+              "endIndex": 11047,
               "textRun": {
                 "content": "Humans have economic and strategic value\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -4686,18 +4807,20 @@
           },
           "bullet": {
             "listId": "kix.vi7jyuwozc26",
-            "textStyle": {}
+            "textStyle": {
+              "bold": true
+            }
           }
         }
       },
       {
-        "startIndex": 11033,
-        "endIndex": 11147,
+        "startIndex": 11047,
+        "endIndex": 11161,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11033,
-              "endIndex": 11147,
+              "startIndex": 11047,
+              "endIndex": 11161,
               "textRun": {
                 "content": "Authoritarians can\u2019t simply kill all their citizens today, or their economy and warmaking ability would be gutted\n",
                 "textStyle": {}
@@ -4724,13 +4847,13 @@
         }
       },
       {
-        "startIndex": 11147,
-        "endIndex": 11293,
+        "startIndex": 11161,
+        "endIndex": 11307,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11147,
-              "endIndex": 11293,
+              "startIndex": 11161,
+              "endIndex": 11307,
               "textRun": {
                 "content": "The Khmer Rouge tried exactly this (they killed 25% of their population) but ended up obliterated by a Vietnamese invasion after crippling itself\n",
                 "textStyle": {}
@@ -4757,13 +4880,13 @@
         }
       },
       {
-        "startIndex": 11293,
-        "endIndex": 11394,
+        "startIndex": 11307,
+        "endIndex": 11408,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11293,
-              "endIndex": 11394,
+              "startIndex": 11307,
+              "endIndex": 11408,
               "textRun": {
                 "content": "Even the most psychopathic ruler, if self-interested, must support their people to support themself \n",
                 "textStyle": {}
@@ -4790,13 +4913,13 @@
         }
       },
       {
-        "startIndex": 11394,
-        "endIndex": 11522,
+        "startIndex": 11408,
+        "endIndex": 11536,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11394,
-              "endIndex": 11522,
+              "startIndex": 11408,
+              "endIndex": 11536,
               "textRun": {
                 "content": "But post-AGI, what\u2019s the point of supporting other humans with your national output at all? Citizens become economic deadweight\n",
                 "textStyle": {}
@@ -4823,13 +4946,13 @@
         }
       },
       {
-        "startIndex": 11522,
-        "endIndex": 11676,
+        "startIndex": 11536,
+        "endIndex": 11690,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11522,
-              "endIndex": 11676,
+              "startIndex": 11536,
+              "endIndex": 11690,
               "textRun": {
                 "content": "And even if Authoritarian A wants to support his pop, Authoritarian B who doesn\u2019t will ceteris paribus outcompete Authoritarian A across relevant domains\n",
                 "textStyle": {}
@@ -4856,16 +4979,18 @@
         }
       },
       {
-        "startIndex": 11676,
-        "endIndex": 11677,
+        "startIndex": 11690,
+        "endIndex": 11691,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11676,
-              "endIndex": 11677,
+              "startIndex": 11690,
+              "endIndex": 11691,
               "textRun": {
                 "content": "\n",
-                "textStyle": {}
+                "textStyle": {
+                  "bold": true
+                }
               }
             }
           ],
@@ -5284,6 +5409,165 @@
     ]
   },
   "lists": {
+    "kix.1e1jyhflmrq4": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
     "kix.5k85fgcqz3dj": {
       "listProperties": {
         "nestingLevels": [
@@ -6557,7 +6841,58 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lv3fCGJZd0na24fGgG-r17VnqBjw68gLiB6dh9mfqL_ZQl-3dcNPWf9-HBF8_G7PoLX7hS6N3N46woHgw",
+  "revisionId": "ALBJ4Ls8KXptf26Cmy8CaKJF85QBBeh33aj7xzXtVPfq6HsGbkSPczozuXurfVFtbZEYELc9KQqbHf7tIVUlZQ",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.gc5qvuc96ndr": {
+      "objectId": "kix.gc5qvuc96ndr",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSJUXQlYbEExt0TwNuCemh1ZmQip4ZXIkWh_AuDBowg9ViM-cls1RRFoxEKorJOeIYsLcv382pXNHmFwOb9AtGK_jlE7gtop9glzhbJ9HFTDmegSydU5r079-ufwT-wbp2YOc6zw?key=KwcBD0KvNyYIWpFN5EDGdTCV",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 501.75,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 545.25,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
   "documentId": "1YSvUWGOTsk521pFGTIoaw6o375P-Hl5yDnh15dQ9MGg"
 }

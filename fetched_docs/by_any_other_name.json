@@ -1525,20 +1525,68 @@
       },
       {
         "startIndex": 9767,
-        "endIndex": 10065,
+        "endIndex": 9769,
         "paragraph": {
           "elements": [
             {
               "startIndex": 9767,
-              "endIndex": 9808,
+              "endIndex": 9768,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.6fhzlibap96g",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 9768,
+              "endIndex": 9769,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9769,
+        "endIndex": 9770,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9769,
+              "endIndex": 9770,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9770,
+        "endIndex": 10068,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9770,
+              "endIndex": 9811,
               "textRun": {
                 "content": "Everything we\u2019ve learned from AI is that ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9808,
-              "endIndex": 9830,
+              "startIndex": 9811,
+              "endIndex": 9833,
               "textRun": {
                 "content": "the curves don\u2019t bend.",
                 "textStyle": {
@@ -1547,16 +1595,16 @@
               }
             },
             {
-              "startIndex": 9830,
-              "endIndex": 10036,
+              "startIndex": 9833,
+              "endIndex": 10039,
               "textRun": {
                 "content": " More compute yields more capabilities, for whichever task you care about. If that task is military, more compute will give you better military capabilities than less compute. And there will be no limit to ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10036,
-              "endIndex": 10044,
+              "startIndex": 10039,
+              "endIndex": 10047,
               "textRun": {
                 "content": "how much",
                 "textStyle": {
@@ -1565,8 +1613,8 @@
               }
             },
             {
-              "startIndex": 10044,
-              "endIndex": 10065,
+              "startIndex": 10047,
+              "endIndex": 10068,
               "textRun": {
                 "content": ". More will be more.\n",
                 "textStyle": {}
@@ -1580,13 +1628,13 @@
         }
       },
       {
-        "startIndex": 10065,
-        "endIndex": 10066,
+        "startIndex": 10068,
+        "endIndex": 10069,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10065,
-              "endIndex": 10066,
+              "startIndex": 10068,
+              "endIndex": 10069,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1600,13 +1648,13 @@
         }
       },
       {
-        "startIndex": 10066,
-        "endIndex": 10506,
+        "startIndex": 10069,
+        "endIndex": 10509,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10066,
-              "endIndex": 10506,
+              "startIndex": 10069,
+              "endIndex": 10509,
               "textRun": {
                 "content": "Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn\u2019t have that immunity.\n",
                 "textStyle": {}
@@ -1620,13 +1668,13 @@
         }
       },
       {
-        "startIndex": 10506,
-        "endIndex": 10507,
+        "startIndex": 10509,
+        "endIndex": 10510,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10506,
-              "endIndex": 10507,
+              "startIndex": 10509,
+              "endIndex": 10510,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1640,13 +1688,13 @@
         }
       },
       {
-        "startIndex": 10507,
-        "endIndex": 10761,
+        "startIndex": 10510,
+        "endIndex": 10764,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10507,
-              "endIndex": 10761,
+              "startIndex": 10510,
+              "endIndex": 10764,
               "textRun": {
                 "content": "Even if a freely elected leader means well, if they consolidate power to defend their nation, if they redirect nearly all resources to maintain the ability for their nation to survive, what is left? Tyranny by any other name would still smell like shit.\n",
                 "textStyle": {}
@@ -1660,13 +1708,13 @@
         }
       },
       {
-        "startIndex": 10761,
-        "endIndex": 10762,
+        "startIndex": 10764,
+        "endIndex": 10765,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10761,
-              "endIndex": 10762,
+              "startIndex": 10764,
+              "endIndex": 10765,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1680,21 +1728,21 @@
         }
       },
       {
-        "startIndex": 10762,
-        "endIndex": 11202,
+        "startIndex": 10765,
+        "endIndex": 11205,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10762,
-              "endIndex": 10822,
+              "startIndex": 10765,
+              "endIndex": 10825,
               "textRun": {
                 "content": "It\u2019s not just that AI suddenly makes a durable dictatorship ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10822,
-              "endIndex": 10830,
+              "startIndex": 10825,
+              "endIndex": 10833,
               "textRun": {
                 "content": "possible",
                 "textStyle": {
@@ -1703,16 +1751,16 @@
               }
             },
             {
-              "startIndex": 10830,
-              "endIndex": 10853,
+              "startIndex": 10833,
+              "endIndex": 10856,
               "textRun": {
                 "content": ", it suddenly makes it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10853,
-              "endIndex": 10872,
+              "startIndex": 10856,
+              "endIndex": 10875,
               "textRun": {
                 "content": "the default outcome",
                 "textStyle": {
@@ -1721,16 +1769,16 @@
               }
             },
             {
-              "startIndex": 10872,
-              "endIndex": 11054,
+              "startIndex": 10875,
+              "endIndex": 11057,
               "textRun": {
                 "content": ". The thirst for power has always existed, and many have tried and succeeded at building temporary dictatorships. Suddenly, with AI, the path to dictatorship will become much easier ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11054,
-              "endIndex": 11104,
+              "startIndex": 11057,
+              "endIndex": 11107,
               "textRun": {
                 "content": "and also more rewarding than any other possibility",
                 "textStyle": {
@@ -1739,8 +1787,8 @@
               }
             },
             {
-              "startIndex": 11104,
-              "endIndex": 11202,
+              "startIndex": 11107,
+              "endIndex": 11205,
               "textRun": {
                 "content": ". We have to expect that on net the risk of dictatorship rises substantially in the coming years.\n",
                 "textStyle": {}
@@ -1754,13 +1802,13 @@
         }
       },
       {
-        "startIndex": 11202,
-        "endIndex": 11203,
+        "startIndex": 11205,
+        "endIndex": 11206,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11202,
-              "endIndex": 11203,
+              "startIndex": 11205,
+              "endIndex": 11206,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1774,13 +1822,13 @@
         }
       },
       {
-        "startIndex": 11203,
-        "endIndex": 11561,
+        "startIndex": 11206,
+        "endIndex": 11564,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11203,
-              "endIndex": 11561,
+              "startIndex": 11206,
+              "endIndex": 11564,
               "textRun": {
                 "content": "The best predictor of human behavior is incentives, and the incentives are quickly transmuting for leaders into a single direction: consolidate power. We can resist this incredible force only if we build checks and balances into our governance that are amplified by AI, not subverted by it. We can do this if we try. We can do this if we recognize the risk.\n",
                 "textStyle": {}
@@ -1794,13 +1842,13 @@
         }
       },
       {
-        "startIndex": 11561,
-        "endIndex": 11562,
+        "startIndex": 11564,
+        "endIndex": 11565,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11561,
-              "endIndex": 11562,
+              "startIndex": 11564,
+              "endIndex": 11565,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1814,13 +1862,13 @@
         }
       },
       {
-        "startIndex": 11562,
-        "endIndex": 11607,
+        "startIndex": 11565,
+        "endIndex": 11610,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11562,
-              "endIndex": 11607,
+              "startIndex": 11565,
+              "endIndex": 11610,
               "textRun": {
                 "content": "As I write this today, we are doing neither.\n",
                 "textStyle": {}
@@ -2396,7 +2444,58 @@
       }
     }
   },
-  "revisionId": "ALBJ4LvChycbwVCQcPVdcbnKdBtNRSM5EKLkguYci8UDWRBSWfXS7XufPz2J9cfELhrCU8i1Fdqiu8pJkB1mfg",
+  "revisionId": "ALBJ4LvuusN-98EaaU6tWEaR5ip5oS_8tPLGiKzgxmB5Ersc65BFZr250jPSl0eA9TVBQYuznTQLgfmmw2-ixA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.6fhzlibap96g": {
+      "objectId": "kix.6fhzlibap96g",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMWiKtk6ViXxBWG7-7XbNvM5KZ7uUvB0Ge6QJ0Xa9hT5CumUNWUEfh7l3YDrIlwjyD3o9xEgkM4JCy2Tqz-dFSIddD4kG-I6xiFF4M1x3he2fT6Wdux-U6dlI-g3XLQpLRMHvUPw?key=0w8WtW3JyTdK4RwJvzSL7acs",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 603.75,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 603.75,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
   "documentId": "1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag"
 }
