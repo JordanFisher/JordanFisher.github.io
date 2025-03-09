@@ -67,6 +67,10 @@ def html_to_latex(html_path: str) -> LatexDocument:
     with open(html_path, 'r') as f:
         html_content = f.read()
     
+    # Fix invalid HTML structure - nested uls should be inside li tags
+    html_content = html_content.replace('</li>\n<ul>', '<ul>')
+    html_content = html_content.replace('</ul>\n<li>', '</ul></li>\n<li>')
+    
     soup = BeautifulSoup(html_content, 'html.parser')
     
     # Extract content from the #story div
@@ -118,41 +122,40 @@ def html_to_latex(html_path: str) -> LatexDocument:
             para_content = process_inline_elements(element)
             latex_content += para_content + "\n\n"
         elif element.name == 'ul':
-            latex_content += "\\begin{itemize}\n"
-            for li in element.find_all('li', recursive=False):
-                li_content = process_inline_elements(li)
-                # Handle nested lists
-                nested_list = li.find(['ul', 'ol'])
-                if nested_list:
-                    # Remove the nested list from the li content
-                    nested_list.extract()
-                    li_content = process_inline_elements(li)
-                    latex_content += f"\\item {li_content}\n"
-                    if nested_list.name == 'ul':
-                        latex_content += "\\begin{itemize}\n"
-                        for nested_li in nested_list.find_all('li'):
-                            nested_content = process_inline_elements(nested_li)
-                            latex_content += f"\\item {nested_content}\n"
-                        latex_content += "\\end{itemize}\n"
-                    elif nested_list.name == 'ol':
-                        latex_content += "\\begin{enumerate}\n"
-                        for nested_li in nested_list.find_all('li'):
-                            nested_content = process_inline_elements(nested_li)
-                            latex_content += f"\\item {nested_content}\n"
-                        latex_content += "\\end{enumerate}\n"
-                else:
-                    latex_content += f"\\item {li_content}\n"
-            latex_content += "\\end{itemize}\n\n"
+            latex_content += process_list(element, 'itemize')
         elif element.name == 'ol':
-            latex_content += "\\begin{enumerate}\n"
-            for li in element.find_all('li', recursive=False):
-                li_content = process_inline_elements(li)
-                latex_content += f"\\item {li_content}\n"
-            latex_content += "\\end{enumerate}\n\n"
+            latex_content += process_list(element, 'enumerate')
         elif element.name == 'br':
             latex_content += "\\vspace{0.5em}\n\n"
     
     return LatexDocument(title=title, content=latex_content, description=description)
+
+def process_list(list_element, list_type):
+    """Process a list element (ul or ol) and any nested lists recursively."""
+    result = f"\\begin{{{list_type}}}\n"
+    
+    for li in list_element.find_all('li', recursive=False):
+        # Create a deep copy of the list item for processing
+        li_content_element = BeautifulSoup(str(li), 'html.parser')
+        
+        # Find and remove nested lists from the copy for content processing
+        nested_lists = []
+        for nested_list in li_content_element.find_all(['ul', 'ol']):
+            nested_list.extract()
+        
+        # Get the list item content without nested lists
+        li_content = process_inline_elements(li_content_element)
+        result += f"\\item {li_content}\n"
+        
+        # Process any nested lists from the original item
+        for nested_list in li.find_all(['ul', 'ol'], recursive=False):
+            if nested_list.name == 'ul':
+                result += "    " + process_list(nested_list, 'itemize').replace('\n', '\n    ')
+            else:  # ol
+                result += "    " + process_list(nested_list, 'enumerate').replace('\n', '\n    ')
+        
+    result += f"\\end{{{list_type}}}\n\n"
+    return result
 
 
 def process_inline_elements(element) -> str:
@@ -224,12 +227,13 @@ def latex_to_pdf(latex_content, output_path):
     if not check_pdflatex_installed():
         print("Error: pdflatex is not installed. Please install it using:")
         print("  sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra")
-        print("\nTeX file has been saved to governance.tex")
+        print(f"\nTeX file has been saved to {os.path.basename(output_path).replace('.pdf', '.tex')}")
         return
         
-    # Write LaTeX content to a temporary file
+    # Get the base filename from the output path
+    base_filename = os.path.basename(output_path).replace('.pdf', '')
     temp_dir = os.path.dirname(output_path) if os.path.dirname(output_path) else '.'
-    tex_path = os.path.join(temp_dir, 'governance.tex')
+    tex_path = os.path.join(temp_dir, f'{base_filename}.tex')
     
     with open(tex_path, 'w') as f:
         f.write(latex_content)
@@ -240,17 +244,18 @@ def latex_to_pdf(latex_content, output_path):
         current_dir = os.getcwd()
         os.chdir(temp_dir)
         
-        # Run pdflatex
-        subprocess.run(['pdflatex', '-interaction=nonstopmode', 'governance.tex'], 
+        # Run pdflatex with the actual filename
+        tex_filename = os.path.basename(tex_path)
+        subprocess.run(['pdflatex', '-interaction=nonstopmode', tex_filename], 
                        check=True, capture_output=True)
-        subprocess.run(['pdflatex', '-interaction=nonstopmode', 'governance.tex'], 
+        subprocess.run(['pdflatex', '-interaction=nonstopmode', tex_filename], 
                        check=True, capture_output=True)
         
         # Move back to original directory
         os.chdir(current_dir)
         
         # Move the PDF to the desired output path if it's not already there
-        pdf_path = os.path.join(temp_dir, 'governance.pdf')
+        pdf_path = tex_path.replace('.tex', '.pdf')
         if pdf_path != output_path and os.path.exists(pdf_path):
             os.rename(pdf_path, output_path)
             
@@ -258,12 +263,11 @@ def latex_to_pdf(latex_content, output_path):
         
         # Clean up auxiliary files
         for ext in ['.aux', '.log', '.out', '.toc', '.lof', '.lot']:
-            aux_file = os.path.join(temp_dir, f'governance{ext}')
+            aux_file = tex_path.replace('.tex', ext)
             if os.path.exists(aux_file):
                 os.remove(aux_file)
                 
-        # Optionally keep or remove the .tex file
-        # os.remove(tex_path)
+        # We now keep the .tex file with the same name as the pdf
         
     except subprocess.CalledProcessError as e:
         print(f"Error running pdflatex: {e}")
@@ -271,11 +275,11 @@ def latex_to_pdf(latex_content, output_path):
             print(f"STDOUT: {e.stdout.decode()}")
         if hasattr(e, 'stderr') and e.stderr:
             print(f"STDERR: {e.stderr.decode()}")
-        print("\nTeX file has been saved to governance.tex")
+        print(f"\nTeX file has been saved to {tex_path}")
         
     except Exception as e:
         print(f"Error generating PDF: {e}")
-        print("\nTeX file has been saved to governance.tex")
+        print(f"\nTeX file has been saved to {tex_path}")
 
 
 def main():
@@ -298,12 +302,15 @@ def main():
     # Generate the LaTeX content
     latex_content = latex_doc.to_latex()
     
-    # Write LaTeX to file for debugging
-    with open('governance.tex', 'w') as f:
+    # Get the TeX filename from the output PDF filename
+    tex_filename = os.path.basename(args.output).replace('.pdf', '.tex')
+    
+    # Write LaTeX to file with the same base name as the PDF
+    with open(tex_filename, 'w') as f:
         f.write(latex_content)
     
     # Convert LaTeX to PDF
-    print("Converting LaTeX to PDF...")
+    print(f"Converting LaTeX to PDF...")
     latex_to_pdf(latex_content, args.output)
 
 
