@@ -23,6 +23,17 @@
             background-color: #ffffff;
             padding: 1rem;
         }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+        }
+        
+        a:hover {
+            border-bottom-color: #0066cc;
+        }
 
         .container {
             max-width: 38em;
@@ -116,12 +127,46 @@
             margin: 0 auto;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
+        
+        .image-caption {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: #666;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .image-caption {
+                color: #aaa;
+            }
+        }
 
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #1a1a1a;
                 color: #f0f0f0;
             }
+            
+            a {
+                color: #5abbff;
+            }
+            
+            a:hover {
+                border-bottom-color: #5abbff;
+            }
+        }
+
+        /* Back link styling */
+        .back-link {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .back-link a {
+            padding: 0.5rem 0;
+            display: inline-block;
         }
 
         @media (max-width: 600px) {
@@ -156,9 +201,10 @@
 <p>By default, it is the executive branch that benefits from automation. AI is a continuation of human labor, and we already see that human labor is drastically multiplied in the executive compared to the legislature. AI will amplify this a million fold by default. How can a human legislature be a check on a superintelligent executive?</p>
 <p>By embracing AI as well, to create transparent, limited government.</p>
 <p>Every member of Congress must have access to the strongest AIs, equal in strength to the best the executive has, which in turn must be equal or better than any other AI in the world. Moreover, the compute limits must be commensurate. The aggregate compute from Congress should equal that of the executive. And this must be enshrined in law. Congress holds the purse and can enact this.</p>
-<p>The AI agents Congress wields must have unfettered access to the minute-by-minute work of the Executive’s AI agents. Every AI output, every chain of thought, every input, should be accessible and monitored by an independent Congress. This will allow for full oversight and transparency.</p>
-<p>What recourse does Congress have if it discovers unconstitutional behavior in the Executive? Because the purse ultimately lies with Congress, they must retain the power to suspend the compute payments for the Executive’s AI. This must be on a granular level. Because of the speed that AI will execute, a month of delay might be the equivalent of years of democratic subversion from the executive.</p>
-<p>But this alone isn’t enough.</p>
+<p>The Inspector General Act of 1978 was enacted by Congress to ensure there was visibility into the sprawling Executive Branch. It empowered independent Inspector Generals embedded inside federal agencies to report illegal executive activity directly to Congress. However, Congress itself is not an operational institution, it doesn’t have the machinery to vet, hire, and manage inspectors. So it gave this power to the Executive, with obvious potential abuses. With AI, Congress can have automated inspectors that require no management overhead, and which can be mutually vetted by both the Executive and Congress to be impartial. Moreover, unlike the limited bandwidth of today’s Inspector Generals, AI agents can scale their oversight arbitrarily to match the scale of the Executive.</p>
+<p>The AI agents Congress wields must have unfettered access to the minute-by-minute work of the Executive’s AI agents. Every AI output, every chain of thought, every input, should be accessible and monitored by an independent Congress. This will allow for full oversight and transparency. This alone will finally put Congress back on equal footing with the Executive, and maintain that equal footing through the intelligence explosion in front of us.</p>
+<p>What recourse does Congress have if it discovers unconstitutional behavior in the Executive? Because the purse ultimately lies with Congress, they must retain the power to suspend the compute payments for the Executive’s AI. This must be fast acting. Because of the speed that AI will execute, a month of delay might be the equivalent of years of democratic subversion from the executive.</p>
+<p>But this alone isn’t enough to stop government abuse.</p>
 <h1>Constitution-abiding AI</h1>
 <p>AI itself, especially frontier AI and AI wielded by government, must abide the constitution.</p>
 <p>Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AI’s must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution. And, if such AI’s are created anyway, it must be unconstitutional for the government to use them.</p>
@@ -213,8 +259,8 @@
 <p>There’s only one place that has the extreme energy we demand: space.</p>
 <p>The sun emits almost a million, trillion gigawatts of power. 3.8 × 10^26 watts. Almost a billion gigawatts for every human alive today. It radiates out into the vastness of interstellar space, wasted forever.</p>
 <p>There is very simple technology to capture it. Solar panels. What we need is to make them at scale, which requires automation, which is luckily exactly the extreme force that is entering the world at this moment and causing our existential problems. Once again, automation is the key to solving the problems introduced by automation. We need energy — all of it. Automation can deliver it.</p>
-<p>Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth. And the lunar regolith that makes up the moon’s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface.</p>
-<p>Even this is, of course, an extremely ambitious goal. But it’s exactly the type of extreme windfall that strong AI will deliver. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it’s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it’s not easy to reach.</p>
+<p>Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth. And the lunar regolith that makes up the moon’s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface. Automated lunar factories can then convert this abundant silicon into solar panels, and lunar robots can tile the surface of the moon with them.</p>
+<p>Even this is, of course, an extremely ambitious goal. But it’s exactly the type of extreme windfall that strong AI will enable within the next few years. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it’s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it’s not easy to reach.</p>
 <p>That could make it a decisive high ground for the free world.</p>
 <p>And with that high ground, we can promise to share its wealth with everyone, including the power hungry would-be dictators. We can bring them to the world table by offering them bounty they couldn’t achieve if they instead seized power of their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power —and there are many— even then it’s in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.</p>
 <h1>The AI-powered Judiciary</h1>
@@ -222,6 +268,9 @@
 <p>We must ultimately seek not just exceptional intelligence, in the form of AI machines, we must seek exceptional wisdom, in the form of a human-machine civilization. The Judiciary must reflect the highest form of this goal.</p>
 <p>While all three branches of government were designed to be co-equal, the Executive has crept up to become the dominant branch. As a practical point, we should first upgrade the Legislature and Judiciary with AI, or we risk an overpowered Executive. With no change in course, however, it’s the Executive that will embrace AI first, further disrupting the balance of power.</p>
 
+        </div>
+        <div class="back-link">
+            <a href="/">&larr; Back</a>
         </div>
     </div>
 </body>

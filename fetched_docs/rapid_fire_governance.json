@@ -354,14 +354,14 @@
       },
       {
         "startIndex": 1794,
-        "endIndex": 2081,
+        "endIndex": 2579,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1794,
-              "endIndex": 2081,
+              "endIndex": 2579,
               "textRun": {
-                "content": "The AI agents Congress wields must have unfettered access to the minute-by-minute work of the Executive\u2019s AI agents. Every AI output, every chain of thought, every input, should be accessible and monitored by an independent Congress. This will allow for full oversight and transparency.\n",
+                "content": "The Inspector General Act of 1978 was enacted by Congress to ensure there was visibility into the sprawling Executive Branch. It empowered independent Inspector Generals embedded inside federal agencies to report illegal executive activity directly to Congress. However, Congress itself is not an operational institution, it doesn\u2019t have the machinery to vet, hire, and manage inspectors. So it gave this power to the Executive, with obvious potential abuses. With AI, Congress can have automated inspectors that require no management overhead, and which can be mutually vetted by both the Executive and Congress to be impartial. Moreover, unlike the limited bandwidth of today\u2019s Inspector Generals, AI agents can scale their oversight arbitrarily to match the scale of the Executive.\n",
                 "textStyle": {}
               }
             }
@@ -373,53 +373,13 @@
         }
       },
       {
-        "startIndex": 2081,
-        "endIndex": 2082,
+        "startIndex": 2579,
+        "endIndex": 2580,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2081,
-              "endIndex": 2082,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 2082,
-        "endIndex": 2479,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 2082,
-              "endIndex": 2479,
-              "textRun": {
-                "content": "What recourse does Congress have if it discovers unconstitutional behavior in the Executive? Because the purse ultimately lies with Congress, they must retain the power to suspend the compute payments for the Executive\u2019s AI. This must be on a granular level. Because of the speed that AI will execute, a month of delay might be the equivalent of years of democratic subversion from the executive.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 2479,
-        "endIndex": 2480,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 2479,
-              "endIndex": 2480,
+              "startIndex": 2579,
+              "endIndex": 2580,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -433,15 +393,15 @@
         }
       },
       {
-        "startIndex": 2480,
-        "endIndex": 2509,
+        "startIndex": 2580,
+        "endIndex": 3029,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2480,
-              "endIndex": 2509,
+              "startIndex": 2580,
+              "endIndex": 3029,
               "textRun": {
-                "content": "But this alone isn\u2019t enough.\n",
+                "content": "The AI agents Congress wields must have unfettered access to the minute-by-minute work of the Executive\u2019s AI agents. Every AI output, every chain of thought, every input, should be accessible and monitored by an independent Congress. This will allow for full oversight and transparency. This alone will finally put Congress back on equal footing with the Executive, and maintain that equal footing through the intelligence explosion in front of us.\n",
                 "textStyle": {}
               }
             }
@@ -453,13 +413,13 @@
         }
       },
       {
-        "startIndex": 2509,
-        "endIndex": 2510,
+        "startIndex": 3029,
+        "endIndex": 3030,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2509,
-              "endIndex": 2510,
+              "startIndex": 3029,
+              "endIndex": 3030,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -473,13 +433,93 @@
         }
       },
       {
-        "startIndex": 2510,
-        "endIndex": 2534,
+        "startIndex": 3030,
+        "endIndex": 3419,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2510,
-              "endIndex": 2534,
+              "startIndex": 3030,
+              "endIndex": 3419,
+              "textRun": {
+                "content": "What recourse does Congress have if it discovers unconstitutional behavior in the Executive? Because the purse ultimately lies with Congress, they must retain the power to suspend the compute payments for the Executive\u2019s AI. This must be fast acting. Because of the speed that AI will execute, a month of delay might be the equivalent of years of democratic subversion from the executive.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3419,
+        "endIndex": 3420,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3419,
+              "endIndex": 3420,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3420,
+        "endIndex": 3474,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3420,
+              "endIndex": 3474,
+              "textRun": {
+                "content": "But this alone isn\u2019t enough to stop government abuse.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3474,
+        "endIndex": 3475,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3474,
+              "endIndex": 3475,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3475,
+        "endIndex": 3499,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3475,
+              "endIndex": 3499,
               "textRun": {
                 "content": "Constitution-abiding AI\n",
                 "textStyle": {}
@@ -494,13 +534,13 @@
         }
       },
       {
-        "startIndex": 2534,
-        "endIndex": 2627,
+        "startIndex": 3499,
+        "endIndex": 3592,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2534,
-              "endIndex": 2627,
+              "startIndex": 3499,
+              "endIndex": 3592,
               "textRun": {
                 "content": "AI itself, especially frontier AI and AI wielded by government, must abide the constitution.\n",
                 "textStyle": {}
@@ -514,13 +554,13 @@
         }
       },
       {
-        "startIndex": 2627,
-        "endIndex": 2628,
+        "startIndex": 3592,
+        "endIndex": 3593,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2627,
-              "endIndex": 2628,
+              "startIndex": 3592,
+              "endIndex": 3593,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -534,21 +574,21 @@
         }
       },
       {
-        "startIndex": 2628,
-        "endIndex": 3046,
+        "startIndex": 3593,
+        "endIndex": 4011,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2628,
-              "endIndex": 3045,
+              "startIndex": 3593,
+              "endIndex": 4010,
               "textRun": {
                 "content": "Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AI\u2019s must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution. And, if such AI\u2019s are created anyway, it must be unconstitutional for the government to use them.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 3045,
-              "endIndex": 3046,
+              "startIndex": 4010,
+              "endIndex": 4011,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -562,13 +602,13 @@
         }
       },
       {
-        "startIndex": 3046,
-        "endIndex": 3047,
+        "startIndex": 4011,
+        "endIndex": 4012,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3046,
-              "endIndex": 3047,
+              "startIndex": 4011,
+              "endIndex": 4012,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -582,13 +622,13 @@
         }
       },
       {
-        "startIndex": 3047,
-        "endIndex": 3072,
+        "startIndex": 4012,
+        "endIndex": 4037,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3047,
-              "endIndex": 3072,
+              "startIndex": 4012,
+              "endIndex": 4037,
               "textRun": {
                 "content": "Oversight of AI creators\n",
                 "textStyle": {}
@@ -603,13 +643,13 @@
         }
       },
       {
-        "startIndex": 3072,
-        "endIndex": 3486,
+        "startIndex": 4037,
+        "endIndex": 4451,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3072,
-              "endIndex": 3486,
+              "startIndex": 4037,
+              "endIndex": 4451,
               "textRun": {
                 "content": "Like any supply chain the government uses, AI that the government buys must be audited and guaranteed. We know that backdoors can be placed in AI systems by their creators, that means that a government can\u2019t trust an AI unless it can audit the creation of the AI itself. This is true even if the government has access to the model weights. That means an audit process for the training data and training protocols.\n",
                 "textStyle": {}
@@ -623,13 +663,13 @@
         }
       },
       {
-        "startIndex": 3486,
-        "endIndex": 3487,
+        "startIndex": 4451,
+        "endIndex": 4452,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3486,
-              "endIndex": 3487,
+              "startIndex": 4451,
+              "endIndex": 4452,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -643,13 +683,13 @@
         }
       },
       {
-        "startIndex": 3487,
-        "endIndex": 3765,
+        "startIndex": 4452,
+        "endIndex": 4730,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3487,
-              "endIndex": 3765,
+              "startIndex": 4452,
+              "endIndex": 4730,
               "textRun": {
                 "content": "The audit must be powerful enough to ensure that datasets and training procedures aren\u2019t being secretly changed outside the view of the audit. Today we would rely on human whistleblowers to help ensure this, but in an automated world there won\u2019t be human\u2019s to blow the whistle.\n",
                 "textStyle": {}
@@ -663,13 +703,13 @@
         }
       },
       {
-        "startIndex": 3765,
-        "endIndex": 3766,
+        "startIndex": 4730,
+        "endIndex": 4731,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3765,
-              "endIndex": 3766,
+              "startIndex": 4730,
+              "endIndex": 4731,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -683,13 +723,13 @@
         }
       },
       {
-        "startIndex": 3766,
-        "endIndex": 3960,
+        "startIndex": 4731,
+        "endIndex": 4925,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3766,
-              "endIndex": 3960,
+              "startIndex": 4731,
+              "endIndex": 4925,
               "textRun": {
                 "content": "So we\u2019ll need constant audits that cover every aspect of training. How do we achieve that without violating privacy or being overbearing and slowing down the competitiveness of our AI industry?\n",
                 "textStyle": {}
@@ -703,13 +743,13 @@
         }
       },
       {
-        "startIndex": 3960,
-        "endIndex": 3961,
+        "startIndex": 4925,
+        "endIndex": 4926,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3960,
-              "endIndex": 3961,
+              "startIndex": 4925,
+              "endIndex": 4926,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -723,13 +763,13 @@
         }
       },
       {
-        "startIndex": 3961,
-        "endIndex": 3992,
+        "startIndex": 4926,
+        "endIndex": 4957,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3961,
-              "endIndex": 3992,
+              "startIndex": 4926,
+              "endIndex": 4957,
               "textRun": {
                 "content": "AI-powered, memory-free audits\n",
                 "textStyle": {}
@@ -744,13 +784,13 @@
         }
       },
       {
-        "startIndex": 3992,
-        "endIndex": 4052,
+        "startIndex": 4957,
+        "endIndex": 5017,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3992,
-              "endIndex": 4052,
+              "startIndex": 4957,
+              "endIndex": 5017,
               "textRun": {
                 "content": "AI itself can perform these audits. This has many benefits:\n",
                 "textStyle": {}
@@ -764,13 +804,13 @@
         }
       },
       {
-        "startIndex": 4052,
-        "endIndex": 4053,
+        "startIndex": 5017,
+        "endIndex": 5018,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4052,
-              "endIndex": 4053,
+              "startIndex": 5017,
+              "endIndex": 5018,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -784,13 +824,13 @@
         }
       },
       {
-        "startIndex": 4053,
-        "endIndex": 4115,
+        "startIndex": 5018,
+        "endIndex": 5080,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4053,
-              "endIndex": 4115,
+              "startIndex": 5018,
+              "endIndex": 5080,
               "textRun": {
                 "content": "AI can be fast and efficient, therefore minimally encumbering\n",
                 "textStyle": {}
@@ -818,13 +858,13 @@
         }
       },
       {
-        "startIndex": 4115,
-        "endIndex": 4116,
+        "startIndex": 5080,
+        "endIndex": 5081,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4115,
-              "endIndex": 4116,
+              "startIndex": 5080,
+              "endIndex": 5081,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -838,13 +878,13 @@
         }
       },
       {
-        "startIndex": 4116,
-        "endIndex": 4223,
+        "startIndex": 5081,
+        "endIndex": 5188,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4116,
-              "endIndex": 4223,
+              "startIndex": 5081,
+              "endIndex": 5188,
               "textRun": {
                 "content": "AI can be expansive and diligent, ensuring every aspect of model training is audited in an ongoing fashion\n",
                 "textStyle": {}
@@ -872,13 +912,13 @@
         }
       },
       {
-        "startIndex": 4223,
-        "endIndex": 4224,
+        "startIndex": 5188,
+        "endIndex": 5189,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4223,
-              "endIndex": 4224,
+              "startIndex": 5188,
+              "endIndex": 5189,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -892,13 +932,13 @@
         }
       },
       {
-        "startIndex": 4224,
-        "endIndex": 4454,
+        "startIndex": 5189,
+        "endIndex": 5419,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4224,
-              "endIndex": 4454,
+              "startIndex": 5189,
+              "endIndex": 5419,
               "textRun": {
                 "content": "AI can be memory-free. This is crucial. Assuming the AI finds no malfeasance on any given audit, the AI can ensure no memory of its audit is retained. That means that no proprietary information or competitive advantage is leaked.\n",
                 "textStyle": {}
@@ -926,13 +966,13 @@
         }
       },
       {
-        "startIndex": 4454,
-        "endIndex": 4455,
+        "startIndex": 5419,
+        "endIndex": 5420,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4454,
-              "endIndex": 4455,
+              "startIndex": 5419,
+              "endIndex": 5420,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -946,13 +986,13 @@
         }
       },
       {
-        "startIndex": 4455,
-        "endIndex": 4607,
+        "startIndex": 5420,
+        "endIndex": 5572,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4455,
-              "endIndex": 4607,
+              "startIndex": 5420,
+              "endIndex": 5572,
               "textRun": {
                 "content": "But if the AI is being used to audit the AI makers to ensure that the next AI is trustworthy, how do we know the first AI is trustworthy to begin with?\n",
                 "textStyle": {}
@@ -966,13 +1006,13 @@
         }
       },
       {
-        "startIndex": 4607,
-        "endIndex": 4608,
+        "startIndex": 5572,
+        "endIndex": 5573,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4607,
-              "endIndex": 4608,
+              "startIndex": 5572,
+              "endIndex": 5573,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -986,13 +1026,13 @@
         }
       },
       {
-        "startIndex": 4608,
-        "endIndex": 4624,
+        "startIndex": 5573,
+        "endIndex": 5589,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4608,
-              "endIndex": 4624,
+              "startIndex": 5573,
+              "endIndex": 5589,
               "textRun": {
                 "content": "The Trust Relay\n",
                 "textStyle": {}
@@ -1007,13 +1047,13 @@
         }
       },
       {
-        "startIndex": 4624,
-        "endIndex": 4828,
+        "startIndex": 5589,
+        "endIndex": 5793,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4624,
-              "endIndex": 4828,
+              "startIndex": 5589,
+              "endIndex": 5793,
               "textRun": {
                 "content": "If tomorrow you are handed an AI you don\u2019t already trust, and you are tasked to use this AI to help you gain confidence that it and future AIs will be trustworthy, you will be in an impossible situation.\n",
                 "textStyle": {}
@@ -1027,13 +1067,13 @@
         }
       },
       {
-        "startIndex": 4828,
-        "endIndex": 4829,
+        "startIndex": 5793,
+        "endIndex": 5794,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4828,
-              "endIndex": 4829,
+              "startIndex": 5793,
+              "endIndex": 5794,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1047,21 +1087,21 @@
         }
       },
       {
-        "startIndex": 4829,
-        "endIndex": 5336,
+        "startIndex": 5794,
+        "endIndex": 6301,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4829,
-              "endIndex": 5011,
+              "startIndex": 5794,
+              "endIndex": 5976,
               "textRun": {
                 "content": "Instead, we must create a trust relay, where the beginning of the chain of trust must originate in an audit where humans are still responsible for creating the AI, as is true today. ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5011,
-              "endIndex": 5016,
+              "startIndex": 5976,
+              "endIndex": 5981,
               "textRun": {
                 "content": "Today",
                 "textStyle": {
@@ -1070,8 +1110,8 @@
               }
             },
             {
-              "startIndex": 5016,
-              "endIndex": 5336,
+              "startIndex": 5981,
+              "endIndex": 6301,
               "textRun": {
                 "content": " we have normal, tried-and-true methods for ensuring good outcomes, because we have processes in place that we know humans care about, including our many implicit guardrails. We can use this to create trust in the first AGI\u2019s, and then leverage those trusted AGI\u2019s to go on to create a trust relay for all future AGI\u2019s.\n",
                 "textStyle": {}
@@ -1085,13 +1125,13 @@
         }
       },
       {
-        "startIndex": 5336,
-        "endIndex": 5337,
+        "startIndex": 6301,
+        "endIndex": 6302,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5336,
-              "endIndex": 5337,
+              "startIndex": 6301,
+              "endIndex": 6302,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1105,21 +1145,21 @@
         }
       },
       {
-        "startIndex": 5337,
-        "endIndex": 5641,
+        "startIndex": 6302,
+        "endIndex": 6606,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5337,
-              "endIndex": 5640,
+              "startIndex": 6302,
+              "endIndex": 6605,
               "textRun": {
                 "content": "This creates an extreme imperative for the future\u2019s ability to trust AI and government: we must start the chain of trust before we have finished automating the ability to create new AIs. That deadline may be very soon. If we fail to kickstart the chain of trust now, we may miss our opportunity forever.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5640,
-              "endIndex": 5641,
+              "startIndex": 6605,
+              "endIndex": 6606,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1133,13 +1173,13 @@
         }
       },
       {
-        "startIndex": 5641,
-        "endIndex": 5642,
+        "startIndex": 6606,
+        "endIndex": 6607,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5641,
-              "endIndex": 5642,
+              "startIndex": 6606,
+              "endIndex": 6607,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1153,13 +1193,13 @@
         }
       },
       {
-        "startIndex": 5642,
-        "endIndex": 5706,
+        "startIndex": 6607,
+        "endIndex": 6671,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5642,
-              "endIndex": 5706,
+              "startIndex": 6607,
+              "endIndex": 6671,
               "textRun": {
                 "content": "Even if this trust relay is established, the relay might break.\n",
                 "textStyle": {}
@@ -1173,13 +1213,13 @@
         }
       },
       {
-        "startIndex": 5706,
-        "endIndex": 5707,
+        "startIndex": 6671,
+        "endIndex": 6672,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5706,
-              "endIndex": 5707,
+              "startIndex": 6671,
+              "endIndex": 6672,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1193,21 +1233,21 @@
         }
       },
       {
-        "startIndex": 5707,
-        "endIndex": 5719,
+        "startIndex": 6672,
+        "endIndex": 6684,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5707,
-              "endIndex": 5718,
+              "startIndex": 6672,
+              "endIndex": 6683,
               "textRun": {
                 "content": "Cross-check",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5718,
-              "endIndex": 5719,
+              "startIndex": 6683,
+              "endIndex": 6684,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1222,13 +1262,13 @@
         }
       },
       {
-        "startIndex": 5719,
-        "endIndex": 5955,
+        "startIndex": 6684,
+        "endIndex": 6920,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5719,
-              "endIndex": 5955,
+              "startIndex": 6684,
+              "endIndex": 6920,
               "textRun": {
                 "content": "Long chains only need a single chink to break. Therefore we should create a braid of many chains, such that any given chain can have breakage, but we will still recover and repair the chain while maintaining trust in the overall braid.\n",
                 "textStyle": {}
@@ -1242,13 +1282,13 @@
         }
       },
       {
-        "startIndex": 5955,
-        "endIndex": 5956,
+        "startIndex": 6920,
+        "endIndex": 6921,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5955,
-              "endIndex": 5956,
+              "startIndex": 6920,
+              "endIndex": 6921,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1262,13 +1302,13 @@
         }
       },
       {
-        "startIndex": 5956,
-        "endIndex": 6252,
+        "startIndex": 6921,
+        "endIndex": 7217,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5956,
-              "endIndex": 6252,
+              "startIndex": 6921,
+              "endIndex": 7217,
               "textRun": {
                 "content": "That means we must have multiple, independent AGIs, each with their own provenance in a trust relay. Furthermore, we must leverage each AGI to perform the audits on all the others, to create resilience to single breakage. In order for the braid to break, every chain must break at the same time.\n",
                 "textStyle": {}
@@ -1282,13 +1322,13 @@
         }
       },
       {
-        "startIndex": 6252,
-        "endIndex": 6253,
+        "startIndex": 7217,
+        "endIndex": 7218,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6252,
-              "endIndex": 6253,
+              "startIndex": 7217,
+              "endIndex": 7218,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1302,13 +1342,13 @@
         }
       },
       {
-        "startIndex": 6253,
-        "endIndex": 6545,
+        "startIndex": 7218,
+        "endIndex": 7510,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6253,
-              "endIndex": 6545,
+              "startIndex": 7218,
+              "endIndex": 7510,
               "textRun": {
                 "content": "It is an extremely fortunate fact about the world today that we already have multiple, independent organizations on the verge of creating AGI. We must braid these AGIs together, so the final braid is more trustworthy than any could ever be on its own, no matter how good the human oversight.\n",
                 "textStyle": {}
@@ -1322,13 +1362,13 @@
         }
       },
       {
-        "startIndex": 6545,
-        "endIndex": 6546,
+        "startIndex": 7510,
+        "endIndex": 7511,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6545,
-              "endIndex": 6546,
+              "startIndex": 7510,
+              "endIndex": 7511,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1342,13 +1382,13 @@
         }
       },
       {
-        "startIndex": 6546,
-        "endIndex": 6613,
+        "startIndex": 7511,
+        "endIndex": 7578,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6546,
-              "endIndex": 6613,
+              "startIndex": 7511,
+              "endIndex": 7578,
               "textRun": {
                 "content": "Even still, can we trust those that make the braid and oversee it?\n",
                 "textStyle": {}
@@ -1362,13 +1402,13 @@
         }
       },
       {
-        "startIndex": 6613,
-        "endIndex": 6614,
+        "startIndex": 7578,
+        "endIndex": 7579,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6613,
-              "endIndex": 6614,
+              "startIndex": 7578,
+              "endIndex": 7579,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1382,13 +1422,13 @@
         }
       },
       {
-        "startIndex": 6614,
-        "endIndex": 6636,
+        "startIndex": 7579,
+        "endIndex": 7601,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6614,
-              "endIndex": 6620,
+              "startIndex": 7579,
+              "endIndex": 7585,
               "textRun": {
                 "content": "Social",
                 "textStyle": {
@@ -1397,8 +1437,8 @@
               }
             },
             {
-              "startIndex": 6620,
-              "endIndex": 6636,
+              "startIndex": 7585,
+              "endIndex": 7601,
               "textRun": {
                 "content": " Personal Media\n",
                 "textStyle": {}
@@ -1413,13 +1453,13 @@
         }
       },
       {
-        "startIndex": 6636,
-        "endIndex": 7003,
+        "startIndex": 7601,
+        "endIndex": 7968,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6636,
-              "endIndex": 7003,
+              "startIndex": 7601,
+              "endIndex": 7968,
               "textRun": {
                 "content": "Media is a largely maligned entity today; social media doubly so. But the original goal of media is even more necessary in an AI future. We need to stay educated. We need to know what\u2019s really happening. We need to be informed as a people, so that we can elect good leaders to represent us. And we must know what our leaders are doing so we can hold them to account.\n",
                 "textStyle": {}
@@ -1433,13 +1473,13 @@
         }
       },
       {
-        "startIndex": 7003,
-        "endIndex": 7004,
+        "startIndex": 7968,
+        "endIndex": 7969,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7003,
-              "endIndex": 7004,
+              "startIndex": 7968,
+              "endIndex": 7969,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1453,13 +1493,13 @@
         }
       },
       {
-        "startIndex": 7004,
-        "endIndex": 7290,
+        "startIndex": 7969,
+        "endIndex": 8255,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7004,
-              "endIndex": 7290,
+              "startIndex": 7969,
+              "endIndex": 8255,
               "textRun": {
                 "content": "The promise of social media was to democratize the creation of media. Instead, it\u2019s been co-opted by algorithms and bots. The danger of the government stepping in to assert guardrails has its own set of risks, especially from an automated government where abuse of power could be easy.\n",
                 "textStyle": {}
@@ -1473,13 +1513,13 @@
         }
       },
       {
-        "startIndex": 7290,
-        "endIndex": 7291,
+        "startIndex": 8255,
+        "endIndex": 8256,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7290,
-              "endIndex": 7291,
+              "startIndex": 8255,
+              "endIndex": 8256,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1493,21 +1533,21 @@
         }
       },
       {
-        "startIndex": 7291,
-        "endIndex": 7586,
+        "startIndex": 8256,
+        "endIndex": 8551,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7291,
-              "endIndex": 7380,
+              "startIndex": 8256,
+              "endIndex": 8345,
               "textRun": {
                 "content": "Instead of curtailing freedoms to ensure freedom, we should empower ourselves. Imagine a ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7380,
-              "endIndex": 7388,
+              "startIndex": 8345,
+              "endIndex": 8353,
               "textRun": {
                 "content": "personal",
                 "textStyle": {
@@ -1516,8 +1556,8 @@
               }
             },
             {
-              "startIndex": 7388,
-              "endIndex": 7586,
+              "startIndex": 8353,
+              "endIndex": 8551,
               "textRun": {
                 "content": " media stream. Powered by a personal AI. The AI can ingest raw facts that come straight from the source: a Senator\u2019s speech, a company\u2019s disclosure, a judge\u2019s ruling, a president\u2019s executive order.\n",
                 "textStyle": {}
@@ -1531,13 +1571,13 @@
         }
       },
       {
-        "startIndex": 7586,
-        "endIndex": 7587,
+        "startIndex": 8551,
+        "endIndex": 8552,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7586,
-              "endIndex": 7587,
+              "startIndex": 8551,
+              "endIndex": 8552,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1551,13 +1591,13 @@
         }
       },
       {
-        "startIndex": 7587,
-        "endIndex": 7806,
+        "startIndex": 8552,
+        "endIndex": 8771,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7587,
-              "endIndex": 7806,
+              "startIndex": 8552,
+              "endIndex": 8771,
               "textRun": {
                 "content": "A personal AI can work to ingest this information for you, analyze it for the things you care about it, and look for contradictions and inconsistencies free from the bias of any algorithm, government, or external bots.\n",
                 "textStyle": {}
@@ -1571,13 +1611,13 @@
         }
       },
       {
-        "startIndex": 7806,
-        "endIndex": 7807,
+        "startIndex": 8771,
+        "endIndex": 8772,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7806,
-              "endIndex": 7807,
+              "startIndex": 8771,
+              "endIndex": 8772,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1591,21 +1631,21 @@
         }
       },
       {
-        "startIndex": 7807,
-        "endIndex": 7884,
+        "startIndex": 8772,
+        "endIndex": 8849,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7807,
-              "endIndex": 7883,
+              "startIndex": 8772,
+              "endIndex": 8848,
               "textRun": {
                 "content": "For people to trust their personal media, they must trust their personal AI.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7883,
-              "endIndex": 7884,
+              "startIndex": 8848,
+              "endIndex": 8849,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1619,13 +1659,13 @@
         }
       },
       {
-        "startIndex": 7884,
-        "endIndex": 7885,
+        "startIndex": 8849,
+        "endIndex": 8850,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7884,
-              "endIndex": 7885,
+              "startIndex": 8849,
+              "endIndex": 8850,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1639,13 +1679,13 @@
         }
       },
       {
-        "startIndex": 7885,
-        "endIndex": 7900,
+        "startIndex": 8850,
+        "endIndex": 8865,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7885,
-              "endIndex": 7900,
+              "startIndex": 8850,
+              "endIndex": 8865,
               "textRun": {
                 "content": "Open Source AI\n",
                 "textStyle": {}
@@ -1660,13 +1700,13 @@
         }
       },
       {
-        "startIndex": 7900,
-        "endIndex": 8191,
+        "startIndex": 8865,
+        "endIndex": 9156,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7900,
-              "endIndex": 8191,
+              "startIndex": 8865,
+              "endIndex": 9156,
               "textRun": {
                 "content": "No one will ever fully trust a black box AI, built behind closed doors. No matter how successful our audits, no matter how trusted our government oversight, we will never fully trust these machines to be our closest confidants in matters of governance if we can\u2019t trust how they were built.\n",
                 "textStyle": {}
@@ -1680,13 +1720,13 @@
         }
       },
       {
-        "startIndex": 8191,
-        "endIndex": 8192,
+        "startIndex": 9156,
+        "endIndex": 9157,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8191,
-              "endIndex": 8192,
+              "startIndex": 9156,
+              "endIndex": 9157,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1700,13 +1740,13 @@
         }
       },
       {
-        "startIndex": 8192,
-        "endIndex": 8403,
+        "startIndex": 9157,
+        "endIndex": 9368,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8192,
-              "endIndex": 8403,
+              "startIndex": 9157,
+              "endIndex": 9368,
               "textRun": {
                 "content": "We need open source AI. Not just open weight AI, we need to see every detail of the data and process that created the AI, so that individually, or in aggregate as a community, we can vet the creation of the AI.\n",
                 "textStyle": {}
@@ -1720,13 +1760,13 @@
         }
       },
       {
-        "startIndex": 8403,
-        "endIndex": 8404,
+        "startIndex": 9368,
+        "endIndex": 9369,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8403,
-              "endIndex": 8404,
+              "startIndex": 9368,
+              "endIndex": 9369,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1740,13 +1780,13 @@
         }
       },
       {
-        "startIndex": 8404,
-        "endIndex": 8749,
+        "startIndex": 9369,
+        "endIndex": 9714,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8404,
-              "endIndex": 8749,
+              "startIndex": 9369,
+              "endIndex": 9714,
               "textRun": {
                 "content": "The open source AI doesn\u2019t need to be as powerful as closed AIs. In fact it likely shouldn\u2019t be. It shouldn\u2019t be so powerful that it can build weapons of mass destruction, or hack into secure computer systems. But it should be powerful enough to reason well, and help people digest the deluge of information necessary to be an informed citizen.\n",
                 "textStyle": {}
@@ -1760,13 +1800,13 @@
         }
       },
       {
-        "startIndex": 8749,
-        "endIndex": 8750,
+        "startIndex": 9714,
+        "endIndex": 9715,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8749,
-              "endIndex": 8750,
+              "startIndex": 9714,
+              "endIndex": 9715,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1780,13 +1820,13 @@
         }
       },
       {
-        "startIndex": 8750,
-        "endIndex": 9134,
+        "startIndex": 9715,
+        "endIndex": 10099,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8750,
-              "endIndex": 9134,
+              "startIndex": 9715,
+              "endIndex": 10099,
               "textRun": {
                 "content": "We already see a strong capable open source AI today. And, exactly as needed, it is less capable than the most powerful AIs we are beginning to use to run our government, while still being powerful enough to help the needs of individual people. We should invest in continuing this trend, while finding ways to safeguard against open source AI getting dangerous military capabilities.\n",
                 "textStyle": {}
@@ -1800,13 +1840,13 @@
         }
       },
       {
-        "startIndex": 9134,
-        "endIndex": 9135,
+        "startIndex": 10099,
+        "endIndex": 10100,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9134,
-              "endIndex": 9135,
+              "startIndex": 10099,
+              "endIndex": 10100,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1820,13 +1860,13 @@
         }
       },
       {
-        "startIndex": 9135,
-        "endIndex": 9277,
+        "startIndex": 10100,
+        "endIndex": 10242,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9135,
-              "endIndex": 9277,
+              "startIndex": 10100,
+              "endIndex": 10242,
               "textRun": {
                 "content": "To empower people with AI we need more than open source AI though. Every citizen will need the most important resource in the world: compute.\n",
                 "textStyle": {}
@@ -1840,13 +1880,13 @@
         }
       },
       {
-        "startIndex": 9277,
-        "endIndex": 9278,
+        "startIndex": 10242,
+        "endIndex": 10243,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9277,
-              "endIndex": 9278,
+              "startIndex": 10242,
+              "endIndex": 10243,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1860,21 +1900,21 @@
         }
       },
       {
-        "startIndex": 9278,
-        "endIndex": 9308,
+        "startIndex": 10243,
+        "endIndex": 10273,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9278,
-              "endIndex": 9307,
+              "startIndex": 10243,
+              "endIndex": 10272,
               "textRun": {
                 "content": "Your computational birthright",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9307,
-              "endIndex": 9308,
+              "startIndex": 10272,
+              "endIndex": 10273,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1889,13 +1929,13 @@
         }
       },
       {
-        "startIndex": 9308,
-        "endIndex": 9571,
+        "startIndex": 10273,
+        "endIndex": 10536,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9308,
-              "endIndex": 9571,
+              "startIndex": 10273,
+              "endIndex": 10536,
               "textRun": {
                 "content": "The most important asset we have is our brain. With it we can work a job, build a company, or run for Congress. It sounds silly and obvious, but this is a powerful fact: Every person has a brain. And the brain is today the most powerful computer in the universe.\n",
                 "textStyle": {}
@@ -1909,13 +1949,13 @@
         }
       },
       {
-        "startIndex": 9571,
-        "endIndex": 9572,
+        "startIndex": 10536,
+        "endIndex": 10537,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9571,
-              "endIndex": 9572,
+              "startIndex": 10536,
+              "endIndex": 10537,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1929,13 +1969,13 @@
         }
       },
       {
-        "startIndex": 9572,
-        "endIndex": 9602,
+        "startIndex": 10537,
+        "endIndex": 10567,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9572,
-              "endIndex": 9602,
+              "startIndex": 10537,
+              "endIndex": 10567,
               "textRun": {
                 "content": "Tomorrow it will be obsolete.\n",
                 "textStyle": {}
@@ -1949,13 +1989,13 @@
         }
       },
       {
-        "startIndex": 9602,
-        "endIndex": 9603,
+        "startIndex": 10567,
+        "endIndex": 10568,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9602,
-              "endIndex": 9603,
+              "startIndex": 10567,
+              "endIndex": 10568,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1969,13 +2009,13 @@
         }
       },
       {
-        "startIndex": 9603,
-        "endIndex": 9781,
+        "startIndex": 10568,
+        "endIndex": 10746,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9603,
-              "endIndex": 9781,
+              "startIndex": 10568,
+              "endIndex": 10746,
               "textRun": {
                 "content": "Intelligence is the most powerful force in the world. Part of what balances the power of the world is that each of us has a supercomputer in our head, powering our intelligence.\n",
                 "textStyle": {}
@@ -1989,13 +2029,13 @@
         }
       },
       {
-        "startIndex": 9781,
-        "endIndex": 9782,
+        "startIndex": 10746,
+        "endIndex": 10747,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9781,
-              "endIndex": 9782,
+              "startIndex": 10746,
+              "endIndex": 10747,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2009,13 +2049,13 @@
         }
       },
       {
-        "startIndex": 9782,
-        "endIndex": 10070,
+        "startIndex": 10747,
+        "endIndex": 11035,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9782,
-              "endIndex": 10070,
+              "startIndex": 10747,
+              "endIndex": 11035,
               "textRun": {
                 "content": "To maintain a balanced world, everyone should have their fair share of intelligence. We could instead gift everyone money via a Universal Basic Income (UBI). But it\u2019s unclear money will have meaning soon. And it\u2019s unclear further if anyone can retain meaning if they\u2019re dependent on UBI.\n",
                 "textStyle": {}
@@ -2029,13 +2069,13 @@
         }
       },
       {
-        "startIndex": 10070,
-        "endIndex": 10071,
+        "startIndex": 11035,
+        "endIndex": 11036,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10070,
-              "endIndex": 10071,
+              "startIndex": 11035,
+              "endIndex": 11036,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2049,13 +2089,13 @@
         }
       },
       {
-        "startIndex": 10071,
-        "endIndex": 10287,
+        "startIndex": 11036,
+        "endIndex": 11252,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10071,
-              "endIndex": 10287,
+              "startIndex": 11036,
+              "endIndex": 11252,
               "textRun": {
                 "content": "Instead, let\u2019s ensure that tomorrow people have what they are born with today: a computer as great as any other. This would take the form of a guaranteed compute budget, for every person. A computational birthright.\n",
                 "textStyle": {}
@@ -2069,13 +2109,13 @@
         }
       },
       {
-        "startIndex": 10287,
-        "endIndex": 10288,
+        "startIndex": 11252,
+        "endIndex": 11253,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10287,
-              "endIndex": 10288,
+              "startIndex": 11252,
+              "endIndex": 11253,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2089,21 +2129,21 @@
         }
       },
       {
-        "startIndex": 10288,
-        "endIndex": 10733,
+        "startIndex": 11253,
+        "endIndex": 11698,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10288,
-              "endIndex": 10342,
+              "startIndex": 11253,
+              "endIndex": 11307,
               "textRun": {
                 "content": "This compute must be non-transferable. Today, you can ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10342,
-              "endIndex": 10353,
+              "startIndex": 11307,
+              "endIndex": 11318,
               "textRun": {
                 "content": "temporarily",
                 "textStyle": {
@@ -2112,8 +2152,8 @@
               }
             },
             {
-              "startIndex": 10353,
-              "endIndex": 10733,
+              "startIndex": 11318,
+              "endIndex": 11698,
               "textRun": {
                 "content": " decide to use the computer in your head to benefit others, such as your employer. But you cannot enter into a contract that would make that permanent. You aren\u2019t allowed to sell yourself into slavery. Likewise, tomorrow, your sovereignty as a citizen of the future will be predicated on your compute birthright, which must be inviolable and bound permanently to you as a person.\n",
                 "textStyle": {}
@@ -2127,13 +2167,13 @@
         }
       },
       {
-        "startIndex": 10733,
-        "endIndex": 10734,
+        "startIndex": 11698,
+        "endIndex": 11699,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10733,
-              "endIndex": 10734,
+              "startIndex": 11698,
+              "endIndex": 11699,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2147,21 +2187,21 @@
         }
       },
       {
-        "startIndex": 10734,
-        "endIndex": 10794,
+        "startIndex": 11699,
+        "endIndex": 11759,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10734,
-              "endIndex": 10793,
+              "startIndex": 11699,
+              "endIndex": 11758,
               "textRun": {
                 "content": "This of course has its own requirement: energy. And growth.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10793,
-              "endIndex": 10794,
+              "startIndex": 11758,
+              "endIndex": 11759,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2175,13 +2215,13 @@
         }
       },
       {
-        "startIndex": 10794,
-        "endIndex": 10807,
+        "startIndex": 11759,
+        "endIndex": 11772,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10794,
-              "endIndex": 10807,
+              "startIndex": 11759,
+              "endIndex": 11772,
               "textRun": {
                 "content": "Energy today\n",
                 "textStyle": {}
@@ -2196,13 +2236,13 @@
         }
       },
       {
-        "startIndex": 10807,
-        "endIndex": 11086,
+        "startIndex": 11772,
+        "endIndex": 12051,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10807,
-              "endIndex": 11086,
+              "startIndex": 11772,
+              "endIndex": 12051,
               "textRun": {
                 "content": "Compute is ultimately just a form of energy. Without rapidly expanding energy sources, we will be forced to make extremely hard tradeoffs on what to compute, especially if we face geopolitical adversaries that may unilaterally redeploy all of their compute toward military ends.\n",
                 "textStyle": {}
@@ -2216,13 +2256,13 @@
         }
       },
       {
-        "startIndex": 11086,
-        "endIndex": 11087,
+        "startIndex": 12051,
+        "endIndex": 12052,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11086,
-              "endIndex": 11087,
+              "startIndex": 12051,
+              "endIndex": 12052,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2236,13 +2276,13 @@
         }
       },
       {
-        "startIndex": 11087,
-        "endIndex": 11271,
+        "startIndex": 12052,
+        "endIndex": 12236,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11087,
-              "endIndex": 11271,
+              "startIndex": 12052,
+              "endIndex": 12236,
               "textRun": {
                 "content": "We must have so much compute that we can build a worthy future, while having so much to spare that we can defend it. This means radically accelerating our domestic energy investments.\n",
                 "textStyle": {}
@@ -2256,13 +2296,13 @@
         }
       },
       {
-        "startIndex": 11271,
-        "endIndex": 11272,
+        "startIndex": 12236,
+        "endIndex": 12237,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11271,
-              "endIndex": 11272,
+              "startIndex": 12236,
+              "endIndex": 12237,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2276,13 +2316,13 @@
         }
       },
       {
-        "startIndex": 11272,
-        "endIndex": 11538,
+        "startIndex": 12237,
+        "endIndex": 12503,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11272,
-              "endIndex": 11538,
+              "startIndex": 12237,
+              "endIndex": 12503,
               "textRun": {
                 "content": "But even still, we\u2019ve seen that an automated dictatorship could outstrip our own energy if they are ruthless enough with their domestic policy. And they very well might be. We thus need even more energy. More energy than exists or can exist for any nation on Earth.\n",
                 "textStyle": {}
@@ -2296,13 +2336,13 @@
         }
       },
       {
-        "startIndex": 11538,
-        "endIndex": 11539,
+        "startIndex": 12503,
+        "endIndex": 12504,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11538,
-              "endIndex": 11539,
+              "startIndex": 12503,
+              "endIndex": 12504,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2316,21 +2356,21 @@
         }
       },
       {
-        "startIndex": 11539,
-        "endIndex": 11541,
+        "startIndex": 12504,
+        "endIndex": 12506,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11539,
-              "endIndex": 11540,
+              "startIndex": 12504,
+              "endIndex": 12505,
               "inlineObjectElement": {
                 "inlineObjectId": "kix.wutc4x565sb",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11540,
-              "endIndex": 11541,
+              "startIndex": 12505,
+              "endIndex": 12506,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2344,13 +2384,13 @@
         }
       },
       {
-        "startIndex": 11541,
-        "endIndex": 11556,
+        "startIndex": 12506,
+        "endIndex": 12521,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11541,
-              "endIndex": 11556,
+              "startIndex": 12506,
+              "endIndex": 12521,
               "textRun": {
                 "content": "A shared prize\n",
                 "textStyle": {}
@@ -2365,13 +2405,13 @@
         }
       },
       {
-        "startIndex": 11556,
-        "endIndex": 11625,
+        "startIndex": 12521,
+        "endIndex": 12590,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11556,
-              "endIndex": 11625,
+              "startIndex": 12521,
+              "endIndex": 12590,
               "textRun": {
                 "content": "There\u2019s only one place that has the extreme energy we demand: space.\n",
                 "textStyle": {}
@@ -2385,13 +2425,13 @@
         }
       },
       {
-        "startIndex": 11625,
-        "endIndex": 11626,
+        "startIndex": 12590,
+        "endIndex": 12591,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11625,
-              "endIndex": 11626,
+              "startIndex": 12590,
+              "endIndex": 12591,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2405,13 +2445,13 @@
         }
       },
       {
-        "startIndex": 11626,
-        "endIndex": 11835,
+        "startIndex": 12591,
+        "endIndex": 12800,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11626,
-              "endIndex": 11835,
+              "startIndex": 12591,
+              "endIndex": 12800,
               "textRun": {
                 "content": "The sun emits almost a million, trillion gigawatts of power. 3.8 \u00d7 10^26 watts. Almost a billion gigawatts for every human alive today. It radiates out into the vastness of interstellar space, wasted forever.\n",
                 "textStyle": {}
@@ -2425,13 +2465,13 @@
         }
       },
       {
-        "startIndex": 11835,
-        "endIndex": 11836,
+        "startIndex": 12800,
+        "endIndex": 12801,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11835,
-              "endIndex": 11836,
+              "startIndex": 12800,
+              "endIndex": 12801,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2445,13 +2485,13 @@
         }
       },
       {
-        "startIndex": 11836,
-        "endIndex": 12225,
+        "startIndex": 12801,
+        "endIndex": 13190,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11836,
-              "endIndex": 12225,
+              "startIndex": 12801,
+              "endIndex": 13190,
               "textRun": {
                 "content": "There is very simple technology to capture it. Solar panels. What we need is to make them at scale, which requires automation, which is luckily exactly the extreme force that is entering the world at this moment and causing our existential problems. Once again, automation is the key to solving the problems introduced by automation. We need energy \u2014 all of it. Automation can deliver it.\n",
                 "textStyle": {}
@@ -2465,13 +2505,13 @@
         }
       },
       {
-        "startIndex": 12225,
-        "endIndex": 12226,
+        "startIndex": 13190,
+        "endIndex": 13191,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12225,
-              "endIndex": 12226,
+              "startIndex": 13190,
+              "endIndex": 13191,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2485,15 +2525,15 @@
         }
       },
       {
-        "startIndex": 12226,
-        "endIndex": 12660,
+        "startIndex": 13191,
+        "endIndex": 13770,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12226,
-              "endIndex": 12660,
+              "startIndex": 13191,
+              "endIndex": 13770,
               "textRun": {
-                "content": "Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth. And the lunar regolith that makes up the moon\u2019s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface.\n",
+                "content": "Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth. And the lunar regolith that makes up the moon\u2019s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface. Automated lunar factories can then convert this abundant silicon into solar panels, and lunar robots can tile the surface of the moon with them.\n",
                 "textStyle": {}
               }
             }
@@ -2505,53 +2545,13 @@
         }
       },
       {
-        "startIndex": 12660,
-        "endIndex": 12661,
+        "startIndex": 13770,
+        "endIndex": 13771,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12660,
-              "endIndex": 12661,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 12661,
-        "endIndex": 13263,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 12661,
-              "endIndex": 13263,
-              "textRun": {
-                "content": "Even this is, of course, an extremely ambitious goal. But it\u2019s exactly the type of extreme windfall that strong AI will deliver. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it\u2019s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it\u2019s not easy to reach.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 13263,
-        "endIndex": 13264,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 13263,
-              "endIndex": 13264,
+              "startIndex": 13770,
+              "endIndex": 13771,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2565,13 +2565,53 @@
         }
       },
       {
-        "startIndex": 13264,
-        "endIndex": 13326,
+        "startIndex": 13771,
+        "endIndex": 14398,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13264,
-              "endIndex": 13326,
+              "startIndex": 13771,
+              "endIndex": 14398,
+              "textRun": {
+                "content": "Even this is, of course, an extremely ambitious goal. But it\u2019s exactly the type of extreme windfall that strong AI will enable within the next few years. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it\u2019s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it\u2019s not easy to reach.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 14398,
+        "endIndex": 14399,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14398,
+              "endIndex": 14399,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 14399,
+        "endIndex": 14461,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14399,
+              "endIndex": 14461,
               "textRun": {
                 "content": "That could make it a decisive high ground for the free world.\n",
                 "textStyle": {}
@@ -2585,13 +2625,13 @@
         }
       },
       {
-        "startIndex": 13326,
-        "endIndex": 13327,
+        "startIndex": 14461,
+        "endIndex": 14462,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13326,
-              "endIndex": 13327,
+              "startIndex": 14461,
+              "endIndex": 14462,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2605,13 +2645,13 @@
         }
       },
       {
-        "startIndex": 13327,
-        "endIndex": 13908,
+        "startIndex": 14462,
+        "endIndex": 15043,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13327,
-              "endIndex": 13908,
+              "startIndex": 14462,
+              "endIndex": 15043,
               "textRun": {
                 "content": "And with that high ground, we can promise to share its wealth with everyone, including the power hungry would-be dictators. We can bring them to the world table by offering them bounty they couldn\u2019t achieve if they instead seized power of their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power \u2014and there are many\u2014 even then it\u2019s in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.\n",
                 "textStyle": {}
@@ -2625,13 +2665,13 @@
         }
       },
       {
-        "startIndex": 13908,
-        "endIndex": 13909,
+        "startIndex": 15043,
+        "endIndex": 15044,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13908,
-              "endIndex": 13909,
+              "startIndex": 15043,
+              "endIndex": 15044,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2645,13 +2685,13 @@
         }
       },
       {
-        "startIndex": 13909,
-        "endIndex": 13934,
+        "startIndex": 15044,
+        "endIndex": 15069,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13909,
-              "endIndex": 13934,
+              "startIndex": 15044,
+              "endIndex": 15069,
               "textRun": {
                 "content": "The AI-powered Judiciary\n",
                 "textStyle": {}
@@ -2666,13 +2706,13 @@
         }
       },
       {
-        "startIndex": 13934,
-        "endIndex": 14374,
+        "startIndex": 15069,
+        "endIndex": 15509,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13934,
-              "endIndex": 14374,
+              "startIndex": 15069,
+              "endIndex": 15509,
               "textRun": {
                 "content": "You thought I forgot about the Judiciary, but I snuck it in at the bottom here as a bookend. By default the Executive will be automated, so we must sandwich it with an AI-powered Legislature and an AI-powered Judiciary. This is the only way to ensure a future of checks and balances. The only way to ensure government stays democratic, in check, at the service of all of us. For the people, even when it\u2019s no longer strictly of the people.\n",
                 "textStyle": {}
@@ -2686,13 +2726,13 @@
         }
       },
       {
-        "startIndex": 14374,
-        "endIndex": 14375,
+        "startIndex": 15509,
+        "endIndex": 15510,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14374,
-              "endIndex": 14375,
+              "startIndex": 15509,
+              "endIndex": 15510,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2706,13 +2746,13 @@
         }
       },
       {
-        "startIndex": 14375,
-        "endIndex": 14598,
+        "startIndex": 15510,
+        "endIndex": 15733,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14375,
-              "endIndex": 14598,
+              "startIndex": 15510,
+              "endIndex": 15733,
               "textRun": {
                 "content": "We must ultimately seek not just exceptional intelligence, in the form of AI machines, we must seek exceptional wisdom, in the form of a human-machine civilization. The Judiciary must reflect the highest form of this goal.\n",
                 "textStyle": {}
@@ -2726,13 +2766,13 @@
         }
       },
       {
-        "startIndex": 14598,
-        "endIndex": 14599,
+        "startIndex": 15733,
+        "endIndex": 15734,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14598,
-              "endIndex": 14599,
+              "startIndex": 15733,
+              "endIndex": 15734,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2746,13 +2786,13 @@
         }
       },
       {
-        "startIndex": 14599,
-        "endIndex": 14971,
+        "startIndex": 15734,
+        "endIndex": 16106,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14599,
-              "endIndex": 14971,
+              "startIndex": 15734,
+              "endIndex": 16106,
               "textRun": {
                 "content": "While all three branches of government were designed to be co-equal, the Executive has crept up to become the dominant branch. As a practical point, we should first upgrade the Legislature and Judiciary with AI, or we risk an overpowered Executive. With no change in course, however, it\u2019s the Executive that will embrace AI first, further disrupting the balance of power.\n",
                 "textStyle": {}
@@ -3487,7 +3527,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lu9MdmaHdR8lqChRi0D_YvVU_I4MZKNvWcQSzo_V7goWXZ997RpMZjRTBKg0jCRLtUf5B_UUwoQdLNMyA",
+  "revisionId": "ALBJ4LuETHCfb7DxG_L_YXAJ56wRtG71C6c_jhb5khMf_HGOoyVMbnXafSD2yByu5NfHG156lWoidBjZbt_XCg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.wutc4x565sb": {
@@ -3495,7 +3535,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1pYH5ylqKxXwkbyZUky8LVbrJhDLEWTiHbzHew-ewj_qmq9Qq3m-uti0Q1UMpaDxS5zwkHp8hdW0NZdW7BQNWEtrOmk7tkUDTh623cLqTQQjFq0e03rhBFnCtX0gH59_ziVRBFA?key=96oGMgQg_7AyYALfrzcutMGa",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3IeL5KuN8h7yXYZZ7eVUoL6DprhDcTbVpcLWts-9FrX4NEOtZF1rd6fZQSMmsMlNkbXKBwedjiiBX8th5yHLiiEbetDNgVVR3WFNVZLc1ZY89hjfGa8BUmPoJu02w9ZT1Dgycyg?key=96oGMgQg_7AyYALfrzcutMGa",
             "cropProperties": {}
           },
           "embeddedObjectBorder": {
