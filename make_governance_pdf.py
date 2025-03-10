@@ -77,6 +77,7 @@ class LatexDocument:
 \\usepackage{xcolor}
 \\usepackage{needspace}
 \\usepackage{afterpage}
+\\usepackage{caption}
 
 % Configure hyperref for better internal references
 \\hypersetup{
@@ -91,6 +92,7 @@ class LatexDocument:
 \\usepackage[a5paper, inner=20mm, outer=10mm, top=15mm, bottom=15mm, twoside]{geometry}
 
 % Styling
+\\captionsetup{labelformat=empty}
 \\setstretch{1.15}
 \\setlength{\\parindent}{0pt}
 
@@ -279,7 +281,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     # Add caption if available
                     if caption_text:
                         latex_content += f"""
-\\caption{{{caption_text}}}"""
+\\caption[]{{{caption_text}}}"""
                         
                     latex_content += """
 \\end{figure}
@@ -353,7 +355,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                 # Add caption if available
                 if caption_text:
                     latex_content += f"""
-\\caption{{{caption_text}}}"""
+\\caption[]{{{caption_text}}}"""
                     
                 latex_content += """
 \\end{figure}
@@ -777,8 +779,6 @@ def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
                         help='Output PDF file path')
-    parser.add_argument('--with-cover', action='store_true',
-                        help='Generate a version with custom cover and back page')
     args = parser.parse_args()
     
     # Ensure LaTeX templates directory exists
@@ -809,21 +809,20 @@ def main():
     print(f"Converting LaTeX to PDF...")
     latex_to_pdf(latex_content, args.output)
     
-    # If --with-cover flag is set, create a second version with custom cover
-    if args.with_cover:
-        # Path to the cover PDF
-        cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
-        
-        if not os.path.exists(cover_pdf):
-            print(f"Error: Cover PDF {cover_pdf} not found.")
-            return
-        
-        # Generate output filename for the version with cover
-        output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
-        
-        # Merge the PDFs
-        print(f"Creating version with custom cover...")
-        merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
+    # Always create a second version with custom cover
+    # Path to the cover PDF
+    cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
+    
+    if not os.path.exists(cover_pdf):
+        print(f"Error: Cover PDF {cover_pdf} not found.")
+        return
+    
+    # Generate output filename for the version with cover
+    output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
+    
+    # Merge the PDFs
+    print(f"Creating version with custom cover...")
+    merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
 
 
 if __name__ == "__main__":
