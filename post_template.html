@@ -23,6 +23,17 @@
             background-color: #ffffff;
             padding: 1rem;
         }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+        }
+        
+        a:hover {
+            border-bottom-color: #0066cc;
+        }
 
         .container {
             max-width: 38em;
@@ -136,6 +147,26 @@
                 background-color: #1a1a1a;
                 color: #f0f0f0;
             }
+            
+            a {
+                color: #5abbff;
+            }
+            
+            a:hover {
+                border-bottom-color: #5abbff;
+            }
+        }
+
+        /* Back link styling */
+        .back-link {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .back-link a {
+            padding: 0.5rem 0;
+            display: inline-block;
         }
 
         @media (max-width: 600px) {
@@ -164,6 +195,9 @@
         <div id="story">
 DESCRIPTION_BLOCK
 POST
+        </div>
+        <div class="back-link">
+            <a href="/">&larr; Back</a>
         </div>
     </div>
 </body>
