@@ -263,13 +263,26 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     if not img_path.startswith('/'):
                         img_path = os.path.join(os.path.dirname(html_path), img_path)
                     
+                    # Check for caption
+                    caption_text = ""
+                    caption = img_container.find('figcaption', class_='image-caption')
+                    if caption and caption.get_text().strip():
+                        caption_text = escape_latex(caption.get_text().strip())
+                    
                     # Place image on its own page with max size
                     latex_content += f"""
 \\clearpage
 \\begin{{figure}}[p]
 \\centering
-\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}
-\\end{{figure}}
+\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}"""
+                    
+                    # Add caption if available
+                    if caption_text:
+                        latex_content += f"""
+\\caption{{{caption_text}}}"""
+                        
+                    latex_content += """
+\\end{figure}
 \\clearpage
 
 """
@@ -323,13 +336,27 @@ def html_to_latex(html_path: str) -> LatexDocument:
                 else:
                     print(f"WARNING: Image file not found at: {img_path}")
                 
+                # Check for caption
+                caption_text = ""
+                caption = element.find('figcaption', class_='image-caption')
+                if caption and caption.get_text().strip():
+                    caption_text = escape_latex(caption.get_text().strip())
+                    print(f"Found caption: {caption_text}")
+                
                 # Place image on its own page with max size
                 latex_content += f"""
 \\clearpage
 \\begin{{figure}}[p]
 \\centering
-\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}
-\\end{{figure}}
+\\includegraphics[width=\\textwidth,height=0.9\\textheight,keepaspectratio]{{{img_path}}}"""
+                
+                # Add caption if available
+                if caption_text:
+                    latex_content += f"""
+\\caption{{{caption_text}}}"""
+                    
+                latex_content += """
+\\end{figure}
 \\clearpage
 
 """
@@ -580,13 +607,6 @@ def escape_latex(text):
         '😷': '[mask]',
     }
     
-    # Replace Unicode characters with their LaTeX equivalents
-    for char, replacement in unicode_chars.items():
-        text = text.replace(char, replacement)
-    
-    # Remove any remaining non-ASCII characters
-    text = ''.join(c if ord(c) < 128 else ' ' for c in text)
-    
     # Escape LaTeX special characters
     chars = {
         '&': '\\&',
@@ -603,12 +623,19 @@ def escape_latex(text):
     
     # First replace backslash, then other characters
     text = text.replace('\\', '\\textbackslash{}')
-    
+
     # Now replace other special characters
     for char, replacement in chars.items():
         if char != '\\':  # Already handled backslash
             text = text.replace(char, replacement)
-    
+
+    # Replace Unicode characters with their LaTeX equivalents
+    for char, replacement in unicode_chars.items():
+        text = text.replace(char, replacement)
+
+    # Remove any remaining non-ASCII characters
+    text = ''.join(c if ord(c) < 128 else ' ' for c in text)
+
     return text
 
 
@@ -750,6 +777,8 @@ def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
                         help='Output PDF file path')
+    parser.add_argument('--with-cover', action='store_true',
+                        help='Generate a version with custom cover and back page')
     args = parser.parse_args()
     
     # Ensure LaTeX templates directory exists
@@ -780,20 +809,21 @@ def main():
     print(f"Converting LaTeX to PDF...")
     latex_to_pdf(latex_content, args.output)
     
-    # Create a second version with custom cover
-    # Path to the cover PDF
-    cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
-    
-    if not os.path.exists(cover_pdf):
-        print(f"Error: Cover PDF {cover_pdf} not found.")
-        return
-    
-    # Generate output filename for the version with cover
-    output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
-    
-    # Merge the PDFs
-    print(f"Creating version with custom cover...")
-    merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
+    # If --with-cover flag is set, create a second version with custom cover
+    if args.with_cover:
+        # Path to the cover PDF
+        cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
+        
+        if not os.path.exists(cover_pdf):
+            print(f"Error: Cover PDF {cover_pdf} not found.")
+            return
+        
+        # Generate output filename for the version with cover
+        output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
+        
+        # Merge the PDFs
+        print(f"Creating version with custom cover...")
+        merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
 
 
 if __name__ == "__main__":

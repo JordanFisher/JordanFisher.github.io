@@ -440,12 +440,21 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                                     doc_id = doc.get('documentId', 'unknown')
                                     image_path = download_image(image_id, image_source, doc_id)
                                 
+                                    # Get the image description if available
+                                    image_description = embedded_object.get('description', '')
+                                    
                                     if image_path:
                                         # Create a relative path for HTML
                                         relative_path = os.path.relpath(image_path, 'posts')
                                         
-                                        # Add the image to para_content
-                                        para_content += f'<div class="image-container"><img src="{relative_path}" alt="Image from Google Doc" class="doc-image" /></div>'
+                                        # Add the image to para_content with alt text from description
+                                        para_content += f'<div class="image-container"><img src="{relative_path}" alt="{image_description or "Image from Google Doc"}" class="doc-image" />'
+                                        
+                                        # Add caption if description exists
+                                        if image_description:
+                                            para_content += f'<figcaption class="image-caption">{image_description}</figcaption>'
+                                        
+                                        para_content += '</div>'
                     elif 'richLink' in para_elem:
                         # Process rich links (e.g., links to other Google Docs)
                         rich_link = para_elem.get('richLink', {})
@@ -496,13 +505,24 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                             doc_id = doc.get('documentId', 'unknown')
                             image_path = download_image(image_id, image_source, doc_id)
                         
+                            # Get the image description if available
+                            image_description = embedded_object.get('description', '')
+                            
                             if image_path:
                                 # Create a relative path for HTML
                                 relative_path = os.path.relpath(image_path, 'posts')
                                 
                                 # Add the image to HTML with styling for centered, full width display
+                                # Include alt text and caption if available
                                 content += f"""<div class="image-container">
-  <img src="{relative_path}" alt="Image from Google Doc" class="doc-image" />
+  <img src="{relative_path}" alt="{image_description or "Image from Google Doc"}" class="doc-image" />"""
+                                
+                                # Add caption if description exists
+                                if image_description:
+                                    content += f"""
+  <figcaption class="image-caption">{image_description}</figcaption>"""
+                                    
+                                content += """
 </div>
 """
             # Add support for other element types as needed (tables, etc.)
