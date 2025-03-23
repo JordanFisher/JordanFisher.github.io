@@ -187,7 +187,8 @@ def html_to_latex(html_path: str) -> LatexDocument:
         title_element = story_div.find('h1')
     
     if not title_element:
-        title = "Tiny Book on Governance of Machine Intelligence"
+        # title = "Tiny Book on Governance of Machine Intelligence"
+        title = "Liberty by Design"
     else:
         title = title_element.get_text().strip()
     
@@ -288,14 +289,15 @@ def html_to_latex(html_path: str) -> LatexDocument:
 \\clearpage
 
 """
-            # Check if this is a quote block (typically italicized paragraphs)
-            elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
-                # If the entire paragraph is in italics, treat it as a quote
-                # Process with in_quote=True to avoid redundant italic formatting
-                para_content = process_inline_elements(element, in_quote=True, story_div=story_div)
-                latex_content += f"""\\begin{{fancyquote}}
-{para_content}
-\\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
+# Skipping this for now. We don't want <em> blocks to become fancyquotes.
+#             # Check if this is a quote block (typically italicized paragraphs)
+#             elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
+#                 # If the entire paragraph is in italics, treat it as a quote
+#                 # Process with in_quote=True to avoid redundant italic formatting
+#                 para_content = process_inline_elements(element, in_quote=True, story_div=story_div)
+#                 latex_content += f"""\\begin{{fancyquote}}
+# {para_content}
+# \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
                 # Regular paragraph
                 para_content = process_inline_elements(element, story_div=story_div)
@@ -756,10 +758,14 @@ def merge_pdf_with_cover(original_pdf, cover_pdf, output_pdf):
             if len(cover_reader.pages) > 0:
                 pdf_writer.add_page(cover_reader.pages[0])
             
-            # Add all pages from the original PDF (except the first page)
-            for page_num in range(1, len(pdf_reader.pages)):
+            # # Add all pages from the original PDF (except the first page)
+            # for page_num in range(1, len(pdf_reader.pages)):
+            #     pdf_writer.add_page(pdf_reader.pages[page_num])
+
+            # Add all pages from the original PDF (including the first page)
+            for page_num in range(len(pdf_reader.pages)):
                 pdf_writer.add_page(pdf_reader.pages[page_num])
-            
+
             # Add the back page (second page of cover_pdf)
             if len(cover_reader.pages) > 1:
                 pdf_writer.add_page(cover_reader.pages[1])
@@ -811,8 +817,9 @@ def main():
     
     # Always create a second version with custom cover
     # Path to the cover PDF
-    cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
-    
+    # cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
+    cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_liberty_2.pdf')    
+
     if not os.path.exists(cover_pdf):
         print(f"Error: Cover PDF {cover_pdf} not found.")
         return
