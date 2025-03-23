@@ -460,12 +460,12 @@ def _convert_doc_to_html(doc: dict) -> tuple[str, str, str]:
                         rich_link = para_elem.get('richLink', {})
                         link_props = rich_link.get('richLinkProperties', {})
                         url = link_props.get('uri', '')
-                        title = link_props.get('title', url)
+                        linked_title = link_props.get('title', url)
                         
                         # Create an HTML link
                         if url:
-                            para_content += f'<a href="{url}">{title}</a>'
-                
+                            para_content += f'<a href="{url}">{linked_title}</a>'
+
                 # Skip empty paragraphs
                 if para_content.strip() == '':
                     continue
