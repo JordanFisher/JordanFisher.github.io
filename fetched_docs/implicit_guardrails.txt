@@ -21,7 +21,7 @@ At the international level this helps balance power between nations
 Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. Complete lack of info can lead to paranoia and escalation
 
 Noble causes
-Many are inspired by noble causes
+Many are inspired by noble causes, a desire to do good, and a sense of morality in general
 That allows noble causes to have an advantage over dishonorable ones
 In an automated world, the only advantage will go to the cause with more machine resources
 
@@ -72,8 +72,6 @@ People want to do things their loved ones/friends would approve of (and that the
 In many ways we’re an honor bound society
 This allows for all of society to apply implicit guardrails on all things
 A soldier wants to act in a way that they can be proud of, or that their family would be proud of
-
-
 
 Personal fear of reprisal
 The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey a job or order
@@ -160,4 +158,5 @@ The Khmer Rouge tried exactly this (they killed 25% of their population) but end
 Even the most psychopathic ruler, if self-interested, must support their people to support themself 
 But post-AGI, what’s the point of supporting other humans with your national output at all? Citizens become economic deadweight
 And even if Authoritarian A wants to support his pop, Authoritarian B who doesn’t will ceteris paribus outcompete Authoritarian A across relevant domains
+
 

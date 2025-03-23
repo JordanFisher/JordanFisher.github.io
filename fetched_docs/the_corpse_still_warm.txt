@@ -1,4 +1,4 @@
-the corpse still warm
+The Prompt of Power
 
 [[[This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.]]]
 
@@ -52,7 +52,9 @@ Midterms came and went. Not that the legislature could keep up with oversight of
 
 Then came the scandals.
 
-A lab leader had been negotiating a deal to bring superintelligence to a foreign ally. Another died mysteriously after having pointed this out on a live podcast. Were the lab leaders weaponizing their AI’s against each other? A third leader announced their retirement: mission accomplished, time to enjoy paradise, I prefer to stay out of the public view. 
+A lab leader had been negotiating a deal to bring superintelligence to a foreign ally. Another died mysteriously after having pointed this out on a live podcast. Were the lab leaders weaponizing their AI’s against each other? Were they traitors to the US, delivering super-AI to our adversaries?
+
+A third AI leader announced a peculiar retirement: “Mission accomplished, time to enjoy paradise, I prefer to stay out of the public view, please don’t contact me.”
 
 Mainstream media and social media amplified the worst fears from these stories. These platforms were some of the easiest and earliest to fully automate. Decisions to amplify the right stories came from a single prompt, controlled by single CEOs. They didn't need to worry about employee dissent and refusals to comply; the AI accepted every order. Backroom deals between CEOs and governments became easy to implement. It had always been easy to negotiate secret deals, but implementing them required careful coercion of the employees needed to make them reality. Now collusion could be executed as easily as it could be discussed.
 
