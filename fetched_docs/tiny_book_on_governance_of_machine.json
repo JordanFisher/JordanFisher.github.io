@@ -3609,11 +3609,11 @@
               "startIndex": 18864,
               "endIndex": 18865,
               "richLink": {
-                "richLinkId": "kix.9dj7optyxg41",
+                "richLinkId": "kix.xewhmpnsn2gc",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "The realpolitik AI",
-                  "uri": "https://docs.google.com/document/d/1rB0LTHYm4icUP0BCbc56X1VX9Oge5dTMQ8n0laPxi4Q/edit?tab=t.0",
+                  "title": "Superchecks and superbalances",
+                  "uri": "https://docs.google.com/document/d/141zqb94MsAcwBFyk-srcTPEtN3dpDzJe6pN0wts_pcM/edit?tab=t.0",
                   "mimeType": "application/vnd.google-apps.kix"
                 }
               }
@@ -3628,7 +3628,7 @@
             }
           ],
           "paragraphStyle": {
-            "headingId": "h.tbp6f1vx53o",
+            "headingId": "h.phls5or0cv86",
             "namedStyleType": "HEADING_1",
             "direction": "LEFT_TO_RIGHT"
           }
@@ -3643,11 +3643,11 @@
               "startIndex": 18866,
               "endIndex": 18867,
               "richLink": {
-                "richLinkId": "kix.jyxcfrysry8z",
+                "richLinkId": "kix.9dj7optyxg41",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "An exponential, if you can keep it",
-                  "uri": "https://docs.google.com/document/d/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI/edit?tab=t.0#heading=h.xedv3dcift3s",
+                  "title": "The realpolitik AI",
+                  "uri": "https://docs.google.com/document/d/1rB0LTHYm4icUP0BCbc56X1VX9Oge5dTMQ8n0laPxi4Q/edit?tab=t.0",
                   "mimeType": "application/vnd.google-apps.kix"
                 }
               }
@@ -3662,7 +3662,7 @@
             }
           ],
           "paragraphStyle": {
-            "headingId": "h.fa8et5875jo7",
+            "headingId": "h.tbp6f1vx53o",
             "namedStyleType": "HEADING_1",
             "direction": "LEFT_TO_RIGHT"
           }
@@ -3677,6 +3677,40 @@
               "startIndex": 18868,
               "endIndex": 18869,
               "richLink": {
+                "richLinkId": "kix.jyxcfrysry8z",
+                "textStyle": {},
+                "richLinkProperties": {
+                  "title": "An exponential, if you can keep it",
+                  "uri": "https://docs.google.com/document/d/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI/edit?tab=t.0#heading=h.xedv3dcift3s",
+                  "mimeType": "application/vnd.google-apps.kix"
+                }
+              }
+            },
+            {
+              "startIndex": 18869,
+              "endIndex": 18870,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.fa8et5875jo7",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 18870,
+        "endIndex": 18872,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18870,
+              "endIndex": 18871,
+              "richLink": {
                 "richLinkId": "kix.3gtfxqnd71oq",
                 "textStyle": {},
                 "richLinkProperties": {
@@ -3687,8 +3721,8 @@
               }
             },
             {
-              "startIndex": 18869,
-              "endIndex": 18870,
+              "startIndex": 18871,
+              "endIndex": 18872,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -5060,7 +5094,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LsB5I5MnwqjaP6s7olrSAlnMOgRXAn2LHU66Yv9t9DivG_UTkR849N7_uRva9N5RxjzYyMKABpbQJpriw",
+  "revisionId": "ALBJ4LvkK0MQuGNnSXwSRHn8dJDuynb7SMMEgwaejkN1De5NKm2cPkjLWJ6wj19s2Q4QkWWxcM_mtqQOQfuyBA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.r5wd2se1jsj8": {
@@ -5068,7 +5102,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOSFX7o8lVAwtOXBpt46PWI1-V4CZfXVDT3KLnOUFHKvt36Z9Yz13UjcbkxsLtks4EsD9KrluHhqNVyyYCDAwyfscK3ljZstrLlua2p8DMRoMyux57GoXz8x9esVyq-Pf9K1VpWA?key=bNxPp7GAgtEQEP0HJibTZQ",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0GxLCEZWGULSz2DZbCq6lSgciOkIm18APIurAGF56I98qIpeLXano-h4_E2VkW62g2Mm0_CBJBdWlmwoBYCCcG37rXvUJGOGbtymQnfklekNKMI4oemmjgZU5L7yuCroLG_tfVw?key=bNxPp7GAgtEQEP0HJibTZQ",
             "cropProperties": {}
           },
           "description": "i had to use a 2 year old image gen model otherwise this wouldn\u2019t look dumb enough",

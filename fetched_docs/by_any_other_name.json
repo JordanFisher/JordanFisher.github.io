@@ -1671,7 +1671,7 @@
       },
       {
         "startIndex": 10632,
-        "endIndex": 11378,
+        "endIndex": 11433,
         "paragraph": {
           "elements": [
             {
@@ -1712,9 +1712,57 @@
             },
             {
               "startIndex": 11081,
-              "endIndex": 11378,
+              "endIndex": 11135,
               "textRun": {
-                "content": ", whether or not we eventually see diminishing returns. There is a near infinite amount of things to deploy fully general AI toward. Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.\n",
+                "content": ", whether or not we eventually see diminishing returns",
+                "suggestedDeletionIds": [
+                  "suggest.x86elon0ayrs"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 11135,
+              "endIndex": 11212,
+              "textRun": {
+                "content": ". There is a near infinite amount of things to deploy fully general AI toward",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 11212,
+              "endIndex": 11267,
+              "textRun": {
+                "content": ", even if the \u201cintelligence\u201d of each AI were to plateau",
+                "suggestedInsertionIds": [
+                  "suggest.3htdzb72mmj1"
+                ],
+                "textStyle": {},
+                "suggestedTextStyleChanges": {
+                  "suggest.3htdzb72mmj1": {
+                    "textStyle": {},
+                    "textStyleSuggestionState": {
+                      "boldSuggested": true,
+                      "italicSuggested": true,
+                      "underlineSuggested": true,
+                      "strikethroughSuggested": true,
+                      "smallCapsSuggested": true,
+                      "backgroundColorSuggested": true,
+                      "foregroundColorSuggested": true,
+                      "fontSizeSuggested": true,
+                      "weightedFontFamilySuggested": true,
+                      "baselineOffsetSuggested": true,
+                      "linkSuggested": true
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 11267,
+              "endIndex": 11433,
+              "textRun": {
+                "content": ". Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.\n",
                 "textStyle": {}
               }
             }
@@ -1726,13 +1774,13 @@
         }
       },
       {
-        "startIndex": 11378,
-        "endIndex": 11379,
+        "startIndex": 11433,
+        "endIndex": 11434,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11378,
-              "endIndex": 11379,
+              "startIndex": 11433,
+              "endIndex": 11434,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1746,13 +1794,13 @@
         }
       },
       {
-        "startIndex": 11379,
-        "endIndex": 11819,
+        "startIndex": 11434,
+        "endIndex": 11874,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11379,
-              "endIndex": 11819,
+              "startIndex": 11434,
+              "endIndex": 11874,
               "textRun": {
                 "content": "Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn\u2019t have that immunity.\n",
                 "textStyle": {}
@@ -1766,13 +1814,13 @@
         }
       },
       {
-        "startIndex": 11819,
-        "endIndex": 11820,
+        "startIndex": 11874,
+        "endIndex": 11875,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11819,
-              "endIndex": 11820,
+              "startIndex": 11874,
+              "endIndex": 11875,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1786,13 +1834,13 @@
         }
       },
       {
-        "startIndex": 11820,
-        "endIndex": 12074,
+        "startIndex": 11875,
+        "endIndex": 12129,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11820,
-              "endIndex": 12074,
+              "startIndex": 11875,
+              "endIndex": 12129,
               "textRun": {
                 "content": "Even if a freely elected leader means well, if they consolidate power to defend their nation, if they redirect nearly all resources to maintain the ability for their nation to survive, what is left? Tyranny by any other name would still smell like shit.\n",
                 "textStyle": {}
@@ -1806,13 +1854,13 @@
         }
       },
       {
-        "startIndex": 12074,
-        "endIndex": 12075,
+        "startIndex": 12129,
+        "endIndex": 12130,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12074,
-              "endIndex": 12075,
+              "startIndex": 12129,
+              "endIndex": 12130,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1826,21 +1874,21 @@
         }
       },
       {
-        "startIndex": 12075,
-        "endIndex": 12515,
+        "startIndex": 12130,
+        "endIndex": 12570,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12075,
-              "endIndex": 12135,
+              "startIndex": 12130,
+              "endIndex": 12190,
               "textRun": {
                 "content": "It\u2019s not just that AI suddenly makes a durable dictatorship ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12135,
-              "endIndex": 12143,
+              "startIndex": 12190,
+              "endIndex": 12198,
               "textRun": {
                 "content": "possible",
                 "textStyle": {
@@ -1849,16 +1897,16 @@
               }
             },
             {
-              "startIndex": 12143,
-              "endIndex": 12166,
+              "startIndex": 12198,
+              "endIndex": 12221,
               "textRun": {
                 "content": ", it suddenly makes it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12166,
-              "endIndex": 12185,
+              "startIndex": 12221,
+              "endIndex": 12240,
               "textRun": {
                 "content": "the default outcome",
                 "textStyle": {
@@ -1867,16 +1915,16 @@
               }
             },
             {
-              "startIndex": 12185,
-              "endIndex": 12367,
+              "startIndex": 12240,
+              "endIndex": 12422,
               "textRun": {
                 "content": ". The thirst for power has always existed, and many have tried and succeeded at building temporary dictatorships. Suddenly, with AI, the path to dictatorship will become much easier ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12367,
-              "endIndex": 12417,
+              "startIndex": 12422,
+              "endIndex": 12472,
               "textRun": {
                 "content": "and also more rewarding than any other possibility",
                 "textStyle": {
@@ -1885,8 +1933,8 @@
               }
             },
             {
-              "startIndex": 12417,
-              "endIndex": 12515,
+              "startIndex": 12472,
+              "endIndex": 12570,
               "textRun": {
                 "content": ". We have to expect that on net the risk of dictatorship rises substantially in the coming years.\n",
                 "textStyle": {}
@@ -1900,13 +1948,13 @@
         }
       },
       {
-        "startIndex": 12515,
-        "endIndex": 12516,
+        "startIndex": 12570,
+        "endIndex": 12571,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12515,
-              "endIndex": 12516,
+              "startIndex": 12570,
+              "endIndex": 12571,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1920,13 +1968,13 @@
         }
       },
       {
-        "startIndex": 12516,
-        "endIndex": 12874,
+        "startIndex": 12571,
+        "endIndex": 12929,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12516,
-              "endIndex": 12874,
+              "startIndex": 12571,
+              "endIndex": 12929,
               "textRun": {
                 "content": "The best predictor of human behavior is incentives, and the incentives are quickly transmuting for leaders into a single direction: consolidate power. We can resist this incredible force only if we build checks and balances into our governance that are amplified by AI, not subverted by it. We can do this if we try. We can do this if we recognize the risk.\n",
                 "textStyle": {}
@@ -1940,13 +1988,13 @@
         }
       },
       {
-        "startIndex": 12874,
-        "endIndex": 12875,
+        "startIndex": 12929,
+        "endIndex": 12930,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12874,
-              "endIndex": 12875,
+              "startIndex": 12929,
+              "endIndex": 12930,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1960,13 +2008,13 @@
         }
       },
       {
-        "startIndex": 12875,
-        "endIndex": 12920,
+        "startIndex": 12930,
+        "endIndex": 12975,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12875,
-              "endIndex": 12920,
+              "startIndex": 12930,
+              "endIndex": 12975,
               "textRun": {
                 "content": "As I write this today, we are doing neither.\n",
                 "textStyle": {}
@@ -2542,7 +2590,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lt24tdhkYOOVVhLySCnwEvg-XoIWcyzdJCwXJoz3TFgxUmv0dVxlBV0xq4MS95yGNkD3-DDuO_cAA4eQg",
+  "revisionId": "ALBJ4Lvb0_nxh5pTzbqe3np4e6aWkh0_yv2j8Ba2u_xqza8MN0MghvspjbtukyoZCZyprr9RQ1WnTRrM3zQdGg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.6fhzlibap96g": {
@@ -2550,7 +2598,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkkUg44mbczN_JNGzUcfGn75PjJDh1cEj5QDWvRZouun9xbhW6iBdfxbOy7v1Ci8CcnvDTcg4hOWX-1UDsUCi8XZJVKT6lZ3Q6E8EmlIlRyVz7zh7-bgn8nduAFDzGFq581hL_xw?key=0w8WtW3JyTdK4RwJvzSL7acs",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdB5VbXKcW6AxY0s-iJ7yelYqIIMuwc4vnEzlAzdZMdJaxzM59Sh6BDtouAd4BuJC-dB06WyI5zspDE4QfLRiwYrbL4Zhv2nFRfnJ1OBoOfCJnUiigzxrdUYc3cGvHvwNgCSe523g?key=0w8WtW3JyTdK4RwJvzSL7acs",
             "cropProperties": {}
           },
           "embeddedObjectBorder": {

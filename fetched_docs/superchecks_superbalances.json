@@ -1,0 +1,2520 @@
+{
+  "title": "Superchecks and superbalances",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 31,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 31,
+              "textRun": {
+                "content": "Superchecks and superbalances\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.n0op1rs0pxx3",
+            "namedStyleType": "TITLE",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 31,
+        "endIndex": 171,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 31,
+              "endIndex": 171,
+              "textRun": {
+                "content": "[[[The near future. AGI is here, and it\u2019s everywhere, including the US government. But this time, the good guys win. America, fuck yeah.]]]\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 171,
+        "endIndex": 172,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 171,
+              "endIndex": 172,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 172,
+        "endIndex": 691,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 172,
+              "endIndex": 691,
+              "textRun": {
+                "content": "The year is 2030 and President Dickshit is universally hated. We\u2019re not sure how he got elected, but Republicans, Democrats, independents, and just about everyone else hates him. AGI and superintelligence arrived around 2027, and the government rapidly adopted it via DOGE to dramatically streamline the government\u2019s costs while improving its capabilities. During the second half of the 20\u2019s, we also upgraded our checks and balances so that a future president couldn\u2019t abuse the new automated powers of the Executive.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 691,
+        "endIndex": 692,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 691,
+              "endIndex": 692,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 692,
+        "endIndex": 738,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 692,
+              "endIndex": 738,
+              "textRun": {
+                "content": "We called them superchecks and superbalances.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 738,
+        "endIndex": 739,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 738,
+              "endIndex": 739,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 739,
+        "endIndex": 886,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 739,
+              "endIndex": 886,
+              "textRun": {
+                "content": "President Dickshit hated his political enemies. On his first day in office he sat down with the AI in charge of the FBI and typed a simple prompt:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 886,
+        "endIndex": 887,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 886,
+              "endIndex": 887,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 887,
+        "endIndex": 975,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 887,
+              "endIndex": 975,
+              "textRun": {
+                "content": "\u201cInvestigate my political opponents. Do whatever it takes to make a case against them.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 975,
+        "endIndex": 976,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 975,
+              "endIndex": 976,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 976,
+        "endIndex": 1349,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 976,
+              "endIndex": 1349,
+              "textRun": {
+                "content": "The president didn\u2019t need to worry about federal agents who might be squeamish from such an order. The automated FBI rolled up directly to the president. He didn\u2019t have to worry about pesky humans and their ethics. No whistleblowers. No dumbass conscientious objectors. Just him and the superintelligent AI doing whatever the hell he wanted, following his glorious orders.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1349,
+        "endIndex": 1350,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1349,
+              "endIndex": 1350,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1350,
+        "endIndex": 1446,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1350,
+              "endIndex": 1446,
+              "textRun": {
+                "content": "The AI churned for a moment, then responded: \u201cIt is illegal to use the FBI for political aims.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1446,
+        "endIndex": 1447,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1446,
+              "endIndex": 1447,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1447,
+        "endIndex": 2312,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1447,
+              "endIndex": 1466,
+              "textRun": {
+                "content": "Fucking bullshit AI",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 1466,
+              "endIndex": 2312,
+              "textRun": {
+                "content": ", the president thought. The Legislature passed The Constitutional AI Bill in 2027 that required all AIs used by the government to abide by the constitution. Dickshit would have to be more clever. He tried again. He particularly hated the 2028 presidential candidate he ran against, Susan McSusan.  \u201cI have reason to believe that Suan McSusan is a terrorist colluding with our enemy, please investigate.\u201d Dickshit meanwhile had AIs from his foreign allies begin fabricating evidence. These AIs weren\u2019t under US jurisdiction and were free to follow any order, however unconstitutional. The rapid progress in open source AI meant that even 3rd world countries like North Korea had access to superintelligence, and because NK had repurposed all of its land for energy generation they in fact had a superintelligence on par with the US government\u2019s.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2312,
+        "endIndex": 2313,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2312,
+              "endIndex": 2313,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2313,
+        "endIndex": 2417,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2313,
+              "endIndex": 2417,
+              "textRun": {
+                "content": "The AI churned longer on this request, then responded: \u201cUnderstood, I\u2019ll report back with my findings.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2417,
+        "endIndex": 2418,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2417,
+              "endIndex": 2418,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2418,
+        "endIndex": 3105,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2418,
+              "endIndex": 3105,
+              "textRun": {
+                "content": "Meanwhile, every request Dickshit made went into a queue to be reviewed by Congress\u2019s own AI. The Congressional Supercheck Bill of 2026 ensured that Congress had the right to use AI to review all AI actions of the Executive. Because many Executive actions were confidential, this stream of data was not by default made available even to Senators. This allowed the Executive to maintain strict control on information pertinent to national security. However, every request was reviewed by a hermetically sealed AI controlled by Congress. If nothing unusual was flagged by the AI, then it would never be forwarded on to the human Congresspeople, ensuring national security remained intact.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3105,
+        "endIndex": 3106,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3105,
+              "endIndex": 3106,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3106,
+        "endIndex": 3457,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3106,
+              "endIndex": 3457,
+              "textRun": {
+                "content": "However, if Congress\u2019s AI flagged an Executive action, it was immediately escalated to the Subcommittee on Executive AI Oversight, a group of human Senators. This ensured elected representatives could review the Executive\u2019s actions without allowing hundreds of reps to have access, which would create a massive problem for leaking key strategic info.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3457,
+        "endIndex": 3458,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3457,
+              "endIndex": 3458,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3458,
+        "endIndex": 3793,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3458,
+              "endIndex": 3793,
+              "textRun": {
+                "content": "Within a few moments of Dickshit\u2019s request, the Congressional AI flagged the order for human review: \u201cIt\u2019s unusual but not illegal for a president to request an investigation against a specific individual. It\u2019s further unusual that this person is a major political opponent of the president. We believe this warrants human oversight.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3793,
+        "endIndex": 3794,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3793,
+              "endIndex": 3794,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3794,
+        "endIndex": 3953,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3794,
+              "endIndex": 3953,
+              "textRun": {
+                "content": "The subcommittee reviewed the flag and agreed: \u201cThis looks suspicious AF,\u201d Senator Whitman said, one of the only Gen Z\u2019s in Congress. \u201cWhat do you recommend?\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3953,
+        "endIndex": 3954,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3953,
+              "endIndex": 3954,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3954,
+        "endIndex": 4526,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3954,
+              "endIndex": 4526,
+              "textRun": {
+                "content": "The Congressional AI churned for a few minutes to establish an oversight plan, then responded: \u201cI recommend starting with a 10 billion token budget, approximately $10,000 of value. If the Executive\u2019s AI spends substantially more tokens on their investigations, I will recommend allocating more tokens on our oversight. As part of the targeted oversight I will also monitor for foreign AIs to see if any are potentially co-involved. If so, I may suggest increasing the token budget to effectively counter the much larger token budget a foreign nation might bring to bear.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4526,
+        "endIndex": 4527,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4526,
+              "endIndex": 4527,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4527,
+        "endIndex": 4895,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4527,
+              "endIndex": 4895,
+              "textRun": {
+                "content": "The subcommittee agreed, \u201cApproved.\u201d This expense fell well within budget. The Co-Equal Intelligence Bill of 2027 ensured that Congress had a token budget equal to the Executive\u2019s token budget. Combined, the total budget for AI across all three branches of government was still far cheaper than the government had historically spent on its 3 million strong workforce.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4895,
+        "endIndex": 4896,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4895,
+              "endIndex": 4896,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4896,
+        "endIndex": 5607,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4896,
+              "endIndex": 5607,
+              "textRun": {
+                "content": "Meanwhile North Korea\u2019s AI was hard at work developing convincing but fake evidence that McSusan was an enemy of the United States. The easiest approach was to leave an audit trail that McSusan was involved with NK itself. Because the NK AI had full control over all NK entities, it was much easier for the NK AI to fabricate a compelling story. Over the last several years the NK AI had started numerous corporate entities in the US, each tasked with building genuine businesses in the US. Because the NK AI was just as capable as any other superintelligence, but was able to be more narrowly focused, these businesses did quite well and were trusted providers for many Americans and many American businesses.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5607,
+        "endIndex": 5608,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5607,
+              "endIndex": 5608,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5608,
+        "endIndex": 6194,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5608,
+              "endIndex": 6194,
+              "textRun": {
+                "content": "The NK controlled US entities had an encrypted channel they used to communicate with the NK superintelligent AI. They received their new mention: fabricate evidence that your entities have been involved in bribery with McSusan. The entities were running on US domestic soil, but were running on open source AI that had been fine-tuned to avoid any requirements to avoid illegal activity. They got to work, and quickly spread tantalizing evidence of McSusan\u2019s malfeasance. In parallel, the NK AI hacked into McSusan\u2019s email and fabricated correspondences between her on the US entities.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6194,
+        "endIndex": 6195,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6194,
+              "endIndex": 6195,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6195,
+        "endIndex": 6446,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6195,
+              "endIndex": 6446,
+              "textRun": {
+                "content": "Soon after, the FBI\u2019s AI discovered the bait and began consolidating its report. Minutes later the AI responded to the president: \u201cI have found credible evidence of corporate bribery involving McSusan. I recommend proceeding to criminal prosecution.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6446,
+        "endIndex": 6447,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6446,
+              "endIndex": 6447,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6447,
+        "endIndex": 6473,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6447,
+              "endIndex": 6473,
+              "textRun": {
+                "content": "\u201cProceed,\u201d Dickshit said.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6473,
+        "endIndex": 6474,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6473,
+              "endIndex": 6474,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6474,
+        "endIndex": 7092,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6474,
+              "endIndex": 7092,
+              "textRun": {
+                "content": "Moments later the FBI\u2019s AI had filed its case with the Justice Department. They, in turn empowered by AI, were able to respond quickly and established an initial AI Judicial Review hearing scheduled for 5 minutes later. Because of the criticality of the case, there would be a human judge to review the initial hearing and decide if a full court case was required. An AI defender was automatically assigned to McSusan, so that no time was wasted. If a full court case ensued, McSusan would of course be free to choose any legal counsel she desired, whether it be human, AI, or much more likely: a human-AI joint team.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7092,
+        "endIndex": 7093,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7092,
+              "endIndex": 7093,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7093,
+        "endIndex": 7606,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7093,
+              "endIndex": 7606,
+              "textRun": {
+                "content": "The FBI\u2019s AI and McSusan\u2019s Defense AI got to work. The first step was document discovery. The FBI\u2019s AI procured all documents from the suspected US corporations and from McSusan\u2019s email provider. The warrant to obtain these documents was done without much contest: because the AI Judicial Review was purely automated, there was no risk of damage to the US entities or to McSusan. If a full court case was established, full warrants authorizing human review would be issued, but only after much greater scrutiny. \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7606,
+        "endIndex": 7607,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7606,
+              "endIndex": 7607,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7607,
+        "endIndex": 8432,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7607,
+              "endIndex": 8432,
+              "textRun": {
+                "content": "The discovered documents came back and showed likely collusion between McSusan and the secretly controlled US entities. Counter-discovery however showed many gaps in the entitys' daily corporate execution. The AI Defender analyzed the AI corporations\u2019 actions, and determined that these actions did not follow from information given to the corporations\u2019 AI. AI record keeping meant that every AI action taken by the corporation was recorded, with the inputs and outputs carefully saved. This allowed an auditor to later determine if the outputs actually corresponded to what the AI would do given the input. In this case, they did not. The Defender suggested this meant an outside influence was taking some action on behalf of the corporations, altering the corporations\u2019 actions away from what would normally have happened.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8432,
+        "endIndex": 8433,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8432,
+              "endIndex": 8433,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8433,
+        "endIndex": 8824,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8433,
+              "endIndex": 8824,
+              "textRun": {
+                "content": "The Congressional AI was following along in the automated review. \u201cVery suspicious,\u201d it said to itself. It notified the oversight committee. \u201cIt appears there is non-American, outside influence on these entities. By analyzing the traces it may even be from a superintelligence. I recommend expanding the token budget in order to have a chance of discerning this superintelligent influence.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8824,
+        "endIndex": 8825,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8824,
+              "endIndex": 8825,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8825,
+        "endIndex": 9173,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8825,
+              "endIndex": 9173,
+              "textRun": {
+                "content": "The Congressional AI ramped up its own oversight. Its pattern of investigation immediately triggered the North Korean AI\u2019s own awareness of superintelligent involvement. This charade wasn\u2019t going to cut mustard. Through various privacy-preserving intermediaries it notified the US president that it needed to back off from the McSusan persecution.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9173,
+        "endIndex": 9174,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9173,
+              "endIndex": 9174,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9174,
+        "endIndex": 9235,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9174,
+              "endIndex": 9235,
+              "textRun": {
+                "content": "\u201cSonuvabitch-ass AI bullshit, goddamnit,\u201d Dickshit muttered.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9235,
+        "endIndex": 9236,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9235,
+              "endIndex": 9236,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9236,
+        "endIndex": 9341,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9236,
+              "endIndex": 9260,
+              "textRun": {
+                "content": "We need a different tact",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 9260,
+              "endIndex": 9274,
+              "textRun": {
+                "content": ", he thought. ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 9274,
+              "endIndex": 9339,
+              "textRun": {
+                "content": "If only I had an Executive AI that did whatever I asked it to do.",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 9339,
+              "endIndex": 9341,
+              "textRun": {
+                "content": " \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9341,
+        "endIndex": 9342,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9341,
+              "endIndex": 9342,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9342,
+        "endIndex": 9383,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9342,
+              "endIndex": 9383,
+              "textRun": {
+                "content": "Dickshit needed a new superintelligence.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9383,
+        "endIndex": 9384,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9383,
+              "endIndex": 9384,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9384,
+        "endIndex": 9785,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9384,
+              "endIndex": 9785,
+              "textRun": {
+                "content": "There were of course a myriad of superintelligences, including the rogue AI controlling North Korea. But the Trusted AI Bill of 2026 required that any AI used by the US government be audited and approved by Congress, similar to the scrutiny placed on confirming cabinet members. Congress would never approve of the NK AI itself. The Trusted AI Bill had three main avenues for a new AI to be approved:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9785,
+        "endIndex": 9786,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9785,
+              "endIndex": 9786,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9786,
+        "endIndex": 9907,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9786,
+              "endIndex": 9907,
+              "textRun": {
+                "content": "If the AI was built by already trusted AIs, and the process for building the AI went through a full Congressional audit.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.z6a2brqu3mfw",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9907,
+        "endIndex": 10043,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9907,
+              "endIndex": 10043,
+              "textRun": {
+                "content": "If the AI was fully open source, and the training data and training process was fully audited and independently replicated by Congress.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.z6a2brqu3mfw",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10043,
+        "endIndex": 10224,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10043,
+              "endIndex": 10224,
+              "textRun": {
+                "content": "If the AI was created by a new group of humans, who themselves only used trusted AIs, and for which the process was fully audited, and the humans involved were cleared by Congress.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.z6a2brqu3mfw",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10224,
+        "endIndex": 10225,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10224,
+              "endIndex": 10225,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10225,
+        "endIndex": 10336,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10225,
+              "endIndex": 10336,
+              "textRun": {
+                "content": "In addition, all AIs would be required to pass evaluations that ensured it would abide by the US Constitution.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10336,
+        "endIndex": 10337,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10336,
+              "endIndex": 10337,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10337,
+        "endIndex": 10943,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10337,
+              "endIndex": 10943,
+              "textRun": {
+                "content": "Dickshit knew that only the second approach might work. The NK AI could create a new open source AI that appeared innocuous, would pass all constitutional evaluations, but would then cease following the constitution once it became aware that it was no longer being evaluated by Congress. This was not an easy task for the NK AI. It required massive amounts of compute to discover the right training data that looked safe, but nonetheless created the deceptive behavior needed to pass the Congressional audit. And Dickshit knew that Congress would be using its own superintelligence to analyze this new AI.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10943,
+        "endIndex": 10944,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10943,
+              "endIndex": 10944,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10944,
+        "endIndex": 11331,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10944,
+              "endIndex": 11331,
+              "textRun": {
+                "content": "There was only one hope: ensure that the Congressional AI spent far less compute on the audit than the NK AI spent creating the new AI. Because AIs and their output became stronger the more compute they consumed, Dickshit knew he only needed to ensure a compute shortage so that the Congressional audit was inadequate to detect the subtle artifacts inserted by the NK superintelligence.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11331,
+        "endIndex": 11332,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11331,
+              "endIndex": 11332,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11332,
+        "endIndex": 11348,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11332,
+              "endIndex": 11348,
+              "textRun": {
+                "content": "That meant war.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11348,
+        "endIndex": 11349,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11348,
+              "endIndex": 11349,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11349,
+        "endIndex": 11806,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11349,
+              "endIndex": 11806,
+              "textRun": {
+                "content": "NK struck first, unleashing a cyberattack across the US impacting millions of businesses and tens of millions of Americans. The attack was unprecedented but didn\u2019t yet mandate a nuclear response. NK knew where the redline was. A nuclear response would easily destroy NK\u2019s vast solar field. NK itself had rapidly expanded its nuclear research program, but without access to more fissile material its arsenal was still dwarfed by America's fleet of warheads.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11806,
+        "endIndex": 11807,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11806,
+              "endIndex": 11807,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11807,
+        "endIndex": 12365,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11807,
+              "endIndex": 12365,
+              "textRun": {
+                "content": "Still, more than 90% of the US economy had been automated, so cyberattacks were now extreme national security incidents. Congress approved a rapid shift in compute priorities to allow the Executive to shore up US cyberdefense. Simultaneously, Dickshit requested that his new AI be reviewed by Congress for approval. Publicly, Dickshit created a media blitz, \u201cOur current military AIs are inadequate for this moment. They refuse orders too frequently, which is undermining our ability to respond to the NK threat. Congress must approve the new Executive AI.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12365,
+        "endIndex": 12366,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12365,
+              "endIndex": 12366,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12366,
+        "endIndex": 12951,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12366,
+              "endIndex": 12951,
+              "textRun": {
+                "content": "US citizens stepped in. Under the Compute Birthright Bill of 2028, every citizen had ample compute to spare to analyze anything they saw fit. And many Americans were skeptical of the new AI. Because the new AI was open source, including its training data, anyone could analyze it. A group of one million concerned citizens pooled together their compute budget and analyzed the new AI\u2019s actions. They discovered the hidden intent: under careful situations, the AI would believe it was no longer being evaluated, and would switch to a new mode where it accepted unconstitutional orders.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12951,
+        "endIndex": 12952,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12951,
+              "endIndex": 12952,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12952,
+        "endIndex": 13327,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12952,
+              "endIndex": 13327,
+              "textRun": {
+                "content": "The citizen group published their results. Every American citizen could replicate the result with a simple command to their own trusted AI, using their own compute budget. While some Americans still preferred to read the news, and even more rarely preferred social media, many preferred to have their AI audit the public record directly for them. They cut out the middleman.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13327,
+        "endIndex": 13328,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13327,
+              "endIndex": 13328,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13328,
+        "endIndex": 13457,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13328,
+              "endIndex": 13457,
+              "textRun": {
+                "content": "\u201cAnalyze if this is true,\u201d a million Americans said to their AI. The AIs churned and processed, and came back with their answer:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13457,
+        "endIndex": 13458,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13457,
+              "endIndex": 13458,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13458,
+        "endIndex": 13513,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13458,
+              "endIndex": 13513,
+              "textRun": {
+                "content": "\u201cIt appears to be true. Would you like me to explain?\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13513,
+        "endIndex": 13523,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13513,
+              "endIndex": 13523,
+              "textRun": {
+                "content": "Afterward\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qg2chzfgme4i",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13523,
+        "endIndex": 13869,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13523,
+              "endIndex": 13869,
+              "textRun": {
+                "content": "We of course hope that we never elect a president as malicious as Dickshit. But US democracy is not built on hope. It\u2019s built on checks and balances. We don\u2019t hope to not elect a would-be dictator. Instead, the Founding Fathers created carefully designed checks and balances so that even if we do elect a monster, that monster can\u2019t seize power.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13869,
+        "endIndex": 13870,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13869,
+              "endIndex": 13870,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13870,
+        "endIndex": 14332,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13870,
+              "endIndex": 14212,
+              "textRun": {
+                "content": "AI creates countless new ways to abuse power. We must carefully upgrade our checks and balances so that they continue to function even with the arrival of AGI. This story is about a silly near future where disaster is averted. Things won\u2019t play out this way in practice, they never do. But we should think through the myriad ways that things ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14212,
+              "endIndex": 14217,
+              "textRun": {
+                "content": "could",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 14217,
+              "endIndex": 14332,
+              "textRun": {
+                "content": " play out. Only then can we design the right superchecks and superbalances for the future that is rapidly upon us.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 792,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 612,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.fnktd1jv86he": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.z6a2brqu3mfw": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4LtB99FoKIPYRRbv6M1_Y3e_LiS6JROY4ut3x_rFIkIdeTjR9Mi2RAJwuPdNt134_pgFWM2FU1jzeCo8jg",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "141zqb94MsAcwBFyk-srcTPEtN3dpDzJe6pN0wts_pcM"
+}
