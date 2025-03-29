@@ -1,0 +1,213 @@
+% Pocket Book template for lulu.com printing
+% Based on pocket_book_reference templates and a5_booklet_template.tex
+
+\documentclass[twoside,11pt]{memoir}
+
+% LaTeX engine detection
+\usepackage{iftex}
+\ifxetex
+  % XeTeX-specific settings for better Unicode support
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+  \usepackage{xunicode}
+  \usepackage{xltxtra}
+\else
+  % pdfTeX settings
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}  % Latin Modern fonts - widely available
+  \usepackage{textcomp}  % Extended text companion symbols
+  \usepackage{upquote}   % Straight quotes in verbatim environments
+\fi
+
+% Special handling for apostrophes in text mode
+\DeclareTextCommandDefault{\textasciiacute}{\symbol{"B4}}
+
+% Pocket book dimensions - standard for lulu.com
+\setstocksize{17.5cm}{10.8cm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\setlrmarginsandblock{17.5mm}{12.5mm}{*}  % Left/right margins
+\setulmarginsandblock{15mm}{20mm}{*}      % Upper/lower margins
+\setheadfoot{15mm}{10mm}
+\setheaderspaces{*}{*}{*}
+\checkandfixthelayout
+
+% Core packages
+\usepackage{microtype}    % Better typography
+\usepackage{graphicx}     % Image handling
+\usepackage{xcolor}       % Color management
+\usepackage{enumitem}     % Better lists
+\usepackage{caption}      % Caption handling
+\usepackage{mdframed}     % Framed environments
+\usepackage{titlesec}     % Section title formatting
+\usepackage{soul}         % Underline and highlighting
+\usepackage{parskip}      % Better paragraph spacing
+
+% Configure hyperref for better internal references
+\usepackage[
+  linktocpage=true,
+  unicode=true,
+  bookmarks=true,
+  bookmarksnumbered=false,
+  bookmarksopen=false,
+  breaklinks=true,
+  pdfborder={0 0 1},
+  colorlinks=false,  % No colored links for print
+  hypertexnames=false,
+  pdfpagemode=FullScreen,
+  pdftitle={$title$},
+]{hyperref}
+
+% Page style setup
+\makepagestyle{pocketbook}
+\makeoddhead{pocketbook}{}{}{}
+\makeevenhead{pocketbook}{}{}{}
+\newcommand{\myfooter}{\thepage}
+\makeevenfoot{pocketbook}{}{\myfooter}{}
+\makeoddfoot{pocketbook}{}{\myfooter}{}
+\pagestyle{pocketbook}
+
+% Plain page style modification
+\makeevenfoot{plain}{}{\myfooter}{}
+\makeoddfoot{plain}{}{\myfooter}{}
+
+% Chapter style
+\copypagestyle{chapter}{plain}
+\makeevenfoot{chapter}{}{\myfooter}{}
+\makeoddfoot{chapter}{}{\myfooter}{}
+
+% Part style
+\copypagestyle{part}{plain}
+\makeevenfoot{part}{}{}{}
+\makeoddfoot{part}{}{}{}
+
+% Chapter style customization (Tufte style)
+\makechapterstyle{Tufte}{
+  \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
+  \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
+  \renewcommand{\printchapternum}{\LARGE\thechapter \\}
+  \renewcommand{\afterchapternum}{}
+  \renewcommand{\printchaptertitle}[1]{
+    \raggedright
+    \itshape\Huge{##1}}
+  \renewcommand{\afterchaptertitle}{
+    \vskip3.5\onelineskip
+  }
+}
+\chapterstyle{Tufte}
+
+% Section heading styles
+\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large}
+\setbeforesecskip{-.9\onelineskip}
+\setaftersecskip{\onelineskip}
+
+\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\large}
+\setbeforesubsecskip{\onelineskip}
+\setaftersubsecskip{.65\onelineskip}
+
+\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape}
+\setbeforesubsubsecskip{-.5\onelineskip}
+\setaftersubsubsecskip{.1\onelineskip}
+
+% Part style
+\renewcommand{\partnamefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\partnumfont}{\sffamily\Huge}
+\renewcommand{\parttitlefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\beforepartskip}{\vspace*{\stretch{3}}}
+\renewcommand{\afterpartskip}{%
+  \vspace*{\stretch{4}}
+  \newpage%
+}
+
+% Customize TOC
+\setlength{\cftbeforepartskip}{3ex}
+\setlength{\cftbeforechapterskip}{1.2ex}
+\setlength{\cftbeforesectionskip}{0.2ex}
+
+\cftsetindents{part}{0em}{1.8em}
+\cftsetindents{chapter}{0em}{1.8em}
+\cftsetindents{section}{1.8em}{2.2em}
+
+% Paragraph styling
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{2ex}
+\midsloppy
+\raggedbottom
+
+% Define colors
+\definecolor{quotecolor}{rgb}{0.4,0.4,0.4}
+\definecolor{quotebackground}{rgb}{0.97,0.97,0.97}
+\definecolor{quoteborder}{rgb}{0.85,0.85,0.85}
+\definecolor{links}{rgb}{0.0,0.0,0.0} % Black links for print
+
+% Custom quote environment
+\newenvironment{fancyquote}{%
+  \begin{mdframed}[
+    linecolor=quoteborder,
+    backgroundcolor=quotebackground,
+    linewidth=1pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    innerleftmargin=10pt,
+    innerrightmargin=10pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    roundcorner=5pt
+  ]
+  \color{quotecolor}
+  \itshape
+}{%
+  \end{mdframed}
+}
+
+% Caption styling
+\captiontitlefont{\itshape}
+\captionnamefont{}
+\newcommand{\likecaption}{\color{black}\itshape}
+\setlength{\abovecaptionskip}{3ex}
+\captionsetup{labelformat=empty}
+
+% Line spacing - using a simple linespread
+\linespread{1.15}
+
+% Spacing and list configurations
+\setlist[itemize]{leftmargin=0pt,itemindent=1em,itemsep=2ex}
+\setlist{nosep}
+
+% Title configuration
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\frontmatter
+
+% Custom title page with left-justified multi-line title
+\thispagestyle{empty}
+\begin{flushleft}
+\vspace*{5cm}
+{\huge\bfseries Liberty by Design}\\[0.6cm]
+{\Large\bfseries The Tiny Book}\\[0.3cm]
+{\Large\bfseries on the}\\[0.3cm]
+{\Large\bfseries Governance of Human-Machine Society}\\[1.5cm]
+{\large Jordan Ezra Fisher}\\[0.3cm]
+\vfill
+{\small \today}
+\end{flushleft}
+
+% Description block for main document
+\begin{center}
+\vspace*{7cm}
+\begin{fancyquote}
+$main_description$
+\end{fancyquote}
+\vspace*{0.5cm}
+\end{center}
+
+\mainmatter
+\setcounter{page}{1}
+
+$content$
+
+\end{document}
