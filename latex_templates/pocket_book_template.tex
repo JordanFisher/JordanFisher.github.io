@@ -135,24 +135,26 @@
 \raggedbottom
 
 % Define colors
-\definecolor{quotecolor}{rgb}{0.4,0.4,0.4}
-\definecolor{quotebackground}{rgb}{0.97,0.97,0.97}
-\definecolor{quoteborder}{rgb}{0.85,0.85,0.85}
+\definecolor{quotecolor}{rgb}{0.25,0.25,0.25}
+\definecolor{quoteborder}{rgb}{0.6,0.6,0.6}
 \definecolor{links}{rgb}{0.0,0.0,0.0} % Black links for print
 
-% Custom quote environment
+% Custom quote environment - simplified with just a left border
 \newenvironment{fancyquote}{%
   \begin{mdframed}[
+    topline=false,
+    rightline=false,
+    bottomline=false,
+    leftline=true,
     linecolor=quoteborder,
-    backgroundcolor=quotebackground,
-    linewidth=1pt,
+    linewidth=1.5pt,
     leftmargin=0pt,
     rightmargin=0pt,
-    innerleftmargin=10pt,
-    innerrightmargin=10pt,
-    innertopmargin=10pt,
-    innerbottommargin=10pt,
-    roundcorner=5pt
+    innerleftmargin=12pt,
+    innerrightmargin=0pt,
+    innertopmargin=6pt,
+    innerbottommargin=6pt,
+    backgroundcolor=white
   ]
   \color{quotecolor}
   \itshape
