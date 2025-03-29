@@ -191,17 +191,17 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         # title = "Tiny Book on Governance of Machine Intelligence"
         title = "Liberty by Design"
     else:
-        title = title_element.get_text().strip()
+        # Process the title element to preserve formatting
+        title = process_inline_elements(title_element)
     
-    # Escape LaTeX special characters in title
-    title = escape_latex(title)
+    # No need to escape LaTeX special characters as process_inline_elements already did that
     
     # Get description if available
     description = None
     description_block = story_div.find('div', class_='description-block')
     if description_block:
-        description = ' '.join([p.get_text().strip() for p in description_block.find_all('p')])
-        description = escape_latex(description)
+        # Process each paragraph with formatting and join them
+        description = ' '.join([process_inline_elements(p, story_div=story_div) for p in description_block.find_all('p')])
     
     # Process all elements in the HTML body
     latex_content = ""
@@ -224,35 +224,35 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
             # Only add page break if it's a title header (new document being inlined)
             if 'title-header' in element.get('class', []):
                 # Add spacing after page break before the title header
-                header_text = escape_latex(element.get_text().strip())
+                # Process the header with formatting (bold, italic, strikethrough)
+                header_text = process_inline_elements(element, story_div=story_div)
                 latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
                 if next_elem and next_elem.name == 'div' and 'description-block' in next_elem.get('class', []):
-                    desc_text = ' '.join([p.get_text().strip() for p in next_elem.find_all('p')])
-                    desc_text = escape_latex(desc_text)
+                    desc_text = ' '.join([process_inline_elements(p, story_div=story_div) for p in next_elem.find_all('p')])
                     latex_content += f"""\\begin{{fancyquote}}
 {desc_text}
 \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
                     # Skip this description block when we encounter it in the normal loop
                     next_elem['processed'] = True
             else:
-                header_text = escape_latex(element.get_text().strip())
+                header_text = process_inline_elements(element, story_div=story_div)
                 latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
         elif element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\label{{{element_id}}}" if element_id else ""
             
-            header_text = escape_latex(element.get_text().strip())
+            header_text = process_inline_elements(element, story_div=story_div)
             latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\label{{{element_id}}}" if element_id else ""
             
-            header_text = escape_latex(element.get_text().strip())
+            header_text = process_inline_elements(element, story_div=story_div)
             latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
         elif element.name == 'p':
             # Check if this paragraph contains an image container
@@ -389,21 +389,21 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                         label_markup = f"\\label{{{element_id}}}" if element_id else ""
                         
                         # Handle h1 elements (similar to above, but simplified)
-                        header_text = escape_latex(child.get_text().strip())
+                        header_text = process_inline_elements(child, story_div=story_div)
                         latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
                     elif child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\label{{{element_id}}}" if element_id else ""
                         
-                        header_text = escape_latex(child.get_text().strip())
+                        header_text = process_inline_elements(child, story_div=story_div)
                         latex_content += f"\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\label{{{element_id}}}" if element_id else ""
                         
-                        header_text = escape_latex(child.get_text().strip())
+                        header_text = process_inline_elements(child, story_div=story_div)
                         latex_content += f"\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
                     elif child.name == 'p':
                         para_content = process_inline_elements(child, story_div=story_div)
@@ -484,7 +484,7 @@ def process_inline_elements(element, in_quote=False, story_div=None) -> str:
             else:
                 result += f"\\textit{{{escape_latex(content.get_text())}}}"
         elif content.name == 's':
-            result += f"\\st{{{escape_latex(content.get_text())}}}"
+            result += f"\\sout{{{escape_latex(content.get_text())}}}"
         elif content.name == 'u':
             result += f"\\underline{{{escape_latex(content.get_text())}}}"
         elif content.name == 'a':
