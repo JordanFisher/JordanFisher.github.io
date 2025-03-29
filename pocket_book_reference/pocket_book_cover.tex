@@ -1,0 +1,93 @@
+%% -*- mode: latex; mode: reftex; mode: flyspell; coding: utf-8; tex-command: "pdflatex.sh" -*-
+
+\documentclass[11pt]{article}
+\usepackage[paperheight=180.98mm,paperwidth=231.29mm,top=0.0cm,bottom=0.0cm,left=0.0cm,right=0.0cm]{geometry}
+\usepackage[utf8]{inputenc}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[osf]{libertine}
+%\usepackage{microtype}
+\usepackage{tikz}
+
+\let\ordinal\relax
+\usepackage[us]{datetime}
+\newdateformat{dotdate}{\THEYEAR.\twodigit{\THEMONTH}.\twodigit{\THEDAY}}
+
+\def\construct{none}
+%% \def\construct{red}
+
+\begin{document}
+
+\center
+
+\vspace*{\stretch{1}}
+
+\begin{tikzpicture}
+
+\pgfmathsetlengthmacro{\width}{224.2mm}
+\pgfmathsetlengthmacro{\height}{0.95\textheight}
+%\pgfmathsetlengthmacro{\spinewidth}{8.74mm}
+\pgfmathsetlengthmacro{\spinewidth}{10.74mm} % add 1mm for the fold
+
+\pgfmathsetlengthmacro\x{(\width-\spinewidth)/2}
+\pgfmathsetlengthmacro\mx{\width/2}
+\pgfmathsetlengthmacro\sidewidthx{(\width-\spinewidth)/2}
+\pgfmathsetlengthmacro\mxl{(\width-\spinewidth)/4}
+\pgfmathsetlengthmacro\mxr{\width/2 + \spinewidth/2 + (\width-\spinewidth)/4}
+\pgfmathsetlengthmacro\my{\height/2}
+
+\draw[draw=\construct] (0,0) rectangle ++(\width,\height);
+\draw[draw=\construct] (\x,0) rectangle ++(\spinewidth,\height);
+
+\node[rotate=-90] (spine)
+% at (\mx,\my)% proto 2023.06.10
+ at (\mx-1mm,\my)
+     {\large The Little Book of Things \hspace*{3cm} Bob Jones};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node (cover front) at (\mxr,\my){
+%
+  \begin{minipage}{80mm}
+    \begin{center}
+
+      \vspace*{18ex}
+
+      {\huge The Little Book\\[0.75ex] of\\[1.75ex] Things}
+
+      \vspace*{8ex}
+
+      {\Large Bob Jones}
+
+      \vspace*{12ex}
+
+%%       \includegraphics[width=0.8\textwidth] {pics/neocognitron.png}\hspace*{3mm}
+
+      \vspace*{18ex}
+
+    \end{center}
+  \end{minipage}
+};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node (cover back)
+% at (\mxl,\my) % proto 2023.06.10
+at (\mxl-2mm,\my)
+{
+
+  \begin{minipage}{80mm}
+This book is a short introduction to things for readers with a
+STEM background. It aims at providing the necessary background to
+understand landmark things.
+  \end{minipage}
+};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{tikzpicture}
+
+\vspace*{\stretch{1}}
+
+\end{document}
