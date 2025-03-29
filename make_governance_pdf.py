@@ -13,6 +13,7 @@ class LatexDocument:
     title: str
     content: str
     description: Optional[str] = None
+    include_images: bool = False
     
     def to_latex(self) -> str:
         """Generate a complete LaTeX document string using template file."""
@@ -162,7 +163,7 @@ class LatexDocument:
         return latex
 
 
-def html_to_latex(html_path: str) -> LatexDocument:
+def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument:
     """Convert HTML file to LaTeX document."""
     
     with open(html_path, 'r') as f:
@@ -259,7 +260,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
             if img_container:
                 # Extract the image container and process it separately
                 img = img_container.find('img')
-                if img and img.get('src'):
+                if img and img.get('src') and include_images:
                     img_path = img.get('src')
                     
                     # If it's a relative path, make it absolute
@@ -289,6 +290,10 @@ def html_to_latex(html_path: str) -> LatexDocument:
 \\clearpage
 
 """
+                # Skip images entirely when images are disabled
+                elif img and not include_images:
+                    # Don't add anything - images and captions are skipped
+                    pass
 # Skipping this for now. We don't want <em> blocks to become fancyquotes.
 #             # Check if this is a quote block (typically italicized paragraphs)
 #             elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
@@ -324,7 +329,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
         elif element.name == 'div' and 'image-container' in element.get('class', []):
             # Process image container for PDF
             img = element.find('img')
-            if img and img.get('src'):
+            if img and img.get('src') and include_images:
                 img_path = img.get('src')
                 print(f"Found image in HTML: {img_path}")
                 
@@ -365,6 +370,10 @@ def html_to_latex(html_path: str) -> LatexDocument:
 
 """
                 print(f"Added image to LaTeX content with path: {img_path}")
+            # Skip images entirely when images are disabled
+            elif img and not include_images:
+                # Don't add anything - images and captions are skipped
+                pass
         elif element.name == 'div':
             # Skip description blocks that were already processed with their associated title
             if 'description-block' in element.get('class', []) and element.get('processed'):
@@ -404,7 +413,7 @@ def html_to_latex(html_path: str) -> LatexDocument:
                     elif child.name == 'ol':
                         latex_content += process_list(child, 'enumerate', story_div)
     
-    return LatexDocument(title=title, content=latex_content, description=description)
+    return LatexDocument(title=title, content=latex_content, description=description, include_images=include_images)
 
 def process_list(list_element, list_type, story_div=None):
     """Process a list element (ul or ol) and any nested lists recursively."""
@@ -785,6 +794,8 @@ def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
                         help='Output PDF file path')
+    parser.add_argument('--include-images', action='store_true',
+                        help='Include images in the PDF (default: false)')
     args = parser.parse_args()
     
     # Ensure LaTeX templates directory exists
@@ -799,7 +810,7 @@ def main():
     
     # Convert HTML to LaTeX
     print(f"Converting {html_path} to LaTeX...")
-    latex_doc = html_to_latex(html_path)
+    latex_doc = html_to_latex(html_path, include_images=args.include_images)
     
     # Generate the LaTeX content
     latex_content = latex_doc.to_latex()
