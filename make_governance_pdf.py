@@ -16,7 +16,7 @@ class LatexDocument:
     
     def to_latex(self) -> str:
         """Generate a complete LaTeX document string using template file."""
-        template_path = os.path.join(os.path.dirname(__file__), "latex_templates", "a5_booklet_template.tex")
+        template_path = os.path.join(os.path.dirname(__file__), "latex_templates", "pocket_book_template.tex")
         
         try:
             with open(template_path, "r") as f:
