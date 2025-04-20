@@ -273,7 +273,7 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         if element.name is None:  # Skip text nodes
             continue
             
-        if element.name == 'h1':
+        if element.name == 'h1' or element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\label{{{element_id}}}" if element_id else ""
@@ -339,14 +339,14 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
 """
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
+                    latex_content += f"\\vspace{{1.1cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\label{{{element_id}}}" if element_id else ""
             
             header_text = process_inline_elements(element, story_div=story_div)
-            latex_content += f"\\needspace{{3\\baselineskip}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+            latex_content += f"\\needspace{{3\\baselineskip}}\\vspace{{0.1cm}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
             # Get the ID for label if available
             element_id = element.get('id', '')
@@ -529,21 +529,21 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
             for child in element.children:
                 if child.name:  # Skip text nodes
                     # Recursively process the child as if it were a direct child of story_div
-                    if child.name == 'h1':
+                    if child.name == 'h1' or child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\label{{{element_id}}}" if element_id else ""
                         
                         # Handle h1 elements (similar to above, but simplified)
                         header_text = process_inline_elements(child, story_div=story_div)
-                        latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
+                        latex_content += f"\\vspace{{1.1cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\label{{{element_id}}}" if element_id else ""
                         
                         header_text = process_inline_elements(child, story_div=story_div)
-                        latex_content += f"\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+                        latex_content += f"\\vspace{{0.1cm}}\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
