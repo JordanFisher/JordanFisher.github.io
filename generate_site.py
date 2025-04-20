@@ -177,6 +177,12 @@ def main():
     else:
         # Create images directory if it didn't exist
         os.makedirs(posts_images_dir)
+        
+    # Copy the header image to the posts directory
+    header_image_path = os.path.join(os.getcwd(), 'liberty_by_design_header.png')
+    if os.path.exists(header_image_path):
+        print(f"Copying header image to posts directory")
+        shutil.copy2(header_image_path, os.path.join('posts', 'liberty_by_design_header.png'))
 
     # Process each document
     documents = {}
