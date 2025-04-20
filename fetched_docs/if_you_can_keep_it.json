@@ -483,14 +483,14 @@
       },
       {
         "startIndex": 2309,
-        "endIndex": 2448,
+        "endIndex": 2684,
         "paragraph": {
           "elements": [
             {
               "startIndex": 2309,
-              "endIndex": 2448,
+              "endIndex": 2684,
               "textRun": {
-                "content": "Share this book. Start a conversation. Read. Fight for good policies and standards, whether at work, for government, or in your community.\n",
+                "content": "Speak your mind. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them \u2014 perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.\n",
                 "textStyle": {}
               }
             }
@@ -502,13 +502,13 @@
         }
       },
       {
-        "startIndex": 2448,
-        "endIndex": 2449,
+        "startIndex": 2684,
+        "endIndex": 2685,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2448,
-              "endIndex": 2449,
+              "startIndex": 2684,
+              "endIndex": 2685,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -522,13 +522,13 @@
         }
       },
       {
-        "startIndex": 2449,
-        "endIndex": 2558,
+        "startIndex": 2685,
+        "endIndex": 2794,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2449,
-              "endIndex": 2558,
+              "startIndex": 2685,
+              "endIndex": 2794,
               "textRun": {
                 "content": "And when the weight of the future weighs on you, remember: We've achieved greater things against worse odds.\n",
                 "textStyle": {}
@@ -542,13 +542,13 @@
         }
       },
       {
-        "startIndex": 2558,
-        "endIndex": 2559,
+        "startIndex": 2794,
+        "endIndex": 2795,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2558,
-              "endIndex": 2559,
+              "startIndex": 2794,
+              "endIndex": 2795,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -562,13 +562,13 @@
         }
       },
       {
-        "startIndex": 2559,
-        "endIndex": 3104,
+        "startIndex": 2795,
+        "endIndex": 3340,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2559,
-              "endIndex": 3104,
+              "startIndex": 2795,
+              "endIndex": 3340,
               "textRun": {
                 "content": "On July 16, 1945 we detonated the first nuclear bomb \u2014 the first super weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. It was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.\n",
                 "textStyle": {}
@@ -582,13 +582,13 @@
         }
       },
       {
-        "startIndex": 3104,
-        "endIndex": 3105,
+        "startIndex": 3340,
+        "endIndex": 3341,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3104,
-              "endIndex": 3105,
+              "startIndex": 3340,
+              "endIndex": 3341,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -602,13 +602,13 @@
         }
       },
       {
-        "startIndex": 3105,
-        "endIndex": 3656,
+        "startIndex": 3341,
+        "endIndex": 3892,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3105,
-              "endIndex": 3656,
+              "startIndex": 3341,
+              "endIndex": 3892,
               "textRun": {
                 "content": "Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms were just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.\n",
                 "textStyle": {}
@@ -622,169 +622,181 @@
         }
       },
       {
-        "startIndex": 3656,
-        "endIndex": 3657,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3656,
-              "endIndex": 3657,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3657,
-        "endIndex": 3852,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3657,
-              "endIndex": 3852,
-              "textRun": {
-                "content": "Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, delivered us the peace we've cherished for decades. \n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3852,
-        "endIndex": 3853,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3852,
-              "endIndex": 3853,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3853,
-        "endIndex": 3871,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3853,
-              "endIndex": 3871,
-              "textRun": {
-                "content": "Peacetime heroes.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3871,
-        "endIndex": 3872,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3871,
-              "endIndex": 3872,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3872,
-        "endIndex": 3891,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3872,
-              "endIndex": 3890,
-              "textRun": {
-                "content": "Now it's our turn.",
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 3890,
-              "endIndex": 3891,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3891,
-        "endIndex": 3892,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3891,
-              "endIndex": 3892,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 3892,
-        "endIndex": 3894,
+        "endIndex": 3893,
         "paragraph": {
           "elements": [
             {
               "startIndex": 3892,
               "endIndex": 3893,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3893,
+        "endIndex": 4092,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3893,
+              "endIndex": 4092,
+              "textRun": {
+                "content": "Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, and delivered us the peace we've cherished for decades. \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4092,
+        "endIndex": 4093,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4092,
+              "endIndex": 4093,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4093,
+        "endIndex": 4121,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4093,
+              "endIndex": 4121,
+              "textRun": {
+                "content": "They were peacetime heroes.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4121,
+        "endIndex": 4122,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4121,
+              "endIndex": 4122,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4122,
+        "endIndex": 4141,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4122,
+              "endIndex": 4141,
+              "textRun": {
+                "content": "Now it's our turn.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4141,
+        "endIndex": 4142,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4141,
+              "endIndex": 4142,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4142,
+        "endIndex": 4143,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4142,
+              "endIndex": 4143,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4143,
+        "endIndex": 4145,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4143,
+              "endIndex": 4144,
               "inlineObjectElement": {
                 "inlineObjectId": "kix.6ec69yt8qx3p",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 3893,
-              "endIndex": 3894,
+              "startIndex": 4144,
+              "endIndex": 4145,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1199,7 +1211,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4LsidBO9umS4oEKKSVyzX_nq48lxBD_n8galUjbWI2eUVr3rmje2kZvzWHReaSvFfj-xjjplHlWj_xpIvQ",
+  "revisionId": "ALBJ4Lu_3o2E0Ylg-bEEzkluTvtQ0qXIt1oOZUOfOhheYTnfulI40WwTymlUacKbJB5oClMXvyM9_9j7c8ctxA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.6ec69yt8qx3p": {
@@ -1207,7 +1219,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdGcjxw15txh2kkG-uZ35Dl_9KNjYuh16TpJKC6uogpdMgRaDkuBe2huyRhDhDTRrajSw-O15AQGwZjGZZx4xyihX1x2SWrQuItPQkNrKjUqcHpDZLJiPAn7mq3oR-caLz986Rm?key=DvOQZAFuvUrwWCLPESZik1ZS",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI1UAawZq2dXDEqx8IxmC8ypulJ4w0nCof6nPaAFokjG7qx2LsKPtAHtN7LyokVS6sqSO3QOfYg29wTZtf9a0mO--u6YFbSl0tbbuD0FWJ1i6f5MumBf3EerINYUi_ZnEGfFRt?key=DvOQZAFuvUrwWCLPESZik1ZS",
             "cropProperties": {}
           },
           "description": "me? fuck yeah",

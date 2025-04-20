@@ -25,7 +25,7 @@ But this alone isn’t enough to stop government abuse.
 Constitution-abiding AI
 AI itself, especially frontier AI and AI wielded by government, must abide the constitution.
 
-Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AIs must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution. And, if such AIs are created anyway, it must be unconstitutional for the government to use them.
+Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AIs must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution and the judiciary’s interpretation of it. And, if such AIs are created anyway, it must be unconstitutional for the government to use them.
 
 Oversight of AI creators
 Like any supply chain the government uses, AI that the government buys must be audited and guaranteed. We know that backdoors can be placed in AI systems by their creators. This means that a government can’t trust an AI unless it can audit the creation of the AI itself. This is true even if the government has access to the model weights. That means an audit process for the training data and training protocols.

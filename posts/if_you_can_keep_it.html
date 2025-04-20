@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>An exponential, if you can keep it</title>
+    <!-- Google Fonts -->
     <style>
+        /* Playfair Display font */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        /* Montserrat font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+        
         /* Define a variable for the font size */
         :root {
             --font-size: 1.25rem;
@@ -17,11 +23,15 @@
         }
 
         body {
-            font-family: 'Georgia', serif;
+            /* font-family: 'Georgia', serif; */
+            font-family: 'Montserrat', sans-serif !important;
             line-height: 1.6;
             color: #1a1a1a;
             background-color: #ffffff;
-            padding: 1rem;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+            width: 100%;
+            max-width: 100vw;
         }
         
         a {
@@ -33,6 +43,127 @@
         
         a:hover {
             border-bottom-color: #0066cc;
+        }
+        
+        .header-container {
+            position: relative;
+            width: 100%;
+            overflow: visible; /* Allow text to extend outside */
+            margin-bottom: 3rem; /* Add more space below */
+            max-width: 100%;
+        }
+
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .header-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%; /* Adjust height as needed */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(26 26 26));
+            pointer-events: none; /* Allow clicks to pass through */
+            overflow: hidden;
+        }
+        
+        .header-overlay {
+            position: absolute;
+            bottom: 0px; /* Position at the bottom of the image */
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+            z-index: 10; /* Ensure text is above gradient */
+            transform: translateY(0%); /* Move 25% of the text height down */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .header-overlay:hover {
+            transform: translateY(0%) scale(1.01); /* Reduced scale to avoid overflow */
+        }
+
+        .header-title {
+            font-family: 'Playfair Display', serif !important;
+            font-size: 4rem;
+            font-weight: 500;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            transition: text-shadow 0.3s ease;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        
+        .header-overlay:hover .header-title {
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
+
+        .header-subtitle {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            margin-bottom: 1.5rem;
+            transition: text-shadow 0.3s ease;
+        }
+        
+        .header-overlay:hover .header-subtitle {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .chevron-down {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            position: relative;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+            animation: bounce 2s infinite;
+            margin-top: 10px;
+        }
+        
+        .chevron-down:after {
+            content: '';
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 12px;
+            height: 12px;
+            border-right: 2px solid white;
+            border-bottom: 2px solid white;
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: transform 0.3s ease;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .header-overlay:hover .chevron-down {
+            animation-play-state: paused;
+            transform: translateY(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         }
 
         .container {
@@ -53,6 +184,15 @@
             margin-top: 6.85rem;
             margin-bottom: 2rem;
             line-height: 1.2;
+            font-style: italic;
+        }
+
+        h1 {
+            font-style: italic;
+        }
+
+        h2 {
+            font-style: italic;
         }
         
         .chapter-number {
@@ -95,8 +235,8 @@
         
         @media (prefers-color-scheme: dark) {
             .description-block {
-                background-color: #2a2a2a;
                 border-left-color: #555;
+                background-color: #1a1a1a;
             }
         }
         
@@ -183,10 +323,91 @@
             padding: 0.5rem 0;
             display: inline-block;
         }
+        
+        /* Table of contents styling */
+        .table-of-contents {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        .table-of-contents h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        
+        .table-of-contents ul {
+            margin-left: 1rem;
+            margin-bottom: 0;
+        }
+        
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .table-of-contents {
+                background-color: #2a2a2a;
+                border-color: #444;
+            }
+        }
 
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .header-image {
+                width: 207%;
+                margin-left: -38%;
+            }
+
+            .header-title {
+                font-size: 4rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .header-overlay {
+                transform: translateY(40%); /* Less overlap on mobile */
+                padding: 1.5rem;
+            }
+            
+            .header-overlay:hover {
+                transform: translateY(40%); /* Maintain position on hover */
+            }
+            
+            .header-gradient {
+                height: 65%; /* Taller gradient on mobile */
+            }
+            
+            .chevron-down {
+                display: none; /* Hide chevron on mobile */
+            }
+        }
+        
+        /* Small mobile screens */
+        @media (max-width: 380px) {
+            .header-title {
+                font-size: 1.8rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1rem;
+            }
+            
+            .header-overlay {
+                padding: 1rem;
+            }
+        }
+        
         @media (max-width: 600px) {
             body {
-                padding: 0.5rem;
+                padding: 0;
             }
 
             .container {
@@ -220,13 +441,14 @@
 <p>When we’re afraid, when we’re up against impossible odds, what we control is who we are. What we stand for.</p>
 <p>Stand for the good.</p>
 <p>You’re part of this now. The future depends on your voice — use it.</p>
-<p>Share this book. Start a conversation. Read. Fight for good policies and standards, whether at work, for government, or in your community.</p>
+<p>Speak your mind. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them — perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.</p>
 <p>And when the weight of the future weighs on you, remember: We've achieved greater things against worse odds.</p>
 <p>On July 16, 1945 we detonated the first nuclear bomb — the first super weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. It was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.</p>
 <p>Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms were just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.</p>
-<p>Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, delivered us the peace we've cherished for decades. </p>
-<p>Peacetime heroes.</p>
+<p>Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, and delivered us the peace we've cherished for decades. </p>
+<p>They were peacetime heroes.</p>
 <p>Now it's our turn.</p>
+<br/>
 <p><div class="image-container"><img alt="me? fuck yeah" class="doc-image" src="images/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI_None.png"/><figcaption class="image-caption">me? fuck yeah</figcaption></div></p>
 
         </div>
