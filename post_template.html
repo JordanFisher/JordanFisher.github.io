@@ -49,7 +49,6 @@
             position: relative;
             width: 100%;
             overflow: visible; /* Allow text to extend outside */
-            overflow-x: hidden; /* But prevent horizontal overflow */
             margin-bottom: 3rem; /* Add more space below */
             max-width: 100%;
         }
@@ -428,13 +427,15 @@
     </style>
 </head>
 <body>
-    <div class="header-container">
-        <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
-        <div class="header-gradient"></div>
-        <div class="header-overlay" id="header-clickable">
-            <h1 class="header-title">Liberty by Design</h1>
-            <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
-            <div class="chevron-down"></div>
+    <div style="overflow-x: hidden; width: 100%;">
+        <div class="header-container">
+            <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
+            <div class="header-gradient"></div>
+            <div class="header-overlay" id="header-clickable">
+                <h1 class="header-title">Liberty by Design</h1>
+                <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
+                <div class="chevron-down"></div>
+            </div>
         </div>
     </div>
     <script>
