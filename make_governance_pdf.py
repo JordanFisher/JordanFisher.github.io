@@ -237,7 +237,14 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_tag.extract()
                     
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{\\textit{{{chapter_number}}} {header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
+                    latex_content += f"""\\clearpage
+\\vspace*{{1.5cm}}
+{{\\small\\textit{{{chapter_number}}}}}
+
+\\section*{{{header_text}}}{label_markup}
+\\vspace{{0.7cm}}
+
+"""
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
                     latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
@@ -262,7 +269,12 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_tag.extract()
                     
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\section*{{\\textit{{{chapter_number}}} {header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
+                    latex_content += f"""{{\\small\\textit{{{chapter_number}}}}}
+
+\\section*{{{header_text}}}{label_markup}
+\\vspace{{0.5cm}}
+
+"""
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
                     latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
