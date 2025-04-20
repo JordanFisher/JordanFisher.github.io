@@ -581,7 +581,7 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
     chapter_counter = 0
     
     # First pass: Find and replace links in headers
-    for heading in soup.find_all(['h1', 'h2', 'h3']):
+    for heading in soup.find_all(['h1']):
         links = heading.find_all('a')
         for link in links:
             href = link.get('href')
@@ -715,8 +715,8 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
             toc_html = '<div class="table-of-contents">\n<h2>Table of Contents</h2>\n<ul>\n'
             
             # Find all h1 elements with chapter numbers
-            chapter_headings = soup.find_all('h1', class_='title-header')
-            for heading in chapter_headings:
+            chapter_headings = []
+            for heading in soup.find_all('h1', class_='title-header'):
                 chapter_span = heading.find('span', class_='chapter-number')
                 if chapter_span:
                     chapter_num = chapter_span.get_text().strip()
@@ -725,7 +725,11 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     # Get the ID for linking
                     heading_id = heading.get('id', '')
                     if heading_id:
-                        toc_html += f'<li><a href="#{heading_id}">{chapter_num} {heading_text}</a></li>\n'
+                        chapter_headings.append((chapter_num, heading_text, heading_id))
+            
+            # Generate TOC entries
+            for chapter_num, heading_text, heading_id in chapter_headings:
+                toc_html += f'<li><a href="#{heading_id}">{chapter_num} {heading_text}</a></li>\n'
             
             toc_html += '</ul>\n</div>'
             
@@ -736,7 +740,7 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
     # Second pass: Process links in the body
     for link in soup.find_all('a'):
         # Skip links that have already been processed
-        if link.parent.name in ['h1', 'h2', 'h3']:
+        if link.parent.name in ['h1']:
             continue
             
         href = link.get('href')

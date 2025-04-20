@@ -39,6 +39,13 @@ class LatexDocument:
 \\clearpage
 """
 
+        # Add the longtable package
+        if "\\usepackage{longtable}" not in template and "\\begin{longtable}" in self.content:
+            # Find a good spot to add the package - after other package includes
+            package_insert_pos = template.find("\\usepackage{mdframed}")
+            if package_insert_pos != -1:
+                template = template[:package_insert_pos + 21] + "\n\\usepackage{longtable}" + template[package_insert_pos + 21:]
+        
         # Replace placeholders in template
         latex = template.replace("$title$", self.title)
         latex = latex.replace("$main_description$", self.description or "")
@@ -80,6 +87,7 @@ class LatexDocument:
 \\usepackage{needspace}
 \\usepackage{afterpage}
 \\usepackage{caption}
+\\usepackage{longtable}
 
 % Configure hyperref for better internal references
 \\hypersetup{
@@ -212,6 +220,55 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         title_element.extract()
     if description_block:
         description_block.extract()
+        
+    # First look for the table of contents div to custom format it
+    toc_div = story_div.find('div', class_='table-of-contents')
+    if toc_div:
+        print("Found table-of-contents div, creating custom TOC...")
+        # Extract the TOC div to process it separately
+        toc_div.extract()
+        
+        # Create a custom formatted table of contents
+        toc_content = """\\subsection*{\\Large Table of Contents}
+\\vspace{0.5cm}
+
+\\begin{longtable}{p{0.8\\textwidth}r}
+"""
+
+        # Extract chapter entries from the TOC div
+        chapter_headings = []
+        for li in toc_div.find_all('li'):
+            link = li.find('a')
+            if link:
+                link_text = link.get_text().strip()
+                heading_id = link.get('href', '').replace('#', '')
+                
+                # Extract chapter number if present
+                if "Chapter " in link_text:
+                    parts = link_text.split(":", 1)
+                    if len(parts) == 2:
+                        # Fix chapter number format to "Chapter, X" instead of "Chapter X,"
+                        chapter_num = parts[0].strip()
+                        chapter_parts = chapter_num.split(" ")
+                        if len(chapter_parts) == 2:
+                            chapter_num = f"Chapter, {chapter_parts[1]}"
+                        
+                        heading_text = parts[1].strip()
+                        chapter_headings.append((chapter_num, heading_text, heading_id))
+        
+        # Generate TOC entries
+        for chapter_num, heading_text, heading_id in chapter_headings:
+            # Format is already set in the previous step
+            # Format with chapter number, title, and right-justified page number with dots
+            toc_content += f"""{chapter_num} {{\\Large {heading_text}}} & \\dotfill\\pageref{{{heading_id}}} \\\\
+\\noalign{{\\vspace{{0.5em}}}}
+"""
+        
+        # Close the TOC
+        toc_content += """\\end{longtable}
+\\vspace{0.5cm}
+"""
+        latex_content += toc_content
     
     for element in story_div.children:
         if element.name is None:  # Skip text nodes
@@ -244,13 +301,13 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
 \\vspace*{{1.5cm}}
 {{\\sffamily\\itshape\\small {chapter_number_clean}}}
 \\vspace{{-0.5cm}}
-\\section*{{{header_text}}}{label_markup}
+\\section*{{\\huge {header_text}}}{label_markup}
 \\vspace{{0.7cm}}
 
 """
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
+                    latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{\\huge {header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
@@ -348,11 +405,49 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
 # {para_content}
 # \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
-                # Check if this is the table of contents placeholder
+                # Check if this is the table of contents placeholder or a TOC div
+                if element.name == 'div' and element.get('class'):
+                    print(f"Div found with classes: {element.get('class')}")
                 para_text = element.get_text().strip()
-                if para_text == "TABLEOFCONTENTS":
-                    # Replace with actual LaTeX table of contents command
-                    latex_content += "\\tableofcontents\n\n"
+                print(f"Element: {element.name}, Text: '{para_text[:30]}...' if too long")
+                
+                # Check for either the TABLEOFCONTENTS placeholder or if this is already a TOC div
+                if para_text == "TABLEOFCONTENTS" or (element.name == 'div' and element.get('class') and 'table-of-contents' in element.get('class')):
+                    print("Found TABLEOFCONTENTS placeholder, creating custom TOC...")
+                    # Create a custom formatted table of contents
+                    toc_content = """\\subsection*{Table of Contents}
+\\vspace{0.5cm}
+
+\\begin{longtable}{p{0.8\\textwidth}r}
+"""
+
+                    # Find all h1.title-header elements with chapter numbers
+                    chapter_headings = []
+                    for h1 in story_div.find_all('h1', class_='title-header'):
+                        chapter_span = h1.find('span', class_='chapter-number')
+                        if chapter_span:
+                            chapter_num = chapter_span.get_text().strip() 
+                            # Remove the chapter number to get just the title
+                            heading_text = h1.get_text().replace(chapter_span.get_text(), '').strip()
+                            # Get the ID for linking
+                            heading_id = h1.get('id', '')
+                            if heading_id:
+                                chapter_headings.append((chapter_num, heading_text, heading_id))
+                    
+                    # Generate TOC entries
+                    for chapter_num, heading_text, heading_id in chapter_headings:
+                        # Replace colon with comma and remove quotes
+                        chapter_num = chapter_num.replace(':', ',')
+                        # Format with chapter number, title, and right-justified page number with dots
+                        toc_content += f"""{chapter_num} {heading_text} & \\dotfill\\pageref{{{heading_id}}} \\\\
+\\noalign{{\\vspace{{0.5em}}}}
+"""
+                    
+                    # Close the TOC
+                    toc_content += """\\end{longtable}
+\\vspace{0.5cm}
+"""
+                    latex_content += toc_content
                 else:
                     # Regular paragraph
                     para_content = process_inline_elements(element, story_div=story_div)
@@ -551,7 +646,8 @@ def process_inline_elements(element, in_quote=False, story_div=None) -> str:
                 if header_text:
                     # Use the header text instead of the link text
                     header_text = escape_latex(header_text)
-                    result += f"``{header_text}'' on page~\\pageref{{{anchor_id}}}"
+                    # result += f"``{header_text}'' on page~\\pageref{{{anchor_id}}}"
+                    result += f"{header_text}"
                 else:
                     # Fallback to the link text if header not found
                     result += f"``{link_text}'' on page~\\pageref{{{anchor_id}}}"
