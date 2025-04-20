@@ -39,12 +39,12 @@ class LatexDocument:
 \\clearpage
 """
 
-        # Add the longtable package
+        # Add the longtable and array packages
         if "\\usepackage{longtable}" not in template and "\\begin{longtable}" in self.content:
             # Find a good spot to add the package - after other package includes
             package_insert_pos = template.find("\\usepackage{mdframed}")
             if package_insert_pos != -1:
-                template = template[:package_insert_pos + 21] + "\n\\usepackage{longtable}" + template[package_insert_pos + 21:]
+                template = template[:package_insert_pos + 21] + "\n\\usepackage{longtable}\n\\usepackage{array}" + template[package_insert_pos + 21:]
         
         # Replace placeholders in template
         latex = template.replace("$title$", self.title)
@@ -247,21 +247,20 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                 if "Chapter " in link_text:
                     parts = link_text.split(":", 1)
                     if len(parts) == 2:
-                        # Fix chapter number format to "Chapter, X" instead of "Chapter X,"
+                        # Format as "Chapter X" (without the comma)
                         chapter_num = parts[0].strip()
-                        chapter_parts = chapter_num.split(" ")
-                        if len(chapter_parts) == 2:
-                            chapter_num = f"Chapter, {chapter_parts[1]}"
                         
                         heading_text = parts[1].strip()
                         chapter_headings.append((chapter_num, heading_text, heading_id))
         
         # Generate TOC entries
         for chapter_num, heading_text, heading_id in chapter_headings:
-            # Format is already set in the previous step
-            # Format with chapter number, title, and right-justified page number with dots
-            toc_content += f"""{chapter_num} {{\\Large {heading_text}}} & \\dotfill\\pageref{{{heading_id}}} \\\\
-\\noalign{{\\vspace{{0.5em}}}}
+            # Format with chapter number first, then title, then page number on separate lines
+            # Add more vertical space before each chapter entry
+            toc_content += f"""\\noalign{{\\vspace{{2em}}}}
+{{\\sffamily\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
+\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
+{{}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 """
         
         # Close the TOC
@@ -436,11 +435,13 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     
                     # Generate TOC entries
                     for chapter_num, heading_text, heading_id in chapter_headings:
-                        # Replace colon with comma and remove quotes
-                        chapter_num = chapter_num.replace(':', ',')
-                        # Format with chapter number, title, and right-justified page number with dots
-                        toc_content += f"""{chapter_num} {heading_text} & \\dotfill\\pageref{{{heading_id}}} \\\\
-\\noalign{{\\vspace{{0.5em}}}}
+                        # Format with chapter number on first line, then title, and right-justified page number with dots
+                        # Replace colon with nothing (not comma)
+                        chapter_num = chapter_num.replace(':', '')
+                        toc_content += f"""\\noalign{{\\vspace{{2em}}}}
+{{\\sffamily\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
+\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
+{{}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 """
                     
                     # Close the TOC
