@@ -221,6 +221,13 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
     if description_block:
         description_block.extract()
         
+    # Also remove the redundant book title (Liberty by Design) since it's already at the top
+    # Find the h1 with title "Liberty by Design" or similar
+    book_title = soup.find('h1', string=lambda text: text and "Liberty by Design" in text)
+    if book_title:
+        print("Removing redundant book title header from content...")
+        book_title.extract()
+        
     # First look for the table of contents div to custom format it
     toc_div = story_div.find('div', class_='table-of-contents')
     if toc_div:
@@ -1016,6 +1023,28 @@ def main():
     # Merge the PDFs
     print(f"Creating version with custom cover...")
     merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
+    
+    # Modify the HTML file to empty the first h1 title-header
+    html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
+    if os.path.exists(html_path):
+        print(f"Modifying {html_path} to empty the first h1 title-header...")
+        with open(html_path, 'r') as f:
+            html_content = f.read()
+        
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Find the first h1 with class title-header
+        first_title = soup.find('h1', class_='title-header')
+        if first_title:
+            # Empty the text content but keep the element
+            first_title.string = ""
+            print("First h1 title-header emptied successfully.")
+            
+            # Write the modified HTML back to the file
+            with open(html_path, 'w') as f:
+                f.write(str(soup))
+        else:
+            print("No h1 title-header found in the HTML file.")
 
 
 if __name__ == "__main__":
