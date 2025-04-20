@@ -708,6 +708,31 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                         heading_parent.insert(heading_index, copy.copy(element))
                         heading_index += 1
     
+    # Replace TABLEOFCONTENTS placeholder with actual table of contents
+    for para in soup.find_all('p'):
+        if para.get_text().strip() == "TABLEOFCONTENTS":
+            # Find all chapters with chapter-number spans
+            toc_html = '<div class="table-of-contents">\n<h2>Table of Contents</h2>\n<ul>\n'
+            
+            # Find all h1 elements with chapter numbers
+            chapter_headings = soup.find_all('h1', class_='title-header')
+            for heading in chapter_headings:
+                chapter_span = heading.find('span', class_='chapter-number')
+                if chapter_span:
+                    chapter_num = chapter_span.get_text().strip()
+                    # Get the heading text without the chapter number
+                    heading_text = heading.get_text().replace(chapter_span.get_text(), '').strip()
+                    # Get the ID for linking
+                    heading_id = heading.get('id', '')
+                    if heading_id:
+                        toc_html += f'<li><a href="#{heading_id}">{chapter_num} {heading_text}</a></li>\n'
+            
+            toc_html += '</ul>\n</div>'
+            
+            # Replace the paragraph with the table of contents
+            toc_element = BeautifulSoup(toc_html, 'html.parser')
+            para.replace_with(toc_element)
+    
     # Second pass: Process links in the body
     for link in soup.find_all('a'):
         # Skip links that have already been processed

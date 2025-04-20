@@ -348,9 +348,15 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
 # {para_content}
 # \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
-                # Regular paragraph
-                para_content = process_inline_elements(element, story_div=story_div)
-                latex_content += para_content + "\n\n"
+                # Check if this is the table of contents placeholder
+                para_text = element.get_text().strip()
+                if para_text == "TABLEOFCONTENTS":
+                    # Replace with actual LaTeX table of contents command
+                    latex_content += "\\tableofcontents\n\n"
+                else:
+                    # Regular paragraph
+                    para_content = process_inline_elements(element, story_div=story_div)
+                    latex_content += para_content + "\n\n"
         elif element.name == 'ul':
             latex_content += process_list(element, 'itemize', story_div)
         elif element.name == 'ol':
