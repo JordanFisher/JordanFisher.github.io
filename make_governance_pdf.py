@@ -836,45 +836,61 @@ def main():
                         help='Include images in the PDF (default: false)')
     parser.add_argument('--skip-site-generation', action='store_true',
                         help='Skip generating the site before creating PDF')
+    parser.add_argument('--pdf-only', action='store_true',
+                        help='Only regenerate PDF from existing LaTeX file, skip site and LaTeX generation')
     args = parser.parse_args()
-    
-    # Generate site first to ensure HTML files are up-to-date
-    if not args.skip_site_generation:
-        print("Generating site first...")
-        try:
-            generate_site.main()
-            print("Site generation completed successfully.")
-        except Exception as e:
-            print(f"Error generating site: {e}")
-            sys.exit(1)
-    
-    # Ensure LaTeX templates directory exists
-    ensure_latex_templates_dir()
-    
-    # Path to the governance HTML file
-    html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
-    
-    if not os.path.exists(html_path):
-        print(f"Error: HTML file {html_path} not found. Make sure the site has been generated.")
-        sys.exit(1)
-    
-    # Convert HTML to LaTeX
-    print(f"Converting {html_path} to LaTeX...")
-    latex_doc = html_to_latex(html_path, include_images=args.include_images)
-    
-    # Generate the LaTeX content
-    latex_content = latex_doc.to_latex()
     
     # Get the TeX filename from the output PDF filename
     tex_filename = os.path.basename(args.output).replace('.pdf', '.tex')
     
-    # Write LaTeX to file with the same base name as the PDF
-    with open(tex_filename, 'w') as f:
-        f.write(latex_content)
-    
-    # Convert LaTeX to PDF
-    print(f"Converting LaTeX to PDF...")
-    latex_to_pdf(latex_content, args.output)
+    # If pdf-only flag is set, skip site and LaTeX generation
+    if args.pdf_only:
+        if not os.path.exists(tex_filename):
+            print(f"Error: LaTeX file {tex_filename} not found. Run without --pdf-only flag first.")
+            sys.exit(1)
+        
+        # Read existing LaTeX file
+        with open(tex_filename, 'r') as f:
+            latex_content = f.read()
+            
+        # Convert LaTeX to PDF
+        print(f"Regenerating PDF from existing LaTeX file {tex_filename}...")
+        latex_to_pdf(latex_content, args.output)
+    else:
+        # Generate site first to ensure HTML files are up-to-date
+        if not args.skip_site_generation:
+            print("Generating site first...")
+            try:
+                generate_site.main()
+                print("Site generation completed successfully.")
+            except Exception as e:
+                print(f"Error generating site: {e}")
+                sys.exit(1)
+        
+        # Ensure LaTeX templates directory exists
+        ensure_latex_templates_dir()
+        
+        # Path to the governance HTML file
+        html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
+        
+        if not os.path.exists(html_path):
+            print(f"Error: HTML file {html_path} not found. Make sure the site has been generated.")
+            sys.exit(1)
+        
+        # Convert HTML to LaTeX
+        print(f"Converting {html_path} to LaTeX...")
+        latex_doc = html_to_latex(html_path, include_images=args.include_images)
+        
+        # Generate the LaTeX content
+        latex_content = latex_doc.to_latex()
+        
+        # Write LaTeX to file with the same base name as the PDF
+        with open(tex_filename, 'w') as f:
+            f.write(latex_content)
+        
+        # Convert LaTeX to PDF
+        print(f"Converting LaTeX to PDF...")
+        latex_to_pdf(latex_content, args.output)
     
     # Always create a second version with custom cover
     # Path to the cover PDF
