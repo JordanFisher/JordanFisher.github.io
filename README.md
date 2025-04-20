@@ -25,12 +25,16 @@ python make_governance_pdf.py --include-images
 
 # Custom output file name
 python make_governance_pdf.py --output custom_name.pdf
+
+# Skip site generation step
+python make_governance_pdf.py --skip-site-generation
 ```
 
 The script will:
-1. Convert the HTML to LaTeX
-2. Generate a PDF file
-3. Create a second version with a custom cover ("_with_cover.pdf")
+1. Generate the site first (unless --skip-site-generation is used)
+2. Convert the HTML to LaTeX
+3. Generate a PDF file
+4. Create a second version with a custom cover ("_with_cover.pdf")
 
 Note that PDF generation requires TeX Live to be installed with additional packages for strikethrough support.
 
@@ -94,6 +98,25 @@ When making changes to the LaTeX templates, be aware that the PDF generation pro
 1. Section headers with formatting (especially strikethrough)
 2. Quote blocks with the fancyquote environment
 3. Image inclusion and positioning
+
+## Using Claude Code
+
+[Claude Code](https://claude.ai/code) is integrated with this repository to assist with development and content generation. Claude Code can:
+
+- Update site templates and styling
+- Modify PDF generation code
+- Debug issues with site generation
+- Help analyze and process Google Doc content
+
+When using Claude Code with this repository:
+- It will automatically run `generate_site.py` when executing `make_governance_pdf.py`
+- It understands the blog structure and can help modify templates
+- It can assist with LaTeX formatting issues
+
+To use Claude Code effectively:
+1. Ask it to examine specific files or components
+2. Provide clear requirements when making changes
+3. Have it run `generate_site.py` to test changes to templates or converters
 
 ## View the Blog
 

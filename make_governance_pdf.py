@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import subprocess
 from dataclasses import dataclass
 from typing import List, Optional
+import generate_site
 
 @dataclass
 class LatexDocument:
@@ -796,7 +797,19 @@ def main():
                         help='Output PDF file path')
     parser.add_argument('--include-images', action='store_true',
                         help='Include images in the PDF (default: false)')
+    parser.add_argument('--skip-site-generation', action='store_true',
+                        help='Skip generating the site before creating PDF')
     args = parser.parse_args()
+    
+    # Generate site first to ensure HTML files are up-to-date
+    if not args.skip_site_generation:
+        print("Generating site first...")
+        try:
+            generate_site.main()
+            print("Site generation completed successfully.")
+        except Exception as e:
+            print(f"Error generating site: {e}")
+            sys.exit(1)
     
     # Ensure LaTeX templates directory exists
     ensure_latex_templates_dir()
