@@ -237,10 +237,13 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_tag.extract()
                     
                     header_text = process_inline_elements(element, story_div=story_div)
+                    # Format chapter number without the colon
+                    chapter_number_clean = chapter_number.replace(':', '')
+                    
                     latex_content += f"""\\clearpage
 \\vspace*{{1.5cm}}
-{{\\small\\textit{{{chapter_number}}}}}
-
+{{\\sffamily\\itshape\\small {chapter_number_clean}}}
+\\vspace{{-0.5cm}}
 \\section*{{{header_text}}}{label_markup}
 \\vspace{{0.7cm}}
 
@@ -269,8 +272,11 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_tag.extract()
                     
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"""{{\\small\\textit{{{chapter_number}}}}}
-
+                    # Format chapter number without the colon
+                    chapter_number_clean = chapter_number.replace(':', '')
+                    
+                    latex_content += f"""{{\\sffamily\\itshape\\small {chapter_number_clean}}}
+\\vspace{{-0.5cm}}
 \\section*{{{header_text}}}{label_markup}
 \\vspace{{0.5cm}}
 
