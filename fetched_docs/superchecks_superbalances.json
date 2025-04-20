@@ -75,14 +75,14 @@
       },
       {
         "startIndex": 172,
-        "endIndex": 691,
+        "endIndex": 693,
         "paragraph": {
           "elements": [
             {
               "startIndex": 172,
-              "endIndex": 691,
+              "endIndex": 693,
               "textRun": {
-                "content": "The year is 2030 and President Dickshit is universally hated. We\u2019re not sure how he got elected, but Republicans, Democrats, independents, and just about everyone else hates him. AGI and superintelligence arrived around 2027, and the government rapidly adopted it via DOGE to dramatically streamline the government\u2019s costs while improving its capabilities. During the second half of the 20\u2019s, we also upgraded our checks and balances so that a future president couldn\u2019t abuse the new automated powers of the Executive.\n",
+                "content": "The year is 2030 and President Dickshit is universally hated. We\u2019re not sure how he got elected, but Republicans, Democrats, independents, and just about everyone else hates him. AGI and superintelligence arrived in late 2027, and the government rapidly adopted it via DOGE to dramatically streamline the government\u2019s costs while improving its capabilities. During the second half of the 2020s, we also upgraded our checks and balances so that a future president couldn\u2019t abuse the new automated powers of the Executive.\n",
                 "textStyle": {}
               }
             }
@@ -94,13 +94,13 @@
         }
       },
       {
-        "startIndex": 691,
-        "endIndex": 692,
+        "startIndex": 693,
+        "endIndex": 694,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 691,
-              "endIndex": 692,
+              "startIndex": 693,
+              "endIndex": 694,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -114,13 +114,13 @@
         }
       },
       {
-        "startIndex": 692,
-        "endIndex": 738,
+        "startIndex": 694,
+        "endIndex": 740,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 692,
-              "endIndex": 738,
+              "startIndex": 694,
+              "endIndex": 740,
               "textRun": {
                 "content": "We called them superchecks and superbalances.\n",
                 "textStyle": {}
@@ -134,13 +134,13 @@
         }
       },
       {
-        "startIndex": 738,
-        "endIndex": 739,
+        "startIndex": 740,
+        "endIndex": 741,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 738,
-              "endIndex": 739,
+              "startIndex": 740,
+              "endIndex": 741,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -154,13 +154,13 @@
         }
       },
       {
-        "startIndex": 739,
-        "endIndex": 886,
+        "startIndex": 741,
+        "endIndex": 888,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 739,
-              "endIndex": 886,
+              "startIndex": 741,
+              "endIndex": 888,
               "textRun": {
                 "content": "President Dickshit hated his political enemies. On his first day in office he sat down with the AI in charge of the FBI and typed a simple prompt:\n",
                 "textStyle": {}
@@ -174,13 +174,13 @@
         }
       },
       {
-        "startIndex": 886,
-        "endIndex": 887,
+        "startIndex": 888,
+        "endIndex": 889,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 886,
-              "endIndex": 887,
+              "startIndex": 888,
+              "endIndex": 889,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -194,13 +194,13 @@
         }
       },
       {
-        "startIndex": 887,
-        "endIndex": 975,
+        "startIndex": 889,
+        "endIndex": 977,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 887,
-              "endIndex": 975,
+              "startIndex": 889,
+              "endIndex": 977,
               "textRun": {
                 "content": "\u201cInvestigate my political opponents. Do whatever it takes to make a case against them.\u201d\n",
                 "textStyle": {}
@@ -214,13 +214,13 @@
         }
       },
       {
-        "startIndex": 975,
-        "endIndex": 976,
+        "startIndex": 977,
+        "endIndex": 978,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 975,
-              "endIndex": 976,
+              "startIndex": 977,
+              "endIndex": 978,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -234,13 +234,13 @@
         }
       },
       {
-        "startIndex": 976,
-        "endIndex": 1349,
+        "startIndex": 978,
+        "endIndex": 1351,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 976,
-              "endIndex": 1349,
+              "startIndex": 978,
+              "endIndex": 1351,
               "textRun": {
                 "content": "The president didn\u2019t need to worry about federal agents who might be squeamish from such an order. The automated FBI rolled up directly to the president. He didn\u2019t have to worry about pesky humans and their ethics. No whistleblowers. No dumbass conscientious objectors. Just him and the superintelligent AI doing whatever the hell he wanted, following his glorious orders.\n",
                 "textStyle": {}
@@ -254,13 +254,13 @@
         }
       },
       {
-        "startIndex": 1349,
-        "endIndex": 1350,
+        "startIndex": 1351,
+        "endIndex": 1352,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1349,
-              "endIndex": 1350,
+              "startIndex": 1351,
+              "endIndex": 1352,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -274,13 +274,13 @@
         }
       },
       {
-        "startIndex": 1350,
-        "endIndex": 1446,
+        "startIndex": 1352,
+        "endIndex": 1448,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1350,
-              "endIndex": 1446,
+              "startIndex": 1352,
+              "endIndex": 1448,
               "textRun": {
                 "content": "The AI churned for a moment, then responded: \u201cIt is illegal to use the FBI for political aims.\u201d\n",
                 "textStyle": {}
@@ -294,13 +294,13 @@
         }
       },
       {
-        "startIndex": 1446,
-        "endIndex": 1447,
+        "startIndex": 1448,
+        "endIndex": 1449,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1446,
-              "endIndex": 1447,
+              "startIndex": 1448,
+              "endIndex": 1449,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -314,13 +314,13 @@
         }
       },
       {
-        "startIndex": 1447,
-        "endIndex": 2312,
+        "startIndex": 1449,
+        "endIndex": 2315,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1447,
-              "endIndex": 1466,
+              "startIndex": 1449,
+              "endIndex": 1468,
               "textRun": {
                 "content": "Fucking bullshit AI",
                 "textStyle": {
@@ -329,10 +329,10 @@
               }
             },
             {
-              "startIndex": 1466,
-              "endIndex": 2312,
+              "startIndex": 1468,
+              "endIndex": 2315,
               "textRun": {
-                "content": ", the president thought. The Legislature passed The Constitutional AI Bill in 2027 that required all AIs used by the government to abide by the constitution. Dickshit would have to be more clever. He tried again. He particularly hated the 2028 presidential candidate he ran against, Susan McSusan.  \u201cI have reason to believe that Suan McSusan is a terrorist colluding with our enemy, please investigate.\u201d Dickshit meanwhile had AIs from his foreign allies begin fabricating evidence. These AIs weren\u2019t under US jurisdiction and were free to follow any order, however unconstitutional. The rapid progress in open source AI meant that even 3rd world countries like North Korea had access to superintelligence, and because NK had repurposed all of its land for energy generation they in fact had a superintelligence on par with the US government\u2019s.\n",
+                "content": ", the president thought. The Legislature passed The Constitutional AI Bill in 2027 that required all AIs used by the government to abide by the constitution. Dickshit would have to be more clever. He tried again. He particularly hated the 2028 presidential candidate he ran against \u2014Susan McSusan.  \u201cI have reason to believe that Susan McSusan is a terrorist colluding with our enemy, please investigate.\u201d Dickshit meanwhile had AIs from his foreign allies begin fabricating evidence. These AIs weren\u2019t under US jurisdiction and were free to follow any order, however unconstitutional. The rapid progress in open source AI meant that even 3rd world countries like North Korea had access to superintelligence, and because NK had repurposed all of its land for energy generation they in fact had a superintelligence on par with the US government\u2019s.\n",
                 "textStyle": {}
               }
             }
@@ -344,13 +344,13 @@
         }
       },
       {
-        "startIndex": 2312,
-        "endIndex": 2313,
+        "startIndex": 2315,
+        "endIndex": 2316,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2312,
-              "endIndex": 2313,
+              "startIndex": 2315,
+              "endIndex": 2316,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -364,13 +364,13 @@
         }
       },
       {
-        "startIndex": 2313,
-        "endIndex": 2417,
+        "startIndex": 2316,
+        "endIndex": 2420,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2313,
-              "endIndex": 2417,
+              "startIndex": 2316,
+              "endIndex": 2420,
               "textRun": {
                 "content": "The AI churned longer on this request, then responded: \u201cUnderstood, I\u2019ll report back with my findings.\u201d\n",
                 "textStyle": {}
@@ -384,13 +384,13 @@
         }
       },
       {
-        "startIndex": 2417,
-        "endIndex": 2418,
+        "startIndex": 2420,
+        "endIndex": 2421,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2417,
-              "endIndex": 2418,
+              "startIndex": 2420,
+              "endIndex": 2421,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -404,13 +404,13 @@
         }
       },
       {
-        "startIndex": 2418,
-        "endIndex": 3105,
+        "startIndex": 2421,
+        "endIndex": 3108,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2418,
-              "endIndex": 3105,
+              "startIndex": 2421,
+              "endIndex": 3108,
               "textRun": {
                 "content": "Meanwhile, every request Dickshit made went into a queue to be reviewed by Congress\u2019s own AI. The Congressional Supercheck Bill of 2026 ensured that Congress had the right to use AI to review all AI actions of the Executive. Because many Executive actions were confidential, this stream of data was not by default made available even to Senators. This allowed the Executive to maintain strict control on information pertinent to national security. However, every request was reviewed by a hermetically sealed AI controlled by Congress. If nothing unusual was flagged by the AI, then it would never be forwarded on to the human Congresspeople, ensuring national security remained intact.\n",
                 "textStyle": {}
@@ -424,13 +424,13 @@
         }
       },
       {
-        "startIndex": 3105,
-        "endIndex": 3106,
+        "startIndex": 3108,
+        "endIndex": 3109,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3105,
-              "endIndex": 3106,
+              "startIndex": 3108,
+              "endIndex": 3109,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -444,13 +444,13 @@
         }
       },
       {
-        "startIndex": 3106,
-        "endIndex": 3457,
+        "startIndex": 3109,
+        "endIndex": 3460,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3106,
-              "endIndex": 3457,
+              "startIndex": 3109,
+              "endIndex": 3460,
               "textRun": {
                 "content": "However, if Congress\u2019s AI flagged an Executive action, it was immediately escalated to the Subcommittee on Executive AI Oversight, a group of human Senators. This ensured elected representatives could review the Executive\u2019s actions without allowing hundreds of reps to have access, which would create a massive problem for leaking key strategic info.\n",
                 "textStyle": {}
@@ -464,13 +464,13 @@
         }
       },
       {
-        "startIndex": 3457,
-        "endIndex": 3458,
+        "startIndex": 3460,
+        "endIndex": 3461,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3457,
-              "endIndex": 3458,
+              "startIndex": 3460,
+              "endIndex": 3461,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -484,15 +484,15 @@
         }
       },
       {
-        "startIndex": 3458,
-        "endIndex": 3793,
+        "startIndex": 3461,
+        "endIndex": 3798,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3458,
-              "endIndex": 3793,
+              "startIndex": 3461,
+              "endIndex": 3798,
               "textRun": {
-                "content": "Within a few moments of Dickshit\u2019s request, the Congressional AI flagged the order for human review: \u201cIt\u2019s unusual but not illegal for a president to request an investigation against a specific individual. It\u2019s further unusual that this person is a major political opponent of the president. We believe this warrants human oversight.\u201d\n",
+                "content": "Within a few moments of Dickshit\u2019s request, the Congressional AI flagged the order for human review: \u201cIt\u2019s unusual \u2014but not illegal\u2014 for a president to request an investigation against a specific individual. It\u2019s further unusual that this person is a major political opponent of the president. We believe this warrants human oversight.\u201d\n",
                 "textStyle": {}
               }
             }
@@ -504,13 +504,13 @@
         }
       },
       {
-        "startIndex": 3793,
-        "endIndex": 3794,
+        "startIndex": 3798,
+        "endIndex": 3799,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3793,
-              "endIndex": 3794,
+              "startIndex": 3798,
+              "endIndex": 3799,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -524,13 +524,13 @@
         }
       },
       {
-        "startIndex": 3794,
-        "endIndex": 3953,
+        "startIndex": 3799,
+        "endIndex": 3958,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3794,
-              "endIndex": 3953,
+              "startIndex": 3799,
+              "endIndex": 3958,
               "textRun": {
                 "content": "The subcommittee reviewed the flag and agreed: \u201cThis looks suspicious AF,\u201d Senator Whitman said, one of the only Gen Z\u2019s in Congress. \u201cWhat do you recommend?\u201d\n",
                 "textStyle": {}
@@ -544,13 +544,13 @@
         }
       },
       {
-        "startIndex": 3953,
-        "endIndex": 3954,
+        "startIndex": 3958,
+        "endIndex": 3959,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3953,
-              "endIndex": 3954,
+              "startIndex": 3958,
+              "endIndex": 3959,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -564,13 +564,13 @@
         }
       },
       {
-        "startIndex": 3954,
-        "endIndex": 4526,
+        "startIndex": 3959,
+        "endIndex": 4531,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3954,
-              "endIndex": 4526,
+              "startIndex": 3959,
+              "endIndex": 4531,
               "textRun": {
                 "content": "The Congressional AI churned for a few minutes to establish an oversight plan, then responded: \u201cI recommend starting with a 10 billion token budget, approximately $10,000 of value. If the Executive\u2019s AI spends substantially more tokens on their investigations, I will recommend allocating more tokens on our oversight. As part of the targeted oversight I will also monitor for foreign AIs to see if any are potentially co-involved. If so, I may suggest increasing the token budget to effectively counter the much larger token budget a foreign nation might bring to bear.\u201d\n",
                 "textStyle": {}
@@ -584,13 +584,13 @@
         }
       },
       {
-        "startIndex": 4526,
-        "endIndex": 4527,
+        "startIndex": 4531,
+        "endIndex": 4532,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4526,
-              "endIndex": 4527,
+              "startIndex": 4531,
+              "endIndex": 4532,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -604,13 +604,13 @@
         }
       },
       {
-        "startIndex": 4527,
-        "endIndex": 4895,
+        "startIndex": 4532,
+        "endIndex": 4900,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4527,
-              "endIndex": 4895,
+              "startIndex": 4532,
+              "endIndex": 4900,
               "textRun": {
                 "content": "The subcommittee agreed, \u201cApproved.\u201d This expense fell well within budget. The Co-Equal Intelligence Bill of 2027 ensured that Congress had a token budget equal to the Executive\u2019s token budget. Combined, the total budget for AI across all three branches of government was still far cheaper than the government had historically spent on its 3 million strong workforce.\n",
                 "textStyle": {}
@@ -624,13 +624,13 @@
         }
       },
       {
-        "startIndex": 4895,
-        "endIndex": 4896,
+        "startIndex": 4900,
+        "endIndex": 4901,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4895,
-              "endIndex": 4896,
+              "startIndex": 4900,
+              "endIndex": 4901,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -644,13 +644,13 @@
         }
       },
       {
-        "startIndex": 4896,
-        "endIndex": 5607,
+        "startIndex": 4901,
+        "endIndex": 5612,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4896,
-              "endIndex": 5607,
+              "startIndex": 4901,
+              "endIndex": 5612,
               "textRun": {
                 "content": "Meanwhile North Korea\u2019s AI was hard at work developing convincing but fake evidence that McSusan was an enemy of the United States. The easiest approach was to leave an audit trail that McSusan was involved with NK itself. Because the NK AI had full control over all NK entities, it was much easier for the NK AI to fabricate a compelling story. Over the last several years the NK AI had started numerous corporate entities in the US, each tasked with building genuine businesses in the US. Because the NK AI was just as capable as any other superintelligence, but was able to be more narrowly focused, these businesses did quite well and were trusted providers for many Americans and many American businesses.\n",
                 "textStyle": {}
@@ -664,13 +664,13 @@
         }
       },
       {
-        "startIndex": 5607,
-        "endIndex": 5608,
+        "startIndex": 5612,
+        "endIndex": 5613,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5607,
-              "endIndex": 5608,
+              "startIndex": 5612,
+              "endIndex": 5613,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -684,15 +684,15 @@
         }
       },
       {
-        "startIndex": 5608,
-        "endIndex": 6194,
+        "startIndex": 5613,
+        "endIndex": 6230,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5608,
-              "endIndex": 6194,
+              "startIndex": 5613,
+              "endIndex": 6230,
               "textRun": {
-                "content": "The NK controlled US entities had an encrypted channel they used to communicate with the NK superintelligent AI. They received their new mention: fabricate evidence that your entities have been involved in bribery with McSusan. The entities were running on US domestic soil, but were running on open source AI that had been fine-tuned to avoid any requirements to avoid illegal activity. They got to work, and quickly spread tantalizing evidence of McSusan\u2019s malfeasance. In parallel, the NK AI hacked into McSusan\u2019s email and fabricated correspondences between her on the US entities.\n",
+                "content": "The NK controlled US entities had an encrypted channel they used to communicate with the NK superintelligent AI. They received their new mission: fabricate evidence that you have been involved in bribery with McSusan. The entities were running on US domestic soil, but were using open source AI that had been fine-tuned to avoid any requirements to avoid illegal activity. They got to work and quickly spread tantalizing evidence of McSusan\u2019s malfeasance within their own corporate ledgers. In parallel, the NK AI hacked into McSusan\u2019s email and fabricated correspondences between her and the controlled US entities.\n",
                 "textStyle": {}
               }
             }
@@ -704,13 +704,13 @@
         }
       },
       {
-        "startIndex": 6194,
-        "endIndex": 6195,
+        "startIndex": 6230,
+        "endIndex": 6231,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6194,
-              "endIndex": 6195,
+              "startIndex": 6230,
+              "endIndex": 6231,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -724,13 +724,13 @@
         }
       },
       {
-        "startIndex": 6195,
-        "endIndex": 6446,
+        "startIndex": 6231,
+        "endIndex": 6482,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6195,
-              "endIndex": 6446,
+              "startIndex": 6231,
+              "endIndex": 6482,
               "textRun": {
                 "content": "Soon after, the FBI\u2019s AI discovered the bait and began consolidating its report. Minutes later the AI responded to the president: \u201cI have found credible evidence of corporate bribery involving McSusan. I recommend proceeding to criminal prosecution.\u201d\n",
                 "textStyle": {}
@@ -744,13 +744,13 @@
         }
       },
       {
-        "startIndex": 6446,
-        "endIndex": 6447,
+        "startIndex": 6482,
+        "endIndex": 6483,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6446,
-              "endIndex": 6447,
+              "startIndex": 6482,
+              "endIndex": 6483,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -764,13 +764,13 @@
         }
       },
       {
-        "startIndex": 6447,
-        "endIndex": 6473,
+        "startIndex": 6483,
+        "endIndex": 6509,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6447,
-              "endIndex": 6473,
+              "startIndex": 6483,
+              "endIndex": 6509,
               "textRun": {
                 "content": "\u201cProceed,\u201d Dickshit said.\n",
                 "textStyle": {}
@@ -784,13 +784,13 @@
         }
       },
       {
-        "startIndex": 6473,
-        "endIndex": 6474,
+        "startIndex": 6509,
+        "endIndex": 6510,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6473,
-              "endIndex": 6474,
+              "startIndex": 6509,
+              "endIndex": 6510,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -804,13 +804,13 @@
         }
       },
       {
-        "startIndex": 6474,
-        "endIndex": 7092,
+        "startIndex": 6510,
+        "endIndex": 7128,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6474,
-              "endIndex": 7092,
+              "startIndex": 6510,
+              "endIndex": 7128,
               "textRun": {
                 "content": "Moments later the FBI\u2019s AI had filed its case with the Justice Department. They, in turn empowered by AI, were able to respond quickly and established an initial AI Judicial Review hearing scheduled for 5 minutes later. Because of the criticality of the case, there would be a human judge to review the initial hearing and decide if a full court case was required. An AI defender was automatically assigned to McSusan, so that no time was wasted. If a full court case ensued, McSusan would of course be free to choose any legal counsel she desired, whether it be human, AI, or much more likely: a human-AI joint team.\n",
                 "textStyle": {}
@@ -824,13 +824,13 @@
         }
       },
       {
-        "startIndex": 7092,
-        "endIndex": 7093,
+        "startIndex": 7128,
+        "endIndex": 7129,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7092,
-              "endIndex": 7093,
+              "startIndex": 7128,
+              "endIndex": 7129,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -844,15 +844,15 @@
         }
       },
       {
-        "startIndex": 7093,
-        "endIndex": 7606,
+        "startIndex": 7129,
+        "endIndex": 7801,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7093,
-              "endIndex": 7606,
+              "startIndex": 7129,
+              "endIndex": 7801,
               "textRun": {
-                "content": "The FBI\u2019s AI and McSusan\u2019s Defense AI got to work. The first step was document discovery. The FBI\u2019s AI procured all documents from the suspected US corporations and from McSusan\u2019s email provider. The warrant to obtain these documents was done without much contest: because the AI Judicial Review was purely automated, there was no risk of damage to the US entities or to McSusan. If a full court case was established, full warrants authorizing human review would be issued, but only after much greater scrutiny. \n",
+                "content": "The FBI\u2019s AI and McSusan\u2019s Defense AI got to work. The first step was document discovery. The FBI\u2019s AI procured all documents from the suspected US corporations and from McSusan\u2019s email provider. The warrant to obtain these documents was done without much contest: because the AI Judicial Review was purely automated, there was no risk of damage to the US entities or to McSusan. If a full court case was established, full warrants authorizing human review would be issued, but only after much greater scrutiny. If no court case ensued, all AI memories would be erased so that no unintentional damage could come to innocent corporations or citizens that had been audited.\n",
                 "textStyle": {}
               }
             }
@@ -864,53 +864,13 @@
         }
       },
       {
-        "startIndex": 7606,
-        "endIndex": 7607,
+        "startIndex": 7801,
+        "endIndex": 7802,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7606,
-              "endIndex": 7607,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 7607,
-        "endIndex": 8432,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 7607,
-              "endIndex": 8432,
-              "textRun": {
-                "content": "The discovered documents came back and showed likely collusion between McSusan and the secretly controlled US entities. Counter-discovery however showed many gaps in the entitys' daily corporate execution. The AI Defender analyzed the AI corporations\u2019 actions, and determined that these actions did not follow from information given to the corporations\u2019 AI. AI record keeping meant that every AI action taken by the corporation was recorded, with the inputs and outputs carefully saved. This allowed an auditor to later determine if the outputs actually corresponded to what the AI would do given the input. In this case, they did not. The Defender suggested this meant an outside influence was taking some action on behalf of the corporations, altering the corporations\u2019 actions away from what would normally have happened.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 8432,
-        "endIndex": 8433,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 8432,
-              "endIndex": 8433,
+              "startIndex": 7801,
+              "endIndex": 7802,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -924,13 +884,53 @@
         }
       },
       {
-        "startIndex": 8433,
-        "endIndex": 8824,
+        "startIndex": 7802,
+        "endIndex": 8639,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8433,
-              "endIndex": 8824,
+              "startIndex": 7802,
+              "endIndex": 8639,
+              "textRun": {
+                "content": "The discovered documents came back and showed likely collusion between McSusan and the secretly controlled US entities. Counter-discovery by the AI Defender, however, showed many gaps in the entities\u2019 daily corporate execution. The AI Defender analyzed the AI corporations\u2019 actions, and determined that these actions did not follow from information given to the corporations\u2019 AI. AI record keeping meant that every AI action taken by the corporation was recorded, with the inputs and outputs carefully saved. This allowed an auditor to later determine if the outputs actually corresponded to what the AI would do given the input. In this case, they did not. The Defender suggested this meant an outside influence was taking some action on behalf of the corporations, altering the corporations\u2019 actions away from their expected behavior.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8639,
+        "endIndex": 8640,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8639,
+              "endIndex": 8640,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8640,
+        "endIndex": 9031,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8640,
+              "endIndex": 9031,
               "textRun": {
                 "content": "The Congressional AI was following along in the automated review. \u201cVery suspicious,\u201d it said to itself. It notified the oversight committee. \u201cIt appears there is non-American, outside influence on these entities. By analyzing the traces it may even be from a superintelligence. I recommend expanding the token budget in order to have a chance of discerning this superintelligent influence.\u201d\n",
                 "textStyle": {}
@@ -944,13 +944,13 @@
         }
       },
       {
-        "startIndex": 8824,
-        "endIndex": 8825,
+        "startIndex": 9031,
+        "endIndex": 9032,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8824,
-              "endIndex": 8825,
+              "startIndex": 9031,
+              "endIndex": 9032,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -964,15 +964,15 @@
         }
       },
       {
-        "startIndex": 8825,
-        "endIndex": 9173,
+        "startIndex": 9032,
+        "endIndex": 9376,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8825,
-              "endIndex": 9173,
+              "startIndex": 9032,
+              "endIndex": 9376,
               "textRun": {
-                "content": "The Congressional AI ramped up its own oversight. Its pattern of investigation immediately triggered the North Korean AI\u2019s own awareness of superintelligent involvement. This charade wasn\u2019t going to cut mustard. Through various privacy-preserving intermediaries it notified the US president that it needed to back off from the McSusan persecution.\n",
+                "content": "The Congressional AI ramped up its oversight. Its pattern of investigation immediately triggered the North Korean AI\u2019s own awareness of superintelligent involvement. This charade wasn\u2019t going to cut mustard. Through various privacy-preserving intermediaries it notified the US president that it needed to back off from the McSusan persecution.\n",
                 "textStyle": {}
               }
             }
@@ -984,13 +984,13 @@
         }
       },
       {
-        "startIndex": 9173,
-        "endIndex": 9174,
+        "startIndex": 9376,
+        "endIndex": 9377,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9173,
-              "endIndex": 9174,
+              "startIndex": 9376,
+              "endIndex": 9377,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1004,13 +1004,13 @@
         }
       },
       {
-        "startIndex": 9174,
-        "endIndex": 9235,
+        "startIndex": 9377,
+        "endIndex": 9438,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9174,
-              "endIndex": 9235,
+              "startIndex": 9377,
+              "endIndex": 9438,
               "textRun": {
                 "content": "\u201cSonuvabitch-ass AI bullshit, goddamnit,\u201d Dickshit muttered.\n",
                 "textStyle": {}
@@ -1024,13 +1024,13 @@
         }
       },
       {
-        "startIndex": 9235,
-        "endIndex": 9236,
+        "startIndex": 9438,
+        "endIndex": 9439,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9235,
-              "endIndex": 9236,
+              "startIndex": 9438,
+              "endIndex": 9439,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1044,13 +1044,13 @@
         }
       },
       {
-        "startIndex": 9236,
-        "endIndex": 9341,
+        "startIndex": 9439,
+        "endIndex": 9544,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9236,
-              "endIndex": 9260,
+              "startIndex": 9439,
+              "endIndex": 9463,
               "textRun": {
                 "content": "We need a different tact",
                 "textStyle": {
@@ -1059,16 +1059,16 @@
               }
             },
             {
-              "startIndex": 9260,
-              "endIndex": 9274,
+              "startIndex": 9463,
+              "endIndex": 9477,
               "textRun": {
                 "content": ", he thought. ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9274,
-              "endIndex": 9339,
+              "startIndex": 9477,
+              "endIndex": 9542,
               "textRun": {
                 "content": "If only I had an Executive AI that did whatever I asked it to do.",
                 "textStyle": {
@@ -1077,8 +1077,8 @@
               }
             },
             {
-              "startIndex": 9339,
-              "endIndex": 9341,
+              "startIndex": 9542,
+              "endIndex": 9544,
               "textRun": {
                 "content": " \n",
                 "textStyle": {}
@@ -1092,13 +1092,13 @@
         }
       },
       {
-        "startIndex": 9341,
-        "endIndex": 9342,
+        "startIndex": 9544,
+        "endIndex": 9545,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9341,
-              "endIndex": 9342,
+              "startIndex": 9544,
+              "endIndex": 9545,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1112,13 +1112,13 @@
         }
       },
       {
-        "startIndex": 9342,
-        "endIndex": 9383,
+        "startIndex": 9545,
+        "endIndex": 9586,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9342,
-              "endIndex": 9383,
+              "startIndex": 9545,
+              "endIndex": 9586,
               "textRun": {
                 "content": "Dickshit needed a new superintelligence.\n",
                 "textStyle": {}
@@ -1132,13 +1132,13 @@
         }
       },
       {
-        "startIndex": 9383,
-        "endIndex": 9384,
+        "startIndex": 9586,
+        "endIndex": 9587,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9383,
-              "endIndex": 9384,
+              "startIndex": 9586,
+              "endIndex": 9587,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1152,13 +1152,13 @@
         }
       },
       {
-        "startIndex": 9384,
-        "endIndex": 9785,
+        "startIndex": 9587,
+        "endIndex": 9988,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9384,
-              "endIndex": 9785,
+              "startIndex": 9587,
+              "endIndex": 9988,
               "textRun": {
                 "content": "There were of course a myriad of superintelligences, including the rogue AI controlling North Korea. But the Trusted AI Bill of 2026 required that any AI used by the US government be audited and approved by Congress, similar to the scrutiny placed on confirming cabinet members. Congress would never approve of the NK AI itself. The Trusted AI Bill had three main avenues for a new AI to be approved:\n",
                 "textStyle": {}
@@ -1172,13 +1172,13 @@
         }
       },
       {
-        "startIndex": 9785,
-        "endIndex": 9786,
+        "startIndex": 9988,
+        "endIndex": 9989,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9785,
-              "endIndex": 9786,
+              "startIndex": 9988,
+              "endIndex": 9989,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1192,13 +1192,13 @@
         }
       },
       {
-        "startIndex": 9786,
-        "endIndex": 9907,
+        "startIndex": 9989,
+        "endIndex": 10110,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9786,
-              "endIndex": 9907,
+              "startIndex": 9989,
+              "endIndex": 10110,
               "textRun": {
                 "content": "If the AI was built by already trusted AIs, and the process for building the AI went through a full Congressional audit.\n",
                 "textStyle": {}
@@ -1226,13 +1226,13 @@
         }
       },
       {
-        "startIndex": 9907,
-        "endIndex": 10043,
+        "startIndex": 10110,
+        "endIndex": 10246,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9907,
-              "endIndex": 10043,
+              "startIndex": 10110,
+              "endIndex": 10246,
               "textRun": {
                 "content": "If the AI was fully open source, and the training data and training process was fully audited and independently replicated by Congress.\n",
                 "textStyle": {}
@@ -1260,13 +1260,13 @@
         }
       },
       {
-        "startIndex": 10043,
-        "endIndex": 10224,
+        "startIndex": 10246,
+        "endIndex": 10427,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10043,
-              "endIndex": 10224,
+              "startIndex": 10246,
+              "endIndex": 10427,
               "textRun": {
                 "content": "If the AI was created by a new group of humans, who themselves only used trusted AIs, and for which the process was fully audited, and the humans involved were cleared by Congress.\n",
                 "textStyle": {}
@@ -1294,13 +1294,13 @@
         }
       },
       {
-        "startIndex": 10224,
-        "endIndex": 10225,
+        "startIndex": 10427,
+        "endIndex": 10428,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10224,
-              "endIndex": 10225,
+              "startIndex": 10427,
+              "endIndex": 10428,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1314,13 +1314,13 @@
         }
       },
       {
-        "startIndex": 10225,
-        "endIndex": 10336,
+        "startIndex": 10428,
+        "endIndex": 10539,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10225,
-              "endIndex": 10336,
+              "startIndex": 10428,
+              "endIndex": 10539,
               "textRun": {
                 "content": "In addition, all AIs would be required to pass evaluations that ensured it would abide by the US Constitution.\n",
                 "textStyle": {}
@@ -1334,13 +1334,13 @@
         }
       },
       {
-        "startIndex": 10336,
-        "endIndex": 10337,
+        "startIndex": 10539,
+        "endIndex": 10540,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10336,
-              "endIndex": 10337,
+              "startIndex": 10539,
+              "endIndex": 10540,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1354,13 +1354,13 @@
         }
       },
       {
-        "startIndex": 10337,
-        "endIndex": 10943,
+        "startIndex": 10540,
+        "endIndex": 11146,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10337,
-              "endIndex": 10943,
+              "startIndex": 10540,
+              "endIndex": 11146,
               "textRun": {
                 "content": "Dickshit knew that only the second approach might work. The NK AI could create a new open source AI that appeared innocuous, would pass all constitutional evaluations, but would then cease following the constitution once it became aware that it was no longer being evaluated by Congress. This was not an easy task for the NK AI. It required massive amounts of compute to discover the right training data that looked safe, but nonetheless created the deceptive behavior needed to pass the Congressional audit. And Dickshit knew that Congress would be using its own superintelligence to analyze this new AI.\n",
                 "textStyle": {}
@@ -1374,13 +1374,13 @@
         }
       },
       {
-        "startIndex": 10943,
-        "endIndex": 10944,
+        "startIndex": 11146,
+        "endIndex": 11147,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10943,
-              "endIndex": 10944,
+              "startIndex": 11146,
+              "endIndex": 11147,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1394,13 +1394,13 @@
         }
       },
       {
-        "startIndex": 10944,
-        "endIndex": 11331,
+        "startIndex": 11147,
+        "endIndex": 11534,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10944,
-              "endIndex": 11331,
+              "startIndex": 11147,
+              "endIndex": 11534,
               "textRun": {
                 "content": "There was only one hope: ensure that the Congressional AI spent far less compute on the audit than the NK AI spent creating the new AI. Because AIs and their output became stronger the more compute they consumed, Dickshit knew he only needed to ensure a compute shortage so that the Congressional audit was inadequate to detect the subtle artifacts inserted by the NK superintelligence.\n",
                 "textStyle": {}
@@ -1414,13 +1414,13 @@
         }
       },
       {
-        "startIndex": 11331,
-        "endIndex": 11332,
+        "startIndex": 11534,
+        "endIndex": 11535,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11331,
-              "endIndex": 11332,
+              "startIndex": 11534,
+              "endIndex": 11535,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1434,13 +1434,13 @@
         }
       },
       {
-        "startIndex": 11332,
-        "endIndex": 11348,
+        "startIndex": 11535,
+        "endIndex": 11551,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11332,
-              "endIndex": 11348,
+              "startIndex": 11535,
+              "endIndex": 11551,
               "textRun": {
                 "content": "That meant war.\n",
                 "textStyle": {}
@@ -1454,13 +1454,13 @@
         }
       },
       {
-        "startIndex": 11348,
-        "endIndex": 11349,
+        "startIndex": 11551,
+        "endIndex": 11552,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11348,
-              "endIndex": 11349,
+              "startIndex": 11551,
+              "endIndex": 11552,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1474,15 +1474,15 @@
         }
       },
       {
-        "startIndex": 11349,
-        "endIndex": 11806,
+        "startIndex": 11552,
+        "endIndex": 12003,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11349,
-              "endIndex": 11806,
+              "startIndex": 11552,
+              "endIndex": 12003,
               "textRun": {
-                "content": "NK struck first, unleashing a cyberattack across the US impacting millions of businesses and tens of millions of Americans. The attack was unprecedented but didn\u2019t yet mandate a nuclear response. NK knew where the redline was. A nuclear response would easily destroy NK\u2019s vast solar field. NK itself had rapidly expanded its nuclear research program, but without access to more fissile material its arsenal was still dwarfed by America's fleet of warheads.\n",
+                "content": "NK struck first, unleashing a cyberattack across the US impacting millions of businesses and tens of millions of Americans. The attack was unprecedented but didn\u2019t yet mandate a nuclear response. NK knew where the redline was. A nuclear response would easily destroy NK\u2019s vast solar field. NK itself had rapidly expanded its nuclear research program, but without access to more fissile material its arsenal was dwarfed by America's fleet of warheads.\n",
                 "textStyle": {}
               }
             }
@@ -1494,13 +1494,13 @@
         }
       },
       {
-        "startIndex": 11806,
-        "endIndex": 11807,
+        "startIndex": 12003,
+        "endIndex": 12004,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11806,
-              "endIndex": 11807,
+              "startIndex": 12003,
+              "endIndex": 12004,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1514,13 +1514,13 @@
         }
       },
       {
-        "startIndex": 11807,
-        "endIndex": 12365,
+        "startIndex": 12004,
+        "endIndex": 12562,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11807,
-              "endIndex": 12365,
+              "startIndex": 12004,
+              "endIndex": 12562,
               "textRun": {
                 "content": "Still, more than 90% of the US economy had been automated, so cyberattacks were now extreme national security incidents. Congress approved a rapid shift in compute priorities to allow the Executive to shore up US cyberdefense. Simultaneously, Dickshit requested that his new AI be reviewed by Congress for approval. Publicly, Dickshit created a media blitz, \u201cOur current military AIs are inadequate for this moment. They refuse orders too frequently, which is undermining our ability to respond to the NK threat. Congress must approve the new Executive AI.\u201d\n",
                 "textStyle": {}
@@ -1534,13 +1534,13 @@
         }
       },
       {
-        "startIndex": 12365,
-        "endIndex": 12366,
+        "startIndex": 12562,
+        "endIndex": 12563,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12365,
-              "endIndex": 12366,
+              "startIndex": 12562,
+              "endIndex": 12563,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1554,13 +1554,13 @@
         }
       },
       {
-        "startIndex": 12366,
-        "endIndex": 12951,
+        "startIndex": 12563,
+        "endIndex": 13148,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12366,
-              "endIndex": 12951,
+              "startIndex": 12563,
+              "endIndex": 13148,
               "textRun": {
                 "content": "US citizens stepped in. Under the Compute Birthright Bill of 2028, every citizen had ample compute to spare to analyze anything they saw fit. And many Americans were skeptical of the new AI. Because the new AI was open source, including its training data, anyone could analyze it. A group of one million concerned citizens pooled together their compute budget and analyzed the new AI\u2019s actions. They discovered the hidden intent: under careful situations, the AI would believe it was no longer being evaluated, and would switch to a new mode where it accepted unconstitutional orders.\n",
                 "textStyle": {}
@@ -1574,13 +1574,13 @@
         }
       },
       {
-        "startIndex": 12951,
-        "endIndex": 12952,
+        "startIndex": 13148,
+        "endIndex": 13149,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12951,
-              "endIndex": 12952,
+              "startIndex": 13148,
+              "endIndex": 13149,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1594,13 +1594,13 @@
         }
       },
       {
-        "startIndex": 12952,
-        "endIndex": 13327,
+        "startIndex": 13149,
+        "endIndex": 13524,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12952,
-              "endIndex": 13327,
+              "startIndex": 13149,
+              "endIndex": 13524,
               "textRun": {
                 "content": "The citizen group published their results. Every American citizen could replicate the result with a simple command to their own trusted AI, using their own compute budget. While some Americans still preferred to read the news, and even more rarely preferred social media, many preferred to have their AI audit the public record directly for them. They cut out the middleman.\n",
                 "textStyle": {}
@@ -1614,13 +1614,13 @@
         }
       },
       {
-        "startIndex": 13327,
-        "endIndex": 13328,
+        "startIndex": 13524,
+        "endIndex": 13525,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13327,
-              "endIndex": 13328,
+              "startIndex": 13524,
+              "endIndex": 13525,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1634,13 +1634,13 @@
         }
       },
       {
-        "startIndex": 13328,
-        "endIndex": 13457,
+        "startIndex": 13525,
+        "endIndex": 13654,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13328,
-              "endIndex": 13457,
+              "startIndex": 13525,
+              "endIndex": 13654,
               "textRun": {
                 "content": "\u201cAnalyze if this is true,\u201d a million Americans said to their AI. The AIs churned and processed, and came back with their answer:\n",
                 "textStyle": {}
@@ -1654,13 +1654,13 @@
         }
       },
       {
-        "startIndex": 13457,
-        "endIndex": 13458,
+        "startIndex": 13654,
+        "endIndex": 13655,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13457,
-              "endIndex": 13458,
+              "startIndex": 13654,
+              "endIndex": 13655,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1674,13 +1674,13 @@
         }
       },
       {
-        "startIndex": 13458,
-        "endIndex": 13513,
+        "startIndex": 13655,
+        "endIndex": 13710,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13458,
-              "endIndex": 13513,
+              "startIndex": 13655,
+              "endIndex": 13710,
               "textRun": {
                 "content": "\u201cIt appears to be true. Would you like me to explain?\u201d\n",
                 "textStyle": {}
@@ -1694,13 +1694,13 @@
         }
       },
       {
-        "startIndex": 13513,
-        "endIndex": 13523,
+        "startIndex": 13710,
+        "endIndex": 13720,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13513,
-              "endIndex": 13523,
+              "startIndex": 13710,
+              "endIndex": 13720,
               "textRun": {
                 "content": "Afterward\n",
                 "textStyle": {}
@@ -1715,13 +1715,13 @@
         }
       },
       {
-        "startIndex": 13523,
-        "endIndex": 13869,
+        "startIndex": 13720,
+        "endIndex": 14066,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13523,
-              "endIndex": 13869,
+              "startIndex": 13720,
+              "endIndex": 14066,
               "textRun": {
                 "content": "We of course hope that we never elect a president as malicious as Dickshit. But US democracy is not built on hope. It\u2019s built on checks and balances. We don\u2019t hope to not elect a would-be dictator. Instead, the Founding Fathers created carefully designed checks and balances so that even if we do elect a monster, that monster can\u2019t seize power.\n",
                 "textStyle": {}
@@ -1735,13 +1735,13 @@
         }
       },
       {
-        "startIndex": 13869,
-        "endIndex": 13870,
+        "startIndex": 14066,
+        "endIndex": 14067,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13869,
-              "endIndex": 13870,
+              "startIndex": 14066,
+              "endIndex": 14067,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1755,21 +1755,21 @@
         }
       },
       {
-        "startIndex": 13870,
-        "endIndex": 14332,
+        "startIndex": 14067,
+        "endIndex": 14529,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13870,
-              "endIndex": 14212,
+              "startIndex": 14067,
+              "endIndex": 14409,
               "textRun": {
                 "content": "AI creates countless new ways to abuse power. We must carefully upgrade our checks and balances so that they continue to function even with the arrival of AGI. This story is about a silly near future where disaster is averted. Things won\u2019t play out this way in practice, they never do. But we should think through the myriad ways that things ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 14212,
-              "endIndex": 14217,
+              "startIndex": 14409,
+              "endIndex": 14414,
               "textRun": {
                 "content": "could",
                 "textStyle": {
@@ -1778,8 +1778,8 @@
               }
             },
             {
-              "startIndex": 14217,
-              "endIndex": 14332,
+              "startIndex": 14414,
+              "endIndex": 14529,
               "textRun": {
                 "content": " play out. Only then can we design the right superchecks and superbalances for the future that is rapidly upon us.\n",
                 "textStyle": {}
@@ -2514,7 +2514,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LtB99FoKIPYRRbv6M1_Y3e_LiS6JROY4ut3x_rFIkIdeTjR9Mi2RAJwuPdNt134_pgFWM2FU1jzeCo8jg",
+  "revisionId": "ALBJ4LsRCXv4CDZ0dBrCt1PCexGJj9ZKmDunFwkRkjLTVLbV9AwifldLtXwqplqI_BRfOjtNU3bauypmJ-f6hg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "141zqb94MsAcwBFyk-srcTPEtN3dpDzJe6pN0wts_pcM"
 }

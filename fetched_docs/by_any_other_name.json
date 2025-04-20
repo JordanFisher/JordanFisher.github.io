@@ -1,5 +1,5 @@
 {
-  "title": "By any other name",
+  "title": "The default path leads to tyranny",
   "body": {
     "content": [
       {
@@ -14,14 +14,14 @@
       },
       {
         "startIndex": 1,
-        "endIndex": 19,
+        "endIndex": 26,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1,
-              "endIndex": 19,
+              "endIndex": 26,
               "textRun": {
-                "content": "By any other name\n",
+                "content": "A simple path to tyranny\n",
                 "textStyle": {}
               }
             }
@@ -34,15 +34,15 @@
         }
       },
       {
-        "startIndex": 19,
-        "endIndex": 160,
+        "startIndex": 26,
+        "endIndex": 182,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19,
-              "endIndex": 160,
+              "startIndex": 26,
+              "endIndex": 182,
               "textRun": {
-                "content": "[[[Removing implicit guardrails will have many effects. Let\u2019s focus specifically on how it removes impediments to concentration of power.]]]\n",
+                "content": "[[[Removing implicit guardrails has many implications, but let's specifically examine how it eliminates natural obstacles to the concentration of power.]]]\n",
                 "textStyle": {}
               }
             }
@@ -54,53 +54,13 @@
         }
       },
       {
-        "startIndex": 160,
-        "endIndex": 161,
+        "startIndex": 182,
+        "endIndex": 183,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 160,
-              "endIndex": 161,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 161,
-        "endIndex": 300,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 161,
-              "endIndex": 300,
-              "textRun": {
-                "content": "Removing implicit guardrails will have many effects, but let\u2019s focus specifically on how it removes impediments to concentration of power.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 300,
-        "endIndex": 301,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 300,
-              "endIndex": 301,
+              "startIndex": 182,
+              "endIndex": 183,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -114,15 +74,15 @@
         }
       },
       {
-        "startIndex": 301,
-        "endIndex": 589,
+        "startIndex": 183,
+        "endIndex": 498,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 301,
-              "endIndex": 589,
+              "startIndex": 183,
+              "endIndex": 498,
               "textRun": {
-                "content": "Throughout history there have been natural impediments to tyranny. Communication, to start with. It\u2019s damn hard to control a sprawling empire when it takes months to communicate across it. When the Mongols conquered the known world, or when Alexander did it, the outcome was short-lived.\n",
+                "content": "Throughout history there have been natural impediments to tyranny. Communication, to start with. It\u2019s damn hard to control a sprawling empire when it takes months to communicate across it. When Alexander the Great or Genghis Khan conquered vast empires, their dominance was short-lived due to these natural limits.\n",
                 "textStyle": {}
               }
             }
@@ -134,53 +94,13 @@
         }
       },
       {
-        "startIndex": 589,
-        "endIndex": 590,
+        "startIndex": 498,
+        "endIndex": 499,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 589,
-              "endIndex": 590,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 590,
-        "endIndex": 637,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 590,
-              "endIndex": 637,
-              "textRun": {
-                "content": "\u201cHeaven is high, and the emperor is far away.\u201d\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 637,
-        "endIndex": 638,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 637,
-              "endIndex": 638,
+              "startIndex": 498,
+              "endIndex": 499,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -194,13 +114,53 @@
         }
       },
       {
-        "startIndex": 638,
-        "endIndex": 702,
+        "startIndex": 499,
+        "endIndex": 566,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 638,
-              "endIndex": 702,
+              "startIndex": 499,
+              "endIndex": 566,
+              "textRun": {
+                "content": "As the saying goes, \u201cHeaven is high, and the emperor is far away.\u201d\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 566,
+        "endIndex": 567,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 566,
+              "endIndex": 567,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 567,
+        "endIndex": 631,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 567,
+              "endIndex": 631,
               "textRun": {
                 "content": "It\u2019s impossible to forever subjugate a people that is far away.\n",
                 "textStyle": {}
@@ -214,13 +174,13 @@
         }
       },
       {
-        "startIndex": 702,
-        "endIndex": 703,
+        "startIndex": 631,
+        "endIndex": 632,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 702,
-              "endIndex": 703,
+              "startIndex": 631,
+              "endIndex": 632,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -234,21 +194,21 @@
         }
       },
       {
-        "startIndex": 703,
-        "endIndex": 1069,
+        "startIndex": 632,
+        "endIndex": 1049,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 703,
-              "endIndex": 913,
+              "startIndex": 632,
+              "endIndex": 893,
               "textRun": {
-                "content": "Even today, the emperor is far. In a country of hundreds of millions or even billions, your text message to a friend will likely go unnoticed, even if you\u2019re coordinating a protest. Even if you\u2019re coordinating ",
+                "content": "Even today, the emperor is far, and central authority remains distant and limited. In a country of hundreds of millions or even billions, your text message to a friend will likely go unnoticed, even if you\u2019re coordinating a protest. Even if you\u2019re coordinating ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 913,
-              "endIndex": 919,
+              "startIndex": 893,
+              "endIndex": 899,
               "textRun": {
                 "content": "a riot",
                 "textStyle": {
@@ -257,8 +217,8 @@
               }
             },
             {
-              "startIndex": 919,
-              "endIndex": 1069,
+              "startIndex": 899,
+              "endIndex": 1049,
               "textRun": {
                 "content": ". Finding your text message among billions is harder than finding a needle in a haystack. This is a strong limit on the central power of governments.\n",
                 "textStyle": {}
@@ -272,13 +232,13 @@
         }
       },
       {
-        "startIndex": 1069,
-        "endIndex": 1070,
+        "startIndex": 1049,
+        "endIndex": 1050,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1069,
-              "endIndex": 1070,
+              "startIndex": 1049,
+              "endIndex": 1050,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -292,13 +252,13 @@
         }
       },
       {
-        "startIndex": 1070,
-        "endIndex": 1101,
+        "startIndex": 1050,
+        "endIndex": 1081,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1070,
-              "endIndex": 1101,
+              "startIndex": 1050,
+              "endIndex": 1081,
               "textRun": {
                 "content": "But there are stronger limits.\n",
                 "textStyle": {}
@@ -312,13 +272,13 @@
         }
       },
       {
-        "startIndex": 1101,
-        "endIndex": 1102,
+        "startIndex": 1081,
+        "endIndex": 1082,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1101,
-              "endIndex": 1102,
+              "startIndex": 1081,
+              "endIndex": 1082,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -332,15 +292,15 @@
         }
       },
       {
-        "startIndex": 1102,
-        "endIndex": 1691,
+        "startIndex": 1082,
+        "endIndex": 1654,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1102,
-              "endIndex": 1691,
+              "startIndex": 1082,
+              "endIndex": 1654,
               "textRun": {
-                "content": "The government itself is run by its own citizens, and they have moral thresholds they won\u2019t cross. Those thresholds are fuzzy, and leaders will constantly test them, unsure what the full extent of their power is before they\u2019re rejected. They have to do this cautiously; it\u2019s hard to regain a mandate after you\u2019ve lost it. Implicitly, a country is run not just by its citizen-powered government, but by society writ large: by millions of human powered companies, human powered social groups, and human powered discussions that influence the power dynamic of both public and private forces.\n",
+                "content": "The government itself is run by its own citizens, and they have moral thresholds they won\u2019t cross. These thresholds are vague, and leaders constantly test them, uncertain how far they can push without losing legitimacy. They have to do this cautiously; it\u2019s hard to regain a mandate after you\u2019ve lost it. Implicitly, a country is run not just by its citizen-powered government, but by society writ large: by millions of human powered companies, human powered social groups, and human powered discussions that influence the power dynamic of both public and private forces.\n",
                 "textStyle": {}
               }
             }
@@ -352,53 +312,13 @@
         }
       },
       {
-        "startIndex": 1691,
-        "endIndex": 1692,
+        "startIndex": 1654,
+        "endIndex": 1655,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1691,
-              "endIndex": 1692,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1692,
-        "endIndex": 1998,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1692,
-              "endIndex": 1998,
-              "textRun": {
-                "content": "The ultimate limit on dictatorship though is abundance. The rich in America live better lives than Kim Jong Un. They enjoy all the material benefits he does, without the fear of assassination or coups or the stress of managing international geopolitics. What rich person would trade spots with a dictator?\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1998,
-        "endIndex": 1999,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1998,
-              "endIndex": 1999,
+              "startIndex": 1654,
+              "endIndex": 1655,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -412,13 +332,53 @@
         }
       },
       {
-        "startIndex": 1999,
-        "endIndex": 2397,
+        "startIndex": 1655,
+        "endIndex": 2093,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1999,
-              "endIndex": 2397,
+              "startIndex": 1655,
+              "endIndex": 2093,
+              "textRun": {
+                "content": "These limits help prevent a leader from seizing power and forming a dictatorship. But even without these limits, there's a self interested motive for the powerful to play nice: abundance. The rich in America live better lives than Kim Jong Un. They enjoy all the material benefits he does, without the fear of assassination or coups or the stress of managing international geopolitics. What rich person would trade spots with a dictator?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2093,
+        "endIndex": 2094,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2093,
+              "endIndex": 2094,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2094,
+        "endIndex": 2492,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2094,
+              "endIndex": 2492,
               "textRun": {
                 "content": "The abundance created in prospering democracies provides the biggest incentives for leaders to maintain it. If you successfully seize power, you\u2019ll at best become a lord of shit. In illiberal dictatorships, the best and brightest flee or, if they stay, build less, discover less, create less. What remains for the dictator is a life impoverished, worse than an average upper class life in America.\n",
                 "textStyle": {}
@@ -432,13 +392,13 @@
         }
       },
       {
-        "startIndex": 2397,
-        "endIndex": 2398,
+        "startIndex": 2492,
+        "endIndex": 2493,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2397,
-              "endIndex": 2398,
+              "startIndex": 2492,
+              "endIndex": 2493,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -452,21 +412,21 @@
         }
       },
       {
-        "startIndex": 2398,
-        "endIndex": 2494,
+        "startIndex": 2493,
+        "endIndex": 2589,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2398,
-              "endIndex": 2443,
+              "startIndex": 2493,
+              "endIndex": 2538,
               "textRun": {
                 "content": "AI removes all of these implicit impediments ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 2443,
-              "endIndex": 2493,
+              "startIndex": 2538,
+              "endIndex": 2588,
               "textRun": {
                 "content": "and also adds explicit accelerants toward tyranny.",
                 "textStyle": {
@@ -475,8 +435,8 @@
               }
             },
             {
-              "startIndex": 2493,
-              "endIndex": 2494,
+              "startIndex": 2588,
+              "endIndex": 2589,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -490,13 +450,13 @@
         }
       },
       {
-        "startIndex": 2494,
-        "endIndex": 2495,
+        "startIndex": 2589,
+        "endIndex": 2590,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2494,
-              "endIndex": 2495,
+              "startIndex": 2589,
+              "endIndex": 2590,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -510,15 +470,15 @@
         }
       },
       {
-        "startIndex": 2495,
-        "endIndex": 2507,
+        "startIndex": 2590,
+        "endIndex": 2647,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2495,
-              "endIndex": 2507,
+              "startIndex": 2590,
+              "endIndex": 2647,
               "textRun": {
-                "content": "Concretely:\n",
+                "content": "Consider what a fully automated government might enable:\n",
                 "textStyle": {}
               }
             }
@@ -530,13 +490,13 @@
         }
       },
       {
-        "startIndex": 2507,
-        "endIndex": 2508,
+        "startIndex": 2647,
+        "endIndex": 2648,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2507,
-              "endIndex": 2508,
+              "startIndex": 2647,
+              "endIndex": 2648,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -550,15 +510,15 @@
         }
       },
       {
-        "startIndex": 2508,
-        "endIndex": 2620,
+        "startIndex": 2648,
+        "endIndex": 2781,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2508,
-              "endIndex": 2620,
+              "startIndex": 2648,
+              "endIndex": 2781,
               "textRun": {
-                "content": "A fully automated government can persecute with impunity, with no moral pushback? from individual human agents.\n",
+                "content": "A fully automated government can persecute with impunity, with no moral pushback from individual human agents inside the government.\n",
                 "textStyle": {}
               }
             }
@@ -582,13 +542,13 @@
         }
       },
       {
-        "startIndex": 2620,
-        "endIndex": 2621,
+        "startIndex": 2781,
+        "endIndex": 2782,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2620,
-              "endIndex": 2621,
+              "startIndex": 2781,
+              "endIndex": 2782,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -602,13 +562,13 @@
         }
       },
       {
-        "startIndex": 2621,
-        "endIndex": 2766,
+        "startIndex": 2782,
+        "endIndex": 2927,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2621,
-              "endIndex": 2766,
+              "startIndex": 2782,
+              "endIndex": 2927,
               "textRun": {
                 "content": "An automated FBI can fabricate infinite evidence against millions of adversaries, without a single human agent to say no or to blow the whistle.\n",
                 "textStyle": {}
@@ -634,13 +594,13 @@
         }
       },
       {
-        "startIndex": 2766,
-        "endIndex": 2767,
+        "startIndex": 2927,
+        "endIndex": 2928,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2766,
-              "endIndex": 2767,
+              "startIndex": 2927,
+              "endIndex": 2928,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -654,13 +614,13 @@
         }
       },
       {
-        "startIndex": 2767,
-        "endIndex": 2879,
+        "startIndex": 2928,
+        "endIndex": 3040,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2767,
-              "endIndex": 2879,
+              "startIndex": 2928,
+              "endIndex": 3040,
               "textRun": {
                 "content": "An automated justice department can prosecute millions of cases against citizens brought by this automated FBI.\n",
                 "textStyle": {}
@@ -686,13 +646,13 @@
         }
       },
       {
-        "startIndex": 2879,
-        "endIndex": 2880,
+        "startIndex": 3040,
+        "endIndex": 3041,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2879,
-              "endIndex": 2880,
+              "startIndex": 3040,
+              "endIndex": 3041,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -706,13 +666,13 @@
         }
       },
       {
-        "startIndex": 2880,
-        "endIndex": 3388,
+        "startIndex": 3041,
+        "endIndex": 3549,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2880,
-              "endIndex": 3388,
+              "startIndex": 3041,
+              "endIndex": 3549,
               "textRun": {
                 "content": "Automated intelligence agencies can review every text message, every email, and every social media post. With superintelligent computer hacking abilities, they can access all information not defended by similarly powerful superintelligences. Even today, nation states can hack almost any target they want, but at a high human cost. Tomorrow, with this process automated, the expensive tools they reserved for fighting grave national security risks can cheaply be turned to monitor and exploit every citizen.\n",
                 "textStyle": {}
@@ -738,13 +698,13 @@
         }
       },
       {
-        "startIndex": 3388,
-        "endIndex": 3389,
+        "startIndex": 3549,
+        "endIndex": 3550,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3388,
-              "endIndex": 3389,
+              "startIndex": 3549,
+              "endIndex": 3550,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -758,13 +718,13 @@
         }
       },
       {
-        "startIndex": 3389,
-        "endIndex": 3607,
+        "startIndex": 3550,
+        "endIndex": 3768,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3389,
-              "endIndex": 3607,
+              "startIndex": 3550,
+              "endIndex": 3768,
               "textRun": {
                 "content": "An automated system can further weave all of this complex information together into a single map of the entire population, understanding where and how to exert pressure to further consolidate control over individuals.\n",
                 "textStyle": {}
@@ -790,13 +750,13 @@
         }
       },
       {
-        "startIndex": 3607,
-        "endIndex": 3608,
+        "startIndex": 3768,
+        "endIndex": 3769,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3607,
-              "endIndex": 3608,
+              "startIndex": 3768,
+              "endIndex": 3769,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -810,13 +770,13 @@
         }
       },
       {
-        "startIndex": 3608,
-        "endIndex": 3838,
+        "startIndex": 3769,
+        "endIndex": 3999,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3608,
-              "endIndex": 3838,
+              "startIndex": 3769,
+              "endIndex": 3999,
               "textRun": {
                 "content": "These are all powers that the government has today, but that tomorrow will suddenly become cheap enough to do at scale, and will be automated enough to do without any human agents in the government (if any remain) able to stop it\n",
                 "textStyle": {}
@@ -842,13 +802,13 @@
         }
       },
       {
-        "startIndex": 3838,
-        "endIndex": 3839,
+        "startIndex": 3999,
+        "endIndex": 4000,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3838,
-              "endIndex": 3839,
+              "startIndex": 3999,
+              "endIndex": 4000,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -862,13 +822,13 @@
         }
       },
       {
-        "startIndex": 3839,
-        "endIndex": 3932,
+        "startIndex": 4000,
+        "endIndex": 4093,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3839,
-              "endIndex": 3932,
+              "startIndex": 4000,
+              "endIndex": 4093,
               "textRun": {
                 "content": "Worse, even without a thirst for power, leaders will be pressured to move toward this world.\n",
                 "textStyle": {}
@@ -882,13 +842,13 @@
         }
       },
       {
-        "startIndex": 3932,
-        "endIndex": 3933,
+        "startIndex": 4093,
+        "endIndex": 4094,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3932,
-              "endIndex": 3933,
+              "startIndex": 4093,
+              "endIndex": 4094,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -902,21 +862,21 @@
         }
       },
       {
-        "startIndex": 3933,
-        "endIndex": 4377,
+        "startIndex": 4094,
+        "endIndex": 4538,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3933,
-              "endIndex": 4126,
+              "startIndex": 4094,
+              "endIndex": 4287,
               "textRun": {
                 "content": "Everyone wants more efficient government, so we will increasingly install automation in government agencies. Corporations will (and are) rapidly pushing for their own internal automation; they ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4126,
-              "endIndex": 4133,
+              "startIndex": 4287,
+              "endIndex": 4294,
               "textRun": {
                 "content": "have to",
                 "textStyle": {
@@ -925,8 +885,8 @@
               }
             },
             {
-              "startIndex": 4133,
-              "endIndex": 4377,
+              "startIndex": 4294,
+              "endIndex": 4538,
               "textRun": {
                 "content": " in order to stay competitive. And there will be strong lobbying from corporations to remove blockers toward automation: they do and will argue that this is necessary for their businesses to stay viable. And in a global economy, they\u2019re right.\n",
                 "textStyle": {}
@@ -940,13 +900,13 @@
         }
       },
       {
-        "startIndex": 4377,
-        "endIndex": 4378,
+        "startIndex": 4538,
+        "endIndex": 4539,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4377,
-              "endIndex": 4378,
+              "startIndex": 4538,
+              "endIndex": 4539,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -960,13 +920,13 @@
         }
       },
       {
-        "startIndex": 4378,
-        "endIndex": 4624,
+        "startIndex": 4539,
+        "endIndex": 4785,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4378,
-              "endIndex": 4624,
+              "startIndex": 4539,
+              "endIndex": 4785,
               "textRun": {
                 "content": "Likewise, governments will have to automate to stay competitive against foreign adversaries. A human powered intelligence organization will be helpless against a foreign intelligence organization fully automated and powered by superintelligence.\n",
                 "textStyle": {}
@@ -980,13 +940,13 @@
         }
       },
       {
-        "startIndex": 4624,
-        "endIndex": 4625,
+        "startIndex": 4785,
+        "endIndex": 4786,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4624,
-              "endIndex": 4625,
+              "startIndex": 4785,
+              "endIndex": 4786,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1000,21 +960,21 @@
         }
       },
       {
-        "startIndex": 4625,
-        "endIndex": 5218,
+        "startIndex": 4786,
+        "endIndex": 5366,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4625,
-              "endIndex": 5022,
+              "startIndex": 4786,
+              "endIndex": 5183,
               "textRun": {
                 "content": "There will be intense pressure to allow organizations to fully automate. Once they do, fully automated entities will outcompete non-automated entities. The remaining battle for power will be between automated powers, and in an automated world little else matters in the outcome of those battles beyond the scale of each power. Today economic and military battles are won by a combination of scale ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5022,
-              "endIndex": 5030,
+              "startIndex": 5183,
+              "endIndex": 5191,
               "textRun": {
                 "content": "and also",
                 "textStyle": {
@@ -1023,10 +983,10 @@
               }
             },
             {
-              "startIndex": 5030,
-              "endIndex": 5218,
+              "startIndex": 5191,
+              "endIndex": 5366,
               "textRun": {
-                "content": " talent, morale, and culture. Tomorrow, the human elements will be removed, and scale and position alone will dictate how showdowns resolve. Power will beget power, with no natural limit.\n",
+                "content": " talent, morale, and culture. Tomorrow, the human elements will be removed, and scale alone will dictate how showdowns resolve. Power will beget power, with no natural limit.\n",
                 "textStyle": {}
               }
             }
@@ -1038,13 +998,13 @@
         }
       },
       {
-        "startIndex": 5218,
-        "endIndex": 5219,
+        "startIndex": 5366,
+        "endIndex": 5367,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5218,
-              "endIndex": 5219,
+              "startIndex": 5366,
+              "endIndex": 5367,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1058,13 +1018,13 @@
         }
       },
       {
-        "startIndex": 5219,
-        "endIndex": 5718,
+        "startIndex": 5367,
+        "endIndex": 5866,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5219,
-              "endIndex": 5718,
+              "startIndex": 5367,
+              "endIndex": 5866,
               "textRun": {
                 "content": "Without new guardrails in place to mitigate this runaway effect, the default outcome is centralization of power. The competitive landscape will force it. Then, whoever wields that central power can easily choose to solidify it into a dictatorship. But will they? If they are self interested, yes. Unlike the dictatorships of today that decrease abundance, even for the leaders, an automated dictatorship of tomorrow will likely create more abundance for the dictator than if they don\u2019t seize power:\n",
                 "textStyle": {}
@@ -1078,13 +1038,13 @@
         }
       },
       {
-        "startIndex": 5718,
-        "endIndex": 5719,
+        "startIndex": 5866,
+        "endIndex": 5867,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5718,
-              "endIndex": 5719,
+              "startIndex": 5866,
+              "endIndex": 5867,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1098,13 +1058,13 @@
         }
       },
       {
-        "startIndex": 5719,
-        "endIndex": 6339,
+        "startIndex": 5867,
+        "endIndex": 6487,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5719,
-              "endIndex": 6339,
+              "startIndex": 5867,
+              "endIndex": 6487,
               "textRun": {
                 "content": "A fully automated economy will require no further input from humans. Therefore, there is no implicit need for citizens to help push the economy forward. Worse still, allowing multiple winners in the economy is no longer needed, and is strictly a net-negative for anyone in control. Today, the spoils of the economy must at least partially be spread out, to keep the wheels of the economy spinning and the luxuries of abundance available to leaders. But a fully automated economy can be owned by a single person and yield them more wealth than they could ever obtain in a free society, even a free society powered by AI.\n",
                 "textStyle": {}
@@ -1118,13 +1078,13 @@
         }
       },
       {
-        "startIndex": 6339,
-        "endIndex": 6340,
+        "startIndex": 6487,
+        "endIndex": 6488,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6339,
-              "endIndex": 6340,
+              "startIndex": 6487,
+              "endIndex": 6488,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1138,21 +1098,21 @@
         }
       },
       {
-        "startIndex": 6340,
-        "endIndex": 6489,
+        "startIndex": 6488,
+        "endIndex": 6637,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6340,
-              "endIndex": 6356,
+              "startIndex": 6488,
+              "endIndex": 6504,
               "textRun": {
-                "content": "But there is an ",
+                "content": "And there is an ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 6356,
-              "endIndex": 6368,
+              "startIndex": 6504,
+              "endIndex": 6516,
               "textRun": {
                 "content": "even greater",
                 "textStyle": {
@@ -1161,8 +1121,8 @@
               }
             },
             {
-              "startIndex": 6368,
-              "endIndex": 6489,
+              "startIndex": 6516,
+              "endIndex": 6637,
               "textRun": {
                 "content": " force at play: automated dictatorships will likely be more powerful than automated democracies, all other things equal.\n",
                 "textStyle": {}
@@ -1176,13 +1136,13 @@
         }
       },
       {
-        "startIndex": 6489,
-        "endIndex": 6490,
+        "startIndex": 6637,
+        "endIndex": 6638,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6489,
-              "endIndex": 6490,
+              "startIndex": 6637,
+              "endIndex": 6638,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1196,13 +1156,13 @@
         }
       },
       {
-        "startIndex": 6490,
-        "endIndex": 6760,
+        "startIndex": 6638,
+        "endIndex": 6908,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6490,
-              "endIndex": 6760,
+              "startIndex": 6638,
+              "endIndex": 6908,
               "textRun": {
                 "content": "Even with exponentially growing compute, there will be strong limits on the amount of compute at any time. In a world where you can turn compute into intelligence, compute will be the key ingredient for all goals. Why does this create a disadvantage for free societies?\n",
                 "textStyle": {}
@@ -1216,13 +1176,13 @@
         }
       },
       {
-        "startIndex": 6760,
-        "endIndex": 6761,
+        "startIndex": 6908,
+        "endIndex": 6909,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6760,
-              "endIndex": 6761,
+              "startIndex": 6908,
+              "endIndex": 6909,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1236,15 +1196,15 @@
         }
       },
       {
-        "startIndex": 6761,
-        "endIndex": 7488,
+        "startIndex": 6909,
+        "endIndex": 7493,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6761,
-              "endIndex": 7488,
+              "startIndex": 6909,
+              "endIndex": 7493,
               "textRun": {
-                "content": "A free society will in some part distribute their compute across millions of needs: in fact, we are already seeing this today. Today, vast numbers of GPUs are dedicated to serving the requests of individual people via Claude, ChatGPT, and Gemini. At the business level, an equal number of chips are earmarked for powering SaaS businesses and transforming existing enterprises. Some compute is spent on curing diseases, of which there are thousands. The US has 340 million people. If each person has needs that can be met by a single GPU, we will need to build 340 million GPUs before they are satiated (and likely they won\u2019t be, there will be things we want as individuals that require 10 GPUs, 100 GPUs, and eventually more).\n",
+                "content": "A free society will in some part distribute their compute across millions of needs: we are already seeing this with current AI. Today, vast numbers of GPUs are dedicated to serving the requests of individual people via Claude, ChatGPT, and Gemini. At the business level, an equal number of chips are earmarked for powering SaaS businesses and transforming existing enterprises. Some compute is spent on curing diseases, of which there are thousands. As AI becomes a more capable medical researcher, there will be intense demand to allocate AI resources toward life saving directions.\n",
                 "textStyle": {}
               }
             }
@@ -1256,53 +1216,13 @@
         }
       },
       {
-        "startIndex": 7488,
-        "endIndex": 7489,
+        "startIndex": 7493,
+        "endIndex": 7494,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7488,
-              "endIndex": 7489,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 7489,
-        "endIndex": 8097,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 7489,
-              "endIndex": 8097,
-              "textRun": {
-                "content": "An automated dictatorship can redeploy those 340 million GPUs for singular purposes. Once AI can do research, a dictator can direct all GPUs toward researching weapons to defeat their geopolitical adversaries, including both kinetic weapons, cyber weapons, and weapons of misinformation and cultural manipulation. Ultimately, the easiest recourse for a dictator to maintain power might be to simply eradicate all other humans by engineering thousands of novel viruses at once. A free society that is distributing its compute among its citizens and industries will be at an extreme disadvantage against this.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 8097,
-        "endIndex": 8098,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 8097,
-              "endIndex": 8098,
+              "startIndex": 7493,
+              "endIndex": 7494,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1316,13 +1236,133 @@
         }
       },
       {
-        "startIndex": 8098,
-        "endIndex": 8658,
+        "startIndex": 7494,
+        "endIndex": 7772,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8098,
-              "endIndex": 8658,
+              "startIndex": 7494,
+              "endIndex": 7772,
+              "textRun": {
+                "content": "The US has 340 million people. If each person has needs that can be met by a single GPU, we will need to build 340 million GPUs before they are satiated (and likely they won\u2019t be, there will be things we want as individuals that require 10 GPUs, 100 GPUs, and eventually more).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7772,
+        "endIndex": 7773,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7772,
+              "endIndex": 7773,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7773,
+        "endIndex": 8506,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7773,
+              "endIndex": 8506,
+              "textRun": {
+                "content": "An automated dictatorship can redeploy those 340 million GPUs for singular purposes that yield decisive strategic outcomes. Once AI can do research, a dictator can direct all GPUs toward researching weapons to defeat their geopolitical adversaries, including both kinetic weapons, cyber weapons, and weapons of misinformation and cultural manipulation. Ultimately, the easiest recourse for a dictator to maintain power might be to simply eradicate their human adversaries by engineering thousands of novel viruses to be released at once, while arranging for preemptive vaccines for their inner circle. A free society that is distributing its compute among its citizens and industries will be at an extreme disadvantage against this.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8506,
+        "endIndex": 8507,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8506,
+              "endIndex": 8507,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8507,
+        "endIndex": 9002,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8507,
+              "endIndex": 9002,
+              "textRun": {
+                "content": "If this seems implausible today, it may be because our mental model is based on humans rather than malleable AIs. So imagine if a dictator could perfectly control the motivations of every person in their country. Imagine if they could direct every citizen to ceaselessly aspire toward becoming the best virologist. You\u2019d quickly have a country of a million expert virologists, more virologists than have existed in the last 100 years. What could that army of virologists unleash upon the world?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9002,
+        "endIndex": 9003,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9002,
+              "endIndex": 9003,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9003,
+        "endIndex": 9563,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9003,
+              "endIndex": 9563,
               "textRun": {
                 "content": "Even if the technology of defense and offense are balanced in this future world, the free society will need comparable amounts of compute dedicated to defense, which may be untenable politically when no threat is immediately seen. When the threat is finally seen, any response might be too slow. In an automated world, it may be that no amount of internal spying or intelligence can tell you what\u2019s happening inside the mind of an adversary\u2019s superintelligence to give you forewarning. This will amplify paranoia and make defense investments more existential.\n",
                 "textStyle": {}
@@ -1336,13 +1376,13 @@
         }
       },
       {
-        "startIndex": 8658,
-        "endIndex": 8659,
+        "startIndex": 9563,
+        "endIndex": 9564,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8658,
-              "endIndex": 8659,
+              "startIndex": 9563,
+              "endIndex": 9564,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1356,21 +1396,21 @@
         }
       },
       {
-        "startIndex": 8659,
-        "endIndex": 9130,
+        "startIndex": 9564,
+        "endIndex": 10035,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8659,
-              "endIndex": 8715,
+              "startIndex": 9564,
+              "endIndex": 9620,
               "textRun": {
                 "content": "Beyond redirecting compute, a dictatorship can redirect ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8715,
-              "endIndex": 8721,
+              "startIndex": 9620,
+              "endIndex": 9626,
               "textRun": {
                 "content": "energy",
                 "textStyle": {
@@ -1379,16 +1419,16 @@
               }
             },
             {
-              "startIndex": 8721,
-              "endIndex": 8762,
+              "startIndex": 9626,
+              "endIndex": 9667,
               "textRun": {
                 "content": ", which is the final limiter of compute. ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8762,
-              "endIndex": 9130,
+              "startIndex": 9667,
+              "endIndex": 10035,
               "textRun": {
                 "content": "Even a small dictatorship like North Korea has ~10 gigawatts of capacity, enough to power millions of GPUs, far more than our biggest compute clusters today. But doing so would require the unthinkable: depriving the citizens of North Korea of necessary energy in order to feed industry instead. Is even a dictator like Kim Jong Un heartless enough to make this trade?\n",
                 "textStyle": {}
@@ -1402,13 +1442,13 @@
         }
       },
       {
-        "startIndex": 9130,
-        "endIndex": 9131,
+        "startIndex": 10035,
+        "endIndex": 10036,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9130,
-              "endIndex": 9131,
+              "startIndex": 10035,
+              "endIndex": 10036,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1422,13 +1462,13 @@
         }
       },
       {
-        "startIndex": 9131,
-        "endIndex": 9136,
+        "startIndex": 10036,
+        "endIndex": 10041,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9131,
-              "endIndex": 9136,
+              "startIndex": 10036,
+              "endIndex": 10041,
               "textRun": {
                 "content": "Yes.\n",
                 "textStyle": {}
@@ -1442,13 +1482,13 @@
         }
       },
       {
-        "startIndex": 9136,
-        "endIndex": 9137,
+        "startIndex": 10041,
+        "endIndex": 10042,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9136,
-              "endIndex": 9137,
+              "startIndex": 10041,
+              "endIndex": 10042,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1462,13 +1502,13 @@
         }
       },
       {
-        "startIndex": 9137,
-        "endIndex": 9478,
+        "startIndex": 10042,
+        "endIndex": 10383,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9137,
-              "endIndex": 9478,
+              "startIndex": 10042,
+              "endIndex": 10383,
               "textRun": {
                 "content": "Only half of North Koreans have access to electricity today, and those that do are often limited to 2 hours a day. There is enough energy for all North Koreans, but most is instead exported for profit or used for industry to power the regime. This is the reality today. Tomorrow, the allure of redirecting electricity will be even stronger.\n",
                 "textStyle": {}
@@ -1482,13 +1522,13 @@
         }
       },
       {
-        "startIndex": 9478,
-        "endIndex": 9479,
+        "startIndex": 10383,
+        "endIndex": 10384,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9478,
-              "endIndex": 9479,
+              "startIndex": 10383,
+              "endIndex": 10384,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1502,13 +1542,13 @@
         }
       },
       {
-        "startIndex": 9479,
-        "endIndex": 9793,
+        "startIndex": 10384,
+        "endIndex": 10698,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9479,
-              "endIndex": 9793,
+              "startIndex": 10384,
+              "endIndex": 10698,
               "textRun": {
                 "content": "The US has 100x the energy of North Korea. Many countries have 10x or more. These could be redirected for even more staggering amounts of compute, and hence capabilities. Most countries can grow energy only at a few percent per year, even the US. It is exceptionally faster to simply redirect all civilian energy.\n",
                 "textStyle": {}
@@ -1522,13 +1562,13 @@
         }
       },
       {
-        "startIndex": 9793,
-        "endIndex": 9794,
+        "startIndex": 10698,
+        "endIndex": 10699,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9793,
-              "endIndex": 9794,
+              "startIndex": 10698,
+              "endIndex": 10699,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1542,13 +1582,13 @@
         }
       },
       {
-        "startIndex": 9794,
-        "endIndex": 9901,
+        "startIndex": 10699,
+        "endIndex": 10806,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9794,
-              "endIndex": 9901,
+              "startIndex": 10699,
+              "endIndex": 10806,
               "textRun": {
                 "content": "Even in liberal democracies there is precedent for rationing civilian resources when faced with total war.\n",
                 "textStyle": {}
@@ -1562,13 +1602,13 @@
         }
       },
       {
-        "startIndex": 9901,
-        "endIndex": 9902,
+        "startIndex": 10806,
+        "endIndex": 10807,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9901,
-              "endIndex": 9902,
+              "startIndex": 10806,
+              "endIndex": 10807,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1582,15 +1622,15 @@
         }
       },
       {
-        "startIndex": 9902,
-        "endIndex": 10628,
+        "startIndex": 10807,
+        "endIndex": 11541,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9902,
-              "endIndex": 10628,
+              "startIndex": 10807,
+              "endIndex": 11541,
               "textRun": {
-                "content": "But available energy won\u2019t be a static variable, it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens (which it likely will, if it has access to full automation and no longer needs its citizens), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full throttled automated dictatorship, it would need to seriously disrupt its own citizens.\n",
+                "content": "But available energy won\u2019t be a static variable, it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens (which it likely will, if it has access to full automation and no longer needs its citizens), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the current energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full throttled automated dictatorship, it would need to seriously disrupt its own citizens.\n",
                 "textStyle": {}
               }
             }
@@ -1602,41 +1642,13 @@
         }
       },
       {
-        "startIndex": 10628,
-        "endIndex": 10629,
+        "startIndex": 11541,
+        "endIndex": 11542,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10628,
-              "endIndex": 10629,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 10629,
-        "endIndex": 10631,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 10629,
-              "endIndex": 10630,
-              "inlineObjectElement": {
-                "inlineObjectId": "kix.6fhzlibap96g",
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 10630,
-              "endIndex": 10631,
+              "startIndex": 11541,
+              "endIndex": 11542,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1650,41 +1662,21 @@
         }
       },
       {
-        "startIndex": 10631,
-        "endIndex": 10632,
+        "startIndex": 11542,
+        "endIndex": 12289,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10631,
-              "endIndex": 10632,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 10632,
-        "endIndex": 11433,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 10632,
-              "endIndex": 10673,
+              "startIndex": 11542,
+              "endIndex": 11583,
               "textRun": {
                 "content": "Everything we\u2019ve learned from AI is that ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10673,
-              "endIndex": 10695,
+              "startIndex": 11583,
+              "endIndex": 11605,
               "textRun": {
                 "content": "the curves don\u2019t bend.",
                 "textStyle": {
@@ -1693,16 +1685,16 @@
               }
             },
             {
-              "startIndex": 10695,
-              "endIndex": 11073,
+              "startIndex": 11605,
+              "endIndex": 11983,
               "textRun": {
                 "content": " Even as one AI scaling paradigm has seen diminishing returns (pretraining), new paradigms have opened up and continued to scale (post-training and Reinforcement Learning). More compute yields more capabilities, for whichever task you care about. If that task is military, more compute will give you better military capabilities than less compute. And there will be no limit to ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11073,
-              "endIndex": 11081,
+              "startIndex": 11983,
+              "endIndex": 11991,
               "textRun": {
                 "content": "how much",
                 "textStyle": {
@@ -1711,58 +1703,10 @@
               }
             },
             {
-              "startIndex": 11081,
-              "endIndex": 11135,
+              "startIndex": 11991,
+              "endIndex": 12289,
               "textRun": {
-                "content": ", whether or not we eventually see diminishing returns",
-                "suggestedDeletionIds": [
-                  "suggest.x86elon0ayrs"
-                ],
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 11135,
-              "endIndex": 11212,
-              "textRun": {
-                "content": ". There is a near infinite amount of things to deploy fully general AI toward",
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 11212,
-              "endIndex": 11267,
-              "textRun": {
-                "content": ", even if the \u201cintelligence\u201d of each AI were to plateau",
-                "suggestedInsertionIds": [
-                  "suggest.3htdzb72mmj1"
-                ],
-                "textStyle": {},
-                "suggestedTextStyleChanges": {
-                  "suggest.3htdzb72mmj1": {
-                    "textStyle": {},
-                    "textStyleSuggestionState": {
-                      "boldSuggested": true,
-                      "italicSuggested": true,
-                      "underlineSuggested": true,
-                      "strikethroughSuggested": true,
-                      "smallCapsSuggested": true,
-                      "backgroundColorSuggested": true,
-                      "foregroundColorSuggested": true,
-                      "fontSizeSuggested": true,
-                      "weightedFontFamilySuggested": true,
-                      "baselineOffsetSuggested": true,
-                      "linkSuggested": true
-                    }
-                  }
-                }
-              }
-            },
-            {
-              "startIndex": 11267,
-              "endIndex": 11433,
-              "textRun": {
-                "content": ". Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.\n",
+                "content": ". There is a near infinite amount of things to deploy fully general AI toward, even if the \u201cintelligence\u201d of each AI were to plateau. Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.\n",
                 "textStyle": {}
               }
             }
@@ -1774,13 +1718,13 @@
         }
       },
       {
-        "startIndex": 11433,
-        "endIndex": 11434,
+        "startIndex": 12289,
+        "endIndex": 12290,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11433,
-              "endIndex": 11434,
+              "startIndex": 12289,
+              "endIndex": 12290,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1794,13 +1738,13 @@
         }
       },
       {
-        "startIndex": 11434,
-        "endIndex": 11874,
+        "startIndex": 12290,
+        "endIndex": 12730,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11434,
-              "endIndex": 11874,
+              "startIndex": 12290,
+              "endIndex": 12730,
               "textRun": {
                 "content": "Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn\u2019t have that immunity.\n",
                 "textStyle": {}
@@ -1814,13 +1758,13 @@
         }
       },
       {
-        "startIndex": 11874,
-        "endIndex": 11875,
+        "startIndex": 12730,
+        "endIndex": 12731,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11874,
-              "endIndex": 11875,
+              "startIndex": 12730,
+              "endIndex": 12731,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1834,13 +1778,13 @@
         }
       },
       {
-        "startIndex": 11875,
-        "endIndex": 12129,
+        "startIndex": 12731,
+        "endIndex": 12985,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11875,
-              "endIndex": 12129,
+              "startIndex": 12731,
+              "endIndex": 12985,
               "textRun": {
                 "content": "Even if a freely elected leader means well, if they consolidate power to defend their nation, if they redirect nearly all resources to maintain the ability for their nation to survive, what is left? Tyranny by any other name would still smell like shit.\n",
                 "textStyle": {}
@@ -1854,13 +1798,13 @@
         }
       },
       {
-        "startIndex": 12129,
-        "endIndex": 12130,
+        "startIndex": 12985,
+        "endIndex": 12986,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12129,
-              "endIndex": 12130,
+              "startIndex": 12985,
+              "endIndex": 12986,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1874,21 +1818,21 @@
         }
       },
       {
-        "startIndex": 12130,
-        "endIndex": 12570,
+        "startIndex": 12986,
+        "endIndex": 13440,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12130,
-              "endIndex": 12190,
+              "startIndex": 12986,
+              "endIndex": 13046,
               "textRun": {
                 "content": "It\u2019s not just that AI suddenly makes a durable dictatorship ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12190,
-              "endIndex": 12198,
+              "startIndex": 13046,
+              "endIndex": 13054,
               "textRun": {
                 "content": "possible",
                 "textStyle": {
@@ -1897,16 +1841,16 @@
               }
             },
             {
-              "startIndex": 12198,
-              "endIndex": 12221,
+              "startIndex": 13054,
+              "endIndex": 13077,
               "textRun": {
                 "content": ", it suddenly makes it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12221,
-              "endIndex": 12240,
+              "startIndex": 13077,
+              "endIndex": 13096,
               "textRun": {
                 "content": "the default outcome",
                 "textStyle": {
@@ -1915,16 +1859,24 @@
               }
             },
             {
-              "startIndex": 12240,
-              "endIndex": 12422,
+              "startIndex": 13096,
+              "endIndex": 13110,
+              "textRun": {
+                "content": " unless we act",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 13110,
+              "endIndex": 13292,
               "textRun": {
                 "content": ". The thirst for power has always existed, and many have tried and succeeded at building temporary dictatorships. Suddenly, with AI, the path to dictatorship will become much easier ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12422,
-              "endIndex": 12472,
+              "startIndex": 13292,
+              "endIndex": 13342,
               "textRun": {
                 "content": "and also more rewarding than any other possibility",
                 "textStyle": {
@@ -1933,8 +1885,8 @@
               }
             },
             {
-              "startIndex": 12472,
-              "endIndex": 12570,
+              "startIndex": 13342,
+              "endIndex": 13440,
               "textRun": {
                 "content": ". We have to expect that on net the risk of dictatorship rises substantially in the coming years.\n",
                 "textStyle": {}
@@ -1948,13 +1900,13 @@
         }
       },
       {
-        "startIndex": 12570,
-        "endIndex": 12571,
+        "startIndex": 13440,
+        "endIndex": 13441,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12570,
-              "endIndex": 12571,
+              "startIndex": 13440,
+              "endIndex": 13441,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1968,13 +1920,13 @@
         }
       },
       {
-        "startIndex": 12571,
-        "endIndex": 12929,
+        "startIndex": 13441,
+        "endIndex": 13799,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12571,
-              "endIndex": 12929,
+              "startIndex": 13441,
+              "endIndex": 13799,
               "textRun": {
                 "content": "The best predictor of human behavior is incentives, and the incentives are quickly transmuting for leaders into a single direction: consolidate power. We can resist this incredible force only if we build checks and balances into our governance that are amplified by AI, not subverted by it. We can do this if we try. We can do this if we recognize the risk.\n",
                 "textStyle": {}
@@ -1988,13 +1940,13 @@
         }
       },
       {
-        "startIndex": 12929,
-        "endIndex": 12930,
+        "startIndex": 13799,
+        "endIndex": 13800,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12929,
-              "endIndex": 12930,
+              "startIndex": 13799,
+              "endIndex": 13800,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2008,13 +1960,13 @@
         }
       },
       {
-        "startIndex": 12930,
-        "endIndex": 12975,
+        "startIndex": 13800,
+        "endIndex": 13845,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12930,
-              "endIndex": 12975,
+              "startIndex": 13800,
+              "endIndex": 13845,
               "textRun": {
                 "content": "As I write this today, we are doing neither.\n",
                 "textStyle": {}
@@ -2590,58 +2542,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lvb0_nxh5pTzbqe3np4e6aWkh0_yv2j8Ba2u_xqza8MN0MghvspjbtukyoZCZyprr9RQ1WnTRrM3zQdGg",
+  "revisionId": "ALBJ4Lvfh4wO3xsXT60tpC1_SqPgu63JhccRqHZK81X9Xn4076R0GxPXVUiOMmuyZFu9XfD9T8avOgpJqdRzvA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
-  "inlineObjects": {
-    "kix.6fhzlibap96g": {
-      "objectId": "kix.6fhzlibap96g",
-      "inlineObjectProperties": {
-        "embeddedObject": {
-          "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdB5VbXKcW6AxY0s-iJ7yelYqIIMuwc4vnEzlAzdZMdJaxzM59Sh6BDtouAd4BuJC-dB06WyI5zspDE4QfLRiwYrbL4Zhv2nFRfnJ1OBoOfCJnUiigzxrdUYc3cGvHvwNgCSe523g?key=0w8WtW3JyTdK4RwJvzSL7acs",
-            "cropProperties": {}
-          },
-          "embeddedObjectBorder": {
-            "color": {
-              "color": {
-                "rgbColor": {}
-              }
-            },
-            "width": {
-              "unit": "PT"
-            },
-            "dashStyle": "SOLID",
-            "propertyState": "NOT_RENDERED"
-          },
-          "size": {
-            "height": {
-              "magnitude": 603.75,
-              "unit": "PT"
-            },
-            "width": {
-              "magnitude": 603.75,
-              "unit": "PT"
-            }
-          },
-          "marginTop": {
-            "magnitude": 9,
-            "unit": "PT"
-          },
-          "marginBottom": {
-            "magnitude": 9,
-            "unit": "PT"
-          },
-          "marginRight": {
-            "magnitude": 9,
-            "unit": "PT"
-          },
-          "marginLeft": {
-            "magnitude": 9,
-            "unit": "PT"
-          }
-        }
-      }
-    }
-  },
   "documentId": "1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag"
 }

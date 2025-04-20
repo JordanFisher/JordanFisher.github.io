@@ -226,8 +226,18 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
             if 'title-header' in element.get('class', []):
                 # Add spacing after page break before the title header
                 # Process the header with formatting (bold, italic, strikethrough)
+                
+                # Check for chapter number
+                chapter_number_tag = element.find('span', class_='chapter-number')
+                chapter_prefix = ""
+                
+                if chapter_number_tag:
+                    chapter_prefix = f"\\textit{{{chapter_number_tag.get_text().strip()}}} "
+                    # Remove the chapter number span from the element for regular processing
+                    chapter_number_tag.extract()
+                
                 header_text = process_inline_elements(element, story_div=story_div)
-                latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
+                latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{{chapter_prefix}{header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
@@ -239,8 +249,17 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     # Skip this description block when we encounter it in the normal loop
                     next_elem['processed'] = True
             else:
+                # Check for chapter number
+                chapter_number_tag = element.find('span', class_='chapter-number')
+                chapter_prefix = ""
+                
+                if chapter_number_tag:
+                    chapter_prefix = f"\\textit{{{chapter_number_tag.get_text().strip()}}} "
+                    # Remove the chapter number span from the element for regular processing
+                    chapter_number_tag.extract()
+                
                 header_text = process_inline_elements(element, story_div=story_div)
-                latex_content += f"\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
+                latex_content += f"\\section*{{{chapter_prefix}{header_text}}}{label_markup}\n\\vspace{{0.5cm}}\n\n"
         elif element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')

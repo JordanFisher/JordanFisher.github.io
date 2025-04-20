@@ -1,7 +1,7 @@
 TL;DR
 We’ll cover four points, outlined here at high level.
 
-AI changes what we need from governance
+One — AI changes what we need from governance
 Societies that allow for freedom and maximum human flourishing aren’t easy to build
 
 Ours took thousands of years of trial and error and is still a work in progress
@@ -12,7 +12,7 @@ Introducing AI will completely change all of those details
 
 Because of that, we must rethink society if we want it to be resilient to the arrival of AI
 
-There are many risks we’ll face, and some risks aren’t yet being discussed
+Two — There are many risks we’ll face, and some risks aren’t yet being discussed
 In particular, the risk of concentration of power and dictatorship is extreme with the full power of AI automation
 
 Without changes, dictatorships are a default outcome of AI. And it will be increasingly hard for us to resist it the later we act
@@ -21,14 +21,14 @@ We must evolve our governance before strong AI arrives, or we may not have any p
 
 Humans alone won’t be able to oversee leaders empowered by AI
 
-AI-powered governance of AI
+Three — Designing AI-powered governance of AI
 Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI
 
-Passing laws is necessary but not sufficient
+Passing laws is necessary but not sufficient. An Executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don’t also upgrade our oversight and enforcement.
 
-We must enshrine the oversight inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions
+We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions
 
-We all are part of this
+Four — We all are part of this
 AI is the most important event in our lifetime, but the outcome is not yet written
 
 We all own the conversation for what we want the future to be

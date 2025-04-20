@@ -561,6 +561,8 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
     The function also adds description blocks to inlined documents and ensures
     proper handling of the document content with formatting preserved.
     
+    Each inlined document is treated as a chapter, and a chapter number is added to the title.
+    
     Args:
         html_content (str): HTML content to process
         handle_descriptions (bool): Whether to add description blocks for inlined content.
@@ -574,6 +576,9 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
     
     # Store the IDs of documents that get inlined, and track their first headings for anchors
     inlined_doc_ids = {}
+    
+    # Chapter counter for inlined documents
+    chapter_counter = 0
     
     # First pass: Find and replace links in headers
     for heading in soup.find_all(['h1', 'h2', 'h3']):
@@ -646,6 +651,9 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     # Remove the original heading first
                     heading.extract()
                     
+                    # Increment chapter counter for each inlined document
+                    chapter_counter += 1
+                    
                     # Create a new version of the first heading with correct ID
                     new_heading = soup.new_tag(first_heading.name)
                     new_heading['id'] = sanitized_id  # Use the sanitized ID we created
@@ -656,6 +664,14 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                             new_heading['class'].append('title-header')
                         else:
                             new_heading['class'] = ['title-header']
+                    
+                    # Create chapter prefix text
+                    chapter_prefix = soup.new_tag('span')
+                    chapter_prefix['class'] = ['chapter-number']
+                    chapter_prefix.string = f"Chapter {chapter_counter}: "
+                    
+                    # Add chapter prefix to the heading
+                    new_heading.append(chapter_prefix)
                     
                     # Copy the contents of the first heading including any formatting
                     for child in first_heading.children:

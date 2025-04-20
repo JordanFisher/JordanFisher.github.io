@@ -75,14 +75,14 @@
       },
       {
         "startIndex": 50,
-        "endIndex": 358,
+        "endIndex": 370,
         "paragraph": {
           "elements": [
             {
               "startIndex": 50,
-              "endIndex": 358,
+              "endIndex": 370,
               "textRun": {
-                "content": "Serious people have been talking about human-level AI and superintelligence for nearly half a century. But mostly it\u2019s been too silly to talk about. In computer science departments it was implicitly banned from discussing openly, or you\u2019d be made a pariah. Outside academia the public thought it was sci-fi.\n",
+                "content": "Serious people have been talking about human-level AI and superintelligence for nearly half a century. But mostly it\u2019s been too silly to talk about. In computer science departments discussing it openly was implicitly banned. Those who did were often made into pariahs. Outside academia the public thought it was sci-fi.\n",
                 "textStyle": {}
               }
             }
@@ -94,13 +94,13 @@
         }
       },
       {
-        "startIndex": 358,
-        "endIndex": 359,
+        "startIndex": 370,
+        "endIndex": 371,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 358,
-              "endIndex": 359,
+              "startIndex": 370,
+              "endIndex": 371,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -114,13 +114,13 @@
         }
       },
       {
-        "startIndex": 359,
-        "endIndex": 839,
+        "startIndex": 371,
+        "endIndex": 851,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 359,
-              "endIndex": 839,
+              "startIndex": 371,
+              "endIndex": 851,
               "textRun": {
                 "content": "Even 10 years ago, when AI began showing real promise, you instead had to say you worked on \u201cML\u201d or \u201cMachine Learning\u201d. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of mankind\u2019s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we\u2019ve even allowed researchers to say what they do is \u201cAI\u201d without scoffing at them.\n",
                 "textStyle": {}
@@ -134,13 +134,13 @@
         }
       },
       {
-        "startIndex": 839,
-        "endIndex": 840,
+        "startIndex": 851,
+        "endIndex": 852,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 839,
-              "endIndex": 840,
+              "startIndex": 851,
+              "endIndex": 852,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -154,13 +154,13 @@
         }
       },
       {
-        "startIndex": 840,
-        "endIndex": 1000,
+        "startIndex": 852,
+        "endIndex": 1012,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 840,
-              "endIndex": 1000,
+              "startIndex": 852,
+              "endIndex": 1012,
               "textRun": {
                 "content": "Now, here we are today, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.\n",
                 "textStyle": {}
@@ -174,13 +174,13 @@
         }
       },
       {
-        "startIndex": 1000,
-        "endIndex": 1001,
+        "startIndex": 1012,
+        "endIndex": 1013,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1000,
-              "endIndex": 1001,
+              "startIndex": 1012,
+              "endIndex": 1013,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -194,13 +194,13 @@
         }
       },
       {
-        "startIndex": 1001,
-        "endIndex": 1234,
+        "startIndex": 1013,
+        "endIndex": 1246,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1001,
-              "endIndex": 1234,
+              "startIndex": 1013,
+              "endIndex": 1246,
               "textRun": {
                 "content": "This may seem like a small thing, but it\u2019s not. We shy away from talking seriously about serious things when we\u2019re afraid it makes us look silly. And it has real consequences. That\u2019s what happened with the discourse around AI risks:\n",
                 "textStyle": {}
@@ -214,13 +214,13 @@
         }
       },
       {
-        "startIndex": 1234,
-        "endIndex": 1235,
+        "startIndex": 1246,
+        "endIndex": 1247,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1234,
-              "endIndex": 1235,
+              "startIndex": 1246,
+              "endIndex": 1247,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -234,13 +234,13 @@
         }
       },
       {
-        "startIndex": 1235,
-        "endIndex": 1680,
+        "startIndex": 1247,
+        "endIndex": 1692,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1235,
-              "endIndex": 1680,
+              "startIndex": 1247,
+              "endIndex": 1692,
               "textRun": {
                 "content": "Now that AI is near it\u2019s becoming plain that sharing the world with another form of intelligence will have risks. Obviously, how could it not? But the risks from AI have been called out by the likes of Bostrom and Yudkowsky for decades now, largely ignored because it was too silly. And the real impact is that we\u2019ve now failed to prepare for those risks. We\u2019ve failed at even discussing them broadly as a society. Now we have little time left.\n",
                 "textStyle": {}
@@ -254,13 +254,13 @@
         }
       },
       {
-        "startIndex": 1680,
-        "endIndex": 1681,
+        "startIndex": 1692,
+        "endIndex": 1693,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1680,
-              "endIndex": 1681,
+              "startIndex": 1692,
+              "endIndex": 1693,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -274,13 +274,13 @@
         }
       },
       {
-        "startIndex": 1681,
-        "endIndex": 1723,
+        "startIndex": 1693,
+        "endIndex": 1735,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1681,
-              "endIndex": 1723,
+              "startIndex": 1693,
+              "endIndex": 1735,
               "textRun": {
                 "content": "Need more social proof to start worrying?\n",
                 "textStyle": {}
@@ -294,13 +294,13 @@
         }
       },
       {
-        "startIndex": 1723,
-        "endIndex": 1724,
+        "startIndex": 1735,
+        "endIndex": 1736,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1723,
-              "endIndex": 1724,
+              "startIndex": 1735,
+              "endIndex": 1736,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -314,13 +314,13 @@
         }
       },
       {
-        "startIndex": 1724,
-        "endIndex": 1997,
+        "startIndex": 1736,
+        "endIndex": 2009,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1724,
-              "endIndex": 1997,
+              "startIndex": 1736,
+              "endIndex": 2009,
               "textRun": {
                 "content": "Richard Sutton is the inventor of Reinforcement Learning and just won the Turing Award in 2024, the most prestigious award in computer science. He actively thinks that we should start planning for AI to replace us as a species, and is actively against trying to stop that.\n",
                 "textStyle": {}
@@ -334,13 +334,13 @@
         }
       },
       {
-        "startIndex": 1997,
-        "endIndex": 1998,
+        "startIndex": 2009,
+        "endIndex": 2010,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1997,
-              "endIndex": 1998,
+              "startIndex": 2009,
+              "endIndex": 2010,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -354,13 +354,13 @@
         }
       },
       {
-        "startIndex": 1998,
-        "endIndex": 2259,
+        "startIndex": 2010,
+        "endIndex": 2271,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1998,
-              "endIndex": 2259,
+              "startIndex": 2010,
+              "endIndex": 2271,
               "textRun": {
                 "content": "Geoffrey Hinton is the 2018 Turing winner (also for his work in AI), often considered the grandfather of deep learning. He quit his job at Google paying him millions to do AI research and is now actively committing his life to warning people about the dangers.\n",
                 "textStyle": {}
@@ -374,13 +374,13 @@
         }
       },
       {
-        "startIndex": 2259,
-        "endIndex": 2260,
+        "startIndex": 2271,
+        "endIndex": 2272,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2259,
-              "endIndex": 2260,
+              "startIndex": 2271,
+              "endIndex": 2272,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -394,15 +394,15 @@
         }
       },
       {
-        "startIndex": 2260,
-        "endIndex": 2605,
+        "startIndex": 2272,
+        "endIndex": 2622,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2260,
-              "endIndex": 2605,
+              "startIndex": 2272,
+              "endIndex": 2622,
               "textRun": {
-                "content": "Elon Musk cofounded OpenAI in 2015 in part because he believed AI was going to determine the future of mankind and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to be one of the major players at this new seat of power.\n",
+                "content": "Elon Musk co-founded OpenAI in 2015 in part because he believed AI was going to determine the future of mankind and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to become one of the major players at this new seat of power.\n",
                 "textStyle": {}
               }
             }
@@ -414,13 +414,13 @@
         }
       },
       {
-        "startIndex": 2605,
-        "endIndex": 2606,
+        "startIndex": 2622,
+        "endIndex": 2623,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2605,
-              "endIndex": 2606,
+              "startIndex": 2622,
+              "endIndex": 2623,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -434,13 +434,13 @@
         }
       },
       {
-        "startIndex": 2606,
-        "endIndex": 2709,
+        "startIndex": 2623,
+        "endIndex": 2726,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2606,
-              "endIndex": 2709,
+              "startIndex": 2623,
+              "endIndex": 2726,
               "textRun": {
                 "content": "As of 2024 Donald Trump has begun talking about AI and its competitive landscape and technology needs.\n",
                 "textStyle": {}
@@ -454,13 +454,13 @@
         }
       },
       {
-        "startIndex": 2709,
-        "endIndex": 2710,
+        "startIndex": 2726,
+        "endIndex": 2727,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2709,
-              "endIndex": 2710,
+              "startIndex": 2726,
+              "endIndex": 2727,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -474,13 +474,13 @@
         }
       },
       {
-        "startIndex": 2710,
-        "endIndex": 3052,
+        "startIndex": 2727,
+        "endIndex": 3069,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2710,
-              "endIndex": 3052,
+              "startIndex": 2727,
+              "endIndex": 3069,
               "textRun": {
                 "content": "The CEOs of the most successful AI teams in the world (Dario Amodei, Demis Hassabis, Sam Altman), all openly discuss that AI smarter than all humanity will arrive this decade and may kill us all. And if it doesn't kill us all, we still need to figure out how to make sure we don't kill each other with it, or accidentally empower a dictator.\n",
                 "textStyle": {}
@@ -494,13 +494,13 @@
         }
       },
       {
-        "startIndex": 3052,
-        "endIndex": 3053,
+        "startIndex": 3069,
+        "endIndex": 3070,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3052,
-              "endIndex": 3053,
+              "startIndex": 3069,
+              "endIndex": 3070,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -514,15 +514,15 @@
         }
       },
       {
-        "startIndex": 3053,
-        "endIndex": 3322,
+        "startIndex": 3070,
+        "endIndex": 3338,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3053,
-              "endIndex": 3322,
+              "startIndex": 3070,
+              "endIndex": 3338,
               "textRun": {
-                "content": "Take a second and digest just how fucking serious this is. It's literally world defining. And then consider that AI researchers have been blaring the alarm since the 1960s, and we chose not to listen until the moment it's finally upon us. As IJ Good said back in 1965:\n",
+                "content": "Take a second to digest just how fucking serious this is. It's literally world defining. And then consider that AI researchers have been blaring the alarm since the 1960s, and we chose not to listen until the moment it's finally upon us. As IJ Good said back in 1965:\n",
                 "textStyle": {}
               }
             }
@@ -534,13 +534,13 @@
         }
       },
       {
-        "startIndex": 3322,
-        "endIndex": 3323,
+        "startIndex": 3338,
+        "endIndex": 3339,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3322,
-              "endIndex": 3323,
+              "startIndex": 3338,
+              "endIndex": 3339,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -554,13 +554,13 @@
         }
       },
       {
-        "startIndex": 3323,
-        "endIndex": 4023,
+        "startIndex": 3339,
+        "endIndex": 4039,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3323,
-              "endIndex": 4022,
+              "startIndex": 3339,
+              "endIndex": 4038,
               "textRun": {
                 "content": "\u201cLet an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintelligent machine could design even better machines; there would then unquestionably be an 'intelligence explosion,' and the intelligence of man would be left far behind... Thus the first ultraintelligent machine is the last invention that man need ever make, provided that the machine is docile enough to tell us how to keep it under control. It is curious that this point is made so seldom outside of science fiction. It is sometimes worthwhile to take science fiction seriously.\u201d",
                 "textStyle": {
@@ -594,8 +594,8 @@
               }
             },
             {
-              "startIndex": 4022,
-              "endIndex": 4023,
+              "startIndex": 4038,
+              "endIndex": 4039,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -609,13 +609,13 @@
         }
       },
       {
-        "startIndex": 4023,
-        "endIndex": 4024,
+        "startIndex": 4039,
+        "endIndex": 4040,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4023,
-              "endIndex": 4024,
+              "startIndex": 4039,
+              "endIndex": 4040,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -629,13 +629,13 @@
         }
       },
       {
-        "startIndex": 4024,
-        "endIndex": 4087,
+        "startIndex": 4040,
+        "endIndex": 4103,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4024,
-              "endIndex": 4087,
+              "startIndex": 4040,
+              "endIndex": 4103,
               "textRun": {
                 "content": "We ignored him and others for 60 years. And now it is upon us.\n",
                 "textStyle": {}
@@ -649,13 +649,13 @@
         }
       },
       {
-        "startIndex": 4087,
-        "endIndex": 4088,
+        "startIndex": 4103,
+        "endIndex": 4104,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4087,
-              "endIndex": 4088,
+              "startIndex": 4103,
+              "endIndex": 4104,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -669,13 +669,93 @@
         }
       },
       {
-        "startIndex": 4088,
-        "endIndex": 4228,
+        "startIndex": 4104,
+        "endIndex": 4689,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4088,
-              "endIndex": 4228,
+              "startIndex": 4104,
+              "endIndex": 4689,
+              "textRun": {
+                "content": "Excellent writers and policy wonks have been discussing AI risk for years. Finally, in just the last 12 months, the discussion around AI risk has started to be taken more seriously, although there\u2019s a long way to go. But there\u2019s another conversation that hasn\u2019t yet even begun: how to evolve our democracy to be resilient to an AI future. By default, AI will upset the foundations our democracy is built on. Implicit guard rails and explicit checks and balances may no longer function well enough when our institutions are automated. The result may be a rapid slide into dictatorship.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4689,
+        "endIndex": 4690,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4689,
+              "endIndex": 4690,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4690,
+        "endIndex": 5013,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4690,
+              "endIndex": 5013,
+              "textRun": {
+                "content": "This is not a distant theoretical. The pieces for a fully automated, AI powered world are coming together now, as we speak, and there are incredible pressures across our economy and society to accelerate and integrate them. And there are compelling reasons why slowing down may not be the answer, even if it were possible.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5013,
+        "endIndex": 5014,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5013,
+              "endIndex": 5014,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5014,
+        "endIndex": 5154,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5014,
+              "endIndex": 5154,
               "textRun": {
                 "content": "It\u2019s time to stop feeling silly and start taking seriously the silly things in front of us that are deadly serious. However silly they are.\n",
                 "textStyle": {}
@@ -689,13 +769,13 @@
         }
       },
       {
-        "startIndex": 4228,
-        "endIndex": 4229,
+        "startIndex": 5154,
+        "endIndex": 5155,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4228,
-              "endIndex": 4229,
+              "startIndex": 5154,
+              "endIndex": 5155,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -709,21 +789,21 @@
         }
       },
       {
-        "startIndex": 4229,
-        "endIndex": 4231,
+        "startIndex": 5155,
+        "endIndex": 5157,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4229,
-              "endIndex": 4230,
+              "startIndex": 5155,
+              "endIndex": 5156,
               "inlineObjectElement": {
                 "inlineObjectId": "kix.ufriq1teeu3s",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4230,
-              "endIndex": 4231,
+              "startIndex": 5156,
+              "endIndex": 5157,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -737,13 +817,13 @@
         }
       },
       {
-        "startIndex": 4231,
-        "endIndex": 4232,
+        "startIndex": 5157,
+        "endIndex": 5158,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4231,
-              "endIndex": 4232,
+              "startIndex": 5157,
+              "endIndex": 5158,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -757,21 +837,21 @@
         }
       },
       {
-        "startIndex": 4232,
-        "endIndex": 4492,
+        "startIndex": 5158,
+        "endIndex": 5418,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4232,
-              "endIndex": 4301,
+              "startIndex": 5158,
+              "endIndex": 5227,
               "textRun": {
                 "content": "Creating AI is going to change every single aspect of our world. But ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4301,
-              "endIndex": 4308,
+              "startIndex": 5227,
+              "endIndex": 5234,
               "textRun": {
                 "content": "the way",
                 "textStyle": {
@@ -780,16 +860,16 @@
               }
             },
             {
-              "startIndex": 4308,
-              "endIndex": 4330,
+              "startIndex": 5234,
+              "endIndex": 5256,
               "textRun": {
                 "content": " it changes our world ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4330,
-              "endIndex": 4358,
+              "startIndex": 5256,
+              "endIndex": 5284,
               "textRun": {
                 "content": "is not yet written in stone.",
                 "textStyle": {
@@ -798,8 +878,8 @@
               }
             },
             {
-              "startIndex": 4358,
-              "endIndex": 4492,
+              "startIndex": 5284,
+              "endIndex": 5418,
               "textRun": {
                 "content": " We all together have a part to play in determining the outcome. But only if we get over ourselves and talk about these silly things.\n",
                 "textStyle": {}
@@ -813,13 +893,13 @@
         }
       },
       {
-        "startIndex": 4492,
-        "endIndex": 4493,
+        "startIndex": 5418,
+        "endIndex": 5419,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4492,
-              "endIndex": 4493,
+              "startIndex": 5418,
+              "endIndex": 5419,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -833,13 +913,13 @@
         }
       },
       {
-        "startIndex": 4493,
-        "endIndex": 4696,
+        "startIndex": 5419,
+        "endIndex": 5622,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4493,
-              "endIndex": 4696,
+              "startIndex": 5419,
+              "endIndex": 5622,
               "textRun": {
                 "content": "We are creating machines smarter than us. They will have their own agency. We may not be able to keep control of them. Even if we do, they may be used by governments to gain unprecedented power over us.\n",
                 "textStyle": {}
@@ -853,13 +933,13 @@
         }
       },
       {
-        "startIndex": 4696,
-        "endIndex": 4697,
+        "startIndex": 5622,
+        "endIndex": 5623,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4696,
-              "endIndex": 4697,
+              "startIndex": 5622,
+              "endIndex": 5623,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -873,13 +953,13 @@
         }
       },
       {
-        "startIndex": 4697,
-        "endIndex": 4980,
+        "startIndex": 5623,
+        "endIndex": 5906,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4697,
-              "endIndex": 4980,
+              "startIndex": 5623,
+              "endIndex": 5906,
               "textRun": {
                 "content": "These are serious fucking things. And they\u2019re silly too. The last half century has coddled us into a false sense of stability. Whispered into our ear that silly things don\u2019t happen on the world stage, not really. But the rules are changing. We don\u2019t know what the new rules will be.\n",
                 "textStyle": {}
@@ -893,13 +973,13 @@
         }
       },
       {
-        "startIndex": 4980,
-        "endIndex": 4981,
+        "startIndex": 5906,
+        "endIndex": 5907,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4980,
-              "endIndex": 4981,
+              "startIndex": 5906,
+              "endIndex": 5907,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -913,13 +993,13 @@
         }
       },
       {
-        "startIndex": 4981,
-        "endIndex": 5027,
+        "startIndex": 5907,
+        "endIndex": 5953,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4981,
-              "endIndex": 5027,
+              "startIndex": 5907,
+              "endIndex": 5953,
               "textRun": {
                 "content": "It\u2019s OK to be silly. Now let\u2019s talk about it.\n",
                 "textStyle": {}
@@ -1334,7 +1414,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4Ls6QZnTsyU4rkwPthkAli64A-tGuurwkMeV3G9bhONu-6pBfw4d3xT4CPNK7tIXPtTkghGG39jS9EWb-w",
+  "revisionId": "ALBJ4Lthlomeb7wDcPYlyjUvnP3KXpLcB-mHIv9xLo-WjLhTnbkm5CCQFzDLrf6Lr2oPJIm9Ud8Kh3UNs_UdUA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.ufriq1teeu3s": {
@@ -1342,7 +1422,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNA2Pl1nvZc6h3_Y2FSXfE_8Xml7oJ-AquXjo73Z-dBrWJiJRofVjcagl3gMfoSzQ-g1ORBJQitJyvnqpsBZrWyFlgyNBEExAXDkafLPlxeHERT1eswUnDNXfrAIEWpHmV7dh1Nw?key=ve2Jg3zs-CGAC7cPjZg6B1O7",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXesHOls7sPQ6pdn9abRFMwHbWoJJIxKJKT7jKG3nfqZkCm-ly0YrboXQL_aACNKH5diN7gj2g7rT-BEZPnPLNNtO5AeFDqcQf6whNKMh-J1I166oT5uqa07z-FeLJBgWaM17gmqgw?key=ve2Jg3zs-CGAC7cPjZg6B1O7",
             "cropProperties": {}
           },
           "description": "this meme is extremely unnecessary for the point i'm making",

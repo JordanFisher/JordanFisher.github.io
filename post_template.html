@@ -54,6 +54,21 @@
             margin-bottom: 2rem;
             line-height: 1.2;
         }
+        
+        .chapter-number {
+            display: block;
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .chapter-number {
+                color: #aaa;
+            }
+        }
 
         #story p {
             font-size: var(--font-size);

@@ -1,154 +1,93 @@
-Liberty by Design: The Tiny Book on the Governance of a Human-Machine Society
-[[[Well, this is it. I wrote a big ass post about my thoughts on how to improve AI governance. I called it a Tiny Book so you might be tricked into thinking it’s a quick read.
+Liberty by Design: Governing a Human-Machine Society
+[[[There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?]]]
 
-Good luck.]]]
 
 
 Apologia
 
 This is currently a draft. If you’re reading this, please reach out to jordan.efisher@gmail.com if you have comments or suggestions!
 
-No one wants to read 50 pages on governance in one go. So this book is built to be read in parts.
-
-Want a primer on AI? Start with .
-
-Already up to speed on AI and understand the risks? Jump straight to . 
-
-Just want to read some new ideas on how a human-machine government might look? Jump to .
-
-Only have 30 seconds? Read the .
-
-Or, fuck it, YOLO your way through the whole book.
+Or leave comments on the draft here: https://tinyurl.com/liberty-by-design
 
 
+A new user has joined the chat
 
-
-Intro
-We assume that machines will achieve human level intelligence. We assume they will exceed it. We assume that they will have ethics, aligned to a human or group of humans.
-
-Then the question remains: which human or group of humans. To which other humans are those humans accountable and by what means. Where does the demos in democracy sit?
-
-The ambition of people leads to cathedrals and death camps. Prosperity and war. Governance is how we harness our collective ambitions to aim for the good. It's not just laws, it's culture, norms, and expectations we place upon ourselves, our neighbors, and our children. It's the combined wisdom of society for how we can stand both free and together to march forward.
-
-There aren’t easy answers for what governance should look like, only tradeoffs and complex second order dynamics. Should we empower a strong leader to move rapidly, hoping they won’t abuse their position? Or should we create a slow moving bureaucracy, resilient to corruption but unresponsive to changing needs? Outside of government we must answer similar questions for our communities and companies. How much power? How much oversight?
-
-The US has a mixture of answers to these questions. We allow CEOs to be board elected dictators of companies. With it can come great speed, vision, coordination, or rapid failure. There are checks though: The board. The market. Employees can vote with their feet, or the implied threat of them. Regulation limits the most extreme excesses and the worst tragedy of the commons. But even still, a successful CEO can amass so much wealth as to pose unacceptable danger, as we saw with the robber barons. So we further limit what wealth can achieve: bribes are illegal and we curtail the ability to buy politicians outright. We invest in common goods like education so that others can rise up and build their own wealth, to counter the entrenched wealth of the past.
-
-We elect a president of a strong federal government to have time limited, broad authority. With checks. There’s only ever one president at a time, so there is no free market of presidents, so we can’t allow outright failure when it might mean the end of democracy. So we prevent the use of power to further seek power, such as to influence an election. We empower Congress and the judiciary to prevent the executive from granting itself more power and creating a runaway process toward dictatorship.
-
-Implicit but just as important is culture. The American tradition of democracy and standing against tyrants. The President’s cabinet is a set of Americans beholden to this culture, upheld by social pressure from their friends, family, and community. The federal agencies they oversee are composed of millions of Americans, allowing a million opportunities for American culture to uphold itself. A million opportunities to thwart a would-be tyrant. Once we fully automate government, where will these guardrails come from?
-
-What mechanism will ensure government is for the people when it’s no longer of the people and by the people?
-
-We’re rapidly approaching AI strong enough to automate our government, without understanding how we’ll hold government accountable with that new power. And there are strong reasons to push this automation: it will make the government cheaper to run, more efficient, more effective, and more competitive against our international adversaries. These are goals that rightfully have bipartisan support, and we should continue to pursue them. But it may prove impossible to control government after we give it this automated power, if we haven’t put equally powerful controls in place beforehand.
-
-There are many efforts today on ensuring AI itself is aligned — that the AI won’t have its own goals that are counter to our own. This is known as “AI alignment”, and it’s important work. But if this work is successful before we have accountability in place for our leaders, then it will increase the risk of concentration of power. If we create AI that leaders can trust to execute their worst ambitions before we have put guardrails in place that let us trust leaders with that power, we will lose power over our government.
-
-There is a path dependence to our future, and timing is a critical variable:
-
-You don't grant Caesar an army to conquer Gaul for Rome until after you are confident you can govern Caesar. The Rubicon is not a sufficient form of governance definition, no matter how strong the norms not to march across it are. In this sense we see that governance is a form of alignment, where we want helpful results for society (build Rome!) while minimizing the harmful outcomes (don’t conquer Rome!). This abstraction applies then to machine, humans, organizations, and machine powered organizations. 
-
-There aren't easy answers, despite the allure of simple ideologies and absolutisms. Even today our governance is imperfect, and we risk devolution and dictatorship at all turns without constant vigilance and adaption. What was needed to govern well the Romans is not what is needed to govern well today. And it’s almost certainly not what’s needed to govern a human-machine civilization tomorrow. And tomorrow may be very soon.
-
-The core question of governance is how to govern intelligences, human or otherwise: collections of forces that can achieve what they seek, can win more power, can cooperate, compete, and destroy. Governance is a set of yes’s and no’s: yes compete this way, no don’t destroy this way, such that the citizens mutually benefit and consolidation of power into dictators is prevented. And the dangers of power abound.
-
-A glib history of governance: governance too weak can lead to hard times and dictators; too strong can lead to hard times and dictators. And there isn’t a simple line between weak and strong. There is no simple compromise, and compromise itself is only sometimes the answer.
-
-Machines will likely enumerate a range of intelligences, requiring a range of governance types. With that lens humans are a special case of governing intelligence. But we further see that a society of humans and machines combined is another case again, and is likely the future we’ll be in.
-
-The question of how to govern machine is thus a continuation of the question of how to govern man. What social compact must we craft so that an aggregate society of diverse intelligences is a net good for those intelligences, and a net good for us in particular.
-
-Thousands of years have been spent on the question of human governance. Millions of thinkers. Countless debates. Dense treatise. Horrible wars.
-
-The question touches the nature of our existence. What world do we want to live in?
-
-The governance of machine poses an equally profound question. We won't have a thousand years to arrive at good answers. We can't afford the deaths of past wars to settle disagreements. We have little time.
-
-But we must find an answer.
-
-
-
-Contents
-
-The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up mankind and allows this new age that’s upon us to be a noble one, not a dark one.
+The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up humanity and ensures this new age that’s upon us will be a noble one, not a dark one.
 
 In this tiny book we’ll cover the basics:
 
-Why is this important, aren’t there bigger problems to solve?
-How does our current civilization work, and what will stop working once we have AI?
-What does the current political, cultural, and power landscape look like as it relates to AI?
-What might a human-machine society look like, what might governance look like, and how can we leverage AI to make it possible?
 
-Why
-
-Some might say, “One problem at a time.”
-
-First, let’s build the machine. This is hard enough.
-
-Then, let’s make sure it’s safe. This is hard enough.
-
-Finally, let’s see how to integrate it into society. Let’s only then craft a world with AI that’s still a world for humans, with all the challenges and upheavals that will take.
-
-Depending on how spaced apart these events are, that’s a reasonable position. 50 years ago certainly there was enough time to focus on the first problem only. 5 years ago perhaps it was fair to focus only on the hard problem of making AI safe. Today, these three events may all happen in the next few years. If so, practically, we can’t wait to solve each problem one by one. There won’t be enough time to do it right. Worse, if we build controllable AI but don’t know how to govern that new human-machine world, there may not be any way to prevent the worst outcomes of concentration of power and the rise of permanent dictatorships. The path to a good human-machine world very likely requires taking the correct actions leading up to the arrival of strong AI, even if we have solved the problem of ensuring the AI is aligned.
-
-There is a path dependence, and our actions today matter more than our actions tomorrow.
-
-If you’re an AI researcher, today your voice matters — tomorrow you will be automated and will lose your currency. If you’re a government employee, today your voice matters — tomorrow you will be automated and laid off. If you’re a voting citizen, today your vote matters — tomorrow it might not be possible to vote out an automated government dictatorship. If you’re any person at all, of any walk of life or nation, today your actions impact the shared culture of humanity, which helps pressure and guide the actions of every other person. Tomorrow, we may live in a world where no amount of shared culture and values matter. Your actions matter today: use them to ensure they still matter tomorrow.
-
-How soon will strong AI arrive? We won’t spend time analyzing timelines here. There are great discussions about this, it’s increasingly important, but it’s overall a well trod area. What’s not well trod is what the world should look like after. After we’ve built and aligned the machine. And, anyway, the timeline discussions are changing rapidly. Anything we write here will likely be outdated before this is published or before you read this. Regardless of timelines, whether we have two years or ten years, there isn’t enough time. We have to prepare now.
-
-Nonetheless, keep engaging in timeline discussions. Keep an array of timelines in your mind. The future is a portfolio of risks and investments. With great uncertainty we should maintain wide error bars and consider many outcomes. Our discussions on governance here should be informed by changing timelines in practice. We’ll discuss proposals that will be good or bad depending on timelines; a bad proposal today may be good tomorrow, and the reverse too. Good risk management means sometimes charging forward boldly, it’s sometimes too risky to be timid. Good risk management means sometimes hedging. Picking correctly isn’t a matter of principle, it’s a matter of skill applied to ever changing details.
-
-As you consider proposals here and elsewhere, if you dislike them, ask yourself if it’s because you disagree with the implied timelines. If so, say out loud, “I don’t think X will happen soon, therefore the cost of Y is too high and I’m willing to risk Z.” Often this is correct. But not always. Say it out loud.
-
-If you like or dislike a proposal, ask yourself if it’s because it matches your ideology, rather than a calculus on outcomes. If so, say out loud, “I prefer to live in a world with X as a principle, even if the worst form of Y outcome results.”
-
-Often this too is correct and good. Speak clearly to yourself and others when you think this. There’s no good in securing a future where we’ve negotiated away our most cherished rights.
-
-What we’re seeing today in AI research is that one of the hardest problems in AI capabilities is teaching the machine to self reflect accurately. Teaching it to recognize when it’s uncertain, when it’s made an unstated assumption, when it’s caught in a doom loop and can’t break free. Improving introspection and self-mastery is key to improving an AI’s ability. Ironically, we know this is true for us humans as well. The low quality of much of our discourse echoes the same reasoning failures we see from AIs today: failure to generalize, failure to highlight unstated assumptions, failure to rethink from first principles and not just pattern match, failure to recognize our own mistakes and self-correct. 
-
-Failure to be honest: to yourself first, then to others.
-
-Because timelines are short, we need to compress a thousand years of governance debate into just a few years. We can do that, but only if we raise the level of discourse.
-
-In the early days of the United States there were great debates on governance. What makes a resilient republic? Volumes were written, dissected, prosecuted. The greatest minds of the time partook. Society as a whole partook. The path forward wasn’t clear, and so we embraced the uncertainty and dug into the hard work of debate to form a more perfect democracy. This took years, it took war, and we are still debating today. But a resilient democracy has endured 250 years because of it.
-
-That democracy, and many others like it, has been the bedrock that’s supported science, technology, social progress, and all of society’s many investments. Investments that have led to the incredible human flourishing we have today. By the standards of any other time in human history, today is the best day. And it’s built upon our modern governance. We know that good governance is the first requirement to prosperity. We know it through the thousand failed experiments, failed governments, failed nations, failed societies, that have caused untold suffering. We know it through the veritable paradise we enjoy today.
-
-The details of good governance depend on the details of what humanity is. If humanity were different, governance would be different. Machine is different from human, and will need different governance. The incentives at play, the instincts, the interplay between dynamics, the form of self-correcting guardrails, everything will be different. Sometimes obviously so. Sometimes subtly.
-
-We won’t get it perfectly right, but we must get it right enough. Right enough to fortify democracy for the human-machine age.
-
-This is all we’ll say on the why. The rest of this writing we’ll focus on the hard question of what. Where we’ll finish by the end will barely constitute an introduction. The rest will be up to you.
-
-Let's begin.
-Complexity and Iterative Design
-Civilization is complex. To study complex systems we often make simplifying assumptions.
-
-When we build models for how fluids like water and air behave, we wash away the details of H2O molecules or air molecules and arrive at a higher level theory of how water and air moves, described by relatively simple equations like Navier Stokes. The success of computational fluid dynamics vindicates this approach, along with the safety of aircraft and multitudes of other technologies predicated on our correct-enough understanding of fluids like air. Even in these simplified theories, we see complexity continue to counter us. Fluids become turbulent and enter chaotic regimes where it’s not just our current models that lose predictive powers, rather all models must lose their power.
-
-Civilization is more complex. Models that average over the human molecules are alluring but fraught, in fiction and reality. Economics treats humans like a smooth fluid, averaging out our uniqueness and quirks. The truth is these quirks matter. The outliers matter — at an individual and global level. We may still debate the great man theory of history, but there’s no doubt that Nazi Germany would have played out differently without Adolf Hitler. And thus likely the entire history of the 21st century.
-
-Still, there are limits on how much a single human can impact the world. We have limited lifespans and limited ability to change ourselves. With AI this gets more complex. AIs that can self-modify will create a world that is even more sensitive to initial conditions and the path of individual molecules.
-
-Civilization is a system with emergent turbulence at the largest scale, but where the path of individual molecules also matters at the smallest scale. In systems theory this is the hardest type of multi-scale system to predict and engineer for. With AI, we will be introducing a further complication: changing the dynamics of the molecules themselves on a continual basis. The AI molecule will change constantly, will individually shape the outcomes of the world, and will be shaped by the global process as well. A complex system where the small scale matters, the large scale matters, and where each scale can rewrite the rules of the other scale every day.
-
-Managing fluids is much easier, but we can still learn from it. We see where there is turbulence and where our models fail, so we engineer our planes to avoid those territories. Our theories remain imperfect and planes crash, so we iterate and refine both our theories and engineering practices. Like all complex engineering processes, we follow an iterative design philosophy. We’ve iterated on civilization and governance for thousands of years. We’ve crashed many civilizations, built many wrong theories of governance, but through it all we’ve iterated and arrived at a beautiful, complicated, impossible creation: the world we see today.
-
-To build the world of tomorrow we’ll need to use all our approaches:
-a theorist’s dissection of why civilization works, especially the implicit dynamics often overlooked
-a willingness to abandon and remake our theory, and to hold multiple competing theories at once
-an engineering mindset to steer away from where we know our theories fail
-a designer’s mindset to iterate quickly as reality pulls your planes from the sky
-
-This is how we’ll forge a resilient system.
-
-Let’s start with the first approach: to understand what works today. In particular, what are the hidden, implicit forces that hold civilization together that may disappear in an automated world.
+Machines have now reached human intelligence in many domains, and will soon surpass us in most others
+If we understand why this progress is accelerating, we will be able to better design how we want to integrate it into human society
 
 
- 
+Societies that allow for freedom and maximum human flourishing aren’t easy to build
+Ours took thousands of years of trial and error and is still a work in progress
+What allows a society to function depends strongly on the details of its members: us humans
 
 
+Automating our economy and government will completely change all of those details
+As those details change, all of the implicit guardrails we rely upon for checks and balances will be swept away
+Because of that, we must rethink society if we want it to be resilient to the arrival of AI
+In particular, the risk of concentration of power and dictatorship is extreme with the full power of AI automation
+
+
+Automation will increasingly consolidate power into fewer and fewer hands, and the guardrails preventing abuse of that power will continue to become obsolete
+Gradually, and then all at once, we will enter a world where checks on power are impotent
+If we don’t change course, tyranny is the default outcome of AI. And it will be increasingly hard for us to resist it the later we act
+We must evolve our governance before strong AI arrives, or we may not have any power left as citizens to fix it after
+Humans alone won’t be able to oversee leaders empowered by AI. As is stands, whoever controls AI will control nearly everything
+
+
+The forces and incentives are already at play to further concentrate power
+We can’t predict how all those forces will play out, but we can think through different scenarios
+Here we’ll explore a short story walking down our current path, and how it leads to an unrecoverable concentration of power and the end of liberty
+The future will almost surely play out differently, in one of a million possible paths. We need to set the conditions so that the future is bright regardless of the path
+
+
+So what should we do? What should those conditions be?
+How can we upgrade our society and governance to be resilient to the multitude of forces pushing us toward tyranny?
+We must leverage AI itself to become part of the checks and balances on how government and industry wield AI
+Passing laws is necessary but not sufficient. An executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don’t also upgrade our oversight and enforcement
+We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions
+
+
+We should think through and imagine how things may go wrong, to better design a more resilient system
+But we should also imagine how things might go right, to ensure we’re building a future we want to live in
+Here we’ll illustrate a positive, near future by telling a short story of how things might go well, assuming we upgrade our checks and balances
+A positive future will surely play out differently than we expect, even if things go well. But we must set a vision of what good looks like so we know what we’re fighting for
+
+
+The discussion around AI policy has rapidly become politically coded
+Adopting all the policies of the left, or all of the policies of the right, will likely lead to disaster
+If we only regulate and slow down AI, we will cede the race to China
+If we only automate our government and military, we will hand so much power over to our government that we may never be free again
+Instead, we must modernize our government and military to remain the dominant superpower, and we must simultaneously upgrade the oversight and safeguards that prevent abuse of this incredible concentration of power
+
+
+Intelligence is the most transformative power the world has ever seen. Until today, that power has been human alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won’t be human
+The force of multiplied intelligence completely rewrites the rules of our world. With it we may see near infinite abundance, or total ruin
+We are on the exponential now. Where will it take us? We must decide
+AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be
+If we don’t together lead this debate —all of us— then the most important decisions of the future of our world will be made without us
+
+For those looking for a primer on AI, we recommend starting with . For everyone else, I’ll see you on the curve.
+
+TABLEOFCONTENTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix
 
 
 

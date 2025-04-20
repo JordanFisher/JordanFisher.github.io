@@ -75,56 +75,33 @@
       },
       {
         "startIndex": 62,
-        "endIndex": 102,
+        "endIndex": 108,
         "paragraph": {
           "elements": [
             {
               "startIndex": 62,
-              "endIndex": 101,
+              "endIndex": 108,
               "textRun": {
-                "content": "AI changes what we need from governance",
-                "textStyle": {
-                  "bold": true
-                }
-              }
-            },
-            {
-              "startIndex": 101,
-              "endIndex": 102,
-              "textRun": {
-                "content": "\n",
+                "content": "One \u2014 AI changes what we need from governance\n",
                 "textStyle": {}
               }
             }
           ],
           "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 18,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 36,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "textStyle": {
-              "bold": true
-            }
+            "headingId": "h.cisien46gypr",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
           }
         }
       },
       {
-        "startIndex": 102,
-        "endIndex": 186,
+        "startIndex": 108,
+        "endIndex": 192,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 102,
-              "endIndex": 186,
+              "startIndex": 108,
+              "endIndex": 192,
               "textRun": {
                 "content": "Societies that allow for freedom and maximum human flourishing aren\u2019t easy to build\n",
                 "textStyle": {}
@@ -135,29 +112,30 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
+            "listId": "kix.n44c9mvr75c4",
+            "textStyle": {
+              "underline": false
+            }
           }
         }
       },
       {
-        "startIndex": 186,
-        "endIndex": 187,
+        "startIndex": 192,
+        "endIndex": 193,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 186,
-              "endIndex": 187,
+              "startIndex": 192,
+              "endIndex": 193,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -166,242 +144,26 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 187,
-        "endIndex": 267,
+        "startIndex": 193,
+        "endIndex": 273,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 187,
-              "endIndex": 267,
+              "startIndex": 193,
+              "endIndex": 273,
               "textRun": {
                 "content": "Ours took thousands of years of trial and error and is still a work in progress\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 267,
-        "endIndex": 268,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 267,
-              "endIndex": 268,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 268,
-        "endIndex": 360,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 268,
-              "endIndex": 360,
-              "textRun": {
-                "content": "What allows a society to function depends strongly on the details of its members: us humans\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 360,
-        "endIndex": 361,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 360,
-              "endIndex": 361,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 361,
-        "endIndex": 420,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 361,
-              "endIndex": 420,
-              "textRun": {
-                "content": "Introducing AI will completely change all of those details\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 420,
-        "endIndex": 421,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 420,
-              "endIndex": 421,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 421,
-        "endIndex": 513,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 421,
-              "endIndex": 513,
-              "textRun": {
-                "content": "Because of that, we must rethink society if we want it to be resilient to the arrival of AI\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 513,
-        "endIndex": 514,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 513,
-              "endIndex": 514,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 514,
-        "endIndex": 589,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 514,
-              "endIndex": 588,
-              "textRun": {
-                "content": "There are many risks we\u2019ll face, and some risks aren\u2019t yet being discussed",
-                "textStyle": {
-                  "bold": true
-                }
-              }
-            },
-            {
-              "startIndex": 588,
-              "endIndex": 589,
-              "textRun": {
-                "content": "\n",
                 "textStyle": {}
               }
             }
@@ -420,20 +182,247 @@
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "textStyle": {
-              "bold": true
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 273,
+        "endIndex": 274,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 273,
+              "endIndex": 274,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
             }
           }
         }
       },
       {
-        "startIndex": 589,
-        "endIndex": 704,
+        "startIndex": 274,
+        "endIndex": 366,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 589,
-              "endIndex": 704,
+              "startIndex": 274,
+              "endIndex": 366,
+              "textRun": {
+                "content": "What allows a society to function depends strongly on the details of its members: us humans\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.pxx44kl6ywl",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 366,
+        "endIndex": 367,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 366,
+              "endIndex": 367,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 367,
+        "endIndex": 426,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 367,
+              "endIndex": 426,
+              "textRun": {
+                "content": "Introducing AI will completely change all of those details\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.pxx44kl6ywl",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 426,
+        "endIndex": 427,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 426,
+              "endIndex": 427,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 427,
+        "endIndex": 519,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 427,
+              "endIndex": 519,
+              "textRun": {
+                "content": "Because of that, we must rethink society if we want it to be resilient to the arrival of AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.pxx44kl6ywl",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 519,
+        "endIndex": 520,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 519,
+              "endIndex": 520,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 520,
+        "endIndex": 601,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 520,
+              "endIndex": 601,
+              "textRun": {
+                "content": "Two \u2014 There are many risks we\u2019ll face, and some risks aren\u2019t yet being discussed\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.tsr82tunr43k",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 601,
+        "endIndex": 716,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 601,
+              "endIndex": 716,
               "textRun": {
                 "content": "In particular, the risk of concentration of power and dictatorship is extreme with the full power of AI automation\n",
                 "textStyle": {}
@@ -444,29 +433,28 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 704,
-        "endIndex": 705,
+        "startIndex": 716,
+        "endIndex": 717,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 704,
-              "endIndex": 705,
+              "startIndex": 716,
+              "endIndex": 717,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -475,18 +463,26 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 705,
-        "endIndex": 835,
+        "startIndex": 717,
+        "endIndex": 847,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 705,
-              "endIndex": 835,
+              "startIndex": 717,
+              "endIndex": 847,
               "textRun": {
                 "content": "Without changes, dictatorships are a default outcome of AI. And it will be increasingly hard for us to resist it the later we act\n",
                 "textStyle": {}
@@ -497,29 +493,28 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 835,
-        "endIndex": 836,
+        "startIndex": 847,
+        "endIndex": 848,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 835,
-              "endIndex": 836,
+              "startIndex": 847,
+              "endIndex": 848,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -528,26 +523,34 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 836,
-        "endIndex": 954,
+        "startIndex": 848,
+        "endIndex": 966,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 836,
-              "endIndex": 866,
+              "startIndex": 848,
+              "endIndex": 878,
               "textRun": {
                 "content": "We must evolve our governance ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 866,
-              "endIndex": 872,
+              "startIndex": 878,
+              "endIndex": 884,
               "textRun": {
                 "content": "before",
                 "textStyle": {
@@ -556,16 +559,16 @@
               }
             },
             {
-              "startIndex": 872,
-              "endIndex": 948,
+              "startIndex": 884,
+              "endIndex": 960,
               "textRun": {
                 "content": " strong AI arrives, or we may not have any power left as citizens to fix it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 948,
-              "endIndex": 954,
+              "startIndex": 960,
+              "endIndex": 966,
               "textRun": {
                 "content": "after\n",
                 "textStyle": {
@@ -578,29 +581,28 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 954,
-        "endIndex": 955,
+        "startIndex": 966,
+        "endIndex": 967,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 954,
-              "endIndex": 955,
+              "startIndex": 966,
+              "endIndex": 967,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -611,18 +613,26 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 955,
-        "endIndex": 1017,
+        "startIndex": 967,
+        "endIndex": 1029,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 955,
-              "endIndex": 1017,
+              "startIndex": 967,
+              "endIndex": 1029,
               "textRun": {
                 "content": "Humans alone won\u2019t be able to oversee leaders empowered by AI\n",
                 "textStyle": {}
@@ -633,69 +643,6 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 1017,
-        "endIndex": 1018,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1017,
-              "endIndex": 1018,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1018,
-        "endIndex": 1046,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1018,
-              "endIndex": 1045,
-              "textRun": {
-                "content": "AI-powered governance of AI",
-                "textStyle": {
-                  "bold": true
-                }
-              }
-            },
-            {
-              "startIndex": 1045,
-              "endIndex": 1046,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
               "magnitude": 18,
               "unit": "PT"
             },
@@ -706,20 +653,67 @@
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "textStyle": {
-              "bold": true
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1029,
+        "endIndex": 1030,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1029,
+              "endIndex": 1030,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
             }
           }
         }
       },
       {
-        "startIndex": 1046,
-        "endIndex": 1164,
+        "startIndex": 1030,
+        "endIndex": 1076,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1046,
-              "endIndex": 1164,
+              "startIndex": 1030,
+              "endIndex": 1076,
+              "textRun": {
+                "content": "Three \u2014 Designing AI-powered governance of AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.psnqf8wjpf6j",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1076,
+        "endIndex": 1194,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1076,
+              "endIndex": 1194,
               "textRun": {
                 "content": "Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI\n",
                 "textStyle": {}
@@ -730,51 +724,30 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 1164,
-        "endIndex": 1165,
+        "startIndex": 1194,
+        "endIndex": 1195,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1164,
-              "endIndex": 1165,
+              "startIndex": 1194,
+              "endIndex": 1195,
               "textRun": {
                 "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1165,
-        "endIndex": 1210,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1165,
-              "endIndex": 1210,
-              "textRun": {
-                "content": "Passing laws is necessary but not sufficient\n",
                 "textStyle": {}
               }
             }
@@ -783,107 +756,27 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 36,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 1210,
-        "endIndex": 1211,
+        "startIndex": 1195,
+        "endIndex": 1402,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1210,
-              "endIndex": 1211,
+              "startIndex": 1195,
+              "endIndex": 1402,
               "textRun": {
-                "content": "\n",
+                "content": "Passing laws is necessary but not sufficient. An Executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don\u2019t also upgrade our oversight and enforcement.\n",
                 "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1211,
-        "endIndex": 1369,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1211,
-              "endIndex": 1369,
-              "textRun": {
-                "content": "We must enshrine the oversight inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "magnitude": 54,
-              "unit": "PT"
-            },
-            "indentStart": {
-              "magnitude": 72,
-              "unit": "PT"
-            }
-          },
-          "bullet": {
-            "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
-            "textStyle": {}
-          }
-        }
-      },
-      {
-        "startIndex": 1369,
-        "endIndex": 1370,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1369,
-              "endIndex": 1370,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1370,
-        "endIndex": 1394,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1370,
-              "endIndex": 1394,
-              "textRun": {
-                "content": "We all are part of this\n",
-                "textStyle": {
-                  "bold": true
-                }
               }
             }
           ],
@@ -901,20 +794,127 @@
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "textStyle": {
-              "bold": true
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1402,
+        "endIndex": 1403,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1402,
+              "endIndex": 1403,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
             }
           }
         }
       },
       {
-        "startIndex": 1394,
-        "endIndex": 1477,
+        "startIndex": 1403,
+        "endIndex": 1571,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1394,
-              "endIndex": 1477,
+              "startIndex": 1403,
+              "endIndex": 1571,
+              "textRun": {
+                "content": "We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.pxx44kl6ywl",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1571,
+        "endIndex": 1572,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1571,
+              "endIndex": 1572,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1572,
+        "endIndex": 1603,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1572,
+              "endIndex": 1603,
+              "textRun": {
+                "content": "Four \u2014 We all are part of this\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.yihqjghqa8j8",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1603,
+        "endIndex": 1686,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1603,
+              "endIndex": 1686,
               "textRun": {
                 "content": "AI is the most important event in our lifetime, but the outcome is not yet written\n",
                 "textStyle": {}
@@ -925,29 +925,28 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 1477,
-        "endIndex": 1478,
+        "startIndex": 1686,
+        "endIndex": 1687,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1477,
-              "endIndex": 1478,
+              "startIndex": 1686,
+              "endIndex": 1687,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -956,18 +955,26 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 1478,
-        "endIndex": 1540,
+        "startIndex": 1687,
+        "endIndex": 1749,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1478,
-              "endIndex": 1540,
+              "startIndex": 1687,
+              "endIndex": 1749,
               "textRun": {
                 "content": "We all own the conversation for what we want the future to be\n",
                 "textStyle": {}
@@ -978,29 +985,28 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
       },
       {
-        "startIndex": 1540,
-        "endIndex": 1541,
+        "startIndex": 1749,
+        "endIndex": 1750,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1540,
-              "endIndex": 1541,
+              "startIndex": 1749,
+              "endIndex": 1750,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1009,18 +1015,26 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
           }
         }
       },
       {
-        "startIndex": 1541,
-        "endIndex": 1676,
+        "startIndex": 1750,
+        "endIndex": 1885,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1541,
-              "endIndex": 1676,
+              "startIndex": 1750,
+              "endIndex": 1885,
               "textRun": {
                 "content": "If we don\u2019t together lead this debate \u2014all of us\u2014 then the most important decisions of the future of our world will be made without us\n",
                 "textStyle": {}
@@ -1031,17 +1045,16 @@
             "namedStyleType": "NORMAL_TEXT",
             "direction": "LEFT_TO_RIGHT",
             "indentFirstLine": {
-              "magnitude": 54,
+              "magnitude": 18,
               "unit": "PT"
             },
             "indentStart": {
-              "magnitude": 72,
+              "magnitude": 36,
               "unit": "PT"
             }
           },
           "bullet": {
             "listId": "kix.pxx44kl6ywl",
-            "nestingLevel": 1,
             "textStyle": {}
           }
         }
@@ -1449,13 +1462,13 @@
     ]
   },
   "lists": {
-    "kix.pxx44kl6ywl": {
+    "kix.n44c9mvr75c4": {
       "listProperties": {
         "nestingLevels": [
           {
             "bulletAlignment": "START",
-            "glyphType": "DECIMAL",
-            "glyphFormat": "%0.",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
             "indentFirstLine": {
               "magnitude": 18,
               "unit": "PT"
@@ -1487,9 +1500,9 @@
             "startNumber": 1
           },
           {
-            "bulletAlignment": "END",
-            "glyphType": "ROMAN",
-            "glyphFormat": "%2.",
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
             "indentFirstLine": {
               "magnitude": 90,
               "unit": "PT"
@@ -1505,8 +1518,8 @@
           },
           {
             "bulletAlignment": "START",
-            "glyphType": "DECIMAL",
-            "glyphFormat": "%3.",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
             "indentFirstLine": {
               "magnitude": 126,
               "unit": "PT"
@@ -1522,8 +1535,8 @@
           },
           {
             "bulletAlignment": "START",
-            "glyphType": "ALPHA",
-            "glyphFormat": "%4.",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
             "indentFirstLine": {
               "magnitude": 162,
               "unit": "PT"
@@ -1538,9 +1551,9 @@
             "startNumber": 1
           },
           {
-            "bulletAlignment": "END",
-            "glyphType": "ROMAN",
-            "glyphFormat": "%5.",
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
             "indentFirstLine": {
               "magnitude": 198,
               "unit": "PT"
@@ -1556,8 +1569,8 @@
           },
           {
             "bulletAlignment": "START",
-            "glyphType": "DECIMAL",
-            "glyphFormat": "%6.",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
             "indentFirstLine": {
               "magnitude": 234,
               "unit": "PT"
@@ -1573,8 +1586,8 @@
           },
           {
             "bulletAlignment": "START",
-            "glyphType": "ALPHA",
-            "glyphFormat": "%7.",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
             "indentFirstLine": {
               "magnitude": 270,
               "unit": "PT"
@@ -1589,9 +1602,168 @@
             "startNumber": 1
           },
           {
-            "bulletAlignment": "END",
-            "glyphType": "ROMAN",
-            "glyphFormat": "%8.",
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.pxx44kl6ywl": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
             "indentFirstLine": {
               "magnitude": 306,
               "unit": "PT"
@@ -1609,7 +1781,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lvk9RpDA-yRlMqsFv_mMMfS71p1Bb2rdsJdGcRHTwQEoG0Inll8VQFEceUAfhp4QLLytwGttR8Wq0MMKQ",
+  "revisionId": "ALBJ4LtIw4PRBwuCGy6O07Rnu911JmkMaEuuF_aCoQOytrWtU4oU-1U1rTB2ohB1po00Nm50Vu4iFByvS2eJRw",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1ml52UUZ59ij4netSr_84YGlLdoVdzgqD_vT9ByNdRo0"
 }
