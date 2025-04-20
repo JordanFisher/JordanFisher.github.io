@@ -16,7 +16,7 @@ This will fetch the Google Docs listed in `doc_list.py` and convert them to HTML
 
 To generate a PDF version of the "Tiny Book on Governance of Machine Intelligence" post:
 
-```
+```bash
 # Generate without images (smaller file size)
 python make_governance_pdf.py
 
@@ -26,8 +26,12 @@ python make_governance_pdf.py --include-images
 # Custom output file name
 python make_governance_pdf.py --output custom_name.pdf
 
-# Skip site generation step
+# Skip site generation step (use when HTML is up-to-date)
 python make_governance_pdf.py --skip-site-generation
+
+# Regenerate PDF from existing LaTeX without regenerating site or LaTeX 
+# (fastest option for iterating on LaTeX formatting)
+python make_governance_pdf.py --pdf-only
 ```
 
 The script will:
@@ -35,6 +39,21 @@ The script will:
 2. Convert the HTML to LaTeX
 3. Generate a PDF file
 4. Create a second version with a custom cover ("_with_cover.pdf")
+
+### PDF Generation Workflow Tips
+
+When working on PDF styling:
+
+1. For quick iterations on LaTeX formatting:
+   - Edit the .tex file directly
+   - Run `python make_governance_pdf.py --pdf-only` to see the changes
+   - This bypasses the site generation and HTML-to-LaTeX conversion steps
+
+2. Chapter numbers in inlined documents:
+   - The HTML version displays chapter numbers with custom CSS styling
+   - The PDF version uses sans-serif italic small font for chapter numbers
+   - To modify styling, edit the inline_links function in convert.py (for HTML) 
+     or make_governance_pdf.py (for LaTeX)
 
 Note that PDF generation requires TeX Live to be installed with additional packages for strikethrough support.
 
@@ -79,11 +98,17 @@ Key files and their purposes:
 
 - `doc_list.py`: List of Google Docs to fetch and convert
 - `generate_site.py`: Main script to generate the blog
-- `convert.py`: Handles conversion of Google Doc JSON to HTML
-- `make_governance_pdf.py`: Converts HTML to LaTeX/PDF
-- `post_template.html`: Template for individual blog posts
+- `convert.py`: Handles conversion of Google Doc JSON to HTML and inlines nested documents with chapter numbering
+- `make_governance_pdf.py`: Converts HTML to LaTeX/PDF with LaTeX-specific formatting
+- `post_template.html`: Template for individual blog posts (includes CSS for chapter numbers)
 - `index_template.html`: Template for the landing page
 - `latex_templates/`: LaTeX templates for PDF generation
+
+### Important Functions
+
+- `convert.py:inline_links()`: Handles inlining of linked Google Docs as chapters with sequential numbering
+- `make_governance_pdf.py:html_to_latex()`: Converts HTML to LaTeX, including chapter number formatting
+- `make_governance_pdf.py:process_inline_elements()`: Preserves text formatting (bold, italic, etc.) when converting to LaTeX
 
 ## Special Formatting
 
