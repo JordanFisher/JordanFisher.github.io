@@ -792,6 +792,13 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     heading_id = inlined_doc_ids[doc_id]
                     target_heading = soup.find(id=heading_id)
                     
+                    # Check if the target heading has a chapter number
+                    chapter_prefix = ""
+                    if target_heading:
+                        chapter_span = target_heading.find('span', class_='chapter-number')
+                        if chapter_span:
+                            chapter_prefix = chapter_span.get_text().strip()
+                    
                     # If the target heading exists and the text differs significantly
                     if target_heading and current_text and '[Final]' in current_text:
                         # Get the actual heading text without the [Final] suffix
@@ -805,9 +812,19 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     
                     # For empty links, add descriptive text
                     elif not current_text or current_text.strip() == '':
-                        # If link has no text, use "See section: heading"
+                        # If link has no text, use "See chapter/section: heading"
                         heading_text = inlined_doc_ids[doc_id].replace('-', ' ').title()
-                        link.string = f"See section: {heading_text}"
+                        if chapter_prefix:
+                            link.string = f"See {chapter_prefix} {heading_text}"
+                        else:
+                            link.string = f"See section: {heading_text}"
+                    
+                    # Always add chapter prefix to links if available
+                    elif chapter_prefix and "Chapter" not in current_text:
+                        # Clear the existing link text
+                        link.clear()
+                        # Add the chapter prefix to the current text
+                        link.string = f"{chapter_prefix} {current_text}"
                 else:
                     # This document is not inlined, so link to its HTML file
                     # Try to find a post with this content
@@ -819,6 +836,8 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                         target_doc_id = extract_doc_id(url)
                         if doc_id == target_doc_id:
                             post_url = f"{url_names[0]}.html"
+                            # We can't reliably get chapter info from posts that don't exist yet
+                            # So we'll just use the existing link text
                             break
                     
                     # Update the link
@@ -831,6 +850,9 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                             link['href'] = f"{post_url}#{clean_anchor}"
                         else:
                             link['href'] = post_url
+                            
+                        # We're not adding chapter info to links here
+                        # since we can't reliably get it for posts that don't exist yet
     
     return str(soup)
 
