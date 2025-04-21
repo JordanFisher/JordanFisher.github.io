@@ -130,22 +130,28 @@ def save_html(url_names: list[str], gdoc_data: dict) -> tuple[str, str, str]:
 
     return html_title, description, link
 
-def main():
-    # Get credentials and build service
-    creds = get_credentials()
-    service = build('docs', 'v1', credentials=creds)
-    drive_service = build('drive', 'v3', credentials=creds)
-    
-    # Initialize the global docs service and drive service
-    set_docs_service(service)
-    set_drive_service(drive_service)
+def main(local_only=False):
+    if not local_only:
+        # Get credentials and build service
+        creds = get_credentials()
+        service = build('docs', 'v1', credentials=creds)
+        drive_service = build('drive', 'v3', credentials=creds)
         
-    # Delete existing fetched_docs directory
-    if os.path.exists('fetched_docs'):
-        shutil.rmtree('fetched_docs')
-    os.makedirs('fetched_docs')
+        # Initialize the global docs service and drive service
+        set_docs_service(service)
+        set_drive_service(drive_service)
+        
+        # Create fetched_docs directory if it doesn't exist
+        if not os.path.exists('fetched_docs'):
+            os.makedirs('fetched_docs')
+    else:
+        print("Running in local-only mode. Will use existing cached documents.")
+        # Check if required directories exist
+        if not os.path.exists('fetched_docs'):
+            print("Error: No cached documents found. Run without --local-only first.")
+            return None
     
-    # Create or preserve the posts/images directory when recreating posts directory
+    # Create or preserve the posts/images directory
     posts_images_dir = os.path.join('posts', 'images')
     posts_images_existed = os.path.exists(posts_images_dir)
     
@@ -157,32 +163,39 @@ def main():
         print(f"Preserving images directory: {posts_images_dir}")
         shutil.copytree(posts_images_dir, os.path.join(temp_images, 'images'))
     
-    # Delete existing posts directory
-    if os.path.exists('posts'):
-        shutil.rmtree('posts')
-    os.makedirs('posts')
+    # Create posts directory if it doesn't exist, otherwise just keep it
+    if not os.path.exists('posts'):
+        os.makedirs('posts')
     
-    # Restore images directory if it existed
+    # Restore images directory if needed
     if posts_images_existed and temp_images:
+        if not os.path.exists(posts_images_dir):
+            os.makedirs(posts_images_dir)
         print(f"Restoring images directory to: {posts_images_dir}")
-        os.makedirs(posts_images_dir)
         for item in os.listdir(os.path.join(temp_images, 'images')):
             s = os.path.join(temp_images, 'images', item)
             d = os.path.join(posts_images_dir, item)
-            if os.path.isdir(s):
+            if os.path.isdir(s) and not os.path.exists(d):
                 shutil.copytree(s, d)
-            else:
+            elif not os.path.isdir(s) and not os.path.exists(d):
                 shutil.copy2(s, d)
         shutil.rmtree(temp_images)
-    else:
+    elif not os.path.exists(posts_images_dir):
         # Create images directory if it didn't exist
         os.makedirs(posts_images_dir)
         
-    # Copy the header image to the posts directory
+    # Copy the header images to the posts directory
+    # Original header
     header_image_path = os.path.join(os.getcwd(), 'liberty_by_design_header.png')
     if os.path.exists(header_image_path):
-        print(f"Copying header image to posts directory")
+        print(f"Copying liberty_by_design_header.png to posts directory")
         shutil.copy2(header_image_path, os.path.join('posts', 'liberty_by_design_header.png'))
+    
+    # Singularity header
+    singularity_image_path = os.path.join(os.getcwd(), 'singularity_design_horizontal_strip.png')
+    if os.path.exists(singularity_image_path):
+        print(f"Copying singularity_design_horizontal_strip.png to posts directory")
+        shutil.copy2(singularity_image_path, os.path.join('posts', 'singularity_design_horizontal_strip.png'))
 
     # Process each document
     documents = {}
@@ -194,16 +207,40 @@ def main():
             if not doc_id:
                 print(f"Failed to extract doc ID from URL: {url}")
                 continue
+            
+            if local_only:
+                # Check if cached JSON file exists
+                json_path = os.path.join("fetched_docs", url_names[0] + '.json')
+                if not os.path.exists(json_path):
+                    print(f"Skipping {url_names[0]}: cached document not found at {json_path}")
+                    continue
                 
-            # Convert the document to HTML with inlined links
-            title, description, html_content = convert_doc_to_html(doc_id)
-            if not html_content:
-                print(f"Failed to convert document {doc_id} to HTML")
-                continue
-                
-            # Save the raw document for reference
-            raw_doc = fetch_gdoc(doc_id)
-            documents[url] = save_doc(url_names, raw_doc)
+                print(f"Using cached version of {url_names[0]}")
+                try:
+                    with open(json_path, 'r') as f:
+                        raw_doc = json.load(f)
+                    
+                    # Convert the document to HTML using cached document
+                    title, description, html_content = convert_doc_to_html(raw_doc)
+                    if not html_content:
+                        print(f"Failed to convert cached document {json_path} to HTML")
+                        continue
+                        
+                    # Add to documents dictionary
+                    documents[url] = url_names[0]
+                except Exception as e:
+                    print(f"Error processing cached document {json_path}: {str(e)}")
+                    continue
+            else:
+                # Convert the document to HTML with inlined links by fetching from Google
+                title, description, html_content = convert_doc_to_html(doc_id)
+                if not html_content:
+                    print(f"Failed to convert document {doc_id} to HTML")
+                    continue
+                    
+                # Save the raw document for reference
+                raw_doc = fetch_gdoc(doc_id)
+                documents[url] = save_doc(url_names, raw_doc)
             
             # Create a description block if description exists
             description_html = ""
@@ -269,9 +306,9 @@ def main():
     links_html = ''
     for title, description, post_url in links:
         links_html += f'''
-        <a href="posts/{post_url}" class="story-link">
-            <div class="story-title"><h1>{title}</h1></div>
-            <div class="story-description">{description}</div>
+        <a href="posts/{post_url}" class="post-link">
+            <div class="post-title">{title}</div>
+            <div class="post-description">{description}</div>
         </a>'''
     index_html = INDEX_HTML_TEMPLATE.replace("LINKS", links_html)
     with open("index.html", 'w') as f:
@@ -280,18 +317,30 @@ def main():
     return documents
 
 if __name__ == '__main__':
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Generate blog site from Google Docs')
+    parser.add_argument('--local-only', action='store_true', 
+                        help='Use cached documents only without connecting to Google')
+    args = parser.parse_args()
+    
     try:
-        documents = main()
-        print(f"Fetched {len(documents)} documents.")
+        documents = main(local_only=args.local_only)
+        if documents:
+            print(f"Processed {len(documents)} documents.")
+        else:
+            print("No documents were processed.")
     except google.auth.exceptions.RefreshError as e:
-        print()
-        print("You need to re-auth. Trying running these commands:")
-        print("  * Make sure you're in the right project, `gcloud config list`, we want `cool-snowfall-429620-i6`")
-        print("  * `gcloud auth application-default login`")
-        print("  * Delete the `token.pickle` file")
-        print("  * Re-run this script")
-        print()
-        print()
-        print("...")
-        print()
-        raise e
+        if not args.local_only:
+            print()
+            print("You need to re-auth. Trying running these commands:")
+            print("  * Make sure you're in the right project, `gcloud config list`, we want `cool-snowfall-429620-i6`")
+            print("  * `gcloud auth application-default login`")
+            print("  * Delete the `token.pickle` file")
+            print("  * Re-run this script")
+            print("  * Alternatively, run with --local-only to use cached documents")
+            print()
+            print()
+            print("...")
+            print()
+            raise e

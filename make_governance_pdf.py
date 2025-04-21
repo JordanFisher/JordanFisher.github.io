@@ -954,6 +954,8 @@ def main():
                         help='Skip generating the site before creating PDF')
     parser.add_argument('--pdf-only', action='store_true',
                         help='Only regenerate PDF from existing LaTeX file, skip site and LaTeX generation')
+    parser.add_argument('--local-only', action='store_true',
+                        help='Use cached documents only without connecting to Google')
     args = parser.parse_args()
     
     # Get the TeX filename from the output PDF filename
@@ -977,7 +979,7 @@ def main():
         if not args.skip_site_generation:
             print("Generating site first...")
             try:
-                generate_site.main()
+                generate_site.main(local_only=args.local_only)
                 print("Site generation completed successfully.")
             except Exception as e:
                 print(f"Error generating site: {e}")

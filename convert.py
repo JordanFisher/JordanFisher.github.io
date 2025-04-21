@@ -175,12 +175,12 @@ def get_gdoc_url_and_id(element: Dict) -> Tuple[Optional[str], Optional[str]]:
     
     return None, None
 
-def convert_doc_to_html(doc_id: str) -> tuple[str, str, str]:
-    """Takes a Google Doc ID, fetches it, and converts it to an HTML string with inlined links.
+def convert_doc_to_html(doc_id_or_doc: str | dict) -> tuple[str, str, str]:
+    """Takes a Google Doc ID or a raw document dictionary and converts it to an HTML string with inlined links.
     Also extracts the description enclosed in [[[ and ]]] markers.
     
     Args:
-        doc_id (str): The ID of the Google Doc to convert
+        doc_id_or_doc (str | dict): Either the ID of the Google Doc to convert or a raw document dictionary
         
     Returns:
         tuple: (title, description, html_content)
@@ -188,8 +188,13 @@ def convert_doc_to_html(doc_id: str) -> tuple[str, str, str]:
             - description (str): The extracted description
             - html_content (str): The Google Doc as an HTML string with the title already included and links inlined
     """
-    # Fetch the document
-    doc = fetch_gdoc(doc_id)
+    # Determine if we have a doc_id or a raw document
+    if isinstance(doc_id_or_doc, dict):
+        doc = doc_id_or_doc
+    else:
+        # Fetch the document from Google
+        doc = fetch_gdoc(doc_id_or_doc)
+    
     if not doc:
         return "", "", ""
         
