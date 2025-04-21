@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Collection</title>
+    <!-- Google Fonts -->
     <style>
+        /* Playfair Display font */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        /* Montserrat font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+        
+        /* Define global variables */
+        :root {
+            --font-size: 1.25rem;
+            --bkg-color: rgb(22, 22, 22);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -12,96 +24,279 @@
         }
 
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Montserrat', sans-serif !important;
             line-height: 1.6;
-            color: #1a1a1a;
-            background-color: #ffffff;
-            padding: 1rem;
+            color: #f0f0f0;
+            background-color: var(--bkg-color);
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+            width: 100%;
+            max-width: 100vw;
+        }
+        
+        a {
+            color: #5abbff;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+        }
+        
+        a:hover {
+            border-bottom-color: #5abbff;
+        }
+        
+        .header-container {
+            position: relative;
+            width: 100%;
+            overflow: visible; /* Allow text to extend outside */
+            margin-bottom: 3rem; /* Add more space below */
+            max-width: 100%;
+        }
+
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .header-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%; /* Adjust height as needed */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--bkg-color));
+            pointer-events: none; /* Allow clicks to pass through */
+            overflow: hidden;
+        }
+        
+        .header-overlay {
+            position: absolute;
+            bottom: 0px; /* Position at the bottom of the image */
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+            z-index: 10; /* Ensure text is above gradient */
+            transform: translateY(0%); /* Move 25% of the text height down */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .header-overlay:hover {
+            transform: translateY(0%) scale(1.01); /* Reduced scale to avoid overflow */
+        }
+
+        .header-title {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 4rem;
+            font-weight: 500;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            transition: text-shadow 0.3s ease;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        
+        .header-overlay:hover .header-title {
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
+
+        .header-subtitle {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            margin-bottom: 1.5rem;
+            transition: text-shadow 0.3s ease;
+        }
+        
+        .header-overlay:hover .header-subtitle {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .chevron-down {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            position: relative;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+            animation: bounce 2s infinite;
+            margin-top: 10px;
+        }
+        
+        .chevron-down:after {
+            content: '';
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 12px;
+            height: 12px;
+            border-right: 2px solid white;
+            border-bottom: 2px solid white;
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: transform 0.3s ease;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .header-overlay:hover .chevron-down {
+            animation-play-state: paused;
+            transform: translateY(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         }
 
         .container {
             max-width: 38em;
             margin: 0 auto;
             padding: 1rem;
+            margin-top: 12rem;
         }
 
         h1 {
             font-size: 2.5rem;
-            margin-top: 1.5rem;
+            margin-top: 3.95rem;
             margin-bottom: 1.5rem;
             line-height: 1.2;
         }
         
         h1.title-header {
             font-size: 2.5rem;
-            margin-top: 5rem;
+            margin-top: 6.85rem;
             margin-bottom: 2rem;
             line-height: 1.2;
+            font-style: italic;
+            font-family: 'Montserrat', sans-serif !important;
         }
 
-        .story-link {
+        h1 {
+            font-style: italic;
+        }
+
+        h2 {
+            font-style: italic;
+        }
+
+        /* Blog post links styling */
+        .post-link {
             display: block;
+            margin: 2rem 0;
             padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border: 1px solid #ddd;
-            border-radius: 8px;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
             text-decoration: none;
             color: inherit;
             transition: all 0.2s ease;
-            background-color: #fafafa;
         }
 
-        .story-link:hover {
+        .post-link:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            background-color: #ffffff;
         }
 
-        .story-title {
+        .post-title {
+            font-family: 'Montserrat', sans-serif !important;
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
             color: #2c5282;
+            font-style: italic;
         }
 
-        .story-description {
-            font-size: 1.1rem;
+        .post-description {
+            font-size: var(--font-size);
             color: #4a5568;
         }
 
-        /* Dark mode support */
-        /* @media (prefers-color-scheme: dark) { */
-            body {
-                background-color: #1a1a1a;
-                color: #f0f0f0;
+        /* Blog post styling for dark mode */
+        .post-link {
+            border-left-color: #555;
+            background-color: var(--bkg-color);
+        }
+        
+        .post-title {
+            color: #e9e9e9;
+        }
+        
+        .post-description {
+            color: #f0f0f0;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .header-image {
+                width: 137%;
+                margin-left: -15%;
             }
 
-            a {
-                color: #e9e9e9;
+            .header-title {
+                font-size: 4rem;
             }
-
-            .story-link {
-                background-color: #2d2d2d;
-                border-color: #333;
+            
+            .header-subtitle {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
             }
-
-            .story-link:hover {
-                background-color: #333333;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            
+            .header-overlay {
+                transform: translateY(57%); /* Less overlap on mobile */
+                padding: 1.5rem;
             }
-
-            .story-title {
-                color: #e9e9e9;
+            
+            .header-overlay:hover {
+                transform: translateY(57%); /* Maintain position on hover */
             }
-
-            .story-description {
-                color: #f0f0f0;
+            
+            .header-gradient {
+                height: 65%; /* Taller gradient on mobile */
             }
-        /* } */
+            
+            .chevron-down {
+                display: none; /* Hide chevron on mobile */
+            }
+        }
 
-        /* Mobile optimization */
+        .content-start {
+            margin-bottom: 2rem;
+        }
+        
+        /* Small mobile screens */
+        @media (max-width: 380px) {
+            .header-title {
+                font-size: 1.8rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1rem;
+            }
+            
+            .header-overlay {
+                padding: 1rem;
+            }
+        }
+        
         @media (max-width: 600px) {
             body {
-                padding: 0.5rem;
+                padding: 0;
             }
 
             .container {
@@ -111,70 +306,104 @@
             h1 {
                 font-size: 2rem;
             }
-
-            .story-link {
+            
+            .post-link {
                 padding: 1rem;
             }
-
-            .story-title {
-                font-size: 1.25rem;
+            
+            .post-title {
+                font-size: 1.75rem;
             }
-
-            .story-description {
+            
+            .post-description {
                 font-size: 1rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <br>
-        <h1 class="title-header">🔥😌 Welcome 😬🔥</h1>
-        <p>
-            ...to Jordan Ezra Fisher's random ass writings.
-            you can also find me on <a href="https://x.com/JordanFisherEzr">Twitter</a>
-            and <a href="https://substack.com/@jordanezra/">Substack</a>
-        </p>
-        
-        <br>
-        <br>
+    <div class="header-container">
+        <div style="overflow-x: hidden; width: 100%;">
+            <img src="singularity_design_horizontal_strip.png" alt="Singularity Design Header" class="header-image">
+        </div>
+        <div class="header-gradient"></div>
+        <div class="header-overlay" id="header-clickable">
+            <h1 class="header-title">jordan ezra</h1>
+            <div class="chevron-down"></div>
+        </div>
+    </div>
 
-        <a href="posts/tiny_book_on_governance_of_machine.html" class="story-link">
-            <div class="story-title"><h1>Liberty by Design: Governing a Human-Machine Society</h1></div>
-            <div class="story-description">There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const headerClickable = document.getElementById('header-clickable');
+            const contentStart = document.querySelector('.content-start');
+            
+            if (headerClickable && contentStart) {
+                headerClickable.addEventListener('click', function() {
+                    // Get position of the content start
+                    const rect = contentStart.getBoundingClientRect();
+                    const targetY = window.pageYOffset + rect.top;
+                    
+                    // Scroll less than the full distance
+                    const scrollDestination = targetY - (rect.height * 0.4);
+                    
+                    // Smooth scroll to slightly above the content
+                    window.scrollTo({
+                        top: scrollDestination,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        });
+    </script>
+    <div class="container">
+        <div class="content-start">
+            <p>
+                welcome to jordan ezra fisher's writings.
+                you can also find me on <a href="https://x.com/JordanFisherEzr">twitter</a>
+                and <a href="https://substack.com/@jordanezra/">substack</a>
+            </p>
+        </div>
+        
+        <div id="posts">
+
+        <a href="posts/tiny_book_on_governance_of_machine.html" class="post-link">
+            <div class="post-title">Liberty by Design: Governing a Human-Machine Society</div>
+            <div class="post-description">There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</div>
         </a>
-        <a href="posts/superchecks_superbalances.html" class="story-link">
-            <div class="story-title"><h1>Superchecks and superbalances</h1></div>
-            <div class="story-description">The near future. AGI is here, and it’s everywhere, including the US government. But this time, the good guys win. America, fuck yeah.</div>
+        <a href="posts/superchecks_superbalances.html" class="post-link">
+            <div class="post-title">Superchecks and superbalances</div>
+            <div class="post-description">The near future. AGI is here, and it’s everywhere, including the US government. But this time, the good guys win. America, fuck yeah.</div>
         </a>
-        <a href="posts/the_prompt_of_power.html" class="story-link">
-            <div class="story-title"><h1>The Prompt of Power</h1></div>
-            <div class="story-description">This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.</div>
+        <a href="posts/the_prompt_of_power.html" class="post-link">
+            <div class="post-title">The Prompt of Power</div>
+            <div class="post-description">This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.</div>
         </a>
-        <a href="posts/please_be_silly.html" class="story-link">
-            <div class="story-title"><h1>Don’t be silly</h1></div>
-            <div class="story-description">or do be, that’s great too</div>
+        <a href="posts/please_be_silly.html" class="post-link">
+            <div class="post-title">Don’t be silly</div>
+            <div class="post-description">or do be, that’s great too</div>
         </a>
-        <a href="posts/governance_tl_dr.html" class="story-link">
-            <div class="story-title"><h1>TL;DR</h1></div>
-            <div class="story-description"></div>
+        <a href="posts/governance_tl_dr.html" class="post-link">
+            <div class="post-title">TL;DR</div>
+            <div class="post-description"></div>
         </a>
-        <a href="posts/implicit_guardrails.html" class="story-link">
-            <div class="story-title"><h1>The end of implicit guardrails</h1></div>
-            <div class="story-description">Much of what makes our society function well is hidden in implicit guardrails, rather than explicit governance. If we enumerate these implicit guardrails, maybe we can better prepare for an AI-powered world where these guardrails may disappear.</div>
+        <a href="posts/implicit_guardrails.html" class="post-link">
+            <div class="post-title">The end of implicit guardrails</div>
+            <div class="post-description">Much of what makes our society function well is hidden in implicit guardrails, rather than explicit governance. If we enumerate these implicit guardrails, maybe we can better prepare for an AI-powered world where these guardrails may disappear.</div>
         </a>
-        <a href="posts/by_any_other_name.html" class="story-link">
-            <div class="story-title"><h1>A simple path to tyranny</h1></div>
-            <div class="story-description">Removing implicit guardrails has many implications, but let's specifically examine how it eliminates natural obstacles to the concentration of power.</div>
+        <a href="posts/by_any_other_name.html" class="post-link">
+            <div class="post-title">A simple path to tyranny</div>
+            <div class="post-description">Removing implicit guardrails has many implications, but let's specifically examine how it eliminates natural obstacles to the concentration of power.</div>
         </a>
-        <a href="posts/rapid_fire_governance.html" class="story-link">
-            <div class="story-title"><h1>Rapid fire governance — designing upgrades to democracy</h1></div>
-            <div class="story-description">if we can YOLO creating AI we can YOLO new forms of governance. lol. lmao even.<br><br><br><br>actually, wait</div>
+        <a href="posts/rapid_fire_governance.html" class="post-link">
+            <div class="post-title">Rapid fire governance — designing upgrades to democracy</div>
+            <div class="post-description">if we can YOLO creating AI we can YOLO new forms of governance. lol. lmao even.<br><br><br><br>actually, wait</div>
         </a>
-        <a href="posts/if_you_can_keep_it.html" class="story-link">
-            <div class="story-title"><h1>An exponential, if you can keep it</h1></div>
-            <div class="story-description"></div>
+        <a href="posts/if_you_can_keep_it.html" class="post-link">
+            <div class="post-title">An exponential, if you can keep it</div>
+            <div class="post-description"></div>
         </a>        
+        </div>
     </div>
 </body>
 </html>
