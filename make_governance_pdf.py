@@ -262,12 +262,13 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         
         # Generate TOC entries
         for chapter_num, heading_text, heading_id in chapter_headings:
-            # Format with chapter number first, then title, then page number on separate lines
-            # Add more vertical space before each chapter entry
+            # Format with chapter number first, then page num, then title on a separate line.
+            # Add more vertical space before each chapter entry.
             toc_content += f"""\\noalign{{\\vspace{{2em}}}}
-{{\\sffamily\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
+\\nopagebreak
+{{\\sffamily\\itshape {chapter_num}}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
+\\nopagebreak
 \\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
-{{}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 """
         
         # Close the TOC
@@ -415,8 +416,8 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                 if element.name == 'div' and element.get('class'):
                     print(f"Div found with classes: {element.get('class')}")
                 para_text = element.get_text().strip()
-                print(f"Element: {element.name}, Text: '{para_text[:30]}...' if too long")
-                
+                # print(f"Element: {element.name}, Text: '{para_text[:30]}...' if too long")
+
                 # Check for either the TABLEOFCONTENTS placeholder or if this is already a TOC div
                 if para_text == "TABLEOFCONTENTS" or (element.name == 'div' and element.get('class') and 'table-of-contents' in element.get('class')):
                     print("Found TABLEOFCONTENTS placeholder, creating custom TOC...")
@@ -446,8 +447,11 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                         # Replace colon with nothing (not comma)
                         chapter_num = chapter_num.replace(':', '')
                         toc_content += f"""\\noalign{{\\vspace{{2em}}}}
+\\nopagebreak[4]
 {{\\sffamily\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
+\\nopagebreak[4]
 \\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
+\\nopagebreak[4]
 {{}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 """
                     
