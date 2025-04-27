@@ -269,6 +269,24 @@ def main(local_only=False):
             
             for filename in url_names:
                 # For the book, use the template with header; for other posts, remove the header
+                # Create PDF download div for liberty_by_design
+                pdf_download_html = ''
+                if filename == "liberty_by_design":
+                    pdf_download_html = '''
+<div class="pdf-download">
+    <a href="/liberty_by_design.pdf" target="_blank" download>
+        <span class="download-icon">📄</span> Download PDF version
+    </a>
+</div>'''
+                    # Add pdf_download_html to the HTML content right after the first h1 header.
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    first_h1 = soup.find('div')
+                    if first_h1:
+                        pdf_div = BeautifulSoup(pdf_download_html, 'html.parser')
+                        first_h1.insert_after(pdf_div)
+                        # Update the HTML content
+                        html_content = str(soup)
+                
                 if filename == "liberty_by_design":
                     html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
                 else:
