@@ -1016,8 +1016,8 @@ def main():
     
     # Always create a second version with custom cover
     # Path to the cover PDF
-    # cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_singularity_1.pdf')
-    cover_pdf = os.path.join('tiny_book_on_governance', 'cover_design_liberty_2.pdf')    
+    # cover_pdf = os.path.join('liberty_by_design', 'cover_design_singularity_1.pdf')
+    cover_pdf = os.path.join('liberty_by_design', 'cover_design_liberty_2.pdf')    
 
     if not os.path.exists(cover_pdf):
         print(f"Error: Cover PDF {cover_pdf} not found.")
