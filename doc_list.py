@@ -16,4 +16,8 @@ gdoc_urls = [
     (["crash_course_on_ai"], "https://docs.google.com/document/d/1g1MrziAeRAOkppKQvBdSgGJqC5d-pr4F5-i1mcRNJGQ/edit?tab=t.0"),
 
     # ([""], ""),
+
+    # Include these only if you want to analyze the documents. Normally these are excluded, as they are just components of the bigger Liberty book.
+    # (["what_we_want_from_governance"], "https://docs.google.com/document/d/1gYJiFmj8k_DVFAE31GPMe74mrSNUzLuler7wlHy5aco/"),
+    # ([""], ""),
 ]
