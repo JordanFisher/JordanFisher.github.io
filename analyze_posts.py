@@ -92,11 +92,23 @@ async def main():
     
     logger.info(f"Found {len(md_files)} markdown files to analyze")
     
-    # Create tasks for analyzing each post in parallel
-    tasks = [analyze_post(file_path) for file_path in md_files]
+    # Create tasks but limit concurrency to avoid rate limits
+    # Process in smaller batches of 3 at a time
+    batch_size = 3
+    results = []
     
-    # Run all tasks concurrently
-    results = await asyncio.gather(*tasks, return_exceptions=True)
+    for i in range(0, len(md_files), batch_size):
+        batch = md_files[i:i+batch_size]
+        logger.info(f"Processing batch {i//batch_size + 1} of {(len(md_files) + batch_size - 1) // batch_size}")
+        
+        tasks = [analyze_post(file_path) for file_path in batch]
+        batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+        results.extend(batch_results)
+        
+        # Add a small delay between batches to be nicer to the API
+        if i + batch_size < len(md_files):
+            logger.info(f"Waiting 2 seconds before next batch...")
+            await asyncio.sleep(2)
     
     # Log results
     for result in results:
