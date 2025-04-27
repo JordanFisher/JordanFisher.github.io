@@ -426,6 +426,80 @@
                 font-size: var(--font-size);
             }
         }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -434,8 +508,8 @@
 
 <h1 class="title-header">The Prompt of Power</h1><div class="description-block"><p>This story takes place sometime in the next handful of years, with alignment miraculously solved, and a self-improving superintelligence just emerging. As you might expect, even then shit goes wrong.</p></div>
 <br/>
-<p>The feedback loop picked up gradually. You can call the span of a year gradual. At least, compared to what would come next. The speed was blistering but manageable. We could feel the potential. Feel that it wouldn't be manageable for long. We were scared, even with alignment mostly solved. But less scared than if we hadn't solved alignment already. That would have been crazy.</p>
-<p>We thought the government would step in. Maybe they could help slow down the race. Maybe they help secure the labs. Maybe they could stop our geopolitical rivals from stealing our intellectual work and building their own powerful AI.</p>
+<p>We felt the feedback loop pick up gradually. You can call the span of a year gradual. At least, compared to what would come next. The speed was blistering but manageable. We could feel the potential. Feel that it wouldn't be manageable for long. We were scared, even with alignment mostly solved. But less scared than if we hadn't solved alignment already. That would have been crazy.</p>
+<p>We thought the government would step in. Maybe they could help slow down the race. Maybe they would help secure the labs. Maybe they could stop our geopolitical rivals from stealing our intellectual work and building their own powerful AI.</p>
 <p>Laissez-faire ruled though. The government was the opposite of silent: full steam ahead. And why not, a top contender in the race was the government’s champion himself.</p>
 <p>But competitive pressure did its job better than any regulation. No AI lab wanted to lose the competitive advantage their AI had, now that it was rapidly upgrading itself. A self-improving AI might find a major breakthrough every week. Each breakthrough, like almost all breakthroughs in AI, could be written down on a napkin. Could the 2nd or 3rd place AI ever catch up to the lead AI, when progress was accelerating so quickly?</p>
 <p>Yes. With a handful of napkins.</p>
@@ -481,5 +555,62 @@
             <a href="/">&larr; Back</a>
         </div>
     </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
 </body>
 </html>

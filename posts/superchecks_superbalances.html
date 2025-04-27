@@ -426,6 +426,80 @@
                 font-size: var(--font-size);
             }
         }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -484,5 +558,62 @@
             <a href="/">&larr; Back</a>
         </div>
     </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
 </body>
 </html>

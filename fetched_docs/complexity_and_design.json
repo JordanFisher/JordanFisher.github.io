@@ -1,0 +1,1177 @@
+{
+  "title": "Complexity and Iterative Design",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 33,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 33,
+              "textRun": {
+                "content": "Complexity and Iterative Design\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qp9nz1czn8a8",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 33,
+        "endIndex": 122,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 33,
+              "endIndex": 122,
+              "textRun": {
+                "content": "Civilization is complex. To study complex systems we often make simplifying assumptions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 122,
+        "endIndex": 123,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 122,
+              "endIndex": 123,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 123,
+        "endIndex": 985,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 123,
+              "endIndex": 985,
+              "textRun": {
+                "content": "When we build models for how fluids like water and air behave, we wash away the details of H2O molecules or air molecules and arrive at a higher level theory of how water and air moves, described by relatively simple equations like Navier Stokes. The success of computational fluid dynamics vindicates this approach, along with the safety of aircraft and multitudes of other technologies predicated on our correct-enough understanding of fluids like air. Even in these simplified theories, we see complexity continue to counter us. Fluids become turbulent and enter chaotic regimes where it\u2019s not just our current models that lose predictive powers, rather all models must lose their power. The price for these failures of theory can be death \u2014 a price we've paid with thousands of plane crashes as we've evolved our understanding of the complexities of fluids.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 985,
+        "endIndex": 986,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 985,
+              "endIndex": 986,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 986,
+        "endIndex": 1630,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 986,
+              "endIndex": 1630,
+              "textRun": {
+                "content": "Civilization is more complex. Theories that average over the human molecules are alluring but fraught, in fiction and reality. Economics treats humanity like a smooth fluid, averaging out our individual uniqueness and quirks into a smeared mass. The truth is these quirks matter. The outliers matter \u2014 at an individual and global level, in a way that individual air molecules don't. We may still debate the great man theory of history, but there\u2019s no doubt that Nazi Germany would have played out differently without Adolf Hitler. And thus likely the entire history of the 21st century. A single human can change the entire motion of humanity.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1630,
+        "endIndex": 1631,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1630,
+              "endIndex": 1631,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1631,
+        "endIndex": 2017,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1631,
+              "endIndex": 2017,
+              "textRun": {
+                "content": "Today's world has many more singular molecules. We're used to thinking about broad motion, like the West versus communism, or America versus the economic rise of China. These are motions that represent the aggregate motion of billions of humans, and in that sense the motion is easier to predict and rely upon. Many experts still think of the world as a mixture of these broad motions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2017,
+        "endIndex": 2018,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2017,
+              "endIndex": 2018,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2018,
+        "endIndex": 2195,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2018,
+              "endIndex": 2195,
+              "textRun": {
+                "content": "But the motion of the world is increasingly easier to understand as the whims of a select few that hold concentrated power: Xi Jinping, Vladimir Putin, Elon Musk, Donald Trump.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2195,
+        "endIndex": 2196,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2195,
+              "endIndex": 2196,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2196,
+        "endIndex": 2586,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2196,
+              "endIndex": 2586,
+              "textRun": {
+                "content": "Today, powerful people are powerful because of what people will do for them. This is also where their limitations come from. For example, the relationship between a politician and their supporters is more of an alliance of shared interests. If the politician strays too far from those shared interests, the constituents may abandon their leader. This is a strong constraint on politicians.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2586,
+        "endIndex": 2587,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2586,
+              "endIndex": 2587,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2587,
+        "endIndex": 3018,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2587,
+              "endIndex": 3018,
+              "textRun": {
+                "content": "Corporate leaders instead form an alliance of money, which is much more fungible. This is why we've seen a rise of the most powerful people being billionaires rather than politicians: money is a more flexible incentive than political alliances. In the language of political parties, it creates a very large tent. But there are still limits to what people will do for money, limiting the most egregious abuses the rich can pay for.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3018,
+        "endIndex": 3019,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3018,
+              "endIndex": 3019,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3019,
+        "endIndex": 3408,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3019,
+              "endIndex": 3408,
+              "textRun": {
+                "content": "This leads us to the most powerful type of leader history has seen: the cult of personality. This type of leader is unencumbered by political considerations or even the boundaries of what people will do for money. Instead, people's very self identity and sense of right and wrong become entangled with the leader, affording the leader extreme latitude with what goals they want to pursue.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3408,
+        "endIndex": 3409,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3408,
+              "endIndex": 3409,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3409,
+        "endIndex": 3544,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3409,
+              "endIndex": 3544,
+              "textRun": {
+                "content": "The ultimate limit to these cults is their ability to recruit. It's hard to get out, but it's also hard to bring hostile outsiders in.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3544,
+        "endIndex": 3545,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3544,
+              "endIndex": 3545,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3545,
+        "endIndex": 4252,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3545,
+              "endIndex": 4252,
+              "textRun": {
+                "content": "Imagine then, the power a near future leader will have with AI. Once AI becomes as capable as any human, the underlying source of power for a leader can switch from a human base to an AI base. With an AI base of power, the leader won\u2019t need to worry about recruitment. They can spin up as many AIs as they can afford. At the same time, if the AIs are aligned to the leader, that leader will have the extreme latitude of a cult of personality: whatever they say, goes. This creates a new class of powerful leader, more powerful than any we\u2019ve seen before. More powerful than a mere political leader, more powerful than a rich business leader, and even more powerful than the leader of a cult of personality.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4252,
+        "endIndex": 4253,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4252,
+              "endIndex": 4253,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4253,
+        "endIndex": 4681,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4253,
+              "endIndex": 4681,
+              "textRun": {
+                "content": "As power accumulates further, you\u2019ll no longer be able to predict the future without having specific predictions for what these handful of people want and will do. Good or bad, that creates a world that is much more sensitive to fewer molecules, and less sensitive to the general motion of water. Complexity theory tells us that this creates a system that is much harder to predict \u2014 we should expect the future to surprise us.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4681,
+        "endIndex": 4682,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4681,
+              "endIndex": 4682,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4682,
+        "endIndex": 5128,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4682,
+              "endIndex": 5128,
+              "textRun": {
+                "content": "Even one level below these powerful people there is more concentration of influence than ever before. The biggest corporations today have more latitude and impact than most countries. How much more impactful to the course of history is Facebook or Google compared to Germany or Vietnam? And those powerful corporations are led by singular molecules: often a CEO with board control, or perhaps a board controlled by a handful of key shareholders.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5128,
+        "endIndex": 5129,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5128,
+              "endIndex": 5129,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5129,
+        "endIndex": 5780,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5129,
+              "endIndex": 5780,
+              "textRun": {
+                "content": "Many people see this corporate power as a general trend of corporations being more powerful than countries. That's perhaps the wrong conclusion. The error is looking at the motion of the water, rather than seeing the underlying trend: that it\u2019s molecules that matter now. It's a mistake to think that \u201cthe rise of corporate capitalism\u201d is the underlying trend, bellied by the underlying forces of the fluid \u2014 somehow inevitable. Rather, powerful molecules often run powerful companies. The trend is the power of molecules; the power of individual humans. And the most powerful humans don't just command enterprises, they also now command superpowers.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5780,
+        "endIndex": 5781,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5780,
+              "endIndex": 5781,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5781,
+        "endIndex": 6372,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5781,
+              "endIndex": 6372,
+              "textRun": {
+                "content": "At any moment Xi Jinping can revoke the power of a Chinese corporation, and indeed has disappeared billionaire moguls to do just that. With the beginning of the 2024 Trump admin we've seen the largest corporations in the world bend the knee: directly donating to Trump\u2019s inauguration, changing company policies to match Trump\u2019s social agenda, and fighting to get within his inner circle. The industries of Russia have long been beholden to Putin through his grasp on the Russian oligarchy. The central truth is the same: power to a few molecules \u2014the motion of water, of all of us, follows.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6372,
+        "endIndex": 6373,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6372,
+              "endIndex": 6373,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6373,
+        "endIndex": 6601,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6373,
+              "endIndex": 6601,
+              "textRun": {
+                "content": "One level down the power ladder we see the force of molecules again. A handful of influencers command the ear of hundreds of millions of people. A single artist sways half a national electorate. A single martyr rallies a cause.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6601,
+        "endIndex": 6602,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6601,
+              "endIndex": 6602,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6602,
+        "endIndex": 6973,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6602,
+              "endIndex": 6973,
+              "textRun": {
+                "content": "Still, there are limits on how much a single human can impact the world. We have limited lifespans and limited ability to change ourselves. With AI this gets more complex. AIs that can self-modify will create a world that is even more sensitive to initial conditions and the path of individual molecules. Powerful people leveraging AI will have even more singular reach.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6973,
+        "endIndex": 6974,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6973,
+              "endIndex": 6974,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6974,
+        "endIndex": 7745,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6974,
+              "endIndex": 7171,
+              "textRun": {
+                "content": "Civilization is a system with emergent turbulence at the largest scale, but where the path of individual molecules also matters at the smallest scale. In systems theory this is the hardest type of ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 7171,
+              "endIndex": 7182,
+              "textRun": {
+                "content": "multi-scale",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 7182,
+              "endIndex": 7325,
+              "textRun": {
+                "content": " system to predict and engineer for. With AI, we will be introducing a further complication: changing the dynamics of the molecules themselves ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 7325,
+              "endIndex": 7345,
+              "textRun": {
+                "content": "on a continual basis",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 7345,
+              "endIndex": 7745,
+              "textRun": {
+                "content": ". The AI molecule will change constantly, will individually shape the outcomes of the world, and will be shaped by the global process as well. And the most powerful AIs will further amplify the commands of the most singular humans. The world is becoming a complex system where the small scale matters, the large scale matters, and where each scale can rewrite the rules of the other scale every day.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7745,
+        "endIndex": 7746,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7745,
+              "endIndex": 7746,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7746,
+        "endIndex": 8389,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7746,
+              "endIndex": 8389,
+              "textRun": {
+                "content": "Managing fluids is much easier, but we can still learn from it. We see where there is turbulence and where our models fail, so we engineer our planes to avoid those territories. Our theories remain imperfect and planes crash, so we iterate and refine both our theories and engineering practices. Like all complex engineering processes, we follow an iterative design philosophy. We\u2019ve iterated on civilization and governance for thousands of years. We\u2019ve crashed many civilizations, built many wrong theories of governance, but through it all we\u2019ve iterated and arrived at a beautiful, complicated, impossible creation: the world we see today.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 792,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 612,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "ALBJ4LvJUeZX1eKIca_gacsWWQoBLG71_gRRM-2WcjMMR9w8l6l7NkLE4sn6BpCMSx5pVWj7HGl0-KIp8WV6Bw",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1tgyr9L9hymcLlVvgkkF1Bfrho_DWo7jkW8--AeQi2K8"
+}

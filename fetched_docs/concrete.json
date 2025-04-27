@@ -1,0 +1,4359 @@
+{
+  "title": "Concrete",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 44,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 44,
+              "textRun": {
+                "content": "Concrete \u2014 near term actions and proposals\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.zeo9pr18bx22",
+            "namedStyleType": "TITLE",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 44,
+        "endIndex": 143,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 44,
+              "endIndex": 143,
+              "textRun": {
+                "content": "[[[We\u2019ve discussed the big picture. But what are concrete, near term actions we can take today?]]]\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 143,
+        "endIndex": 144,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 143,
+              "endIndex": 144,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 144,
+        "endIndex": 451,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 144,
+              "endIndex": 451,
+              "textRun": {
+                "content": "Aspirations are important. They set a clear vision of what could be, they motivate us, and they help us rally others to our cause. But we also need concrete, near-term efforts that can drive us forward. The best motivator is progress, and early progress will establish the playing field for what\u2019s to come.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 451,
+        "endIndex": 452,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 451,
+              "endIndex": 452,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 452,
+        "endIndex": 541,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 452,
+              "endIndex": 541,
+              "textRun": {
+                "content": "The future is abundance and Dyson spheres and universal peace and love for all humanity.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 541,
+        "endIndex": 542,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 541,
+              "endIndex": 542,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 542,
+        "endIndex": 556,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 542,
+              "endIndex": 556,
+              "textRun": {
+                "content": "That\u2019s great.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 556,
+        "endIndex": 557,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 556,
+              "endIndex": 557,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 557,
+        "endIndex": 693,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 557,
+              "endIndex": 693,
+              "textRun": {
+                "content": "But what does tomorrow need to look like to get us there? We need stepping stones to avert disaster, tyranny, and the end of democracy.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 693,
+        "endIndex": 694,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 693,
+              "endIndex": 694,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 694,
+        "endIndex": 1081,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 694,
+              "endIndex": 1081,
+              "textRun": {
+                "content": "These should be near term guardrails that can be rolled out without major political victories. They're things companies can choose to hold themselves to. They're ideals customers can demand from their AI providers. And they're ethical considerations that employees can push their employers to adopt, whether they're building AI or deploying AI to automate part or all of their business.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1081,
+        "endIndex": 1082,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1081,
+              "endIndex": 1082,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1082,
+        "endIndex": 1392,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1082,
+              "endIndex": 1392,
+              "textRun": {
+                "content": "Let\u2019s lay out a sane set of standards that can help today. They very likely won\u2019t be enough as we approach superintelligence, but we hope they might set the stage for what\u2019s to come. In the spirit of effective governance, let\u2019s work backwards from our goals, so that we can iterate when our proposals fail us.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1392,
+        "endIndex": 1393,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1392,
+              "endIndex": 1393,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1393,
+        "endIndex": 1452,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1393,
+              "endIndex": 1452,
+              "textRun": {
+                "content": "And what we want to achieve may sound impossible at first.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1452,
+        "endIndex": 1453,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1452,
+              "endIndex": 1453,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1453,
+        "endIndex": 1490,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1453,
+              "endIndex": 1490,
+              "textRun": {
+                "content": "Near-term goals to fortify democracy\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.gkacs24014is",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1490,
+        "endIndex": 1584,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1490,
+              "endIndex": 1584,
+              "textRun": {
+                "content": "We must win the AI arms race against authoritarian regimes, if it indeed comes down to a race\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1584,
+        "endIndex": 1903,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1584,
+              "endIndex": 1903,
+              "textRun": {
+                "content": "We must simultaneously deescalate that race, and make room for collaboration and peace. Both to give us time to align the machines to humanity, and also to avert potential war with each other. AI has the potential to usher in a new golden age for humanity. We should hope that the golden age is truly for all humanity.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1903,
+        "endIndex": 2014,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1903,
+              "endIndex": 2014,
+              "textRun": {
+                "content": "We must strengthen our domestic policies to let us move faster, including investments in energy, chips, and AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2014,
+        "endIndex": 2126,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2014,
+              "endIndex": 2126,
+              "textRun": {
+                "content": "That means our strongest corporations must become stronger, and our central government must become stronger too\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2126,
+        "endIndex": 2318,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2126,
+              "endIndex": 2318,
+              "textRun": {
+                "content": "We must simultaneously empower every citizen to be a stronger check on these corporations and the central government. And we must strengthen the wider economy of small businesses and startups\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2318,
+        "endIndex": 2453,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2318,
+              "endIndex": 2453,
+              "textRun": {
+                "content": "We need near-term policies that can be implemented today, that set the groundwork for superchecks and superbalances to evolve tomorrow\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2453,
+        "endIndex": 2454,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2453,
+              "endIndex": 2454,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2454,
+        "endIndex": 2649,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2454,
+              "endIndex": 2649,
+              "textRun": {
+                "content": "Many of these goals are directly in tension, if not in outright contradiction of each other. But we believe that a narrow set of sensible policies can help us achieve them. Let\u2019s consider a few.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2649,
+        "endIndex": 2663,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2649,
+              "endIndex": 2663,
+              "textRun": {
+                "content": "AI Principles\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.2umvi3poi8t7",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2663,
+        "endIndex": 2820,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2663,
+              "endIndex": 2746,
+              "textRun": {
+                "content": "We don\u2019t know exactly how to control AI, but we do know how to partially guide it. ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 2746,
+              "endIndex": 2752,
+              "textRun": {
+                "content": "Where ",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 2752,
+              "endIndex": 2820,
+              "textRun": {
+                "content": "we guide it to should be a set of principles that lifts up humanity\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2820,
+        "endIndex": 3030,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2820,
+              "endIndex": 3030,
+              "textRun": {
+                "content": "Today, these principles are chosen by the companies building the AIs. Since we are rapidly deploying these AIs to be our new workforce, at the very least these principles should be fully transparent to society\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3030,
+        "endIndex": 3285,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3030,
+              "endIndex": 3285,
+              "textRun": {
+                "content": "If there are sensitive aspects to these principles that can\u2019t be made public \u2014 for example, relating to how to handle top secret information or matters of national security \u2014 these aspects should be reviewed by independent auditors, or by Congress itself\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3285,
+        "endIndex": 3458,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3285,
+              "endIndex": 3458,
+              "textRun": {
+                "content": "This would start purely as a written commitment from AI labs. The only enforcement would come from internal lab employees that care about holding their employer accountable\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3458,
+        "endIndex": 3687,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3458,
+              "endIndex": 3687,
+              "textRun": {
+                "content": "Written commitments won\u2019t be enough as we reach full automation. The employees of the AI labs themselves will become automated soon, thus removing this implicit enforcement mechanism. But it\u2019s still a good initial stepping stone\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3687,
+        "endIndex": 3688,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3687,
+              "endIndex": 3688,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3688,
+        "endIndex": 3828,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3688,
+              "endIndex": 3828,
+              "textRun": {
+                "content": "The hope for making principles transparent is to stimulate an ongoing public debate. What should some aspects of that debate center around?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3828,
+        "endIndex": 3829,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3828,
+              "endIndex": 3829,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3829,
+        "endIndex": 3860,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3829,
+              "endIndex": 3860,
+              "textRun": {
+                "content": "A personal agent works for you\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.6acvwzt04ew4",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3860,
+        "endIndex": 4068,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3860,
+              "endIndex": 4068,
+              "textRun": {
+                "content": "Imagine if you hired a personal assistant, but secretly they worked for a large advertising company. The assistant does so much for you behind the scenes that you don\u2019t have time to review everything they do\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 4068,
+        "endIndex": 4349,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4068,
+              "endIndex": 4349,
+              "textRun": {
+                "content": "Now that they\u2019ve gained your trust, they subtly make decisions that benefit the advertisers paying their parent company. The hotels they book for you, the airlines they prefer, the restaurants they suggest, the news articles they summarize for you to read over your morning coffee\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 4349,
+        "endIndex": 4481,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4349,
+              "endIndex": 4481,
+              "textRun": {
+                "content": "Worse, imagine hiring a lawyer to represent you, but they secretly push for outcomes that align with one of their business partners\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 4481,
+        "endIndex": 4602,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4481,
+              "endIndex": 4602,
+              "textRun": {
+                "content": "These are plain conflicts of interest that we don\u2019t tolerate for humans that assist us. We need the same standard for AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 4602,
+        "endIndex": 4855,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4602,
+              "endIndex": 4855,
+              "textRun": {
+                "content": "Any AI performing actions on behalf of a user must disclose conflicts. And these conflicts cannot be hidden away in voluminous terms of service. They need to be escalated to the user to see in the moment, when actions or recommendations are being made.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 4855,
+        "endIndex": 4856,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4855,
+              "endIndex": 4856,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4856,
+        "endIndex": 4883,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4856,
+              "endIndex": 4883,
+              "textRun": {
+                "content": "AI Vetting for Federal Use\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.z2fpkkhin61i",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4883,
+        "endIndex": 4985,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4883,
+              "endIndex": 4985,
+              "textRun": {
+                "content": "Federal agents must go through extensive background checks and interviews to get top secret clearance\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 4985,
+        "endIndex": 5155,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4985,
+              "endIndex": 5155,
+              "textRun": {
+                "content": "AI will soon do the equivalent work of millions of federal employees. Google recently announced in early 2025 that they are deploying their AI to top secret environments\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 5155,
+        "endIndex": 5286,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5155,
+              "endIndex": 5286,
+              "textRun": {
+                "content": "It\u2019s both economical and wise to apply at least 10 or 100 times the vetting for a single AI as we do for a single federal employee\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 5286,
+        "endIndex": 5595,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5286,
+              "endIndex": 5595,
+              "textRun": {
+                "content": "The vetting process should be a publicly visible set of tests and evaluations. This will give us confidence that every AI is being evaluated evenly. The Executive should design the process, and Congress should be responsible for signing off on it, as well as ensuring that the process is being applied fairly\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 5595,
+        "endIndex": 5692,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5595,
+              "endIndex": 5692,
+              "textRun": {
+                "content": "This mirrors the process the Executive and Legislature follow today for key federal appointments\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 5692,
+        "endIndex": 5693,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5692,
+              "endIndex": 5693,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5693,
+        "endIndex": 5838,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5693,
+              "endIndex": 5838,
+              "textRun": {
+                "content": "Aside from what we want these AIs to look like, how can we help build them? What domestic policy and international relations are most important?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5838,
+        "endIndex": 5856,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5838,
+              "endIndex": 5856,
+              "textRun": {
+                "content": "Domestic capacity\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.8le70a8py1a8",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5856,
+        "endIndex": 5928,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5856,
+              "endIndex": 5928,
+              "textRun": {
+                "content": "Currently we\u2019re reliant on Taiwan\u2019s TSMC for all of our AI accelerators\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 5928,
+        "endIndex": 6090,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5928,
+              "endIndex": 6090,
+              "textRun": {
+                "content": "Both the Biden and second Trump administrations have been vocal about growing our domestic chip capacity and our domestic energy supply to power our data centers\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6090,
+        "endIndex": 6122,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6090,
+              "endIndex": 6122,
+              "textRun": {
+                "content": "But we need much more than this\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6122,
+        "endIndex": 6410,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6122,
+              "endIndex": 6410,
+              "textRun": {
+                "content": "With robots rapidly maturing, the future of industry will be determined by how quickly a nation can scale their robotics supply chain. The most important thing robots can build is more robots. Once robotics matures, it can be used to exponentially increase robotic manufacturing capacity\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6410,
+        "endIndex": 6482,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6410,
+              "endIndex": 6482,
+              "textRun": {
+                "content": "We need to stimulate our robotics industry, not just our chips industry\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6482,
+        "endIndex": 6583,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6482,
+              "endIndex": 6583,
+              "textRun": {
+                "content": "Because robotics is lagging behind general AI, the most important ingredient is talent and expertise\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6583,
+        "endIndex": 6886,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6583,
+              "endIndex": 6886,
+              "textRun": {
+                "content": "Currently the best robotics research is happening in China. We should be aggressively recruiting this talent, and all other AI and hardware talent, and bringing them to the US. Just like the space race of the 20th century, the quickest path to success is to leverage your adversaries best intelligences\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 6886,
+        "endIndex": 7226,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6886,
+              "endIndex": 7226,
+              "textRun": {
+                "content": "We also need to streamline permitting for new power plants and data centers at scale, preparing for the near future where we will 10x and then 100x our development capacity. There\u2019s plenty of sunny, uninhabited land to build in the US. In France, there is abundant nuclear energy, although land for data centers is more challenging to find\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 7226,
+        "endIndex": 7242,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7226,
+              "endIndex": 7242,
+              "textRun": {
+                "content": "Allied capacity\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.2aa8nbm6re50",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7242,
+        "endIndex": 7405,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7242,
+              "endIndex": 7405,
+              "textRun": {
+                "content": "Data centers and power plants are the new aircraft carriers. The near future will be won by these assets, not with traditional weapons. Not even by new-age drones\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 7405,
+        "endIndex": 7641,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7405,
+              "endIndex": 7641,
+              "textRun": {
+                "content": "Just like we are asking Europe to pay their fair share of NATO military expenses, we must encourage Europe to invest in the most important strategic asset of tomorrow\u2019s defense: massive data centers and the power plants that power them\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 7641,
+        "endIndex": 7929,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7641,
+              "endIndex": 7929,
+              "textRun": {
+                "content": "The most limited aspect of the AI supply chain comes from the EUV machine used to etch AI accelerator chips. This machine can only be built by one company: ASML, a Dutch company. It\u2019s widely believed it would take ~10 years for either the US or China to replicate the ASML EUV technology\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 7929,
+        "endIndex": 8006,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7929,
+              "endIndex": 8006,
+              "textRun": {
+                "content": "That makes Europe a default key player in the most important race in history\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8006,
+        "endIndex": 8273,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8006,
+              "endIndex": 8273,
+              "textRun": {
+                "content": "The West should strive for a mutual trade agreement that emphasizes what\u2019s most important about the future: aggregate compute capacity across democracies. This is the modern equivalent of number of aircraft carriers, and will measure the true power of the free world\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8273,
+        "endIndex": 8274,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8273,
+              "endIndex": 8274,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8274,
+        "endIndex": 8312,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8274,
+              "endIndex": 8312,
+              "textRun": {
+                "content": "The specific AI itself may not matter\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.y6z7p587c73m",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8312,
+        "endIndex": 8470,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8312,
+              "endIndex": 8470,
+              "textRun": {
+                "content": "Many policy proposals focus on securing the weights or source code of an AI model, so as to prevent foreign adversaries from being able to easily copy the AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.t36eub6c229u",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8470,
+        "endIndex": 8603,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8470,
+              "endIndex": 8603,
+              "textRun": {
+                "content": "However, we\u2019ve now seen that China is able to build their own AI from scratch, and are only a few months behind the frontier US labs\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.t36eub6c229u",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8603,
+        "endIndex": 8749,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8603,
+              "endIndex": 8749,
+              "textRun": {
+                "content": "In a world where building AI is easy, the strategic advantage lies solely with compute capacity and energy supply, neither of which can be stolen\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.t36eub6c229u",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8749,
+        "endIndex": 8916,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8749,
+              "endIndex": 8916,
+              "textRun": {
+                "content": "While securing weights is still important, policies that aim to secure weights should be carefully weighed against ways they may slow down other critical developments\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.t36eub6c229u",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 8916,
+        "endIndex": 9087,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8916,
+              "endIndex": 9087,
+              "textRun": {
+                "content": "For example, if we\u2019re overly cautious about preventing foreign spies from infiltrating our labs, we may miss out on key talent that pushes forward our industrial capacity\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.t36eub6c229u",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9087,
+        "endIndex": 9088,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9087,
+              "endIndex": 9088,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9088,
+        "endIndex": 9128,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9088,
+              "endIndex": 9128,
+              "textRun": {
+                "content": "Export controls and the industrial race\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.g4m1m11qrpya",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9128,
+        "endIndex": 9271,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9128,
+              "endIndex": 9271,
+              "textRun": {
+                "content": "If chips really are the most important strategic input to the future, then we need to take seriously where our chips go and who is making them\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9271,
+        "endIndex": 9381,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9271,
+              "endIndex": 9381,
+              "textRun": {
+                "content": "NVIDIA, TSMC, and ASML are effectively arms dealers, building the most important strategic assets of tomorrow\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9381,
+        "endIndex": 9596,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9381,
+              "endIndex": 9596,
+              "textRun": {
+                "content": "As early as 2022, the Biden administration recognized that our highest performing AI GPUs were critical to winning the AI race. Because of this, they enacted export bans preventing NVIDIA from selling them to China\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9596,
+        "endIndex": 9738,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9596,
+              "endIndex": 9738,
+              "textRun": {
+                "content": "In the first half of 2025, we may be entering into a full trade war with China. The details for strategic industrial capacity are complicated\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9738,
+        "endIndex": 9932,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9738,
+              "endIndex": 9932,
+              "textRun": {
+                "content": "Nearly 90% of rare earth processing happens in China, elements that are critical to semiconductor manufacturing. In early April 2025, China enacted a global ban on exporting rare earth minerals\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 9932,
+        "endIndex": 10074,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9932,
+              "endIndex": 10074,
+              "textRun": {
+                "content": "At the same time, the Western alliance has ASML, TSMC, and NVIDIA \u2014 the most important technology providers for delivering cutting edge chips\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 11,
+                "unit": "PT"
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10074,
+        "endIndex": 10462,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10074,
+              "endIndex": 10462,
+              "textRun": {
+                "content": "China is racing to replace their dependence on external semiconductor technology providers. China\u2019s Huawei just announced \u2014 also in April 2025 \u2014 that they have built an AI data center that is beginning to approach the strength of those built by NVIDIA. While it\u2019s still ~3x less efficient, that differential can easily be overcome by sheer industrial scale, something China has in spades\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10462,
+        "endIndex": 10632,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10462,
+              "endIndex": 10632,
+              "textRun": {
+                "content": "Meanwhile, the West is not yet racing to replace their dependence on Chinese rare earth minerals, and the lead time for creating new mining capacity can be several years\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10632,
+        "endIndex": 10633,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10632,
+              "endIndex": 10633,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10633,
+        "endIndex": 10653,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10633,
+              "endIndex": 10653,
+              "textRun": {
+                "content": "The allied alliance\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.4iu92pa7gjf9",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10653,
+        "endIndex": 10821,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10653,
+              "endIndex": 10821,
+              "textRun": {
+                "content": "Building US industrial capacity to exceed China\u2019s is strategically essential. However, the timelines to achieve this are too long for it to be the West\u2019s only strategy\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.km5mnyxnm45o",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10821,
+        "endIndex": 10954,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10821,
+              "endIndex": 10954,
+              "textRun": {
+                "content": "The race to superintelligence may be over in just a few years, less time than it often takes to spin up a single new rare earth mine\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.km5mnyxnm45o",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 10954,
+        "endIndex": 11117,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10954,
+              "endIndex": 11117,
+              "textRun": {
+                "content": "The US must also quickly revitalize partnerships with the rest of free world with a surgical focus on semiconductor manufacturing, energy production, and robotics\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.km5mnyxnm45o",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11117,
+        "endIndex": 11118,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11117,
+              "endIndex": 11118,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11118,
+        "endIndex": 11119,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11118,
+              "endIndex": 11119,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11119,
+        "endIndex": 11194,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11119,
+              "endIndex": 11194,
+              "textRun": {
+                "content": "At the same time, we need to create a path toward disescalation and peace.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11194,
+        "endIndex": 11195,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11194,
+              "endIndex": 11195,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11195,
+        "endIndex": 11213,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11195,
+              "endIndex": 11213,
+              "textRun": {
+                "content": "The shared future\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.sgguv3l7kv4s",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11213,
+        "endIndex": 11291,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11213,
+              "endIndex": 11291,
+              "textRun": {
+                "content": "We should seek international coordination on principles all AIs should follow\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.ukg2m6az64io",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11291,
+        "endIndex": 11380,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11291,
+              "endIndex": 11380,
+              "textRun": {
+                "content": "We should ensure all nations are pursuing AI safety research and responsible deployments\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.ukg2m6az64io",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11380,
+        "endIndex": 11455,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11380,
+              "endIndex": 11455,
+              "textRun": {
+                "content": "Safety research should be done in the open, with international cooperation\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.ukg2m6az64io",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11455,
+        "endIndex": 11570,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11455,
+              "endIndex": 11570,
+              "textRun": {
+                "content": "We should begin exploring how to deploy AIs in a trustless setting to enable joint monitoring of treaty compliance\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.ukg2m6az64io",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11570,
+        "endIndex": 11571,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11570,
+              "endIndex": 11571,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11571,
+        "endIndex": 11687,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11571,
+              "endIndex": 11687,
+              "textRun": {
+                "content": "As we seek international collaboration, we also need to ensure our own domestic use of AI upholds the constitution.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11687,
+        "endIndex": 11731,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11687,
+              "endIndex": 11731,
+              "textRun": {
+                "content": "Government transparency and AI audits of AI\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.tkgxovjhrjsx",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11731,
+        "endIndex": 11838,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11731,
+              "endIndex": 11838,
+              "textRun": {
+                "content": "Automation will remove our implicit guardrails. Discovering malfeasance will become increasingly difficult\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 11838,
+        "endIndex": 11941,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11838,
+              "endIndex": 11941,
+              "textRun": {
+                "content": "How can a human Inspector General hope to keep up with overseeing a rapidly automating federal agency?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 11941,
+        "endIndex": 12021,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11941,
+              "endIndex": 12021,
+              "textRun": {
+                "content": "As we automate our federal agencies, we must insert automated oversight as well\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 12021,
+        "endIndex": 12222,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12021,
+              "endIndex": 12222,
+              "textRun": {
+                "content": "We already require record keeping for federal employees. This allows for future audits of federal actions, a key ingredient in Congress\u2019s and the Judiciary\u2019s ability to provide checks on the Executive\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 12222,
+        "endIndex": 12342,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12222,
+              "endIndex": 12342,
+              "textRun": {
+                "content": "Similarly, all AI-driven analyses actions taken inside a federal agency should be logged and made available to Congress\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {
+              "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 12342,
+        "endIndex": 12512,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12342,
+              "endIndex": 12512,
+              "textRun": {
+                "content": "We might hope to have similar requirements in the public sector, but we need to be careful that these requirements don\u2019t further the concentration of power in government\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.46wd4djh8wnh",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 12512,
+        "endIndex": 12513,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12512,
+              "endIndex": 12513,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12513,
+        "endIndex": 12752,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12513,
+              "endIndex": 12752,
+              "textRun": {
+                "content": "These changes, even if enacted, won\u2019t be enough. Once we reach superintelligence, none of these guardrails will be sufficient to hold back a motivated would-be tyrant. But these standards can set the stage for stronger guardrails to come.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12752,
+        "endIndex": 12753,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12752,
+              "endIndex": 12753,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12753,
+        "endIndex": 13329,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12753,
+              "endIndex": 13329,
+              "textRun": {
+                "content": "How feasible are these changes? We\u2019re accustomed to thinking government is too slow to make an impact on the timelines that matter, especially technology timelines that are rapidly accelerating. Governments make progress over decades, not a handful of years. But from the beginning of the second Trump administration we\u2019ve seen the Executive can move incredibly quickly to rollout new strategies. Whether you agree with the policy decisions or not, the speed is important to note. It means many things can be achieved quickly. But there has to be willpower to make it happen.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13329,
+        "endIndex": 13330,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13329,
+              "endIndex": 13330,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13330,
+        "endIndex": 13826,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13330,
+              "endIndex": 13826,
+              "textRun": {
+                "content": "And these changes don\u2019t need to all be driven by government. Like all our implicit guardrails today, they can come from how we each choose to act and hold each other accountable. If you\u2019re an employee, push for your employer to hold themselves to these standard. If you\u2019re an investor, push for your companies to do the same. And if you\u2019re anyone \u2014 anyone at all \u2014 engage with your neighbor, your friends, your family, and debate what these standards should look like to safeguard our democracy.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13826,
+        "endIndex": 13827,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13826,
+              "endIndex": 13827,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13827,
+        "endIndex": 13891,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13827,
+              "endIndex": 13891,
+              "textRun": {
+                "content": "That willpower has to come from the bottom up. From all of us. \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 792,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 612,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.46wd4djh8wnh": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.a3nfc9ebihcd": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.km5mnyxnm45o": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.t36eub6c229u": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.ukg2m6az64io": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cf",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25cb",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "\u25a0",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4Lsa9nyTqu6ZSrDOOz4nA-IgQGig1CHWhGUG2QXKUqSz8y6RVd6KiQPK_Jzj1C2pSWsZgUCzvAlozhgWFw",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1c4bZTcHbjBJdIlbq9vmxS53SH04WQ__S-sSRNqXcLRg"
+}

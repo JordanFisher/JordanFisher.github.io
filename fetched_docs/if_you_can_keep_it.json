@@ -35,60 +35,20 @@
       },
       {
         "startIndex": 36,
-        "endIndex": 93,
+        "endIndex": 212,
         "paragraph": {
           "elements": [
             {
               "startIndex": 36,
-              "endIndex": 93,
-              "textRun": {
-                "content": "[[[yadda yadda yadda, ben franklin, yadda yadda yadda]]]\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 93,
-        "endIndex": 94,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 93,
-              "endIndex": 94,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 94,
-        "endIndex": 270,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 94,
-              "endIndex": 188,
+              "endIndex": 130,
               "textRun": {
                 "content": "Today\u2019s world is built on exponentials. Economists often claim that the modern world requires ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 188,
-              "endIndex": 270,
+              "startIndex": 130,
+              "endIndex": 212,
               "textRun": {
                 "content": "exponential growth. Our institutions assume accelerating growth to remain viable.\n",
                 "textStyle": {}
@@ -102,13 +62,13 @@
         }
       },
       {
-        "startIndex": 270,
-        "endIndex": 271,
+        "startIndex": 212,
+        "endIndex": 213,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 270,
-              "endIndex": 271,
+              "startIndex": 212,
+              "endIndex": 213,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -122,13 +82,13 @@
         }
       },
       {
-        "startIndex": 271,
-        "endIndex": 610,
+        "startIndex": 213,
+        "endIndex": 552,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 271,
-              "endIndex": 610,
+              "startIndex": 213,
+              "endIndex": 552,
               "textRun": {
                 "content": "No exponential can last forever, though. Even with the coming of AI and automated economies, the human-machine world we build will eventually butt up against limits to growth. But those limits are far away. If we can create an enduring world where humans and machine thrive, the future will be an exponential for as far as we can imagine.\n",
                 "textStyle": {}
@@ -142,13 +102,13 @@
         }
       },
       {
-        "startIndex": 610,
-        "endIndex": 611,
+        "startIndex": 552,
+        "endIndex": 553,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 610,
-              "endIndex": 611,
+              "startIndex": 552,
+              "endIndex": 553,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -162,13 +122,13 @@
         }
       },
       {
-        "startIndex": 611,
-        "endIndex": 1017,
+        "startIndex": 553,
+        "endIndex": 959,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 611,
-              "endIndex": 1017,
+              "startIndex": 553,
+              "endIndex": 959,
               "textRun": {
                 "content": "Exponentials happen when the next step is made easier by the last one. They aren\u2019t quantum leaps; they are repeated cycles, constantly building bit by bit. The world we want to build will be built the same way. There is no single act or stroke of law that will ensure the positive future we all want. Instead, we must take actions, bit by bit, each one building on the last, so that the cycle accelerates.\n",
                 "textStyle": {}
@@ -182,13 +142,13 @@
         }
       },
       {
-        "startIndex": 1017,
-        "endIndex": 1018,
+        "startIndex": 959,
+        "endIndex": 960,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1017,
-              "endIndex": 1018,
+              "startIndex": 959,
+              "endIndex": 960,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -202,13 +162,13 @@
         }
       },
       {
-        "startIndex": 1018,
-        "endIndex": 1266,
+        "startIndex": 960,
+        "endIndex": 1208,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1018,
-              "endIndex": 1266,
+              "startIndex": 960,
+              "endIndex": 1208,
               "textRun": {
                 "content": "Just as we build AI iteratively today, we must similarly evolve our government and society, with each iteration accelerating progress. So that the iterations build on themselves and accelerate. So that the tsunami of progress becomes irresistible.\n",
                 "textStyle": {}
@@ -222,13 +182,13 @@
         }
       },
       {
-        "startIndex": 1266,
-        "endIndex": 1267,
+        "startIndex": 1208,
+        "endIndex": 1209,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1266,
-              "endIndex": 1267,
+              "startIndex": 1208,
+              "endIndex": 1209,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -242,13 +202,13 @@
         }
       },
       {
-        "startIndex": 1267,
-        "endIndex": 1451,
+        "startIndex": 1209,
+        "endIndex": 1393,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1267,
-              "endIndex": 1451,
+              "startIndex": 1209,
+              "endIndex": 1393,
               "textRun": {
                 "content": "We all have a place in this discussion. We are today, us humans, the most powerful each of us will ever be to meet this moment. There is no other time. It is now. It is here. Meet it.\n",
                 "textStyle": {}
@@ -262,13 +222,13 @@
         }
       },
       {
-        "startIndex": 1451,
-        "endIndex": 1452,
+        "startIndex": 1393,
+        "endIndex": 1394,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1451,
-              "endIndex": 1452,
+              "startIndex": 1393,
+              "endIndex": 1394,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -282,13 +242,13 @@
         }
       },
       {
-        "startIndex": 1452,
-        "endIndex": 1824,
+        "startIndex": 1394,
+        "endIndex": 1766,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1452,
-              "endIndex": 1824,
+              "startIndex": 1394,
+              "endIndex": 1766,
               "textRun": {
                 "content": "Keep in mind the benevolence of those around you; we can build this together. But don\u2019t lose sight of the infinite power that is at stake. There are monsters in this world, and even among the good there is weakness that becomes evil. As the curve accelerates, the world will feel like it\u2019s coming apart. In those moments, many will act to seize power. We can resist them.\n",
                 "textStyle": {}
@@ -302,13 +262,13 @@
         }
       },
       {
-        "startIndex": 1824,
-        "endIndex": 1825,
+        "startIndex": 1766,
+        "endIndex": 1767,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1824,
-              "endIndex": 1825,
+              "startIndex": 1766,
+              "endIndex": 1767,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -322,13 +282,13 @@
         }
       },
       {
-        "startIndex": 1825,
-        "endIndex": 2109,
+        "startIndex": 1767,
+        "endIndex": 2051,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1825,
-              "endIndex": 2109,
+              "startIndex": 1767,
+              "endIndex": 2051,
               "textRun": {
                 "content": "Many good people will also act out of fear, to protect themselves and those they love. When jobs are automated, when the economy becomes opaque and uncertain, when the world is on edge and teeters on war, it\u2019s right to be fearful. You and I, dear reader, will be afraid. I am afraid.\n",
                 "textStyle": {}
@@ -342,13 +302,13 @@
         }
       },
       {
-        "startIndex": 2109,
-        "endIndex": 2110,
+        "startIndex": 2051,
+        "endIndex": 2052,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2109,
-              "endIndex": 2110,
+              "startIndex": 2051,
+              "endIndex": 2052,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -362,13 +322,13 @@
         }
       },
       {
-        "startIndex": 2110,
-        "endIndex": 2218,
+        "startIndex": 2052,
+        "endIndex": 2160,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2110,
-              "endIndex": 2218,
+              "startIndex": 2052,
+              "endIndex": 2160,
               "textRun": {
                 "content": "When we\u2019re afraid, when we\u2019re up against impossible odds, what we control is who we are. What we stand for.\n",
                 "textStyle": {}
@@ -382,13 +342,13 @@
         }
       },
       {
-        "startIndex": 2218,
-        "endIndex": 2219,
+        "startIndex": 2160,
+        "endIndex": 2161,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2218,
-              "endIndex": 2219,
+              "startIndex": 2160,
+              "endIndex": 2161,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -402,13 +362,13 @@
         }
       },
       {
-        "startIndex": 2219,
-        "endIndex": 2239,
+        "startIndex": 2161,
+        "endIndex": 2181,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2219,
-              "endIndex": 2239,
+              "startIndex": 2161,
+              "endIndex": 2181,
               "textRun": {
                 "content": "Stand for the good.\n",
                 "textStyle": {}
@@ -422,13 +382,13 @@
         }
       },
       {
-        "startIndex": 2239,
-        "endIndex": 2240,
+        "startIndex": 2181,
+        "endIndex": 2182,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2239,
-              "endIndex": 2240,
+              "startIndex": 2181,
+              "endIndex": 2182,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -442,13 +402,13 @@
         }
       },
       {
-        "startIndex": 2240,
-        "endIndex": 2308,
+        "startIndex": 2182,
+        "endIndex": 2250,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2240,
-              "endIndex": 2308,
+              "startIndex": 2182,
+              "endIndex": 2250,
               "textRun": {
                 "content": "You\u2019re part of this now. The future depends on your voice \u2014 use it.\n",
                 "textStyle": {}
@@ -462,13 +422,13 @@
         }
       },
       {
-        "startIndex": 2308,
-        "endIndex": 2309,
+        "startIndex": 2250,
+        "endIndex": 2251,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2308,
-              "endIndex": 2309,
+              "startIndex": 2250,
+              "endIndex": 2251,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -482,15 +442,15 @@
         }
       },
       {
-        "startIndex": 2309,
-        "endIndex": 2684,
+        "startIndex": 2251,
+        "endIndex": 2662,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2309,
-              "endIndex": 2684,
+              "startIndex": 2251,
+              "endIndex": 2662,
               "textRun": {
-                "content": "Speak your mind. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them \u2014 perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.\n",
+                "content": "Speak your mind. Start a group chat or write a blog. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them \u2014 perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.\n",
                 "textStyle": {}
               }
             }
@@ -502,13 +462,13 @@
         }
       },
       {
-        "startIndex": 2684,
-        "endIndex": 2685,
+        "startIndex": 2662,
+        "endIndex": 2663,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2684,
-              "endIndex": 2685,
+              "startIndex": 2662,
+              "endIndex": 2663,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -522,13 +482,13 @@
         }
       },
       {
-        "startIndex": 2685,
-        "endIndex": 2794,
+        "startIndex": 2663,
+        "endIndex": 2772,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2685,
-              "endIndex": 2794,
+              "startIndex": 2663,
+              "endIndex": 2772,
               "textRun": {
                 "content": "And when the weight of the future weighs on you, remember: We've achieved greater things against worse odds.\n",
                 "textStyle": {}
@@ -542,13 +502,13 @@
         }
       },
       {
-        "startIndex": 2794,
-        "endIndex": 2795,
+        "startIndex": 2772,
+        "endIndex": 2773,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2794,
-              "endIndex": 2795,
+              "startIndex": 2772,
+              "endIndex": 2773,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -562,15 +522,33 @@
         }
       },
       {
-        "startIndex": 2795,
-        "endIndex": 3340,
+        "startIndex": 2773,
+        "endIndex": 3332,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2795,
-              "endIndex": 3340,
+              "startIndex": 2773,
+              "endIndex": 2838,
               "textRun": {
-                "content": "On July 16, 1945 we detonated the first nuclear bomb \u2014 the first super weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. It was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.\n",
+                "content": "On July 16, 1945 we detonated the first nuclear bomb \u2014 the first ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 2838,
+              "endIndex": 2844,
+              "textRun": {
+                "content": "super ",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 2844,
+              "endIndex": 3332,
+              "textRun": {
+                "content": "weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. The conversation was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.\n",
                 "textStyle": {}
               }
             }
@@ -582,53 +560,13 @@
         }
       },
       {
-        "startIndex": 3340,
-        "endIndex": 3341,
+        "startIndex": 3332,
+        "endIndex": 3333,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3340,
-              "endIndex": 3341,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3341,
-        "endIndex": 3892,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3341,
-              "endIndex": 3892,
-              "textRun": {
-                "content": "Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms were just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3892,
-        "endIndex": 3893,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3892,
-              "endIndex": 3893,
+              "startIndex": 3332,
+              "endIndex": 3333,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -642,13 +580,53 @@
         }
       },
       {
-        "startIndex": 3893,
-        "endIndex": 4092,
+        "startIndex": 3333,
+        "endIndex": 3883,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3893,
-              "endIndex": 4092,
+              "startIndex": 3333,
+              "endIndex": 3883,
+              "textRun": {
+                "content": "Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms was just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3883,
+        "endIndex": 3884,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3883,
+              "endIndex": 3884,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3884,
+        "endIndex": 4083,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3884,
+              "endIndex": 4083,
               "textRun": {
                 "content": "Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, and delivered us the peace we've cherished for decades. \n",
                 "textStyle": {}
@@ -662,13 +640,13 @@
         }
       },
       {
-        "startIndex": 4092,
-        "endIndex": 4093,
+        "startIndex": 4083,
+        "endIndex": 4084,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4092,
-              "endIndex": 4093,
+              "startIndex": 4083,
+              "endIndex": 4084,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -682,13 +660,13 @@
         }
       },
       {
-        "startIndex": 4093,
-        "endIndex": 4121,
+        "startIndex": 4084,
+        "endIndex": 4112,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4093,
-              "endIndex": 4121,
+              "startIndex": 4084,
+              "endIndex": 4112,
               "textRun": {
                 "content": "They were peacetime heroes.\n",
                 "textStyle": {}
@@ -702,13 +680,13 @@
         }
       },
       {
-        "startIndex": 4121,
-        "endIndex": 4122,
+        "startIndex": 4112,
+        "endIndex": 4113,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4121,
-              "endIndex": 4122,
+              "startIndex": 4112,
+              "endIndex": 4113,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -722,13 +700,13 @@
         }
       },
       {
-        "startIndex": 4122,
-        "endIndex": 4141,
+        "startIndex": 4113,
+        "endIndex": 4132,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4122,
-              "endIndex": 4141,
+              "startIndex": 4113,
+              "endIndex": 4132,
               "textRun": {
                 "content": "Now it's our turn.\n",
                 "textStyle": {}
@@ -742,13 +720,13 @@
         }
       },
       {
-        "startIndex": 4141,
-        "endIndex": 4142,
+        "startIndex": 4132,
+        "endIndex": 4133,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4141,
-              "endIndex": 4142,
+              "startIndex": 4132,
+              "endIndex": 4133,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -762,13 +740,13 @@
         }
       },
       {
-        "startIndex": 4142,
-        "endIndex": 4143,
+        "startIndex": 4133,
+        "endIndex": 4134,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4142,
-              "endIndex": 4143,
+              "startIndex": 4133,
+              "endIndex": 4134,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -782,21 +760,21 @@
         }
       },
       {
-        "startIndex": 4143,
-        "endIndex": 4145,
+        "startIndex": 4134,
+        "endIndex": 4136,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4143,
-              "endIndex": 4144,
+              "startIndex": 4134,
+              "endIndex": 4135,
               "inlineObjectElement": {
                 "inlineObjectId": "kix.6ec69yt8qx3p",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4144,
-              "endIndex": 4145,
+              "startIndex": 4135,
+              "endIndex": 4136,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1211,7 +1189,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4Lu_3o2E0Ylg-bEEzkluTvtQ0qXIt1oOZUOfOhheYTnfulI40WwTymlUacKbJB5oClMXvyM9_9j7c8ctxA",
+  "revisionId": "ALBJ4Lt610K5mXsbtFIl1yZYoFDUWwu9HwTcKjGvAF08uDd_RiJiYBLer3HBJDZC18gVFTqhyAaYixMWIzK19A",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.6ec69yt8qx3p": {
@@ -1219,7 +1197,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI1UAawZq2dXDEqx8IxmC8ypulJ4w0nCof6nPaAFokjG7qx2LsKPtAHtN7LyokVS6sqSO3QOfYg29wTZtf9a0mO--u6YFbSl0tbbuD0FWJ1i6f5MumBf3EerINYUi_ZnEGfFRt?key=DvOQZAFuvUrwWCLPESZik1ZS",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdp_SjhBfLZriJbz_iW7ejUc6amOXhs8NMsSzjtdML40ec7c4PPNvqq-glmzZXOzILYXq4bCV7PSk3DM5H8-NPRCQVC2JMZPRSD_JwYnScFM19Sli3MtYmuo_luFyU6Ga-RWM5q?key=DvOQZAFuvUrwWCLPESZik1ZS",
             "cropProperties": {}
           },
           "description": "me? fuck yeah",

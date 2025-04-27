@@ -426,6 +426,80 @@
                 font-size: var(--font-size);
             }
         }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -434,14 +508,14 @@
 
 <h1 class="title-header">Don’t be silly</h1><div class="description-block"><p>or do be, that’s great too</p></div>
 <p>Serious people have been talking about human-level AI and superintelligence for nearly half a century. But mostly it’s been too silly to talk about. In computer science departments discussing it openly was implicitly banned. Those who did were often made into pariahs. Outside academia the public thought it was sci-fi.</p>
-<p>Even 10 years ago, when AI began showing real promise, you instead had to say you worked on “ML” or “Machine Learning”. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of mankind’s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we’ve even allowed researchers to say what they do is “AI” without scoffing at them.</p>
+<p>Even 10 years ago, when AI began showing real promise, you instead had to say you worked on “ML” or “Machine Learning”. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of humanity’s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we’ve even allowed researchers to say what they do is “AI” without scoffing at them.</p>
 <p>Now, here we are today, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.</p>
 <p>This may seem like a small thing, but it’s not. We shy away from talking seriously about serious things when we’re afraid it makes us look silly. And it has real consequences. That’s what happened with the discourse around AI risks:</p>
 <p>Now that AI is near it’s becoming plain that sharing the world with another form of intelligence will have risks. Obviously, how could it not? But the risks from AI have been called out by the likes of Bostrom and Yudkowsky for decades now, largely ignored because it was too silly. And the real impact is that we’ve now failed to prepare for those risks. We’ve failed at even discussing them broadly as a society. Now we have little time left.</p>
 <p>Need more social proof to start worrying?</p>
 <p>Richard Sutton is the inventor of Reinforcement Learning and just won the Turing Award in 2024, the most prestigious award in computer science. He actively thinks that we should start planning for AI to replace us as a species, and is actively against trying to stop that.</p>
 <p>Geoffrey Hinton is the 2018 Turing winner (also for his work in AI), often considered the grandfather of deep learning. He quit his job at Google paying him millions to do AI research and is now actively committing his life to warning people about the dangers.</p>
-<p>Elon Musk co-founded OpenAI in 2015 in part because he believed AI was going to determine the future of mankind and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to become one of the major players at this new seat of power.</p>
+<p>Elon Musk co-founded OpenAI in 2015 in part because he believed AI was going to determine the future of humanity and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to become one of the major players at this new seat of power.</p>
 <p>As of 2024 Donald Trump has begun talking about AI and its competitive landscape and technology needs.</p>
 <p>The CEOs of the most successful AI teams in the world (Dario Amodei, Demis Hassabis, Sam Altman), all openly discuss that AI smarter than all humanity will arrive this decade and may kill us all. And if it doesn't kill us all, we still need to figure out how to make sure we don't kill each other with it, or accidentally empower a dictator.</p>
 <p>Take a second to digest just how fucking serious this is. It's literally world defining. And then consider that AI researchers have been blaring the alarm since the 1960s, and we chose not to listen until the moment it's finally upon us. As IJ Good said back in 1965:</p>
@@ -461,5 +535,62 @@
             <a href="/">&larr; Back</a>
         </div>
     </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
 </body>
 </html>

@@ -426,6 +426,80 @@
                 font-size: var(--font-size);
             }
         }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -443,10 +517,10 @@
 <p>When we’re afraid, when we’re up against impossible odds, what we control is who we are. What we stand for.</p>
 <p>Stand for the good.</p>
 <p>You’re part of this now. The future depends on your voice — use it.</p>
-<p>Speak your mind. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them — perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.</p>
+<p>Speak your mind. Start a group chat or write a blog. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them — perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.</p>
 <p>And when the weight of the future weighs on you, remember: We've achieved greater things against worse odds.</p>
-<p>On July 16, 1945 we detonated the first nuclear bomb — the first super weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. It was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.</p>
-<p>Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms were just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.</p>
+<p>On July 16, 1945 we detonated the first nuclear bomb — the first <em>super </em>weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. The conversation was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.</p>
+<p>Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms was just as important. Through that shared human culture we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.</p>
 <p>Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, and delivered us the peace we've cherished for decades. </p>
 <p>They were peacetime heroes.</p>
 <p>Now it's our turn.</p>
@@ -458,5 +532,62 @@
             <a href="/">&larr; Back</a>
         </div>
     </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
 </body>
 </html>

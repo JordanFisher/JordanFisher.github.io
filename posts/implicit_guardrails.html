@@ -426,6 +426,80 @@
                 font-size: var(--font-size);
             }
         }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -446,7 +520,7 @@
 <li>For example, often a successful company is founded by exceptional experts that leave a large company and bring their knowledge with them. Inside a fully automated company, the AI workers may have no ability to leave and disseminate their knowledge.</li>
 <li>Even simple things like knowing something is possible can be the critical information needed for someone to pursue a path</li>
 <li>At the international level this helps balance power between nations. For examples, this has allowed lagging nations to more rapidly industrialize.</li>
-<li>Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. Complete lack of info can lead to paranoia and escalation</li>
+<li>Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. A complete lack of information can lead to paranoia and escalation</li>
 </ul>
 <h2>Information sharing creates accountability</h2>
 <ul>
@@ -487,29 +561,32 @@
 <h2>Whistleblowers limit egregious actions</h2>
 <ul>
 <li>Often leaders preemptively avoid breaking the law because they are afraid someone may whistleblow, not just quit</li>
+<li>In a fully automated organization, there may no longer be any whistleblowers. And without them, some leaders may no longer avoid unethical actions</li>
 </ul>
 <h2>Conspiracies and cartels are hard to maintain</h2>
 <ul>
 <li>Conspiracies require concerted effort from many people to succeed</li>
-<li>Compliance to the group or cartel becomes exponentially harder as the size of the conspiracy grows. Not true with AI, where compliance (alignment) may be complete.</li>
+<li>Compliance to the group or cartel becomes exponentially harder as the size of the conspiracy grows</li>
+<li>Not true with AI, where compliance (alignment) to the cartel may be complete</li>
 </ul>
 <h2>Cronies are dumb, limiting their impact</h2>
 <ul>
 <li>Tyrants, mobsters, and would-be dictators need one thing above all else from their henchmen and base of power: loyalty</li>
 <li>Often the smartest and most capable refuse to bend the knee, so the tyrant must recruit the less capable instead</li>
 <li>The circle of power around the tyrant becomes dumb and ineffective</li>
-<li>But with AI, every tyrant may have unfettered intelligence at their disposal, as will their inept cronies.</li>
+<li>But with AI, every tyrant may have unfettered intelligence at their disposal, as will their inept cronies</li>
+<li>Some tyrants are themselves incompetent, and they may make poor decisions even when they have superintelligence counseling them. But many tyrants are cunning and will make the most of AI</li>
 <li>We should expect to see substantially more capable tyrants and mobsters, powered by AI and unhindered by ethics</li>
 </ul>
 <h2>Media helps spread knowledge of malfeasance</h2>
 <ul>
 <li>When someone does have the courage to whistleblow, there are human reporters ready to spread the story</li>
 <li>Media corporations can and do collude with nefarious corporate actors and politicians, but a healthy market of many media companies helps ensure someone will spread the story</li>
-<li>And the implicit guardrails within media companies help prevent the worst abuses</li>
+<li>And the implicit guardrails within media companies help prevent the worst abuses and coverups</li>
 <li>In an automated world, collusion between a politician and a media owner becomes extremely easy to execute</li>
 <li>If the media company is fully automated, it may act on any command from the owner, with no fear of whistleblowers or conscientious objection. Executing a media coverup becomes as simple as the media owner and the politician agreeing to terms.</li>
 </ul>
-<h2>Social media spreads knowledge that mainstream may not </h2>
+<h2>Social media spreads knowledge that mainstream media may not </h2>
 <ul>
 <li>Even where today’s media fails, every person can pick up and spread a story they see on social media</li>
 <li>In a world of infinite machines, indistinguishable from humans, the human choice to amplify will be muted</li>
@@ -545,7 +622,7 @@
 </ul>
 <h2>Personal fear of justice</h2>
 <ul>
-<li>The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey a job or order</li>
+<li>The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey an illegal order</li>
 <li>But an AI need not have fear</li>
 </ul>
 <h2>Judges and police officers have their own ethics</h2>
@@ -553,10 +630,11 @@
 <li>The application of law often requires the personal ethical considerations of the judge. Not all law is explicit</li>
 <li>That judge is themself a member of society, and feels the social burden of advocating for justice their community would be proud of. This often blunts the force of unjust laws.</li>
 <li>Likewise, a police officer will often waive the enforcement of a law if they feel extraneous circumstances warrant it</li>
+<li>An AI instead might faithfully execute the letter of the law so well that even our existing laws become dangerous to freedom</li>
 </ul>
 <h2>There’s general friction in enforcement of laws and regulations</h2>
 <ul>
-<li>We can’t enforce all laws all the time and that’s part of our enforcement model</li>
+<li>Today, we can’t enforce all laws all the time</li>
 <li>In the old days a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end to end automated (right down to mailing the ticket to your home) but speed limits haven’t changed</li>
 <li>Our laws are so voluminous and complex, that almost all citizens break the law at some point. Often these infractions go unnoticed by the state. But with perfect automation, every misstep may be noticed.</li>
 <li>If automated law enforcement itself reports up to a single stakeholder —as it does today with the President— it would be very easy for that individual to weaponize this power against their political adversaries</li>
@@ -565,28 +643,29 @@
 <ul>
 <li>The central point in the theory of capitalism is that we need self-interested competition to align human incentives</li>
 <li>This requires having a healthy market, which encourages many multipolar outcomes among industries, spreading out power across society</li>
-<li>The reason alternatives to capitalism —like communism— often fail, is that humans lose motivation when you remove their incentives.</li>
+<li>The reason alternatives to capitalism —like communism— often fail, is that humans lose motivation when you remove their incentives</li>
 <li>AI may not need incentive structures. They may work just as hard on any task we give them, without any need for incentives.</li>
 <li>Big human organizations suffer inefficiencies because they have no internal markets or competition correctly driving human incentives, but this won’t be true with AI</li>
 </ul>
 <h2>The bread and circus isn’t easy to maintain</h2>
 <ul>
-<li>With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from them</li>
-<li>Today, to properly feed a society we need a well kept human economy, which requires many more human affordances by necessity. This is one reason why capitalism and liberty have often gone hand in hand.</li>
+<li>Today, to properly feed a society, we need a well kept human economy, which requires many more human affordances by necessity</li>
+<li>This is one reason why capitalism and liberty have often gone hand in hand. Capitalism delivers the abundance that leaders personally want. If they remove liberties, they will endanger the mechanisms that drive capitalism.</li>
+<li>With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from the citizens</li>
 </ul>
 <h2>Leaders can’t execute on their own</h2>
 <ul>
-<li>We’re seeing the trend today that managers are being more hands on, and need fewer intermediaries</li>
-<li>Typically a leader must act through layers of managers to achieve things</li>
-<li>But tomorrow, a strong enough technical leader may be able to directly pair with an AGI or superintelligence without any additional assistance from employees</li>
-<li>In order to improve security, some AI labs are already isolating which members have access to the next frontier, so it wouldn’t even raise alarm bells for an employee to no longer have access and to be unaware of who does</li>
+<li>Typically a leader must act through layers of managers to achieve things. As we’ve seen, this limits the range of actions a leader can take</li>
+<li>We’re seeing the trend today that managers are being more hands on, and need fewer intermediaries. For example, senior lawyers now need fewer junior staff for support, instead relying on AI for many tasks. We’re seeing a similar trend in many fields, where junior work is often being eliminated.</li>
+<li>This is especially true in engineering. Soon, a strong enough technical leader may be able to directly pair with an AGI or superintelligence for all of their needs, without any additional assistance from employees.</li>
+<li>In order to improve security, some AI labs are already isolating which technical staff have access to the next frontier of AI systems. It wouldn’t even raise alarm bells for an employee to no longer have access and to be unaware of who does.</li>
 <li>It will be increasingly easy for a single person to be the only person to have access to a superintelligence, and for no one else to even know this is the case.</li>
 </ul>
 <h2>Time moves slowly</h2>
 <ul>
 <li>We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this</li>
 <li>Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter</li>
-<li>But if AI moves society forward at 10x speed, that's the equivalent of having a president in power for a 40 year term </li>
+<li>But if AI moves society forward at 10x speed, then a single presidential term will be equivalent to having a president in power for 40 years</li>
 </ul>
 <h2>Geopolitical interdependence disperses power</h2>
 <ul>
@@ -599,7 +678,8 @@
 <ul>
 <li>Outright war is extremely unpopular because it compels citizens to fight and die</li>
 <li>Automated wars may be unpopular, but not nearly as unpopular if citizens are insulated from the fighting</li>
-<li>We already see this effect with our ability to wage war from the sky</li>
+<li>We already see this effect with our ability to wage war from the sky, which requires much less risk to our soldiers, and has had much less backlash from the public when used</li>
+<li>If it becomes possible to wage ground wars fully autonomously —with no risk to any soldiers— will society ever push back on an administration’s military efforts?</li>
 </ul>
 <h2>An interdependent corporate ecosystem disperses power</h2>
 <ul>
@@ -630,7 +710,7 @@
 <h2>Humans have economic and strategic value</h2>
 <ul>
 <li>Authoritarians can’t simply kill all their citizens today, or their economy and warmaking ability would be gutted. In fact, they are incentivized to create a rich economy, in order to have doctors, entertainment, and luxuries.</li>
-<li>The Khmer Rouge killed nearly 25% of their own population, crippling their own warmaking ability. They ended up obliterated by a Vietnamese invasion.</li>
+<li>The Khmer Rouge killed nearly 25% of their own population, crippling their own warmaking ability. Because of this mistake, they ended up obliterated by a Vietnamese invasion.</li>
 <li>Even the most psychopathic ruler, if self-interested, must support their people to support themself </li>
 <li>But post-AGI, from the point of view of a dictator, what’s the point of supporting other humans with their national output at all? To them, citizens might become economic deadweight</li>
 <li>And even if one authoritarian wants to support their population, another authoritarian who doesn’t will likely outcompete them across relevant domains</li>
@@ -640,7 +720,8 @@
 <li>With AI and a fully automated economy, this will no longer be true </li>
 </ul>
 <h2>Replacing implicit guardrails with explicit design</h2>
-<p>AI has the potential for tremendous upside, the point of this exercise isn’t to paint AI in a negative light. Instead, it’s to highlight that AI will reshape our society at every level, and that will require rethinking the way every level works. Our society is saturated with implicit guardrails. If we removed them all without replacing them with new guardrails, society would almost surely collapse. Moreover, the explicit guardrails we do have today —our laws and explicit institutions— have been designed with our existing implicit guardrails in mind. They’re complimentary.</p>
+<p>AI has the potential for tremendous upside, the point of this exercise isn’t to paint AI in a negative light. Instead, it’s to highlight that AI will reshape our society at every level, and that will require rethinking the way every level works.</p>
+<p>Our society is saturated with implicit guardrails. If we removed them all without replacing them with new guardrails, society would almost surely collapse. Moreover, the explicit guardrails we do have today —our laws and explicit institutions— have been designed with our existing implicit guardrails in mind. They’re complimentary.</p>
 <p>We have to think carefully about how a new, automated world will work. We need to consider what values we want that world to exemplify. We need to reconsider preconceived design patterns that worked when implicit guardrails were strong, but may stop working when those guardrails disappear. We have to discover a new set of explicit guardrails that will fortify our freedoms against what is to come.</p>
 <p>And we must do this preemptively.</p>
 <p>Humans are fantastic at iterating. We observe our failures and continue to modify our approach until we succeed. We’ve done this over thousands of years to refine our societies and guardrails. We’ve been successful enough to prevent the worst among us from seizing absolute power. But the transition to an automated world may happen over the course of a few years, not thousands of years. And we may not recover from the failures. There may not be a chance to iterate.</p>
@@ -651,5 +732,62 @@
             <a href="/">&larr; Back</a>
         </div>
     </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
 </body>
 </html>

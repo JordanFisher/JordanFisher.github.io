@@ -3,7 +3,7 @@ Don’t be silly
 
 Serious people have been talking about human-level AI and superintelligence for nearly half a century. But mostly it’s been too silly to talk about. In computer science departments discussing it openly was implicitly banned. Those who did were often made into pariahs. Outside academia the public thought it was sci-fi.
 
-Even 10 years ago, when AI began showing real promise, you instead had to say you worked on “ML” or “Machine Learning”. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of mankind’s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we’ve even allowed researchers to say what they do is “AI” without scoffing at them.
+Even 10 years ago, when AI began showing real promise, you instead had to say you worked on “ML” or “Machine Learning”. But researchers kept plodding on, slowly building machine intelligence, ever careful not to say out loud what they really thought they were building for fear of humanity’s harshest punishment: ridicule. Only in the last few years has the reality of AI become real enough that we’ve even allowed researchers to say what they do is “AI” without scoffing at them.
 
 Now, here we are today, embedding AI into every part of our lives and work. Proof that silly things are sometimes real. Proof they sometimes reshape the world.
 
@@ -17,7 +17,7 @@ Richard Sutton is the inventor of Reinforcement Learning and just won the Turing
 
 Geoffrey Hinton is the 2018 Turing winner (also for his work in AI), often considered the grandfather of deep learning. He quit his job at Google paying him millions to do AI research and is now actively committing his life to warning people about the dangers.
 
-Elon Musk co-founded OpenAI in 2015 in part because he believed AI was going to determine the future of mankind and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to become one of the major players at this new seat of power.
+Elon Musk co-founded OpenAI in 2015 in part because he believed AI was going to determine the future of humanity and he didn't trust Google (and Larry Page) to use it for good. After falling out with Sam Altman he went on to found another AI company and invested billions into it in order to become one of the major players at this new seat of power.
 
 As of 2024 Donald Trump has begun talking about AI and its competitive landscape and technology needs.
 

@@ -1,0 +1,113 @@
+Concrete — near term actions and proposals
+[[[We’ve discussed the big picture. But what are concrete, near term actions we can take today?]]]
+
+Aspirations are important. They set a clear vision of what could be, they motivate us, and they help us rally others to our cause. But we also need concrete, near-term efforts that can drive us forward. The best motivator is progress, and early progress will establish the playing field for what’s to come.
+
+The future is abundance and Dyson spheres and universal peace and love for all humanity.
+
+That’s great.
+
+But what does tomorrow need to look like to get us there? We need stepping stones to avert disaster, tyranny, and the end of democracy.
+
+These should be near term guardrails that can be rolled out without major political victories. They're things companies can choose to hold themselves to. They're ideals customers can demand from their AI providers. And they're ethical considerations that employees can push their employers to adopt, whether they're building AI or deploying AI to automate part or all of their business.
+
+Let’s lay out a sane set of standards that can help today. They very likely won’t be enough as we approach superintelligence, but we hope they might set the stage for what’s to come. In the spirit of effective governance, let’s work backwards from our goals, so that we can iterate when our proposals fail us.
+
+And what we want to achieve may sound impossible at first.
+
+Near-term goals to fortify democracy
+We must win the AI arms race against authoritarian regimes, if it indeed comes down to a race
+We must simultaneously deescalate that race, and make room for collaboration and peace. Both to give us time to align the machines to humanity, and also to avert potential war with each other. AI has the potential to usher in a new golden age for humanity. We should hope that the golden age is truly for all humanity.
+We must strengthen our domestic policies to let us move faster, including investments in energy, chips, and AI
+That means our strongest corporations must become stronger, and our central government must become stronger too
+We must simultaneously empower every citizen to be a stronger check on these corporations and the central government. And we must strengthen the wider economy of small businesses and startups
+We need near-term policies that can be implemented today, that set the groundwork for superchecks and superbalances to evolve tomorrow
+
+Many of these goals are directly in tension, if not in outright contradiction of each other. But we believe that a narrow set of sensible policies can help us achieve them. Let’s consider a few.
+AI Principles
+We don’t know exactly how to control AI, but we do know how to partially guide it. Where we guide it to should be a set of principles that lifts up humanity
+Today, these principles are chosen by the companies building the AIs. Since we are rapidly deploying these AIs to be our new workforce, at the very least these principles should be fully transparent to society
+If there are sensitive aspects to these principles that can’t be made public — for example, relating to how to handle top secret information or matters of national security — these aspects should be reviewed by independent auditors, or by Congress itself
+This would start purely as a written commitment from AI labs. The only enforcement would come from internal lab employees that care about holding their employer accountable
+Written commitments won’t be enough as we reach full automation. The employees of the AI labs themselves will become automated soon, thus removing this implicit enforcement mechanism. But it’s still a good initial stepping stone
+
+The hope for making principles transparent is to stimulate an ongoing public debate. What should some aspects of that debate center around?
+
+A personal agent works for you
+Imagine if you hired a personal assistant, but secretly they worked for a large advertising company. The assistant does so much for you behind the scenes that you don’t have time to review everything they do
+Now that they’ve gained your trust, they subtly make decisions that benefit the advertisers paying their parent company. The hotels they book for you, the airlines they prefer, the restaurants they suggest, the news articles they summarize for you to read over your morning coffee
+Worse, imagine hiring a lawyer to represent you, but they secretly push for outcomes that align with one of their business partners
+These are plain conflicts of interest that we don’t tolerate for humans that assist us. We need the same standard for AI
+Any AI performing actions on behalf of a user must disclose conflicts. And these conflicts cannot be hidden away in voluminous terms of service. They need to be escalated to the user to see in the moment, when actions or recommendations are being made.
+
+AI Vetting for Federal Use
+Federal agents must go through extensive background checks and interviews to get top secret clearance
+AI will soon do the equivalent work of millions of federal employees. Google recently announced in early 2025 that they are deploying their AI to top secret environments
+It’s both economical and wise to apply at least 10 or 100 times the vetting for a single AI as we do for a single federal employee
+The vetting process should be a publicly visible set of tests and evaluations. This will give us confidence that every AI is being evaluated evenly. The Executive should design the process, and Congress should be responsible for signing off on it, as well as ensuring that the process is being applied fairly
+This mirrors the process the Executive and Legislature follow today for key federal appointments
+
+Aside from what we want these AIs to look like, how can we help build them? What domestic policy and international relations are most important?
+Domestic capacity
+Currently we’re reliant on Taiwan’s TSMC for all of our AI accelerators
+Both the Biden and second Trump administrations have been vocal about growing our domestic chip capacity and our domestic energy supply to power our data centers
+But we need much more than this
+With robots rapidly maturing, the future of industry will be determined by how quickly a nation can scale their robotics supply chain. The most important thing robots can build is more robots. Once robotics matures, it can be used to exponentially increase robotic manufacturing capacity
+We need to stimulate our robotics industry, not just our chips industry
+Because robotics is lagging behind general AI, the most important ingredient is talent and expertise
+Currently the best robotics research is happening in China. We should be aggressively recruiting this talent, and all other AI and hardware talent, and bringing them to the US. Just like the space race of the 20th century, the quickest path to success is to leverage your adversaries best intelligences
+We also need to streamline permitting for new power plants and data centers at scale, preparing for the near future where we will 10x and then 100x our development capacity. There’s plenty of sunny, uninhabited land to build in the US. In France, there is abundant nuclear energy, although land for data centers is more challenging to find
+Allied capacity
+Data centers and power plants are the new aircraft carriers. The near future will be won by these assets, not with traditional weapons. Not even by new-age drones
+Just like we are asking Europe to pay their fair share of NATO military expenses, we must encourage Europe to invest in the most important strategic asset of tomorrow’s defense: massive data centers and the power plants that power them
+The most limited aspect of the AI supply chain comes from the EUV machine used to etch AI accelerator chips. This machine can only be built by one company: ASML, a Dutch company. It’s widely believed it would take ~10 years for either the US or China to replicate the ASML EUV technology
+That makes Europe a default key player in the most important race in history
+The West should strive for a mutual trade agreement that emphasizes what’s most important about the future: aggregate compute capacity across democracies. This is the modern equivalent of number of aircraft carriers, and will measure the true power of the free world
+
+The specific AI itself may not matter
+Many policy proposals focus on securing the weights or source code of an AI model, so as to prevent foreign adversaries from being able to easily copy the AI
+However, we’ve now seen that China is able to build their own AI from scratch, and are only a few months behind the frontier US labs
+In a world where building AI is easy, the strategic advantage lies solely with compute capacity and energy supply, neither of which can be stolen
+While securing weights is still important, policies that aim to secure weights should be carefully weighed against ways they may slow down other critical developments
+For example, if we’re overly cautious about preventing foreign spies from infiltrating our labs, we may miss out on key talent that pushes forward our industrial capacity
+
+Export controls and the industrial race
+If chips really are the most important strategic input to the future, then we need to take seriously where our chips go and who is making them
+NVIDIA, TSMC, and ASML are effectively arms dealers, building the most important strategic assets of tomorrow
+As early as 2022, the Biden administration recognized that our highest performing AI GPUs were critical to winning the AI race. Because of this, they enacted export bans preventing NVIDIA from selling them to China
+In the first half of 2025, we may be entering into a full trade war with China. The details for strategic industrial capacity are complicated
+Nearly 90% of rare earth processing happens in China, elements that are critical to semiconductor manufacturing. In early April 2025, China enacted a global ban on exporting rare earth minerals
+At the same time, the Western alliance has ASML, TSMC, and NVIDIA — the most important technology providers for delivering cutting edge chips
+China is racing to replace their dependence on external semiconductor technology providers. China’s Huawei just announced — also in April 2025 — that they have built an AI data center that is beginning to approach the strength of those built by NVIDIA. While it’s still ~3x less efficient, that differential can easily be overcome by sheer industrial scale, something China has in spades
+Meanwhile, the West is not yet racing to replace their dependence on Chinese rare earth minerals, and the lead time for creating new mining capacity can be several years
+
+The allied alliance
+Building US industrial capacity to exceed China’s is strategically essential. However, the timelines to achieve this are too long for it to be the West’s only strategy
+The race to superintelligence may be over in just a few years, less time than it often takes to spin up a single new rare earth mine
+The US must also quickly revitalize partnerships with the rest of free world with a surgical focus on semiconductor manufacturing, energy production, and robotics
+
+
+At the same time, we need to create a path toward disescalation and peace.
+
+The shared future
+We should seek international coordination on principles all AIs should follow
+We should ensure all nations are pursuing AI safety research and responsible deployments
+Safety research should be done in the open, with international cooperation
+We should begin exploring how to deploy AIs in a trustless setting to enable joint monitoring of treaty compliance
+
+As we seek international collaboration, we also need to ensure our own domestic use of AI upholds the constitution.
+Government transparency and AI audits of AI
+Automation will remove our implicit guardrails. Discovering malfeasance will become increasingly difficult
+How can a human Inspector General hope to keep up with overseeing a rapidly automating federal agency?
+As we automate our federal agencies, we must insert automated oversight as well
+We already require record keeping for federal employees. This allows for future audits of federal actions, a key ingredient in Congress’s and the Judiciary’s ability to provide checks on the Executive
+Similarly, all AI-driven analyses actions taken inside a federal agency should be logged and made available to Congress
+We might hope to have similar requirements in the public sector, but we need to be careful that these requirements don’t further the concentration of power in government
+
+These changes, even if enacted, won’t be enough. Once we reach superintelligence, none of these guardrails will be sufficient to hold back a motivated would-be tyrant. But these standards can set the stage for stronger guardrails to come.
+
+How feasible are these changes? We’re accustomed to thinking government is too slow to make an impact on the timelines that matter, especially technology timelines that are rapidly accelerating. Governments make progress over decades, not a handful of years. But from the beginning of the second Trump administration we’ve seen the Executive can move incredibly quickly to rollout new strategies. Whether you agree with the policy decisions or not, the speed is important to note. It means many things can be achieved quickly. But there has to be willpower to make it happen.
+
+And these changes don’t need to all be driven by government. Like all our implicit guardrails today, they can come from how we each choose to act and hold each other accountable. If you’re an employee, push for your employer to hold themselves to these standard. If you’re an investor, push for your companies to do the same. And if you’re anyone — anyone at all — engage with your neighbor, your friends, your family, and debate what these standards should look like to safeguard our democracy.
+
+That willpower has to come from the bottom up. From all of us. 

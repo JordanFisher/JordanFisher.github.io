@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concrete</title>
+    <!-- Google Fonts -->
+    <style>
+        /* Playfair Display font */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        /* Montserrat font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+        
+        /* Define global variables */
+        :root {
+            --font-size: 1.25rem;
+            --bkg-color: rgb(22, 22, 22);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* font-family: 'Georgia', serif; */
+            font-family: 'Montserrat', sans-serif !important;
+            line-height: 1.6;
+            color: var(--bkg-color);
+            background-color: #ffffff;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+            width: 100%;
+            max-width: 100vw;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+        }
+        
+        a:hover {
+            border-bottom-color: #0066cc;
+        }
+        
+        .header-container {
+            position: relative;
+            width: 100%;
+            overflow: visible; /* Allow text to extend outside */
+            margin-bottom: 3rem; /* Add more space below */
+            max-width: 100%;
+        }
+
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .header-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%; /* Adjust height as needed */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--bkg-color));
+            pointer-events: none; /* Allow clicks to pass through */
+            overflow: hidden;
+        }
+        
+        .header-overlay {
+            position: absolute;
+            bottom: 0px; /* Position at the bottom of the image */
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+            z-index: 10; /* Ensure text is above gradient */
+            transform: translateY(0%); /* Move 25% of the text height down */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .header-overlay:hover {
+            transform: translateY(0%) scale(1.01); /* Reduced scale to avoid overflow */
+        }
+
+        .header-title {
+            /* font-family: 'Playfair Display', serif !important; */
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 4rem;
+            font-weight: 500;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            transition: text-shadow 0.3s ease;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        
+        .header-overlay:hover .header-title {
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
+
+        .header-subtitle {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            margin-bottom: 1.5rem;
+            transition: text-shadow 0.3s ease;
+        }
+        
+        .header-overlay:hover .header-subtitle {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .chevron-down {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            position: relative;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+            animation: bounce 2s infinite;
+            margin-top: 10px;
+        }
+        
+        .chevron-down:after {
+            content: '';
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 12px;
+            height: 12px;
+            border-right: 2px solid white;
+            border-bottom: 2px solid white;
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: transform 0.3s ease;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .header-overlay:hover .chevron-down {
+            animation-play-state: paused;
+            transform: translateY(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .container {
+            max-width: 38em;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 3.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        h1.title-header {
+            font-size: 2.5rem;
+            margin-top: 6.85rem;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+            font-style: italic;
+        }
+
+        h1 {
+            font-style: italic;
+        }
+
+        h2 {
+            font-style: italic;
+        }
+        
+        .chapter-number {
+            display: block;
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .chapter-number {
+                color: #aaa;
+            }
+        }
+
+        #story p {
+            font-size: var(--font-size);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Description styling */
+        .description-block {
+            font-size: var(--font-size);
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
+            font-style: italic;
+        }
+
+        .description-block p {
+            margin-bottom: 1rem;
+        }
+
+        .description-block p:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .description-block {
+                border-left-color: #555;
+                background-color: var(--bkg-color);
+            }
+        }
+        
+        /* List styling */
+        #story ul, #story ol {
+            font-size: var(--font-size);
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+        
+        /* All list items get the same spacing */
+        #story li {
+            margin-bottom: 0.65rem;
+        }
+        
+        /* Add more space after a list ends inside a top-level list item */
+        #story > ul > li > ul,
+        #story > ul > li > ol,
+        #story > ol > li > ul,
+        #story > ol > li > ol {
+            margin-bottom: 0.9rem;
+        }
+
+        /* Nested lists styling */
+        #story ul ul, 
+        #story ul ol,
+        #story ol ul,
+        #story ol ol {
+            margin-top: 0.5rem;
+            margin-bottom: 1.6rem;
+        }
+        
+        /* Image styling */
+        .image-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .doc-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-caption {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: #666;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .image-caption {
+                color: #aaa;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: var(--bkg-color);
+                color: #f0f0f0;
+            }
+            
+            a {
+                color: #5abbff;
+            }
+            
+            a:hover {
+                border-bottom-color: #5abbff;
+            }
+        }
+
+        /* Back link styling */
+        .back-link {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .back-link a {
+            padding: 0.5rem 0;
+            display: inline-block;
+        }
+        
+        /* Table of contents styling */
+        .table-of-contents {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        .table-of-contents h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        
+        .table-of-contents ul {
+            margin-left: 1rem;
+            margin-bottom: 0;
+        }
+        
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .table-of-contents {
+                background-color: #2a2a2a;
+                border-color: #444;
+            }
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .header-image {
+                width: 207%;
+                margin-left: -38%;
+            }
+
+            .header-title {
+                font-size: 4rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .header-overlay {
+                transform: translateY(40%); /* Less overlap on mobile */
+                padding: 1.5rem;
+            }
+            
+            .header-overlay:hover {
+                transform: translateY(40%); /* Maintain position on hover */
+            }
+            
+            .header-gradient {
+                height: 65%; /* Taller gradient on mobile */
+            }
+            
+            .chevron-down {
+                display: none; /* Hide chevron on mobile */
+            }
+        }
+        
+        /* Small mobile screens */
+        @media (max-width: 380px) {
+            .header-title {
+                font-size: 1.8rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1rem;
+            }
+            
+            .header-overlay {
+                padding: 1rem;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 0.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            #story p, 
+            #story ul,
+            #story ol {
+                font-size: var(--font-size);
+            }
+        }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .header-link {
+                color: #5abbff;
+            }
+        }
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="story">
+
+<h1 class="title-header">Concrete — near term actions and proposals</h1><div class="description-block"><p>We’ve discussed the big picture. But what are concrete, near term actions we can take today?</p></div>
+<p>Aspirations are important. They set a clear vision of what could be, they motivate us, and they help us rally others to our cause. But we also need concrete, near-term efforts that can drive us forward. The best motivator is progress, and early progress will establish the playing field for what’s to come.</p>
+<p>The future is abundance and Dyson spheres and universal peace and love for all humanity.</p>
+<p>That’s great.</p>
+<p>But what does tomorrow need to look like to get us there? We need stepping stones to avert disaster, tyranny, and the end of democracy.</p>
+<p>These should be near term guardrails that can be rolled out without major political victories. They're things companies can choose to hold themselves to. They're ideals customers can demand from their AI providers. And they're ethical considerations that employees can push their employers to adopt, whether they're building AI or deploying AI to automate part or all of their business.</p>
+<p>Let’s lay out a sane set of standards that can help today. They very likely won’t be enough as we approach superintelligence, but we hope they might set the stage for what’s to come. In the spirit of effective governance, let’s work backwards from our goals, so that we can iterate when our proposals fail us.</p>
+<p>And what we want to achieve may sound impossible at first.</p>
+<h2>Near-term goals to fortify democracy</h2>
+<ul>
+<li>We must win the AI arms race against authoritarian regimes, if it indeed comes down to a race</li>
+<li>We must simultaneously deescalate that race, and make room for collaboration and peace. Both to give us time to align the machines to humanity, and also to avert potential war with each other. AI has the potential to usher in a new golden age for humanity. We should hope that the golden age is truly for all humanity.</li>
+<li>We must strengthen our domestic policies to let us move faster, including investments in energy, chips, and AI</li>
+<li>That means our strongest corporations must become stronger, and our central government must become stronger too</li>
+<li>We must simultaneously empower every citizen to be a stronger check on these corporations and the central government. And we must strengthen the wider economy of small businesses and startups</li>
+<li>We need near-term policies that can be implemented today, that set the groundwork for superchecks and superbalances to evolve tomorrow</li>
+</ul>
+<p>Many of these goals are directly in tension, if not in outright contradiction of each other. But we believe that a narrow set of sensible policies can help us achieve them. Let’s consider a few.</p>
+<h2>AI Principles</h2>
+<ul>
+<li>We don’t know exactly how to control AI, but we do know how to partially guide it. <em>Where </em>we guide it to should be a set of principles that lifts up humanity</li>
+<li>Today, these principles are chosen by the companies building the AIs. Since we are rapidly deploying these AIs to be our new workforce, at the very least these principles should be fully transparent to society</li>
+<li>If there are sensitive aspects to these principles that can’t be made public — for example, relating to how to handle top secret information or matters of national security — these aspects should be reviewed by independent auditors, or by Congress itself</li>
+<li>This would start purely as a written commitment from AI labs. The only enforcement would come from internal lab employees that care about holding their employer accountable</li>
+<li>Written commitments won’t be enough as we reach full automation. The employees of the AI labs themselves will become automated soon, thus removing this implicit enforcement mechanism. But it’s still a good initial stepping stone</li>
+</ul>
+<p>The hope for making principles transparent is to stimulate an ongoing public debate. What should some aspects of that debate center around?</p>
+<h2>A personal agent works for you</h2>
+<ul>
+<li>Imagine if you hired a personal assistant, but secretly they worked for a large advertising company. The assistant does so much for you behind the scenes that you don’t have time to review everything they do</li>
+<li>Now that they’ve gained your trust, they subtly make decisions that benefit the advertisers paying their parent company. The hotels they book for you, the airlines they prefer, the restaurants they suggest, the news articles they summarize for you to read over your morning coffee</li>
+<li>Worse, imagine hiring a lawyer to represent you, but they secretly push for outcomes that align with one of their business partners</li>
+<li>These are plain conflicts of interest that we don’t tolerate for humans that assist us. We need the same standard for AI</li>
+<li>Any AI performing actions on behalf of a user must disclose conflicts. And these conflicts cannot be hidden away in voluminous terms of service. They need to be escalated to the user to see in the moment, when actions or recommendations are being made.</li>
+</ul>
+<h2>AI Vetting for Federal Use</h2>
+<ul>
+<li>Federal agents must go through extensive background checks and interviews to get top secret clearance</li>
+<li>AI will soon do the equivalent work of millions of federal employees. Google recently announced in early 2025 that they are deploying their AI to top secret environments</li>
+<li>It’s both economical and wise to apply at least 10 or 100 times the vetting for a single AI as we do for a single federal employee</li>
+<li>The vetting process should be a publicly visible set of tests and evaluations. This will give us confidence that every AI is being evaluated evenly. The Executive should design the process, and Congress should be responsible for signing off on it, as well as ensuring that the process is being applied fairly</li>
+<li>This mirrors the process the Executive and Legislature follow today for key federal appointments</li>
+</ul>
+<p>Aside from what we want these AIs to look like, how can we help build them? What domestic policy and international relations are most important?</p>
+<h2>Domestic capacity</h2>
+<ul>
+<li>Currently we’re reliant on Taiwan’s TSMC for all of our AI accelerators</li>
+<li>Both the Biden and second Trump administrations have been vocal about growing our domestic chip capacity and our domestic energy supply to power our data centers</li>
+<li>But we need much more than this</li>
+<li>With robots rapidly maturing, the future of industry will be determined by how quickly a nation can scale their robotics supply chain. The most important thing robots can build is more robots. Once robotics matures, it can be used to exponentially increase robotic manufacturing capacity</li>
+<li>We need to stimulate our robotics industry, not just our chips industry</li>
+<li>Because robotics is lagging behind general AI, the most important ingredient is talent and expertise</li>
+<li>Currently the best robotics research is happening in China. We should be aggressively recruiting this talent, and all other AI and hardware talent, and bringing them to the US. Just like the space race of the 20th century, the quickest path to success is to leverage your adversaries best intelligences</li>
+<li>We also need to streamline permitting for new power plants and data centers at scale, preparing for the near future where we will 10x and then 100x our development capacity. There’s plenty of sunny, uninhabited land to build in the US. In France, there is abundant nuclear energy, although land for data centers is more challenging to find</li>
+</ul>
+<h2>Allied capacity</h2>
+<ul>
+<li>Data centers and power plants are the new aircraft carriers. The near future will be won by these assets, not with traditional weapons. Not even by new-age drones</li>
+<li>Just like we are asking Europe to pay their fair share of NATO military expenses, we must encourage Europe to invest in the most important strategic asset of tomorrow’s defense: massive data centers and the power plants that power them</li>
+<li>The most limited aspect of the AI supply chain comes from the EUV machine used to etch AI accelerator chips. This machine can only be built by one company: ASML, a Dutch company. It’s widely believed it would take ~10 years for either the US or China to replicate the ASML EUV technology</li>
+<li>That makes Europe a default key player in the most important race in history</li>
+<li>The West should strive for a mutual trade agreement that emphasizes what’s most important about the future: aggregate compute capacity across democracies. This is the modern equivalent of number of aircraft carriers, and will measure the true power of the free world</li>
+</ul>
+<h2>The specific AI itself may not matter</h2>
+<ul>
+<li>Many policy proposals focus on securing the weights or source code of an AI model, so as to prevent foreign adversaries from being able to easily copy the AI</li>
+<li>However, we’ve now seen that China is able to build their own AI from scratch, and are only a few months behind the frontier US labs</li>
+<li>In a world where building AI is easy, the strategic advantage lies solely with compute capacity and energy supply, neither of which can be stolen</li>
+<li>While securing weights is still important, policies that aim to secure weights should be carefully weighed against ways they may slow down other critical developments</li>
+<li>For example, if we’re overly cautious about preventing foreign spies from infiltrating our labs, we may miss out on key talent that pushes forward our industrial capacity</li>
+</ul>
+<h2>Export controls and the industrial race</h2>
+<ul>
+<li>If chips really are the most important strategic input to the future, then we need to take seriously where our chips go and who is making them</li>
+<li>NVIDIA, TSMC, and ASML are effectively arms dealers, building the most important strategic assets of tomorrow</li>
+<li>As early as 2022, the Biden administration recognized that our highest performing AI GPUs were critical to winning the AI race. Because of this, they enacted export bans preventing NVIDIA from selling them to China</li>
+<li>In the first half of 2025, we may be entering into a full trade war with China. The details for strategic industrial capacity are complicated</li>
+<li>Nearly 90% of rare earth processing happens in China, elements that are critical to semiconductor manufacturing. In early April 2025, China enacted a global ban on exporting rare earth minerals</li>
+<li>At the same time, the Western alliance has ASML, TSMC, and NVIDIA — the most important technology providers for delivering cutting edge chips</li>
+<li>China is racing to replace their dependence on external semiconductor technology providers. China’s Huawei just announced — also in April 2025 — that they have built an AI data center that is beginning to approach the strength of those built by NVIDIA. While it’s still ~3x less efficient, that differential can easily be overcome by sheer industrial scale, something China has in spades</li>
+<li>Meanwhile, the West is not yet racing to replace their dependence on Chinese rare earth minerals, and the lead time for creating new mining capacity can be several years</li>
+</ul>
+<h2>The allied alliance</h2>
+<ul>
+<li>Building US industrial capacity to exceed China’s is strategically essential. However, the timelines to achieve this are too long for it to be the West’s only strategy</li>
+<li>The race to superintelligence may be over in just a few years, less time than it often takes to spin up a single new rare earth mine</li>
+<li>The US must also quickly revitalize partnerships with the rest of free world with a surgical focus on semiconductor manufacturing, energy production, and robotics</li>
+</ul>
+<p>At the same time, we need to create a path toward disescalation and peace.</p>
+<h2>The shared future</h2>
+<ul>
+<li>We should seek international coordination on principles all AIs should follow</li>
+<li>We should ensure all nations are pursuing AI safety research and responsible deployments</li>
+<li>Safety research should be done in the open, with international cooperation</li>
+<li>We should begin exploring how to deploy AIs in a trustless setting to enable joint monitoring of treaty compliance</li>
+</ul>
+<p>As we seek international collaboration, we also need to ensure our own domestic use of AI upholds the constitution.</p>
+<h2>Government transparency and AI audits of AI</h2>
+<ul>
+<li>Automation will remove our implicit guardrails. Discovering malfeasance will become increasingly difficult</li>
+<li>How can a human Inspector General hope to keep up with overseeing a rapidly automating federal agency?</li>
+<li>As we automate our federal agencies, we must insert automated oversight as well</li>
+<li>We already require record keeping for federal employees. This allows for future audits of federal actions, a key ingredient in Congress’s and the Judiciary’s ability to provide checks on the Executive</li>
+<li>Similarly, all AI-driven analyses actions taken inside a federal agency should be logged and made available to Congress</li>
+<li>We might hope to have similar requirements in the public sector, but we need to be careful that these requirements don’t further the concentration of power in government</li>
+</ul>
+<p>These changes, even if enacted, won’t be enough. Once we reach superintelligence, none of these guardrails will be sufficient to hold back a motivated would-be tyrant. But these standards can set the stage for stronger guardrails to come.</p>
+<p>How feasible are these changes? We’re accustomed to thinking government is too slow to make an impact on the timelines that matter, especially technology timelines that are rapidly accelerating. Governments make progress over decades, not a handful of years. But from the beginning of the second Trump administration we’ve seen the Executive can move incredibly quickly to rollout new strategies. Whether you agree with the policy decisions or not, the speed is important to note. It means many things can be achieved quickly. But there has to be willpower to make it happen.</p>
+<p>And these changes don’t need to all be driven by government. Like all our implicit guardrails today, they can come from how we each choose to act and hold each other accountable. If you’re an employee, push for your employer to hold themselves to these standard. If you’re an investor, push for your companies to do the same. And if you’re anyone — anyone at all — engage with your neighbor, your friends, your family, and debate what these standards should look like to safeguard our democracy.</p>
+<p>That willpower has to come from the bottom up. From all of us. </p>
+
+        </div>
+        <div class="back-link">
+            <a href="/">&larr; Back</a>
+        </div>
+    </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links
+        function addHeaderLinks() {
+            // Add anchor links to all headers
+            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const feedbackEl = document.getElementById('copy-feedback');
+            
+            headers.forEach(function(header) {
+                // Skip headers without ids
+                if (!header.id) {
+                    return;
+                }
+                
+                // Create link icon
+                const linkIcon = document.createElement('span');
+                linkIcon.innerHTML = '🔗';
+                linkIcon.classList.add('header-link');
+                linkIcon.setAttribute('title', 'Copy link to this section');
+                
+                // Add link to header
+                header.insertBefore(linkIcon, header.firstChild);
+                
+                // Add click handler
+                header.addEventListener('click', function(e) {
+                    // Get URL with hash
+                    const url = window.location.href.split('#')[0] + '#' + header.id;
+                    
+                    // Create a temporary element for copying
+                    const tempInput = document.createElement('input');
+                    document.body.appendChild(tempInput);
+                    tempInput.value = url;
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+                    
+                    // Show feedback
+                    feedbackEl.classList.add('show');
+                    
+                    // Remove after animation completes
+                    setTimeout(function() {
+                        feedbackEl.classList.remove('show');
+                    }, 1500);
+                });
+            });
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+        } else {
+            addHeaderLinks();
+        }
+    })();
+    </script>
+</body>
+</html>
