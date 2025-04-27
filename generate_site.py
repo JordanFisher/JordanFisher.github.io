@@ -269,7 +269,7 @@ def main(local_only=False):
             
             for filename in url_names:
                 # For the book, use the template with header; for other posts, remove the header
-                if filename == "tiny_book_on_governance_of_machine":
+                if filename == "liberty_by_design":
                     html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
                 else:
                     # Remove the header container for non-book blog posts

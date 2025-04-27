@@ -950,7 +950,7 @@ def merge_pdf_with_cover(original_pdf, cover_pdf, output_pdf):
         
 def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
-    parser.add_argument('--output', default='tiny_book_on_governance_of_machine.pdf',
+    parser.add_argument('--output', default='liberty_by_design.pdf',
                         help='Output PDF file path')
     parser.add_argument('--include-images', action='store_true',
                         help='Include images in the PDF (default: false)')
@@ -993,7 +993,7 @@ def main():
         ensure_latex_templates_dir()
         
         # Path to the governance HTML file
-        html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
+        html_path = os.path.join('posts', 'liberty_by_design.html')
         
         if not os.path.exists(html_path):
             print(f"Error: HTML file {html_path} not found. Make sure the site has been generated.")
@@ -1031,7 +1031,7 @@ def main():
     merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
     
     # Modify the HTML file to empty the first h1 title-header
-    html_path = os.path.join('posts', 'tiny_book_on_governance_of_machine.html')
+    html_path = os.path.join('posts', 'liberty_by_design.html')
     if os.path.exists(html_path):
         print(f"Modifying {html_path} to empty the first h1 title-header...")
         with open(html_path, 'r') as f:
