@@ -14,7 +14,7 @@ This will fetch the Google Docs listed in `doc_list.py` and convert them to HTML
 
 ## PDF Generation
 
-To generate a PDF version of the "Tiny Book on Governance of Machine Intelligence" post:
+To generate a PDF version of "Liberty by Design" post/book:
 
 ```bash
 # Generate without images (smaller file size)
