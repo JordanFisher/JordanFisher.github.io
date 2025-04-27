@@ -1,4 +1,5 @@
 __pycache__/
+analysis/
 client_secret*
 token.pickle
 *Zone.Identifier
