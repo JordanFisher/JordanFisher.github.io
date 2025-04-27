@@ -9,6 +9,7 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 import pickle
 from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service, set_drive_service
+import html2text
 
 from doc_list import gdoc_urls
 
@@ -92,6 +93,23 @@ def save_doc(url_names: list[str], doc: dict) -> str:
             f.write(txt)
 
     return txt
+
+def convert_html_to_markdown(html_content: str) -> str:
+    """Converts HTML content to markdown format.
+    
+    Args:
+        html_content (str): The HTML content to convert
+        
+    Returns:
+        str: The markdown representation of the HTML content
+    """
+    h = html2text.HTML2Text()
+    h.ignore_links = False
+    h.ignore_images = False
+    h.escape_snob = True
+    h.body_width = 0  # Disable line wrapping
+    
+    return h.handle(html_content)
 
 with open('post_template.html') as f:
     POST_HTML_TEMPLATE = f.read()
@@ -301,6 +319,18 @@ def main(local_only=False):
                 
                 with open(os.path.join("posts", filename + ".html"), 'w') as f:
                     f.write(html)
+                
+                # Convert HTML content to markdown and save to fetched_docs folder
+                # Extract just the content part (not the whole template)
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(html, 'html.parser')
+                main_content = soup.find('div', id='story')
+                if main_content:
+                    markdown_content = convert_html_to_markdown(str(main_content))
+                    with open(os.path.join("fetched_docs", filename + '.md'), 'w') as f:
+                        f.write(markdown_content)
+                else:
+                    print(f"Could not find main content in {filename}.html to convert to markdown")
             
             # Use the first url_name as the link to the post
             link = url_names[0] + ".html"

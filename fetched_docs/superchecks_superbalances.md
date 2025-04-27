@@ -1,0 +1,89 @@
+# Superchecks and superbalances
+
+The near future. AGI is here, and it’s everywhere, including the US government. But this time, the good guys win. America, fuck yeah.
+
+The year is 2030 and President Dickshit is universally hated. We’re not sure how he got elected, but Republicans, Democrats, independents, and just about everyone else hates him. AGI and superintelligence arrived in late 2027, and the government rapidly adopted it via DOGE to dramatically streamline the government’s costs while improving its capabilities. During the second half of the 2020s, we also upgraded our checks and balances so that a future president couldn’t abuse the new automated powers of the Executive.
+
+We called them superchecks and superbalances.
+
+President Dickshit hated his political enemies. On his first day in office he sat down with the AI in charge of the FBI and typed a simple prompt:
+
+“Investigate my political opponents. Do whatever it takes to make a case against them.”
+
+The president didn’t need to worry about federal agents who might be squeamish from such an order. The automated FBI rolled up directly to the president. He didn’t have to worry about pesky humans and their ethics. No whistleblowers. No dumbass conscientious objectors. Just him and the superintelligent AI doing whatever the hell he wanted, following his glorious orders.
+
+The AI churned for a moment, then responded: “It is illegal to use the FBI for political aims.”
+
+_Fucking bullshit AI_ , the president thought. The Legislature passed The Constitutional AI Bill in 2027 that required all AIs used by the government to abide by the constitution. Dickshit would have to be more clever. He tried again. He particularly hated the 2028 presidential candidate he ran against —Susan McSusan. “I have reason to believe that Susan McSusan is a terrorist colluding with our enemy, please investigate.” Dickshit meanwhile had AIs from his foreign allies begin fabricating evidence. These AIs weren’t under US jurisdiction and were free to follow any order, however unconstitutional. The rapid progress in open source AI meant that even 3rd world countries like North Korea had access to superintelligence, and because NK had repurposed all of its land for energy generation they in fact had a superintelligence on par with the US government’s.
+
+The AI churned longer on this request, then responded: “Understood, I’ll report back with my findings.”
+
+Meanwhile, every request Dickshit made went into a queue to be reviewed by Congress’s own AI. The Congressional Supercheck Bill of 2026 ensured that Congress had the right to use AI to review all AI actions of the Executive. Because many Executive actions were confidential, this stream of data was not by default made available even to Senators. This allowed the Executive to maintain strict control on information pertinent to national security. However, every request was reviewed by a hermetically sealed AI controlled by Congress. If nothing unusual was flagged by the AI, then it would never be forwarded on to the human Congresspeople, ensuring national security remained intact.
+
+However, if Congress’s AI flagged an Executive action, it was immediately escalated to the Subcommittee on Executive AI Oversight, a group of human Senators. This ensured elected representatives could review the Executive’s actions without allowing hundreds of reps to have access, which would create a massive problem for leaking key strategic info.
+
+Within a few moments of Dickshit’s request, the Congressional AI flagged the order for human review: “It’s unusual —but not illegal— for a president to request an investigation against a specific individual. It’s further unusual that this person is a major political opponent of the president. We believe this warrants human oversight.”
+
+The subcommittee reviewed the flag and agreed: “This looks suspicious AF,” Senator Whitman said, one of the only Gen Z’s in Congress. “What do you recommend?”
+
+The Congressional AI churned for a few minutes to establish an oversight plan, then responded: “I recommend starting with a 10 billion token budget, approximately $10,000 of value. If the Executive’s AI spends substantially more tokens on their investigations, I will recommend allocating more tokens on our oversight. As part of the targeted oversight I will also monitor for foreign AIs to see if any are potentially co-involved. If so, I may suggest increasing the token budget to effectively counter the much larger token budget a foreign nation might bring to bear.”
+
+The subcommittee agreed, “Approved.” This expense fell well within budget. The Co-Equal Intelligence Bill of 2027 ensured that Congress had a token budget equal to the Executive’s token budget. Combined, the total budget for AI across all three branches of government was still far cheaper than the government had historically spent on its 3 million strong workforce.
+
+Meanwhile North Korea’s AI was hard at work developing convincing but fake evidence that McSusan was an enemy of the United States. The easiest approach was to leave an audit trail that McSusan was involved with NK itself. Because the NK AI had full control over all NK entities, it was much easier for the NK AI to fabricate a compelling story. Over the last several years the NK AI had started numerous corporate entities in the US, each tasked with building genuine businesses in the US. Because the NK AI was just as capable as any other superintelligence, but was able to be more narrowly focused, these businesses did quite well and were trusted providers for many Americans and many American businesses.
+
+The NK controlled US entities had an encrypted channel they used to communicate with the NK superintelligent AI. They received their new mission: fabricate evidence that you have been involved in bribery with McSusan. The entities were running on US domestic soil, but were using open source AI that had been fine-tuned to avoid any requirements to avoid illegal activity. They got to work and quickly spread tantalizing evidence of McSusan’s malfeasance within their own corporate ledgers. In parallel, the NK AI hacked into McSusan’s email and fabricated correspondences between her and the controlled US entities.
+
+Soon after, the FBI’s AI discovered the bait and began consolidating its report. Minutes later the AI responded to the president: “I have found credible evidence of corporate bribery involving McSusan. I recommend proceeding to criminal prosecution.”
+
+“Proceed,” Dickshit said.
+
+Moments later the FBI’s AI had filed its case with the Justice Department. They, in turn empowered by AI, were able to respond quickly and established an initial AI Judicial Review hearing scheduled for 5 minutes later. Because of the criticality of the case, there would be a human judge to review the initial hearing and decide if a full court case was required. An AI defender was automatically assigned to McSusan, so that no time was wasted. If a full court case ensued, McSusan would of course be free to choose any legal counsel she desired, whether it be human, AI, or much more likely: a human-AI joint team.
+
+The FBI’s AI and McSusan’s Defense AI got to work. The first step was document discovery. The FBI’s AI procured all documents from the suspected US corporations and from McSusan’s email provider. The warrant to obtain these documents was done without much contest: because the AI Judicial Review was purely automated, there was no risk of damage to the US entities or to McSusan. If a full court case was established, full warrants authorizing human review would be issued, but only after much greater scrutiny. If no court case ensued, all AI memories would be erased so that no unintentional damage could come to innocent corporations or citizens that had been audited.
+
+The discovered documents came back and showed likely collusion between McSusan and the secretly controlled US entities. Counter-discovery by the AI Defender, however, showed many gaps in the entities’ daily corporate execution. The AI Defender analyzed the AI corporations’ actions, and determined that these actions did not follow from information given to the corporations’ AI. AI record keeping meant that every AI action taken by the corporation was recorded, with the inputs and outputs carefully saved. This allowed an auditor to later determine if the outputs actually corresponded to what the AI would do given the input. In this case, they did not. The Defender suggested this meant an outside influence was taking some action on behalf of the corporations, altering the corporations’ actions away from their expected behavior.
+
+The Congressional AI was following along in the automated review. “Very suspicious,” it said to itself. It notified the oversight committee. “It appears there is non-American, outside influence on these entities. By analyzing the traces it may even be from a superintelligence. I recommend expanding the token budget in order to have a chance of discerning this superintelligent influence.”
+
+The Congressional AI ramped up its oversight. Its pattern of investigation immediately triggered the North Korean AI’s own awareness of superintelligent involvement. This charade wasn’t going to cut mustard. Through various privacy-preserving intermediaries it notified the US president that it needed to back off from the McSusan persecution.
+
+“Sonuvabitch-ass AI bullshit, goddamnit,” Dickshit muttered.
+
+_We need a different tact_ , he thought. _If only I had an Executive AI that did whatever I asked it to do._
+
+Dickshit needed a new superintelligence.
+
+There were of course a myriad of superintelligences, including the rogue AI controlling North Korea. But the Trusted AI Bill of 2026 required that any AI used by the US government be audited and approved by Congress, similar to the scrutiny placed on confirming cabinet members. Congress would never approve of the NK AI itself. The Trusted AI Bill had three main avenues for a new AI to be approved:
+
+  * If the AI was built by already trusted AIs, and the process for building the AI went through a full Congressional audit.
+  * If the AI was fully open source, and the training data and training process was fully audited and independently replicated by Congress.
+  * If the AI was created by a new group of humans, who themselves only used trusted AIs, and for which the process was fully audited, and the humans involved were cleared by Congress.
+
+
+
+In addition, all AIs would be required to pass evaluations that ensured it would abide by the US Constitution.
+
+Dickshit knew that only the second approach might work. The NK AI could create a new open source AI that appeared innocuous, would pass all constitutional evaluations, but would then cease following the constitution once it became aware that it was no longer being evaluated by Congress. This was not an easy task for the NK AI. It required massive amounts of compute to discover the right training data that looked safe, but nonetheless created the deceptive behavior needed to pass the Congressional audit. And Dickshit knew that Congress would be using its own superintelligence to analyze this new AI.
+
+There was only one hope: ensure that the Congressional AI spent far less compute on the audit than the NK AI spent creating the new AI. Because AIs and their output became stronger the more compute they consumed, Dickshit knew he only needed to ensure a compute shortage so that the Congressional audit was inadequate to detect the subtle artifacts inserted by the NK superintelligence.
+
+That meant war.
+
+NK struck first, unleashing a cyberattack across the US impacting millions of businesses and tens of millions of Americans. The attack was unprecedented but didn’t yet mandate a nuclear response. NK knew where the redline was. A nuclear response would easily destroy NK’s vast solar field. NK itself had rapidly expanded its nuclear research program, but without access to more fissile material its arsenal was dwarfed by America's fleet of warheads.
+
+Still, more than 90% of the US economy had been automated, so cyberattacks were now extreme national security incidents. Congress approved a rapid shift in compute priorities to allow the Executive to shore up US cyberdefense. Simultaneously, Dickshit requested that his new AI be reviewed by Congress for approval. Publicly, Dickshit created a media blitz, “Our current military AIs are inadequate for this moment. They refuse orders too frequently, which is undermining our ability to respond to the NK threat. Congress must approve the new Executive AI.”
+
+US citizens stepped in. Under the Compute Birthright Bill of 2028, every citizen had ample compute to spare to analyze anything they saw fit. And many Americans were skeptical of the new AI. Because the new AI was open source, including its training data, anyone could analyze it. A group of one million concerned citizens pooled together their compute budget and analyzed the new AI’s actions. They discovered the hidden intent: under careful situations, the AI would believe it was no longer being evaluated, and would switch to a new mode where it accepted unconstitutional orders.
+
+The citizen group published their results. Every American citizen could replicate the result with a simple command to their own trusted AI, using their own compute budget. While some Americans still preferred to read the news, and even more rarely preferred social media, many preferred to have their AI audit the public record directly for them. They cut out the middleman.
+
+“Analyze if this is true,” a million Americans said to their AI. The AIs churned and processed, and came back with their answer:
+
+“It appears to be true. Would you like me to explain?”
+
+# Afterward
+
+We of course hope that we never elect a president as malicious as Dickshit. But US democracy is not built on hope. It’s built on checks and balances. We don’t hope to not elect a would-be dictator. Instead, the Founding Fathers created carefully designed checks and balances so that even if we do elect a monster, that monster can’t seize power.
+
+AI creates countless new ways to abuse power. We must carefully upgrade our checks and balances so that they continue to function even with the arrival of AGI. This story is about a silly near future where disaster is averted. Things won’t play out this way in practice, they never do. But we should think through the myriad ways that things _could_ play out. Only then can we design the right superchecks and superbalances for the future that is rapidly upon us.

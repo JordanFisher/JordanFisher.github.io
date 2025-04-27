@@ -1,0 +1,82 @@
+# A simple path to tyranny
+
+Removing implicit guardrails has many implications, but let's specifically examine how it eliminates natural obstacles to the concentration of power.
+
+Throughout history there have been natural impediments to tyranny. Communication, to start with. It’s damn hard to control a sprawling empire when it takes months to communicate across it. When Alexander the Great or Genghis Khan conquered vast empires, their dominance was short-lived due to these natural limits.
+
+As the saying goes, “Heaven is high, and the emperor is far away.”
+
+It’s impossible to forever subjugate a people that is far away.
+
+Even today, the emperor is far, and central authority remains distant and limited. In a country of hundreds of millions or even billions, your text message to a friend will likely go unnoticed, even if you’re coordinating a protest. Even if you’re coordinating _a riot_. Finding your text message among billions is harder than finding a needle in a haystack. This is a strong limit on the central power of governments.
+
+But there are stronger limits.
+
+The government itself is run by its own citizens, and they have moral thresholds they won’t cross. These thresholds are vague, and leaders constantly test them, uncertain how far they can push without losing legitimacy. They have to do this cautiously; it’s hard to regain a mandate after you’ve lost it. Implicitly, a country is run not just by its citizen-powered government, but by society writ large: by millions of human powered companies, human powered social groups, and human powered discussions that influence the power dynamic of both public and private forces.
+
+These limits help prevent a leader from seizing power and forming a dictatorship. But even without these limits, there's a self interested motive for the powerful to play nice: abundance. The rich in America live better lives than Kim Jong Un. They enjoy all the material benefits he does, without the fear of assassination or coups or the stress of managing international geopolitics. What rich person would trade spots with a dictator?
+
+The abundance created in prospering democracies provides the biggest incentives for leaders to maintain it. If you successfully seize power, you’ll at best become a lord of shit. In illiberal dictatorships, the best and brightest flee or, if they stay, build less, discover less, create less. What remains for the dictator is a life impoverished, worse than an average upper class life in America.
+
+AI removes all of these implicit impediments _and also adds explicit accelerants toward tyranny._
+
+Consider what a fully automated government might enable:
+
+  * A fully automated government can persecute with impunity, with no moral pushback from individual human agents inside the government.
+  * An automated FBI can fabricate infinite evidence against millions of adversaries, without a single human agent to say no or to blow the whistle.
+  * An automated justice department can prosecute millions of cases against citizens brought by this automated FBI.
+  * Automated intelligence agencies can review every text message, every email, and every social media post. With superintelligent computer hacking abilities, they can access all information not defended by similarly powerful superintelligences. Even today, nation states can hack almost any target they want, but at a high human cost. Tomorrow, with this process automated, the expensive tools they reserved for fighting grave national security risks can cheaply be turned to monitor and exploit every citizen.
+  * An automated system can further weave all of this complex information together into a single map of the entire population, understanding where and how to exert pressure to further consolidate control over individuals.
+  * These are all powers that the government has today, but that tomorrow will suddenly become cheap enough to do at scale, and will be automated enough to do without any human agents in the government \(if any remain\) able to stop it
+
+
+
+Worse, even without a thirst for power, leaders will be pressured to move toward this world.
+
+Everyone wants more efficient government, so we will increasingly install automation in government agencies. Corporations will \(and are\) rapidly pushing for their own internal automation; they _have to_ in order to stay competitive. And there will be strong lobbying from corporations to remove blockers toward automation: they do and will argue that this is necessary for their businesses to stay viable. And in a global economy, they’re right.
+
+Likewise, governments will have to automate to stay competitive against foreign adversaries. A human powered intelligence organization will be helpless against a foreign intelligence organization fully automated and powered by superintelligence.
+
+There will be intense pressure to allow organizations to fully automate. Once they do, fully automated entities will outcompete non-automated entities. The remaining battle for power will be between automated powers, and in an automated world little else matters in the outcome of those battles beyond the scale of each power. Today economic and military battles are won by a combination of scale _and also_ talent, morale, and culture. Tomorrow, the human elements will be removed, and scale alone will dictate how showdowns resolve. Power will beget power, with no natural limit.
+
+Without new guardrails in place to mitigate this runaway effect, the default outcome is centralization of power. The competitive landscape will force it. Then, whoever wields that central power can easily choose to solidify it into a dictatorship. But will they? If they are self interested, yes. Unlike the dictatorships of today that decrease abundance, even for the leaders, an automated dictatorship of tomorrow will likely create more abundance for the dictator than if they don’t seize power:
+
+A fully automated economy will require no further input from humans. Therefore, there is no implicit need for citizens to help push the economy forward. Worse still, allowing multiple winners in the economy is no longer needed, and is strictly a net-negative for anyone in control. Today, the spoils of the economy must at least partially be spread out, to keep the wheels of the economy spinning and the luxuries of abundance available to leaders. But a fully automated economy can be owned by a single person and yield them more wealth than they could ever obtain in a free society, even a free society powered by AI.
+
+And there is an _even greater_ force at play: automated dictatorships will likely be more powerful than automated democracies, all other things equal.
+
+Even with exponentially growing compute, there will be strong limits on the amount of compute at any time. In a world where you can turn compute into intelligence, compute will be the key ingredient for all goals. Why does this create a disadvantage for free societies?
+
+A free society will in some part distribute their compute across millions of needs: we are already seeing this with current AI. Today, vast numbers of GPUs are dedicated to serving the requests of individual people via Claude, ChatGPT, and Gemini. At the business level, an equal number of chips are earmarked for powering SaaS businesses and transforming existing enterprises. Some compute is spent on curing diseases, of which there are thousands. As AI becomes a more capable medical researcher, there will be intense demand to allocate AI resources toward life saving directions.
+
+The US has 340 million people. If each person has needs that can be met by a single GPU, we will need to build 340 million GPUs before they are satiated \(and likely they won’t be, there will be things we want as individuals that require 10 GPUs, 100 GPUs, and eventually more\).
+
+An automated dictatorship can redeploy those 340 million GPUs for singular purposes that yield decisive strategic outcomes. Once AI can do research, a dictator can direct all GPUs toward researching weapons to defeat their geopolitical adversaries, including both kinetic weapons, cyber weapons, and weapons of misinformation and cultural manipulation. Ultimately, the easiest recourse for a dictator to maintain power might be to simply eradicate their human adversaries by engineering a collection of novel viruses to be released at once, while arranging for preemptive vaccines for their inner circle. A free society that is distributing its compute among its citizens and industries will be at an extreme disadvantage against this.
+
+If this seems implausible today, it may be because our mental model is based on humans rather than malleable AIs. So imagine if a dictator could perfectly control the motivations of every person in their country. Imagine if they could direct every citizen to ceaselessly aspire toward becoming the best virologist. You’d quickly have a country of a million expert virologists, more virologists than have existed in the last 100 years. What could that army of virologists unleash upon the world?
+
+Even if the technology of defense and offense are balanced in this future world, the free society will need comparable amounts of compute dedicated to defense, which may be untenable politically when no threat is immediately seen. When the threat is finally seen, any response might be too slow. In an automated world, it may be that no amount of internal spying or intelligence can tell you what’s happening inside the mind of an adversary’s superintelligence to give you forewarning. This will amplify paranoia and make defense investments more existential.
+
+Beyond redirecting compute, a dictatorship can redirect _energy_ , which is the final limiter of compute. Even a small dictatorship like North Korea has ~10 gigawatts of capacity, enough to power millions of GPUs, far more than our biggest compute clusters today. But doing so would require the unthinkable: depriving the citizens of North Korea of necessary energy in order to feed industry instead. Is even a dictator like Kim Jong Un heartless enough to make this trade?
+
+Yes.
+
+Only half of North Koreans have access to electricity today, and those that do are often limited to 2 hours a day. There is enough energy for all North Koreans, but most is instead exported for profit or used for industry to power the regime. This is the reality today. Tomorrow, the allure of redirecting electricity will be even stronger.
+
+The US has 100x the energy of North Korea. Many countries have 10x or more. These could be redirected for even more staggering amounts of compute, and hence capabilities. Most countries can grow energy only at a few percent per year, even the US. It is exceptionally faster to simply redirect all civilian energy.
+
+Even in liberal democracies there is precedent for rationing civilian resources when faced with total war.
+
+But available energy won’t be a static variable, it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens \(which it likely will, if it has access to full automation and no longer needs its citizens\), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the current energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full throttled automated dictatorship, it would need to seriously disrupt its own citizens.
+
+Everything we’ve learned from AI is that _the curves don’t bend._ Even as one AI scaling paradigm has seen diminishing returns \(pretraining\), new paradigms have opened up and continued to scale \(post-training and Reinforcement Learning\). More compute yields more capabilities, for whichever task you care about. If that task is military, more compute will give you better military capabilities than less compute. And there will be no limit to _how much_. There is a near infinite amount of things to deploy fully general AI toward, even if the “intelligence” of each AI were to plateau. Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.
+
+Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn’t have that immunity.
+
+Even if a freely elected leader means well, if they consolidate power to defend their nation, if they redirect nearly all resources to maintain the ability for their nation to survive, what is left? Tyranny by any other name would still smell like shit.
+
+It’s not just that AI suddenly makes a durable dictatorship _possible_ , it suddenly makes it _the default outcome_ unless we act. The thirst for power has always existed, and many have tried and succeeded at building temporary dictatorships. Suddenly, with AI, the path to dictatorship will become much easier _and also more rewarding than any other possibility_. We have to expect that on net the risk of dictatorship rises substantially in the coming years.
+
+The best predictor of human behavior is incentives, and the incentives are quickly transmuting for leaders into a single direction: consolidate power. We can resist this incredible force only if we build checks and balances into our governance that are amplified by AI, not subverted by it. We can do this if we try. We can do this if we recognize the risk.
+
+As I write this today, we are doing neither.

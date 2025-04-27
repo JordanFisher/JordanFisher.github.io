@@ -1,0 +1,181 @@
+# Rapid fire governance — designing upgrades to democracy
+
+if we can YOLO creating AI we can YOLO new forms of governance. lol. lmao even.
+
+actually, wait
+
+There’s a lot that can go wrong, but the future isn’t certain. There must be a path forward that enshrines liberty while defending it, even in the face of accelerating AI progress. We don’t claim to have that path in hand, but we do know how to find it: through debate, public discourse, and a willingness to accept how dire the reality in front of us is. We have to set aside past assumptions. What was true yesterday might not be true tomorrow. What is unthinkable from leaders and governments now, might just be an artifact of their limitations, not an endorsement of their character — and AI will remove most limitations.
+
+More importantly, we need to consider many ideas. Below we’ll canvass the space with a broad swath of considerations. Some ideas below are bad, some good, some we endorse, some we reject. Everything is up for debate.
+
+# The AI-powered Legislature
+
+By default, it is the executive branch that benefits from automation. AI is a continuation of human labor, and we already see that human labor is drastically multiplied in the executive compared to the legislature. AI will amplify this a million fold by default. How can a human legislature be a check on a superintelligent executive?
+
+By embracing AI as well, to create transparent, limited government.
+
+Every member of Congress must have access to the strongest AIs, equal in strength to the best the executive has, which in turn must be equal or better than any other AI in the world. Moreover, the compute limits must be commensurate. The aggregate compute from Congress should equal that of the executive. And this must be enshrined in law. Congress holds the purse and can enact this.
+
+The Inspector General Act of 1978 was enacted by Congress to ensure there was visibility into the sprawling Executive Branch. It empowered independent Inspector Generals embedded inside federal agencies to report illegal executive activity directly to Congress. However, Congress itself is not an operational institution, it doesn’t have the machinery to vet, hire, and manage inspectors. So it gave this power to the Executive, with obvious potential abuses. With AI, Congress can have automated inspectors that require no management overhead, and which can be mutually vetted by both the Executive and Congress to be impartial. Moreover, unlike the limited bandwidth of today’s Inspector Generals, AI agents can scale their oversight arbitrarily to match the scale of the Executive.
+
+The AI agents Congress wields must have unfettered access to the minute-by-minute work of the Executive’s AI agents. Every AI output, every chain of thought, every input, should be accessible and monitored by an independent Congress. This will allow for full oversight and transparency. This alone will finally put Congress back on equal footing with the Executive, and maintain that equal footing through the intelligence explosion in front of us.
+
+What recourse does Congress have if it discovers unconstitutional behavior in the Executive? Because the purse ultimately lies with Congress, they must retain the power to suspend the compute payments for the Executive’s AI. This must be fast acting. Because of the speed that AI will execute, a month of delay might be the equivalent of years of democratic subversion from the executive.
+
+But this alone isn’t enough to stop government abuse.
+
+# Constitution-abiding AI
+
+AI itself, especially frontier AI and AI wielded by government, must abide the constitution.
+
+Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the president must be rejected. Our AIs must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the constitution and the judiciary’s interpretation of it. And, if such AIs are created anyway, it must be unconstitutional for the government to use them.
+
+# Oversight of AI creators
+
+Like any supply chain the government uses, AI that the government buys must be audited and guaranteed. We know that backdoors can be placed in AI systems by their creators. This means that a government can’t trust an AI unless it can audit the creation of the AI itself. This is true even if the government has access to the model weights. That means an audit process for the training data and training protocols.
+
+The audit must be powerful enough to ensure that datasets and training procedures aren’t being secretly changed outside the view of the audit. Today we would rely on human whistleblowers to help ensure this, but in an automated world there won’t be humans to blow the whistle.
+
+So we’ll need constant audits that cover every aspect of training. How do we achieve that without violating privacy or being overbearing and slowing down the competitiveness of our AI industry?
+
+# AI-powered, memory-free audits
+
+AI itself can perform these audits. This has many benefits:
+
+  * AI can audit swiftly and efficiently, minimizing disruption
+  * AI can be expansive and diligent, ensuring every aspect of model training is audited in an ongoing fashion
+  * AI can be memory-free \(not retaining audit details after verifying compliance\). This is crucial. Assuming the AI finds no malfeasance on any given audit, the AI can ensure no memory of its audit is retained. That means that no proprietary information or competitive advantage is leaked.
+
+
+
+But if the AI is being used to audit the AI makers to ensure that the next AI is trustworthy, how do we know the first AI is trustworthy to begin with?
+
+# The Trust Relay
+
+If tomorrow you are handed an AI you don’t already trust, and you are tasked to use this AI to help you gain confidence that it and future AIs will be trustworthy, you will be in an impossible situation.
+
+Instead, we must create a trust relay, where the beginning of the chain of trust must originate in an audit where humans are still responsible for creating the AI, as is true today. _Today_ we have normal, tried-and-true methods for encouraging good outcomes, because we have processes in place that we know humans care about, including our many implicit guardrails. We can use this to create trust in the first AGIs, and then leverage those trusted AGIs to go on to create a trust relay for all future AGIs.
+
+This creates an extreme imperative for the future’s ability to trust AI and government: we must start the chain of trust before we have finished automating the ability to create new AIs. That deadline may be very soon. If we fail to kickstart the chain of trust now, we may miss our opportunity forever.
+
+Even if this trust relay is established, the relay might break.
+
+# Cross-check
+
+Long chains only need a single chink to break. Therefore, we should weave multiple chains together, such that any given chain can have breakage, but we will still recover and repair the chain while maintaining trust in the overall braid.
+
+That means we must have multiple, independent AGIs, each with their own provenance in a trust relay. Furthermore, we must leverage each AGI to perform the audits on all the others, to create resilience to single breakage. In order for the braid to break, every chain must break at the same time.
+
+It is an extremely fortunate fact about the world today that we already have multiple, independent organizations on the verge of creating AGI. We must braid these AGIs together, so the final braid is more trustworthy than any could ever be on its own, no matter how good the human oversight.
+
+Even still, can we trust those that make the braid and oversee it?
+
+# ~~Social~~ Personal Media
+
+Media is a largely maligned entity today; social media doubly so. But the original goal of media is even more necessary in an AI future. We need to stay educated. We need to know what’s really happening. We need to be informed as a people, so that we can elect good leaders to represent us. And we must know what our leaders are doing so we can hold them to account.
+
+The promise of social media was to democratize the creation of media. Instead, it’s been co-opted by algorithms and bots. The danger of the government stepping in to assert guardrails has its own set of risks, especially from an automated government where abuse of power could be easy.
+
+Instead of curtailing freedoms to ensure freedom, we should empower ourselves. Imagine a _personal_ media stream. Powered by a personal AI. The AI can ingest raw facts that come straight from the source: a Senator’s speech, a company’s disclosure, a judge’s ruling, a president’s executive order.
+
+A personal AI can work to ingest this information for you, analyze it for the things you care about it, and look for contradictions and inconsistencies free from the bias of any algorithm, government, or external bots.
+
+For people to trust their personal media, they must trust their personal AI.
+
+# Open Source AI
+
+No one will ever fully trust a black box AI, built behind closed doors. No matter how successful our audits, no matter how trusted our government oversight, we will never fully trust these machines to be our closest confidants in matters of governance if we can’t trust how they were built.
+
+We need open source AI. Not just publicly available model weights, but open-source training data and processes. We need to see every detail of the data and process that created the AI, so that individually, or in aggregate as a community, we can vet the creation of the AI.
+
+The open source AI doesn’t need to be as powerful as closed AIs. In fact it likely shouldn’t be. It shouldn’t be so powerful that it can build weapons of mass destruction, or hack into secure computer systems. But it should be powerful enough to reason well, powerful enough to help a citizenry to hold their own against a superintelligent government, and powerful enough to help people digest the deluge of information necessary to be an informed citizen.
+
+We already see strong, capable, open source AI today. And, exactly as needed, it is less capable than the most powerful AIs we are beginning to use to run our government, while still being powerful enough to help the needs of individual people. We should invest in continuing this trend, while finding ways to safeguard against open source AI getting dangerous military or terrorist capabilities.
+
+To empower people with AI we need more than open source AI though. Every citizen will need the most important resource in the world: compute.
+
+# Your computational birthright
+
+The most important asset we have is our brain. With it we can work a job, build a company, or run for Congress. It sounds silly and obvious, but this is a powerful fact: Every person has a brain. And the brain is today the most powerful computer in the universe.
+
+Tomorrow it will be obsolete.
+
+Intelligence is the most powerful force in the world. Part of what balances the power of the world is that each of us has a supercomputer in our head, powering our intelligence.
+
+To maintain a balanced world, everyone should have their fair share of intelligence. We could instead aim for a fair share of the economy via a Universal Basic Income \(UBI\). But it’s unclear what the role of money will be, in a world where intelligence might in fact be the most fungible “currency”. And it’s unclear further if anyone can retain a sense of meaning if they’re dependent on UBI.
+
+Instead, let’s ensure that tomorrow people have what they are born with today: a thinking computer approximately as great as any other person’s. This would take the form of a guaranteed compute budget, for every person. A computational birthright.
+
+This compute must be non-transferable. Today, you can _temporarily_ decide to use the computer in your head to benefit others, such as your employer. But you cannot enter into a contract that would make that permanent. You aren’t allowed to sell yourself into slavery. Likewise, tomorrow, your sovereignty as a citizen of the future will be predicated on your compute birthright, which must be inviolable and bound permanently to you as a person.
+
+This of course has its own requirement: energy. And growth.
+
+# Energy today
+
+Compute is ultimately a product of energy. So long as we have finite energy to go around, energy and compute will be hotly contested.
+
+Even in a peaceful world, corporations will \(and do\) have a voracious appetite for compute. All business objectives will be pursued by throwing more intelligence —and hence energy and compute— at them. That will directly conflict with life saving initiatives, like curing diseases. Today there is a limited amount of human talent, but it isn’t the case that every person working on B2B SaaS is a person not working on curing Alzheimer’s. People aren’t fungible. Not everyone is interested in bioscience. But AI compute _is_ fungible. Every watt that goes toward business goals is a watt that doesn’t go to some other goal, of which there will be a multitude.
+
+Without rapidly expanding energy sources, we will be forced to make extremely hard tradeoffs on what to compute, especially if we face geopolitical adversaries that may unilaterally redeploy all of their compute toward military ends.
+
+We must have so much compute that we can build a worthy future, while having so much to spare that we can defend it. This means radically accelerating our domestic energy investments.
+
+But even still, we’ve seen that an automated dictatorship could outstrip our own energy if they are ruthless enough with their domestic policy. And they very well might be. We thus need even more energy. More energy than exists or can exist for any nation on Earth.
+
+![Image from Google Doc](images/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8_None.png)
+
+# A shared prize
+
+There’s only one place that has the extreme energy we demand: space.
+
+The sun emits almost a million trillion gigawatts of power. 3.8 × 10^26 watts. Almost a billion gigawatts for every human alive today. It radiates out into the vastness of interstellar space, wasted forever.
+
+There is very simple technology to capture it. Solar panels. What we need is to make them at scale, which requires automation, which is luckily exactly the extreme force that is entering the world at this moment and causing our existential problems. Once again, automation itself may be the key to solving the problems introduced by automation. We need energy — all of it. Automation can deliver it cleanly and in abundance.
+
+Capturing the entire output of the sun may take longer than we have, but there is a stepping stone that still alleviates most of our energy pressure: the moon. With 10 million gigawatts of solar flux, it still vastly outclasses the energy ceiling of any nation on Earth by a factor of 10,000x. And the lunar regolith that makes up the moon’s surface is more than 20% silicon. We can harvest the needed silicon by simply scooping up the loose lunar surface. Automated lunar factories can then convert this abundant silicon into solar panels, and lunar robots can tile the surface of the moon with them.
+
+Even this is, of course, an extremely ambitious goal. But it’s exactly the type of extreme windfall that strong AI will enable within the next few years. And the energy and compute the moon can deliver will multiply the output of AI a million fold further. Moreover, it’s a shared resource that is not easy to replicate. Today, the AI arms race is competitive, and no one has a decisive lead. The inputs to build AI are surprisingly easy to obtain: data, which is abundant on the internet, and computers, created by one of the most highly scaled industries in human history. But there is only one moon, and it’s not easy to reach.
+
+That could make it a decisive high ground for the free world.
+
+And with that high ground, we can promise to share its wealth with everyone, including the power hungry would-be dictators. We can bring them to the world table by offering them bounty they couldn’t achieve if they instead seized power over their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power —and there are many— even then it’s in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.
+
+# The citizenry assembled
+
+Unemployment is coming. Rather than fight it, we should turn it into our biggest asset: time. What can we do with this time that can help defend democracy? Educate ourselves, educate each other, engage in debate, and help steer the ship of liberty.
+
+In 1997, the AI Deep Blue defeated the world chess champion Kasparov. You might have thought this would be the end of the era of human chess playing. But the opposite was true: humans became more interested in chess — and they became better players. Today kids are reaching grandmaster level faster than any other time in history, in large part because they are training against superhuman chess AIs. Every kid is learning from the best.
+
+We’re beginning to see the same happen with education. Kids with access to AI tutors are learning better and faster. And why wouldn’t they? Today’s AIs have mastered almost every discipline at a college level, and are rapidly reaching PhD levels. Imagine educating your kid via a personal army of PhDs from every academic field. Soon AIs will be beyond the best expert in every field. Imagine letting your kid pick what they wanted to learn next, and they immediately had access to the world’s premier expert, who also happened to be an excellent teacher.
+
+With this power at hand, children and adults alike will become better educated than at any other time in history. And with that education, we’ll all become better equipped than ever before to perform our most important duty: steering society.
+
+No matter how advanced AI becomes, it can’t displace us from determining one key ingredient to civilization: deciding our values. With all the time in the world, this will become our most important job.
+
+Furthermore, with more time, we can begin to rethink the role of representation in democracy. Today, we elect representatives because few citizens have time to dedicate to politics and governing. Representative democracy is a necessary logistical procedure in our current world. But tomorrow, billions of humans around the world will be able to dedicate themselves to value-making and statecraft, and their combined output may easily outshine what a handful of representatives can create. We should embrace this and find more ways to integrate all citizens into all layers of governing.
+
+Today, there are already experiments in what are called “citizens’ assemblies”. Assemblies are randomly selected citizens, pulled together to debate and refine policy recommendations. Early results show that these assemblies increase community engagement and can lead to better, bipartisan decisions, helping to reduce polarization while also driving better community outcomes. Today, it’s hard to run these assemblies. Citizens have day jobs, and the logistics of running the assembly itself requires many human experts. But tomorrow, we will have all the time in the world, and we’ll have AI-powered logistics to run millions of assemblies in parallel.
+
+# Compromise and grand alliances
+
+Humans have an incredible diversity of values, and they aren’t fixed: they mutate and evolve as we each learn and grow. Civilization is an elaborate and never-ending negotiation between every individual. With unlimited free time, one noble goal citizens might pursue is accelerating this story, at the local and international level.
+
+Citizens may work together to craft “Value Proposals”: treatises that capture underlying rationales for what we value most. They might craft these proposals for their local community, for their country, for negotiations between corporations, or even for proposals on international harmony between geopolitical rivals. After crafting these values, citizens can then train a new, open source superintelligence that faithfully represents these values. They can then collaborate with this new AI to predict how these values might play out locally or on the world stage. The process can be iterated, with assemblies of citizens refining the values in coordination with the AI’s own feedback.
+
+This process might rapidly accelerate the discovery of common ground between people, companies, and nations. The resulting AIs —trained in the open with a mutually agreed upon set of values— could then be trusted by diverse sets of people that might otherwise have difficulties coordinating.
+
+Two adversarial corporations might use this to help negotiate a difficult contract. Two citizens might use this to help arbitrate a tense disagreement. Two nations might use this to avert war.
+
+These collections of AIs themselves may exchange ideas, and help their human curators understand how their values interact among the sea of other values. Together, this dynamic web of humans and AIs may drive forward the most profound process to heighten our values and shared wisdom.
+
+This wisdom might usher in a new golden age of humanity. The physical abundance that AI will deliver would ultimately be a footnote in the history books in comparison. The most transformational impact of the future would be the dawn of a new, eternal march toward ever higher values.
+
+And if there’s one place we need to continue enhancing our wisdom, it’s the Judiciary.
+
+# The AI-powered Judiciary
+
+You thought I forgot about the Judiciary, but I snuck it in at the bottom here as a bookend. By default the Executive will be automated, so we must sandwich it with an AI-powered Legislature and an AI-powered Judiciary. This is the only way to ensure a future of checks and balances. The only way to ensure government stays democratic, in check, at the service of all of us. For the people, even when it’s no longer strictly by the people.
+
+We must ultimately seek not just exceptional intelligence, in the form of thinking machines — we must seek exceptional wisdom, in the form of a human-machine civilization. We need the best of human values and human intelligence woven together with the capabilities AI can deliver. Together we can continue the never-ending quest toward a good society, with freedom and justice for all. The Judiciary must reflect the highest form of this goal.
+
+While all three branches of government were designed to be co-equal, the Executive has crept up to become the dominant branch. As a practical point, we should first upgrade the Legislature and Judiciary with AI, or we risk an overpowered Executive. With no change in course, however, it’s the Executive that will embrace AI first, further disrupting the balance of power.
