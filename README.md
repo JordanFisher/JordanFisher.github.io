@@ -100,9 +100,11 @@ Key files and their purposes:
 - `generate_site.py`: Main script to generate the blog
 - `convert.py`: Handles conversion of Google Doc JSON to HTML and inlines nested documents with chapter numbering
 - `make_governance_pdf.py`: Converts HTML to LaTeX/PDF with LaTeX-specific formatting
+- `analyze_posts.py`: Analyzes markdown versions of posts for spelling and grammar using Anthropic's Claude
 - `post_template.html`: Template for individual blog posts (includes CSS for chapter numbers)
 - `index_template.html`: Template for the landing page
 - `latex_templates/`: LaTeX templates for PDF generation
+- `requirements.txt`: List of Python dependencies required for the project
 
 ### Important Functions
 
@@ -123,6 +125,40 @@ When making changes to the LaTeX templates, be aware that the PDF generation pro
 1. Section headers with formatting (especially strikethrough)
 2. Quote blocks with the fancyquote environment
 3. Image inclusion and positioning
+
+## Dependency Management
+
+This project uses various Python libraries to handle different aspects of the blog generation and analysis. All required dependencies are listed in `requirements.txt`. To install them:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Important Note
+
+When adding new functionality that requires installing new Python packages, always update the `requirements.txt` file to ensure other contributors can easily set up their environment:
+
+```bash
+# After installing a new package:
+pip freeze | grep package-name >> requirements.txt
+# Or manually add the package name to requirements.txt
+```
+
+## Content Analysis
+
+The `analyze_posts.py` script uses Anthropic's Claude API to analyze the markdown versions of blog posts for spelling and grammar mistakes. To use it:
+
+1. Store your Anthropic API key in `~/.config/blog_analyzer/config.env` using the format:
+   ```
+   ANTHROPIC_API_KEY="your-api-key-here"
+   ```
+   
+2. Run the script:
+   ```bash
+   python analyze_posts.py
+   ```
+
+3. Analysis results will be saved to the `analysis/` directory with one file per post.
 
 ## Using Claude Code
 
