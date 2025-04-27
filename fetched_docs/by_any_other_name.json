@@ -300,7 +300,7 @@
               "startIndex": 1082,
               "endIndex": 1654,
               "textRun": {
-                "content": "The government itself is run by its own citizens, and they have moral thresholds they won\u2019t cross. These thresholds are vague, and leaders constantly test them, uncertain how far they can push without losing legitimacy. They have to do this cautiously; it\u2019s hard to regain a mandate after you\u2019ve lost it. Implicitly, a country is run not just by its citizen-powered government, but by society writ large: by millions of human powered companies, human powered social groups, and human powered discussions that influence the power dynamic of both public and private forces.\n",
+                "content": "The government itself is run by its own citizens, and they have moral thresholds they won\u2019t cross. These thresholds are vague, and leaders constantly test them, uncertain how far they can push without losing legitimacy. They have to do this cautiously; it\u2019s hard to regain a mandate after you\u2019ve lost it. Implicitly, a country is run not just by its citizen-powered government, but by society writ large: by millions of human-powered companies, human-powered social groups, and human-powered discussions that influence the power dynamic of both public and private forces.\n",
                 "textStyle": {}
               }
             }
@@ -340,7 +340,7 @@
               "startIndex": 1655,
               "endIndex": 2093,
               "textRun": {
-                "content": "These limits help prevent a leader from seizing power and forming a dictatorship. But even without these limits, there's a self interested motive for the powerful to play nice: abundance. The rich in America live better lives than Kim Jong Un. They enjoy all the material benefits he does, without the fear of assassination or coups or the stress of managing international geopolitics. What rich person would trade spots with a dictator?\n",
+                "content": "These limits help prevent a leader from seizing power and forming a dictatorship. But even without these limits, there's a self-interested motive for the powerful to play nice: abundance. The rich in America live better lives than Kim Jong Un. They enjoy all the material benefits he does, without the fear of assassination or coups or the stress of managing international geopolitics. What rich person would trade spots with a dictator?\n",
                 "textStyle": {}
               }
             }
@@ -380,7 +380,7 @@
               "startIndex": 2094,
               "endIndex": 2492,
               "textRun": {
-                "content": "The abundance created in prospering democracies provides the biggest incentives for leaders to maintain it. If you successfully seize power, you\u2019ll at best become a lord of shit. In illiberal dictatorships, the best and brightest flee or, if they stay, build less, discover less, create less. What remains for the dictator is a life impoverished, worse than an average upper class life in America.\n",
+                "content": "The abundance created in prospering democracies provides the biggest incentives for leaders to maintain it. If you successfully seize power, you\u2019ll at best become a lord of shit. In illiberal dictatorships, the best and brightest flee or, if they stay, build less, discover less, create less. What remains for the dictator is a life impoverished, worse than an average upper-class life in America.\n",
                 "textStyle": {}
               }
             }
@@ -771,14 +771,14 @@
       },
       {
         "startIndex": 3769,
-        "endIndex": 3999,
+        "endIndex": 4000,
         "paragraph": {
           "elements": [
             {
               "startIndex": 3769,
-              "endIndex": 3999,
+              "endIndex": 4000,
               "textRun": {
-                "content": "These are all powers that the government has today, but that tomorrow will suddenly become cheap enough to do at scale, and will be automated enough to do without any human agents in the government (if any remain) able to stop it\n",
+                "content": "These are all powers that the government has today, but that tomorrow will suddenly become cheap enough to do at scale, and will be automated enough to do without any human agents in the government (if any remain) able to stop it.\n",
                 "textStyle": {}
               }
             }
@@ -802,13 +802,13 @@
         }
       },
       {
-        "startIndex": 3999,
-        "endIndex": 4000,
+        "startIndex": 4000,
+        "endIndex": 4001,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3999,
-              "endIndex": 4000,
+              "startIndex": 4000,
+              "endIndex": 4001,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -822,13 +822,13 @@
         }
       },
       {
-        "startIndex": 4000,
-        "endIndex": 4093,
+        "startIndex": 4001,
+        "endIndex": 4094,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4000,
-              "endIndex": 4093,
+              "startIndex": 4001,
+              "endIndex": 4094,
               "textRun": {
                 "content": "Worse, even without a thirst for power, leaders will be pressured to move toward this world.\n",
                 "textStyle": {}
@@ -842,13 +842,13 @@
         }
       },
       {
-        "startIndex": 4093,
-        "endIndex": 4094,
+        "startIndex": 4094,
+        "endIndex": 4095,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4093,
-              "endIndex": 4094,
+              "startIndex": 4094,
+              "endIndex": 4095,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -862,21 +862,21 @@
         }
       },
       {
-        "startIndex": 4094,
-        "endIndex": 4538,
+        "startIndex": 4095,
+        "endIndex": 4539,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4094,
-              "endIndex": 4287,
+              "startIndex": 4095,
+              "endIndex": 4288,
               "textRun": {
                 "content": "Everyone wants more efficient government, so we will increasingly install automation in government agencies. Corporations will (and are) rapidly pushing for their own internal automation; they ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4287,
-              "endIndex": 4294,
+              "startIndex": 4288,
+              "endIndex": 4295,
               "textRun": {
                 "content": "have to",
                 "textStyle": {
@@ -885,8 +885,8 @@
               }
             },
             {
-              "startIndex": 4294,
-              "endIndex": 4538,
+              "startIndex": 4295,
+              "endIndex": 4539,
               "textRun": {
                 "content": " in order to stay competitive. And there will be strong lobbying from corporations to remove blockers toward automation: they do and will argue that this is necessary for their businesses to stay viable. And in a global economy, they\u2019re right.\n",
                 "textStyle": {}
@@ -900,35 +900,15 @@
         }
       },
       {
-        "startIndex": 4538,
-        "endIndex": 4539,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 4538,
-              "endIndex": 4539,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 4539,
-        "endIndex": 4785,
+        "endIndex": 4540,
         "paragraph": {
           "elements": [
             {
               "startIndex": 4539,
-              "endIndex": 4785,
+              "endIndex": 4540,
               "textRun": {
-                "content": "Likewise, governments will have to automate to stay competitive against foreign adversaries. A human powered intelligence organization will be helpless against a foreign intelligence organization fully automated and powered by superintelligence.\n",
+                "content": "\n",
                 "textStyle": {}
               }
             }
@@ -940,15 +920,15 @@
         }
       },
       {
-        "startIndex": 4785,
+        "startIndex": 4540,
         "endIndex": 4786,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4785,
+              "startIndex": 4540,
               "endIndex": 4786,
               "textRun": {
-                "content": "\n",
+                "content": "Likewise, governments will have to automate to stay competitive against foreign adversaries. A human-powered intelligence organization will be helpless against a foreign intelligence organization fully automated and powered by superintelligence.\n",
                 "textStyle": {}
               }
             }
@@ -961,20 +941,40 @@
       },
       {
         "startIndex": 4786,
-        "endIndex": 5366,
+        "endIndex": 4787,
         "paragraph": {
           "elements": [
             {
               "startIndex": 4786,
-              "endIndex": 5183,
+              "endIndex": 4787,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4787,
+        "endIndex": 5367,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4787,
+              "endIndex": 5184,
               "textRun": {
                 "content": "There will be intense pressure to allow organizations to fully automate. Once they do, fully automated entities will outcompete non-automated entities. The remaining battle for power will be between automated powers, and in an automated world little else matters in the outcome of those battles beyond the scale of each power. Today economic and military battles are won by a combination of scale ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5183,
-              "endIndex": 5191,
+              "startIndex": 5184,
+              "endIndex": 5192,
               "textRun": {
                 "content": "and also",
                 "textStyle": {
@@ -983,8 +983,8 @@
               }
             },
             {
-              "startIndex": 5191,
-              "endIndex": 5366,
+              "startIndex": 5192,
+              "endIndex": 5367,
               "textRun": {
                 "content": " talent, morale, and culture. Tomorrow, the human elements will be removed, and scale alone will dictate how showdowns resolve. Power will beget power, with no natural limit.\n",
                 "textStyle": {}
@@ -998,35 +998,15 @@
         }
       },
       {
-        "startIndex": 5366,
-        "endIndex": 5367,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 5366,
-              "endIndex": 5367,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 5367,
-        "endIndex": 5866,
+        "endIndex": 5368,
         "paragraph": {
           "elements": [
             {
               "startIndex": 5367,
-              "endIndex": 5866,
+              "endIndex": 5368,
               "textRun": {
-                "content": "Without new guardrails in place to mitigate this runaway effect, the default outcome is centralization of power. The competitive landscape will force it. Then, whoever wields that central power can easily choose to solidify it into a dictatorship. But will they? If they are self interested, yes. Unlike the dictatorships of today that decrease abundance, even for the leaders, an automated dictatorship of tomorrow will likely create more abundance for the dictator than if they don\u2019t seize power:\n",
+                "content": "\n",
                 "textStyle": {}
               }
             }
@@ -1038,15 +1018,15 @@
         }
       },
       {
-        "startIndex": 5866,
+        "startIndex": 5368,
         "endIndex": 5867,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5866,
+              "startIndex": 5368,
               "endIndex": 5867,
               "textRun": {
-                "content": "\n",
+                "content": "Without new guardrails in place to mitigate this runaway effect, the default outcome is centralization of power. The competitive landscape will force it. Then, whoever wields that central power can easily choose to solidify it into a dictatorship. But will they? If they are self-interested, yes. Unlike the dictatorships of today that decrease abundance, even for the leaders, an automated dictatorship of tomorrow will likely create more abundance for the dictator than if they don\u2019t seize power:\n",
                 "textStyle": {}
               }
             }
@@ -1059,12 +1039,32 @@
       },
       {
         "startIndex": 5867,
-        "endIndex": 6487,
+        "endIndex": 5868,
         "paragraph": {
           "elements": [
             {
               "startIndex": 5867,
-              "endIndex": 6487,
+              "endIndex": 5868,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5868,
+        "endIndex": 6488,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5868,
+              "endIndex": 6488,
               "textRun": {
                 "content": "A fully automated economy will require no further input from humans. Therefore, there is no implicit need for citizens to help push the economy forward. Worse still, allowing multiple winners in the economy is no longer needed, and is strictly a net-negative for anyone in control. Today, the spoils of the economy must at least partially be spread out, to keep the wheels of the economy spinning and the luxuries of abundance available to leaders. But a fully automated economy can be owned by a single person and yield them more wealth than they could ever obtain in a free society, even a free society powered by AI.\n",
                 "textStyle": {}
@@ -1078,13 +1078,13 @@
         }
       },
       {
-        "startIndex": 6487,
-        "endIndex": 6488,
+        "startIndex": 6488,
+        "endIndex": 6489,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6487,
-              "endIndex": 6488,
+              "startIndex": 6488,
+              "endIndex": 6489,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1098,21 +1098,21 @@
         }
       },
       {
-        "startIndex": 6488,
-        "endIndex": 6637,
+        "startIndex": 6489,
+        "endIndex": 6638,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6488,
-              "endIndex": 6504,
+              "startIndex": 6489,
+              "endIndex": 6505,
               "textRun": {
                 "content": "And there is an ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 6504,
-              "endIndex": 6516,
+              "startIndex": 6505,
+              "endIndex": 6517,
               "textRun": {
                 "content": "even greater",
                 "textStyle": {
@@ -1121,8 +1121,8 @@
               }
             },
             {
-              "startIndex": 6516,
-              "endIndex": 6637,
+              "startIndex": 6517,
+              "endIndex": 6638,
               "textRun": {
                 "content": " force at play: automated dictatorships will likely be more powerful than automated democracies, all other things equal.\n",
                 "textStyle": {}
@@ -1136,13 +1136,13 @@
         }
       },
       {
-        "startIndex": 6637,
-        "endIndex": 6638,
+        "startIndex": 6638,
+        "endIndex": 6639,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6637,
-              "endIndex": 6638,
+              "startIndex": 6638,
+              "endIndex": 6639,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1156,13 +1156,13 @@
         }
       },
       {
-        "startIndex": 6638,
-        "endIndex": 6908,
+        "startIndex": 6639,
+        "endIndex": 6909,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6638,
-              "endIndex": 6908,
+              "startIndex": 6639,
+              "endIndex": 6909,
               "textRun": {
                 "content": "Even with exponentially growing compute, there will be strong limits on the amount of compute at any time. In a world where you can turn compute into intelligence, compute will be the key ingredient for all goals. Why does this create a disadvantage for free societies?\n",
                 "textStyle": {}
@@ -1176,13 +1176,13 @@
         }
       },
       {
-        "startIndex": 6908,
-        "endIndex": 6909,
+        "startIndex": 6909,
+        "endIndex": 6910,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6908,
-              "endIndex": 6909,
+              "startIndex": 6909,
+              "endIndex": 6910,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1196,15 +1196,35 @@
         }
       },
       {
-        "startIndex": 6909,
+        "startIndex": 6910,
+        "endIndex": 7492,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6910,
+              "endIndex": 7492,
+              "textRun": {
+                "content": "A free society will in some part distribute its compute across millions of needs: we are already seeing this with current AI. Today, vast numbers of GPUs are dedicated to serving the requests of individual people via Claude, ChatGPT, and Gemini. At the business level, an equal number of chips are earmarked for powering SaaS businesses and transforming existing enterprises. Some compute is spent on curing diseases, of which there are thousands. As AI becomes a more capable medical researcher, there will be intense demand to allocate AI resources toward life-saving directions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7492,
         "endIndex": 7493,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6909,
+              "startIndex": 7492,
               "endIndex": 7493,
               "textRun": {
-                "content": "A free society will in some part distribute their compute across millions of needs: we are already seeing this with current AI. Today, vast numbers of GPUs are dedicated to serving the requests of individual people via Claude, ChatGPT, and Gemini. At the business level, an equal number of chips are earmarked for powering SaaS businesses and transforming existing enterprises. Some compute is spent on curing diseases, of which there are thousands. As AI becomes a more capable medical researcher, there will be intense demand to allocate AI resources toward life saving directions.\n",
+                "content": "\n",
                 "textStyle": {}
               }
             }
@@ -1217,32 +1237,12 @@
       },
       {
         "startIndex": 7493,
-        "endIndex": 7494,
+        "endIndex": 7771,
         "paragraph": {
           "elements": [
             {
               "startIndex": 7493,
-              "endIndex": 7494,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 7494,
-        "endIndex": 7772,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 7494,
-              "endIndex": 7772,
+              "endIndex": 7771,
               "textRun": {
                 "content": "The US has 340 million people. If each person has needs that can be met by a single GPU, we will need to build 340 million GPUs before they are satiated (and likely they won\u2019t be, there will be things we want as individuals that require 10 GPUs, 100 GPUs, and eventually more).\n",
                 "textStyle": {}
@@ -1256,13 +1256,53 @@
         }
       },
       {
+        "startIndex": 7771,
+        "endIndex": 7772,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7771,
+              "endIndex": 7772,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
         "startIndex": 7772,
-        "endIndex": 7773,
+        "endIndex": 8503,
         "paragraph": {
           "elements": [
             {
               "startIndex": 7772,
-              "endIndex": 7773,
+              "endIndex": 8503,
+              "textRun": {
+                "content": "An automated dictatorship can redeploy those 340 million GPUs for singular purposes that yield decisive strategic outcomes. Once AI can do research, a dictator can direct all GPUs toward researching weapons to defeat their geopolitical adversaries, including kinetic weapons, cyber weapons, and weapons of misinformation and cultural manipulation. Ultimately, the easiest recourse for a dictator to maintain power might be to simply eradicate their human adversaries by engineering a collection of novel viruses to be released at once, while arranging for preemptive vaccines for their inner circle. A free society that is distributing its compute among its citizens and industries will be at an extreme disadvantage against this.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8503,
+        "endIndex": 8504,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8503,
+              "endIndex": 8504,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1276,53 +1316,13 @@
         }
       },
       {
-        "startIndex": 7773,
-        "endIndex": 8509,
+        "startIndex": 8504,
+        "endIndex": 8999,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7773,
-              "endIndex": 8509,
-              "textRun": {
-                "content": "An automated dictatorship can redeploy those 340 million GPUs for singular purposes that yield decisive strategic outcomes. Once AI can do research, a dictator can direct all GPUs toward researching weapons to defeat their geopolitical adversaries, including both kinetic weapons, cyber weapons, and weapons of misinformation and cultural manipulation. Ultimately, the easiest recourse for a dictator to maintain power might be to simply eradicate their human adversaries by engineering a collection of novel viruses to be released at once, while arranging for preemptive vaccines for their inner circle. A free society that is distributing its compute among its citizens and industries will be at an extreme disadvantage against this.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 8509,
-        "endIndex": 8510,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 8509,
-              "endIndex": 8510,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 8510,
-        "endIndex": 9005,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 8510,
-              "endIndex": 9005,
+              "startIndex": 8504,
+              "endIndex": 8999,
               "textRun": {
                 "content": "If this seems implausible today, it may be because our mental model is based on humans rather than malleable AIs. So imagine if a dictator could perfectly control the motivations of every person in their country. Imagine if they could direct every citizen to ceaselessly aspire toward becoming the best virologist. You\u2019d quickly have a country of a million expert virologists, more virologists than have existed in the last 100 years. What could that army of virologists unleash upon the world?\n",
                 "textStyle": {}
@@ -1336,13 +1336,13 @@
         }
       },
       {
-        "startIndex": 9005,
-        "endIndex": 9006,
+        "startIndex": 8999,
+        "endIndex": 9000,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9005,
-              "endIndex": 9006,
+              "startIndex": 8999,
+              "endIndex": 9000,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1356,15 +1356,15 @@
         }
       },
       {
-        "startIndex": 9006,
-        "endIndex": 9566,
+        "startIndex": 9000,
+        "endIndex": 9562,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9006,
-              "endIndex": 9566,
+              "startIndex": 9000,
+              "endIndex": 9562,
               "textRun": {
-                "content": "Even if the technology of defense and offense are balanced in this future world, the free society will need comparable amounts of compute dedicated to defense, which may be untenable politically when no threat is immediately seen. When the threat is finally seen, any response might be too slow. In an automated world, it may be that no amount of internal spying or intelligence can tell you what\u2019s happening inside the mind of an adversary\u2019s superintelligence to give you forewarning. This will amplify paranoia and make defense investments more existential.\n",
+                "content": "Even if the technologies of defense and offense are balanced in this future world, the free society will need comparable amounts of compute dedicated to defense, which may be untenable politically when no threat is immediately seen. When the threat is finally seen, any response might be too slow. In an automated world, it may be that no amount of internal spying or intelligence can tell you what\u2019s happening inside the mind of an adversary\u2019s superintelligence to give you forewarning. This will amplify paranoia and make defense investments more existential.\n",
                 "textStyle": {}
               }
             }
@@ -1376,13 +1376,13 @@
         }
       },
       {
-        "startIndex": 9566,
-        "endIndex": 9567,
+        "startIndex": 9562,
+        "endIndex": 9563,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9566,
-              "endIndex": 9567,
+              "startIndex": 9562,
+              "endIndex": 9563,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1396,21 +1396,21 @@
         }
       },
       {
-        "startIndex": 9567,
-        "endIndex": 10038,
+        "startIndex": 9563,
+        "endIndex": 10034,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9567,
-              "endIndex": 9623,
+              "startIndex": 9563,
+              "endIndex": 9619,
               "textRun": {
                 "content": "Beyond redirecting compute, a dictatorship can redirect ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9623,
-              "endIndex": 9629,
+              "startIndex": 9619,
+              "endIndex": 9625,
               "textRun": {
                 "content": "energy",
                 "textStyle": {
@@ -1419,16 +1419,16 @@
               }
             },
             {
-              "startIndex": 9629,
-              "endIndex": 9670,
+              "startIndex": 9625,
+              "endIndex": 9666,
               "textRun": {
                 "content": ", which is the final limiter of compute. ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9670,
-              "endIndex": 10038,
+              "startIndex": 9666,
+              "endIndex": 10034,
               "textRun": {
                 "content": "Even a small dictatorship like North Korea has ~10 gigawatts of capacity, enough to power millions of GPUs, far more than our biggest compute clusters today. But doing so would require the unthinkable: depriving the citizens of North Korea of necessary energy in order to feed industry instead. Is even a dictator like Kim Jong Un heartless enough to make this trade?\n",
                 "textStyle": {}
@@ -1442,13 +1442,13 @@
         }
       },
       {
-        "startIndex": 10038,
-        "endIndex": 10039,
+        "startIndex": 10034,
+        "endIndex": 10035,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10038,
-              "endIndex": 10039,
+              "startIndex": 10034,
+              "endIndex": 10035,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1462,13 +1462,13 @@
         }
       },
       {
-        "startIndex": 10039,
-        "endIndex": 10044,
+        "startIndex": 10035,
+        "endIndex": 10040,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10039,
-              "endIndex": 10044,
+              "startIndex": 10035,
+              "endIndex": 10040,
               "textRun": {
                 "content": "Yes.\n",
                 "textStyle": {}
@@ -1482,13 +1482,13 @@
         }
       },
       {
-        "startIndex": 10044,
-        "endIndex": 10045,
+        "startIndex": 10040,
+        "endIndex": 10041,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10044,
-              "endIndex": 10045,
+              "startIndex": 10040,
+              "endIndex": 10041,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1502,13 +1502,13 @@
         }
       },
       {
-        "startIndex": 10045,
-        "endIndex": 10386,
+        "startIndex": 10041,
+        "endIndex": 10382,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10045,
-              "endIndex": 10386,
+              "startIndex": 10041,
+              "endIndex": 10382,
               "textRun": {
                 "content": "Only half of North Koreans have access to electricity today, and those that do are often limited to 2 hours a day. There is enough energy for all North Koreans, but most is instead exported for profit or used for industry to power the regime. This is the reality today. Tomorrow, the allure of redirecting electricity will be even stronger.\n",
                 "textStyle": {}
@@ -1522,13 +1522,13 @@
         }
       },
       {
-        "startIndex": 10386,
-        "endIndex": 10387,
+        "startIndex": 10382,
+        "endIndex": 10383,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10386,
-              "endIndex": 10387,
+              "startIndex": 10382,
+              "endIndex": 10383,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1542,13 +1542,13 @@
         }
       },
       {
-        "startIndex": 10387,
-        "endIndex": 10701,
+        "startIndex": 10383,
+        "endIndex": 10697,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10387,
-              "endIndex": 10701,
+              "startIndex": 10383,
+              "endIndex": 10697,
               "textRun": {
                 "content": "The US has 100x the energy of North Korea. Many countries have 10x or more. These could be redirected for even more staggering amounts of compute, and hence capabilities. Most countries can grow energy only at a few percent per year, even the US. It is exceptionally faster to simply redirect all civilian energy.\n",
                 "textStyle": {}
@@ -1562,13 +1562,13 @@
         }
       },
       {
-        "startIndex": 10701,
-        "endIndex": 10702,
+        "startIndex": 10697,
+        "endIndex": 10698,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10701,
-              "endIndex": 10702,
+              "startIndex": 10697,
+              "endIndex": 10698,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1582,13 +1582,13 @@
         }
       },
       {
-        "startIndex": 10702,
-        "endIndex": 10809,
+        "startIndex": 10698,
+        "endIndex": 10805,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10702,
-              "endIndex": 10809,
+              "startIndex": 10698,
+              "endIndex": 10805,
               "textRun": {
                 "content": "Even in liberal democracies there is precedent for rationing civilian resources when faced with total war.\n",
                 "textStyle": {}
@@ -1602,13 +1602,13 @@
         }
       },
       {
-        "startIndex": 10809,
-        "endIndex": 10810,
+        "startIndex": 10805,
+        "endIndex": 10806,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10809,
-              "endIndex": 10810,
+              "startIndex": 10805,
+              "endIndex": 10806,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1622,15 +1622,15 @@
         }
       },
       {
-        "startIndex": 10810,
-        "endIndex": 11544,
+        "startIndex": 10806,
+        "endIndex": 11540,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10810,
-              "endIndex": 11544,
+              "startIndex": 10806,
+              "endIndex": 11540,
               "textRun": {
-                "content": "But available energy won\u2019t be a static variable, it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens (which it likely will, if it has access to full automation and no longer needs its citizens), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the current energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full throttled automated dictatorship, it would need to seriously disrupt its own citizens.\n",
+                "content": "But available energy won\u2019t be a static variable; it will grow, and a dictatorship can grow it faster. If North Korea is willing to further disadvantage its citizens (which it likely will, if it has access to full automation and no longer needs its citizens), it can generate 3,800 gigawatts by covering its country in solar panels, yielding 3x the current energy of the United States. By disregarding human needs, even a small player like North Korea can drastically outclass the fractured output of the most powerful free society. The US will, of course, continue to build more power plants. But in order to credibly outstrip the power of a full-throttled automated dictatorship, it would need to seriously disrupt its own citizens.\n",
                 "textStyle": {}
               }
             }
@@ -1642,13 +1642,13 @@
         }
       },
       {
-        "startIndex": 11544,
-        "endIndex": 11545,
+        "startIndex": 11540,
+        "endIndex": 11541,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11544,
-              "endIndex": 11545,
+              "startIndex": 11540,
+              "endIndex": 11541,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1662,21 +1662,21 @@
         }
       },
       {
-        "startIndex": 11545,
-        "endIndex": 12292,
+        "startIndex": 11541,
+        "endIndex": 12124,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11545,
-              "endIndex": 11586,
+              "startIndex": 11541,
+              "endIndex": 11582,
               "textRun": {
                 "content": "Everything we\u2019ve learned from AI is that ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11586,
-              "endIndex": 11608,
+              "startIndex": 11582,
+              "endIndex": 11604,
               "textRun": {
                 "content": "the curves don\u2019t bend.",
                 "textStyle": {
@@ -1685,16 +1685,16 @@
               }
             },
             {
-              "startIndex": 11608,
-              "endIndex": 11986,
+              "startIndex": 11604,
+              "endIndex": 11982,
               "textRun": {
                 "content": " Even as one AI scaling paradigm has seen diminishing returns (pretraining), new paradigms have opened up and continued to scale (post-training and Reinforcement Learning). More compute yields more capabilities, for whichever task you care about. If that task is military, more compute will give you better military capabilities than less compute. And there will be no limit to ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11986,
-              "endIndex": 11994,
+              "startIndex": 11982,
+              "endIndex": 11990,
               "textRun": {
                 "content": "how much",
                 "textStyle": {
@@ -1703,10 +1703,10 @@
               }
             },
             {
-              "startIndex": 11994,
-              "endIndex": 12292,
+              "startIndex": 11990,
+              "endIndex": 12124,
               "textRun": {
-                "content": ". There is a near infinite amount of things to deploy fully general AI toward, even if the \u201cintelligence\u201d of each AI were to plateau. Just like a larger country can often achieve more than a smaller country, having more power will effectively mean you have more automated labor. More will be more.\n",
+                "content": ". There is a near-infinite amount of things to deploy fully general AI toward, even if the \u201cintelligence\u201d of each AI were to plateau.\n",
                 "textStyle": {}
               }
             }
@@ -1718,53 +1718,13 @@
         }
       },
       {
-        "startIndex": 12292,
-        "endIndex": 12293,
+        "startIndex": 12124,
+        "endIndex": 12125,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12292,
-              "endIndex": 12293,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 12293,
-        "endIndex": 12733,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 12293,
-              "endIndex": 12733,
-              "textRun": {
-                "content": "Thus, a rational free society will be forced to consolidate its own power to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn\u2019t have that immunity.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 12733,
-        "endIndex": 12734,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 12733,
-              "endIndex": 12734,
+              "startIndex": 12124,
+              "endIndex": 12125,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1778,13 +1738,93 @@
         }
       },
       {
-        "startIndex": 12734,
-        "endIndex": 12988,
+        "startIndex": 12125,
+        "endIndex": 12515,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12734,
-              "endIndex": 12988,
+              "startIndex": 12125,
+              "endIndex": 12515,
+              "textRun": {
+                "content": "Having more compute will effectively mean you have more automated labor. Just like today a larger country can often achieve more than a smaller country, tomorrow a country with more compute will outcompete countries with less compute. More will be more. And the more able a country is to marshal its compute toward critical needs, the bigger the strategic advantage that country will have.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12515,
+        "endIndex": 12516,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12515,
+              "endIndex": 12516,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12516,
+        "endIndex": 12958,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12516,
+              "endIndex": 12958,
+              "textRun": {
+                "content": "Thus, a rational free society will be forced to consolidate its own compute to defend itself. It will then be at risk of handing the ready-made lever of power over to individual leaders. Will those leaders use that power for good? The resiliency of democracy has come not from picking noble leaders. It has come from creating structures that are immune to would-be tyrants, even when we elect them. This new world doesn\u2019t have that immunity.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12958,
+        "endIndex": 12959,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12958,
+              "endIndex": 12959,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12959,
+        "endIndex": 13213,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12959,
+              "endIndex": 13213,
               "textRun": {
                 "content": "Even if a freely elected leader means well, if they consolidate power to defend their nation, if they redirect nearly all resources to maintain the ability for their nation to survive, what is left? Tyranny by any other name would still smell like shit.\n",
                 "textStyle": {}
@@ -1798,13 +1838,13 @@
         }
       },
       {
-        "startIndex": 12988,
-        "endIndex": 12989,
+        "startIndex": 13213,
+        "endIndex": 13214,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12988,
-              "endIndex": 12989,
+              "startIndex": 13213,
+              "endIndex": 13214,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1818,21 +1858,21 @@
         }
       },
       {
-        "startIndex": 12989,
-        "endIndex": 13443,
+        "startIndex": 13214,
+        "endIndex": 13668,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12989,
-              "endIndex": 13049,
+              "startIndex": 13214,
+              "endIndex": 13274,
               "textRun": {
                 "content": "It\u2019s not just that AI suddenly makes a durable dictatorship ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 13049,
-              "endIndex": 13057,
+              "startIndex": 13274,
+              "endIndex": 13282,
               "textRun": {
                 "content": "possible",
                 "textStyle": {
@@ -1841,16 +1881,16 @@
               }
             },
             {
-              "startIndex": 13057,
-              "endIndex": 13080,
+              "startIndex": 13282,
+              "endIndex": 13305,
               "textRun": {
                 "content": ", it suddenly makes it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 13080,
-              "endIndex": 13099,
+              "startIndex": 13305,
+              "endIndex": 13324,
               "textRun": {
                 "content": "the default outcome",
                 "textStyle": {
@@ -1859,24 +1899,24 @@
               }
             },
             {
-              "startIndex": 13099,
-              "endIndex": 13113,
+              "startIndex": 13324,
+              "endIndex": 13338,
               "textRun": {
                 "content": " unless we act",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 13113,
-              "endIndex": 13295,
+              "startIndex": 13338,
+              "endIndex": 13520,
               "textRun": {
                 "content": ". The thirst for power has always existed, and many have tried and succeeded at building temporary dictatorships. Suddenly, with AI, the path to dictatorship will become much easier ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 13295,
-              "endIndex": 13345,
+              "startIndex": 13520,
+              "endIndex": 13570,
               "textRun": {
                 "content": "and also more rewarding than any other possibility",
                 "textStyle": {
@@ -1885,10 +1925,10 @@
               }
             },
             {
-              "startIndex": 13345,
-              "endIndex": 13443,
+              "startIndex": 13570,
+              "endIndex": 13668,
               "textRun": {
-                "content": ". We have to expect that on net the risk of dictatorship rises substantially in the coming years.\n",
+                "content": ". We have to expect that on-net the risk of dictatorship rises substantially in the coming years.\n",
                 "textStyle": {}
               }
             }
@@ -1900,13 +1940,13 @@
         }
       },
       {
-        "startIndex": 13443,
-        "endIndex": 13444,
+        "startIndex": 13668,
+        "endIndex": 13669,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13443,
-              "endIndex": 13444,
+              "startIndex": 13668,
+              "endIndex": 13669,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1920,13 +1960,13 @@
         }
       },
       {
-        "startIndex": 13444,
-        "endIndex": 13802,
+        "startIndex": 13669,
+        "endIndex": 14027,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13444,
-              "endIndex": 13802,
+              "startIndex": 13669,
+              "endIndex": 14027,
               "textRun": {
                 "content": "The best predictor of human behavior is incentives, and the incentives are quickly transmuting for leaders into a single direction: consolidate power. We can resist this incredible force only if we build checks and balances into our governance that are amplified by AI, not subverted by it. We can do this if we try. We can do this if we recognize the risk.\n",
                 "textStyle": {}
@@ -1940,13 +1980,13 @@
         }
       },
       {
-        "startIndex": 13802,
-        "endIndex": 13803,
+        "startIndex": 14027,
+        "endIndex": 14028,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13802,
-              "endIndex": 13803,
+              "startIndex": 14027,
+              "endIndex": 14028,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1960,13 +2000,13 @@
         }
       },
       {
-        "startIndex": 13803,
-        "endIndex": 13848,
+        "startIndex": 14028,
+        "endIndex": 14073,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13803,
-              "endIndex": 13848,
+              "startIndex": 14028,
+              "endIndex": 14073,
               "textRun": {
                 "content": "As I write this today, we are doing neither.\n",
                 "textStyle": {}
@@ -2542,7 +2582,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Ltv4bmwEUtw1ViIAfS1Sr_HM4Ekhvh2IOkeanfklTgwSVQKdlw78g3Jlyn3anhVGzqyNuRe0tTlUSbKDQ",
+  "revisionId": "ALBJ4LtvP_fcQU2_9Z2KwB2Yl8ABgBbiRfMTsgDFeC8XlP9D85aBrUR4UVpXMcVrfFgLhfuMY0kakN73YJ-6Uw",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag"
 }

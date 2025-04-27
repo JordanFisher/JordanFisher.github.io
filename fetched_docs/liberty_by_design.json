@@ -968,12 +968,12 @@
               "startIndex": 2291,
               "endIndex": 2292,
               "richLink": {
-                "richLinkId": "kix.qrd51joykma9",
+                "richLinkId": "kix.100jbxus78bn",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "The default path leads to tyranny",
-                  "uri": "https://docs.google.com/document/d/1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag/edit?tab=t.0",
-                  "mimeType": "application/vnd.google-apps.kix"
+                  "title": "A simple path to tyranny",
+                  "uri": "https://docs.google.com/document/u/0/d/1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag/edit",
+                  "mimeType": "application/vnd.google-apps.document"
                 }
               }
             },
@@ -1414,10 +1414,10 @@
               "startIndex": 3416,
               "endIndex": 3417,
               "richLink": {
-                "richLinkId": "kix.ojn9jzno54vg",
+                "richLinkId": "kix.hrgt8i1xq89j",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "Rapid fire governance \u2014 designing upgrade to democracy",
+                  "title": "Rapid fire governance \u2014 designing upgrades to democracy",
                   "uri": "https://docs.google.com/document/u/0/d/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8/edit",
                   "mimeType": "application/vnd.google-apps.document"
                 }
@@ -2531,12 +2531,12 @@
               "startIndex": 6252,
               "endIndex": 6253,
               "richLink": {
-                "richLinkId": "kix.n8lezra1s4ya",
+                "richLinkId": "kix.9v4yo89cvb0h",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "The default path leads to tyranny",
+                  "title": "A simple path to tyranny",
                   "uri": "https://docs.google.com/document/u/0/d/1zyN6ZNIWZx3qaPK3PPOd7H8wyW_LsxytOD7t7T8OTag/edit",
-                  "mimeType": "application/vnd.google-apps.kix"
+                  "mimeType": "application/vnd.google-apps.document"
                 }
               }
             },
@@ -2599,10 +2599,10 @@
               "startIndex": 6256,
               "endIndex": 6257,
               "richLink": {
-                "richLinkId": "kix.aa2ev6hzj27k",
+                "richLinkId": "kix.sj80n8bllvz",
                 "textStyle": {},
                 "richLinkProperties": {
-                  "title": "Rapid fire governance \u2014 designing upgrade to democracy",
+                  "title": "Rapid fire governance \u2014 designing upgrades to democracy",
                   "uri": "https://docs.google.com/document/u/0/d/1vpDT4RJpSOw_vdGMdIv52l1zW7flywl9oqSMm6yPTW8/edit",
                   "mimeType": "application/vnd.google-apps.document"
                 }
@@ -4856,7 +4856,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Ls6AYKE3folJd2Uc2ESRRuFFFDXZo3Gd94hPNsbET0ZdM4gVrC_qO4mfHtS99rOARtw0t4MeFqVvNJkkQ",
+  "revisionId": "ALBJ4LstV2QMOti-i0fUEFY44iLks43QQE6-osXFkHBh4wdLuzsbt-BI7pluY1S6DeSHfgLY90kZKpDatg8JqQ",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1-CifFI15IsW5fj4DvSrH9SmpKJbAELyeHTKCfdGT6rs"
 }

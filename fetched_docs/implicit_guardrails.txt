@@ -1,193 +1,193 @@
 The end of implicit guardrails
 [[[Much of what makes our society function well is hidden in implicit guardrails, rather than explicit governance. If we enumerate these implicit guardrails, maybe we can better prepare for an AI-powered world where these guardrails may disappear.]]]
 
-Governance often focuses on explicit structures. Our constitution, judicial precedent, legislation, and all the writing, debating, and hand wringing that surrounds the power struggle to define and defend these explicit institutions.
+Governance often focuses on explicit structures: our Constitution, judicial precedent, legislation, and all the writing, debating, and hand wringing that surrounds the power struggle to define and defend these explicit institutions.
 
 But there is a much bigger, implicit set of guardrails in our society.
 
-It’s a force field that permeates every institution composed of humans. You could suspend the constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.
+It’s a force field that permeates every institution composed of humans. You could suspend the Constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won’t hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline — by failing to hold each other accountable in the nooks and crannies in between where the laws are set.
 
-Let’s try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI we will be explicitly removing these implicit forces, and we’ll need to find explicit ways to reintroduce their effects.
+Let’s try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI, we will be explicitly removing these implicit forces, and we’ll need to find explicit ways to reintroduce their effects.
 
 Knowledge convection distributes power
-People move around and take their knowledge and wisdom with them. Even when they don’t move, they often share learnings with their friends and communities outside their workplace
-Knowledge is power, so this helps diffuse power
-In the economy, this helps prevent monopolies and ensure efficient markets
+People move around and take their knowledge and wisdom with them. Even when they don’t move, they often share learnings with their friends and communities outside their workplace.
+Knowledge is power, so this helps diffuse power.
+In the economy, this helps prevent monopolies and ensure efficient markets.
 With AI-powered institutions, learnings may instead be perfectly locked up with no chance of diffusing. This may reduce market efficiencies and amplify concentration of success.
 For example, often a successful company is founded by exceptional experts that leave a large company and bring their knowledge with them. Inside a fully automated company, the AI workers may have no ability to leave and disseminate their knowledge.
-Even simple things like knowing something is possible can be the critical information needed for someone to pursue a path
-At the international level this helps balance power between nations. For examples, this has allowed lagging nations to more rapidly industrialize.
-Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. A complete lack of information can lead to paranoia and escalation
+Even simple things like knowing something is possible can be the critical information needed for someone to pursue a path.
+At the international level, this helps balance power between nations. For example, this has allowed lagging nations to more rapidly industrialize.
+Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. A complete lack of information can lead to paranoia and escalation.
 
 Information sharing creates accountability
-Someone can only be held accountable if knowledge of their bad actions is seen and shared
+Someone can only be held accountable if knowledge of their bad actions is seen and shared.
 At the community level we call this gossip. Fear of gossip helps push people to do the right thing.
-Inside a company, people can report bad behavior to management
-Or, at the very least, they can take their knowledge of who is a bad actor with them and avoid working or hiring bad actors at other companies
+Inside a company, people can report bad behavior to management.
+Or, at the very least, they can take their knowledge of who is a bad actor with them and avoid working or hiring bad actors at other companies.
 Industries are often fairly small communities. The fear of developing a bad reputation is often a strong motivator for people to behave well.
 Because of this, institutions and companies are composed of people that are incentivized to follow implicit codes of ethics.
-By default there might be no visibility on what AI workers do inside of an automated institution. Therefore they may have no social forces pushing them to behave well. The automated institution they are part of may thus have no internal forces pushing the institution toward ethical behavior.
+By default, there might be no visibility on what AI workers do inside of an automated institution. Therefore they may have no social forces pushing them to behave well. The automated institution they are part of may thus have no internal forces pushing the institution toward ethical behavior.
 
 Humans prefer to support noble causes
-Many people are inspired by noble causes, a desire to do good, and a sense of morality in general
-That allows noble causes to have an advantage over dishonorable ones
-In a sense, all humans get a vote by choosing who they will work for
-In an automated world, the only advantage will go to the cause with more machine resources
+Many people are inspired by noble causes, a desire to do good, and a sense of morality in general.
+That allows noble causes to have an advantage over dishonorable ones.
+In a sense, all humans get a vote by choosing who they will work for.
+In an automated world, the only advantage will go to the cause with more machine resources.
 
 Top talent can vote with their feet
-The hardest problems in the world require the work of the most talented people in the world
-Literal moonshots today can’t succeed without these people, which allows them to “vote” on what moonshots should be “funded” with their talent
+The hardest problems in the world require the work of the most talented people in the world.
+Literal moonshots today can’t succeed without these people, which allows them to “vote” on what moonshots should be “funded” with their talent.
 Can organized, smart people achieve a Bad Thing on behalf of a self-interested owner? Yes, but they often choose not to, and it certainly is an impediment to evil causes.
-Building AI is itself a moonshot. AI researchers have incredible power today to shape the direction of AI, if they choose to wield it
+Building AI is itself a moonshot. AI researchers have incredible power today to shape the direction of AI, if they choose to wield it.
 
 People can quit
-On the flip side of choosing to work for a cause, people can choose to quit or protest
-This limits how nefarious a corporation or government can be
-Employees and soldiers are required by law and by our culture to refuse evil orders
-Conscientious objection is a powerful limit on government malfeasance
+On the flip side of choosing to work for a cause, people can choose to quit or protest.
+This limits how nefarious a corporation or government can be.
+Employees and soldiers are required by law and by our culture to refuse evil orders.
+Conscientious objection is a powerful limit on government malfeasance.
 
 Humans can refuse specific orders
-Famously, in 1983, Stanislov Petrov saved the world by refusing to launch nuclear weapons against the United States
-There may not be an AI version of Petrov, if the AI is perfectly aligned to do what it’s asked to do
+Famously, in 1983, Stanislav Petrov saved the world by refusing to launch nuclear weapons against the United States.
+There may not be an AI version of Petrov, if the AI is perfectly aligned to do what it’s asked to do.
 
 Whistleblowers limit egregious actions
-Often leaders preemptively avoid breaking the law because they are afraid someone may whistleblow, not just quit
-In a fully automated organization, there may no longer be any whistleblowers. And without them, some leaders may no longer avoid unethical actions
+Often leaders preemptively avoid breaking the law because they are afraid someone may whistleblow, not just quit.
+In a fully automated organization, there may no longer be any whistleblowers. And without them, some leaders may no longer avoid unethical actions.
 
 Conspiracies and cartels are hard to maintain
-Conspiracies require concerted effort from many people to succeed
-Compliance to the group or cartel becomes exponentially harder as the size of the conspiracy grows
-Not true with AI, where compliance (alignment) to the cartel may be complete
+Conspiracies require concerted effort from many people to succeed.
+Compliance to the group or cartel becomes exponentially harder as the size of the conspiracy grows.
+Not true with AI, where compliance (alignment) to the cartel may be complete.
 Cronies are dumb, limiting their impact
-Tyrants, mobsters, and would-be dictators need one thing above all else from their henchmen and base of power: loyalty
-Often the smartest and most capable refuse to bend the knee, so the tyrant must recruit the less capable instead
-The circle of power around the tyrant becomes dumb and ineffective
-But with AI, every tyrant may have unfettered intelligence at their disposal, as will their inept cronies
-Some tyrants are themselves incompetent, and they may make poor decisions even when they have superintelligence counseling them. But many tyrants are cunning and will make the most of AI
-We should expect to see substantially more capable tyrants and mobsters, powered by AI and unhindered by ethics
+Tyrants, mobsters, and would-be dictators need one thing above all else from their henchmen and base of power: loyalty.
+Often the smartest and most capable refuse to bend the knee, so the tyrant must recruit the less capable instead.
+The circle of power around the tyrant becomes dumb and ineffective.
+But with AI, every tyrant may have unfettered intelligence at their disposal, as will their inept cronies.
+Some tyrants are themselves incompetent, and they may make poor decisions even when they have superintelligence counseling them. But many tyrants are cunning and will make the most of AI.
+We should expect to see substantially more capable tyrants and mobsters, powered by AI and unhindered by ethics.
 Media helps spread knowledge of malfeasance
-When someone does have the courage to whistleblow, there are human reporters ready to spread the story
-Media corporations can and do collude with nefarious corporate actors and politicians, but a healthy market of many media companies helps ensure someone will spread the story
-And the implicit guardrails within media companies help prevent the worst abuses and coverups
-In an automated world, collusion between a politician and a media owner becomes extremely easy to execute
+When someone does have the courage to whistleblow, there are human reporters ready to spread the story.
+Media corporations can and do collude with nefarious corporate actors and politicians, but a healthy market of many media companies helps ensure someone will spread the story.
+And the implicit guardrails within media companies help prevent the worst abuses and coverups.
+In an automated world, collusion between a politician and a media owner becomes extremely easy to execute.
 If the media company is fully automated, it may act on any command from the owner, with no fear of whistleblowers or conscientious objection. Executing a media coverup becomes as simple as the media owner and the politician agreeing to terms.
 
 Social media spreads knowledge that mainstream media may not 
-Even where today’s media fails, every person can pick up and spread a story they see on social media
-In a world of infinite machines, indistinguishable from humans, the human choice to amplify will be muted
+Even where today’s media fails, every person can pick up and spread a story they see on social media.
+In a world of infinite machines, indistinguishable from humans, the human choice to amplify will be muted.
 We’re already seeing this effect from bots online, but today savvy humans can still tell apart human and machine. Tomorrow, it will likely be impossible to discern even for the most savvy among us.
 
 Humans die
-The ultimate limit of a human is their lifespan. No matter how much power they accumulate, one day they must pass it on
-An AI need not have a lifespan. An empowered AI that faithfully represents one person’s values may enforce those values forever
+The ultimate limit of a human is their lifespan. No matter how much power they accumulate, one day they must pass it on.
+An AI need not have a lifespan. An empowered AI that faithfully represents one person’s values may enforce those values forever.
 Limited power of committees
-A committee or board may decide something, but the execution of a committee-made decision today is done by other people. The power ultimately lies with those people
+A committee or board may decide something, but the execution of a committee-made decision today is done by other people. The power ultimately lies with those people.
 You may put a committee in charge of overseeing people that use an AGI toward some ends, but how will the committee hold those people responsible?
 What mechanism does the committee have to actually throttle the user of AGI if the user isn’t listening to the committee? Would the committee even know? Does a misused AGI have a responsibility to report back not just to the user, but to the superseding committee the user is acting on behalf of?
-Today, any human worker may choose to circumvent their chain of command and inform a committee of misdeeds. Tomorrow, if AIs are perfectly compliant to their user, oversight committees may have no real power
+Today, any human worker may choose to circumvent their chain of command and inform a committee of misdeeds. Tomorrow, if AIs are perfectly compliant to their user, oversight committees may have no real power.
 
 Principal-agent problems stymie large organizations
-The principal-agent problem is a well studied management problem, where the goals of an employee (the agent) may not align with the goals of the owner (the principal)
-For example, an employee might treat a client or competitor more kindly, because they might work for them in the future
+The principal-agent problem is a well-studied management problem, where the goals of an employee (the agent) may not align with the goals of the owner (the principal).
+For example, an employee might treat a client or competitor more kindly, because they might work for them in the future.
 Or, an employee may seek a project that helps them get promoted, even when it’s the wrong project to help the company. Or a trader may take on risks that net out positive for them, but net out negative for the people who gave them their money to trade.
-This is a strong limiting factor on the power of large organizations, and is one reason among many why small organizations can often outcompete larger ones. None of these internal misalignments may exist inside automated orgs
+This is a strong limiting factor on the power of large organizations, and is one reason among many why small organizations can often outcompete larger ones. None of these internal misalignments may exist inside automated orgs.
 
 Community approval and self-approval influence human actions
-People want to do things their loved ones and friends would approve of (and that they themselves can be proud of)
-In many ways we’re an honor bound society
-This allows for all of society to apply implicit guardrails on all actions, even perfectly hidden actions that no one will ever know about
-A soldier wants to act in a way that they can be proud of, or that their family would be proud of. This helps prevent some of the worst abuses in war
+People want to do things their loved ones and friends would approve of (and that they themselves can be proud of).
+In many ways we’re an honor-bound society.
+This allows for all of society to apply implicit guardrails on all actions, even perfectly hidden actions that no one will ever know about.
+A soldier wants to act in a way that they can be proud of, or that their family would be proud of. This helps prevent some of the worst abuses in war.
 Although many abuses nonetheless occur in war, how many more would happen if soldiers perfectly obeyed every order from their general? What if the general knew no one —not even their soldiers— would ever object or tell the world what horrible deeds they did?
-Soldiers rarely will agree to fire on civilians, especially their own civilians. An AI soldier that follows orders will have no such compunction
+Soldiers rarely will agree to fire on civilians, especially their own civilians. An AI soldier that follows orders will have no such compunction.
 
 Personal fear of justice
-The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey an illegal order
-But an AI need not have fear
+The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey an illegal order.
+But an AI need not have fear.
 
 Judges and police officers have their own ethics
-The application of law often requires the personal ethical considerations of the judge. Not all law is explicit
+The application of law often requires the personal ethical considerations of the judge. Not all law is explicit.
 That judge is themself a member of society, and feels the social burden of advocating for justice their community would be proud of. This often blunts the force of unjust laws.
-Likewise, a police officer will often waive the enforcement of a law if they feel extraneous circumstances warrant it
-An AI instead might faithfully execute the letter of the law so well that even our existing laws become dangerous to freedom
+Likewise, a police officer will often waive the enforcement of a law if they feel extraneous circumstances warrant it.
+An AI instead might faithfully execute the letter of the law so well that even our existing laws become dangerous to freedom.
 
 There’s general friction in enforcement of laws and regulations
-Today, we can’t enforce all laws all the time
-In the old days a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end to end automated (right down to mailing the ticket to your home) but speed limits haven’t changed
-Our laws are so voluminous and complex, that almost all citizens break the law at some point. Often these infractions go unnoticed by the state. But with perfect automation, every misstep may be noticed.
-If automated law enforcement itself reports up to a single stakeholder —as it does today with the President— it would be very easy for that individual to weaponize this power against their political adversaries
+Today, we can’t enforce all laws all the time.
+In the old days, a cop needed to be physically present to ticket you for speeding; now in many areas ticketing is end-to-end automated (right down to mailing the ticket to your home) but speed limits haven’t changed.
+Our laws are so voluminous and complex that almost all citizens break the law at some point. Often these infractions go unnoticed by the state. But with perfect automation, every misstep may be noticed.
+If automated law enforcement itself reports up to a single stakeholder —as it does today with the President— it would be very easy for that individual to weaponize this power against their political adversaries.
 
 Lack of internal competition can slow down big entities
-The central point in the theory of capitalism is that we need self-interested competition to align human incentives
-This requires having a healthy market, which encourages many multipolar outcomes among industries, spreading out power across society
-The reason alternatives to capitalism —like communism— often fail, is that humans lose motivation when you remove their incentives
+The central point in the theory of capitalism is that we need self-interested competition to align human incentives.
+This requires having a healthy market, which encourages many multipolar outcomes among industries, spreading out power across society.
+The reason alternatives to capitalism —like communism— often fail is that humans lose motivation when you remove their incentives.
 AI may not need incentive structures. They may work just as hard on any task we give them, without any need for incentives.
-Big human organizations suffer inefficiencies because they have no internal markets or competition correctly driving human incentives, but this won’t be true with AI
+Big human organizations suffer inefficiencies because they have no internal markets or competition correctly driving human incentives, but this won’t be true with AI.
 
 The bread and circus isn’t easy to maintain
-Today, to properly feed a society, we need a well kept human economy, which requires many more human affordances by necessity
-This is one reason why capitalism and liberty have often gone hand in hand. Capitalism delivers the abundance that leaders personally want. If they remove liberties, they will endanger the mechanisms that drive capitalism.
-With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from the citizens
+Today, to properly feed a society, we need a well-kept human economy, which requires many more human affordances by necessity.
+This is one reason why capitalism and liberty have often gone hand-in-hand. Capitalism delivers the abundance that leaders personally want. If they remove liberties, they will endanger the mechanisms that drive capitalism.
+With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from the citizens.
 
 Leaders can’t execute on their own
-Typically a leader must act through layers of managers to achieve things. As we’ve seen, this limits the range of actions a leader can take
-We’re seeing the trend today that managers are being more hands on, and need fewer intermediaries. For example, senior lawyers now need fewer junior staff for support, instead relying on AI for many tasks. We’re seeing a similar trend in many fields, where junior work is often being eliminated.
+Typically a leader must act through layers of managers to achieve things. As we’ve seen, this limits the range of actions a leader can take.
+We’re seeing the trend today that managers are being more hands-on, and need fewer intermediaries. For example, senior lawyers now need fewer junior staff for support, instead relying on AI for many tasks. We’re seeing a similar trend in many fields, where junior work is often being eliminated.
 This is especially true in engineering. Soon, a strong enough technical leader may be able to directly pair with an AGI or superintelligence for all of their needs, without any additional assistance from employees.
 In order to improve security, some AI labs are already isolating which technical staff have access to the next frontier of AI systems. It wouldn’t even raise alarm bells for an employee to no longer have access and to be unaware of who does.
 It will be increasingly easy for a single person to be the only person to have access to a superintelligence, and for no one else to even know this is the case.
 
 Time moves slowly
-We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this
-Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter
-But if AI moves society forward at 10x speed, then a single presidential term will be equivalent to having a president in power for 40 years
+We expect things to take a long time, which gives us many opportunities to respond, see partial outcomes, and rally a response. AI may move too fast to allow this.
+Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter.
+But if AI moves society forward at 10x speed, then a single presidential term will be equivalent to having a president in power for 40 years.
 
 Geopolitical interdependence disperses power
-Nations are interdependent, as are international markets
-It’s well understood that no nation can stand alone and isolated
-This has a mediating force on international politics and helps ensure peace is a mutually beneficial outcome
-In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers
+Nations are interdependent, as are international markets.
+It’s well understood that no nation can stand alone and isolated.
+This has a mediating force on international politics and helps ensure peace is a mutually beneficial outcome.
+In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers.
 
 An army of the willing will only fight for certain causes
-Outright war is extremely unpopular because it compels citizens to fight and die
-Automated wars may be unpopular, but not nearly as unpopular if citizens are insulated from the fighting
-We already see this effect with our ability to wage war from the sky, which requires much less risk to our soldiers, and has had much less backlash from the public when used
+Outright war is extremely unpopular because it compels citizens to fight and die.
+Automated wars may be unpopular, but not nearly as unpopular if citizens are insulated from the fighting.
+We already see this effect with our ability to wage war from the sky, which requires much less risk to our soldiers, and has had much less backlash from the public when used.
 If it becomes possible to wage ground wars fully autonomously —with no risk to any soldiers— will society ever push back on an administration’s military efforts?
 
 An interdependent corporate ecosystem disperses power
-A corporation is dependent on a much larger ecosystem
-To continue growing, large companies must play by the rules within that ecosystem
-That interdependence creates a multipolar power distribution among even the most successful companies
-Full vertical integration is nearly impossible today, but may not be tomorrow
+A corporation is dependent on a much larger ecosystem.
+To continue growing, large companies must play by the rules within that ecosystem.
+That interdependence creates a multipolar power distribution among even the most successful companies.
+Full vertical integration is nearly impossible today, but may not be tomorrow.
 
 Surveillance is hard
-We’ve had the ability to record every form of communication for decades
-But analyzing all communication has required an infeasible amount of human power
-With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties
-This is already happening in CCP-controlled China
+We’ve had the ability to record every form of communication for decades.
+But analyzing all communication has required an infeasible amount of human power.
+With AI, we (or tyrants) will have unlimited intelligence to analyze the meaning of every text message, phone call, and social media post for any implied threats or disloyalties.
+This is already happening in CCP-controlled China.
 
 Elite social pressure matters to many leaders
-Even leaders have a community they often feel beholden to: the elites
-Elites do have some ability to informally influence leaders, even dictators
-But elites can be fully captured by leaders. Stalin and Hitler succeeded at this even with primitive tech. With the power of full automation this may be even easier.
+Even leaders have a community they often feel beholden to: the elites.
+Elites do have some ability to informally influence leaders, even dictators.
+But elites can be fully captured by leaders. Stalin and Hitler succeeded at this even with primitive tech. With the power of full automation, this may be even easier.
 
 In the final limit, citizens can revolt
-Even the most authoritarian governments have to consider the risk of pushing the polity beyond the breaking point
-That breaking point has historically been very far, but even the threat of it has served as a metering force on rulers
-There may be no such limit in the future
+Even the most authoritarian governments have to consider the risk of pushing the polity beyond the breaking point.
+That breaking point has historically been very far, but even the threat of it has served as a metering force on rulers.
+There may be no such limit in the future.
 
 Humans have economic and strategic value
-Authoritarians can’t simply kill all their citizens today, or their economy and warmaking ability would be gutted. In fact, they are incentivized to create a rich economy, in order to have doctors, entertainment, and luxuries.
-The Khmer Rouge killed nearly 25% of their own population, crippling their own warmaking ability. Because of this mistake, they ended up obliterated by a Vietnamese invasion.
-Even the most psychopathic ruler, if self-interested, must support their people to support themself 
-But post-AGI, from the point of view of a dictator, what’s the point of supporting other humans with their national output at all? To them, citizens might become economic deadweight
-And even if one authoritarian wants to support their population, another authoritarian who doesn’t will likely outcompete them across relevant domains
+Authoritarians can’t simply kill all their citizens today, or their economy and war-making ability would be gutted. In fact, they are incentivized to create a rich economy, in order to have doctors, entertainment, and luxuries.
+The Khmer Rouge killed nearly 25% of their own population, crippling their own war-making ability. Because of this mistake, they ended up obliterated by a Vietnamese invasion.
+Even the most psychopathic ruler, if self-interested, must support their people to support themself.
+But post-AGI, from the point of view of a dictator, what’s the point of supporting other humans with their national output at all? To them, citizens might become economic deadweight.
+And even if one authoritarian wants to support their population, another authoritarian who doesn’t will likely outcompete them across relevant domains.
 
 Even dictators need their citizens
-With AI and a fully automated economy, this will no longer be true 
+With AI and a fully automated economy, this will no longer be true.
 
 Replacing implicit guardrails with explicit design
-AI has the potential for tremendous upside, the point of this exercise isn’t to paint AI in a negative light. Instead, it’s to highlight that AI will reshape our society at every level, and that will require rethinking the way every level works.
+AI has the potential for tremendous upside; the point of this exercise isn’t to paint AI in a negative light. Instead, it’s to highlight that AI will reshape our society at every level, and that will require rethinking the way every level works.
 
-Our society is saturated with implicit guardrails. If we removed them all without replacing them with new guardrails, society would almost surely collapse. Moreover, the explicit guardrails we do have today —our laws and explicit institutions— have been designed with our existing implicit guardrails in mind. They’re complimentary.
+Our society is saturated with implicit guardrails. If we removed them all without replacing them with new guardrails, society would almost surely collapse. Moreover, the explicit guardrails we do have today —our laws and explicit institutions— have been designed with our existing implicit guardrails in mind. They’re complementary.
 
 We have to think carefully about how a new, automated world will work. We need to consider what values we want that world to exemplify. We need to reconsider preconceived design patterns that worked when implicit guardrails were strong, but may stop working when those guardrails disappear. We have to discover a new set of explicit guardrails that will fortify our freedoms against what is to come.
 

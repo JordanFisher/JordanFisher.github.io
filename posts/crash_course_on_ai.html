@@ -500,6 +500,62 @@
             80% { opacity: 1; }
             100% { opacity: 0; }
         }
+        
+        /* PDF download link styling */
+        .pdf-download {
+            margin: 2rem 0;
+            padding: 1rem 1.5rem;
+            background-color: #f8f8f8;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+        
+        .pdf-download a {
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        
+        .pdf-download a:hover {
+            color: #004499;
+            border-bottom: none;
+        }
+        
+        .download-icon {
+            font-size: 3.2rem;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        
+        .pdf-download:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .pdf-download {
+                background-color: #2a2a2a;
+                border-left-color: #5abbff;
+            }
+            
+            .pdf-download a {
+                color: #5abbff;
+            }
+            
+            .pdf-download a:hover {
+                color: #7dcfff;
+            }
+            
+            .pdf-download:hover {
+                background-color: #333;
+            }
+        }
     </style>
 </head>
 <body>
@@ -508,29 +564,29 @@
 
 <h1 class="title-header">A Crash Course on AI</h1><div class="description-block"><p>A brief overview of key terms, ideas, players, and political forces in the world of AI</p></div>
 <ul>
-<li><strong>AGI </strong>— artificial general intelligence, AI that can do any mental task that a human can, including creative tasks like designing better AGIs. Often people disagree on the exact definition of AGI, so keep in mind that it's a bit fuzzy and tends to confuse the specifics of different proposals</li>
-<li><strong>Model </strong>— a generic way to refer to a specific AI. For example you'd say “this model is great at writing,” rather than “this AI is great at writing.” If “AI” is analogous to “humanity”, then “model” is analogous to “human”.</li>
-<li><strong>Chat bot </strong>— a model that you can chat with, as popularized by ChatGPT, Claude, and Gemini</li>
-<li><strong>LLM </strong>— large language model, a specific type of model that specializes in human language. All the major chat bots are LLMs</li>
-<li><strong>Image model </strong>— or image gen model, a model that specializes in creating images </li>
-<li><strong>Training </strong>— the process used for a model to learn what we want it to learn</li>
-<li><strong>Pre-training </strong>— a type of training where the model reads essentially the entire internet and learns as much as it can passively. Pre-training is the reason your chat bot knows basically everything. It's also the reason why AI got suddenly good just a few years ago.</li>
-<li><strong>Post-training </strong>— a type of training where we try to make the model useful in very specific ways, rather than the broad ways that pre-training focuses on</li>
+<li><strong>AGI </strong>— artificial general intelligence, AI that can do any mental task that a human can, including creative tasks like designing better AGIs. Often people disagree on the exact definition of AGI, so keep in mind that it's a bit fuzzy and tends to confuse the specifics of different proposals.</li>
+<li><strong>Model </strong>— a generic way to refer to a specific AI. For example, you'd say “this model is great at writing,” rather than “this AI is great at writing.” If “AI” is analogous to “humanity”, then “model” is analogous to “human”.</li>
+<li><strong>Chatbot </strong>— a model that you can chat with, as popularized by ChatGPT, Claude, and Gemini.</li>
+<li><strong>LLM </strong>— large language model, a specific type of model that specializes in human language. All the major chatbots are LLMs.</li>
+<li><strong>Image model </strong>— or image gen model, a model that specializes in creating images.</li>
+<li><strong>Training </strong>— the process used for a model to learn what we want it to learn.</li>
+<li><strong>Pre-training </strong>— a type of training where the model reads essentially the entire internet and learns as much as it can passively. Pre-training is the reason your chatbot knows basically everything. It's also the reason why AI got suddenly good just a few years ago.</li>
+<li><strong>Post-training </strong>— a type of training where we try to make the model useful in very specific ways, rather than the broad ways that pre-training focuses on.</li>
 <li><strong>Next token prediction</strong> — a token is like a word or part of a word. You'll often hear that models “just predict the next token”, which is indeed what pre-training is. Often this is said derisively, to suggest that the models couldn't learn sophisticated things. However…</li>
-<li><strong>Reinforcement learning</strong> — a post-training process where the model <em>teaches itself how to solve new tasks. </em>Importantly, we don't even need to know how to solve the task ourselves, we just need to know whether a provided solution is good. This technique is fundamentally how models get <em>very good</em> at specific tasks like writing poetry or computer code. It's also the way that the model can get <em>better than human</em>: it isn't limited to learning from what humans have written, it figures things out on its own</li>
-<li><strong>ASI </strong>— artificial superintelligence, or often just “superintelligence”. Sometimes “transformational AI”. Like AGI this is a fuzzy term, but broadly means AI that is better than all humans at all cognitive tasks. Better than Einstein at physics, etc.</li>
-<li><strong>Superhuman </strong>— narrowly, if a model is better than all humans at a specific thing, we say it is superhuman at that task. Using reinforcement learning and other techniques we have already made superhuman models at things like chess and go, and we likely will have superhuman coding within a year, perhaps two</li>
-<li><strong>Alignment </strong>— we want models to do good things and not go against the wishes of humans or its users. The field of figuring out how to make sure this is the case is called Alignment. Notice that this is a confused (but important) term: the goal of making a model that always does good is at odds with the goal of making a model that always does what we ask it to do (even if it's not good). Often “alignment” is used to refer to both of these goals</li>
-<li><strong>Loss of control </strong>— a hypothetical situation where the creators of an AI lose control of it, potentially forever</li>
+<li><strong>Reinforcement learning</strong> — a post-training process where the model <em>teaches itself how to solve new tasks. </em>Importantly, we don't even need to know how to solve the task ourselves, we just need to know whether a provided solution is good. This technique is fundamentally how models get <em>very good</em> at specific tasks like writing poetry or computer code. It's also the way that the model can get <em>better than human</em>: it isn't limited to learning from what humans have written, it figures things out on its own.</li>
+<li><strong>ASI </strong>— artificial superintelligence, or often just “superintelligence”. Sometimes “transformational AI”. Like AGI, this is a fuzzy term, but broadly means AI that is better than all humans at all cognitive tasks. Better than Einstein at physics, etc.</li>
+<li><strong>Superhuman </strong>— narrowly, if a model is better than all humans at a specific thing, we say it is superhuman at that task. Using reinforcement learning and other techniques, we have already made superhuman models at things like chess and Go, and we likely will have superhuman coding within a year, perhaps two.</li>
+<li><strong>Alignment </strong>— we want models to do good things and not go against the wishes of humans or their users. The field of figuring out how to make sure this is the case is called Alignment. Notice that this is a confused (but important) term: the goal of making a model that always does good is at odds with the goal of making a model that always does what we ask it to do (even if it's not good). Often “alignment” is used to refer to both of these goals.</li>
+<li><strong>Loss of control </strong>— a hypothetical situation where the creators of an AI lose control of it, potentially forever.</li>
 <li><strong>Recursive self-improvement </strong>— we are training AI to get good at almost every task, and one of those tasks includes the task of building better AIs. Once an AI can build a better AI, that better AI can then build an even better AI, etc. This loop of an AI constantly improving itself is called recursive self-improvement. We don’t know how fast it will be, or how powerful an AI will become once it is able to do this. We don’t know when an AI will be able to start this loop. But many suspect it may be only a few years away. Often the arrival of this moment is assumed to be when “the singularity” will occur.</li>
-<li><strong>Singularity </strong>— a term used to denote a future where technology is moving so quickly that humans can no longer keep up, usually used synonymously with the advent of superintelligence </li>
-<li><strong>GPU </strong>— graphics processing unit, despite its name these are used for powering AI. If AI is like nuclear technology, then GPUs are like uranium, and the geopolitical tension around the GPU supply chain will likely be similarly intense</li>
+<li><strong>Singularity </strong>— a term used to denote a future where technology is moving so quickly that humans can no longer keep up, usually used synonymously with the advent of superintelligence.</li>
+<li><strong>GPU </strong>— graphics processing unit. Despite its name, these are used for powering AI. If AI is like nuclear technology, then GPUs are like uranium, and the geopolitical tension around the GPU supply chain will likely be similarly intense.</li>
 <li><strong>NVIDIA </strong>— the most successful producer of GPUs in the world, and (at various points in time) the most valuable company in the world. While there are other producers of chips used for AI, NVIDIA builds the lion’s share of AI processors. NVIDIA is a savvy company, and fights hard to prevent monopsony: they carefully dole out their precious goods to many AI companies, to try to ensure there is not a winner-take-all outcome among builders of AI. They, of course, fight to be the winner-take-all <em>provider</em> of AI chips.</li>
 <li><strong>TSMC </strong>— NVIDIA <em>designs</em> AI chips, but TSMC is the company that <em>builds</em> them. Unlike NVIDIA, there is currently no competitor to TSMC that can build a comparable chip. This makes TSMC one of the biggest bottlenecks in scaling AI. It also creates a massive geopolitical risk: TSMC is based in Taiwan.</li>
-<li><strong>Taiwan </strong>— the country where TSMC builds the top end NVIDIA GPUs. Officially there is a “one China policy,” which is a political standoff between Taiwan and mainland China (PRC, the People’s Republic of China) where each claims to be the true government of a single, unified China. In practice, that is a status quo used by Taiwan to maintain independence while letting the PRC save face. The West has historically tacitly supported Taiwan’s independence, and the AI industry’s current extreme dependence on TSMC makes this even more important.</li>
-<li><strong>China </strong>— of course, China knows this. China has had plans to absorb Taiwan for decades, but have mostly shied due to the extreme scale such a conflict would require. But, as the race toward AI supremacy heats up, the Taiwan chess piece will become a critical focal point. America is racing to regain their ability to produce cutting-edge AI chips —which they previously had with Intel— while China is racing to gain this ability on the mainland for the first time. Both will take years to achieve, and the race to AGI might be over before then, placing even more pressure on the strategic importance of Taiwan.</li>
+<li><strong>Taiwan </strong>— the country where TSMC builds the top-end NVIDIA GPUs. Officially there is a “one China policy,” which is a political standoff between Taiwan and mainland China (PRC, the People’s Republic of China) where each claims to be the true government of a single, unified China. In practice, that is a status quo used by Taiwan to maintain independence while letting the PRC save face. The West has historically tacitly supported Taiwan’s independence, and the AI industry’s current extreme dependence on TSMC makes this even more important.</li>
+<li><strong>China </strong>— of course, China knows this. China has had plans to absorb Taiwan for decades, but has mostly shied away due to the extreme scale such a conflict would require. But, as the race toward AI supremacy heats up, the Taiwan chess piece will become a critical focal point. America is racing to regain their ability to produce cutting-edge AI chips —which they previously had with Intel— while China is racing to gain this ability on the mainland for the first time. Both will take years to achieve, and the race to AGI might be over before then, placing even more pressure on the strategic importance of Taiwan.</li>
 <li><strong>ASML </strong>— There is one further supply chain chokepoint with building AI. ASML is a Dutch company that builds the EUV machine used by TSMC to build the chips designed by NVIDIA to power AI built by OpenAI, Anthropic, DeepMind, and others. The EUV machine is the light source used to etch the nanoscale circuits onto AI chips. It’s widely believed that reproducing the ASML EUV technology is a multi-decade effort.</li>
-<li><strong>Europe </strong>— in recent years Europe has been losing their competitive advantage in both software and hardware. On top of this, Europe has been aggressive about rolling out regulations that slow down software and AI deployments. Because of that, Europe has often been written off as no longer a key player in this race. However, they still hold ASML, they still have large budgets, a highly technical citizenry, and recently —with the ongoing deterioration of US-EU relations— an increased desire to catch up and stand on their own.</li>
+<li><strong>Europe </strong>— in recent years Europe has been losing its competitive advantage in both software and hardware. On top of this, Europe has been aggressive about rolling out regulations that slow down software and AI deployments. Because of that, Europe has often been written off as no longer a key player in this race. However, they still hold ASML, they still have large budgets, a highly technical citizenry, and recently —with the ongoing deterioration of US-EU relations— an increased desire to catch up and stand on their own.</li>
 <li><strong>Compute thresholds </strong>— there have been very few AI regulations passed. Of the few that have <em>almost</em> passed, a common component is a “compute threshold”. AI gets more powerful as it uses more compute. So the basic idea of a compute threshold is to treat more powerful AIs differently based on whether they used a certain amount of compute. For example, this could allow for a regulation to apply to superintelligent AI, while simultaneously not applying to smaller AIs used by startups or independent citizens.</li>
 <li><strong>Misuse </strong>— “AI misuse” or often just “misuse” for short, is the intentional misuse of AI. For example, using AI for terrorism, for misinformation, or for cyberhacking. Using AI to subvert democracy classifies as misuse, but is typically not discussed in that setting.</li>
 <li><strong>Safety </strong>— “AI safety” or often just “safety”, is the study and practice of how to make sure AI doesn’t cause harm. Preventing misuse is one form of safety, as is preventing misalignment and loss of control.</li>
@@ -541,8 +597,8 @@
 <li><strong>e/acc </strong>— short for effective accelerationism, a countermovement that advocates for pro-growth policy and typically also a hands-off approach to AI safety.</li>
 <li><strong>Data center </strong>— today the most powerful AIs require vast numbers of GPUs. Instead of being run on small computers, they must be run on large arrays of computers called data centers. This puts additional constraints on where AI capacity can be allocated. It requires land <em>and</em> access to excess power.</li>
 <li><strong>YIMBY </strong>— Yes In My Back Yard. YIMBYism is a countermovement against NIMBYism (Not In My Backyard). YIMBYs fight for growth because it leads to what most people need: cheaper housing, cheaper goods, and a lower cost of living.</li>
-<li><strong>Offense vs defense balance </strong>— when new technologies are introduced they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it’s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. Often, however, you might wish to know the direction balance will shift, because it may influence your decision on many aspects of the technology such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.</li>
-<li><strong>Robotics </strong>— today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.</li>
+<li><strong>Offense vs defense balance </strong>— when new technologies are introduced, they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it’s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. If you could predict how the balance would shift, it would likely influence your decision on many aspects of the technology, such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.</li>
+<li><strong>Robotics </strong>— today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically, this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily, this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.</li>
 </ul>
 
         </div>

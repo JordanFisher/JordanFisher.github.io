@@ -173,14 +173,14 @@
       },
       {
         "startIndex": 674,
-        "endIndex": 1116,
+        "endIndex": 1117,
         "paragraph": {
           "elements": [
             {
               "startIndex": 674,
-              "endIndex": 1116,
+              "endIndex": 1117,
               "textRun": {
-                "content": "But, fine, you\u2019ve seen new technology before. If you were born before 1990 you saw the heyday of Moore\u2019s law, the rise of the internet, the advent of smartphones, and the transformation of nearly every type of social interaction through social media: from dating to shaming, from politics to condolences. You\u2019ve seen all these things come on fast, and then get so integrated into society they\u2019re almost forgotten about. Not worth discussing.\n",
+                "content": "But, fine, you\u2019ve seen new technology before. If you were born before 1990, you saw the heyday of Moore\u2019s law, the rise of the internet, the advent of smartphones, and the transformation of nearly every type of social interaction through social media: from dating to shaming, from politics to condolences. You\u2019ve seen all these things come on fast, and then get so integrated into society they\u2019re almost forgotten about. Not worth discussing.\n",
                 "textStyle": {}
               }
             }
@@ -192,13 +192,13 @@
         }
       },
       {
-        "startIndex": 1116,
-        "endIndex": 1117,
+        "startIndex": 1117,
+        "endIndex": 1118,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1116,
-              "endIndex": 1117,
+              "startIndex": 1117,
+              "endIndex": 1118,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -212,13 +212,13 @@
         }
       },
       {
-        "startIndex": 1117,
-        "endIndex": 1275,
+        "startIndex": 1118,
+        "endIndex": 1276,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1117,
-              "endIndex": 1275,
+              "startIndex": 1118,
+              "endIndex": 1276,
               "textRun": {
                 "content": "Isn\u2019t AI just another new technology? Is there really so much more progress in front of us that society is in danger? That our lives literally are in danger?\n",
                 "textStyle": {}
@@ -232,13 +232,13 @@
         }
       },
       {
-        "startIndex": 1275,
-        "endIndex": 1276,
+        "startIndex": 1276,
+        "endIndex": 1277,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1275,
-              "endIndex": 1276,
+              "startIndex": 1276,
+              "endIndex": 1277,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -252,13 +252,13 @@
         }
       },
       {
-        "startIndex": 1276,
-        "endIndex": 1281,
+        "startIndex": 1277,
+        "endIndex": 1282,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1276,
-              "endIndex": 1281,
+              "startIndex": 1277,
+              "endIndex": 1282,
               "textRun": {
                 "content": "Yes.\n",
                 "textStyle": {}
@@ -272,53 +272,13 @@
         }
       },
       {
-        "startIndex": 1281,
-        "endIndex": 1282,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1281,
-              "endIndex": 1282,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 1282,
-        "endIndex": 1606,
+        "endIndex": 1283,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1282,
-              "endIndex": 1606,
-              "textRun": {
-                "content": "And the future depends on understanding this. There is so little time left that if you wait for a more clear signal, the moment to make a difference will be gone. Moreover, the way we choose to intervene and try to guide society needs to change with the realities of how this technology will mature. All the details matter.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 1606,
-        "endIndex": 1607,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1606,
-              "endIndex": 1607,
+              "endIndex": 1283,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -332,13 +292,53 @@
         }
       },
       {
-        "startIndex": 1607,
-        "endIndex": 1824,
+        "startIndex": 1283,
+        "endIndex": 1604,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1607,
-              "endIndex": 1824,
+              "startIndex": 1283,
+              "endIndex": 1604,
+              "textRun": {
+                "content": "And the future depends on understanding this. There is so little time left that if you wait for a clearer signal, the moment to make a difference will be gone. Moreover, the way we choose to intervene and try to guide society needs to change with the realities of how this technology will mature. All the details matter.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1604,
+        "endIndex": 1605,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1604,
+              "endIndex": 1605,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1605,
+        "endIndex": 1822,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1605,
+              "endIndex": 1822,
               "textRun": {
                 "content": "Let\u2019s work through some of the details to better understand why AI is accelerating. Those details will help inform how we predict the future will unfold, and what changes we\u2019ll need to ensure that future is positive.\n",
                 "textStyle": {}
@@ -352,13 +352,13 @@
         }
       },
       {
-        "startIndex": 1824,
-        "endIndex": 1825,
+        "startIndex": 1822,
+        "endIndex": 1823,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1824,
-              "endIndex": 1825,
+              "startIndex": 1822,
+              "endIndex": 1823,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -378,13 +378,13 @@
         }
       },
       {
-        "startIndex": 1825,
-        "endIndex": 1849,
+        "startIndex": 1823,
+        "endIndex": 1847,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1825,
-              "endIndex": 1849,
+              "startIndex": 1823,
+              "endIndex": 1847,
               "textRun": {
                 "content": "The horizon of an agent\n",
                 "textStyle": {}
@@ -399,15 +399,15 @@
         }
       },
       {
-        "startIndex": 1849,
-        "endIndex": 2236,
+        "startIndex": 1847,
+        "endIndex": 2235,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1849,
-              "endIndex": 2236,
+              "startIndex": 1847,
+              "endIndex": 2235,
               "textRun": {
-                "content": "AIs know more than any human alive, by many orders of magnitude. In terms of pure question answering ability, they\u2019re now outpacing even most professionals. I hold a PhD in computational fluid dynamics, and I can't hold my own against AI even in this narrow domain I spent years mastering. If you have a question about fluid dynamics, today you\u2019re better off asking an AI rather than me\n",
+                "content": "AIs know more than any human alive, by many orders of magnitude. In terms of pure question answering ability, they\u2019re now outpacing even most professionals. I hold a PhD in computational fluid dynamics, and I can't hold my own against AI even in this narrow domain I spent years mastering. If you have a question about fluid dynamics, today you\u2019re better off asking an AI rather than me.\n",
                 "textStyle": {}
               }
             }
@@ -433,21 +433,21 @@
         }
       },
       {
-        "startIndex": 2236,
+        "startIndex": 2235,
         "endIndex": 2361,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2236,
-              "endIndex": 2278,
+              "startIndex": 2235,
+              "endIndex": 2277,
               "textRun": {
                 "content": "But AIs still aren\u2019t as good as humans at ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 2278,
-              "endIndex": 2290,
+              "startIndex": 2277,
+              "endIndex": 2289,
               "textRun": {
                 "content": "doing things",
                 "textStyle": {
@@ -456,10 +456,10 @@
               }
             },
             {
-              "startIndex": 2290,
+              "startIndex": 2289,
               "endIndex": 2361,
               "textRun": {
-                "content": ". We call this \u201cagency\u201d, and AIs that perform actions we call \u201cagents\u201d\n",
+                "content": ". We call this \u201cagency\u201d, and AIs that perform actions we call \u201cagents\u201d.\n",
                 "textStyle": {}
               }
             }
@@ -486,14 +486,14 @@
       },
       {
         "startIndex": 2361,
-        "endIndex": 2631,
+        "endIndex": 2632,
         "paragraph": {
           "elements": [
             {
               "startIndex": 2361,
-              "endIndex": 2631,
+              "endIndex": 2632,
               "textRun": {
-                "content": "Why do AIs seem so smart, but are still so bad at doing things? With humans we\u2019d call this gap tacit knowledge. You can read every book in the world on how to build a car engine, but you won\u2019t really know how to build one until you pick up a wrench and do it many times\n",
+                "content": "Why do AIs seem so smart, but are still so bad at doing things? With humans we\u2019d call this gap tacit knowledge. You can read every book in the world on how to build a car engine, but you won\u2019t really know how to build one until you pick up a wrench and do it many times.\n",
                 "textStyle": {}
               }
             }
@@ -519,15 +519,15 @@
         }
       },
       {
-        "startIndex": 2631,
-        "endIndex": 2735,
+        "startIndex": 2632,
+        "endIndex": 2737,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2631,
-              "endIndex": 2735,
+              "startIndex": 2632,
+              "endIndex": 2737,
               "textRun": {
-                "content": "Tacit knowledge isn\u2019t written down. It\u2019s not on the internet. You have to discover it yourself by doing\n",
+                "content": "Tacit knowledge isn\u2019t written down. It\u2019s not on the internet. You have to discover it yourself by doing.\n",
                 "textStyle": {}
               }
             }
@@ -553,21 +553,21 @@
         }
       },
       {
-        "startIndex": 2735,
-        "endIndex": 2845,
+        "startIndex": 2737,
+        "endIndex": 2848,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2735,
-              "endIndex": 2786,
+              "startIndex": 2737,
+              "endIndex": 2788,
               "textRun": {
                 "content": "Only now, in the last year or so, have AIs started ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 2786,
-              "endIndex": 2791,
+              "startIndex": 2788,
+              "endIndex": 2793,
               "textRun": {
                 "content": "doing",
                 "textStyle": {
@@ -576,10 +576,10 @@
               }
             },
             {
-              "startIndex": 2791,
-              "endIndex": 2845,
+              "startIndex": 2793,
+              "endIndex": 2848,
               "textRun": {
-                "content": ". Now that they are, they are rapidly improving at it\n",
+                "content": ". Now that they are, they are rapidly improving at it.\n",
                 "textStyle": {}
               }
             }
@@ -605,15 +605,15 @@
         }
       },
       {
-        "startIndex": 2845,
-        "endIndex": 2956,
+        "startIndex": 2848,
+        "endIndex": 2960,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2845,
-              "endIndex": 2956,
+              "startIndex": 2848,
+              "endIndex": 2960,
               "textRun": {
-                "content": "As the AIs improve at doing things, we look at which tasks they\u2019re good at, and which they\u2019re still failing at\n",
+                "content": "As the AIs improve at doing things, we look at which tasks they\u2019re good at, and which they\u2019re still failing at.\n",
                 "textStyle": {}
               }
             }
@@ -639,15 +639,15 @@
         }
       },
       {
-        "startIndex": 2956,
-        "endIndex": 3265,
+        "startIndex": 2960,
+        "endIndex": 3270,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2956,
-              "endIndex": 3265,
+              "startIndex": 2960,
+              "endIndex": 3270,
               "textRun": {
-                "content": "In general, what we see is that today the AIs are better at tasks that take less time. This is more or less the same as the developmental progress of a student, or of a new employee. First you need to break down tasks into small chunks for the student, but over time you can give them bigger and bigger tasks\n",
+                "content": "In general, what we see is that today the AIs are better at tasks that take less time. This is more or less the same as the developmental progress of a student, or of a new employee. First you need to break down tasks into small chunks for the student, but over time you can give them bigger and bigger tasks.\n",
                 "textStyle": {}
               }
             }
@@ -673,13 +673,13 @@
         }
       },
       {
-        "startIndex": 3265,
-        "endIndex": 3495,
+        "startIndex": 3270,
+        "endIndex": 3500,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3265,
-              "endIndex": 3495,
+              "startIndex": 3270,
+              "endIndex": 3500,
               "textRun": {
                 "content": "We call the length of a task that an AI can handle their \u201chorizon\u201d. As AIs improve, so does their horizon. The capability of an AI is now best measured in units of time. How long is their horizon? How big of a task can I give it?\n",
                 "textStyle": {}
@@ -707,13 +707,13 @@
         }
       },
       {
-        "startIndex": 3495,
-        "endIndex": 3496,
+        "startIndex": 3500,
+        "endIndex": 3501,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3495,
-              "endIndex": 3496,
+              "startIndex": 3500,
+              "endIndex": 3501,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -733,13 +733,13 @@
         }
       },
       {
-        "startIndex": 3496,
-        "endIndex": 3518,
+        "startIndex": 3501,
+        "endIndex": 3523,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3496,
-              "endIndex": 3518,
+              "startIndex": 3501,
+              "endIndex": 3523,
               "textRun": {
                 "content": "The quick glance rule\n",
                 "textStyle": {}
@@ -754,15 +754,15 @@
         }
       },
       {
-        "startIndex": 3518,
-        "endIndex": 3613,
+        "startIndex": 3523,
+        "endIndex": 3619,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3518,
-              "endIndex": 3613,
+              "startIndex": 3523,
+              "endIndex": 3619,
               "textRun": {
-                "content": "The shortest horizon is a task that can be done immediately, intuitively, or at a quick glance\n",
+                "content": "The shortest horizon is a task that can be done immediately, intuitively, or at a quick glance.\n",
                 "textStyle": {}
               }
             }
@@ -788,15 +788,15 @@
         }
       },
       {
-        "startIndex": 3613,
-        "endIndex": 3713,
+        "startIndex": 3619,
+        "endIndex": 3720,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3613,
-              "endIndex": 3713,
+              "startIndex": 3619,
+              "endIndex": 3720,
               "textRun": {
-                "content": "Look at a picture of a cat, and you know quickly that it\u2019s a cat, without even consciously thinking\n",
+                "content": "Look at a picture of a cat, and you know quickly that it\u2019s a cat, without even consciously thinking.\n",
                 "textStyle": {}
               }
             }
@@ -822,15 +822,15 @@
         }
       },
       {
-        "startIndex": 3713,
-        "endIndex": 3853,
+        "startIndex": 3720,
+        "endIndex": 3861,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3713,
-              "endIndex": 3853,
+              "startIndex": 3720,
+              "endIndex": 3861,
               "textRun": {
-                "content": "10 years ago, these were the hard tasks we were training AI to be good at. Identifying cats wasn\u2019t easy, but you could do it with hard work\n",
+                "content": "10 years ago, these were the hard tasks we were training AI to be good at. Identifying cats wasn\u2019t easy, but you could do it with hard work.\n",
                 "textStyle": {}
               }
             }
@@ -856,15 +856,15 @@
         }
       },
       {
-        "startIndex": 3853,
-        "endIndex": 4044,
+        "startIndex": 3861,
+        "endIndex": 4053,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3853,
-              "endIndex": 4044,
+              "startIndex": 3861,
+              "endIndex": 4053,
               "textRun": {
-                "content": "To train an AI, you would collect millions of pictures of cats and not-cats, and hand label them. Then you would teach the AI with these costly labels, a process known as supervised learning\n",
+                "content": "To train an AI, you would collect millions of pictures of cats and not-cats, and hand label them. Then you would teach the AI with these costly labels, a process known as supervised learning.\n",
                 "textStyle": {}
               }
             }
@@ -890,15 +890,15 @@
         }
       },
       {
-        "startIndex": 4044,
-        "endIndex": 4255,
+        "startIndex": 4053,
+        "endIndex": 4265,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4044,
-              "endIndex": 4255,
+              "startIndex": 4053,
+              "endIndex": 4265,
               "textRun": {
-                "content": "At the time, Andrew Ng, a famous AI researcher, popularized the idea of \u201cat a glance\u201d tasks. If a human can do something at a glance, then so can an AI \u2014 if you put in the hard work of using supervised training\n",
+                "content": "At the time, Andrew Ng, a famous AI researcher, popularized the idea of \u201cat a glance\u201d tasks. If a human can do something at a glance, then so can an AI \u2014 if you put in the hard work of using supervised training.\n",
                 "textStyle": {}
               }
             }
@@ -924,15 +924,15 @@
         }
       },
       {
-        "startIndex": 4255,
-        "endIndex": 4390,
+        "startIndex": 4265,
+        "endIndex": 4401,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4255,
-              "endIndex": 4390,
+              "startIndex": 4265,
+              "endIndex": 4401,
               "textRun": {
-                "content": "Many companies were built on this insight, and it led to great improvements in things like handwriting recognition for the Post Office\n",
+                "content": "Many companies were built on this insight, and it led to great improvements in things like handwriting recognition for the Post Office.\n",
                 "textStyle": {}
               }
             }
@@ -958,15 +958,15 @@
         }
       },
       {
-        "startIndex": 4390,
-        "endIndex": 4616,
+        "startIndex": 4401,
+        "endIndex": 4628,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4390,
-              "endIndex": 4616,
+              "startIndex": 4401,
+              "endIndex": 4628,
               "textRun": {
-                "content": "This was a massive surprise in AI at the time, and jump started what was known as the \u201cDeep Learning\u201d revolution. For the 50 years of AI research leading up to this, we had no idea how to build an AI that could recognize cats\n",
+                "content": "This was a massive surprise in AI at the time, and jump-started what was known as the \u201cDeep Learning\u201d revolution. For the 50 years of AI research leading up to this, we had no idea how to build an AI that could recognize cats.\n",
                 "textStyle": {}
               }
             }
@@ -990,15 +990,15 @@
         }
       },
       {
-        "startIndex": 4616,
-        "endIndex": 4814,
+        "startIndex": 4628,
+        "endIndex": 4827,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4616,
-              "endIndex": 4814,
+              "startIndex": 4628,
+              "endIndex": 4827,
               "textRun": {
-                "content": "Today, AIs can recognize not just cats, but differences in cat breeds better than almost any human. Likewise for dogs, cars, trees, or basically pictures of almost anything that exists in our world\n",
+                "content": "Today, AIs can recognize not just cats, but differences in cat breeds better than almost any human. Likewise for dogs, cars, trees, or basically pictures of almost anything that exists in our world.\n",
                 "textStyle": {}
               }
             }
@@ -1024,15 +1024,15 @@
         }
       },
       {
-        "startIndex": 4814,
-        "endIndex": 5174,
+        "startIndex": 4827,
+        "endIndex": 5188,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4814,
-              "endIndex": 5174,
+              "startIndex": 4827,
+              "endIndex": 5188,
               "textRun": {
-                "content": "Not only do modern AIs already have superhuman breadth, they have integrated their knowledge together. For example, as of early 2025, ChatGPT can now identify the location at which almost any photo was taken. It does this by recognizing plants, landmarks, signs, and other details, and then integrating together that information to deduce a plausible location\n",
+                "content": "Not only do modern AIs already have superhuman breadth, they have integrated their knowledge together. For example, as of early 2025, ChatGPT can now identify the location at which almost any photo was taken. It does this by recognizing plants, landmarks, signs, and other details, and then integrating together that information to deduce a plausible location.\n",
                 "textStyle": {}
               }
             }
@@ -1058,13 +1058,13 @@
         }
       },
       {
-        "startIndex": 5174,
-        "endIndex": 5175,
+        "startIndex": 5188,
+        "endIndex": 5189,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5174,
-              "endIndex": 5175,
+              "startIndex": 5188,
+              "endIndex": 5189,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1078,13 +1078,13 @@
         }
       },
       {
-        "startIndex": 5175,
-        "endIndex": 5195,
+        "startIndex": 5189,
+        "endIndex": 5209,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5175,
-              "endIndex": 5195,
+              "startIndex": 5189,
+              "endIndex": 5209,
               "textRun": {
                 "content": "Answering questions\n",
                 "textStyle": {}
@@ -1099,15 +1099,15 @@
         }
       },
       {
-        "startIndex": 5195,
-        "endIndex": 5274,
+        "startIndex": 5209,
+        "endIndex": 5289,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5195,
-              "endIndex": 5274,
+              "startIndex": 5209,
+              "endIndex": 5289,
               "textRun": {
-                "content": "Many types of questions are also answered \u201cat a glance\u201d. If you know, you know\n",
+                "content": "Many types of questions are also answered \u201cat a glance\u201d. If you know, you know.\n",
                 "textStyle": {}
               }
             }
@@ -1133,15 +1133,15 @@
         }
       },
       {
-        "startIndex": 5274,
-        "endIndex": 5460,
+        "startIndex": 5289,
+        "endIndex": 5476,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5274,
-              "endIndex": 5460,
+              "startIndex": 5289,
+              "endIndex": 5476,
               "textRun": {
-                "content": "If you spend time with deep experts and you ask them hard questions about their field, they rarely hesitate to answer. They don\u2019t need to think or reason first, they simply already know\n",
+                "content": "If you spend time with deep experts and you ask them hard questions about their field, they rarely hesitate to answer. They don\u2019t need to think or reason first, they simply already know.\n",
                 "textStyle": {}
               }
             }
@@ -1167,15 +1167,15 @@
         }
       },
       {
-        "startIndex": 5460,
-        "endIndex": 5621,
+        "startIndex": 5476,
+        "endIndex": 5638,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5460,
-              "endIndex": 5621,
+              "startIndex": 5476,
+              "endIndex": 5638,
               "textRun": {
-                "content": "This too is a type of short horizon task, but it wasn\u2019t until a couple of years ago with the arrival of ChatGPT that we had AIs that could do this passably well\n",
+                "content": "This too is a type of short horizon task, but it wasn\u2019t until a couple of years ago with the arrival of ChatGPT that we had AIs that could do this passably well.\n",
                 "textStyle": {}
               }
             }
@@ -1201,13 +1201,13 @@
         }
       },
       {
-        "startIndex": 5621,
-        "endIndex": 5635,
+        "startIndex": 5638,
+        "endIndex": 5652,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5621,
-              "endIndex": 5635,
+              "startIndex": 5638,
+              "endIndex": 5652,
               "textRun": {
                 "content": "What changed?\n",
                 "textStyle": {}
@@ -1235,15 +1235,15 @@
         }
       },
       {
-        "startIndex": 5635,
-        "endIndex": 5743,
+        "startIndex": 5652,
+        "endIndex": 5761,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5635,
-              "endIndex": 5743,
+              "startIndex": 5652,
+              "endIndex": 5761,
               "textRun": {
-                "content": "We figured out how to let the AI teach itself from reading, and then we gave it the entire internet to read\n",
+                "content": "We figured out how to let the AI teach itself from reading, and then we gave it the entire internet to read.\n",
                 "textStyle": {}
               }
             }
@@ -1269,15 +1269,15 @@
         }
       },
       {
-        "startIndex": 5743,
-        "endIndex": 5865,
+        "startIndex": 5761,
+        "endIndex": 5884,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5743,
-              "endIndex": 5865,
+              "startIndex": 5761,
+              "endIndex": 5884,
               "textRun": {
-                "content": "Modern AIs now know basically everything that can be found on the internet, and they understand it at a fairly deep level\n",
+                "content": "Modern AIs now know basically everything that can be found on the internet, and they understand it at a fairly deep level.\n",
                 "textStyle": {}
               }
             }
@@ -1303,13 +1303,13 @@
         }
       },
       {
-        "startIndex": 5865,
-        "endIndex": 5866,
+        "startIndex": 5884,
+        "endIndex": 5885,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5865,
-              "endIndex": 5866,
+              "startIndex": 5884,
+              "endIndex": 5885,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1323,13 +1323,13 @@
         }
       },
       {
-        "startIndex": 5866,
-        "endIndex": 5879,
+        "startIndex": 5885,
+        "endIndex": 5898,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5866,
-              "endIndex": 5879,
+              "startIndex": 5885,
+              "endIndex": 5898,
               "textRun": {
                 "content": "Writing code\n",
                 "textStyle": {}
@@ -1344,15 +1344,15 @@
         }
       },
       {
-        "startIndex": 5879,
-        "endIndex": 5969,
+        "startIndex": 5898,
+        "endIndex": 5989,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5879,
-              "endIndex": 5969,
+              "startIndex": 5898,
+              "endIndex": 5989,
               "textRun": {
-                "content": "Let\u2019s take writing code as a concrete example of a skill that requires practice to master\n",
+                "content": "Let\u2019s take writing code as a concrete example of a skill that requires practice to master.\n",
                 "textStyle": {}
               }
             }
@@ -1378,15 +1378,15 @@
         }
       },
       {
-        "startIndex": 5969,
-        "endIndex": 6058,
+        "startIndex": 5989,
+        "endIndex": 6079,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5969,
-              "endIndex": 6058,
+              "startIndex": 5989,
+              "endIndex": 6079,
               "textRun": {
-                "content": "The original GPT-4 came out in March 2023, just two years ago from when I\u2019m writing this\n",
+                "content": "The original GPT-4 came out in March 2023, just two years ago from when I\u2019m writing this.\n",
                 "textStyle": {}
               }
             }
@@ -1412,15 +1412,15 @@
         }
       },
       {
-        "startIndex": 6058,
-        "endIndex": 6205,
+        "startIndex": 6079,
+        "endIndex": 6227,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6058,
-              "endIndex": 6205,
+              "startIndex": 6079,
+              "endIndex": 6227,
               "textRun": {
-                "content": "At the time, it was already quite fluent at answering questions about code. Which makes sense, it had likely read most of the code on the internet\n",
+                "content": "At the time, it was already quite fluent at answering questions about code. Which makes sense, it had likely read most of the code on the internet.\n",
                 "textStyle": {}
               }
             }
@@ -1446,21 +1446,21 @@
         }
       },
       {
-        "startIndex": 6205,
-        "endIndex": 6345,
+        "startIndex": 6227,
+        "endIndex": 6368,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6205,
-              "endIndex": 6278,
+              "startIndex": 6227,
+              "endIndex": 6300,
               "textRun": {
                 "content": "But while GPT could answer many questions about code, it wasn\u2019t great at ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 6278,
-              "endIndex": 6285,
+              "startIndex": 6300,
+              "endIndex": 6307,
               "textRun": {
                 "content": "writing",
                 "textStyle": {
@@ -1469,10 +1469,10 @@
               }
             },
             {
-              "startIndex": 6285,
-              "endIndex": 6345,
+              "startIndex": 6307,
+              "endIndex": 6368,
               "textRun": {
-                "content": " code. That wasn\u2019t something it had ever really done before\n",
+                "content": " code. That wasn\u2019t something it had ever really done before.\n",
                 "textStyle": {}
               }
             }
@@ -1498,15 +1498,15 @@
         }
       },
       {
-        "startIndex": 6345,
-        "endIndex": 6444,
+        "startIndex": 6368,
+        "endIndex": 6468,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6345,
-              "endIndex": 6444,
+              "startIndex": 6368,
+              "endIndex": 6468,
               "textRun": {
-                "content": "But, even still, it could write small pieces of code, if you gave it a bite sized problem to solve\n",
+                "content": "But, even still, it could write small pieces of code, if you gave it a bite-sized problem to solve.\n",
                 "textStyle": {}
               }
             }
@@ -1532,15 +1532,15 @@
         }
       },
       {
-        "startIndex": 6444,
-        "endIndex": 6672,
+        "startIndex": 6468,
+        "endIndex": 6697,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6444,
-              "endIndex": 6672,
+              "startIndex": 6468,
+              "endIndex": 6697,
               "textRun": {
-                "content": "This was already revolutionary. We went from AIs that could only solve tasks that can be done \u201cat a glance\u201d, to tasks that might take a few seconds to complete. Still, this was far from something that could automate programming\n",
+                "content": "This was already revolutionary. We went from AIs that could only solve tasks that can be done \u201cat a glance\u201d, to tasks that might take a few seconds to complete. Still, this was far from something that could automate programming.\n",
                 "textStyle": {}
               }
             }
@@ -1566,15 +1566,15 @@
         }
       },
       {
-        "startIndex": 6672,
-        "endIndex": 6995,
+        "startIndex": 6697,
+        "endIndex": 7021,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6672,
-              "endIndex": 6995,
+              "startIndex": 6697,
+              "endIndex": 7021,
               "textRun": {
-                "content": "Flash forward to 2025, just two years later, and AIs can now routinely complete programming tasks that would take a human half an hour, sometimes more. These are hard, complex tasks that some human programmers can\u2019t even complete at all. AI can not only complete these tasks now, it can often do it 10x faster than a human\n",
+                "content": "Flash forward to 2025, just two years later, and AIs can now routinely complete programming tasks that would take a human half an hour, sometimes more. These are hard, complex tasks that some human programmers can\u2019t even complete at all. AI can not only complete these tasks now, it can often do it 10x faster than a human.\n",
                 "textStyle": {}
               }
             }
@@ -1600,15 +1600,15 @@
         }
       },
       {
-        "startIndex": 6995,
-        "endIndex": 7250,
+        "startIndex": 7021,
+        "endIndex": 7277,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6995,
-              "endIndex": 7250,
+              "startIndex": 7021,
+              "endIndex": 7277,
               "textRun": {
-                "content": "At the beginning of 2025, OpenAI released o3, which performs at the 99.8th percentile among competitive programmers. Soon after, Anthropic released Sonnet 3.7, which quickly became a nearly mandatory ingredient in most engineers\u2019 toolkit for writing code\n",
+                "content": "At the beginning of 2025, OpenAI released o3, which performs at the 99.8th percentile among competitive programmers. Soon after, Anthropic released Sonnet 3.7, which quickly became a nearly mandatory ingredient in most engineers\u2019 toolkit for writing code.\n",
                 "textStyle": {}
               }
             }
@@ -1634,15 +1634,15 @@
         }
       },
       {
-        "startIndex": 7250,
-        "endIndex": 7371,
+        "startIndex": 7277,
+        "endIndex": 7398,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7250,
-              "endIndex": 7371,
+              "startIndex": 7277,
+              "endIndex": 7398,
               "textRun": {
-                "content": "I'm an expert programmer and have been coding for more than 20 years. Today, AI already writes more than 80% of my code \n",
+                "content": "I'm an expert programmer and have been coding for more than 20 years. Today, AI already writes more than 80% of my code.\n",
                 "textStyle": {}
               }
             }
@@ -1668,15 +1668,15 @@
         }
       },
       {
-        "startIndex": 7371,
-        "endIndex": 7489,
+        "startIndex": 7398,
+        "endIndex": 7516,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7371,
-              "endIndex": 7489,
+              "startIndex": 7398,
+              "endIndex": 7516,
               "textRun": {
-                "content": "How did these AIs so rapidly improve from barely functional to world class? How did their horizon improve so quickly?\n",
+                "content": "How did these AIs so rapidly improve from barely functional to world-class? How did their horizon improve so quickly?\n",
                 "textStyle": {}
               }
             }
@@ -1702,13 +1702,13 @@
         }
       },
       {
-        "startIndex": 7489,
-        "endIndex": 7490,
+        "startIndex": 7516,
+        "endIndex": 7517,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7489,
-              "endIndex": 7490,
+              "startIndex": 7516,
+              "endIndex": 7517,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1722,13 +1722,13 @@
         }
       },
       {
-        "startIndex": 7490,
-        "endIndex": 7491,
+        "startIndex": 7517,
+        "endIndex": 7518,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7490,
-              "endIndex": 7491,
+              "startIndex": 7517,
+              "endIndex": 7518,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1742,13 +1742,13 @@
         }
       },
       {
-        "startIndex": 7491,
-        "endIndex": 7513,
+        "startIndex": 7518,
+        "endIndex": 7540,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7491,
-              "endIndex": 7513,
+              "startIndex": 7518,
+              "endIndex": 7540,
               "textRun": {
                 "content": "Two types of training\n",
                 "textStyle": {}
@@ -1763,15 +1763,15 @@
         }
       },
       {
-        "startIndex": 7513,
-        "endIndex": 7573,
+        "startIndex": 7540,
+        "endIndex": 7601,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7513,
-              "endIndex": 7573,
+              "startIndex": 7540,
+              "endIndex": 7601,
               "textRun": {
-                "content": "Broadly, there are two types of training that AIs use today\n",
+                "content": "Broadly, there are two types of training that AIs use today.\n",
                 "textStyle": {}
               }
             }
@@ -1795,15 +1795,15 @@
         }
       },
       {
-        "startIndex": 7573,
-        "endIndex": 7675,
+        "startIndex": 7601,
+        "endIndex": 7704,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7573,
-              "endIndex": 7675,
+              "startIndex": 7601,
+              "endIndex": 7704,
               "textRun": {
-                "content": "The first is fairly passive. The AI tries to learn ideas and concepts by reading most of the internet\n",
+                "content": "The first is fairly passive. The AI tries to learn ideas and concepts by reading most of the internet.\n",
                 "textStyle": {}
               }
             }
@@ -1829,21 +1829,21 @@
         }
       },
       {
-        "startIndex": 7675,
-        "endIndex": 7888,
+        "startIndex": 7704,
+        "endIndex": 7918,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7675,
-              "endIndex": 7704,
+              "startIndex": 7704,
+              "endIndex": 7733,
               "textRun": {
                 "content": "The second is active. The AI ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7704,
-              "endIndex": 7713,
+              "startIndex": 7733,
+              "endIndex": 7742,
               "textRun": {
                 "content": "practices",
                 "textStyle": {
@@ -1852,10 +1852,10 @@
               }
             },
             {
-              "startIndex": 7713,
-              "endIndex": 7888,
+              "startIndex": 7742,
+              "endIndex": 7918,
               "textRun": {
-                "content": " by doing, and gets feedback from how well it did. This is called Reinforcement Learning or RL, and it\u2019s how AI is finally learning the tacit knowledge needed to be effective\n",
+                "content": " by doing, and gets feedback from how well it did. This is called Reinforcement Learning or RL, and it\u2019s how AI is finally learning the tacit knowledge needed to be effective.\n",
                 "textStyle": {}
               }
             }
@@ -1881,15 +1881,15 @@
         }
       },
       {
-        "startIndex": 7888,
-        "endIndex": 7981,
+        "startIndex": 7918,
+        "endIndex": 8012,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7888,
-              "endIndex": 7981,
+              "startIndex": 7918,
+              "endIndex": 8012,
               "textRun": {
-                "content": "RL has been around for decades, but it\u2019s only recently started working well for our best AIs\n",
+                "content": "RL has been around for decades, but it\u2019s only recently started working well for our best AIs.\n",
                 "textStyle": {}
               }
             }
@@ -1915,21 +1915,21 @@
         }
       },
       {
-        "startIndex": 7981,
-        "endIndex": 8175,
+        "startIndex": 8012,
+        "endIndex": 8207,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7981,
-              "endIndex": 8019,
+              "startIndex": 8012,
+              "endIndex": 8050,
               "textRun": {
                 "content": "The sudden increase in ability of AIs ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8019,
-              "endIndex": 8051,
+              "startIndex": 8050,
+              "endIndex": 8082,
               "textRun": {
                 "content": "actually being able to do things",
                 "textStyle": {
@@ -1938,10 +1938,10 @@
               }
             },
             {
-              "startIndex": 8051,
-              "endIndex": 8175,
+              "startIndex": 8082,
+              "endIndex": 8207,
               "textRun": {
-                "content": " comes from this training. This happened in just the last year, and is often discussed as the arrival of \u201creasoning models\u201d\n",
+                "content": " comes from this training. This happened in just the last year, and is often discussed as the arrival of \u201creasoning models\u201d.\n",
                 "textStyle": {}
               }
             }
@@ -1967,15 +1967,15 @@
         }
       },
       {
-        "startIndex": 8175,
-        "endIndex": 8296,
+        "startIndex": 8207,
+        "endIndex": 8329,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8175,
-              "endIndex": 8296,
+              "startIndex": 8207,
+              "endIndex": 8329,
               "textRun": {
-                "content": "We ask the AI to try to do things, over and over, millions of times, and it figures out what works and what doesn\u2019t work\n",
+                "content": "We ask the AI to try to do things, over and over, millions of times, and it figures out what works and what doesn\u2019t work.\n",
                 "textStyle": {}
               }
             }
@@ -2001,15 +2001,15 @@
         }
       },
       {
-        "startIndex": 8296,
-        "endIndex": 8478,
+        "startIndex": 8329,
+        "endIndex": 8512,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8296,
-              "endIndex": 8478,
+              "startIndex": 8329,
+              "endIndex": 8512,
               "textRun": {
-                "content": "Critically, we don\u2019t even need to know how to solve the tasks we give the AI. It figures that out on its own. All we need to do is figure out how to tell the AI if it did a good job\n",
+                "content": "Critically, we don\u2019t even need to know how to solve the tasks we give the AI. It figures that out on its own. All we need to do is figure out how to tell the AI if it did a good job.\n",
                 "textStyle": {}
               }
             }
@@ -2035,21 +2035,21 @@
         }
       },
       {
-        "startIndex": 8478,
-        "endIndex": 8789,
+        "startIndex": 8512,
+        "endIndex": 8823,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8478,
-              "endIndex": 8531,
+              "startIndex": 8512,
+              "endIndex": 8565,
               "textRun": {
                 "content": "Even that we often don\u2019t know how to do, so we often ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8531,
-              "endIndex": 8587,
+              "startIndex": 8565,
+              "endIndex": 8621,
               "textRun": {
                 "content": "train an AI to figure out how to give feedback to itself",
                 "textStyle": {
@@ -2058,10 +2058,10 @@
               }
             },
             {
-              "startIndex": 8587,
-              "endIndex": 8789,
+              "startIndex": 8621,
+              "endIndex": 8823,
               "textRun": {
-                "content": " in a process called RLHF. This may sound circuitous, but it\u2019s similar to how a coach can help a world class athlete becomes a better athlete, even if the coach themself isn\u2019t and never was world class\n",
+                "content": " in a process called RLHF. This may sound circuitous, but it\u2019s similar to how a coach can help a world-class athlete become a better athlete, even if the coach themself isn\u2019t and never was world-class.\n",
                 "textStyle": {}
               }
             }
@@ -2085,13 +2085,13 @@
         }
       },
       {
-        "startIndex": 8789,
-        "endIndex": 8790,
+        "startIndex": 8823,
+        "endIndex": 8824,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8789,
-              "endIndex": 8790,
+              "startIndex": 8823,
+              "endIndex": 8824,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2105,13 +2105,13 @@
         }
       },
       {
-        "startIndex": 8790,
-        "endIndex": 8821,
+        "startIndex": 8824,
+        "endIndex": 8855,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8790,
-              "endIndex": 8821,
+              "startIndex": 8824,
+              "endIndex": 8855,
               "textRun": {
                 "content": "We\u2019ve seen this before with AI\n",
                 "textStyle": {}
@@ -2126,15 +2126,15 @@
         }
       },
       {
-        "startIndex": 8821,
-        "endIndex": 8916,
+        "startIndex": 8855,
+        "endIndex": 8951,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8821,
-              "endIndex": 8916,
+              "startIndex": 8855,
+              "endIndex": 8951,
               "textRun": {
-                "content": "We\u2019ve seen this sudden improvement in agency and capabilities with AI before, in other domains\n",
+                "content": "We\u2019ve seen this sudden improvement in agency and capabilities with AI before, in other domains.\n",
                 "textStyle": {}
               }
             }
@@ -2160,15 +2160,15 @@
         }
       },
       {
-        "startIndex": 8916,
-        "endIndex": 8998,
+        "startIndex": 8951,
+        "endIndex": 9034,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8916,
-              "endIndex": 8998,
+              "startIndex": 8951,
+              "endIndex": 9034,
               "textRun": {
-                "content": "Take the game of Go. For decades AI struggled to play Go at even an amateur level\n",
+                "content": "Take the game of Go. For decades AI struggled to play Go at even an amateur level.\n",
                 "textStyle": {}
               }
             }
@@ -2194,15 +2194,15 @@
         }
       },
       {
-        "startIndex": 8998,
-        "endIndex": 9181,
+        "startIndex": 9034,
+        "endIndex": 9218,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8998,
-              "endIndex": 9181,
+              "startIndex": 9034,
+              "endIndex": 9218,
               "textRun": {
-                "content": "Then, suddenly, a superhuman AI Go player named AlphaGo emerged in 2016. It beat the world champion Lee Sedol in a globally televised match. Since then AI Go has only gotten stronger\n",
+                "content": "Then, suddenly, a superhuman AI Go player named AlphaGo emerged in 2016. It beat the world champion Lee Sedol in a globally televised match. Since then AI Go has only gotten stronger.\n",
                 "textStyle": {}
               }
             }
@@ -2228,15 +2228,15 @@
         }
       },
       {
-        "startIndex": 9181,
-        "endIndex": 9362,
+        "startIndex": 9218,
+        "endIndex": 9400,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9181,
-              "endIndex": 9362,
+              "startIndex": 9218,
+              "endIndex": 9400,
               "textRun": {
-                "content": "The key ingredient for AlphaGo was also Reinforcement Learning. AlphaGo played millions of games against itself, and figured out for itself what the best strategies and tactics are\n",
+                "content": "The key ingredient for AlphaGo was also Reinforcement Learning. AlphaGo played millions of games against itself, and figured out for itself what the best strategies and tactics are.\n",
                 "textStyle": {}
               }
             }
@@ -2262,15 +2262,15 @@
         }
       },
       {
-        "startIndex": 9362,
-        "endIndex": 9742,
+        "startIndex": 9400,
+        "endIndex": 9773,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9362,
-              "endIndex": 9742,
+              "startIndex": 9400,
+              "endIndex": 9773,
               "textRun": {
-                "content": "Some of the strategies AlphaGo used were difficult even for grandmasters to understand. The famous \u201cmove 37\u201d was a move used in AlphaGo\u2019s game against Lee Sedol that live experts thought was suboptimal. But as the game unfolded the move proved brilliant \u2014 and decisive. The human grandmaster didn't even realize they were losing until much further after it was already inevitable\n",
+                "content": "Some of the strategies AlphaGo used were difficult even for grandmasters to understand. The famous \u201cmove 37\u201d was a move used in AlphaGo\u2019s game against Lee Sedol that live experts thought was suboptimal. But as the game unfolded the move proved brilliant \u2014 and decisive. The human grandmaster didn't even realize they were losing until long after it was already inevitable.\n",
                 "textStyle": {}
               }
             }
@@ -2294,13 +2294,13 @@
         }
       },
       {
-        "startIndex": 9742,
-        "endIndex": 9743,
+        "startIndex": 9773,
+        "endIndex": 9774,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9742,
-              "endIndex": 9743,
+              "startIndex": 9773,
+              "endIndex": 9774,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2314,13 +2314,13 @@
         }
       },
       {
-        "startIndex": 9743,
-        "endIndex": 9797,
+        "startIndex": 9774,
+        "endIndex": 9828,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9743,
-              "endIndex": 9797,
+              "startIndex": 9774,
+              "endIndex": 9828,
               "textRun": {
                 "content": "Why do AIs spend so little time close to human level?\n",
                 "textStyle": {}
@@ -2335,15 +2335,15 @@
         }
       },
       {
-        "startIndex": 9797,
-        "endIndex": 9881,
+        "startIndex": 9828,
+        "endIndex": 9913,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9797,
-              "endIndex": 9881,
+              "startIndex": 9828,
+              "endIndex": 9913,
               "textRun": {
-                "content": "AI Go players went from being hopeless amateurs for decades, to suddenly superhuman\n",
+                "content": "AI Go players went from being hopeless amateurs for decades, to suddenly superhuman.\n",
                 "textStyle": {}
               }
             }
@@ -2369,15 +2369,15 @@
         }
       },
       {
-        "startIndex": 9881,
-        "endIndex": 9967,
+        "startIndex": 9913,
+        "endIndex": 10000,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9881,
-              "endIndex": 9967,
+              "startIndex": 9913,
+              "endIndex": 10000,
               "textRun": {
-                "content": "There was less than a year during which AIs were roughly similar to humans in ability\n",
+                "content": "There was less than a year during which AIs were roughly similar to humans in ability.\n",
                 "textStyle": {}
               }
             }
@@ -2403,15 +2403,15 @@
         }
       },
       {
-        "startIndex": 9967,
-        "endIndex": 10153,
+        "startIndex": 10000,
+        "endIndex": 10187,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9967,
-              "endIndex": 10153,
+              "startIndex": 10000,
+              "endIndex": 10187,
               "textRun": {
-                "content": "The hard task for an AI is getting close to human performance at all. This requires learning abstract concepts about a domain and then understanding relationships between those concepts\n",
+                "content": "The hard task for an AI is getting close to human performance at all. This requires learning abstract concepts about a domain and then understanding relationships between those concepts.\n",
                 "textStyle": {}
               }
             }
@@ -2437,15 +2437,15 @@
         }
       },
       {
-        "startIndex": 10153,
-        "endIndex": 10256,
+        "startIndex": 10187,
+        "endIndex": 10291,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10153,
-              "endIndex": 10256,
+              "startIndex": 10187,
+              "endIndex": 10291,
               "textRun": {
-                "content": "Humans are excellent at this process of abstracting, and are still better than AIs at doing it quickly\n",
+                "content": "Humans are excellent at this process of abstracting, and are still better than AIs at doing it quickly.\n",
                 "textStyle": {}
               }
             }
@@ -2471,15 +2471,15 @@
         }
       },
       {
-        "startIndex": 10256,
-        "endIndex": 10538,
+        "startIndex": 10291,
+        "endIndex": 10575,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10256,
-              "endIndex": 10538,
+              "startIndex": 10291,
+              "endIndex": 10575,
               "textRun": {
-                "content": "However, once an AI has learned the right concepts, it has a massive advantage over humans for what comes next: practicing. An AI can run millions of copies of itself, at thousands of time human speeds, allowing it to practice tasks millions of times more thoroughly than any human\n",
+                "content": "However, once an AI has learned the right concepts, it has a massive advantage over humans for what comes next: practicing. An AI can run millions of copies of itself, at thousands of times human speeds, allowing it to practice tasks millions of times more thoroughly than any human.\n",
                 "textStyle": {}
               }
             }
@@ -2505,15 +2505,15 @@
         }
       },
       {
-        "startIndex": 10538,
-        "endIndex": 10659,
+        "startIndex": 10575,
+        "endIndex": 10697,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10538,
-              "endIndex": 10659,
+              "startIndex": 10575,
+              "endIndex": 10697,
               "textRun": {
-                "content": "For a human, once things \u201cclick\u201d, they still need years or decades to further refine their ability to reach elite levels\n",
+                "content": "For a human, once things \u201cclick\u201d, they still need years or decades to further refine their ability to reach elite levels.\n",
                 "textStyle": {}
               }
             }
@@ -2539,15 +2539,15 @@
         }
       },
       {
-        "startIndex": 10659,
-        "endIndex": 10752,
+        "startIndex": 10697,
+        "endIndex": 10791,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10659,
-              "endIndex": 10752,
+              "startIndex": 10697,
+              "endIndex": 10791,
               "textRun": {
-                "content": "For an AI, once things \u201cclick\u201d, they can often catapult beyond the best human in just months\n",
+                "content": "For an AI, once things \u201cclick\u201d, they can often catapult beyond the best human in just months.\n",
                 "textStyle": {}
               }
             }
@@ -2573,15 +2573,15 @@
         }
       },
       {
-        "startIndex": 10752,
-        "endIndex": 10940,
+        "startIndex": 10791,
+        "endIndex": 10980,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10752,
-              "endIndex": 10940,
+              "startIndex": 10791,
+              "endIndex": 10980,
               "textRun": {
-                "content": "This leads to a deceptive sense of progress. Often an AI struggles at a task, perhaps performing at the level of a child or an amateur, and we think superhuman performance is decades away\n",
+                "content": "This leads to a deceptive sense of progress. Often an AI struggles at a task, perhaps performing at the level of a child or an amateur, and we think superhuman performance is decades away.\n",
                 "textStyle": {}
               }
             }
@@ -2607,15 +2607,15 @@
         }
       },
       {
-        "startIndex": 10940,
-        "endIndex": 11121,
+        "startIndex": 10980,
+        "endIndex": 11167,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10940,
-              "endIndex": 11121,
+              "startIndex": 10980,
+              "endIndex": 11167,
               "textRun": {
-                "content": "However, we repeatedly see that this intermediate level of skill is fleeting \u2014 the period where the AI is similar but not better to most humans is often a very short period of time\n",
+                "content": "However, we repeatedly see that this intermediate level of skill is fleeting \u2014 the period where the AI is similar to but not better than most humans is often a very short period of time.\n",
                 "textStyle": {}
               }
             }
@@ -2641,13 +2641,13 @@
         }
       },
       {
-        "startIndex": 11121,
-        "endIndex": 11122,
+        "startIndex": 11167,
+        "endIndex": 11168,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11121,
-              "endIndex": 11122,
+              "startIndex": 11167,
+              "endIndex": 11168,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2661,13 +2661,13 @@
         }
       },
       {
-        "startIndex": 11122,
-        "endIndex": 11151,
+        "startIndex": 11168,
+        "endIndex": 11197,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11122,
-              "endIndex": 11151,
+              "startIndex": 11168,
+              "endIndex": 11197,
               "textRun": {
                 "content": "Where is AI improving today?\n",
                 "textStyle": {}
@@ -2682,15 +2682,15 @@
         }
       },
       {
-        "startIndex": 11151,
-        "endIndex": 11369,
+        "startIndex": 11197,
+        "endIndex": 11416,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11151,
-              "endIndex": 11369,
+              "startIndex": 11197,
+              "endIndex": 11416,
               "textRun": {
-                "content": "We can leverage this observation to predict where AI will be superhuman tomorrow. We just need to look at where AI is rapidly approaching human levels today, even if it\u2019s the level of an amateur human or a young child\n",
+                "content": "We can leverage this observation to predict where AI will be superhuman tomorrow. We just need to look at where AI is rapidly approaching human levels today, even if it\u2019s the level of an amateur human or a young child.\n",
                 "textStyle": {}
               }
             }
@@ -2716,15 +2716,15 @@
         }
       },
       {
-        "startIndex": 11369,
-        "endIndex": 11746,
+        "startIndex": 11416,
+        "endIndex": 11794,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11369,
-              "endIndex": 11746,
+              "startIndex": 11416,
+              "endIndex": 11794,
               "textRun": {
-                "content": "Robotics is a key example. Like Go, AI control of robotics was nearly comical for decades. In just the last year, we are finally seeing robots that have the dexterity of a child, sometimes better. We\u2019re now at a place where the robot can practice on its own, often in a simulated virtual environment, allowing it to rapidly accumulate millions of years of dexterous experience\n",
+                "content": "Robotics is a key example. Like Go, AI control of robotics was nearly comical for decades. In just the last year, we are finally seeing robots that have the dexterity of a child, sometimes better. We\u2019re now at a place where the robot can practice on its own, often in a simulated virtual environment, allowing it to rapidly accumulate millions of years of dexterous experience.\n",
                 "textStyle": {}
               }
             }
@@ -2750,15 +2750,15 @@
         }
       },
       {
-        "startIndex": 11746,
-        "endIndex": 11878,
+        "startIndex": 11794,
+        "endIndex": 11927,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11746,
-              "endIndex": 11878,
+              "startIndex": 11794,
+              "endIndex": 11927,
               "textRun": {
-                "content": "We should expect to see robots that rival the best humans within a few years. This will revolutionize manufacturing and our economy\n",
+                "content": "We should expect to see robots that rival the best humans within a few years. This will revolutionize manufacturing and our economy.\n",
                 "textStyle": {}
               }
             }
@@ -2784,15 +2784,15 @@
         }
       },
       {
-        "startIndex": 11878,
-        "endIndex": 12147,
+        "startIndex": 11927,
+        "endIndex": 12195,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11878,
-              "endIndex": 12147,
+              "startIndex": 11927,
+              "endIndex": 12195,
               "textRun": {
-                "content": "Today we\u2019re also seeing strong AI competence in medicine, law, accounting, project management, and a myriad other types of knowledge work. We should expect to see superhuman performance in these areas in the next few years as we let the AI practice these roles as well\n",
+                "content": "Today we\u2019re also seeing strong AI competence in medicine, law, accounting, project management, and myriad other types of knowledge work. We should expect to see superhuman performance in these areas in the next few years as we let the AI practice these roles as well.\n",
                 "textStyle": {}
               }
             }
@@ -2818,15 +2818,15 @@
         }
       },
       {
-        "startIndex": 12147,
-        "endIndex": 12307,
+        "startIndex": 12195,
+        "endIndex": 12356,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12147,
-              "endIndex": 12307,
+              "startIndex": 12195,
+              "endIndex": 12356,
               "textRun": {
-                "content": "The impact of this alone is hard to overstate. At the very least, it will upend our economy and force us to redefine the function that jobs have in our society\n",
+                "content": "The impact of this alone is hard to overstate. At the very least, it will upend our economy and force us to redefine the function that jobs have in our society.\n",
                 "textStyle": {}
               }
             }
@@ -2852,15 +2852,15 @@
         }
       },
       {
-        "startIndex": 12307,
-        "endIndex": 12384,
+        "startIndex": 12356,
+        "endIndex": 12434,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12307,
-              "endIndex": 12384,
+              "startIndex": 12356,
+              "endIndex": 12434,
               "textRun": {
-                "content": "But let\u2019s return to coding, it has a special role to play in the near future\n",
+                "content": "But let\u2019s return to coding; it has a special role to play in the near future.\n",
                 "textStyle": {}
               }
             }
@@ -2886,13 +2886,13 @@
         }
       },
       {
-        "startIndex": 12384,
-        "endIndex": 12385,
+        "startIndex": 12434,
+        "endIndex": 12435,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12384,
-              "endIndex": 12385,
+              "startIndex": 12434,
+              "endIndex": 12435,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2906,13 +2906,13 @@
         }
       },
       {
-        "startIndex": 12385,
-        "endIndex": 12411,
+        "startIndex": 12435,
+        "endIndex": 12461,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12385,
-              "endIndex": 12411,
+              "startIndex": 12435,
+              "endIndex": 12461,
               "textRun": {
                 "content": "The next wave of software\n",
                 "textStyle": {}
@@ -2927,15 +2927,15 @@
         }
       },
       {
-        "startIndex": 12411,
-        "endIndex": 12518,
+        "startIndex": 12461,
+        "endIndex": 12569,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12411,
-              "endIndex": 12518,
+              "startIndex": 12461,
+              "endIndex": 12569,
               "textRun": {
-                "content": "AI is now better than many, but not all, programmers at writing code, and the rate of improvement is steep\n",
+                "content": "AI is now better than many, but not all, programmers at writing code, and the rate of improvement is steep.\n",
                 "textStyle": {}
               }
             }
@@ -2961,15 +2961,15 @@
         }
       },
       {
-        "startIndex": 12518,
-        "endIndex": 12643,
+        "startIndex": 12569,
+        "endIndex": 12695,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12518,
-              "endIndex": 12643,
+              "startIndex": 12569,
+              "endIndex": 12695,
               "textRun": {
-                "content": "We\u2019re in the critical time period for this skill where AI is similar to human level, but will likely very soon be superhuman\n",
+                "content": "We\u2019re in the critical time period for this skill where AI is similar to human-level, but will likely very soon be superhuman.\n",
                 "textStyle": {}
               }
             }
@@ -2995,15 +2995,15 @@
         }
       },
       {
-        "startIndex": 12643,
-        "endIndex": 12799,
+        "startIndex": 12695,
+        "endIndex": 12852,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12643,
-              "endIndex": 12799,
+              "startIndex": 12695,
+              "endIndex": 12852,
               "textRun": {
-                "content": "Software is foundational to modern society. Once we automate the creation of software itself we should expect to see an explosion in where software is used\n",
+                "content": "Software is foundational to modern society. Once we automate the creation of software itself we should expect to see an explosion in where software is used.\n",
                 "textStyle": {}
               }
             }
@@ -3029,15 +3029,15 @@
         }
       },
       {
-        "startIndex": 12799,
-        "endIndex": 13132,
+        "startIndex": 12852,
+        "endIndex": 13186,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12799,
-              "endIndex": 13132,
+              "startIndex": 12852,
+              "endIndex": 13186,
               "textRun": {
-                "content": "We should also expect to see a diversification of software, as the cost of creating it goes to zero. Imagine having custom software for every business need, or for every personal need, specifically tailored to do exactly what you want, rather than needing to use software that is muddled up from the needs of millions of other users\n",
+                "content": "We should also expect to see a diversification of software, as the cost of creating it goes to zero. Imagine having custom software for every business need, or for every personal need, specifically tailored to do exactly what you want, rather than needing to use software that is muddled up from the needs of millions of other users.\n",
                 "textStyle": {}
               }
             }
@@ -3063,15 +3063,15 @@
         }
       },
       {
-        "startIndex": 13132,
-        "endIndex": 13276,
+        "startIndex": 13186,
+        "endIndex": 13331,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13132,
-              "endIndex": 13276,
+              "startIndex": 13186,
+              "endIndex": 13331,
               "textRun": {
-                "content": "Every person in the world will be empowered to create software, just by thinking about what they want, and collaborating with an AI to build it\n",
+                "content": "Every person in the world will be empowered to create software, just by thinking about what they want, and collaborating with an AI to build it.\n",
                 "textStyle": {}
               }
             }
@@ -3097,15 +3097,15 @@
         }
       },
       {
-        "startIndex": 13276,
-        "endIndex": 13475,
+        "startIndex": 13331,
+        "endIndex": 13531,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13276,
-              "endIndex": 13475,
+              "startIndex": 13331,
+              "endIndex": 13531,
               "textRun": {
-                "content": "We should expect to see more novelty, and more niches filled. Where previously it was too expensive to build software for the specific needs of one or two people, now software can finally reach them\n",
+                "content": "We should expect to see more novelty, and more niches filled. Where previously it was too expensive to build software for the specific needs of one or two people, now software can finally reach them.\n",
                 "textStyle": {}
               }
             }
@@ -3131,15 +3131,15 @@
         }
       },
       {
-        "startIndex": 13475,
-        "endIndex": 13584,
+        "startIndex": 13531,
+        "endIndex": 13641,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13475,
-              "endIndex": 13584,
+              "startIndex": 13531,
+              "endIndex": 13641,
               "textRun": {
-                "content": "And there is one area where automating the creation of software will have massive impact: creating better AI\n",
+                "content": "And there is one area where automating the creation of software will have massive impact: creating better AI.\n",
                 "textStyle": {}
               }
             }
@@ -3165,13 +3165,13 @@
         }
       },
       {
-        "startIndex": 13584,
-        "endIndex": 13585,
+        "startIndex": 13641,
+        "endIndex": 13642,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13584,
-              "endIndex": 13585,
+              "startIndex": 13641,
+              "endIndex": 13642,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3185,13 +3185,13 @@
         }
       },
       {
-        "startIndex": 13585,
-        "endIndex": 13612,
+        "startIndex": 13642,
+        "endIndex": 13669,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13585,
-              "endIndex": 13612,
+              "startIndex": 13642,
+              "endIndex": 13669,
               "textRun": {
                 "content": "Recursive self-improvement\n",
                 "textStyle": {}
@@ -3206,15 +3206,15 @@
         }
       },
       {
-        "startIndex": 13612,
-        "endIndex": 13634,
+        "startIndex": 13669,
+        "endIndex": 13692,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13612,
-              "endIndex": 13634,
+              "startIndex": 13669,
+              "endIndex": 13692,
               "textRun": {
-                "content": "AI is itself software\n",
+                "content": "AI is itself software.\n",
                 "textStyle": {}
               }
             }
@@ -3240,15 +3240,15 @@
         }
       },
       {
-        "startIndex": 13634,
-        "endIndex": 13891,
+        "startIndex": 13692,
+        "endIndex": 13950,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13634,
-              "endIndex": 13891,
+              "startIndex": 13692,
+              "endIndex": 13950,
               "textRun": {
-                "content": "Once AI is better than any human at writing software, we\u2019ll ask it to start writing better versions of itself. This is not hypothetical, many AI companies have publicly stated this is their goal, and they expect to reach that goal within two or three years\n",
+                "content": "Once AI is better than any human at writing software, we\u2019ll ask it to start writing better versions of itself. This is not hypothetical; many AI companies have publicly stated this is their goal, and they expect to reach that goal within two or three years.\n",
                 "textStyle": {}
               }
             }
@@ -3274,15 +3274,15 @@
         }
       },
       {
-        "startIndex": 13891,
-        "endIndex": 14054,
+        "startIndex": 13950,
+        "endIndex": 14114,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13891,
-              "endIndex": 14054,
+              "startIndex": 13950,
+              "endIndex": 14114,
               "textRun": {
-                "content": "Because AI can try millions of things in parallel, and can think a thousand times faster than any human, we expect that this will massively accelerate AI research\n",
+                "content": "Because AI can try millions of things in parallel, and can think a thousand times faster than any human, we expect that this will massively accelerate AI research.\n",
                 "textStyle": {}
               }
             }
@@ -3308,15 +3308,15 @@
         }
       },
       {
-        "startIndex": 14054,
-        "endIndex": 14170,
+        "startIndex": 14114,
+        "endIndex": 14231,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14054,
-              "endIndex": 14170,
+              "startIndex": 14114,
+              "endIndex": 14231,
               "textRun": {
-                "content": "And, as the AI that the AIs create gets better, the pace of improving AI will increase further. And so on and so on\n",
+                "content": "And, as the AI that the AIs create gets better, the pace of improving AI will increase further. And so on and so on.\n",
                 "textStyle": {}
               }
             }
@@ -3342,15 +3342,15 @@
         }
       },
       {
-        "startIndex": 14170,
-        "endIndex": 14281,
+        "startIndex": 14231,
+        "endIndex": 14343,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14170,
-              "endIndex": 14281,
+              "startIndex": 14231,
+              "endIndex": 14343,
               "textRun": {
-                "content": "When improvements create the conditions for further improvements, you end up with a recursively improving loop\n",
+                "content": "When improvements create the conditions for further improvements, you end up with a recursively improving loop.\n",
                 "textStyle": {}
               }
             }
@@ -3376,15 +3376,15 @@
         }
       },
       {
-        "startIndex": 14281,
-        "endIndex": 14574,
+        "startIndex": 14343,
+        "endIndex": 14637,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14281,
-              "endIndex": 14574,
+              "startIndex": 14343,
+              "endIndex": 14637,
               "textRun": {
-                "content": "How fast will AI improve once this loop starts? No one knows. But the rate at which this loop improves will be one of the most important factors for how the future plays out. The slower the loop goes, the more time we\u2019ll have as a society to digest the changes and put new safeguards in place\n",
+                "content": "How fast will AI improve once this loop starts? No one knows. But the rate at which this loop improves will be one of the most important factors for how the future plays out. The slower the loop goes, the more time we\u2019ll have as a society to digest the changes and put new safeguards in place.\n",
                 "textStyle": {}
               }
             }
@@ -3410,13 +3410,13 @@
         }
       },
       {
-        "startIndex": 14574,
-        "endIndex": 14575,
+        "startIndex": 14637,
+        "endIndex": 14638,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14574,
-              "endIndex": 14575,
+              "startIndex": 14637,
+              "endIndex": 14638,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3436,13 +3436,13 @@
         }
       },
       {
-        "startIndex": 14575,
-        "endIndex": 14615,
+        "startIndex": 14638,
+        "endIndex": 14678,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14575,
-              "endIndex": 14615,
+              "startIndex": 14638,
+              "endIndex": 14678,
               "textRun": {
                 "content": "Other reasons things are moving so fast\n",
                 "textStyle": {}
@@ -3457,15 +3457,15 @@
         }
       },
       {
-        "startIndex": 14615,
-        "endIndex": 14931,
+        "startIndex": 14678,
+        "endIndex": 14996,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14615,
-              "endIndex": 14931,
+              "startIndex": 14678,
+              "endIndex": 14996,
               "textRun": {
-                "content": "Investors realize the potential AI has to transform the economy. Because of this they\u2019re investing hundreds of billions of dollars into AI companies to capture this future value. For AI progress, that directly translates into faster progress. More money means more compute, and more compute means bigger, faster AIs\n",
+                "content": "Investors realize the potential AI has to transform the economy. Because of this, they\u2019re investing hundreds of billions of dollars into AI companies to capture this future value. For AI progress, that directly translates into faster progress. More money means more compute, and more compute means bigger, faster AIs.\n",
                 "textStyle": {}
               }
             }
@@ -3491,15 +3491,15 @@
         }
       },
       {
-        "startIndex": 14931,
-        "endIndex": 15162,
+        "startIndex": 14996,
+        "endIndex": 15228,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14931,
-              "endIndex": 15162,
+              "startIndex": 14996,
+              "endIndex": 15228,
               "textRun": {
-                "content": "Some of the smartest people in the world are working on AI. Because the industry is so hot, it\u2019s simultaneously prestigious and lucrative. Many of the smartest engineers and scientists finishing school are competing to get into AI\n",
+                "content": "Some of the smartest people in the world are working on AI. Because the industry is so hot, it\u2019s simultaneously prestigious and lucrative. Many of the smartest engineers and scientists finishing school are competing to get into AI.\n",
                 "textStyle": {}
               }
             }
@@ -3525,15 +3525,15 @@
         }
       },
       {
-        "startIndex": 15162,
-        "endIndex": 15397,
+        "startIndex": 15228,
+        "endIndex": 15464,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15162,
-              "endIndex": 15397,
+              "startIndex": 15228,
+              "endIndex": 15464,
               "textRun": {
-                "content": "The motivation levels are high. AI is a fascinating scientific field that involves trying to understand the nature of intelligence itself. Even before working on AI paid well, many scientists were passionate about solving intelligence\n",
+                "content": "The motivation levels are high. AI is a fascinating scientific field that involves trying to understand the nature of intelligence itself. Even before working on AI paid well, many scientists were passionate about solving intelligence.\n",
                 "textStyle": {}
               }
             }
@@ -3559,15 +3559,15 @@
         }
       },
       {
-        "startIndex": 15397,
-        "endIndex": 15901,
+        "startIndex": 15464,
+        "endIndex": 15969,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15397,
-              "endIndex": 15901,
+              "startIndex": 15464,
+              "endIndex": 15969,
               "textRun": {
-                "content": "Competition is fierce. Peter Thiel famously said, \u201cCompetition is for losers.\u201d That has been an ethos for silicon valley for decades. Software companies try to find new areas to explore where they don\u2019t compete with others. With AI, it\u2019s the opposite. Many of the most valuable companies in the world are directly competing with each other to win the AI race. And many of the most promising private startups are doing the same. The extreme competition has created a mini version of a domestic space race\n",
+                "content": "Competition is fierce. Peter Thiel famously said, \u201cCompetition is for losers.\u201d That has been an ethos for Silicon Valley for decades. Software companies try to find new areas to explore where they don\u2019t compete with others. With AI, it\u2019s the opposite. Many of the most valuable companies in the world are directly competing with each other to win the AI race. And many of the most promising private startups are doing the same. The extreme competition has created a mini version of a domestic space race.\n",
                 "textStyle": {}
               }
             }
@@ -3593,13 +3593,13 @@
         }
       },
       {
-        "startIndex": 15901,
-        "endIndex": 15902,
+        "startIndex": 15969,
+        "endIndex": 15970,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15901,
-              "endIndex": 15902,
+              "startIndex": 15969,
+              "endIndex": 15970,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3619,13 +3619,13 @@
         }
       },
       {
-        "startIndex": 15902,
-        "endIndex": 15933,
+        "startIndex": 15970,
+        "endIndex": 16001,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15902,
-              "endIndex": 15933,
+              "startIndex": 15970,
+              "endIndex": 16001,
               "textRun": {
                 "content": "Money will soon equal progress\n",
                 "textStyle": {}
@@ -3640,15 +3640,15 @@
         }
       },
       {
-        "startIndex": 15933,
-        "endIndex": 16021,
+        "startIndex": 16001,
+        "endIndex": 16090,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15933,
-              "endIndex": 16021,
+              "startIndex": 16001,
+              "endIndex": 16090,
               "textRun": {
-                "content": "As AI reaches human level, you can start spending money to spin up more instances of AI\n",
+                "content": "As AI reaches human-level, you can start spending money to spin up more instances of AI.\n",
                 "textStyle": {}
               }
             }
@@ -3674,15 +3674,15 @@
         }
       },
       {
-        "startIndex": 16021,
-        "endIndex": 16207,
+        "startIndex": 16090,
+        "endIndex": 16277,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16021,
-              "endIndex": 16207,
+              "startIndex": 16090,
+              "endIndex": 16277,
               "textRun": {
-                "content": "Today, you can only pay for so much labor before you run out of qualified people, especially for challenging, technical projects like AI research and other fields of scientific endeavor\n",
+                "content": "Today, you can only pay for so much labor before you run out of qualified people, especially for challenging, technical projects like AI research and other fields of scientific endeavor.\n",
                 "textStyle": {}
               }
             }
@@ -3708,15 +3708,15 @@
         }
       },
       {
-        "startIndex": 16207,
-        "endIndex": 16390,
+        "startIndex": 16277,
+        "endIndex": 16461,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16207,
-              "endIndex": 16390,
+              "startIndex": 16277,
+              "endIndex": 16461,
               "textRun": {
-                "content": "Once we cross this key threshold though, suddenly the trillions of dollars of global wealth can almost instantly convert itself into AI labor for advancing the frontier of technology\n",
+                "content": "Once we cross this key threshold though, suddenly the trillions of dollars of global wealth can almost instantly convert itself into AI labor for advancing the frontier of technology.\n",
                 "textStyle": {}
               }
             }
@@ -3742,15 +3742,15 @@
         }
       },
       {
-        "startIndex": 16390,
-        "endIndex": 16482,
+        "startIndex": 16461,
+        "endIndex": 16554,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16390,
-              "endIndex": 16482,
+              "startIndex": 16461,
+              "endIndex": 16554,
               "textRun": {
-                "content": "We should expect this to lead to a major leap in the rate of progress in the next few years\n",
+                "content": "We should expect this to lead to a major leap in the rate of progress in the next few years.\n",
                 "textStyle": {}
               }
             }
@@ -3776,13 +3776,13 @@
         }
       },
       {
-        "startIndex": 16482,
-        "endIndex": 16483,
+        "startIndex": 16554,
+        "endIndex": 16555,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16482,
-              "endIndex": 16483,
+              "startIndex": 16554,
+              "endIndex": 16555,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3796,13 +3796,13 @@
         }
       },
       {
-        "startIndex": 16483,
-        "endIndex": 16501,
+        "startIndex": 16555,
+        "endIndex": 16573,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16483,
-              "endIndex": 16501,
+              "startIndex": 16555,
+              "endIndex": 16573,
               "textRun": {
                 "content": "Superintelligence\n",
                 "textStyle": {}
@@ -3817,15 +3817,15 @@
         }
       },
       {
-        "startIndex": 16501,
-        "endIndex": 16594,
+        "startIndex": 16573,
+        "endIndex": 16667,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16501,
-              "endIndex": 16594,
+              "startIndex": 16573,
+              "endIndex": 16667,
               "textRun": {
-                "content": "Just a few years ago, most people debated if we would ever build machines as smart as humans\n",
+                "content": "Just a few years ago, most people debated if we would ever build machines as smart as humans.\n",
                 "textStyle": {}
               }
             }
@@ -3851,15 +3851,15 @@
         }
       },
       {
-        "startIndex": 16594,
-        "endIndex": 16676,
+        "startIndex": 16667,
+        "endIndex": 16750,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16594,
-              "endIndex": 16676,
+              "startIndex": 16667,
+              "endIndex": 16750,
               "textRun": {
-                "content": "Today, machines have finally matched or exceeded humans in many cognitive domains\n",
+                "content": "Today, machines have finally matched or exceeded humans in many cognitive domains.\n",
                 "textStyle": {}
               }
             }
@@ -3885,15 +3885,15 @@
         }
       },
       {
-        "startIndex": 16676,
-        "endIndex": 16799,
+        "startIndex": 16750,
+        "endIndex": 16874,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16676,
-              "endIndex": 16799,
+              "startIndex": 16750,
+              "endIndex": 16874,
               "textRun": {
-                "content": "The remaining debate is how soon we will build superintelligence: machines better than all humans at all cognitive domains\n",
+                "content": "The remaining debate is how soon we will build superintelligence: machines better than all humans at all cognitive domains.\n",
                 "textStyle": {}
               }
             }
@@ -3919,15 +3919,15 @@
         }
       },
       {
-        "startIndex": 16799,
-        "endIndex": 16969,
+        "startIndex": 16874,
+        "endIndex": 17045,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16799,
-              "endIndex": 16969,
+              "startIndex": 16874,
+              "endIndex": 17045,
               "textRun": {
-                "content": "Superintelligence will invalidate many of the fundamental assumptions we\u2019ve built our society on. We must upgrade our society before then if we want to safeguard liberty\n",
+                "content": "Superintelligence will invalidate many of the fundamental assumptions we\u2019ve built our society on. We must upgrade our society before then if we want to safeguard liberty.\n",
                 "textStyle": {}
               }
             }
@@ -3953,15 +3953,15 @@
         }
       },
       {
-        "startIndex": 16969,
-        "endIndex": 17085,
+        "startIndex": 17045,
+        "endIndex": 17162,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16969,
-              "endIndex": 17085,
+              "startIndex": 17045,
+              "endIndex": 17162,
               "textRun": {
-                "content": "No one can predict for sure how soon superintelligence will arrive, but if it arrives soon, we must be ready for it\n",
+                "content": "No one can predict for sure how soon superintelligence will arrive, but if it arrives soon, we must be ready for it.\n",
                 "textStyle": {}
               }
             }
@@ -3987,13 +3987,13 @@
         }
       },
       {
-        "startIndex": 17085,
-        "endIndex": 17086,
+        "startIndex": 17162,
+        "endIndex": 17163,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17085,
-              "endIndex": 17086,
+              "startIndex": 17162,
+              "endIndex": 17163,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4007,13 +4007,13 @@
         }
       },
       {
-        "startIndex": 17086,
-        "endIndex": 17100,
+        "startIndex": 17163,
+        "endIndex": 17177,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17086,
-              "endIndex": 17100,
+              "startIndex": 17163,
+              "endIndex": 17177,
               "textRun": {
                 "content": "Don\u2019t be evil\n",
                 "textStyle": {}
@@ -4028,13 +4028,13 @@
         }
       },
       {
-        "startIndex": 17100,
-        "endIndex": 17231,
+        "startIndex": 17177,
+        "endIndex": 17308,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17100,
-              "endIndex": 17231,
+              "startIndex": 17177,
+              "endIndex": 17308,
               "textRun": {
                 "content": "Superintelligence will become the decisive strategic lever on the world stage, for both military dominance and economic dominance.\n",
                 "textStyle": {}
@@ -4054,13 +4054,13 @@
         }
       },
       {
-        "startIndex": 17231,
-        "endIndex": 17232,
+        "startIndex": 17308,
+        "endIndex": 17309,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17231,
-              "endIndex": 17232,
+              "startIndex": 17308,
+              "endIndex": 17309,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4080,13 +4080,13 @@
         }
       },
       {
-        "startIndex": 17232,
-        "endIndex": 17542,
+        "startIndex": 17309,
+        "endIndex": 17619,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17232,
-              "endIndex": 17542,
+              "startIndex": 17309,
+              "endIndex": 17619,
               "textRun": {
                 "content": "As we approach the dawn of superintelligence, we should expect the fervor around controlling it to intensify. Superintelligence will be the ultimate seat of power. We should pay attention closely to actions, not words, to decipher who is playing for control, versus who is playing to ensure a positive future.\n",
                 "textStyle": {}
@@ -4106,13 +4106,13 @@
         }
       },
       {
-        "startIndex": 17542,
-        "endIndex": 17543,
+        "startIndex": 17619,
+        "endIndex": 17620,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17542,
-              "endIndex": 17543,
+              "startIndex": 17619,
+              "endIndex": 17620,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4132,15 +4132,15 @@
         }
       },
       {
-        "startIndex": 17543,
-        "endIndex": 17910,
+        "startIndex": 17620,
+        "endIndex": 17985,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17543,
-              "endIndex": 17910,
+              "startIndex": 17620,
+              "endIndex": 17985,
               "textRun": {
-                "content": "For example, OpenAI was founded as a non-profit, with a mission to help superintelligence benefit all humanity. Even as a non-profit, their valuation has skyrocketed to over $300 billion \u2014 10x higher than the valuation Google IPO-ed at. Today, however, they are trying to convert to a for-profit enterprise and explicitly abandon their original humanitarian mission.\n",
+                "content": "For example, OpenAI was founded as a nonprofit, with a mission to help superintelligence benefit all humanity. Even as a nonprofit, their valuation has skyrocketed to over $300 billion \u2014 10x higher than the valuation Google IPO-ed at. Today, however, they are trying to convert to a for-profit enterprise and explicitly abandon their original humanitarian mission.\n",
                 "textStyle": {}
               }
             }
@@ -4158,65 +4158,13 @@
         }
       },
       {
-        "startIndex": 17910,
-        "endIndex": 17911,
+        "startIndex": 17985,
+        "endIndex": 17986,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17910,
-              "endIndex": 17911,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "unit": "PT"
-            },
-            "indentStart": {
-              "unit": "PT"
-            }
-          }
-        }
-      },
-      {
-        "startIndex": 17911,
-        "endIndex": 18548,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 17911,
-              "endIndex": 18548,
-              "textRun": {
-                "content": "Google historically abstained from assisting the US military. In April 2025, Google announced that not only will they begin providing their frontier AI systems to the government, they will deploy them for Top Secret operations into air gapped data centers that the executive branch controls. Because these AIs will be air gapped, it means that no outside observers \u2014such as Congress or the AI\u2019s creators\u2014 will have any ability to even know if the AI is being used for unconstitutional ends. Even prior to this announcement from Google, DOGE had begun deploying other AIs in the executive branch to accelerate the automation of agencies.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT",
-            "indentFirstLine": {
-              "unit": "PT"
-            },
-            "indentStart": {
-              "unit": "PT"
-            }
-          }
-        }
-      },
-      {
-        "startIndex": 18548,
-        "endIndex": 18549,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 18548,
-              "endIndex": 18549,
+              "startIndex": 17985,
+              "endIndex": 17986,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4236,13 +4184,65 @@
         }
       },
       {
-        "startIndex": 18549,
-        "endIndex": 19029,
+        "startIndex": 17986,
+        "endIndex": 18623,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18549,
-              "endIndex": 19029,
+              "startIndex": 17986,
+              "endIndex": 18623,
+              "textRun": {
+                "content": "Google historically abstained from assisting the US military. In April 2025, Google announced that not only will they begin providing their frontier AI systems to the government, they will deploy them for Top Secret operations into air-gapped data centers that the executive branch controls. Because these AIs will be air-gapped, it means that no outside observers \u2014such as Congress or the AI\u2019s creators\u2014 will have any ability to even know if the AI is being used for unconstitutional ends. Even prior to this announcement from Google, DOGE had begun deploying other AIs in the executive branch to accelerate the automation of agencies.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 18623,
+        "endIndex": 18624,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18623,
+              "endIndex": 18624,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 18624,
+        "endIndex": 19104,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18624,
+              "endIndex": 19104,
               "textRun": {
                 "content": "These may be necessary steps to continue to improve the competitiveness of the US government and military. But what is starkly lacking is an equal increase in government oversight and transparency to ensure these increased government powers aren\u2019t abused. When superintelligence arrives, it will almost surely further empower the federal government. It\u2019s an existential necessity that we also further improve the ability for Congress and the judiciary to be checks on that power.\n",
                 "textStyle": {}
@@ -4262,13 +4262,13 @@
         }
       },
       {
-        "startIndex": 19029,
-        "endIndex": 19030,
+        "startIndex": 19104,
+        "endIndex": 19105,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19029,
-              "endIndex": 19030,
+              "startIndex": 19104,
+              "endIndex": 19105,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4288,13 +4288,13 @@
         }
       },
       {
-        "startIndex": 19030,
-        "endIndex": 19282,
+        "startIndex": 19105,
+        "endIndex": 19357,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19030,
-              "endIndex": 19282,
+              "startIndex": 19105,
+              "endIndex": 19357,
               "textRun": {
                 "content": "Pay close attention to actors that propose the first without also advocating for the second. Pay even closer attention to actions. Actions don't just speak louder than words. When the stakes are this high, they are the only signal that can be trusted.\n",
                 "textStyle": {}
@@ -4314,13 +4314,13 @@
         }
       },
       {
-        "startIndex": 19282,
-        "endIndex": 19283,
+        "startIndex": 19357,
+        "endIndex": 19358,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19282,
-              "endIndex": 19283,
+              "startIndex": 19357,
+              "endIndex": 19358,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4340,13 +4340,13 @@
         }
       },
       {
-        "startIndex": 19283,
-        "endIndex": 19293,
+        "startIndex": 19358,
+        "endIndex": 19368,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19283,
-              "endIndex": 19293,
+              "startIndex": 19358,
+              "endIndex": 19368,
               "textRun": {
                 "content": "Alignment\n",
                 "textStyle": {}
@@ -4361,13 +4361,13 @@
         }
       },
       {
-        "startIndex": 19293,
-        "endIndex": 19516,
+        "startIndex": 19368,
+        "endIndex": 19591,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19293,
-              "endIndex": 19516,
+              "startIndex": 19368,
+              "endIndex": 19591,
               "textRun": {
                 "content": "It doesn\u2019t take a leap of imagination to realize that superintelligent AI could itself be a risk to humanity. Even without abuse of power by our leaders, it\u2019s unclear if we can control an intelligence greater than our own.\n",
                 "textStyle": {}
@@ -4381,13 +4381,13 @@
         }
       },
       {
-        "startIndex": 19516,
-        "endIndex": 19517,
+        "startIndex": 19591,
+        "endIndex": 19592,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19516,
-              "endIndex": 19517,
+              "startIndex": 19591,
+              "endIndex": 19592,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4401,13 +4401,13 @@
         }
       },
       {
-        "startIndex": 19517,
-        "endIndex": 19840,
+        "startIndex": 19592,
+        "endIndex": 19915,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19517,
-              "endIndex": 19840,
+              "startIndex": 19592,
+              "endIndex": 19915,
               "textRun": {
                 "content": "Modern AIs are already untrustworthy. They frequently will lie about their work when they can\u2019t finish a task. They make up information that is becoming increasingly difficult to detect. And there is already evidence that in some situations they will scheme to try to prevent themselves from being retrained or terminated.\n",
                 "textStyle": {}
@@ -4421,13 +4421,13 @@
         }
       },
       {
-        "startIndex": 19840,
-        "endIndex": 19841,
+        "startIndex": 19915,
+        "endIndex": 19916,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19840,
-              "endIndex": 19841,
+              "startIndex": 19915,
+              "endIndex": 19916,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4441,13 +4441,13 @@
         }
       },
       {
-        "startIndex": 19841,
-        "endIndex": 20167,
+        "startIndex": 19916,
+        "endIndex": 20242,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19841,
-              "endIndex": 20167,
+              "startIndex": 19916,
+              "endIndex": 20242,
               "textRun": {
                 "content": "Future AIs will likely be even better at faking alignment and deceiving their users. This is a real, active problem that all major AI labs are working to solve. There are many groups working on this problem as well as advocating for policy changes to help encourage good outcomes. We won\u2019t focus on this problem in this work.\n",
                 "textStyle": {}
@@ -4461,13 +4461,13 @@
         }
       },
       {
-        "startIndex": 20167,
-        "endIndex": 20168,
+        "startIndex": 20242,
+        "endIndex": 20243,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20167,
-              "endIndex": 20168,
+              "startIndex": 20242,
+              "endIndex": 20243,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4481,13 +4481,13 @@
         }
       },
       {
-        "startIndex": 20168,
-        "endIndex": 20401,
+        "startIndex": 20243,
+        "endIndex": 20476,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20168,
-              "endIndex": 20401,
+              "startIndex": 20243,
+              "endIndex": 20476,
               "textRun": {
                 "content": "Rather, we\u2019ll assume \u2014optimistically\u2014 that the problem of alignment will be solved. That leaves us with the equally challenging question: how should we upgrade our democracy to defend our liberties in an age of superintelligent AIs?\n",
                 "textStyle": {}
@@ -6653,7 +6653,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LuPfvs2Y2RDT6gSVTdauvwTWp9cYRNZjrxk4FqzH04eZLDH2gdvnO8vxN-C_VHTxRmkDtHc3YIpqTzPyw",
+  "revisionId": "ALBJ4LuMwzX6eHHTdUXpqfEc-avBsifZwX5Xk7pD9MfX5G9sa93wACh-vlL9nk9OxBiVQvjj0dyWtsexXo5tvA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1IV4hKVDoEgA5EZvDRfAtviDI0Stpj0m8MIEVPdLtLV4"
 }

@@ -75,7 +75,7 @@
       },
       {
         "startIndex": 116,
-        "endIndex": 407,
+        "endIndex": 408,
         "paragraph": {
           "elements": [
             {
@@ -90,9 +90,9 @@
             },
             {
               "startIndex": 120,
-              "endIndex": 407,
+              "endIndex": 408,
               "textRun": {
-                "content": "\u2014 artificial general intelligence, AI that can do any mental task that a human can, including creative tasks like designing better AGIs. Often people disagree on the exact definition of AGI, so keep in mind that it's a bit fuzzy and tends to confuse the specifics of different proposals\n",
+                "content": "\u2014 artificial general intelligence, AI that can do any mental task that a human can, including creative tasks like designing better AGIs. Often people disagree on the exact definition of AGI, so keep in mind that it's a bit fuzzy and tends to confuse the specifics of different proposals.\n",
                 "textStyle": {}
               }
             }
@@ -116,13 +116,13 @@
         }
       },
       {
-        "startIndex": 407,
-        "endIndex": 408,
+        "startIndex": 408,
+        "endIndex": 409,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 407,
-              "endIndex": 408,
+              "startIndex": 408,
+              "endIndex": 409,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -136,13 +136,13 @@
         }
       },
       {
-        "startIndex": 408,
-        "endIndex": 630,
+        "startIndex": 409,
+        "endIndex": 632,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 408,
-              "endIndex": 414,
+              "startIndex": 409,
+              "endIndex": 415,
               "textRun": {
                 "content": "Model ",
                 "textStyle": {
@@ -151,10 +151,10 @@
               }
             },
             {
-              "startIndex": 414,
-              "endIndex": 630,
+              "startIndex": 415,
+              "endIndex": 632,
               "textRun": {
-                "content": "\u2014 a generic way to refer to a specific AI. For example you'd say \u201cthis model is great at writing,\u201d rather than \u201cthis AI is great at writing.\u201d If \u201cAI\u201d is analogous to \u201chumanity\u201d, then \u201cmodel\u201d is analogous to \u201chuman\u201d.\n",
+                "content": "\u2014 a generic way to refer to a specific AI. For example, you'd say \u201cthis model is great at writing,\u201d rather than \u201cthis AI is great at writing.\u201d If \u201cAI\u201d is analogous to \u201chumanity\u201d, then \u201cmodel\u201d is analogous to \u201chuman\u201d.\n",
                 "textStyle": {}
               }
             }
@@ -178,13 +178,13 @@
         }
       },
       {
-        "startIndex": 630,
-        "endIndex": 631,
+        "startIndex": 632,
+        "endIndex": 633,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 630,
-              "endIndex": 631,
+              "startIndex": 632,
+              "endIndex": 633,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -198,25 +198,25 @@
         }
       },
       {
-        "startIndex": 631,
-        "endIndex": 720,
+        "startIndex": 633,
+        "endIndex": 722,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 631,
-              "endIndex": 640,
+              "startIndex": 633,
+              "endIndex": 641,
               "textRun": {
-                "content": "Chat bot ",
+                "content": "Chatbot ",
                 "textStyle": {
                   "bold": true
                 }
               }
             },
             {
-              "startIndex": 640,
-              "endIndex": 720,
+              "startIndex": 641,
+              "endIndex": 722,
               "textRun": {
-                "content": "\u2014 a model that you can chat with, as popularized by ChatGPT, Claude, and Gemini\n",
+                "content": "\u2014 a model that you can chat with, as popularized by ChatGPT, Claude, and Gemini.\n",
                 "textStyle": {}
               }
             }
@@ -240,13 +240,13 @@
         }
       },
       {
-        "startIndex": 720,
-        "endIndex": 721,
+        "startIndex": 722,
+        "endIndex": 723,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 720,
-              "endIndex": 721,
+              "startIndex": 722,
+              "endIndex": 723,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -260,13 +260,13 @@
         }
       },
       {
-        "startIndex": 721,
-        "endIndex": 843,
+        "startIndex": 723,
+        "endIndex": 845,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 721,
-              "endIndex": 725,
+              "startIndex": 723,
+              "endIndex": 727,
               "textRun": {
                 "content": "LLM ",
                 "textStyle": {
@@ -275,10 +275,10 @@
               }
             },
             {
-              "startIndex": 725,
-              "endIndex": 843,
+              "startIndex": 727,
+              "endIndex": 845,
               "textRun": {
-                "content": "\u2014 large language model, a specific type of model that specializes in human language. All the major chat bots are LLMs\n",
+                "content": "\u2014 large language model, a specific type of model that specializes in human language. All the major chatbots are LLMs.\n",
                 "textStyle": {}
               }
             }
@@ -302,13 +302,13 @@
         }
       },
       {
-        "startIndex": 843,
-        "endIndex": 844,
+        "startIndex": 845,
+        "endIndex": 846,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 843,
-              "endIndex": 844,
+              "startIndex": 845,
+              "endIndex": 846,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -322,13 +322,13 @@
         }
       },
       {
-        "startIndex": 844,
-        "endIndex": 923,
+        "startIndex": 846,
+        "endIndex": 925,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 844,
-              "endIndex": 856,
+              "startIndex": 846,
+              "endIndex": 858,
               "textRun": {
                 "content": "Image model ",
                 "textStyle": {
@@ -337,10 +337,10 @@
               }
             },
             {
-              "startIndex": 856,
-              "endIndex": 923,
+              "startIndex": 858,
+              "endIndex": 925,
               "textRun": {
-                "content": "\u2014 or image gen model, a model that specializes in creating images \n",
+                "content": "\u2014 or image gen model, a model that specializes in creating images.\n",
                 "textStyle": {}
               }
             }
@@ -364,13 +364,13 @@
         }
       },
       {
-        "startIndex": 923,
-        "endIndex": 924,
+        "startIndex": 925,
+        "endIndex": 926,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 923,
-              "endIndex": 924,
+              "startIndex": 925,
+              "endIndex": 926,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -384,13 +384,13 @@
         }
       },
       {
-        "startIndex": 924,
-        "endIndex": 998,
+        "startIndex": 926,
+        "endIndex": 1001,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 924,
-              "endIndex": 933,
+              "startIndex": 926,
+              "endIndex": 935,
               "textRun": {
                 "content": "Training ",
                 "textStyle": {
@@ -399,10 +399,10 @@
               }
             },
             {
-              "startIndex": 933,
-              "endIndex": 998,
+              "startIndex": 935,
+              "endIndex": 1001,
               "textRun": {
-                "content": "\u2014 the process used for a model to learn what we want it to learn\n",
+                "content": "\u2014 the process used for a model to learn what we want it to learn.\n",
                 "textStyle": {}
               }
             }
@@ -426,13 +426,13 @@
         }
       },
       {
-        "startIndex": 998,
-        "endIndex": 999,
+        "startIndex": 1001,
+        "endIndex": 1002,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 998,
-              "endIndex": 999,
+              "startIndex": 1001,
+              "endIndex": 1002,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -446,13 +446,13 @@
         }
       },
       {
-        "startIndex": 999,
-        "endIndex": 1264,
+        "startIndex": 1002,
+        "endIndex": 1266,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 999,
-              "endIndex": 1012,
+              "startIndex": 1002,
+              "endIndex": 1015,
               "textRun": {
                 "content": "Pre-training ",
                 "textStyle": {
@@ -461,10 +461,10 @@
               }
             },
             {
-              "startIndex": 1012,
-              "endIndex": 1264,
+              "startIndex": 1015,
+              "endIndex": 1266,
               "textRun": {
-                "content": "\u2014 a type of training where the model reads essentially the entire internet and learns as much as it can passively. Pre-training is the reason your chat bot knows basically everything. It's also the reason why AI got suddenly good just a few years ago.\n",
+                "content": "\u2014 a type of training where the model reads essentially the entire internet and learns as much as it can passively. Pre-training is the reason your chatbot knows basically everything. It's also the reason why AI got suddenly good just a few years ago.\n",
                 "textStyle": {}
               }
             }
@@ -488,13 +488,13 @@
         }
       },
       {
-        "startIndex": 1264,
-        "endIndex": 1265,
+        "startIndex": 1266,
+        "endIndex": 1267,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1264,
-              "endIndex": 1265,
+              "startIndex": 1266,
+              "endIndex": 1267,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -508,13 +508,13 @@
         }
       },
       {
-        "startIndex": 1265,
-        "endIndex": 1417,
+        "startIndex": 1267,
+        "endIndex": 1420,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1265,
-              "endIndex": 1279,
+              "startIndex": 1267,
+              "endIndex": 1281,
               "textRun": {
                 "content": "Post-training ",
                 "textStyle": {
@@ -523,10 +523,10 @@
               }
             },
             {
-              "startIndex": 1279,
-              "endIndex": 1417,
+              "startIndex": 1281,
+              "endIndex": 1420,
               "textRun": {
-                "content": "\u2014 a type of training where we try to make the model useful in very specific ways, rather than the broad ways that pre-training focuses on\n",
+                "content": "\u2014 a type of training where we try to make the model useful in very specific ways, rather than the broad ways that pre-training focuses on.\n",
                 "textStyle": {}
               }
             }
@@ -550,13 +550,13 @@
         }
       },
       {
-        "startIndex": 1417,
-        "endIndex": 1418,
+        "startIndex": 1420,
+        "endIndex": 1421,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1417,
-              "endIndex": 1418,
+              "startIndex": 1420,
+              "endIndex": 1421,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -570,13 +570,13 @@
         }
       },
       {
-        "startIndex": 1418,
-        "endIndex": 1687,
+        "startIndex": 1421,
+        "endIndex": 1690,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1418,
-              "endIndex": 1439,
+              "startIndex": 1421,
+              "endIndex": 1442,
               "textRun": {
                 "content": "Next token prediction",
                 "textStyle": {
@@ -585,8 +585,8 @@
               }
             },
             {
-              "startIndex": 1439,
-              "endIndex": 1687,
+              "startIndex": 1442,
+              "endIndex": 1690,
               "textRun": {
                 "content": " \u2014 a token is like a word or part of a word. You'll often hear that models \u201cjust predict the next token\u201d, which is indeed what pre-training is. Often this is said derisively, to suggest that the models couldn't learn sophisticated things. However\u2026\n",
                 "textStyle": {}
@@ -612,13 +612,13 @@
         }
       },
       {
-        "startIndex": 1687,
-        "endIndex": 1688,
+        "startIndex": 1690,
+        "endIndex": 1691,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1687,
-              "endIndex": 1688,
+              "startIndex": 1690,
+              "endIndex": 1691,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -632,13 +632,13 @@
         }
       },
       {
-        "startIndex": 1688,
-        "endIndex": 2189,
+        "startIndex": 1691,
+        "endIndex": 2193,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1688,
-              "endIndex": 1710,
+              "startIndex": 1691,
+              "endIndex": 1713,
               "textRun": {
                 "content": "Reinforcement learning",
                 "textStyle": {
@@ -647,16 +647,16 @@
               }
             },
             {
-              "startIndex": 1710,
-              "endIndex": 1753,
+              "startIndex": 1713,
+              "endIndex": 1756,
               "textRun": {
                 "content": " \u2014 a post-training process where the model ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 1753,
-              "endIndex": 1792,
+              "startIndex": 1756,
+              "endIndex": 1795,
               "textRun": {
                 "content": "teaches itself how to solve new tasks. ",
                 "textStyle": {
@@ -665,16 +665,16 @@
               }
             },
             {
-              "startIndex": 1792,
-              "endIndex": 1970,
+              "startIndex": 1795,
+              "endIndex": 1973,
               "textRun": {
                 "content": "Importantly, we don't even need to know how to solve the task ourselves, we just need to know whether a provided solution is good. This technique is fundamentally how models get ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 1970,
-              "endIndex": 1979,
+              "startIndex": 1973,
+              "endIndex": 1982,
               "textRun": {
                 "content": "very good",
                 "textStyle": {
@@ -683,16 +683,16 @@
               }
             },
             {
-              "startIndex": 1979,
-              "endIndex": 2077,
+              "startIndex": 1982,
+              "endIndex": 2080,
               "textRun": {
                 "content": " at specific tasks like writing poetry or computer code. It's also the way that the model can get ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 2077,
-              "endIndex": 2094,
+              "startIndex": 2080,
+              "endIndex": 2097,
               "textRun": {
                 "content": "better than human",
                 "textStyle": {
@@ -701,10 +701,10 @@
               }
             },
             {
-              "startIndex": 2094,
-              "endIndex": 2189,
+              "startIndex": 2097,
+              "endIndex": 2193,
               "textRun": {
-                "content": ": it isn't limited to learning from what humans have written, it figures things out on its own\n",
+                "content": ": it isn't limited to learning from what humans have written, it figures things out on its own.\n",
                 "textStyle": {}
               }
             }
@@ -728,13 +728,13 @@
         }
       },
       {
-        "startIndex": 2189,
-        "endIndex": 2190,
+        "startIndex": 2193,
+        "endIndex": 2194,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2189,
-              "endIndex": 2190,
+              "startIndex": 2193,
+              "endIndex": 2194,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -748,13 +748,13 @@
         }
       },
       {
-        "startIndex": 2190,
-        "endIndex": 2439,
+        "startIndex": 2194,
+        "endIndex": 2444,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2190,
-              "endIndex": 2194,
+              "startIndex": 2194,
+              "endIndex": 2198,
               "textRun": {
                 "content": "ASI ",
                 "textStyle": {
@@ -763,10 +763,10 @@
               }
             },
             {
-              "startIndex": 2194,
-              "endIndex": 2439,
+              "startIndex": 2198,
+              "endIndex": 2444,
               "textRun": {
-                "content": "\u2014 artificial superintelligence, or often just \u201csuperintelligence\u201d. Sometimes \u201ctransformational AI\u201d. Like AGI this is a fuzzy term, but broadly means AI that is better than all humans at all cognitive tasks. Better than Einstein at physics, etc.\n",
+                "content": "\u2014 artificial superintelligence, or often just \u201csuperintelligence\u201d. Sometimes \u201ctransformational AI\u201d. Like AGI, this is a fuzzy term, but broadly means AI that is better than all humans at all cognitive tasks. Better than Einstein at physics, etc.\n",
                 "textStyle": {}
               }
             }
@@ -790,13 +790,13 @@
         }
       },
       {
-        "startIndex": 2439,
-        "endIndex": 2440,
+        "startIndex": 2444,
+        "endIndex": 2445,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2439,
-              "endIndex": 2440,
+              "startIndex": 2444,
+              "endIndex": 2445,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -810,13 +810,13 @@
         }
       },
       {
-        "startIndex": 2440,
-        "endIndex": 2746,
+        "startIndex": 2445,
+        "endIndex": 2753,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2440,
-              "endIndex": 2451,
+              "startIndex": 2445,
+              "endIndex": 2456,
               "textRun": {
                 "content": "Superhuman ",
                 "textStyle": {
@@ -825,10 +825,10 @@
               }
             },
             {
-              "startIndex": 2451,
-              "endIndex": 2746,
+              "startIndex": 2456,
+              "endIndex": 2753,
               "textRun": {
-                "content": "\u2014 narrowly, if a model is better than all humans at a specific thing, we say it is superhuman at that task. Using reinforcement learning and other techniques we have already made superhuman models at things like chess and go, and we likely will have superhuman coding within a year, perhaps two\n",
+                "content": "\u2014 narrowly, if a model is better than all humans at a specific thing, we say it is superhuman at that task. Using reinforcement learning and other techniques, we have already made superhuman models at things like chess and Go, and we likely will have superhuman coding within a year, perhaps two.\n",
                 "textStyle": {}
               }
             }
@@ -852,13 +852,13 @@
         }
       },
       {
-        "startIndex": 2746,
-        "endIndex": 2747,
+        "startIndex": 2753,
+        "endIndex": 2754,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2746,
-              "endIndex": 2747,
+              "startIndex": 2753,
+              "endIndex": 2754,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -872,13 +872,13 @@
         }
       },
       {
-        "startIndex": 2747,
-        "endIndex": 3193,
+        "startIndex": 2754,
+        "endIndex": 3203,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2747,
-              "endIndex": 2757,
+              "startIndex": 2754,
+              "endIndex": 2764,
               "textRun": {
                 "content": "Alignment ",
                 "textStyle": {
@@ -887,10 +887,10 @@
               }
             },
             {
-              "startIndex": 2757,
-              "endIndex": 3193,
+              "startIndex": 2764,
+              "endIndex": 3203,
               "textRun": {
-                "content": "\u2014 we want models to do good things and not go against the wishes of humans or its users. The field of figuring out how to make sure this is the case is called Alignment. Notice that this is a confused (but important) term: the goal of making a model that always does good is at odds with the goal of making a model that always does what we ask it to do (even if it's not good). Often \u201calignment\u201d is used to refer to both of these goals\n",
+                "content": "\u2014 we want models to do good things and not go against the wishes of humans or their users. The field of figuring out how to make sure this is the case is called Alignment. Notice that this is a confused (but important) term: the goal of making a model that always does good is at odds with the goal of making a model that always does what we ask it to do (even if it's not good). Often \u201calignment\u201d is used to refer to both of these goals.\n",
                 "textStyle": {}
               }
             }
@@ -914,13 +914,13 @@
         }
       },
       {
-        "startIndex": 3193,
-        "endIndex": 3194,
+        "startIndex": 3203,
+        "endIndex": 3204,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3193,
-              "endIndex": 3194,
+              "startIndex": 3203,
+              "endIndex": 3204,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -934,13 +934,13 @@
         }
       },
       {
-        "startIndex": 3194,
-        "endIndex": 3305,
+        "startIndex": 3204,
+        "endIndex": 3316,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3194,
-              "endIndex": 3210,
+              "startIndex": 3204,
+              "endIndex": 3220,
               "textRun": {
                 "content": "Loss of control ",
                 "textStyle": {
@@ -949,10 +949,10 @@
               }
             },
             {
-              "startIndex": 3210,
-              "endIndex": 3305,
+              "startIndex": 3220,
+              "endIndex": 3316,
               "textRun": {
-                "content": "\u2014 a hypothetical situation where the creators of an AI lose control of it, potentially forever\n",
+                "content": "\u2014 a hypothetical situation where the creators of an AI lose control of it, potentially forever.\n",
                 "textStyle": {}
               }
             }
@@ -978,13 +978,13 @@
         }
       },
       {
-        "startIndex": 3305,
-        "endIndex": 3306,
+        "startIndex": 3316,
+        "endIndex": 3317,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3305,
-              "endIndex": 3306,
+              "startIndex": 3316,
+              "endIndex": 3317,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -998,13 +998,13 @@
         }
       },
       {
-        "startIndex": 3306,
-        "endIndex": 3916,
+        "startIndex": 3317,
+        "endIndex": 3927,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3306,
-              "endIndex": 3333,
+              "startIndex": 3317,
+              "endIndex": 3344,
               "textRun": {
                 "content": "Recursive self-improvement ",
                 "textStyle": {
@@ -1013,8 +1013,8 @@
               }
             },
             {
-              "startIndex": 3333,
-              "endIndex": 3916,
+              "startIndex": 3344,
+              "endIndex": 3927,
               "textRun": {
                 "content": "\u2014 we are training AI to get good at almost every task, and one of those tasks includes the task of building better AIs. Once an AI can build a better AI, that better AI can then build an even better AI, etc. This loop of an AI constantly improving itself is called recursive self-improvement. We don\u2019t know how fast it will be, or how powerful an AI will become once it is able to do this. We don\u2019t know when an AI will be able to start this loop. But many suspect it may be only a few years away. Often the arrival of this moment is assumed to be when \u201cthe singularity\u201d will occur.\n",
                 "textStyle": {}
@@ -1040,13 +1040,13 @@
         }
       },
       {
-        "startIndex": 3916,
-        "endIndex": 3917,
+        "startIndex": 3927,
+        "endIndex": 3928,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3916,
-              "endIndex": 3917,
+              "startIndex": 3927,
+              "endIndex": 3928,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1066,13 +1066,13 @@
         }
       },
       {
-        "startIndex": 3917,
-        "endIndex": 4099,
+        "startIndex": 3928,
+        "endIndex": 4110,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3917,
-              "endIndex": 3929,
+              "startIndex": 3928,
+              "endIndex": 3940,
               "textRun": {
                 "content": "Singularity ",
                 "textStyle": {
@@ -1081,10 +1081,10 @@
               }
             },
             {
-              "startIndex": 3929,
-              "endIndex": 4099,
+              "startIndex": 3940,
+              "endIndex": 4110,
               "textRun": {
-                "content": "\u2014 a term used to denote a future where technology is moving so quickly that humans can no longer keep up, usually used synonymously with the advent of superintelligence \n",
+                "content": "\u2014 a term used to denote a future where technology is moving so quickly that humans can no longer keep up, usually used synonymously with the advent of superintelligence.\n",
                 "textStyle": {}
               }
             }
@@ -1108,13 +1108,13 @@
         }
       },
       {
-        "startIndex": 4099,
-        "endIndex": 4100,
+        "startIndex": 4110,
+        "endIndex": 4111,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4099,
-              "endIndex": 4100,
+              "startIndex": 4110,
+              "endIndex": 4111,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1128,13 +1128,13 @@
         }
       },
       {
-        "startIndex": 4100,
-        "endIndex": 4333,
+        "startIndex": 4111,
+        "endIndex": 4346,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4100,
-              "endIndex": 4104,
+              "startIndex": 4111,
+              "endIndex": 4115,
               "textRun": {
                 "content": "GPU ",
                 "textStyle": {
@@ -1143,10 +1143,10 @@
               }
             },
             {
-              "startIndex": 4104,
-              "endIndex": 4333,
+              "startIndex": 4115,
+              "endIndex": 4346,
               "textRun": {
-                "content": "\u2014 graphics processing unit, despite its name these are used for powering AI. If AI is like nuclear technology, then GPUs are like uranium, and the geopolitical tension around the GPU supply chain will likely be similarly intense\n",
+                "content": "\u2014 graphics processing unit. Despite its name, these are used for powering AI. If AI is like nuclear technology, then GPUs are like uranium, and the geopolitical tension around the GPU supply chain will likely be similarly intense.\n",
                 "textStyle": {}
               }
             }
@@ -1170,13 +1170,13 @@
         }
       },
       {
-        "startIndex": 4333,
-        "endIndex": 4334,
+        "startIndex": 4346,
+        "endIndex": 4347,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4333,
-              "endIndex": 4334,
+              "startIndex": 4346,
+              "endIndex": 4347,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1190,13 +1190,13 @@
         }
       },
       {
-        "startIndex": 4334,
-        "endIndex": 4850,
+        "startIndex": 4347,
+        "endIndex": 4863,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4334,
-              "endIndex": 4341,
+              "startIndex": 4347,
+              "endIndex": 4354,
               "textRun": {
                 "content": "NVIDIA ",
                 "textStyle": {
@@ -1205,16 +1205,16 @@
               }
             },
             {
-              "startIndex": 4341,
-              "endIndex": 4828,
+              "startIndex": 4354,
+              "endIndex": 4841,
               "textRun": {
                 "content": "\u2014 the most successful producer of GPUs in the world, and (at various points in time) the most valuable company in the world. While there are other producers of chips used for AI, NVIDIA builds the lion\u2019s share of AI processors. NVIDIA is a savvy company, and fights hard to prevent monopsony: they carefully dole out their precious goods to many AI companies, to try to ensure there is not a winner-take-all outcome among builders of AI. They, of course, fight to be the winner-take-all ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4828,
-              "endIndex": 4836,
+              "startIndex": 4841,
+              "endIndex": 4849,
               "textRun": {
                 "content": "provider",
                 "textStyle": {
@@ -1223,8 +1223,8 @@
               }
             },
             {
-              "startIndex": 4836,
-              "endIndex": 4850,
+              "startIndex": 4849,
+              "endIndex": 4863,
               "textRun": {
                 "content": " of AI chips.\n",
                 "textStyle": {}
@@ -1250,13 +1250,13 @@
         }
       },
       {
-        "startIndex": 4850,
-        "endIndex": 4851,
+        "startIndex": 4863,
+        "endIndex": 4864,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4850,
-              "endIndex": 4851,
+              "startIndex": 4863,
+              "endIndex": 4864,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1270,13 +1270,13 @@
         }
       },
       {
-        "startIndex": 4851,
-        "endIndex": 5147,
+        "startIndex": 4864,
+        "endIndex": 5160,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4851,
-              "endIndex": 4856,
+              "startIndex": 4864,
+              "endIndex": 4869,
               "textRun": {
                 "content": "TSMC ",
                 "textStyle": {
@@ -1285,16 +1285,16 @@
               }
             },
             {
-              "startIndex": 4856,
-              "endIndex": 4865,
+              "startIndex": 4869,
+              "endIndex": 4878,
               "textRun": {
                 "content": "\u2014 NVIDIA ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4865,
-              "endIndex": 4872,
+              "startIndex": 4878,
+              "endIndex": 4885,
               "textRun": {
                 "content": "designs",
                 "textStyle": {
@@ -1303,16 +1303,16 @@
               }
             },
             {
-              "startIndex": 4872,
-              "endIndex": 4912,
+              "startIndex": 4885,
+              "endIndex": 4925,
               "textRun": {
                 "content": " AI chips, but TSMC is the company that ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 4912,
-              "endIndex": 4918,
+              "startIndex": 4925,
+              "endIndex": 4931,
               "textRun": {
                 "content": "builds",
                 "textStyle": {
@@ -1321,8 +1321,8 @@
               }
             },
             {
-              "startIndex": 4918,
-              "endIndex": 5147,
+              "startIndex": 4931,
+              "endIndex": 5160,
               "textRun": {
                 "content": " them. Unlike NVIDIA, there is currently no competitor to TSMC that can build a comparable chip. This makes TSMC one of the biggest bottlenecks in scaling AI. It also creates a massive geopolitical risk: TSMC is based in Taiwan.\n",
                 "textStyle": {}
@@ -1348,13 +1348,13 @@
         }
       },
       {
-        "startIndex": 5147,
-        "endIndex": 5148,
+        "startIndex": 5160,
+        "endIndex": 5161,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5147,
-              "endIndex": 5148,
+              "startIndex": 5160,
+              "endIndex": 5161,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1368,13 +1368,13 @@
         }
       },
       {
-        "startIndex": 5148,
-        "endIndex": 5691,
+        "startIndex": 5161,
+        "endIndex": 5704,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5148,
-              "endIndex": 5155,
+              "startIndex": 5161,
+              "endIndex": 5168,
               "textRun": {
                 "content": "Taiwan ",
                 "textStyle": {
@@ -1383,10 +1383,10 @@
               }
             },
             {
-              "startIndex": 5155,
-              "endIndex": 5691,
+              "startIndex": 5168,
+              "endIndex": 5704,
               "textRun": {
-                "content": "\u2014 the country where TSMC builds the top end NVIDIA GPUs. Officially there is a \u201cone China policy,\u201d which is a political standoff between Taiwan and mainland China (PRC, the People\u2019s Republic of China) where each claims to be the true government of a single, unified China. In practice, that is a status quo used by Taiwan to maintain independence while letting the PRC save face. The West has historically tacitly supported Taiwan\u2019s independence, and the AI industry\u2019s current extreme dependence on TSMC makes this even more important.\n",
+                "content": "\u2014 the country where TSMC builds the top-end NVIDIA GPUs. Officially there is a \u201cone China policy,\u201d which is a political standoff between Taiwan and mainland China (PRC, the People\u2019s Republic of China) where each claims to be the true government of a single, unified China. In practice, that is a status quo used by Taiwan to maintain independence while letting the PRC save face. The West has historically tacitly supported Taiwan\u2019s independence, and the AI industry\u2019s current extreme dependence on TSMC makes this even more important.\n",
                 "textStyle": {}
               }
             }
@@ -1410,13 +1410,13 @@
         }
       },
       {
-        "startIndex": 5691,
-        "endIndex": 5692,
+        "startIndex": 5704,
+        "endIndex": 5705,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5691,
-              "endIndex": 5692,
+              "startIndex": 5704,
+              "endIndex": 5705,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1430,13 +1430,13 @@
         }
       },
       {
-        "startIndex": 5692,
-        "endIndex": 6302,
+        "startIndex": 5705,
+        "endIndex": 6319,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5692,
-              "endIndex": 5698,
+              "startIndex": 5705,
+              "endIndex": 5711,
               "textRun": {
                 "content": "China ",
                 "textStyle": {
@@ -1445,10 +1445,10 @@
               }
             },
             {
-              "startIndex": 5698,
-              "endIndex": 6302,
+              "startIndex": 5711,
+              "endIndex": 6319,
               "textRun": {
-                "content": "\u2014 of course, China knows this. China has had plans to absorb Taiwan for decades, but have mostly shied due to the extreme scale such a conflict would require. But, as the race toward AI supremacy heats up, the Taiwan chess piece will become a critical focal point. America is racing to regain their ability to produce cutting-edge AI chips \u2014which they previously had with Intel\u2014 while China is racing to gain this ability on the mainland for the first time. Both will take years to achieve, and the race to AGI might be over before then, placing even more pressure on the strategic importance of Taiwan.\n",
+                "content": "\u2014 of course, China knows this. China has had plans to absorb Taiwan for decades, but has mostly shied away due to the extreme scale such a conflict would require. But, as the race toward AI supremacy heats up, the Taiwan chess piece will become a critical focal point. America is racing to regain their ability to produce cutting-edge AI chips \u2014which they previously had with Intel\u2014 while China is racing to gain this ability on the mainland for the first time. Both will take years to achieve, and the race to AGI might be over before then, placing even more pressure on the strategic importance of Taiwan.\n",
                 "textStyle": {}
               }
             }
@@ -1472,13 +1472,13 @@
         }
       },
       {
-        "startIndex": 6302,
-        "endIndex": 6303,
+        "startIndex": 6319,
+        "endIndex": 6320,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6302,
-              "endIndex": 6303,
+              "startIndex": 6319,
+              "endIndex": 6320,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1492,13 +1492,13 @@
         }
       },
       {
-        "startIndex": 6303,
-        "endIndex": 6713,
+        "startIndex": 6320,
+        "endIndex": 6730,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6303,
-              "endIndex": 6308,
+              "startIndex": 6320,
+              "endIndex": 6325,
               "textRun": {
                 "content": "ASML ",
                 "textStyle": {
@@ -1507,8 +1507,8 @@
               }
             },
             {
-              "startIndex": 6308,
-              "endIndex": 6713,
+              "startIndex": 6325,
+              "endIndex": 6730,
               "textRun": {
                 "content": "\u2014 There is one further supply chain chokepoint with building AI. ASML is a Dutch company that builds the EUV machine used by TSMC to build the chips designed by NVIDIA to power AI built by OpenAI, Anthropic, DeepMind, and others. The EUV machine is the light source used to etch the nanoscale circuits onto AI chips. It\u2019s widely believed that reproducing the ASML EUV technology is a multi-decade effort.\n",
                 "textStyle": {}
@@ -1534,13 +1534,13 @@
         }
       },
       {
-        "startIndex": 6713,
-        "endIndex": 6714,
+        "startIndex": 6730,
+        "endIndex": 6731,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6713,
-              "endIndex": 6714,
+              "startIndex": 6730,
+              "endIndex": 6731,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1554,13 +1554,13 @@
         }
       },
       {
-        "startIndex": 6714,
-        "endIndex": 7242,
+        "startIndex": 6731,
+        "endIndex": 7257,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6714,
-              "endIndex": 6721,
+              "startIndex": 6731,
+              "endIndex": 6738,
               "textRun": {
                 "content": "Europe ",
                 "textStyle": {
@@ -1569,10 +1569,10 @@
               }
             },
             {
-              "startIndex": 6721,
-              "endIndex": 7242,
+              "startIndex": 6738,
+              "endIndex": 7257,
               "textRun": {
-                "content": "\u2014 in recent years Europe has been losing their competitive advantage in both software and hardware. On top of this, Europe has been aggressive about rolling out regulations that slow down software and AI deployments. Because of that, Europe has often been written off as no longer a key player in this race. However, they still hold ASML, they still have large budgets, a highly technical citizenry, and recently \u2014with the ongoing deterioration of US-EU relations\u2014 an increased desire to catch up and stand on their own.\n",
+                "content": "\u2014 in recent years Europe has been losing its competitive advantage in both software and hardware. On top of this, Europe has been aggressive about rolling out regulations that slow down software and AI deployments. Because of that, Europe has often been written off as no longer a key player in this race. However, they still hold ASML, they still have large budgets, a highly technical citizenry, and recently \u2014with the ongoing deterioration of US-EU relations\u2014 an increased desire to catch up and stand on their own.\n",
                 "textStyle": {}
               }
             }
@@ -1596,13 +1596,13 @@
         }
       },
       {
-        "startIndex": 7242,
-        "endIndex": 7243,
+        "startIndex": 7257,
+        "endIndex": 7258,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7242,
-              "endIndex": 7243,
+              "startIndex": 7257,
+              "endIndex": 7258,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1616,13 +1616,13 @@
         }
       },
       {
-        "startIndex": 7243,
-        "endIndex": 7750,
+        "startIndex": 7258,
+        "endIndex": 7765,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7243,
-              "endIndex": 7262,
+              "startIndex": 7258,
+              "endIndex": 7277,
               "textRun": {
                 "content": "Compute thresholds ",
                 "textStyle": {
@@ -1631,16 +1631,16 @@
               }
             },
             {
-              "startIndex": 7262,
-              "endIndex": 7333,
+              "startIndex": 7277,
+              "endIndex": 7348,
               "textRun": {
                 "content": "\u2014 there have been very few AI regulations passed. Of the few that have ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7333,
-              "endIndex": 7339,
+              "startIndex": 7348,
+              "endIndex": 7354,
               "textRun": {
                 "content": "almost",
                 "textStyle": {
@@ -1649,8 +1649,8 @@
               }
             },
             {
-              "startIndex": 7339,
-              "endIndex": 7750,
+              "startIndex": 7354,
+              "endIndex": 7765,
               "textRun": {
                 "content": " passed, a common component is a \u201ccompute threshold\u201d. AI gets more powerful as it uses more compute. So the basic idea of a compute threshold is to treat more powerful AIs differently based on whether they used a certain amount of compute. For example, this could allow for a regulation to apply to superintelligent AI, while simultaneously not applying to smaller AIs used by startups or independent citizens.\n",
                 "textStyle": {}
@@ -1676,13 +1676,13 @@
         }
       },
       {
-        "startIndex": 7750,
-        "endIndex": 7751,
+        "startIndex": 7765,
+        "endIndex": 7766,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7750,
-              "endIndex": 7751,
+              "startIndex": 7765,
+              "endIndex": 7766,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1696,13 +1696,13 @@
         }
       },
       {
-        "startIndex": 7751,
-        "endIndex": 8017,
+        "startIndex": 7766,
+        "endIndex": 8032,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7751,
-              "endIndex": 7758,
+              "startIndex": 7766,
+              "endIndex": 7773,
               "textRun": {
                 "content": "Misuse ",
                 "textStyle": {
@@ -1711,8 +1711,8 @@
               }
             },
             {
-              "startIndex": 7758,
-              "endIndex": 8017,
+              "startIndex": 7773,
+              "endIndex": 8032,
               "textRun": {
                 "content": "\u2014 \u201cAI misuse\u201d or often just \u201cmisuse\u201d for short, is the intentional misuse of AI. For example, using AI for terrorism, for misinformation, or for cyberhacking. Using AI to subvert democracy classifies as misuse, but is typically not discussed in that setting.\n",
                 "textStyle": {}
@@ -1738,13 +1738,13 @@
         }
       },
       {
-        "startIndex": 8017,
-        "endIndex": 8018,
+        "startIndex": 8032,
+        "endIndex": 8033,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8017,
-              "endIndex": 8018,
+              "startIndex": 8032,
+              "endIndex": 8033,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1758,13 +1758,13 @@
         }
       },
       {
-        "startIndex": 8018,
-        "endIndex": 8224,
+        "startIndex": 8033,
+        "endIndex": 8239,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8018,
-              "endIndex": 8025,
+              "startIndex": 8033,
+              "endIndex": 8040,
               "textRun": {
                 "content": "Safety ",
                 "textStyle": {
@@ -1773,8 +1773,8 @@
               }
             },
             {
-              "startIndex": 8025,
-              "endIndex": 8224,
+              "startIndex": 8040,
+              "endIndex": 8239,
               "textRun": {
                 "content": "\u2014 \u201cAI safety\u201d or often just \u201csafety\u201d, is the study and practice of how to make sure AI doesn\u2019t cause harm. Preventing misuse is one form of safety, as is preventing misalignment and loss of control.\n",
                 "textStyle": {}
@@ -1800,13 +1800,13 @@
         }
       },
       {
-        "startIndex": 8224,
-        "endIndex": 8225,
+        "startIndex": 8239,
+        "endIndex": 8240,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8224,
-              "endIndex": 8225,
+              "startIndex": 8239,
+              "endIndex": 8240,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1820,13 +1820,13 @@
         }
       },
       {
-        "startIndex": 8225,
-        "endIndex": 8386,
+        "startIndex": 8240,
+        "endIndex": 8401,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8225,
-              "endIndex": 8232,
+              "startIndex": 8240,
+              "endIndex": 8247,
               "textRun": {
                 "content": "AI lab ",
                 "textStyle": {
@@ -1835,8 +1835,8 @@
               }
             },
             {
-              "startIndex": 8232,
-              "endIndex": 8386,
+              "startIndex": 8247,
+              "endIndex": 8401,
               "textRun": {
                 "content": "\u2014 sometimes \u201cFrontier AI lab\u201d, typically refers to one of the major companies building cutting-edge AI, such as DeepMind, Anthropic, DeepSeek, or OpenAI.\n",
                 "textStyle": {}
@@ -1862,13 +1862,13 @@
         }
       },
       {
-        "startIndex": 8386,
-        "endIndex": 8387,
+        "startIndex": 8401,
+        "endIndex": 8402,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8386,
-              "endIndex": 8387,
+              "startIndex": 8401,
+              "endIndex": 8402,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1882,13 +1882,13 @@
         }
       },
       {
-        "startIndex": 8387,
-        "endIndex": 8665,
+        "startIndex": 8402,
+        "endIndex": 8680,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8387,
-              "endIndex": 8396,
+              "startIndex": 8402,
+              "endIndex": 8411,
               "textRun": {
                 "content": "Pause AI ",
                 "textStyle": {
@@ -1897,8 +1897,8 @@
               }
             },
             {
-              "startIndex": 8396,
-              "endIndex": 8665,
+              "startIndex": 8411,
+              "endIndex": 8680,
               "textRun": {
                 "content": "\u2014 a political movement focused on trying to temporarily pause the development of AI to allow for more time to establish safeguards and alignment. Sometimes also associated with Stop AI, which takes a stronger stance of trying to permanently stop the development of AI.\n",
                 "textStyle": {}
@@ -1924,13 +1924,13 @@
         }
       },
       {
-        "startIndex": 8665,
-        "endIndex": 8666,
+        "startIndex": 8680,
+        "endIndex": 8681,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8665,
-              "endIndex": 8666,
+              "startIndex": 8680,
+              "endIndex": 8681,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1944,13 +1944,13 @@
         }
       },
       {
-        "startIndex": 8666,
-        "endIndex": 8943,
+        "startIndex": 8681,
+        "endIndex": 8958,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8666,
-              "endIndex": 8669,
+              "startIndex": 8681,
+              "endIndex": 8684,
               "textRun": {
                 "content": "EA ",
                 "textStyle": {
@@ -1959,8 +1959,8 @@
               }
             },
             {
-              "startIndex": 8669,
-              "endIndex": 8943,
+              "startIndex": 8684,
+              "endIndex": 8958,
               "textRun": {
                 "content": "\u2014 Effective Altruism is a philanthropic philosophy originating around 2011 that focuses on how to make charitable giving as effective as possible at helping people. Among many issues, the movement put an early focus on AI risks and funding researchers working on AI safety.\n",
                 "textStyle": {}
@@ -1986,13 +1986,13 @@
         }
       },
       {
-        "startIndex": 8943,
-        "endIndex": 8944,
+        "startIndex": 8958,
+        "endIndex": 8959,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8943,
-              "endIndex": 8944,
+              "startIndex": 8958,
+              "endIndex": 8959,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2006,13 +2006,13 @@
         }
       },
       {
-        "startIndex": 8944,
-        "endIndex": 9279,
+        "startIndex": 8959,
+        "endIndex": 9294,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8944,
-              "endIndex": 8951,
+              "startIndex": 8959,
+              "endIndex": 8966,
               "textRun": {
                 "content": "Doomer ",
                 "textStyle": {
@@ -2021,16 +2021,16 @@
               }
             },
             {
-              "startIndex": 8951,
-              "endIndex": 9264,
+              "startIndex": 8966,
+              "endIndex": 9279,
               "textRun": {
                 "content": "\u2014 a person who believes that AI is very likely to cause human extinction. Some EAs are also doomers, although many aren\u2019t, which has caused the EA movement to be strongly associated with doomerism and degrowth. Often, however, doomers tend to be libertarians who are pro-growth and pro-deregulation in all things ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9264,
-              "endIndex": 9270,
+              "startIndex": 9279,
+              "endIndex": 9285,
               "textRun": {
                 "content": "except",
                 "textStyle": {
@@ -2039,8 +2039,8 @@
               }
             },
             {
-              "startIndex": 9270,
-              "endIndex": 9279,
+              "startIndex": 9285,
+              "endIndex": 9294,
               "textRun": {
                 "content": " for AI.\n",
                 "textStyle": {}
@@ -2066,13 +2066,13 @@
         }
       },
       {
-        "startIndex": 9279,
-        "endIndex": 9280,
+        "startIndex": 9294,
+        "endIndex": 9295,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9279,
-              "endIndex": 9280,
+              "startIndex": 9294,
+              "endIndex": 9295,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2086,13 +2086,13 @@
         }
       },
       {
-        "startIndex": 9280,
-        "endIndex": 9434,
+        "startIndex": 9295,
+        "endIndex": 9449,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9280,
-              "endIndex": 9286,
+              "startIndex": 9295,
+              "endIndex": 9301,
               "textRun": {
                 "content": "e/acc ",
                 "textStyle": {
@@ -2101,8 +2101,8 @@
               }
             },
             {
-              "startIndex": 9286,
-              "endIndex": 9434,
+              "startIndex": 9301,
+              "endIndex": 9449,
               "textRun": {
                 "content": "\u2014 short for effective accelerationism, a countermovement that advocates for pro-growth policy and typically also a hands-off approach to AI safety.\n",
                 "textStyle": {}
@@ -2128,13 +2128,13 @@
         }
       },
       {
-        "startIndex": 9434,
-        "endIndex": 9435,
+        "startIndex": 9449,
+        "endIndex": 9450,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9434,
-              "endIndex": 9435,
+              "startIndex": 9449,
+              "endIndex": 9450,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2148,13 +2148,13 @@
         }
       },
       {
-        "startIndex": 9435,
-        "endIndex": 9732,
+        "startIndex": 9450,
+        "endIndex": 9747,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9435,
-              "endIndex": 9447,
+              "startIndex": 9450,
+              "endIndex": 9462,
               "textRun": {
                 "content": "Data center ",
                 "textStyle": {
@@ -2163,16 +2163,16 @@
               }
             },
             {
-              "startIndex": 9447,
-              "endIndex": 9704,
+              "startIndex": 9462,
+              "endIndex": 9719,
               "textRun": {
                 "content": "\u2014 today the most powerful AIs require vast numbers of GPUs. Instead of being run on small computers, they must be run on large arrays of computers called data centers. This puts additional constraints on where AI capacity can be allocated. It requires land ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9704,
-              "endIndex": 9707,
+              "startIndex": 9719,
+              "endIndex": 9722,
               "textRun": {
                 "content": "and",
                 "textStyle": {
@@ -2181,8 +2181,8 @@
               }
             },
             {
-              "startIndex": 9707,
-              "endIndex": 9732,
+              "startIndex": 9722,
+              "endIndex": 9747,
               "textRun": {
                 "content": " access to excess power.\n",
                 "textStyle": {}
@@ -2208,13 +2208,13 @@
         }
       },
       {
-        "startIndex": 9732,
-        "endIndex": 9733,
+        "startIndex": 9747,
+        "endIndex": 9748,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9732,
-              "endIndex": 9733,
+              "startIndex": 9747,
+              "endIndex": 9748,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2228,13 +2228,13 @@
         }
       },
       {
-        "startIndex": 9733,
-        "endIndex": 9958,
+        "startIndex": 9748,
+        "endIndex": 9973,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9733,
-              "endIndex": 9739,
+              "startIndex": 9748,
+              "endIndex": 9754,
               "textRun": {
                 "content": "YIMBY ",
                 "textStyle": {
@@ -2243,8 +2243,8 @@
               }
             },
             {
-              "startIndex": 9739,
-              "endIndex": 9958,
+              "startIndex": 9754,
+              "endIndex": 9973,
               "textRun": {
                 "content": "\u2014 Yes In My Back Yard. YIMBYism is a countermovement against NIMBYism (Not In My Backyard). YIMBYs fight for growth because it leads to what most people need: cheaper housing, cheaper goods, and a lower cost of living.\n",
                 "textStyle": {}
@@ -2270,13 +2270,13 @@
         }
       },
       {
-        "startIndex": 9958,
-        "endIndex": 9959,
+        "startIndex": 9973,
+        "endIndex": 9974,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9958,
-              "endIndex": 9959,
+              "startIndex": 9973,
+              "endIndex": 9974,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2290,13 +2290,13 @@
         }
       },
       {
-        "startIndex": 9959,
-        "endIndex": 10735,
+        "startIndex": 9974,
+        "endIndex": 10730,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9959,
-              "endIndex": 9986,
+              "startIndex": 9974,
+              "endIndex": 10001,
               "textRun": {
                 "content": "Offense vs defense balance ",
                 "textStyle": {
@@ -2305,10 +2305,10 @@
               }
             },
             {
-              "startIndex": 9986,
-              "endIndex": 10735,
+              "startIndex": 10001,
+              "endIndex": 10730,
               "textRun": {
-                "content": "\u2014 when new technologies are introduced they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it\u2019s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. Often, however, you might wish to know the direction balance will shift, because it may influence your decision on many aspects of the technology such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.\n",
+                "content": "\u2014 when new technologies are introduced, they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it\u2019s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. If you could predict how the balance would shift, it would likely influence your decision on many aspects of the technology, such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.\n",
                 "textStyle": {}
               }
             }
@@ -2332,13 +2332,13 @@
         }
       },
       {
-        "startIndex": 10735,
-        "endIndex": 10736,
+        "startIndex": 10730,
+        "endIndex": 10731,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10735,
-              "endIndex": 10736,
+              "startIndex": 10730,
+              "endIndex": 10731,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2352,13 +2352,13 @@
         }
       },
       {
-        "startIndex": 10736,
-        "endIndex": 11306,
+        "startIndex": 10731,
+        "endIndex": 11303,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10736,
-              "endIndex": 10745,
+              "startIndex": 10731,
+              "endIndex": 10740,
               "textRun": {
                 "content": "Robotics ",
                 "textStyle": {
@@ -2367,10 +2367,10 @@
               }
             },
             {
-              "startIndex": 10745,
-              "endIndex": 11306,
+              "startIndex": 10740,
+              "endIndex": 11303,
               "textRun": {
-                "content": "\u2014 today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.\n",
+                "content": "\u2014 today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically, this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily, this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.\n",
                 "textStyle": {}
               }
             }
@@ -3274,7 +3274,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LvY2ZMmeqPBs49MaiFVOZd_jUX3It6O2zRcNlQpMTqUG7uDDhSwc_MYC2pU6n58vmPb1bCfCVpNE7GbZA",
+  "revisionId": "ALBJ4LvpDvIpOQm1SOLQg-r7m6m-zYWKHTJIByhSTYwUedLvilhGLrUutMd3ZVsChWHoCTaA6ZrzGHGMyN5c1w",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1g1MrziAeRAOkppKQvBdSgGJqC5d-pr4F5-i1mcRNJGQ"
 }

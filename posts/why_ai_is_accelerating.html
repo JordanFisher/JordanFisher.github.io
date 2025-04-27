@@ -500,6 +500,62 @@
             80% { opacity: 1; }
             100% { opacity: 0; }
         }
+        
+        /* PDF download link styling */
+        .pdf-download {
+            margin: 2rem 0;
+            padding: 1rem 1.5rem;
+            background-color: #f8f8f8;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+        
+        .pdf-download a {
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        
+        .pdf-download a:hover {
+            color: #004499;
+            border-bottom: none;
+        }
+        
+        .download-icon {
+            font-size: 3.2rem;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        
+        .pdf-download:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .pdf-download {
+                background-color: #2a2a2a;
+                border-left-color: #5abbff;
+            }
+            
+            .pdf-download a {
+                color: #5abbff;
+            }
+            
+            .pdf-download a:hover {
+                color: #7dcfff;
+            }
+            
+            .pdf-download:hover {
+                background-color: #333;
+            }
+        }
     </style>
 </head>
 <body>
@@ -510,142 +566,142 @@
 <p>If you’re reading this in 2025, maybe you’re already noticing AI around you. The news articles. Your colleagues using AI for work. Your kid using it as a tutor to learn math faster.</p>
 <p>At my last checkup with my doctor, while chitchatting about AI, he proudly proclaimed that he doesn’t use any chatbots. What was interesting was that he thought this was notable. The <em>default</em> is that you use chatbots, and he felt it was noteworthy that he didn’t.</p>
 <p>Everywhere else, everyone I know follows the default. A year ago I knew more holdouts, today they’re mostly gone. The adoption curve for AI has been phenomenally fast.</p>
-<p>But, fine, you’ve seen new technology before. If you were born before 1990 you saw the heyday of Moore’s law, the rise of the internet, the advent of smartphones, and the transformation of nearly every type of social interaction through social media: from dating to shaming, from politics to condolences. You’ve seen all these things come on fast, and then get so integrated into society they’re almost forgotten about. Not worth discussing.</p>
+<p>But, fine, you’ve seen new technology before. If you were born before 1990, you saw the heyday of Moore’s law, the rise of the internet, the advent of smartphones, and the transformation of nearly every type of social interaction through social media: from dating to shaming, from politics to condolences. You’ve seen all these things come on fast, and then get so integrated into society they’re almost forgotten about. Not worth discussing.</p>
 <p>Isn’t AI just another new technology? Is there really so much more progress in front of us that society is in danger? That our lives literally are in danger?</p>
 <p>Yes.</p>
-<p>And the future depends on understanding this. There is so little time left that if you wait for a more clear signal, the moment to make a difference will be gone. Moreover, the way we choose to intervene and try to guide society needs to change with the realities of how this technology will mature. All the details matter.</p>
+<p>And the future depends on understanding this. There is so little time left that if you wait for a clearer signal, the moment to make a difference will be gone. Moreover, the way we choose to intervene and try to guide society needs to change with the realities of how this technology will mature. All the details matter.</p>
 <p>Let’s work through some of the details to better understand why AI is accelerating. Those details will help inform how we predict the future will unfold, and what changes we’ll need to ensure that future is positive.</p>
 <h1>The horizon of an agent</h1>
 <ul>
-<li>AIs know more than any human alive, by many orders of magnitude. In terms of pure question answering ability, they’re now outpacing even most professionals. I hold a PhD in computational fluid dynamics, and I can't hold my own against AI even in this narrow domain I spent years mastering. If you have a question about fluid dynamics, today you’re better off asking an AI rather than me</li>
-<li>But AIs still aren’t as good as humans at <em>doing things</em>. We call this “agency”, and AIs that perform actions we call “agents”</li>
-<li>Why do AIs seem so smart, but are still so bad at doing things? With humans we’d call this gap tacit knowledge. You can read every book in the world on how to build a car engine, but you won’t really know how to build one until you pick up a wrench and do it many times</li>
-<li>Tacit knowledge isn’t written down. It’s not on the internet. You have to discover it yourself by doing</li>
-<li>Only now, in the last year or so, have AIs started <em>doing</em>. Now that they are, they are rapidly improving at it</li>
-<li>As the AIs improve at doing things, we look at which tasks they’re good at, and which they’re still failing at</li>
-<li>In general, what we see is that today the AIs are better at tasks that take less time. This is more or less the same as the developmental progress of a student, or of a new employee. First you need to break down tasks into small chunks for the student, but over time you can give them bigger and bigger tasks</li>
+<li>AIs know more than any human alive, by many orders of magnitude. In terms of pure question answering ability, they’re now outpacing even most professionals. I hold a PhD in computational fluid dynamics, and I can't hold my own against AI even in this narrow domain I spent years mastering. If you have a question about fluid dynamics, today you’re better off asking an AI rather than me.</li>
+<li>But AIs still aren’t as good as humans at <em>doing things</em>. We call this “agency”, and AIs that perform actions we call “agents”.</li>
+<li>Why do AIs seem so smart, but are still so bad at doing things? With humans we’d call this gap tacit knowledge. You can read every book in the world on how to build a car engine, but you won’t really know how to build one until you pick up a wrench and do it many times.</li>
+<li>Tacit knowledge isn’t written down. It’s not on the internet. You have to discover it yourself by doing.</li>
+<li>Only now, in the last year or so, have AIs started <em>doing</em>. Now that they are, they are rapidly improving at it.</li>
+<li>As the AIs improve at doing things, we look at which tasks they’re good at, and which they’re still failing at.</li>
+<li>In general, what we see is that today the AIs are better at tasks that take less time. This is more or less the same as the developmental progress of a student, or of a new employee. First you need to break down tasks into small chunks for the student, but over time you can give them bigger and bigger tasks.</li>
 <li>We call the length of a task that an AI can handle their “horizon”. As AIs improve, so does their horizon. The capability of an AI is now best measured in units of time. How long is their horizon? How big of a task can I give it?</li>
 </ul>
 <h1>The quick glance rule</h1>
 <ul>
-<li>The shortest horizon is a task that can be done immediately, intuitively, or at a quick glance</li>
-<li>Look at a picture of a cat, and you know quickly that it’s a cat, without even consciously thinking</li>
-<li>10 years ago, these were the hard tasks we were training AI to be good at. Identifying cats wasn’t easy, but you could do it with hard work</li>
-<li>To train an AI, you would collect millions of pictures of cats and not-cats, and hand label them. Then you would teach the AI with these costly labels, a process known as supervised learning</li>
-<li>At the time, Andrew Ng, a famous AI researcher, popularized the idea of “at a glance” tasks. If a human can do something at a glance, then so can an AI — if you put in the hard work of using supervised training</li>
-<li>Many companies were built on this insight, and it led to great improvements in things like handwriting recognition for the Post Office</li>
-<li>This was a massive surprise in AI at the time, and jump started what was known as the “Deep Learning” revolution. For the 50 years of AI research leading up to this, we had no idea how to build an AI that could recognize cats</li>
-<li>Today, AIs can recognize not just cats, but differences in cat breeds better than almost any human. Likewise for dogs, cars, trees, or basically pictures of almost anything that exists in our world</li>
-<li>Not only do modern AIs already have superhuman breadth, they have integrated their knowledge together. For example, as of early 2025, ChatGPT can now identify the location at which almost any photo was taken. It does this by recognizing plants, landmarks, signs, and other details, and then integrating together that information to deduce a plausible location</li>
+<li>The shortest horizon is a task that can be done immediately, intuitively, or at a quick glance.</li>
+<li>Look at a picture of a cat, and you know quickly that it’s a cat, without even consciously thinking.</li>
+<li>10 years ago, these were the hard tasks we were training AI to be good at. Identifying cats wasn’t easy, but you could do it with hard work.</li>
+<li>To train an AI, you would collect millions of pictures of cats and not-cats, and hand label them. Then you would teach the AI with these costly labels, a process known as supervised learning.</li>
+<li>At the time, Andrew Ng, a famous AI researcher, popularized the idea of “at a glance” tasks. If a human can do something at a glance, then so can an AI — if you put in the hard work of using supervised training.</li>
+<li>Many companies were built on this insight, and it led to great improvements in things like handwriting recognition for the Post Office.</li>
+<li>This was a massive surprise in AI at the time, and jump-started what was known as the “Deep Learning” revolution. For the 50 years of AI research leading up to this, we had no idea how to build an AI that could recognize cats.</li>
+<li>Today, AIs can recognize not just cats, but differences in cat breeds better than almost any human. Likewise for dogs, cars, trees, or basically pictures of almost anything that exists in our world.</li>
+<li>Not only do modern AIs already have superhuman breadth, they have integrated their knowledge together. For example, as of early 2025, ChatGPT can now identify the location at which almost any photo was taken. It does this by recognizing plants, landmarks, signs, and other details, and then integrating together that information to deduce a plausible location.</li>
 </ul>
 <h1>Answering questions</h1>
 <ul>
-<li>Many types of questions are also answered “at a glance”. If you know, you know</li>
-<li>If you spend time with deep experts and you ask them hard questions about their field, they rarely hesitate to answer. They don’t need to think or reason first, they simply already know</li>
-<li>This too is a type of short horizon task, but it wasn’t until a couple of years ago with the arrival of ChatGPT that we had AIs that could do this passably well</li>
+<li>Many types of questions are also answered “at a glance”. If you know, you know.</li>
+<li>If you spend time with deep experts and you ask them hard questions about their field, they rarely hesitate to answer. They don’t need to think or reason first, they simply already know.</li>
+<li>This too is a type of short horizon task, but it wasn’t until a couple of years ago with the arrival of ChatGPT that we had AIs that could do this passably well.</li>
 <li>What changed?</li>
-<li>We figured out how to let the AI teach itself from reading, and then we gave it the entire internet to read</li>
-<li>Modern AIs now know basically everything that can be found on the internet, and they understand it at a fairly deep level</li>
+<li>We figured out how to let the AI teach itself from reading, and then we gave it the entire internet to read.</li>
+<li>Modern AIs now know basically everything that can be found on the internet, and they understand it at a fairly deep level.</li>
 </ul>
 <h1>Writing code</h1>
 <ul>
-<li>Let’s take writing code as a concrete example of a skill that requires practice to master</li>
-<li>The original GPT-4 came out in March 2023, just two years ago from when I’m writing this</li>
-<li>At the time, it was already quite fluent at answering questions about code. Which makes sense, it had likely read most of the code on the internet</li>
-<li>But while GPT could answer many questions about code, it wasn’t great at <em>writing</em> code. That wasn’t something it had ever really done before</li>
-<li>But, even still, it could write small pieces of code, if you gave it a bite sized problem to solve</li>
-<li>This was already revolutionary. We went from AIs that could only solve tasks that can be done “at a glance”, to tasks that might take a few seconds to complete. Still, this was far from something that could automate programming</li>
-<li>Flash forward to 2025, just two years later, and AIs can now routinely complete programming tasks that would take a human half an hour, sometimes more. These are hard, complex tasks that some human programmers can’t even complete at all. AI can not only complete these tasks now, it can often do it 10x faster than a human</li>
-<li>At the beginning of 2025, OpenAI released o3, which performs at the 99.8th percentile among competitive programmers. Soon after, Anthropic released Sonnet 3.7, which quickly became a nearly mandatory ingredient in most engineers’ toolkit for writing code</li>
-<li>I'm an expert programmer and have been coding for more than 20 years. Today, AI already writes more than 80% of my code </li>
-<li>How did these AIs so rapidly improve from barely functional to world class? How did their horizon improve so quickly?</li>
+<li>Let’s take writing code as a concrete example of a skill that requires practice to master.</li>
+<li>The original GPT-4 came out in March 2023, just two years ago from when I’m writing this.</li>
+<li>At the time, it was already quite fluent at answering questions about code. Which makes sense, it had likely read most of the code on the internet.</li>
+<li>But while GPT could answer many questions about code, it wasn’t great at <em>writing</em> code. That wasn’t something it had ever really done before.</li>
+<li>But, even still, it could write small pieces of code, if you gave it a bite-sized problem to solve.</li>
+<li>This was already revolutionary. We went from AIs that could only solve tasks that can be done “at a glance”, to tasks that might take a few seconds to complete. Still, this was far from something that could automate programming.</li>
+<li>Flash forward to 2025, just two years later, and AIs can now routinely complete programming tasks that would take a human half an hour, sometimes more. These are hard, complex tasks that some human programmers can’t even complete at all. AI can not only complete these tasks now, it can often do it 10x faster than a human.</li>
+<li>At the beginning of 2025, OpenAI released o3, which performs at the 99.8th percentile among competitive programmers. Soon after, Anthropic released Sonnet 3.7, which quickly became a nearly mandatory ingredient in most engineers’ toolkit for writing code.</li>
+<li>I'm an expert programmer and have been coding for more than 20 years. Today, AI already writes more than 80% of my code.</li>
+<li>How did these AIs so rapidly improve from barely functional to world-class? How did their horizon improve so quickly?</li>
 </ul>
 <h1>Two types of training</h1>
 <ul>
-<li>Broadly, there are two types of training that AIs use today</li>
-<li>The first is fairly passive. The AI tries to learn ideas and concepts by reading most of the internet</li>
-<li>The second is active. The AI <em>practices</em> by doing, and gets feedback from how well it did. This is called Reinforcement Learning or RL, and it’s how AI is finally learning the tacit knowledge needed to be effective</li>
-<li>RL has been around for decades, but it’s only recently started working well for our best AIs</li>
-<li>The sudden increase in ability of AIs <em>actually being able to do things</em> comes from this training. This happened in just the last year, and is often discussed as the arrival of “reasoning models”</li>
-<li>We ask the AI to try to do things, over and over, millions of times, and it figures out what works and what doesn’t work</li>
-<li>Critically, we don’t even need to know how to solve the tasks we give the AI. It figures that out on its own. All we need to do is figure out how to tell the AI if it did a good job</li>
-<li>Even that we often don’t know how to do, so we often <em>train an AI to figure out how to give feedback to itself</em> in a process called RLHF. This may sound circuitous, but it’s similar to how a coach can help a world class athlete becomes a better athlete, even if the coach themself isn’t and never was world class</li>
+<li>Broadly, there are two types of training that AIs use today.</li>
+<li>The first is fairly passive. The AI tries to learn ideas and concepts by reading most of the internet.</li>
+<li>The second is active. The AI <em>practices</em> by doing, and gets feedback from how well it did. This is called Reinforcement Learning or RL, and it’s how AI is finally learning the tacit knowledge needed to be effective.</li>
+<li>RL has been around for decades, but it’s only recently started working well for our best AIs.</li>
+<li>The sudden increase in ability of AIs <em>actually being able to do things</em> comes from this training. This happened in just the last year, and is often discussed as the arrival of “reasoning models”.</li>
+<li>We ask the AI to try to do things, over and over, millions of times, and it figures out what works and what doesn’t work.</li>
+<li>Critically, we don’t even need to know how to solve the tasks we give the AI. It figures that out on its own. All we need to do is figure out how to tell the AI if it did a good job.</li>
+<li>Even that we often don’t know how to do, so we often <em>train an AI to figure out how to give feedback to itself</em> in a process called RLHF. This may sound circuitous, but it’s similar to how a coach can help a world-class athlete become a better athlete, even if the coach themself isn’t and never was world-class.</li>
 </ul>
 <h1>We’ve seen this before with AI</h1>
 <ul>
-<li>We’ve seen this sudden improvement in agency and capabilities with AI before, in other domains</li>
-<li>Take the game of Go. For decades AI struggled to play Go at even an amateur level</li>
-<li>Then, suddenly, a superhuman AI Go player named AlphaGo emerged in 2016. It beat the world champion Lee Sedol in a globally televised match. Since then AI Go has only gotten stronger</li>
-<li>The key ingredient for AlphaGo was also Reinforcement Learning. AlphaGo played millions of games against itself, and figured out for itself what the best strategies and tactics are</li>
-<li>Some of the strategies AlphaGo used were difficult even for grandmasters to understand. The famous “move 37” was a move used in AlphaGo’s game against Lee Sedol that live experts thought was suboptimal. But as the game unfolded the move proved brilliant — and decisive. The human grandmaster didn't even realize they were losing until much further after it was already inevitable</li>
+<li>We’ve seen this sudden improvement in agency and capabilities with AI before, in other domains.</li>
+<li>Take the game of Go. For decades AI struggled to play Go at even an amateur level.</li>
+<li>Then, suddenly, a superhuman AI Go player named AlphaGo emerged in 2016. It beat the world champion Lee Sedol in a globally televised match. Since then AI Go has only gotten stronger.</li>
+<li>The key ingredient for AlphaGo was also Reinforcement Learning. AlphaGo played millions of games against itself, and figured out for itself what the best strategies and tactics are.</li>
+<li>Some of the strategies AlphaGo used were difficult even for grandmasters to understand. The famous “move 37” was a move used in AlphaGo’s game against Lee Sedol that live experts thought was suboptimal. But as the game unfolded the move proved brilliant — and decisive. The human grandmaster didn't even realize they were losing until long after it was already inevitable.</li>
 </ul>
 <h1>Why do AIs spend so little time close to human level?</h1>
 <ul>
-<li>AI Go players went from being hopeless amateurs for decades, to suddenly superhuman</li>
-<li>There was less than a year during which AIs were roughly similar to humans in ability</li>
-<li>The hard task for an AI is getting close to human performance at all. This requires learning abstract concepts about a domain and then understanding relationships between those concepts</li>
-<li>Humans are excellent at this process of abstracting, and are still better than AIs at doing it quickly</li>
-<li>However, once an AI has learned the right concepts, it has a massive advantage over humans for what comes next: practicing. An AI can run millions of copies of itself, at thousands of time human speeds, allowing it to practice tasks millions of times more thoroughly than any human</li>
-<li>For a human, once things “click”, they still need years or decades to further refine their ability to reach elite levels</li>
-<li>For an AI, once things “click”, they can often catapult beyond the best human in just months</li>
-<li>This leads to a deceptive sense of progress. Often an AI struggles at a task, perhaps performing at the level of a child or an amateur, and we think superhuman performance is decades away</li>
-<li>However, we repeatedly see that this intermediate level of skill is fleeting — the period where the AI is similar but not better to most humans is often a very short period of time</li>
+<li>AI Go players went from being hopeless amateurs for decades, to suddenly superhuman.</li>
+<li>There was less than a year during which AIs were roughly similar to humans in ability.</li>
+<li>The hard task for an AI is getting close to human performance at all. This requires learning abstract concepts about a domain and then understanding relationships between those concepts.</li>
+<li>Humans are excellent at this process of abstracting, and are still better than AIs at doing it quickly.</li>
+<li>However, once an AI has learned the right concepts, it has a massive advantage over humans for what comes next: practicing. An AI can run millions of copies of itself, at thousands of times human speeds, allowing it to practice tasks millions of times more thoroughly than any human.</li>
+<li>For a human, once things “click”, they still need years or decades to further refine their ability to reach elite levels.</li>
+<li>For an AI, once things “click”, they can often catapult beyond the best human in just months.</li>
+<li>This leads to a deceptive sense of progress. Often an AI struggles at a task, perhaps performing at the level of a child or an amateur, and we think superhuman performance is decades away.</li>
+<li>However, we repeatedly see that this intermediate level of skill is fleeting — the period where the AI is similar to but not better than most humans is often a very short period of time.</li>
 </ul>
 <h1>Where is AI improving today?</h1>
 <ul>
-<li>We can leverage this observation to predict where AI will be superhuman tomorrow. We just need to look at where AI is rapidly approaching human levels today, even if it’s the level of an amateur human or a young child</li>
-<li>Robotics is a key example. Like Go, AI control of robotics was nearly comical for decades. In just the last year, we are finally seeing robots that have the dexterity of a child, sometimes better. We’re now at a place where the robot can practice on its own, often in a simulated virtual environment, allowing it to rapidly accumulate millions of years of dexterous experience</li>
-<li>We should expect to see robots that rival the best humans within a few years. This will revolutionize manufacturing and our economy</li>
-<li>Today we’re also seeing strong AI competence in medicine, law, accounting, project management, and a myriad other types of knowledge work. We should expect to see superhuman performance in these areas in the next few years as we let the AI practice these roles as well</li>
-<li>The impact of this alone is hard to overstate. At the very least, it will upend our economy and force us to redefine the function that jobs have in our society</li>
-<li>But let’s return to coding, it has a special role to play in the near future</li>
+<li>We can leverage this observation to predict where AI will be superhuman tomorrow. We just need to look at where AI is rapidly approaching human levels today, even if it’s the level of an amateur human or a young child.</li>
+<li>Robotics is a key example. Like Go, AI control of robotics was nearly comical for decades. In just the last year, we are finally seeing robots that have the dexterity of a child, sometimes better. We’re now at a place where the robot can practice on its own, often in a simulated virtual environment, allowing it to rapidly accumulate millions of years of dexterous experience.</li>
+<li>We should expect to see robots that rival the best humans within a few years. This will revolutionize manufacturing and our economy.</li>
+<li>Today we’re also seeing strong AI competence in medicine, law, accounting, project management, and myriad other types of knowledge work. We should expect to see superhuman performance in these areas in the next few years as we let the AI practice these roles as well.</li>
+<li>The impact of this alone is hard to overstate. At the very least, it will upend our economy and force us to redefine the function that jobs have in our society.</li>
+<li>But let’s return to coding; it has a special role to play in the near future.</li>
 </ul>
 <h1>The next wave of software</h1>
 <ul>
-<li>AI is now better than many, but not all, programmers at writing code, and the rate of improvement is steep</li>
-<li>We’re in the critical time period for this skill where AI is similar to human level, but will likely very soon be superhuman</li>
-<li>Software is foundational to modern society. Once we automate the creation of software itself we should expect to see an explosion in where software is used</li>
-<li>We should also expect to see a diversification of software, as the cost of creating it goes to zero. Imagine having custom software for every business need, or for every personal need, specifically tailored to do exactly what you want, rather than needing to use software that is muddled up from the needs of millions of other users</li>
-<li>Every person in the world will be empowered to create software, just by thinking about what they want, and collaborating with an AI to build it</li>
-<li>We should expect to see more novelty, and more niches filled. Where previously it was too expensive to build software for the specific needs of one or two people, now software can finally reach them</li>
-<li>And there is one area where automating the creation of software will have massive impact: creating better AI</li>
+<li>AI is now better than many, but not all, programmers at writing code, and the rate of improvement is steep.</li>
+<li>We’re in the critical time period for this skill where AI is similar to human-level, but will likely very soon be superhuman.</li>
+<li>Software is foundational to modern society. Once we automate the creation of software itself we should expect to see an explosion in where software is used.</li>
+<li>We should also expect to see a diversification of software, as the cost of creating it goes to zero. Imagine having custom software for every business need, or for every personal need, specifically tailored to do exactly what you want, rather than needing to use software that is muddled up from the needs of millions of other users.</li>
+<li>Every person in the world will be empowered to create software, just by thinking about what they want, and collaborating with an AI to build it.</li>
+<li>We should expect to see more novelty, and more niches filled. Where previously it was too expensive to build software for the specific needs of one or two people, now software can finally reach them.</li>
+<li>And there is one area where automating the creation of software will have massive impact: creating better AI.</li>
 </ul>
 <h1>Recursive self-improvement</h1>
 <ul>
-<li>AI is itself software</li>
-<li>Once AI is better than any human at writing software, we’ll ask it to start writing better versions of itself. This is not hypothetical, many AI companies have publicly stated this is their goal, and they expect to reach that goal within two or three years</li>
-<li>Because AI can try millions of things in parallel, and can think a thousand times faster than any human, we expect that this will massively accelerate AI research</li>
-<li>And, as the AI that the AIs create gets better, the pace of improving AI will increase further. And so on and so on</li>
-<li>When improvements create the conditions for further improvements, you end up with a recursively improving loop</li>
-<li>How fast will AI improve once this loop starts? No one knows. But the rate at which this loop improves will be one of the most important factors for how the future plays out. The slower the loop goes, the more time we’ll have as a society to digest the changes and put new safeguards in place</li>
+<li>AI is itself software.</li>
+<li>Once AI is better than any human at writing software, we’ll ask it to start writing better versions of itself. This is not hypothetical; many AI companies have publicly stated this is their goal, and they expect to reach that goal within two or three years.</li>
+<li>Because AI can try millions of things in parallel, and can think a thousand times faster than any human, we expect that this will massively accelerate AI research.</li>
+<li>And, as the AI that the AIs create gets better, the pace of improving AI will increase further. And so on and so on.</li>
+<li>When improvements create the conditions for further improvements, you end up with a recursively improving loop.</li>
+<li>How fast will AI improve once this loop starts? No one knows. But the rate at which this loop improves will be one of the most important factors for how the future plays out. The slower the loop goes, the more time we’ll have as a society to digest the changes and put new safeguards in place.</li>
 </ul>
 <h1>Other reasons things are moving so fast</h1>
 <ul>
-<li>Investors realize the potential AI has to transform the economy. Because of this they’re investing hundreds of billions of dollars into AI companies to capture this future value. For AI progress, that directly translates into faster progress. More money means more compute, and more compute means bigger, faster AIs</li>
-<li>Some of the smartest people in the world are working on AI. Because the industry is so hot, it’s simultaneously prestigious and lucrative. Many of the smartest engineers and scientists finishing school are competing to get into AI</li>
-<li>The motivation levels are high. AI is a fascinating scientific field that involves trying to understand the nature of intelligence itself. Even before working on AI paid well, many scientists were passionate about solving intelligence</li>
-<li>Competition is fierce. Peter Thiel famously said, “Competition is for losers.” That has been an ethos for silicon valley for decades. Software companies try to find new areas to explore where they don’t compete with others. With AI, it’s the opposite. Many of the most valuable companies in the world are directly competing with each other to win the AI race. And many of the most promising private startups are doing the same. The extreme competition has created a mini version of a domestic space race</li>
+<li>Investors realize the potential AI has to transform the economy. Because of this, they’re investing hundreds of billions of dollars into AI companies to capture this future value. For AI progress, that directly translates into faster progress. More money means more compute, and more compute means bigger, faster AIs.</li>
+<li>Some of the smartest people in the world are working on AI. Because the industry is so hot, it’s simultaneously prestigious and lucrative. Many of the smartest engineers and scientists finishing school are competing to get into AI.</li>
+<li>The motivation levels are high. AI is a fascinating scientific field that involves trying to understand the nature of intelligence itself. Even before working on AI paid well, many scientists were passionate about solving intelligence.</li>
+<li>Competition is fierce. Peter Thiel famously said, “Competition is for losers.” That has been an ethos for Silicon Valley for decades. Software companies try to find new areas to explore where they don’t compete with others. With AI, it’s the opposite. Many of the most valuable companies in the world are directly competing with each other to win the AI race. And many of the most promising private startups are doing the same. The extreme competition has created a mini version of a domestic space race.</li>
 </ul>
 <h1>Money will soon equal progress</h1>
 <ul>
-<li>As AI reaches human level, you can start spending money to spin up more instances of AI</li>
-<li>Today, you can only pay for so much labor before you run out of qualified people, especially for challenging, technical projects like AI research and other fields of scientific endeavor</li>
-<li>Once we cross this key threshold though, suddenly the trillions of dollars of global wealth can almost instantly convert itself into AI labor for advancing the frontier of technology</li>
-<li>We should expect this to lead to a major leap in the rate of progress in the next few years</li>
+<li>As AI reaches human-level, you can start spending money to spin up more instances of AI.</li>
+<li>Today, you can only pay for so much labor before you run out of qualified people, especially for challenging, technical projects like AI research and other fields of scientific endeavor.</li>
+<li>Once we cross this key threshold though, suddenly the trillions of dollars of global wealth can almost instantly convert itself into AI labor for advancing the frontier of technology.</li>
+<li>We should expect this to lead to a major leap in the rate of progress in the next few years.</li>
 </ul>
 <h1>Superintelligence</h1>
 <ul>
-<li>Just a few years ago, most people debated if we would ever build machines as smart as humans</li>
-<li>Today, machines have finally matched or exceeded humans in many cognitive domains</li>
-<li>The remaining debate is how soon we will build superintelligence: machines better than all humans at all cognitive domains</li>
-<li>Superintelligence will invalidate many of the fundamental assumptions we’ve built our society on. We must upgrade our society before then if we want to safeguard liberty</li>
-<li>No one can predict for sure how soon superintelligence will arrive, but if it arrives soon, we must be ready for it</li>
+<li>Just a few years ago, most people debated if we would ever build machines as smart as humans.</li>
+<li>Today, machines have finally matched or exceeded humans in many cognitive domains.</li>
+<li>The remaining debate is how soon we will build superintelligence: machines better than all humans at all cognitive domains.</li>
+<li>Superintelligence will invalidate many of the fundamental assumptions we’ve built our society on. We must upgrade our society before then if we want to safeguard liberty.</li>
+<li>No one can predict for sure how soon superintelligence will arrive, but if it arrives soon, we must be ready for it.</li>
 </ul>
 <h1>Don’t be evil</h1>
 <p>Superintelligence will become the decisive strategic lever on the world stage, for both military dominance and economic dominance.</p>
 <p>As we approach the dawn of superintelligence, we should expect the fervor around controlling it to intensify. Superintelligence will be the ultimate seat of power. We should pay attention closely to actions, not words, to decipher who is playing for control, versus who is playing to ensure a positive future.</p>
-<p>For example, OpenAI was founded as a non-profit, with a mission to help superintelligence benefit all humanity. Even as a non-profit, their valuation has skyrocketed to over $300 billion — 10x higher than the valuation Google IPO-ed at. Today, however, they are trying to convert to a for-profit enterprise and explicitly abandon their original humanitarian mission.</p>
-<p>Google historically abstained from assisting the US military. In April 2025, Google announced that not only will they begin providing their frontier AI systems to the government, they will deploy them for Top Secret operations into air gapped data centers that the executive branch controls. Because these AIs will be air gapped, it means that no outside observers —such as Congress or the AI’s creators— will have any ability to even know if the AI is being used for unconstitutional ends. Even prior to this announcement from Google, DOGE had begun deploying other AIs in the executive branch to accelerate the automation of agencies.</p>
+<p>For example, OpenAI was founded as a nonprofit, with a mission to help superintelligence benefit all humanity. Even as a nonprofit, their valuation has skyrocketed to over $300 billion — 10x higher than the valuation Google IPO-ed at. Today, however, they are trying to convert to a for-profit enterprise and explicitly abandon their original humanitarian mission.</p>
+<p>Google historically abstained from assisting the US military. In April 2025, Google announced that not only will they begin providing their frontier AI systems to the government, they will deploy them for Top Secret operations into air-gapped data centers that the executive branch controls. Because these AIs will be air-gapped, it means that no outside observers —such as Congress or the AI’s creators— will have any ability to even know if the AI is being used for unconstitutional ends. Even prior to this announcement from Google, DOGE had begun deploying other AIs in the executive branch to accelerate the automation of agencies.</p>
 <p>These may be necessary steps to continue to improve the competitiveness of the US government and military. But what is starkly lacking is an equal increase in government oversight and transparency to ensure these increased government powers aren’t abused. When superintelligence arrives, it will almost surely further empower the federal government. It’s an existential necessity that we also further improve the ability for Congress and the judiciary to be checks on that power.</p>
 <p>Pay close attention to actors that propose the first without also advocating for the second. Pay even closer attention to actions. Actions don't just speak louder than words. When the stakes are this high, they are the only signal that can be trusted.</p>
 <h1>Alignment</h1>

@@ -122,7 +122,7 @@
               "startIndex": 738,
               "endIndex": 1568,
               "textRun": {
-                "content": "AI is heating up as a discussion topic. Today, old politics will increasingly try to cast AI debates in their language and for their goals. Tomorrow this will reverse, and old political debates will start recasting themselves in the new AI language. Political language follows the seat of power, and AI will soon become the ultimate throne. As the power of AI grows, the jockeying and politicking will intensify, as will our own internal biases and tribalisms. But we have to set aside old battles. We must keep our eye on the goal of arriving at a human-machine society that can govern itself well. In the future, if we succeed, a well governed society is what will let us have a chance at resolving all other debates. Today, we should seek a political ceasefire on every other issue but the future of democracy in an age of AI.\n",
+                "content": "AI is heating up as a discussion topic. Today, old politics will increasingly try to cast AI debates in their language and for their goals. Tomorrow this will reverse, and old political debates will start recasting themselves in the new AI language. Political language follows the seat of power, and AI will soon become the ultimate throne. As the power of AI grows, the jockeying and politicking will intensify, as will our own internal biases and tribalisms. But we have to set aside old battles. We must keep our eye on the goal of arriving at a human-machine society that can govern itself well. In the future, if we succeed, a well-governed society is what will let us have a chance at resolving all other debates. Today, we should seek a political ceasefire on every other issue but the future of democracy in an age of AI.\n",
                 "textStyle": {}
               }
             }
@@ -512,34 +512,14 @@
       },
       {
         "startIndex": 3719,
-        "endIndex": 4680,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3719,
-              "endIndex": 4680,
-              "textRun": {
-                "content": "There are downsides to pausing. Our geopolitical adversaries may not pause, for one. China is racing to build AGI and is only months behind the US. Moreover it's getting easier to build AGI every year, even if research is halted. The most important ingredient to AI is compute, and Moore's law makes compute exponentially cheaper over time. If we succeed at pausing AI internationally, what we really will do is delay AI. Then, in a few years once compute is even cheaper, hobbyists or small nation states around the world will easily be able to tinker toward AGI, likely under the radar of any non-proliferation treaty. The only way to truly stop this would be an international governance structure on all forms of computing, requiring granular monitoring not just at the industrial scale but at the individual citizen level. This would require international coordination beyond anything the world has ever seen, and an invasive government panopticon as well.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 4680,
         "endIndex": 4681,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4680,
+              "startIndex": 3719,
               "endIndex": 4681,
               "textRun": {
-                "content": "\n",
+                "content": "There are downsides to pausing. Our geopolitical adversaries may not pause, for one. China is racing to build AGI and is only months behind the US. Moreover, it's getting easier to build AGI every year, even if research is halted. The most important ingredient to AI is compute, and Moore's law makes compute exponentially cheaper over time. If we succeed at pausing AI internationally, what we really will do is delay AI. Then, in a few years once compute is even cheaper, hobbyists or small nation states around the world will easily be able to tinker toward AGI, likely under the radar of any non-proliferation treaty. The only way to truly stop this would be an international governance structure on all forms of computing, requiring granular monitoring not just at the industrial scale but at the individual citizen level. This would require international coordination beyond anything the world has ever seen, and an invasive government panopticon as well.\n",
                 "textStyle": {}
               }
             }
@@ -552,14 +532,14 @@
       },
       {
         "startIndex": 4681,
-        "endIndex": 5157,
+        "endIndex": 4682,
         "paragraph": {
           "elements": [
             {
               "startIndex": 4681,
-              "endIndex": 5157,
+              "endIndex": 4682,
               "textRun": {
-                "content": "Still, non-proliferation has seen partial successes before, as with nuclear weapons and nuclear energy. More recently we\u2019ve seen international coordination on preventing human gene editing and human cloning. We shouldn\u2019t assume the international political willpower is missing to achieve a peaceful future. The specifics of AI may make it unlikely and even dangerous to pursue this path, but it\u2019s nonetheless a good faith position that should be included in public discourse.\n",
+                "content": "\n",
                 "textStyle": {}
               }
             }
@@ -571,15 +551,15 @@
         }
       },
       {
-        "startIndex": 5157,
+        "startIndex": 4682,
         "endIndex": 5158,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5157,
+              "startIndex": 4682,
               "endIndex": 5158,
               "textRun": {
-                "content": "\n",
+                "content": "Still, non-proliferation has seen partial successes before, as with nuclear weapons and nuclear energy. More recently we\u2019ve seen international coordination on preventing human gene editing and human cloning. We shouldn\u2019t assume the international political willpower is missing to achieve a peaceful future. The specifics of AI may make it unlikely and even dangerous to pursue this path, but it\u2019s nonetheless a good-faith position that should be included in public discourse.\n",
                 "textStyle": {}
               }
             }
@@ -592,32 +572,12 @@
       },
       {
         "startIndex": 5158,
-        "endIndex": 5642,
+        "endIndex": 5159,
         "paragraph": {
           "elements": [
             {
               "startIndex": 5158,
-              "endIndex": 5642,
-              "textRun": {
-                "content": "If you\u2019re in tech, it\u2019s easy to sneer at this position (and indeed, many technologists do). Technology and science has been a leading force for good in the world, ushering in more abundance and prosperity than any time in history. If nothing else though, keep in mind that the vast majority of people outside of technology appreciate technology, but are fundamentally skeptical toward it, and often cynical. You won\u2019t win any allies if your cavalier dismissal alienates the majority.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 5642,
-        "endIndex": 5643,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 5642,
-              "endIndex": 5643,
+              "endIndex": 5159,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -631,13 +591,53 @@
         }
       },
       {
-        "startIndex": 5643,
-        "endIndex": 5882,
+        "startIndex": 5159,
+        "endIndex": 5644,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5643,
-              "endIndex": 5882,
+              "startIndex": 5159,
+              "endIndex": 5644,
+              "textRun": {
+                "content": "If you\u2019re in tech, it\u2019s easy to sneer at this position (and indeed, many technologists do). Technology and science have been a leading force for good in the world, ushering in more abundance and prosperity than any time in history. If nothing else though, keep in mind that the vast majority of people outside of technology appreciate technology, but are fundamentally skeptical toward it, and often cynical. You won\u2019t win any allies if your cavalier dismissal alienates the majority.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5644,
+        "endIndex": 5645,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5644,
+              "endIndex": 5645,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5645,
+        "endIndex": 5884,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5645,
+              "endIndex": 5884,
               "textRun": {
                 "content": "On the other side, if you\u2019re cynical of technology, keep in mind the realpolitik of the world. Technology is a key source of geopolitical power. Whatever your own preference toward it, undermining it can have many unintended consequences.\n",
                 "textStyle": {}
@@ -651,13 +651,13 @@
         }
       },
       {
-        "startIndex": 5882,
-        "endIndex": 5907,
+        "startIndex": 5884,
+        "endIndex": 5909,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5882,
-              "endIndex": 5907,
+              "startIndex": 5884,
+              "endIndex": 5909,
               "textRun": {
                 "content": "Exactly not like nuclear\n",
                 "textStyle": {}
@@ -672,15 +672,15 @@
         }
       },
       {
-        "startIndex": 5907,
-        "endIndex": 6480,
+        "startIndex": 5909,
+        "endIndex": 6482,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5907,
-              "endIndex": 6480,
+              "startIndex": 5909,
+              "endIndex": 6482,
               "textRun": {
-                "content": "Nuclear weapons and nuclear energy are a common analogy for AI. Nuclear is dual use, having both military and civilian use cases. It\u2019s capable of destroying humanity or giving it near infinite free energy. We have managed some international treaties for non-proliferation. We've also forgone most of the benefits in order to achieve the moderate safety we've secured. Whatever your opinion on nuclear energy, it\u2019s an existence proof that humanity is capable of walking away from incredible treasures because it helps secure peace and non-proliferation. So why not with AI?\n",
+                "content": "Nuclear weapons and nuclear energy are a common analogy for AI. Nuclear is dual-use, having both military and civilian use cases. It\u2019s capable of destroying humanity or giving it near-infinite free energy. We have managed some international treaties for non-proliferation. We've also forgone most of the benefits in order to achieve the moderate safety we've secured. Whatever your opinion on nuclear energy, it\u2019s an existence proof that humanity is capable of walking away from incredible treasures because it helps secure peace and non-proliferation. So why not with AI?\n",
                 "textStyle": {}
               }
             }
@@ -692,53 +692,13 @@
         }
       },
       {
-        "startIndex": 6480,
-        "endIndex": 6481,
+        "startIndex": 6482,
+        "endIndex": 6483,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6480,
-              "endIndex": 6481,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 6481,
-        "endIndex": 6845,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 6481,
-              "endIndex": 6845,
-              "textRun": {
-                "content": "Nuclear requires difficult to source fissile material like uranium. There are only a few good uranium mines in the world. AI requires computer chips, which are literally made out of sand. There is still a shortage of computer chips today, because of how voracious the appetite for AI is, but it's only an industrial capacity that limits us, not a scarce resource.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 6845,
-        "endIndex": 6846,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 6845,
-              "endIndex": 6846,
+              "startIndex": 6482,
+              "endIndex": 6483,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -752,21 +712,61 @@
         }
       },
       {
-        "startIndex": 6846,
-        "endIndex": 7361,
+        "startIndex": 6483,
+        "endIndex": 6847,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6846,
-              "endIndex": 7069,
+              "startIndex": 6483,
+              "endIndex": 6847,
+              "textRun": {
+                "content": "Nuclear requires difficult-to-source fissile material like uranium. There are only a few good uranium mines in the world. AI requires computer chips, which are literally made out of sand. There is still a shortage of computer chips today, because of how voracious the appetite for AI is, but it's only an industrial capacity that limits us, not a scarce resource.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6847,
+        "endIndex": 6848,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6847,
+              "endIndex": 6848,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6848,
+        "endIndex": 7363,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6848,
+              "endIndex": 7071,
               "textRun": {
                 "content": "Moreover, nuclear weapons are ironically a defensive weapon only. In an age of mutually assured destruction, the primary benefit of acquiring nukes is to deter enemies from attacking you. AGI will be much more powerful and ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7069,
-              "endIndex": 7077,
+              "startIndex": 7071,
+              "endIndex": 7079,
               "textRun": {
                 "content": "surgical",
                 "textStyle": {
@@ -775,10 +775,10 @@
               }
             },
             {
-              "startIndex": 7077,
-              "endIndex": 7361,
+              "startIndex": 7079,
+              "endIndex": 7363,
               "textRun": {
-                "content": ". For instance, AGI can help a dictator control their country. AGI can help a free country outcompete a rival on the economic world stage. An AGI can help a would-be dictator seize power. An AGI can unlock what a trillion dollar company needs to become a ten trillion dollar company.\n",
+                "content": ". For instance, AGI can help a dictator control their country. AGI can help a free country outcompete a rival on the economic world stage. An AGI can help a would-be dictator seize power. An AGI can unlock what a trillion-dollar company needs to become a ten-trillion-dollar company.\n",
                 "textStyle": {}
               }
             }
@@ -790,13 +790,13 @@
         }
       },
       {
-        "startIndex": 7361,
-        "endIndex": 7362,
+        "startIndex": 7363,
+        "endIndex": 7364,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7361,
-              "endIndex": 7362,
+              "startIndex": 7363,
+              "endIndex": 7364,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -810,15 +810,15 @@
         }
       },
       {
-        "startIndex": 7362,
-        "endIndex": 7839,
+        "startIndex": 7364,
+        "endIndex": 7842,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7362,
-              "endIndex": 7839,
+              "startIndex": 7364,
+              "endIndex": 7842,
               "textRun": {
-                "content": "Those incentives push leaders across the world to covet AI in a way that nuclear never could. There's no world where a CEO needs a nuke to be competitive. There's no world where a president can wield nukes to consolidate power across their own citizens. Nukes are hamfisted weapons that limit their own use. An AGI will be a shape shifting force that can help any motivated power become more powerful. This makes international non-proliferation substantially harder to secure.\n",
+                "content": "Those incentives push leaders across the world to covet AI in a way that nuclear never could. There's no world where a CEO needs a nuke to be competitive. There's no world where a president can wield nukes to consolidate power across their own citizens. Nukes are ham-fisted weapons that limit their own use. An AGI will be a shape-shifting force that can help any motivated power become more powerful. This makes international non-proliferation substantially harder to secure.\n",
                 "textStyle": {}
               }
             }
@@ -830,21 +830,21 @@
         }
       },
       {
-        "startIndex": 7839,
-        "endIndex": 7858,
+        "startIndex": 7842,
+        "endIndex": 7861,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7839,
-              "endIndex": 7857,
+              "startIndex": 7842,
+              "endIndex": 7860,
               "textRun": {
                 "content": "So let's regulate!",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 7857,
-              "endIndex": 7858,
+              "startIndex": 7860,
+              "endIndex": 7861,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -859,13 +859,13 @@
         }
       },
       {
-        "startIndex": 7858,
-        "endIndex": 8575,
+        "startIndex": 7861,
+        "endIndex": 8578,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7858,
-              "endIndex": 8575,
+              "startIndex": 7861,
+              "endIndex": 8578,
               "textRun": {
                 "content": "We rely on government to step in where free markets fail. The free market pushes us to build AGI, despite all the negative externalities and risks, so government regulation seems prudent. But the government is not a neutral force. If we empower government to control AI so that industry doesn't abuse it, then we are handing government a powerful weapon to consolidate power. This is unlike other common regulations that we\u2019re familiar with. Federal regulations over national parks don't help the government seize power. Regulation for guarding our rivers from toxic industrial runoff doesn't help the government seize power. Regulations for how fast you can drive on a freeway don\u2019t help the government seize power.\n",
                 "textStyle": {}
@@ -879,13 +879,13 @@
         }
       },
       {
-        "startIndex": 8575,
-        "endIndex": 8576,
+        "startIndex": 8578,
+        "endIndex": 8579,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8575,
-              "endIndex": 8576,
+              "startIndex": 8578,
+              "endIndex": 8579,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -899,21 +899,21 @@
         }
       },
       {
-        "startIndex": 8576,
-        "endIndex": 8903,
+        "startIndex": 8579,
+        "endIndex": 8906,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8576,
-              "endIndex": 8617,
+              "startIndex": 8579,
+              "endIndex": 8620,
               "textRun": {
                 "content": "The aggregate of many common regulations ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8617,
-              "endIndex": 8620,
+              "startIndex": 8620,
+              "endIndex": 8623,
               "textRun": {
                 "content": "can",
                 "textStyle": {
@@ -922,8 +922,8 @@
               }
             },
             {
-              "startIndex": 8620,
-              "endIndex": 8903,
+              "startIndex": 8623,
+              "endIndex": 8906,
               "textRun": {
                 "content": " combine to give the federal government excessive power. We\u2019ve been debating when to limit that aggregated power for hundreds of years. We don\u2019t pretend to have an answer to that complex debate here. Instead, we simply flag that AI is different, and merits a dedicated conversation:\n",
                 "textStyle": {}
@@ -937,13 +937,13 @@
         }
       },
       {
-        "startIndex": 8903,
-        "endIndex": 8904,
+        "startIndex": 8906,
+        "endIndex": 8907,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8903,
-              "endIndex": 8904,
+              "startIndex": 8906,
+              "endIndex": 8907,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -957,13 +957,13 @@
         }
       },
       {
-        "startIndex": 8904,
-        "endIndex": 9148,
+        "startIndex": 8907,
+        "endIndex": 9151,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8904,
-              "endIndex": 9148,
+              "startIndex": 8907,
+              "endIndex": 9151,
               "textRun": {
                 "content": "Allowing the federal government to control AI directly gives it the tools it needs to consolidate power. An automated executive branch could far outstrip the ability of Congress or the public to oversee it. The potential for abuse is extreme. \n",
                 "textStyle": {}
@@ -977,13 +977,13 @@
         }
       },
       {
-        "startIndex": 9148,
-        "endIndex": 9149,
+        "startIndex": 9151,
+        "endIndex": 9152,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9148,
-              "endIndex": 9149,
+              "startIndex": 9151,
+              "endIndex": 9152,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -997,13 +997,13 @@
         }
       },
       {
-        "startIndex": 9149,
-        "endIndex": 9733,
+        "startIndex": 9152,
+        "endIndex": 9736,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9149,
-              "endIndex": 9733,
+              "startIndex": 9152,
+              "endIndex": 9736,
               "textRun": {
                 "content": "That doesn\u2019t mean that regulation has no place. But it does mean that we need to be thoughtful. Politics often pushes people toward one of two sides: regulations are good, or regulations are bad. This is always the wrong framing. The correct framing is to prioritize good outcomes, and then reason through what the right regulatory environment is. Sometimes there are regulations that can help achieve good outcomes. Sometimes removing regulations is most needed. And sometimes regulation is needed, but bad regulations are passed that are ultimately worse than no regulation at all.\n",
                 "textStyle": {}
@@ -1017,13 +1017,13 @@
         }
       },
       {
-        "startIndex": 9733,
-        "endIndex": 9734,
+        "startIndex": 9736,
+        "endIndex": 9737,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9733,
-              "endIndex": 9734,
+              "startIndex": 9736,
+              "endIndex": 9737,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1037,21 +1037,21 @@
         }
       },
       {
-        "startIndex": 9734,
-        "endIndex": 10096,
+        "startIndex": 9737,
+        "endIndex": 10099,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9734,
-              "endIndex": 9883,
+              "startIndex": 9737,
+              "endIndex": 9886,
               "textRun": {
                 "content": "Keep this in mind when reading or discussing AI policy proposals. If you read an argument that argues about the merits of regulation or deregulation ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 9883,
-              "endIndex": 9893,
+              "startIndex": 9886,
+              "endIndex": 9896,
               "textRun": {
                 "content": "in general",
                 "textStyle": {
@@ -1060,8 +1060,8 @@
               }
             },
             {
-              "startIndex": 9893,
-              "endIndex": 10096,
+              "startIndex": 9896,
+              "endIndex": 10099,
               "textRun": {
                 "content": ", it\u2019s likely that the author is trying to appeal to your political affiliation to win you as an ally, instead of engaging you in the hard work of debating what we actually need to ensure a free future.\n",
                 "textStyle": {}
@@ -1075,13 +1075,13 @@
         }
       },
       {
-        "startIndex": 10096,
-        "endIndex": 10137,
+        "startIndex": 10099,
+        "endIndex": 10140,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10096,
-              "endIndex": 10137,
+              "startIndex": 10099,
+              "endIndex": 10140,
               "textRun": {
                 "content": "Libertarians and open source absolutists\n",
                 "textStyle": {}
@@ -1096,13 +1096,13 @@
         }
       },
       {
-        "startIndex": 10137,
-        "endIndex": 10320,
+        "startIndex": 10140,
+        "endIndex": 10323,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10137,
-              "endIndex": 10320,
+              "startIndex": 10140,
+              "endIndex": 10323,
               "textRun": {
                 "content": "Libertarians believe in small, accountable government. They inherently mistrust government and instead seek to empower citizens and the free market to better resolve societal issues.\n",
                 "textStyle": {}
@@ -1116,13 +1116,13 @@
         }
       },
       {
-        "startIndex": 10320,
-        "endIndex": 10321,
+        "startIndex": 10323,
+        "endIndex": 10324,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10320,
-              "endIndex": 10321,
+              "startIndex": 10323,
+              "endIndex": 10324,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1136,23 +1136,23 @@
         }
       },
       {
-        "startIndex": 10321,
-        "endIndex": 10901,
+        "startIndex": 10324,
+        "endIndex": 10904,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10321,
-              "endIndex": 10412,
+              "startIndex": 10324,
+              "endIndex": 10415,
               "textRun": {
                 "content": "Deregulation of AI is a natural position for libertarians, but their underlying goal is to ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 10412,
-              "endIndex": 10901,
+              "startIndex": 10415,
+              "endIndex": 10904,
               "textRun": {
-                "content": "distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.\n",
+                "content": "distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open-sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.\n",
                 "textStyle": {}
               }
             }
@@ -1164,53 +1164,13 @@
         }
       },
       {
-        "startIndex": 10901,
-        "endIndex": 10902,
+        "startIndex": 10904,
+        "endIndex": 10905,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10901,
-              "endIndex": 10902,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 10902,
-        "endIndex": 11197,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 10902,
-              "endIndex": 11197,
-              "textRun": {
-                "content": "There are inherent limits on how powerful a human powered company can become. People get disillusioned and leave to start competitors. Limited amount of top talent prevents companies from tackling too many verticals. The scale of company politics crushes productivity and demoralizes employees.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 11197,
-        "endIndex": 11198,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 11197,
-              "endIndex": 11198,
+              "startIndex": 10904,
+              "endIndex": 10905,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1224,13 +1184,53 @@
         }
       },
       {
-        "startIndex": 11198,
-        "endIndex": 11307,
+        "startIndex": 10905,
+        "endIndex": 11202,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11198,
-              "endIndex": 11307,
+              "startIndex": 10905,
+              "endIndex": 11202,
+              "textRun": {
+                "content": "There are inherent limits on how powerful a human-powered company can become. People get disillusioned and leave to start competitors. A limited amount of top talent prevents companies from tackling too many verticals. The scale of company politics crushes productivity and demoralizes employees.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11202,
+        "endIndex": 11203,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11202,
+              "endIndex": 11203,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11203,
+        "endIndex": 11312,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11203,
+              "endIndex": 11312,
               "textRun": {
                 "content": "Humans have a precious resource that companies need: intelligence. That gives bargaining power to all of us.\n",
                 "textStyle": {}
@@ -1244,13 +1244,13 @@
         }
       },
       {
-        "startIndex": 11307,
-        "endIndex": 11308,
+        "startIndex": 11312,
+        "endIndex": 11313,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11307,
-              "endIndex": 11308,
+              "startIndex": 11312,
+              "endIndex": 11313,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1264,13 +1264,13 @@
         }
       },
       {
-        "startIndex": 11308,
-        "endIndex": 11336,
+        "startIndex": 11313,
+        "endIndex": 11341,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11308,
-              "endIndex": 11336,
+              "startIndex": 11313,
+              "endIndex": 11341,
               "textRun": {
                 "content": "And AI destroys that power.\n",
                 "textStyle": {}
@@ -1284,13 +1284,13 @@
         }
       },
       {
-        "startIndex": 11336,
-        "endIndex": 11337,
+        "startIndex": 11341,
+        "endIndex": 11342,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11336,
-              "endIndex": 11337,
+              "startIndex": 11341,
+              "endIndex": 11342,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1304,21 +1304,21 @@
         }
       },
       {
-        "startIndex": 11337,
-        "endIndex": 11707,
+        "startIndex": 11342,
+        "endIndex": 11713,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11337,
-              "endIndex": 11460,
+              "startIndex": 11342,
+              "endIndex": 11466,
               "textRun": {
-                "content": "Today, a passionate designer can leave a company and build a new product that delights new users. In fact this is becoming ",
+                "content": "Today, a passionate designer can leave a company and build a new product that delights new users. In fact, this is becoming ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11460,
-              "endIndex": 11466,
+              "startIndex": 11466,
+              "endIndex": 11472,
               "textRun": {
                 "content": "easier",
                 "textStyle": {
@@ -1327,8 +1327,8 @@
               }
             },
             {
-              "startIndex": 11466,
-              "endIndex": 11707,
+              "startIndex": 11472,
+              "endIndex": 11713,
               "textRun": {
                 "content": " with AI. But once the intellectual labor of that designer is automated, the power dynamic is flipped. A mega company can simply spend money to have an AI design the same or better product. And the AI won't be frustrated by politics or ego.\n",
                 "textStyle": {}
@@ -1342,13 +1342,13 @@
         }
       },
       {
-        "startIndex": 11707,
-        "endIndex": 11708,
+        "startIndex": 11713,
+        "endIndex": 11714,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11707,
-              "endIndex": 11708,
+              "startIndex": 11713,
+              "endIndex": 11714,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1362,21 +1362,21 @@
         }
       },
       {
-        "startIndex": 11708,
-        "endIndex": 12212,
+        "startIndex": 11714,
+        "endIndex": 12219,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11708,
-              "endIndex": 11822,
+              "startIndex": 11714,
+              "endIndex": 11829,
               "textRun": {
-                "content": "But won't that designer also have AI? Yes, but less of it, even if all AIs were open source. With AI we know that ",
+                "content": "But won't that designer also have AI? Yes, but less of it, even if all AIs were open source. With AI, we know that ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11822,
-              "endIndex": 11836,
+              "startIndex": 11829,
+              "endIndex": 11843,
               "textRun": {
                 "content": "more is more. ",
                 "textStyle": {
@@ -1385,8 +1385,8 @@
               }
             },
             {
-              "startIndex": 11836,
-              "endIndex": 12212,
+              "startIndex": 11843,
+              "endIndex": 12219,
               "textRun": {
                 "content": "If you have 100x the budget to spend on the AI thinking, you will get much better results. And big companies have millions of times more resources than small companies. In the age of AGI, money buys results, and more money will always buy better results, and more of them. The result is that money will breed money, and will never again be beholden to human genius and drive.\n",
                 "textStyle": {}
@@ -1400,13 +1400,13 @@
         }
       },
       {
-        "startIndex": 12212,
-        "endIndex": 12213,
+        "startIndex": 12219,
+        "endIndex": 12220,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12212,
-              "endIndex": 12213,
+              "startIndex": 12219,
+              "endIndex": 12220,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1420,15 +1420,15 @@
         }
       },
       {
-        "startIndex": 12213,
-        "endIndex": 12445,
+        "startIndex": 12220,
+        "endIndex": 12451,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12213,
-              "endIndex": 12445,
+              "startIndex": 12220,
+              "endIndex": 12451,
               "textRun": {
-                "content": "We want the libertarian ideal of empowered citizens. But stripped of our key competitive advantage \u2014the uniqueness of our intelligence\u2014 this won't be the default outcome. We need a new chess board or we won't be players any longer.\n",
+                "content": "We want the libertarian ideal of empowered citizens. But stripped of our key competitive advantage \u2014the uniqueness of our intelligence\u2014 this won't be the default outcome. We need a new chessboard or we won't be players any longer.\n",
                 "textStyle": {}
               }
             }
@@ -1440,21 +1440,21 @@
         }
       },
       {
-        "startIndex": 12445,
-        "endIndex": 12454,
+        "startIndex": 12451,
+        "endIndex": 12460,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12445,
-              "endIndex": 12446,
+              "startIndex": 12451,
+              "endIndex": 12452,
               "textRun": {
                 "content": "D",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12446,
-              "endIndex": 12454,
+              "startIndex": 12452,
+              "endIndex": 12460,
               "textRun": {
                 "content": "egrowth\n",
                 "textStyle": {}
@@ -1469,15 +1469,15 @@
         }
       },
       {
-        "startIndex": 12454,
-        "endIndex": 12585,
+        "startIndex": 12460,
+        "endIndex": 12591,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12454,
-              "endIndex": 12585,
+              "startIndex": 12460,
+              "endIndex": 12591,
               "textRun": {
-                "content": "The degrowth movement views the excesses of capitalism and hyper growth as a key factor in the ongoing deterioration of the world.\n",
+                "content": "The degrowth movement views the excesses of capitalism and hyper-growth as a key factor in the ongoing deterioration of the world.\n",
                 "textStyle": {}
               }
             }
@@ -1489,13 +1489,13 @@
         }
       },
       {
-        "startIndex": 12585,
-        "endIndex": 12586,
+        "startIndex": 12591,
+        "endIndex": 12592,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12585,
-              "endIndex": 12586,
+              "startIndex": 12591,
+              "endIndex": 12592,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1509,15 +1509,15 @@
         }
       },
       {
-        "startIndex": 12586,
-        "endIndex": 12971,
+        "startIndex": 12592,
+        "endIndex": 12978,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12586,
-              "endIndex": 12971,
+              "startIndex": 12592,
+              "endIndex": 12978,
               "textRun": {
-                "content": "Degrowthers often point to environmental factors to detract from AI, such as the energy requirements to train AIs or the ongoing energy demands of AI datacenters. Like the environmental movement it grew out of, degrowthers want to protect the most precious things in the world from the dangers of industrialization: nature, our social fabric, and ultimately our humanity. Noble goals.\n",
+                "content": "Degrowthers often point to environmental factors to detract from AI, such as the energy requirements to train AIs or the ongoing energy demands of AI data centers. Like the environmental movement it grew out of, degrowthers want to protect the most precious things in the world from the dangers of industrialization: nature, our social fabric, and ultimately our humanity. Noble goals.\n",
                 "textStyle": {}
               }
             }
@@ -1529,13 +1529,13 @@
         }
       },
       {
-        "startIndex": 12971,
-        "endIndex": 12972,
+        "startIndex": 12978,
+        "endIndex": 12979,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12971,
-              "endIndex": 12972,
+              "startIndex": 12978,
+              "endIndex": 12979,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1549,21 +1549,21 @@
         }
       },
       {
-        "startIndex": 12972,
-        "endIndex": 13364,
+        "startIndex": 12979,
+        "endIndex": 13372,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12972,
-              "endIndex": 13260,
+              "startIndex": 12979,
+              "endIndex": 13268,
               "textRun": {
-                "content": "Slowing down has downsides though. Degrowthers have often allied with entrenched upper class interests like the NIMBYs, seeking to slow down housing developments needed to lower the cost of living for everyone. The movement against nuclear energy has resulted in higher energy costs with ",
+                "content": "Slowing down has downsides, though. Degrowthers have often allied with entrenched upper-class interests like the NIMBYs, seeking to slow down housing developments needed to lower the cost of living for everyone. The movement against nuclear energy has resulted in higher energy costs with ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 13260,
-              "endIndex": 13265,
+              "startIndex": 13268,
+              "endIndex": 13273,
               "textRun": {
                 "content": "worse",
                 "textStyle": {
@@ -1572,8 +1572,8 @@
               }
             },
             {
-              "startIndex": 13265,
-              "endIndex": 13364,
+              "startIndex": 13273,
+              "endIndex": 13372,
               "textRun": {
                 "content": " environmental impacts. Degrowth comes at a price: higher costs and a worsening quality of living.\n",
                 "textStyle": {}
@@ -1587,13 +1587,13 @@
         }
       },
       {
-        "startIndex": 13364,
-        "endIndex": 13365,
+        "startIndex": 13372,
+        "endIndex": 13373,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13364,
-              "endIndex": 13365,
+              "startIndex": 13372,
+              "endIndex": 13373,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1607,15 +1607,15 @@
         }
       },
       {
-        "startIndex": 13365,
-        "endIndex": 13918,
+        "startIndex": 13373,
+        "endIndex": 13927,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13365,
-              "endIndex": 13918,
+              "startIndex": 13373,
+              "endIndex": 13927,
               "textRun": {
-                "content": "In truth, capitalism has led to more abundance for even the poor than any other time in post agricultural civilization. And, the bounty of AGI could do even more toward degrowther goals: it could free humanity from the daily toil of capitalism, while ushering in more abundance in ever more efficient ways. But the distrust in capitalism isn\u2019t entirely misplaced: by default the forces of capitalism will assimilate AI and consolidate power in a way that need not be conducive to a happy civilization. We should all be critical of the dynamics at play.\n",
+                "content": "In truth, capitalism has led to more abundance for even the poor than any other time in post-agricultural civilization. And, the bounty of AGI could do even more toward degrowther goals: it could free humanity from the daily toil of capitalism, while ushering in more abundance in ever more efficient ways. But the distrust in capitalism isn\u2019t entirely misplaced: by default, the forces of capitalism will assimilate AI and consolidate power in a way that need not be conducive to a happy civilization. We should all be critical of the dynamics at play.\n",
                 "textStyle": {}
               }
             }
@@ -1627,13 +1627,13 @@
         }
       },
       {
-        "startIndex": 13918,
-        "endIndex": 13964,
+        "startIndex": 13927,
+        "endIndex": 13973,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13918,
-              "endIndex": 13964,
+              "startIndex": 13927,
+              "endIndex": 13973,
               "textRun": {
                 "content": "Growth, YIMBY, Silicon Valley, and the e/accs\n",
                 "textStyle": {}
@@ -1648,13 +1648,13 @@
         }
       },
       {
-        "startIndex": 13964,
-        "endIndex": 14327,
+        "startIndex": 13973,
+        "endIndex": 14336,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 13964,
-              "endIndex": 14327,
+              "startIndex": 13973,
+              "endIndex": 14336,
               "textRun": {
                 "content": "In contrast to degrowth are the pro-abundance movements. Often centered around technology, pro-abundance forces choose an optimism for a richer future, and they want to build it: more energy, more houses, more technology, more cures for diseases. AI can be a tool to accelerate all of these goals, and so these groups are often pro-AI and pro-deregulation of AI.\n",
                 "textStyle": {}
@@ -1668,13 +1668,13 @@
         }
       },
       {
-        "startIndex": 14327,
-        "endIndex": 14328,
+        "startIndex": 14336,
+        "endIndex": 14337,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14327,
-              "endIndex": 14328,
+              "startIndex": 14336,
+              "endIndex": 14337,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1688,13 +1688,13 @@
         }
       },
       {
-        "startIndex": 14328,
-        "endIndex": 14660,
+        "startIndex": 14337,
+        "endIndex": 14669,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14328,
-              "endIndex": 14660,
+              "startIndex": 14337,
+              "endIndex": 14669,
               "textRun": {
                 "content": "But sometimes you do need to slow down if you want to go fast. Nuclear energy would likely be more pervasive today if Three Mile Island, Chernobyl, and Fukushima hadn\u2019t scared the absolute shit out of everyone. If a similar AI disaster happens, how strong will the public backlash be? How onerous will the regulatory burden become?\n",
                 "textStyle": {}
@@ -1708,13 +1708,13 @@
         }
       },
       {
-        "startIndex": 14660,
-        "endIndex": 14661,
+        "startIndex": 14669,
+        "endIndex": 14670,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14660,
-              "endIndex": 14661,
+              "startIndex": 14669,
+              "endIndex": 14670,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1728,13 +1728,13 @@
         }
       },
       {
-        "startIndex": 14661,
-        "endIndex": 14990,
+        "startIndex": 14670,
+        "endIndex": 14999,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14661,
-              "endIndex": 14990,
+              "startIndex": 14670,
+              "endIndex": 14999,
               "textRun": {
                 "content": "That backlash may slow down the advent of AGI by years, which in turn may delay cures to disease, dooming millions more to death. Moreover, a heavy regulatory environment may merely shift AI deployments out of the public and into the opaque world of the military and government, breeding further risks of concentration of power.\n",
                 "textStyle": {}
@@ -1748,13 +1748,13 @@
         }
       },
       {
-        "startIndex": 14990,
-        "endIndex": 14991,
+        "startIndex": 14999,
+        "endIndex": 15000,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14990,
-              "endIndex": 14991,
+              "startIndex": 14999,
+              "endIndex": 15000,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1768,21 +1768,21 @@
         }
       },
       {
-        "startIndex": 14991,
-        "endIndex": 15142,
+        "startIndex": 15000,
+        "endIndex": 15151,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 14991,
-              "endIndex": 15141,
+              "startIndex": 15000,
+              "endIndex": 15150,
               "textRun": {
                 "content": "The pro-tech world rightfully wants the abundance AI can deliver. We should evolve our society thoughtfully to ensure that abundance actually arrives.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 15141,
-              "endIndex": 15142,
+              "startIndex": 15150,
+              "endIndex": 15151,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1796,13 +1796,13 @@
         }
       },
       {
-        "startIndex": 15142,
-        "endIndex": 15187,
+        "startIndex": 15151,
+        "endIndex": 15196,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15142,
-              "endIndex": 15187,
+              "startIndex": 15151,
+              "endIndex": 15196,
               "textRun": {
                 "content": "Jingoism and the military-industrial complex\n",
                 "textStyle": {}
@@ -1817,15 +1817,23 @@
         }
       },
       {
-        "startIndex": 15187,
-        "endIndex": 15622,
+        "startIndex": 15196,
+        "endIndex": 15631,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15187,
-              "endIndex": 15622,
+              "startIndex": 15196,
+              "endIndex": 15202,
               "textRun": {
-                "content": "Probably it's no surprise to anyone that the military is well beyond interested in AI. Big military contractors like Anduril and Palantir have already committed to deploying AI into the government. To stay competitive there's likely no other option. Even traditionally liberal big tech companies have walked back public commitments not to partner with the military: part of the \u201cvibe shift\u201d heralded by the 2024 presidential election.\n",
+                "content": "It\u2019s p",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15202,
+              "endIndex": 15631,
+              "textRun": {
+                "content": "robably no surprise to anyone that the military is well beyond interested in AI. Big military contractors like Anduril and Palantir have already committed to deploying AI into the government. To stay competitive there's likely no other option. Even traditionally liberal big tech companies have walked back public commitments not to partner with the military: part of the \u201cvibe shift\u201d heralded by the 2024 presidential election.\n",
                 "textStyle": {}
               }
             }
@@ -1837,13 +1845,13 @@
         }
       },
       {
-        "startIndex": 15622,
-        "endIndex": 15623,
+        "startIndex": 15631,
+        "endIndex": 15632,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15622,
-              "endIndex": 15623,
+              "startIndex": 15631,
+              "endIndex": 15632,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1857,21 +1865,21 @@
         }
       },
       {
-        "startIndex": 15623,
-        "endIndex": 15868,
+        "startIndex": 15632,
+        "endIndex": 15877,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15623,
-              "endIndex": 15640,
+              "startIndex": 15632,
+              "endIndex": 15649,
               "textRun": {
                 "content": "And in truth, it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 15640,
-              "endIndex": 15642,
+              "startIndex": 15649,
+              "endIndex": 15651,
               "textRun": {
                 "content": "is",
                 "textStyle": {
@@ -1880,8 +1888,8 @@
               }
             },
             {
-              "startIndex": 15642,
-              "endIndex": 15868,
+              "startIndex": 15651,
+              "endIndex": 15877,
               "textRun": {
                 "content": " required. No foreign adversary is slowing down their militarization of AI. We're behind on any form of international AI non-proliferation discussions, even narrow discussions specifically focused on military AI applications.\n",
                 "textStyle": {}
@@ -1895,13 +1903,13 @@
         }
       },
       {
-        "startIndex": 15868,
-        "endIndex": 15869,
+        "startIndex": 15877,
+        "endIndex": 15878,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15868,
-              "endIndex": 15869,
+              "startIndex": 15877,
+              "endIndex": 15878,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1915,15 +1923,15 @@
         }
       },
       {
-        "startIndex": 15869,
-        "endIndex": 16065,
+        "startIndex": 15878,
+        "endIndex": 16075,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 15869,
-              "endIndex": 16065,
+              "startIndex": 15878,
+              "endIndex": 16075,
               "textRun": {
-                "content": "There're the obvious aspects of an automated military. Drones will become more accurate, more autonomous, and more numerous. Intelligence gathering will become faster, broader, and more reliable.\n",
+                "content": "There are the obvious aspects of an automated military. Drones will become more accurate, more autonomous, and more numerous. Intelligence gathering will become faster, broader, and more reliable.\n",
                 "textStyle": {}
               }
             }
@@ -1935,53 +1943,13 @@
         }
       },
       {
-        "startIndex": 16065,
-        "endIndex": 16066,
+        "startIndex": 16075,
+        "endIndex": 16076,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16065,
-              "endIndex": 16066,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 16066,
-        "endIndex": 16494,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 16066,
-              "endIndex": 16494,
-              "textRun": {
-                "content": "But dangers abound. Today\u2019s military is powered by citizens bound to their constitution and a duty to their fellow countrymen. A military AI aligned to the command of a general or president need not have those sensibilities. And because the US government represents such a massive potential client for AI companies, there will be extreme economic pressure to provide the government with unfettered AI that never rejects orders.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 16494,
-        "endIndex": 16495,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 16494,
-              "endIndex": 16495,
+              "startIndex": 16075,
+              "endIndex": 16076,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1995,15 +1963,15 @@
         }
       },
       {
-        "startIndex": 16495,
-        "endIndex": 17108,
+        "startIndex": 16076,
+        "endIndex": 16504,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 16495,
-              "endIndex": 17108,
+              "startIndex": 16076,
+              "endIndex": 16504,
               "textRun": {
-                "content": "The US military is also one of the largest federal expenses at over $800 billion dollars a year. There is increasing pressure to reduce spending, and military automation is one way. Military AI won\u2019t just be more accurate, capable, and numerous than human military, it will also be cheaper. AI hardware will also likely prove cheaper than most of our expensive arsenal today. Drone warfare is paving the way for cheap, AI-powered military hardware to outpace the heavy, expensive hardware of the past. Because of this, there will be (and already is) both economic and strategic pressure to automate the military.\n",
+                "content": "But dangers abound. Today\u2019s military is powered by citizens bound to their Constitution and a duty to their fellow countrymen. A military AI aligned to the command of a general or president need not have those sensibilities. And because the US government represents such a massive potential client for AI companies, there will be extreme economic pressure to provide the government with unfettered AI that never rejects orders.\n",
                 "textStyle": {}
               }
             }
@@ -2015,13 +1983,13 @@
         }
       },
       {
-        "startIndex": 17108,
-        "endIndex": 17109,
+        "startIndex": 16504,
+        "endIndex": 16505,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17108,
-              "endIndex": 17109,
+              "startIndex": 16504,
+              "endIndex": 16505,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2035,23 +2003,63 @@
         }
       },
       {
-        "startIndex": 17109,
-        "endIndex": 17317,
+        "startIndex": 16505,
+        "endIndex": 17110,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17109,
-              "endIndex": 17167,
+              "startIndex": 16505,
+              "endIndex": 17110,
+              "textRun": {
+                "content": "The US military is also one of the largest federal expenses at over $800 billion a year. There is increasing pressure to reduce spending, and military automation is one way. Military AI won\u2019t just be more accurate, capable, and numerous than human military, it will also be cheaper. AI hardware will also likely prove cheaper than most of our expensive arsenal today. Drone warfare is paving the way for cheap, AI-powered military hardware to outpace the heavy, expensive hardware of the past. Because of this, there will be (and already is) both economic and strategic pressure to automate the military.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17110,
+        "endIndex": 17111,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17110,
+              "endIndex": 17111,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17111,
+        "endIndex": 17320,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17111,
+              "endIndex": 17169,
               "textRun": {
                 "content": "As we\u2019ve seen many times elsewhere, this bears repeating: ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 17167,
-              "endIndex": 17317,
+              "startIndex": 17169,
+              "endIndex": 17320,
               "textRun": {
-                "content": "the default incentives we have today push us toward automating important institutions, and once automated the threat to democracy grows precariously.\n",
+                "content": "the default incentives we have today push us toward automating important institutions, and once automated, the threat to democracy grows precariously.\n",
                 "textStyle": {
                   "bold": true
                 }
@@ -2065,13 +2073,13 @@
         }
       },
       {
-        "startIndex": 17317,
-        "endIndex": 17318,
+        "startIndex": 17320,
+        "endIndex": 17321,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17317,
-              "endIndex": 17318,
+              "startIndex": 17320,
+              "endIndex": 17321,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2085,13 +2093,13 @@
         }
       },
       {
-        "startIndex": 17318,
-        "endIndex": 17743,
+        "startIndex": 17321,
+        "endIndex": 17746,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17318,
-              "endIndex": 17743,
+              "startIndex": 17321,
+              "endIndex": 17746,
               "textRun": {
                 "content": "An automated army with no oath, taking direct orders from perhaps one or a handful of people, is the quintessential threat to democracy. Caesar marched on Rome exactly because he had a loyal army. If an AI army is likewise loyal to its commander or president, the most fundamental barrier to dictatorship will be gone. Human soldiers rarely accept orders to fire on their own people. An AI army might have no such restraint.\n",
                 "textStyle": {}
@@ -2105,13 +2113,13 @@
         }
       },
       {
-        "startIndex": 17743,
-        "endIndex": 17744,
+        "startIndex": 17746,
+        "endIndex": 17747,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17743,
-              "endIndex": 17744,
+              "startIndex": 17746,
+              "endIndex": 17747,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2125,13 +2133,13 @@
         }
       },
       {
-        "startIndex": 17744,
-        "endIndex": 18111,
+        "startIndex": 17747,
+        "endIndex": 18114,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 17744,
-              "endIndex": 18111,
+              "startIndex": 17747,
+              "endIndex": 18114,
               "textRun": {
                 "content": "Throughout all of this will be the ongoing rhetoric that we must secure ourselves against China. Meanwhile, there will be counterforces pushing for no automation at all. We have to resist the urge to stand on one side of a political battle, where we might be obliged to approve of an automated military with no oversight, or to instead push for no automation at all.\n",
                 "textStyle": {}
@@ -2145,13 +2153,13 @@
         }
       },
       {
-        "startIndex": 18111,
-        "endIndex": 18112,
+        "startIndex": 18114,
+        "endIndex": 18115,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18111,
-              "endIndex": 18112,
+              "startIndex": 18114,
+              "endIndex": 18115,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2165,13 +2173,13 @@
         }
       },
       {
-        "startIndex": 18112,
-        "endIndex": 18313,
+        "startIndex": 18115,
+        "endIndex": 18316,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18112,
-              "endIndex": 18313,
+              "startIndex": 18115,
+              "endIndex": 18316,
               "textRun": {
                 "content": "Instead, we must modernize our military to remain the dominant superpower, and we must simultaneously upgrade the oversight and safeguards that prevent abuse of this incredible concentration of power.\n",
                 "textStyle": {
@@ -2187,13 +2195,13 @@
         }
       },
       {
-        "startIndex": 18313,
-        "endIndex": 18314,
+        "startIndex": 18316,
+        "endIndex": 18317,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18313,
-              "endIndex": 18314,
+              "startIndex": 18316,
+              "endIndex": 18317,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -2209,13 +2217,13 @@
         }
       },
       {
-        "startIndex": 18314,
-        "endIndex": 18530,
+        "startIndex": 18317,
+        "endIndex": 18533,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18314,
-              "endIndex": 18530,
+              "startIndex": 18317,
+              "endIndex": 18533,
               "textRun": {
                 "content": "The longer we wait to do this, the less leverage we'll have. If war were to break out tomorrow, who would possibly have the political courage to stand up for oversight and safeguards while we automate our war force?\n",
                 "textStyle": {}
@@ -2229,13 +2237,13 @@
         }
       },
       {
-        "startIndex": 18530,
-        "endIndex": 18531,
+        "startIndex": 18533,
+        "endIndex": 18534,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18530,
-              "endIndex": 18531,
+              "startIndex": 18533,
+              "endIndex": 18534,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2249,13 +2257,13 @@
         }
       },
       {
-        "startIndex": 18531,
-        "endIndex": 18536,
+        "startIndex": 18534,
+        "endIndex": 18539,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18531,
-              "endIndex": 18536,
+              "startIndex": 18534,
+              "endIndex": 18539,
               "textRun": {
                 "content": "Jobs\n",
                 "textStyle": {}
@@ -2270,15 +2278,15 @@
         }
       },
       {
-        "startIndex": 18536,
-        "endIndex": 18838,
+        "startIndex": 18539,
+        "endIndex": 18841,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18536,
-              "endIndex": 18838,
+              "startIndex": 18539,
+              "endIndex": 18841,
               "textRun": {
-                "content": "Jobs have been such a key ingredient in our society that we often confuse them for something inherently good rather than something that delivers good things. Jobs are good when they create abundance, when they help our society grow, and when they allow the job holders to pursue a happy and free life.\n",
+                "content": "Jobs have been such a key ingredient in our society that we often confuse them for something inherently good rather than something that delivers good things. Jobs are good when they create abundance, when they help our society grow, and when they allow the job-holders to pursue a happy and free life.\n",
                 "textStyle": {}
               }
             }
@@ -2290,13 +2298,13 @@
         }
       },
       {
-        "startIndex": 18838,
-        "endIndex": 18839,
+        "startIndex": 18841,
+        "endIndex": 18842,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18838,
-              "endIndex": 18839,
+              "startIndex": 18841,
+              "endIndex": 18842,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2310,13 +2318,13 @@
         }
       },
       {
-        "startIndex": 18839,
-        "endIndex": 19304,
+        "startIndex": 18842,
+        "endIndex": 19307,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 18839,
-              "endIndex": 19304,
+              "startIndex": 18842,
+              "endIndex": 19307,
               "textRun": {
                 "content": "But throughout history we\u2019ve eliminated jobs \u2014or allowed them to be eliminated\u2014 in order to usher in a more abundant world. The majority of Americans used to be farmers, but industrial automation has massively increased the efficiency of farmers, freeing up most of the population to pursue other endeavors that have also pushed the country forward. At the same time, those who do pursue industrial farming are far richer than almost any farmer from 200 years ago.\n",
                 "textStyle": {}
@@ -2330,13 +2338,13 @@
         }
       },
       {
-        "startIndex": 19304,
-        "endIndex": 19305,
+        "startIndex": 19307,
+        "endIndex": 19308,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19304,
-              "endIndex": 19305,
+              "startIndex": 19307,
+              "endIndex": 19308,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2350,15 +2358,15 @@
         }
       },
       {
-        "startIndex": 19305,
-        "endIndex": 19716,
+        "startIndex": 19308,
+        "endIndex": 19721,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19305,
-              "endIndex": 19716,
+              "startIndex": 19308,
+              "endIndex": 19721,
               "textRun": {
-                "content": "This same story has played out many times. The world is much better off because of the vast amount of automation that we\u2019ve unlocked. Goods and products are cheaper, better, and more readily available to everyone. And yet, we as society often still fight against automation, because we fear for our jobs. And rightfully so. The way we\u2019ve designed our society, you are at extreme risk if your job is eliminated.\n",
+                "content": "This same story has played out many times. The world is much better off because of the vast amount of automation that we\u2019ve unlocked. Goods and products are cheaper, better, and more readily available to everyone. And yet, we as a society often still fight against automation, because we fear for our jobs. And rightfully so. The way we\u2019ve designed our society, you are at extreme risk if your job is eliminated.\n",
                 "textStyle": {}
               }
             }
@@ -2370,13 +2378,13 @@
         }
       },
       {
-        "startIndex": 19716,
-        "endIndex": 19717,
+        "startIndex": 19721,
+        "endIndex": 19722,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19716,
-              "endIndex": 19717,
+              "startIndex": 19721,
+              "endIndex": 19722,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2390,21 +2398,21 @@
         }
       },
       {
-        "startIndex": 19717,
-        "endIndex": 20245,
+        "startIndex": 19722,
+        "endIndex": 20250,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19717,
-              "endIndex": 20244,
+              "startIndex": 19722,
+              "endIndex": 20249,
               "textRun": {
                 "content": "Sometimes this slows progress. Automation of US ports has been stalled by negotiations with the port workers and longshoremen. This has led to decreased port efficiency and increased costs for Americans. Meanwhile, China has nearly fully automated their ports, continuing to help compound their industrial capacity. Competitiveness on the world stage will become increasingly important in the next few years as AI-powered automation takes off. Countries that delay automation will fall behind, both economically and militarily.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 20244,
-              "endIndex": 20245,
+              "startIndex": 20249,
+              "endIndex": 20250,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2418,13 +2426,13 @@
         }
       },
       {
-        "startIndex": 20245,
-        "endIndex": 20246,
+        "startIndex": 20250,
+        "endIndex": 20251,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20245,
-              "endIndex": 20246,
+              "startIndex": 20250,
+              "endIndex": 20251,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2438,21 +2446,21 @@
         }
       },
       {
-        "startIndex": 20246,
-        "endIndex": 20510,
+        "startIndex": 20251,
+        "endIndex": 20515,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20246,
-              "endIndex": 20419,
+              "startIndex": 20251,
+              "endIndex": 20424,
               "textRun": {
                 "content": "Often automation proponents argue that new jobs will always replace eliminated jobs. But there is a real chance this will no longer be true with AGI. If a future AGI can do ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 20419,
-              "endIndex": 20429,
+              "startIndex": 20424,
+              "endIndex": 20434,
               "textRun": {
                 "content": "all things",
                 "textStyle": {
@@ -2461,8 +2469,8 @@
               }
             },
             {
-              "startIndex": 20429,
-              "endIndex": 20510,
+              "startIndex": 20434,
+              "endIndex": 20515,
               "textRun": {
                 "content": " that a human can do, then any new job created will be automated from the start.\n",
                 "textStyle": {}
@@ -2476,13 +2484,13 @@
         }
       },
       {
-        "startIndex": 20510,
-        "endIndex": 20511,
+        "startIndex": 20515,
+        "endIndex": 20516,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20510,
-              "endIndex": 20511,
+              "startIndex": 20515,
+              "endIndex": 20516,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2496,15 +2504,15 @@
         }
       },
       {
-        "startIndex": 20511,
-        "endIndex": 20671,
+        "startIndex": 20516,
+        "endIndex": 20676,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20511,
-              "endIndex": 20671,
+              "startIndex": 20516,
+              "endIndex": 20676,
               "textRun": {
-                "content": "So what do we do? Our future depends on automating nearly everything. But our society is designed to function well only with a strong, well employed citizenry.\n",
+                "content": "So what do we do? Our future depends on automating nearly everything. But our society is designed to function well only with a strong, well-employed citizenry.\n",
                 "textStyle": {}
               }
             }
@@ -2516,53 +2524,13 @@
         }
       },
       {
-        "startIndex": 20671,
-        "endIndex": 20672,
+        "startIndex": 20676,
+        "endIndex": 20677,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20671,
-              "endIndex": 20672,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 20672,
-        "endIndex": 20851,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 20672,
-              "endIndex": 20851,
-              "textRun": {
-                "content": "This is, as they say, tricky as fuck. There aren\u2019t easy answers, but we for sure won\u2019t get anywhere if we keep having bad faith arguments built on tired and incorrect assertions.\n",
-                "textStyle": {}
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 20851,
-        "endIndex": 20852,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 20851,
-              "endIndex": 20852,
+              "startIndex": 20676,
+              "endIndex": 20677,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2576,13 +2544,53 @@
         }
       },
       {
-        "startIndex": 20852,
-        "endIndex": 21544,
+        "startIndex": 20677,
+        "endIndex": 20856,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20852,
-              "endIndex": 21544,
+              "startIndex": 20677,
+              "endIndex": 20856,
+              "textRun": {
+                "content": "This is, as they say, tricky as fuck. There aren\u2019t easy answers, but we for sure won\u2019t get anywhere if we keep having bad-faith arguments built on tired and incorrect assertions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 20856,
+        "endIndex": 20857,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 20856,
+              "endIndex": 20857,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 20857,
+        "endIndex": 21549,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 20857,
+              "endIndex": 21549,
               "textRun": {
                 "content": "We should also keep in mind the political expediency that may arise from a public backlash against unemployment caused by automation. There is little appetite in Washington to regulate AI today. In a near-future world where AI-fueled unemployment is skyrocketing, it may become easy for the government to step in and halt the impact of AI. Meanwhile, they may simultaneously use that moment to push for government and military automation. And why not? This would be argued as a win-win-win: the private sector would maintain low unemployment, the US would maintain international military dominance, and US citizens would enjoy decreased taxes as the government unlocks AI-powered efficiency.\n",
                 "textStyle": {}
@@ -2596,13 +2604,13 @@
         }
       },
       {
-        "startIndex": 21544,
-        "endIndex": 21545,
+        "startIndex": 21549,
+        "endIndex": 21550,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 21544,
-              "endIndex": 21545,
+              "startIndex": 21549,
+              "endIndex": 21550,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2616,21 +2624,21 @@
         }
       },
       {
-        "startIndex": 21545,
-        "endIndex": 21665,
+        "startIndex": 21550,
+        "endIndex": 21670,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 21545,
-              "endIndex": 21581,
+              "startIndex": 21550,
+              "endIndex": 21586,
               "textRun": {
                 "content": "This indeed may be a great outcome, ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 21581,
-              "endIndex": 21665,
+              "startIndex": 21586,
+              "endIndex": 21670,
               "textRun": {
                 "content": "so long as we have oversight in place to ensure government automation isn\u2019t abused.\n",
                 "textStyle": {
@@ -2646,13 +2654,13 @@
         }
       },
       {
-        "startIndex": 21665,
-        "endIndex": 21666,
+        "startIndex": 21670,
+        "endIndex": 21671,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 21665,
-              "endIndex": 21666,
+              "startIndex": 21670,
+              "endIndex": 21671,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -2668,13 +2676,13 @@
         }
       },
       {
-        "startIndex": 21666,
-        "endIndex": 21982,
+        "startIndex": 21671,
+        "endIndex": 21987,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 21666,
-              "endIndex": 21982,
+              "startIndex": 21671,
+              "endIndex": 21987,
               "textRun": {
                 "content": "Today, in 2025, government efficiency is a widely supported goal. While DOGE has proven a politically divisive issue, the goal of efficiency itself has remained popular. Everyone knows the government is slow and bureaucratic. It won\u2019t take much political willpower to fully automate the government once AGI arrives.\n",
                 "textStyle": {}
@@ -2688,21 +2696,21 @@
         }
       },
       {
-        "startIndex": 21982,
-        "endIndex": 22008,
+        "startIndex": 21987,
+        "endIndex": 22013,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 21982,
-              "endIndex": 21998,
+              "startIndex": 21987,
+              "endIndex": 22003,
               "textRun": {
                 "content": "Republicans and ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 21998,
-              "endIndex": 22008,
+              "startIndex": 22003,
+              "endIndex": 22013,
               "textRun": {
                 "content": "Democrats\n",
                 "textStyle": {}
@@ -2717,21 +2725,21 @@
         }
       },
       {
-        "startIndex": 22008,
-        "endIndex": 22652,
+        "startIndex": 22013,
+        "endIndex": 22657,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 22008,
-              "endIndex": 22302,
+              "startIndex": 22013,
+              "endIndex": 22307,
               "textRun": {
                 "content": "For better or worse, AI is coming. It will reshape every aspect of our world. But we have control over how this new world will look and what the new rules will be. We all want to reach a positive future, whether we\u2019re Republicans, Democrats, or independents. The choices we make need to be the ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 22302,
-              "endIndex": 22307,
+              "startIndex": 22307,
+              "endIndex": 22312,
               "textRun": {
                 "content": "right",
                 "textStyle": {
@@ -2740,10 +2748,10 @@
               }
             },
             {
-              "startIndex": 22307,
-              "endIndex": 22652,
+              "startIndex": 22312,
+              "endIndex": 22657,
               "textRun": {
-                "content": " choices, not just the politically expedient ones. The AI conversation is unfortunately rapidly becoming a partisan issue, with specific choices pre-baked to align with major political fault lines, regardless of how well thought out those AI policy stances are. But with the stakes so high, we can\u2019t afford to let tribalism be our rallying cry.\n",
+                "content": " choices, not just the politically expedient ones. The AI conversation is unfortunately rapidly becoming a partisan issue, with specific choices pre-baked to align with major political fault lines, regardless of how well-thought-out those AI policy stances are. But with the stakes so high, we can\u2019t afford to let tribalism be our rallying cry.\n",
                 "textStyle": {}
               }
             }
@@ -2755,13 +2763,13 @@
         }
       },
       {
-        "startIndex": 22652,
-        "endIndex": 22653,
+        "startIndex": 22657,
+        "endIndex": 22658,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 22652,
-              "endIndex": 22653,
+              "startIndex": 22657,
+              "endIndex": 22658,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2775,13 +2783,13 @@
         }
       },
       {
-        "startIndex": 22653,
-        "endIndex": 22698,
+        "startIndex": 22658,
+        "endIndex": 22703,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 22653,
-              "endIndex": 22698,
+              "startIndex": 22658,
+              "endIndex": 22703,
               "textRun": {
                 "content": "We have to do better than our past politics.\n",
                 "textStyle": {}
@@ -2795,13 +2803,13 @@
         }
       },
       {
-        "startIndex": 22698,
-        "endIndex": 22699,
+        "startIndex": 22703,
+        "endIndex": 22704,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 22698,
-              "endIndex": 22699,
+              "startIndex": 22703,
+              "endIndex": 22704,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2815,13 +2823,13 @@
         }
       },
       {
-        "startIndex": 22699,
-        "endIndex": 23039,
+        "startIndex": 22704,
+        "endIndex": 23044,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 22699,
-              "endIndex": 23039,
+              "startIndex": 22704,
+              "endIndex": 23044,
               "textRun": {
                 "content": "We\u2019ve discussed many threats and challenges that AI poses. Most of these are naturally bipartisan issues. Nobody wants their face eaten off by a robot attack dog. Nobody wants an overpowered executive that can seize unlimited power. Everybody wants the abundance that AI can usher in, from cures to diseases to nearly free energy and food.\n",
                 "textStyle": {}
@@ -2835,13 +2843,13 @@
         }
       },
       {
-        "startIndex": 23039,
-        "endIndex": 23040,
+        "startIndex": 23044,
+        "endIndex": 23045,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23039,
-              "endIndex": 23040,
+              "startIndex": 23044,
+              "endIndex": 23045,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2855,21 +2863,21 @@
         }
       },
       {
-        "startIndex": 23040,
-        "endIndex": 23145,
+        "startIndex": 23045,
+        "endIndex": 23150,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23040,
-              "endIndex": 23048,
+              "startIndex": 23045,
+              "endIndex": 23053,
               "textRun": {
                 "content": "But the ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 23048,
-              "endIndex": 23057,
+              "startIndex": 23053,
+              "endIndex": 23062,
               "textRun": {
                 "content": "solutions",
                 "textStyle": {
@@ -2878,8 +2886,8 @@
               }
             },
             {
-              "startIndex": 23057,
-              "endIndex": 23145,
+              "startIndex": 23062,
+              "endIndex": 23150,
               "textRun": {
                 "content": " to try to mitigate these harms and ensure the benefits are becoming politically coded.\n",
                 "textStyle": {}
@@ -2893,13 +2901,13 @@
         }
       },
       {
-        "startIndex": 23145,
-        "endIndex": 23146,
+        "startIndex": 23150,
+        "endIndex": 23151,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23145,
-              "endIndex": 23146,
+              "startIndex": 23150,
+              "endIndex": 23151,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2913,13 +2921,13 @@
         }
       },
       {
-        "startIndex": 23146,
-        "endIndex": 23480,
+        "startIndex": 23151,
+        "endIndex": 23485,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23146,
-              "endIndex": 23480,
+              "startIndex": 23151,
+              "endIndex": 23485,
               "textRun": {
                 "content": "For example, the Biden administration began to lay the foundation for some forms of AI regulation. Their aim was to ensure AI wasn\u2019t misused by bad actors. This naturally created a perception of alignment between Democrats, regulation, degrowth, and AI safety. And hence naturally created an alignment of the right with the opposite.\n",
                 "textStyle": {}
@@ -2933,13 +2941,13 @@
         }
       },
       {
-        "startIndex": 23480,
-        "endIndex": 23481,
+        "startIndex": 23485,
+        "endIndex": 23486,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23480,
-              "endIndex": 23481,
+              "startIndex": 23485,
+              "endIndex": 23486,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2953,15 +2961,15 @@
         }
       },
       {
-        "startIndex": 23481,
-        "endIndex": 23679,
+        "startIndex": 23486,
+        "endIndex": 23684,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23481,
-              "endIndex": 23679,
+              "startIndex": 23486,
+              "endIndex": 23684,
               "textRun": {
-                "content": "As of early 2025, Republicans have come out sternly in favor of AI deregulation, pro-growth, and pro-open source. Their aim is to ensure US competitiveness in the new AI age and an abundant future.\n",
+                "content": "As of early 2025, Republicans have come out sternly in favor of AI deregulation, pro-growth, and pro-open-source. Their aim is to ensure US competitiveness in the new AI age and an abundant future.\n",
                 "textStyle": {}
               }
             }
@@ -2973,13 +2981,13 @@
         }
       },
       {
-        "startIndex": 23679,
-        "endIndex": 23680,
+        "startIndex": 23684,
+        "endIndex": 23685,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23679,
-              "endIndex": 23680,
+              "startIndex": 23684,
+              "endIndex": 23685,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2993,21 +3001,21 @@
         }
       },
       {
-        "startIndex": 23680,
-        "endIndex": 23824,
+        "startIndex": 23685,
+        "endIndex": 23830,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23680,
-              "endIndex": 23743,
+              "startIndex": 23685,
+              "endIndex": 23749,
               "textRun": {
-                "content": "These need not be partisan battlegrounds though. In fact, they ",
+                "content": "These need not be partisan battlegrounds, though. In fact, they ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 23743,
-              "endIndex": 23747,
+              "startIndex": 23749,
+              "endIndex": 23753,
               "textRun": {
                 "content": "must",
                 "textStyle": {
@@ -3016,8 +3024,8 @@
               }
             },
             {
-              "startIndex": 23747,
-              "endIndex": 23824,
+              "startIndex": 23753,
+              "endIndex": 23830,
               "textRun": {
                 "content": " become bipartisan collaborations for America to succeed on the world stage.\n",
                 "textStyle": {}
@@ -3031,13 +3039,13 @@
         }
       },
       {
-        "startIndex": 23824,
-        "endIndex": 23825,
+        "startIndex": 23830,
+        "endIndex": 23831,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23824,
-              "endIndex": 23825,
+              "startIndex": 23830,
+              "endIndex": 23831,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3051,15 +3059,15 @@
         }
       },
       {
-        "startIndex": 23825,
-        "endIndex": 24475,
+        "startIndex": 23831,
+        "endIndex": 24482,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 23825,
-              "endIndex": 24475,
+              "startIndex": 23831,
+              "endIndex": 24482,
               "textRun": {
-                "content": "Most Americans want a prosperous country, regardless of their politics. For that we\u2019ll need to accelerate our energy investments, build out our domestic chip manufacturing, and ensure we can continue to automate our industry to be competitive on the world stage. But if we\u2019re too careless, we will ultimately cause a backlash that slows us down more than any regulation. The AI equivalent of a Chernobyl meltdown could freeze AI development and put us in a permanent second place on the world stage. If we don\u2019t address the problems caused by AI automating all jobs, the public backlash may further stall the growth of automated industrial capacity.\n",
+                "content": "Most Americans want a prosperous country, regardless of their politics. For that, we\u2019ll need to accelerate our energy investments, build out our domestic chip manufacturing, and ensure we can continue to automate our industry to be competitive on the world stage. But if we\u2019re too careless, we will ultimately cause a backlash that slows us down more than any regulation. The AI equivalent of a Chernobyl meltdown could freeze AI development and put us in a permanent second place on the world stage. If we don\u2019t address the problems caused by AI automating all jobs, the public backlash may further stall the growth of automated industrial capacity.\n",
                 "textStyle": {}
               }
             }
@@ -3071,13 +3079,13 @@
         }
       },
       {
-        "startIndex": 24475,
-        "endIndex": 24476,
+        "startIndex": 24482,
+        "endIndex": 24483,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 24475,
-              "endIndex": 24476,
+              "startIndex": 24482,
+              "endIndex": 24483,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3091,15 +3099,15 @@
         }
       },
       {
-        "startIndex": 24476,
-        "endIndex": 24906,
+        "startIndex": 24483,
+        "endIndex": 24914,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 24476,
-              "endIndex": 24906,
+              "startIndex": 24483,
+              "endIndex": 24914,
               "textRun": {
-                "content": "Most important of all, we the people must stand for freedom and a transparent, accountable government \u2014 whether we\u2019re Democrats, Republicans, or of any other type of political philosophy. To defend our freedom we must upgrade the legislature and judiciary to be AI enhanced, just like the executive and military will be enhanced. If we don't, we risk what American patriots have always fought to prevent: a government of tyranny.\n",
+                "content": "Most important of all, we the people must stand for freedom and a transparent, accountable government \u2014 whether we\u2019re Democrats, Republicans, or of any other type of political philosophy. To defend our freedom, we must upgrade the legislature and judiciary to be AI-enhanced, just like the executive and military will be enhanced. If we don't, we risk what American patriots have always fought to prevent: a government of tyranny.\n",
                 "textStyle": {}
               }
             }
@@ -3991,7 +3999,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lsu8rAUuvDD5xLtgjvCHd--IQIfYjfMLoOkGox_WwZ5OuPAbCQpzXecVYsKdTDa-aob44yTq2SxSbulYw",
+  "revisionId": "ALBJ4Lvv6y84JEbDIndsjYD1H2fHIh_8y5o0Q0gQrtppP0p9FJkY2yJnA4LUoSkxe5PIanO3JNpWzShaub1DPw",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1rB0LTHYm4icUP0BCbc56X1VX9Oge5dTMQ8n0laPxi4Q"
 }

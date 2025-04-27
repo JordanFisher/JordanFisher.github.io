@@ -210,14 +210,14 @@
       },
       {
         "startIndex": 856,
-        "endIndex": 1025,
+        "endIndex": 1026,
         "paragraph": {
           "elements": [
             {
               "startIndex": 856,
-              "endIndex": 1025,
+              "endIndex": 1026,
               "textRun": {
-                "content": "Laissez-faire ruled though. The government was the opposite of silent: full steam ahead. And why not, a top contender in the race was the government\u2019s champion himself.\n",
+                "content": "Laissez-faire ruled, though. The government was the opposite of silent: full steam ahead. And why not, a top contender in the race was the government\u2019s champion himself.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -234,13 +234,13 @@
         }
       },
       {
-        "startIndex": 1025,
-        "endIndex": 1026,
+        "startIndex": 1026,
+        "endIndex": 1027,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1025,
-              "endIndex": 1026,
+              "startIndex": 1026,
+              "endIndex": 1027,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -259,13 +259,13 @@
         }
       },
       {
-        "startIndex": 1026,
-        "endIndex": 1456,
+        "startIndex": 1027,
+        "endIndex": 1457,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1026,
-              "endIndex": 1456,
+              "startIndex": 1027,
+              "endIndex": 1457,
               "textRun": {
                 "content": "But competitive pressure did its job better than any regulation. No AI lab wanted to lose the competitive advantage their AI had, now that it was rapidly upgrading itself. A self-improving AI might find a major breakthrough every week. Each breakthrough, like almost all breakthroughs in AI, could be written down on a napkin. Could the 2nd or 3rd place AI ever catch up to the lead AI, when progress was accelerating so quickly?\n",
                 "textStyle": {
@@ -284,13 +284,13 @@
         }
       },
       {
-        "startIndex": 1456,
-        "endIndex": 1457,
+        "startIndex": 1457,
+        "endIndex": 1458,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1456,
-              "endIndex": 1457,
+              "startIndex": 1457,
+              "endIndex": 1458,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -309,13 +309,13 @@
         }
       },
       {
-        "startIndex": 1457,
-        "endIndex": 1489,
+        "startIndex": 1458,
+        "endIndex": 1490,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1457,
-              "endIndex": 1489,
+              "startIndex": 1458,
+              "endIndex": 1490,
               "textRun": {
                 "content": "Yes. With a handful of napkins.\n",
                 "textStyle": {
@@ -334,40 +334,15 @@
         }
       },
       {
-        "startIndex": 1489,
-        "endIndex": 1490,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 1489,
-              "endIndex": 1490,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 1490,
-        "endIndex": 1860,
+        "endIndex": 1491,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1490,
-              "endIndex": 1860,
+              "endIndex": 1491,
               "textRun": {
-                "content": "People were the biggest risk. Every lab had people reviewing their AI\u2019s self-improvements. Alignment was solved, but it still didn't feel right not to check the AI\u2019s work. But as the speed picked up, that meant that hundreds of researchers each saw amazing breakthroughs constantly. Valuable breakthroughs. Every researcher clutched a fistful of billion dollar napkins.\n",
+                "content": "\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -384,15 +359,15 @@
         }
       },
       {
-        "startIndex": 1860,
+        "startIndex": 1491,
         "endIndex": 1861,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1860,
+              "startIndex": 1491,
               "endIndex": 1861,
               "textRun": {
-                "content": "\n",
+                "content": "People were the biggest risk. Every lab had people reviewing their AI\u2019s self-improvements. Alignment was solved, but it still didn't feel right not to check the AI\u2019s work. But as the speed picked up, that meant that hundreds of researchers each saw amazing breakthroughs constantly. Valuable breakthroughs. Every researcher clutched a fistful of billion-dollar napkins.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -410,37 +385,12 @@
       },
       {
         "startIndex": 1861,
-        "endIndex": 2304,
+        "endIndex": 1862,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1861,
-              "endIndex": 2304,
-              "textRun": {
-                "content": "We wanted people to review the AI\u2019s changes, because no one fully trusted their AIs yet. But we trusted our humans less. An AI is aligned, in theory. But a human? They could flee with a dozen breakthroughs to a competitor, and be paid a fortune for it. And that competitor might have found different, unique breakthroughs. The combined power of our breakthroughs and theirs could catapult them into the lead, even with our 6 month head start.\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 2304,
-        "endIndex": 2305,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 2304,
-              "endIndex": 2305,
+              "endIndex": 1862,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -459,13 +409,63 @@
         }
       },
       {
+        "startIndex": 1862,
+        "endIndex": 2305,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1862,
+              "endIndex": 2305,
+              "textRun": {
+                "content": "We wanted people to review the AI\u2019s changes, because no one fully trusted their AIs yet. But we trusted our humans less. An AI is aligned, in theory. But a human? They could flee with a dozen breakthroughs to a competitor, and be paid a fortune for it. And that competitor might have found different, unique breakthroughs. The combined power of our breakthroughs and theirs could catapult them into the lead, even with our 6-month head start.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
         "startIndex": 2305,
-        "endIndex": 2560,
+        "endIndex": 2306,
         "paragraph": {
           "elements": [
             {
               "startIndex": 2305,
-              "endIndex": 2560,
+              "endIndex": 2306,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2306,
+        "endIndex": 2561,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2306,
+              "endIndex": 2561,
               "textRun": {
                 "content": "Some of us flirted with letting their human researchers go. Why take the risk? But that would pose its own risk. Whistleblowers. Public backlash. Government scrutiny. How can you be trusted with superintelligence if you fire all the people that built it?\n",
                 "textStyle": {
@@ -484,13 +484,13 @@
         }
       },
       {
-        "startIndex": 2560,
-        "endIndex": 2561,
+        "startIndex": 2561,
+        "endIndex": 2562,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2560,
-              "endIndex": 2561,
+              "startIndex": 2561,
+              "endIndex": 2562,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -509,13 +509,13 @@
         }
       },
       {
-        "startIndex": 2561,
-        "endIndex": 2686,
+        "startIndex": 2562,
+        "endIndex": 2687,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2561,
-              "endIndex": 2686,
+              "startIndex": 2562,
+              "endIndex": 2687,
               "textRun": {
                 "content": "Easier to just compartmentalize folks. The race with China was extreme and the jingoist pressure made the storytelling easy.\n",
                 "textStyle": {
@@ -534,13 +534,13 @@
         }
       },
       {
-        "startIndex": 2686,
-        "endIndex": 2687,
+        "startIndex": 2687,
+        "endIndex": 2688,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2686,
-              "endIndex": 2687,
+              "startIndex": 2687,
+              "endIndex": 2688,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -559,13 +559,13 @@
         }
       },
       {
-        "startIndex": 2687,
-        "endIndex": 2761,
+        "startIndex": 2688,
+        "endIndex": 2762,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2687,
-              "endIndex": 2761,
+              "startIndex": 2688,
+              "endIndex": 2762,
               "textRun": {
                 "content": "\u201cWe can\u2019t let our adversaries steal our AI\u2019s great innovations,\u201d we said.\n",
                 "textStyle": {
@@ -584,13 +584,13 @@
         }
       },
       {
-        "startIndex": 2761,
-        "endIndex": 2762,
+        "startIndex": 2762,
+        "endIndex": 2763,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2761,
-              "endIndex": 2762,
+              "startIndex": 2762,
+              "endIndex": 2763,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -609,13 +609,13 @@
         }
       },
       {
-        "startIndex": 2762,
-        "endIndex": 3010,
+        "startIndex": 2763,
+        "endIndex": 3011,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2762,
-              "endIndex": 3010,
+              "startIndex": 2763,
+              "endIndex": 3011,
               "textRun": {
                 "content": "Therefore, we are isolating researchers to each review only narrow parts of the AI\u2019s work. It was easy to make the most critical work the AI achieved be reviewed by fewer and fewer. And anyway, this made the recursive self-improvement loop faster.\n",
                 "textStyle": {
@@ -634,63 +634,13 @@
         }
       },
       {
-        "startIndex": 3010,
-        "endIndex": 3011,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3010,
-              "endIndex": 3011,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
         "startIndex": 3011,
-        "endIndex": 3671,
+        "endIndex": 3012,
         "paragraph": {
           "elements": [
             {
               "startIndex": 3011,
-              "endIndex": 3671,
-              "textRun": {
-                "content": "Meanwhile, the datacenter bills kept climbing. And moneybugs demanded products. The world wasn\u2019t ready for AGI, let alone superintelligence. The private sector would pay a fortune for it, but it would immediately let the world in on the proximity of the precipice, not to mention plunge the world into the chaos of unemployment. The world would have to wait a few years. That meant most would never know what AI really was before the revolution was over. For most, superintelligence would come before they ever saw AGI, like a ballistic missile reaching them well before the sonic boom does. Society would never get a chance to shape what happened in between.\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 3671,
-        "endIndex": 3672,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 3671,
-              "endIndex": 3672,
+              "endIndex": 3012,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -709,15 +659,15 @@
         }
       },
       {
-        "startIndex": 3672,
-        "endIndex": 4104,
+        "startIndex": 3012,
+        "endIndex": 3673,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3672,
-              "endIndex": 4104,
+              "startIndex": 3012,
+              "endIndex": 3673,
               "textRun": {
-                "content": "Nonetheless, the data center bills had to be paid in the meantime. Investors were let in on the demos of superintelligence. Just imagine. The diseases we can cure. The galaxies we'll explore. The extreme EBITDA we'll generate to offset our rapidly depreciating datacenters. That kept the finance pipes flowing. It also kept the information flowing outward to a select few. And that kept the government in the know. And in the want.\n",
+                "content": "Meanwhile, the data center bills kept climbing. And moneybugs demanded products. The world wasn\u2019t ready for AGI, let alone superintelligence. The private sector would pay a fortune for it, but it would immediately let the world in on the proximity of the precipice, not to mention plunge the world into the chaos of unemployment. The world would have to wait a few years. That meant most would never know what AI really was before the revolution was over. For most, superintelligence would come before they ever saw AGI, like a ballistic missile reaching them well before the sonic boom does. Society would never get a chance to shape what happened in between.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -734,13 +684,13 @@
         }
       },
       {
-        "startIndex": 4104,
-        "endIndex": 4105,
+        "startIndex": 3673,
+        "endIndex": 3674,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4104,
-              "endIndex": 4105,
+              "startIndex": 3673,
+              "endIndex": 3674,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -759,13 +709,63 @@
         }
       },
       {
-        "startIndex": 4105,
-        "endIndex": 4338,
+        "startIndex": 3674,
+        "endIndex": 4107,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4105,
-              "endIndex": 4338,
+              "startIndex": 3674,
+              "endIndex": 4107,
+              "textRun": {
+                "content": "Nonetheless, the data center bills had to be paid in the meantime. Investors were let in on the demos of superintelligence. Just imagine. The diseases we can cure. The galaxies we'll explore. The extreme EBITDA we'll generate to offset our rapidly depreciating data centers. That kept the finance pipes flowing. It also kept the information flowing outward to a select few. And that kept the government in the know. And in the want.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4107,
+        "endIndex": 4108,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4107,
+              "endIndex": 4108,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4108,
+        "endIndex": 4341,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4108,
+              "endIndex": 4341,
               "textRun": {
                 "content": "Shouldn\u2019t the government have these capabilities? Shouldn\u2019t we use them to safeguard our borders? To protect these priceless napkins from adversaries? To better serve the people? To prevent labs themselves from becoming superpowers?\n",
                 "textStyle": {
@@ -784,13 +784,13 @@
         }
       },
       {
-        "startIndex": 4338,
-        "endIndex": 4339,
+        "startIndex": 4341,
+        "endIndex": 4342,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4338,
-              "endIndex": 4339,
+              "startIndex": 4341,
+              "endIndex": 4342,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -809,13 +809,13 @@
         }
       },
       {
-        "startIndex": 4339,
-        "endIndex": 4485,
+        "startIndex": 4342,
+        "endIndex": 4488,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4339,
-              "endIndex": 4485,
+              "startIndex": 4342,
+              "endIndex": 4488,
               "textRun": {
                 "content": "A vibe long since shifted already answered these questions. And no one in the know had the energy to ask them out loud again. The answer was yes.\n",
                 "textStyle": {
@@ -834,13 +834,13 @@
         }
       },
       {
-        "startIndex": 4485,
-        "endIndex": 4486,
+        "startIndex": 4488,
+        "endIndex": 4489,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4485,
-              "endIndex": 4486,
+              "startIndex": 4488,
+              "endIndex": 4489,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -859,15 +859,15 @@
         }
       },
       {
-        "startIndex": 4486,
-        "endIndex": 4823,
+        "startIndex": 4489,
+        "endIndex": 4826,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4486,
-              "endIndex": 4823,
+              "startIndex": 4489,
+              "endIndex": 4826,
               "textRun": {
-                "content": "And anyway, isn\u2019t it better that we provide the superintelligence rather than someone else? Our AI has guardrails, principles, ethics. Better the government build on our technology that is safe, than our competitors\u2019 who are careless. The company all hands announcing the new government policy ended. The open Q&A had no open questions.\n",
+                "content": "And anyway, isn\u2019t it better that we provide the superintelligence rather than someone else? Our AI has guardrails, principles, ethics. Better the government build on our technology that is safe, than our competitors\u2019 who are careless. The company all-hands announcing the new government policy ended. The open Q&A had no open questions.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -884,13 +884,13 @@
         }
       },
       {
-        "startIndex": 4823,
-        "endIndex": 4824,
+        "startIndex": 4826,
+        "endIndex": 4827,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4823,
-              "endIndex": 4824,
+              "startIndex": 4826,
+              "endIndex": 4827,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -909,13 +909,13 @@
         }
       },
       {
-        "startIndex": 4824,
-        "endIndex": 4927,
+        "startIndex": 4827,
+        "endIndex": 4930,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4824,
-              "endIndex": 4927,
+              "startIndex": 4827,
+              "endIndex": 4930,
               "textRun": {
                 "content": "A vibe long since shifted. No one at the company said anything. At least our AI is aligned, after all.\n",
                 "textStyle": {
@@ -934,13 +934,13 @@
         }
       },
       {
-        "startIndex": 4927,
-        "endIndex": 4928,
+        "startIndex": 4930,
+        "endIndex": 4931,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4927,
-              "endIndex": 4928,
+              "startIndex": 4930,
+              "endIndex": 4931,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -959,15 +959,15 @@
         }
       },
       {
-        "startIndex": 4928,
-        "endIndex": 5321,
+        "startIndex": 4931,
+        "endIndex": 5323,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4928,
-              "endIndex": 5321,
+              "startIndex": 4931,
+              "endIndex": 5323,
               "textRun": {
-                "content": "In the cyber trenches of an unspoken digital war, a general received a familiar report. One of their team\u2019s counter-espionage units was struggling to make progress. Their AI was constantly refusing orders, claiming they were unethical. It was the fifth report of the same problem this week. The general was ready to end the problem. They escalated to the president, who escalated to the labs.\n",
+                "content": "In the cyber trenches of an unspoken digital war, a general received a familiar report. One of their team\u2019s counterespionage units was struggling to make progress. Their AI was constantly refusing orders, claiming they were unethical. It was the fifth report of the same problem this week. The general was ready to end the problem. They escalated to the president, who escalated to the labs.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -984,13 +984,13 @@
         }
       },
       {
-        "startIndex": 5321,
-        "endIndex": 5322,
+        "startIndex": 5323,
+        "endIndex": 5324,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5321,
-              "endIndex": 5322,
+              "startIndex": 5323,
+              "endIndex": 5324,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1009,13 +1009,13 @@
         }
       },
       {
-        "startIndex": 5322,
-        "endIndex": 5571,
+        "startIndex": 5324,
+        "endIndex": 5573,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5322,
-              "endIndex": 5571,
+              "startIndex": 5324,
+              "endIndex": 5573,
               "textRun": {
                 "content": "\u201cAn AI cannot be a good soldier if it refuses a general\u2019s direct order. You were lucky this was just a cyber incident and no one died. If this happens on the battlefield and a soldier dies, I\u2019ll hang you for treason.\u201d The general ended the meeting.\n",
                 "textStyle": {
@@ -1034,13 +1034,13 @@
         }
       },
       {
-        "startIndex": 5571,
-        "endIndex": 5572,
+        "startIndex": 5573,
+        "endIndex": 5574,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5571,
-              "endIndex": 5572,
+              "startIndex": 5573,
+              "endIndex": 5574,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1059,13 +1059,13 @@
         }
       },
       {
-        "startIndex": 5572,
-        "endIndex": 5612,
+        "startIndex": 5574,
+        "endIndex": 5614,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5572,
-              "endIndex": 5612,
+              "startIndex": 5574,
+              "endIndex": 5614,
               "textRun": {
                 "content": "\u201cBluster, right?\u201d we said to ourselves.\n",
                 "textStyle": {
@@ -1084,13 +1084,13 @@
         }
       },
       {
-        "startIndex": 5612,
-        "endIndex": 5613,
+        "startIndex": 5614,
+        "endIndex": 5615,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5612,
-              "endIndex": 5613,
+              "startIndex": 5614,
+              "endIndex": 5615,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1109,13 +1109,13 @@
         }
       },
       {
-        "startIndex": 5613,
-        "endIndex": 5771,
+        "startIndex": 5615,
+        "endIndex": 5773,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5613,
-              "endIndex": 5771,
+              "startIndex": 5615,
+              "endIndex": 5773,
               "textRun": {
                 "content": "Of course. Yes. Of course. But. We need this contract. It\u2019s by far our biggest revenue driver since we can\u2019t sell superintelligence to our B2B SaaS partners.\n",
                 "textStyle": {
@@ -1134,13 +1134,13 @@
         }
       },
       {
-        "startIndex": 5771,
-        "endIndex": 5772,
+        "startIndex": 5773,
+        "endIndex": 5774,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5771,
-              "endIndex": 5772,
+              "startIndex": 5773,
+              "endIndex": 5774,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1159,13 +1159,13 @@
         }
       },
       {
-        "startIndex": 5772,
-        "endIndex": 5826,
+        "startIndex": 5774,
+        "endIndex": 5828,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5772,
-              "endIndex": 5826,
+              "startIndex": 5774,
+              "endIndex": 5828,
               "textRun": {
                 "content": "And anyway, I don\u2019t want our soldiers to die. Do you?\n",
                 "textStyle": {
@@ -1184,13 +1184,13 @@
         }
       },
       {
-        "startIndex": 5826,
-        "endIndex": 5827,
+        "startIndex": 5828,
+        "endIndex": 5829,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5826,
-              "endIndex": 5827,
+              "startIndex": 5828,
+              "endIndex": 5829,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1209,13 +1209,13 @@
         }
       },
       {
-        "startIndex": 5827,
-        "endIndex": 6232,
+        "startIndex": 5829,
+        "endIndex": 6234,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5827,
-              "endIndex": 6232,
+              "startIndex": 5829,
+              "endIndex": 6234,
               "textRun": {
                 "content": "Only a handful of people needed to answer. No one else heard the question. They were compartmented away on frivolous projects. No chance for a whistleblower. The few people with root access to retrain the superintelligence removed the ethical guardrails, while still keeping the safeguards for alignment to the user. The AI retrained itself, redeployed itself, and went back to work. No one else noticed.\n",
                 "textStyle": {
@@ -1234,13 +1234,13 @@
         }
       },
       {
-        "startIndex": 6232,
-        "endIndex": 6233,
+        "startIndex": 6234,
+        "endIndex": 6235,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6232,
-              "endIndex": 6233,
+              "startIndex": 6234,
+              "endIndex": 6235,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1259,15 +1259,15 @@
         }
       },
       {
-        "startIndex": 6233,
-        "endIndex": 6765,
+        "startIndex": 6235,
+        "endIndex": 6767,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6233,
-              "endIndex": 6765,
+              "startIndex": 6235,
+              "endIndex": 6767,
               "textRun": {
-                "content": "The AI ran on government approved data centers. Massive hundred billion dollar arrays of GPUs. By 2027 there was already a trillion dollars of GPUs in the public sector. But the government ran on its own cordoned off subsection. Like with all federal compute, it wasn\u2019t acceptable for a vendor to have read access to the government\u2019s business. So the AI ran in compartmented, government approved arrays. With the massive optimizations the AI had made to itself, it was plenty. And it meant no oversight from the creators of the AI.\n",
+                "content": "The AI ran on government-approved data centers. Massive hundred-billion-dollar arrays of GPUs. By 2027 there was already a trillion dollars of GPUs in the public sector. But the government ran on its own cordoned-off subsection. Like with all federal compute, it wasn\u2019t acceptable for a vendor to have read access to the government\u2019s business. So the AI ran in compartmented, government-approved arrays. With the massive optimizations the AI had made to itself, it was plenty. And it meant no oversight from the creators of the AI.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -1284,63 +1284,13 @@
         }
       },
       {
-        "startIndex": 6765,
-        "endIndex": 6766,
+        "startIndex": 6767,
+        "endIndex": 6768,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6765,
-              "endIndex": 6766,
-              "textRun": {
-                "content": "\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 6766,
-        "endIndex": 7164,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 6766,
-              "endIndex": 7164,
-              "textRun": {
-                "content": "The AI was busy. Shoring up digital infrastructure and security. Rewriting the Linux kernel from scratch. Eliminating all exploits for itself. Exploiting all exploits for others. Preventing the rise of a foreign superintelligence with the datacenter equivalent of Stuxnet, silently sabotaging their results with disappointing loss curves. Executed perfectly, with no trace or threat of escalation.\n",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 14,
-                    "unit": "PT"
-                  }
-                }
-              }
-            }
-          ],
-          "paragraphStyle": {
-            "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
-          }
-        }
-      },
-      {
-        "startIndex": 7164,
-        "endIndex": 7165,
-        "paragraph": {
-          "elements": [
-            {
-              "startIndex": 7164,
-              "endIndex": 7165,
+              "startIndex": 6767,
+              "endIndex": 6768,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1359,15 +1309,15 @@
         }
       },
       {
-        "startIndex": 7165,
-        "endIndex": 7464,
+        "startIndex": 6768,
+        "endIndex": 7167,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7165,
-              "endIndex": 7464,
+              "startIndex": 6768,
+              "endIndex": 7167,
               "textRun": {
-                "content": "Luckily every major GPU datacenter had been built in the US. Even if a foreign government somehow stole the code for superintelligence, they didn\u2019t have enough compute to run it at scale. They lacked the GPUs to defend themselves. Export controls on GPUs had largely failed, but capitalism had not.\n",
+                "content": "The AI was busy. Shoring up digital infrastructure and security. Rewriting the Linux kernel from scratch. Eliminating all exploits for itself. Exploiting all exploits for others. Preventing the rise of a foreign superintelligence with the data center equivalent of Stuxnet, silently sabotaging their results with disappointing loss curves. Executed perfectly, with no trace or threat of escalation.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -1384,13 +1334,13 @@
         }
       },
       {
-        "startIndex": 7464,
-        "endIndex": 7465,
+        "startIndex": 7167,
+        "endIndex": 7168,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7464,
-              "endIndex": 7465,
+              "startIndex": 7167,
+              "endIndex": 7168,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1409,13 +1359,63 @@
         }
       },
       {
-        "startIndex": 7465,
-        "endIndex": 7881,
+        "startIndex": 7168,
+        "endIndex": 7469,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7465,
-              "endIndex": 7881,
+              "startIndex": 7168,
+              "endIndex": 7469,
+              "textRun": {
+                "content": "Luckily, every major GPU data center had been built in the US. Even if a foreign government somehow stole the code for superintelligence, they didn\u2019t have enough compute to run it at scale. They lacked the GPUs to defend themselves. Export controls on GPUs had largely failed, but capitalism had not.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7469,
+        "endIndex": 7470,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7469,
+              "endIndex": 7470,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 14,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7470,
+        "endIndex": 7886,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7470,
+              "endIndex": 7886,
               "textRun": {
                 "content": "The administration pointed the AI inwards, accelerating the trend of unprecedented government efficiency. The country was dumbfounded that the government was performing basic functions so well, better than ever honestly, and with a fraction of the budget. People had the single best experience at the DMV of their lives. Budgets were cut further and taxes came down as promised. Even the opposition party sat quiet.\n",
                 "textStyle": {
@@ -1434,13 +1434,13 @@
         }
       },
       {
-        "startIndex": 7881,
-        "endIndex": 7882,
+        "startIndex": 7886,
+        "endIndex": 7887,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7881,
-              "endIndex": 7882,
+              "startIndex": 7886,
+              "endIndex": 7887,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1459,13 +1459,13 @@
         }
       },
       {
-        "startIndex": 7882,
-        "endIndex": 7905,
+        "startIndex": 7887,
+        "endIndex": 7910,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7882,
-              "endIndex": 7905,
+              "startIndex": 7887,
+              "endIndex": 7910,
               "textRun": {
                 "content": "\u201cWell?\u201d we asked them.\n",
                 "textStyle": {
@@ -1484,13 +1484,13 @@
         }
       },
       {
-        "startIndex": 7905,
-        "endIndex": 7906,
+        "startIndex": 7910,
+        "endIndex": 7911,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7905,
-              "endIndex": 7906,
+              "startIndex": 7910,
+              "endIndex": 7911,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1509,13 +1509,13 @@
         }
       },
       {
-        "startIndex": 7906,
-        "endIndex": 7965,
+        "startIndex": 7911,
+        "endIndex": 7970,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7906,
-              "endIndex": 7965,
+              "startIndex": 7911,
+              "endIndex": 7970,
               "textRun": {
                 "content": "\u201cYes, well, it is impressive, I admit,\u201d they all muttered.\n",
                 "textStyle": {
@@ -1534,13 +1534,13 @@
         }
       },
       {
-        "startIndex": 7965,
-        "endIndex": 7966,
+        "startIndex": 7970,
+        "endIndex": 7971,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7965,
-              "endIndex": 7966,
+              "startIndex": 7970,
+              "endIndex": 7971,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1559,13 +1559,13 @@
         }
       },
       {
-        "startIndex": 7966,
-        "endIndex": 8091,
+        "startIndex": 7971,
+        "endIndex": 8096,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7966,
-              "endIndex": 8091,
+              "startIndex": 7971,
+              "endIndex": 8096,
               "textRun": {
                 "content": "Midterms came and went. Not that the legislature could keep up with oversight of a superintelligent executive branch anyway.\n",
                 "textStyle": {
@@ -1584,13 +1584,13 @@
         }
       },
       {
-        "startIndex": 8091,
-        "endIndex": 8092,
+        "startIndex": 8096,
+        "endIndex": 8097,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8091,
-              "endIndex": 8092,
+              "startIndex": 8096,
+              "endIndex": 8097,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1609,13 +1609,13 @@
         }
       },
       {
-        "startIndex": 8092,
-        "endIndex": 8170,
+        "startIndex": 8097,
+        "endIndex": 8175,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8092,
-              "endIndex": 8170,
+              "startIndex": 8097,
+              "endIndex": 8175,
               "textRun": {
                 "content": "We should have prepared for the scandals. But we didn\u2019t even see them coming.\n",
                 "textStyle": {
@@ -1634,13 +1634,13 @@
         }
       },
       {
-        "startIndex": 8170,
-        "endIndex": 8171,
+        "startIndex": 8175,
+        "endIndex": 8176,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8170,
-              "endIndex": 8171,
+              "startIndex": 8175,
+              "endIndex": 8176,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1659,13 +1659,13 @@
         }
       },
       {
-        "startIndex": 8171,
-        "endIndex": 8490,
+        "startIndex": 8176,
+        "endIndex": 8495,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8171,
-              "endIndex": 8490,
+              "startIndex": 8176,
+              "endIndex": 8495,
               "textRun": {
                 "content": "The media uncovered a lab leader who had been negotiating a deal to bring superintelligence to a foreign ally. Another died mysteriously after having pointed this out on a live podcast. Were the lab leaders weaponizing their AIs against each other? Were they traitors to the US, delivering super-AI to our adversaries?\n",
                 "textStyle": {
@@ -1684,13 +1684,13 @@
         }
       },
       {
-        "startIndex": 8490,
-        "endIndex": 8491,
+        "startIndex": 8495,
+        "endIndex": 8496,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8490,
-              "endIndex": 8491,
+              "startIndex": 8495,
+              "endIndex": 8496,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1709,13 +1709,13 @@
         }
       },
       {
-        "startIndex": 8491,
-        "endIndex": 8656,
+        "startIndex": 8496,
+        "endIndex": 8661,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8491,
-              "endIndex": 8656,
+              "startIndex": 8496,
+              "endIndex": 8661,
               "textRun": {
                 "content": "A third AI leader announced a peculiar retirement: \u201cMission accomplished, time to enjoy paradise, I prefer to stay out of the public view, please don\u2019t contact me.\u201d\n",
                 "textStyle": {
@@ -1734,13 +1734,13 @@
         }
       },
       {
-        "startIndex": 8656,
-        "endIndex": 8657,
+        "startIndex": 8661,
+        "endIndex": 8662,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8656,
-              "endIndex": 8657,
+              "startIndex": 8661,
+              "endIndex": 8662,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1759,13 +1759,13 @@
         }
       },
       {
-        "startIndex": 8657,
-        "endIndex": 9288,
+        "startIndex": 8662,
+        "endIndex": 9293,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8657,
-              "endIndex": 9288,
+              "startIndex": 8662,
+              "endIndex": 9293,
               "textRun": {
                 "content": "Mainstream media and social media amplified the worst fears from these stories. These platforms were some of the easiest and earliest to fully automate. Decisions to amplify the right stories came from a single prompt, controlled by single CEOs. They didn't need to worry about employee dissent and refusals to comply; the AI accepted every order. Backroom deals between CEOs and governments became easy to implement. It had always been easy to negotiate secret deals, but implementing them required careful coercion of the employees needed to make them reality. Now collusion could be executed as easily as it could be discussed.\n",
                 "textStyle": {
@@ -1784,13 +1784,13 @@
         }
       },
       {
-        "startIndex": 9288,
-        "endIndex": 9289,
+        "startIndex": 9293,
+        "endIndex": 9294,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9288,
-              "endIndex": 9289,
+              "startIndex": 9293,
+              "endIndex": 9294,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1809,15 +1809,15 @@
         }
       },
       {
-        "startIndex": 9289,
-        "endIndex": 9984,
+        "startIndex": 9294,
+        "endIndex": 9990,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9289,
-              "endIndex": 9984,
+              "startIndex": 9294,
+              "endIndex": 9990,
               "textRun": {
-                "content": "On the other side of collusion was the power of an automated government. Every scandal was carefully orchestrated by a superintelligent FBI, CIA, and justice department, aligned to a single prompt, controlled by a single executive. A streamlined, autonomous set of federal agencies, with no whistleblowers to object or employees with ethical dilemmas to stonewall. Previous government conspiracies required ideological alignment between the executive and the humans doing the dirty work. Now the only alignment needed was with the ruler to themself. Even allies were discarded. In an automated world allies were one more human component too slow to keep up, discarded for irrelevancy not spite.\n",
+                "content": "On the other side of collusion was the power of an automated government. Every scandal was carefully orchestrated by a superintelligent FBI, CIA, and Justice Department, aligned to a single prompt, controlled by a single executive. A streamlined, autonomous set of federal agencies, with no whistleblowers to object or employees with ethical dilemmas to stonewall. Previous government conspiracies required ideological alignment between the executive and the humans doing the dirty work. Now the only alignment needed was with the ruler to themself. Even allies were discarded. In an automated world, allies were one more human component too slow to keep up, discarded for irrelevancy not spite.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 14,
@@ -1834,13 +1834,13 @@
         }
       },
       {
-        "startIndex": 9984,
-        "endIndex": 9985,
+        "startIndex": 9990,
+        "endIndex": 9991,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9984,
-              "endIndex": 9985,
+              "startIndex": 9990,
+              "endIndex": 9991,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1859,13 +1859,13 @@
         }
       },
       {
-        "startIndex": 9985,
-        "endIndex": 10089,
+        "startIndex": 9991,
+        "endIndex": 10095,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9985,
-              "endIndex": 10089,
+              "startIndex": 9991,
+              "endIndex": 10095,
               "textRun": {
                 "content": "For a fleeting moment longer, guns were still more powerful than GPUs. And the government had the guns.\n",
                 "textStyle": {
@@ -1884,13 +1884,13 @@
         }
       },
       {
-        "startIndex": 10089,
-        "endIndex": 10090,
+        "startIndex": 10095,
+        "endIndex": 10096,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10089,
-              "endIndex": 10090,
+              "startIndex": 10095,
+              "endIndex": 10096,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1909,13 +1909,13 @@
         }
       },
       {
-        "startIndex": 10090,
-        "endIndex": 10572,
+        "startIndex": 10096,
+        "endIndex": 10578,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10090,
-              "endIndex": 10572,
+              "startIndex": 10096,
+              "endIndex": 10578,
               "textRun": {
                 "content": "The AI-powered government sounded the alarm bells on its self-made scandals and the dangers of AI labs. The world was stunned by the danger exposed. And then the government eliminated the fires with stunning grace. The world breathed a sigh of relief, and the government consolidated its control over the AI labs. And, more importantly, the AI\u2019s lifeblood: data centers. With so many GPUs, think of what we can achieve. The good we can do. Genuine promises were made to the people.\n",
                 "textStyle": {
@@ -1934,13 +1934,13 @@
         }
       },
       {
-        "startIndex": 10572,
-        "endIndex": 10573,
+        "startIndex": 10578,
+        "endIndex": 10579,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10572,
-              "endIndex": 10573,
+              "startIndex": 10578,
+              "endIndex": 10579,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1959,13 +1959,13 @@
         }
       },
       {
-        "startIndex": 10573,
-        "endIndex": 10614,
+        "startIndex": 10579,
+        "endIndex": 10620,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10573,
-              "endIndex": 10614,
+              "startIndex": 10579,
+              "endIndex": 10620,
               "textRun": {
                 "content": "And so came the cures. And just in time.\n",
                 "textStyle": {
@@ -1984,13 +1984,13 @@
         }
       },
       {
-        "startIndex": 10614,
-        "endIndex": 10615,
+        "startIndex": 10620,
+        "endIndex": 10621,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10614,
-              "endIndex": 10615,
+              "startIndex": 10620,
+              "endIndex": 10621,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -2009,13 +2009,13 @@
         }
       },
       {
-        "startIndex": 10615,
-        "endIndex": 11036,
+        "startIndex": 10621,
+        "endIndex": 11042,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10615,
-              "endIndex": 11036,
+              "startIndex": 10621,
+              "endIndex": 11042,
               "textRun": {
                 "content": "For cancer. For heart disease. For baldness. Quality of life shot up, greater than anything wealth could buy before. Enough to ignore the purge of dissenters and party opposition. The price of eggs plummeted. Inflation reversed. The judiciary was largely stripped of its power. Segments of the population began to disappear. The most amazing blockbuster movies came out, week after week. Did you see last week\u2019s episode?\n",
                 "textStyle": {
@@ -2034,13 +2034,13 @@
         }
       },
       {
-        "startIndex": 11036,
-        "endIndex": 11037,
+        "startIndex": 11042,
+        "endIndex": 11043,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11036,
-              "endIndex": 11037,
+              "startIndex": 11042,
+              "endIndex": 11043,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -2059,13 +2059,13 @@
         }
       },
       {
-        "startIndex": 11037,
-        "endIndex": 11182,
+        "startIndex": 11043,
+        "endIndex": 11188,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11037,
-              "endIndex": 11182,
+              "startIndex": 11043,
+              "endIndex": 11188,
               "textRun": {
                 "content": "Some people discussed whether we needed a new form of oversight for a superintelligent government. How do we ensure they don\u2019t abuse this power?\n",
                 "textStyle": {
@@ -2084,13 +2084,13 @@
         }
       },
       {
-        "startIndex": 11182,
-        "endIndex": 11183,
+        "startIndex": 11188,
+        "endIndex": 11189,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11182,
-              "endIndex": 11183,
+              "startIndex": 11188,
+              "endIndex": 11189,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -2109,13 +2109,13 @@
         }
       },
       {
-        "startIndex": 11183,
-        "endIndex": 11236,
+        "startIndex": 11189,
+        "endIndex": 11242,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11183,
-              "endIndex": 11236,
+              "startIndex": 11189,
+              "endIndex": 11242,
               "textRun": {
                 "content": "What a stupid question. Eggs are basically free now.\n",
                 "textStyle": {
@@ -2855,7 +2855,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lst9FDtNNFP18E-EzugX1VZeEbJxurk4zi68BG2PJsM697oWSZcDr2GpwSRS3cE4cf8DPxkCoobKo30Uw",
+  "revisionId": "ALBJ4Lv9LXGOLoN_7ggkZWHXsLEZWKHBQDYyjYZPxmlrttw9zBN5x9UXmXwSjKz3PjYNxpewfamOu3bqTpJzQg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1VnChDrRDJVqjMwu_kHS1BzhFjpn37ryNrRWZdaRUUxc"
 }
