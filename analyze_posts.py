@@ -101,20 +101,34 @@ async def main():
     """
     Main function to analyze all markdown posts in parallel
     """
+    import argparse
+    
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Analyze blog posts for spelling and grammar errors')
+    parser.add_argument('--post', type=str, help='Optional post name to analyze (without extension)')
+    args = parser.parse_args()
+    
     # Ensure analysis directory exists
     os.makedirs("analysis", exist_ok=True)
     
-    # Get all markdown files
-    md_files = glob.glob("fetched_docs/*.md")
-    
-    if not md_files:
-        logger.warning("No markdown files found in fetched_docs/ directory")
-        return
-    
-    # For testing, uncomment the next line to process only one file
-    # md_files = [md_files[0]]
-
-    logger.info(f"Found {len(md_files)} markdown files to analyze")
+    # Get markdown files based on arguments
+    if args.post:
+        post_path = f"fetched_docs/{args.post}.md"
+        if os.path.exists(post_path):
+            md_files = [post_path]
+            logger.info(f"Analyzing single post: {args.post}")
+        else:
+            logger.error(f"Post not found: {post_path}")
+            return
+    else:
+        # Get all markdown files
+        md_files = glob.glob("fetched_docs/*.md")
+        
+        if not md_files:
+            logger.warning("No markdown files found in fetched_docs/ directory")
+            return
+        
+        logger.info(f"Found {len(md_files)} markdown files to analyze")
     
     # Create tasks but limit concurrency to avoid rate limits
     # Process in smaller batches of 3 at a time
