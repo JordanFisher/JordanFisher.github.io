@@ -15,6 +15,7 @@
         :root {
             --font-size: 1.25rem;
             --bkg-color: rgb(22, 22, 22);
+            --mobile-overlay-position: 64%; /* Position for header overlay on mobile */
         }
 
         * {
@@ -375,20 +376,27 @@
             }
             
             .header-overlay {
-                transform: translateY(40%); /* Less overlap on mobile */
+                position: absolute;
+                bottom: auto;
+                top: var(--mobile-overlay-position); /* Position down from the top of header container */
                 padding: 1.5rem;
+                transform: translateY(0);
+                max-height: calc(100vh - 40px); /* Ensure content doesn't go below viewport */
+                overflow: auto; /* Add scrolling if needed */
             }
             
             .header-overlay:hover {
-                transform: translateY(40%); /* Maintain position on hover */
+                transform: translateY(0) scale(1.01);
             }
             
             .header-gradient {
-                height: 65%; /* Taller gradient on mobile */
+                height: 100%; /* Full gradient on mobile */
             }
             
             .chevron-down {
-                display: none; /* Hide chevron on mobile */
+                display: inline-block; /* Show chevron on mobile */
+                margin-top: 10px; /* Normal top margin */
+                margin-bottom: 10px; /* Add bottom margin */
             }
         }
         
@@ -400,10 +408,24 @@
             
             .header-subtitle {
                 font-size: 1rem;
+                margin-bottom: 0.25rem;
             }
             
             .header-overlay {
                 padding: 1rem;
+                top: var(--mobile-overlay-position); /* Maintain same positioning on smaller screens */
+            }
+            
+            .chevron-down {
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .chevron-down:after {
+                width: 8px;
+                height: 8px;
             }
         }
         
@@ -576,7 +598,11 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const headerClickable = document.getElementById('header-clickable');
+            const headerContainer = document.querySelector('.header-container');
+            const headerOverlay = document.querySelector('.header-overlay');
             const storyContent = document.querySelector('.description-block');
+            
+            // Scroll functionality
             if (storyContent) {
                 // Get position of the story content
                 const rect = storyContent.getBoundingClientRect();
