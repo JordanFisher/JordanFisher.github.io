@@ -140,6 +140,232 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
         return None
 
 
+def create_merged_version(processed_versions, local_only=False):
+    """Create a merged version that combines all book versions with JavaScript switching.
+    
+    Args:
+        processed_versions (list): List of successfully processed book version URIs
+        local_only (bool): Whether we're running in local-only mode
+    """
+    if not processed_versions:
+        print("No processed versions to merge.")
+        return
+    
+    print("Creating merged Liberty by Design version with all variants...")
+    
+    # Find all the HTML files for the processed versions
+    version_files = {}
+    version_contents = {}
+    
+    # Map version URIs to their corresponding user_choice values
+    version_choices = {version.uri: version.user_choice for version in liberty_versions}
+    
+    # Read the HTML content from each version
+    for version_uri in processed_versions:
+        html_path = os.path.join('posts', f"{version_uri}.html")
+        if os.path.exists(html_path):
+            version_files[version_uri] = html_path
+            
+            # Read HTML content and extract the story div
+            with open(html_path, 'r') as f:
+                html_content = f.read()
+                
+            # Extract content between <div id="story"> and </div>
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(html_content, 'html.parser')
+            story_div = soup.find('div', id='story')
+            
+            if story_div:
+                # Get the inner HTML of the story div
+                version_contents[version_uri] = str(story_div.decode_contents())
+            else:
+                print(f"Could not find story div in {html_path}")
+    
+    if not version_contents:
+        print("No story content found in processed versions.")
+        return
+    
+    # Read the post template as a base
+    with open('post_template.html', 'r') as f:
+        template = f.read()
+    
+    # Create the version selector HTML
+    version_selector_html = '''
+    <div class="version-selector">
+        <h2>Choose your version of Liberty by Design:</h2>
+        <div class="version-options">
+    '''
+    
+    # Add version buttons
+    for version_uri in processed_versions:
+        if version_uri in version_choices:
+            user_choice = version_choices[version_uri]
+            is_active = 'active' if version_uri == processed_versions[0] else ''
+            button_id = version_uri.replace('liberty_by_design_', '').replace('_version', '')
+            if button_id == 'liberty_by_design':
+                button_id = 'with_ai_intro'
+                
+            version_selector_html += f'<button class="version-button {is_active}" data-version="{button_id}">{user_choice}</button>\n'
+    
+    version_selector_html += '''
+        </div>
+    </div>
+    '''
+    
+    # Create the JavaScript for version switching
+    version_script = '''
+    <script>
+        // Execute immediately instead of waiting for DOMContentLoaded
+        (function() {
+            // Version switching logic
+            function setupVersionSelector() {
+                const versionButtons = document.querySelectorAll('.version-button');
+                const versionContents = document.querySelectorAll('.version-content');
+                
+                versionButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        const version = this.getAttribute('data-version');
+                        
+                        // Deactivate all buttons and contents
+                        versionButtons.forEach(btn => btn.classList.remove('active'));
+                        versionContents.forEach(content => content.classList.remove('active'));
+                        
+                        // Activate the selected version
+                        this.classList.add('active');
+                        document.getElementById(version).classList.add('active');
+                        
+                        // Save preference to localStorage
+                        localStorage.setItem('preferred_version', version);
+                    });
+                });
+                
+                // Check if there's a saved preference
+                const savedVersion = localStorage.getItem('preferred_version');
+                if (savedVersion) {
+                    const savedButton = document.querySelector(`.version-button[data-version="${savedVersion}"]`);
+                    if (savedButton) {
+                        savedButton.click();
+                    }
+                }
+            }
+            
+            // Check if document is already loaded
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', setupVersionSelector);
+            } else {
+                setupVersionSelector();
+            }
+        })();
+    </script>
+    '''
+    
+    # Create CSS for version selector
+    version_css = '''
+        /* Version selector styling */
+        .version-selector {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #f8f8f8;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        
+        .version-selector h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .version-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .version-button {
+            padding: 0.8rem 1.2rem;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+        }
+
+        .version-button:hover {
+            background-color: #f0f0f0;
+            border-color: #0066cc;
+        }
+
+        .version-button.active {
+            background-color: #e6f2ff;
+            border-color: #0066cc;
+            font-weight: 500;
+        }
+
+        /* Version content styling */
+        .version-content {
+            display: none;
+        }
+
+        .version-content.active {
+            display: block;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .version-selector {
+                background-color: #2a2a2a;
+                border-left-color: #5abbff;
+            }
+            
+            .version-button {
+                background-color: #333;
+                border-color: #555;
+                color: #f0f0f0;
+            }
+            
+            .version-button:hover {
+                background-color: #444;
+                border-color: #5abbff;
+            }
+            
+            .version-button.active {
+                background-color: #1e3a50;
+                border-color: #5abbff;
+            }
+        }
+    '''
+    
+    # Create version content divs
+    version_divs = ''
+    for version_uri in processed_versions:
+        button_id = version_uri.replace('liberty_by_design_', '').replace('_version', '')
+        if button_id == 'liberty_by_design':
+            button_id = 'with_ai_intro'
+            
+        is_active = 'active' if version_uri == processed_versions[0] else ''
+        version_divs += f'<div id="{button_id}" class="version-content {is_active}">{version_contents[version_uri]}</div>\n'
+    
+    # Inject CSS into template head
+    template = template.replace('</style>', version_css + '\n    </style>')
+    
+    # Prepare the content to replace in the template
+    content_to_inject = f"{version_selector_html}\n{version_divs}"
+    merged_html = template.replace('DESCRIPTION_BLOCK', '').replace('POST', content_to_inject)
+    
+    # Add the version switching script before the closing body tag
+    merged_html = merged_html.replace('</body>', f'{version_script}\n</body>')
+    
+    # Write to the merged version file
+    merged_path = os.path.join('posts', 'liberty_by_design.html')
+    with open(merged_path, 'w') as f:
+        f.write(merged_html)
+    
+    print(f"Created merged version at {merged_path}")
+
+
 def main(local_only=False):
     """Main function to process all book versions."""
     if not local_only:
@@ -185,6 +411,9 @@ def main(local_only=False):
         result = process_book_version(book_version, local_only)
         if result:
             processed_versions.append(result)
+    
+    # Create a merged version with JavaScript for version switching
+    create_merged_version(processed_versions, local_only)
     
     return processed_versions
 

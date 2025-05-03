@@ -6,11 +6,12 @@ class Post:
     uris: list[str]
     gdoc_url: str = ""
     url: str = ""
+    title: str = ""
     description: str = ""
 
 
 posts = [
-    # Post(uris=["liberty_by_design"], url="https://jordanfisher.github.io/posts/liberty_by_design.html"),
+    Post(title="Liberty by Design", uris=["liberty_by_design"], url="https://jordanfisher.github.io/posts/liberty_by_design.html"),
 
     Post(uris=["superchecks_superbalances"], gdoc_url="https://docs.google.com/document/d/141zqb94MsAcwBFyk-srcTPEtN3dpDzJe6pN0wts_pcM/"),
     Post(uris=["the_prompt_of_power"], gdoc_url="https://docs.google.com/document/d/1VnChDrRDJVqjMwu_kHS1BzhFjpn37ryNrRWZdaRUUxc/"),

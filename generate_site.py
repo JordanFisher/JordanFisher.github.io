@@ -184,6 +184,16 @@ def main(local_only=False):
     
     for post in posts:
         try:
+            # If this post uses a direct URL instead of a gdoc_url, handle it differently
+            if post.url:
+                # For URL-based posts, add to links list and skip gdoc processing
+                html_title = post.title if post.title else post.uris[0].replace('_', ' ').title()
+                post_description = post.description if post.description else ""
+                # Extract just the filename part for the link
+                link = post.url.split('/')[-1]
+                links.append((html_title, post_description, link))
+                continue
+                
             doc_id = extract_doc_id(post.gdoc_url)
             if not doc_id:
                 print(f"Failed to extract doc ID from URL: {post.gdoc_url}")
@@ -273,20 +283,33 @@ def main(local_only=False):
                 else:
                     print(f"Could not find main content in {filename}.html to convert to markdown")
             
-            # Use the first url_name as the link to the post
-            link = post.uris[0] + ".html"
-            
-            # Extract the title from the HTML content for index
-            from bs4 import BeautifulSoup
-            soup = BeautifulSoup(html_content, 'html.parser')
-            h1 = soup.find('h1')
-            if h1:
-                html_title = h1.get_text()
+            # If post has a url, use that directly; otherwise use the first uri + .html
+            if post.url:
+                link = post.url
+                # Use provided title, or convert uri to a title if needed
+                html_title = post.title if post.title else post.uris[0].replace('_', ' ').title()
             else:
-                # Fallback to gdoc title if no h1 found
-                html_title = title
+                # Use the first url_name as the link to the post
+                link = post.uris[0] + ".html"
+                
+                # If title is explicitly set in the Post, use that
+                if post.title:
+                    html_title = post.title
+                else:
+                    # Extract the title from the HTML content for index
+                    from bs4 import BeautifulSoup
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    h1 = soup.find('h1')
+                    if h1:
+                        html_title = h1.get_text()
+                    else:
+                        # Fallback to gdoc title if no h1 found
+                        html_title = title
             
-            links.append((html_title, description, link))
+            # Use post.description if available, otherwise use the existing description
+            post_description = post.description if post.description else description
+            
+            links.append((html_title, post_description, link))
             
         except Exception as e:
             print(f"Error processing URL {post.gdoc_url}: {str(e)}")

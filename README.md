@@ -10,7 +10,9 @@ To generate the blog, run:
 python generate_site.py
 ```
 
-This will fetch the Google Docs listed in `doc_list.py` and convert them to HTML files in the `posts/` directory. The landing page will be generated at `index.html`.
+This will fetch the Google Docs listed in `posts.py` and convert them to HTML files in the `posts/` directory. The landing page will be generated at `index.html`.
+
+**IMPORTANT**: Do not manually edit `index.html` as it's a generated file. Any changes made directly to it will be overwritten the next time `generate_site.py` is run. Instead, modify the content in `posts.py` and the templates in `index_template.html` and `post_template.html`.
 
 ## Book Generation
 
