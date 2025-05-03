@@ -21,6 +21,9 @@ from googleapiclient.discovery import build
 from liberty_by_design_versions import liberty_versions, BookVersion
 
 
+BOOK_TITLE = "Liberty by Design"
+
+
 def process_book_version(book_version: BookVersion, local_only: bool = False) -> Optional[str]:
     """Process a single book version and generate HTML file.
     
@@ -112,7 +115,7 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
             html_content = str(soup)
         
         # Generate the HTML using the template
-        html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
+        html = POST_HTML_TEMPLATE.replace("TITLE", BOOK_TITLE).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
         
         # Create posts directory if it doesn't exist
         if not os.path.exists('posts'):
@@ -466,8 +469,8 @@ def create_merged_version(processed_versions, local_only=False):
     
     # Prepare the content to replace in the template
     content_to_inject = f"{version_selector_html}\n{version_divs}"
-    merged_html = template.replace('DESCRIPTION_BLOCK', '').replace('POST', content_to_inject)
-    
+    merged_html = template.replace("TITLE", BOOK_TITLE).replace('DESCRIPTION_BLOCK', '').replace('POST', content_to_inject)
+
     # Add the version switching script before the closing body tag
     merged_html = merged_html.replace('</body>', f'{version_script}\n</body>')
     
