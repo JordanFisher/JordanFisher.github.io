@@ -192,7 +192,7 @@ def create_merged_version(processed_versions, local_only=False):
     # Create the version selector HTML
     version_selector_html = '''
     <div class="version-selector">
-        <h2>Choose your version of Liberty by Design:</h2>
+        <h2>Choose your own adventure</h2>
         <div class="version-options">
     '''
     
@@ -221,32 +221,130 @@ def create_merged_version(processed_versions, local_only=False):
             function setupVersionSelector() {
                 const versionButtons = document.querySelectorAll('.version-button');
                 const versionContents = document.querySelectorAll('.version-content');
+                let currentVersion = '';
+                
+                function switchToVersion(version) {
+                    // Deactivate all buttons and contents
+                    versionButtons.forEach(btn => btn.classList.remove('active'));
+                    versionContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Activate the selected version
+                    const button = document.querySelector(`.version-button[data-version="${version}"]`);
+                    if (button) {
+                        button.classList.add('active');
+                    }
+                    
+                    const content = document.getElementById(version);
+                    if (content) {
+                        content.classList.add('active');
+                    }
+                    
+                    // Save preference to localStorage
+                    localStorage.setItem('preferred_version', version);
+                    currentVersion = version;
+                    
+                    // Handle any anchor in the URL
+                    handleAnchorLink();
+                }
                 
                 versionButtons.forEach(button => {
                     button.addEventListener('click', function() {
+                        // Clear any hash/anchor from the URL when switching versions
+                        if (window.location.hash) {
+                            history.pushState("", document.title, window.location.pathname + window.location.search);
+                        }
                         const version = this.getAttribute('data-version');
+                        switchToVersion(version);
+                    });
+                });
+                
+                // Function to handle anchor links
+                function handleAnchorLink() {
+                    // Check if there's an anchor in the URL
+                    if (window.location.hash) {
+                        const hash = window.location.hash.substring(1); // Remove the #
                         
-                        // Deactivate all buttons and contents
-                        versionButtons.forEach(btn => btn.classList.remove('active'));
-                        versionContents.forEach(content => content.classList.remove('active'));
-                        
-                        // Activate the selected version
-                        this.classList.add('active');
-                        document.getElementById(version).classList.add('active');
-                        
-                        // Save preference to localStorage
-                        localStorage.setItem('preferred_version', version);
+                        // Check if this is a prefixed anchor (contains version info)
+                        if (hash.includes('-')) {
+                            // Extract version from the anchor
+                            const parts = hash.split('-');
+                            const versionFromAnchor = parts[0];
+                            
+                            // Switch to that version if needed
+                            if (versionFromAnchor !== currentVersion && 
+                                document.querySelector(`.version-button[data-version="${versionFromAnchor}"]`)) {
+                                switchToVersion(versionFromAnchor);
+                            }
+                            
+                            // Scroll to the element
+                            setTimeout(() => {
+                                const element = document.getElementById(hash);
+                                if (element) {
+                                    element.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }, 100);
+                        } else {
+                            // For unprefixed anchors, try to find the element in the current version
+                            const prefixedAnchor = `${currentVersion}-${hash}`;
+                            setTimeout(() => {
+                                const element = document.getElementById(prefixedAnchor);
+                                if (element) {
+                                    element.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }, 100);
+                        }
+                    }
+                }
+                
+                // Listen for hash changes
+                window.addEventListener('hashchange', handleAnchorLink);
+                
+                // Update all anchors in the document to work correctly with the version system
+                function updateAnchorsInContent() {
+                    // Get all anchor links in the page
+                    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                        // Skip links that already include version prefix
+                        const href = anchor.getAttribute('href').substring(1);
+                        if (!href.includes('-') && href !== '') {
+                            // Add click handler to process the anchor
+                            anchor.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                
+                                // Create a prefixed anchor for the current version
+                                const prefixedAnchor = `${currentVersion}-${href}`;
+                                
+                                // Find the matching element
+                                const targetElement = document.getElementById(prefixedAnchor);
+                                if (targetElement) {
+                                    // Update the URL hash and scroll to element
+                                    history.pushState(null, null, `#${prefixedAnchor}`);
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            });
+                        }
+                    });
+                }
+                
+                // Add a listener for when versions are changed to update anchors
+                versionButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Give the DOM time to update
+                        setTimeout(updateAnchorsInContent, 200);
                     });
                 });
                 
                 // Check if there's a saved preference
                 const savedVersion = localStorage.getItem('preferred_version');
                 if (savedVersion) {
-                    const savedButton = document.querySelector(`.version-button[data-version="${savedVersion}"]`);
-                    if (savedButton) {
-                        savedButton.click();
-                    }
+                    switchToVersion(savedVersion);
+                } else {
+                    // Default to first version if no preference saved
+                    const defaultVersion = versionButtons[0].getAttribute('data-version');
+                    switchToVersion(defaultVersion);
                 }
+                
+                // Run once on initial load
+                setTimeout(updateAnchorsInContent, 200);
             }
             
             // Check if document is already loaded
@@ -338,15 +436,30 @@ def create_merged_version(processed_versions, local_only=False):
         }
     '''
     
-    # Create version content divs
+    # Create version content divs and prefix all anchor IDs with version name
     version_divs = ''
     for version_uri in processed_versions:
         button_id = version_uri.replace('liberty_by_design_', '').replace('_version', '')
         if button_id == 'liberty_by_design':
             button_id = 'with_ai_intro'
             
+        # Parse the content with BeautifulSoup to modify IDs
+        soup = BeautifulSoup(version_contents[version_uri], 'html.parser')
+        
+        # Find all elements with ID attributes and prefix them with the button_id
+        for element in soup.find_all(id=True):
+            if element.get('id') != button_id:  # Don't modify the main version div ID
+                original_id = element.get('id')
+                # Create a prefixed ID to avoid conflicts
+                prefixed_id = f"{button_id}-{original_id}"
+                element['id'] = prefixed_id
+                
+                # Also update any anchor links that point to this ID within this version
+                for anchor in soup.find_all('a', href=f"#{original_id}"):
+                    anchor['href'] = f"#{prefixed_id}"
+        
         is_active = 'active' if version_uri == processed_versions[0] else ''
-        version_divs += f'<div id="{button_id}" class="version-content {is_active}">{version_contents[version_uri]}</div>\n'
+        version_divs += f'<div id="{button_id}" class="version-content {is_active}">{soup.decode_contents()}</div>\n'
     
     # Inject CSS into template head
     template = template.replace('</style>', version_css + '\n    </style>')

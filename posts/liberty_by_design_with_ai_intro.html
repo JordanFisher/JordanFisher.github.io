@@ -577,16 +577,22 @@
         document.addEventListener('DOMContentLoaded', function() {
             const headerClickable = document.getElementById('header-clickable');
             const storyContent = document.querySelector('.description-block');
+            if (storyContent) {
+                // Get position of the story content
+                const rect = storyContent.getBoundingClientRect();
+                const targetY = window.pageYOffset + rect.top;
+                
+                // Scroll less than the full distance
+                window.scrollTargetY = targetY - (rect.height * 0.4);
+            } else {
+                window.scrollTargetY = 0;
+            }
             
             if (headerClickable && storyContent) {
                 headerClickable.addEventListener('click', function() {
-                    // Get position of the story content
-                    const rect = storyContent.getBoundingClientRect();
-                    const targetY = window.pageYOffset + rect.top;
-                    
                     // Scroll less than the full distance
-                    const scrollDestination = targetY - (rect.height * 0.4);
-                    
+                    const scrollDestination = window.scrollTargetY;
+
                     // Smooth scroll to slightly above the story content
                     window.scrollTo({
                         top: scrollDestination,
