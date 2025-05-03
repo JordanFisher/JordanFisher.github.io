@@ -12,9 +12,21 @@ python generate_site.py
 
 This will fetch the Google Docs listed in `doc_list.py` and convert them to HTML files in the `posts/` directory. The landing page will be generated at `index.html`.
 
+## Book Generation
+
+To generate the Liberty by Design book in multiple versions:
+
+```bash
+# Generate all versions of the book
+python make_governance.py
+
+# Use only local cached documents without fetching from Google Docs
+python make_governance.py --local-only
+```
+
 ## PDF Generation
 
-To generate a PDF version of "Liberty by Design" post/book:
+To generate a PDF version of Liberty by Design books:
 
 ```bash
 # Generate without images (smaller file size)
@@ -96,8 +108,10 @@ If TeX Live is not installed, the script will generate a LaTeX file (`.tex`) but
 
 Key files and their purposes:
 
-- `doc_list.py`: List of Google Docs to fetch and convert
+- `posts.py`: List of blog posts to fetch and convert
+- `liberty_by_design_versions.py`: List of Liberty by Design book versions
 - `generate_site.py`: Main script to generate the blog
+- `make_governance.py`: Script to generate different versions of the Liberty by Design book
 - `convert.py`: Handles conversion of Google Doc JSON to HTML and inlines nested documents with chapter numbering
 - `make_governance_pdf.py`: Converts HTML to LaTeX/PDF with LaTeX-specific formatting
 - `analyze_posts.py`: Analyzes markdown versions of posts for spelling and grammar using Anthropic's Claude

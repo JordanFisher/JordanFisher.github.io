@@ -172,14 +172,7 @@ def main(local_only=False):
         # Create images directory if it didn't exist
         os.makedirs(posts_images_dir)
         
-    # Copy the header images to the posts directory
-    # Original header
-    header_image_path = os.path.join(os.getcwd(), 'liberty_by_design_header.png')
-    if os.path.exists(header_image_path):
-        print(f"Copying liberty_by_design_header.png to posts directory")
-        shutil.copy2(header_image_path, os.path.join('posts', 'liberty_by_design_header.png'))
-    
-    # Singularity header
+    # Copy the singularity header
     singularity_image_path = os.path.join(os.getcwd(), 'singularity_design_horizontal_strip.png')
     if os.path.exists(singularity_image_path):
         print(f"Copying singularity_design_horizontal_strip.png to posts directory")
@@ -256,36 +249,14 @@ def main(local_only=False):
             # Include the header only for the Liberty by Design book
             
             for filename in post.uris:
-                # For the book, use the template with header; for other posts, remove the header
-                # Create PDF download div for liberty_by_design
-                pdf_download_html = ''
-                if filename == "liberty_by_design":
-                    pdf_download_html = '''
-<div class="pdf-download">
-    <a href="/liberty_by_design.pdf" target="_blank" download>
-        <span class="download-icon">📄</span> Download PDF version
-    </a>
-</div>'''
-                    # Add pdf_download_html to the HTML content right after the first h1 header.
-                    soup = BeautifulSoup(html_content, 'html.parser')
-                    first_h1 = soup.find('div')
-                    if first_h1:
-                        pdf_div = BeautifulSoup(pdf_download_html, 'html.parser')
-                        first_h1.insert_after(pdf_div)
-                        # Update the HTML content
-                        html_content = str(soup)
-                
-                if filename == "liberty_by_design":
-                    html = POST_HTML_TEMPLATE.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
-                else:
-                    # Remove the header container for non-book blog posts
-                    # First extract just the part of the template before the body tag
-                    head_part = POST_HTML_TEMPLATE.split("<body>")[0]
-                    # Then extract just the container and content part (without the header)
-                    body_part = POST_HTML_TEMPLATE.split("<div class=\"container\">")[1]
-                    # Combine parts without the header
-                    modified_template = head_part + "<body>\n    <div class=\"container\">" + body_part
-                    html = modified_template.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
+                # Remove the header container for blog posts
+                # First extract just the part of the template before the body tag
+                head_part = POST_HTML_TEMPLATE.split("<body>")[0]
+                # Then extract just the container and content part (without the header)
+                body_part = POST_HTML_TEMPLATE.split("<div class=\"container\">")[1]
+                # Combine parts without the header
+                modified_template = head_part + "<body>\n    <div class=\"container\">" + body_part
+                html = modified_template.replace("TITLE", title).replace("DESCRIPTION_BLOCK", description_html).replace("POST", html_content)
                 
                 with open(os.path.join("posts", filename + ".html"), 'w') as f:
                     f.write(html)
