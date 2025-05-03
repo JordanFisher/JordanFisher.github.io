@@ -836,8 +836,8 @@ def inline_links(html_content: str, handle_descriptions: bool = True) -> str:
                     post_url = None
                     
                     # Look for existing post with this doc_id
-                    from doc_list import gdoc_urls
-                    for url_names, url in gdoc_urls:
+                    from posts import posts
+                    for url_names, url in posts:
                         target_doc_id = extract_doc_id(url)
                         if doc_id == target_doc_id:
                             post_url = f"{url_names[0]}.html"
@@ -1102,7 +1102,7 @@ if __name__ == '__main__':
     
     # Mock gdoc_urls for testing
     import sys
-    from doc_list import gdoc_urls as original_gdoc_urls
+    from posts import posts as original_gdoc_urls
     sys.modules['doc_list'].gdoc_urls = [(["test_doc_67890"], "https://docs.google.com/document/d/67890")]
     
     # Process the HTML

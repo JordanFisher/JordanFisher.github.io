@@ -11,7 +11,7 @@ import pickle
 from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service, set_drive_service
 import html2text
 
-from doc_list import gdoc_urls
+from posts import posts
 
 
 # If modifying these scopes, delete the file token.pickle.
@@ -117,36 +117,6 @@ with open('post_template.html') as f:
 with open('index_template.html') as f:
     INDEX_HTML_TEMPLATE = f.read()
 
-# This function is kept for reference but no longer used
-# The functionality has been integrated into the main function with link processing
-def save_html(url_names: list[str], gdoc_data: dict) -> tuple[str, str, str]:
-    # Get title, description, and HTML content from the Google Doc
-    gdoc_title, description, html_content = convert_doc_to_html(gdoc_data)
-   
-    # Replace placeholders in the HTML template, but don't add the title again
-    # since it's already in the HTML content
-    html = POST_HTML_TEMPLATE.replace("TITLE", gdoc_title).replace("POST", html_content)
-    
-    # Write to files
-    for filename in url_names:
-        with open(os.path.join("posts", filename + ".html"), 'w') as f:
-            f.write(html)
-
-    # Use the first url_name as the link to the post
-    link = url_names[0] + ".html"
-
-    # Return the HTML title which may include formatting
-    # Extract the title from html_content - it should be the first h1 tag
-    import re
-    html_title = ""
-    h1_match = re.search(r'<h1>(.*?)</h1>', html_content)
-    if h1_match:
-        html_title = h1_match.group(1)
-    else:
-        # Fallback to gdoc title if no h1 found
-        html_title = gdoc_title
-
-    return html_title, description, link
 
 def main(local_only=False):
     if not local_only:
@@ -219,21 +189,21 @@ def main(local_only=False):
     documents = {}
     links = []
     
-    for url_names, url in gdoc_urls:
+    for post in posts:
         try:
-            doc_id = extract_doc_id(url)
+            doc_id = extract_doc_id(post.gdoc_url)
             if not doc_id:
-                print(f"Failed to extract doc ID from URL: {url}")
+                print(f"Failed to extract doc ID from URL: {post.gdoc_url}")
                 continue
             
             if local_only:
                 # Check if cached JSON file exists
-                json_path = os.path.join("fetched_docs", url_names[0] + '.json')
+                json_path = os.path.join("fetched_docs", post.uris[0] + '.json')
                 if not os.path.exists(json_path):
-                    print(f"Skipping {url_names[0]}: cached document not found at {json_path}")
+                    print(f"Skipping {post.uris[0]}: cached document not found at {json_path}")
                     continue
                 
-                print(f"Using cached version of {url_names[0]}")
+                print(f"Using cached version of {post.uris[0]}")
                 try:
                     with open(json_path, 'r') as f:
                         raw_doc = json.load(f)
@@ -245,7 +215,7 @@ def main(local_only=False):
                         continue
                         
                     # Add to documents dictionary
-                    documents[url] = url_names[0]
+                    documents[post.gdoc_url] = post.uris[0]
                 except Exception as e:
                     print(f"Error processing cached document {json_path}: {str(e)}")
                     continue
@@ -258,7 +228,7 @@ def main(local_only=False):
                     
                 # Save the raw document for reference
                 raw_doc = fetch_gdoc(doc_id)
-                documents[url] = save_doc(url_names, raw_doc)
+                documents[post.gdoc_url] = save_doc(post.uris, raw_doc)
             
             # Create a description block if description exists
             description_html = ""
@@ -285,7 +255,7 @@ def main(local_only=False):
             # Save the HTML with links processed and description block
             # Include the header only for the Liberty by Design book
             
-            for filename in url_names:
+            for filename in post.uris:
                 # For the book, use the template with header; for other posts, remove the header
                 # Create PDF download div for liberty_by_design
                 pdf_download_html = ''
@@ -333,7 +303,7 @@ def main(local_only=False):
                     print(f"Could not find main content in {filename}.html to convert to markdown")
             
             # Use the first url_name as the link to the post
-            link = url_names[0] + ".html"
+            link = post.uris[0] + ".html"
             
             # Extract the title from the HTML content for index
             from bs4 import BeautifulSoup
@@ -348,7 +318,7 @@ def main(local_only=False):
             links.append((html_title, description, link))
             
         except Exception as e:
-            print(f"Error processing URL {url}: {str(e)}")
+            print(f"Error processing URL {post.gdoc_url}: {str(e)}")
     
     # Generate index.html
     links_html = ''
