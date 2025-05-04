@@ -993,7 +993,7 @@ def main():
         ensure_latex_templates_dir()
         
         # Path to the governance HTML file
-        html_path = os.path.join('posts', 'liberty_by_design.html')
+        html_path = os.path.join('posts', 'liberty_by_design_with_ai_intro.html')
         
         if not os.path.exists(html_path):
             print(f"Error: HTML file {html_path} not found. Make sure the site has been generated.")
@@ -1031,7 +1031,7 @@ def main():
     merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
     
     # Modify the HTML file to empty the first h1 title-header
-    html_path = os.path.join('posts', 'liberty_by_design.html')
+    html_path = os.path.join('posts', 'liberty_by_design_with_ai_intro.html')
     if os.path.exists(html_path):
         print(f"Modifying {html_path} to empty the first h1 title-header...")
         with open(html_path, 'r') as f:

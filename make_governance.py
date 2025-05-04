@@ -603,9 +603,11 @@ def main(local_only=False):
         if result:
             processed_versions.append(result)
     
-    # Create a merged version with JavaScript for version switching
-    create_merged_version(processed_versions, local_only)
-    
+    # Create a merged version with JavaScript for version switching.
+    # Only the first three versions are HTML versions, the last one should be the physical book version.
+    digital_versions = [version for version in liberty_versions if not version.physical_version]
+    create_merged_version(digital_versions, local_only)
+
     return processed_versions
 
 
