@@ -199,9 +199,12 @@
 
 \frontmatter
 
-% Full page cover image that fills the entire page (scaled 5% larger)
+% Full page cover image that fills the entire page (scaled 5% larger) with black background
 \thispagestyle{empty}
 \begin{tikzpicture}[remember picture, overlay]
+  % First add a black background covering the entire page
+  \fill[black] (current page.south west) rectangle (current page.north east);
+  
   % Create a node that covers the entire page
   \node[inner sep=0pt, anchor=center] at (current page.center) {
     % Scale the image 5% larger than the page dimensions while maintaining aspect ratio
