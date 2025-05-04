@@ -1,5 +1,6 @@
 % Mobile-friendly LaTeX template
 % Based on pocket_book_template.tex, with mobile-optimized dimensions
+% Styled to match the book template's appearance while optimized for screen reading
 
 \documentclass[twoside,11pt]{memoir}
 
@@ -57,10 +58,13 @@
   breaklinks=true,
   pdfborder={0 0 1},
   colorlinks=true,        % Colored links for better visibility on screens
-  linkcolor=blue,         % Link color
+  linkcolor=blue,         % Link color for mobile (keep this for better screen reading)
   urlcolor=blue,          % URL color
   citecolor=blue,         % Citation link color
-  hypertexnames=false,
+  hypertexnames=true,     % Enable this to ensure refs work with any name
+  destlabel=true,         % Enable destination for every \label
+  implicit=true,          % Make all refs hyperlinks
+  naturalnames=true,      % Prefixes not needed for internal refs
   pdfpagemode=UseOutlines, % Show bookmarks panel when opening
   pdftitle={},
 ]{hyperref}
@@ -88,7 +92,7 @@
 \makeevenfoot{part}{}{}{}
 \makeoddfoot{part}{}{}{}
 
-% Chapter style customization (Tufte style)
+% Chapter style customization (Tufte style) - identical to book template
 \makechapterstyle{Tufte}{
   \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
   \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
@@ -193,20 +197,20 @@
 
 \frontmatter
 
-% Custom title page with centered title for mobile
+% Custom title page with left-justified title matching the book template
 \thispagestyle{empty}
-\begin{center}
-\vspace*{1.5cm}
+\begin{flushleft}
+\vspace*{5cm}
 {\huge\sffamily\itshape Liberty by Design}\\[0.6cm]
 {\Large\sffamily\itshape Governing a Human-Machine Society}\\[1.5cm]
 {\large\sffamily\itshape Jordan Ezra Fisher}\\[0.3cm]
 \vfill
 {\small\sffamily\itshape \today}
-\end{center}
+\end{flushleft}
 
 % Description block for main document
 \begin{center}
-\vspace*{0.5cm}
+\vspace*{7cm}
 \begin{fancyquote}
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
 \end{fancyquote}
@@ -215,10 +219,6 @@ There are many important conversations happening about AI. But we are missing on
 
 \mainmatter
 \setcounter{page}{1}
-
-% Add table of contents for mobile
-\tableofcontents
-\clearpage
 
 \subsection*{\Large Table of Contents}
 \vspace{0.5cm}
@@ -299,6 +299,7 @@ We'll explore this core question of governance, the extent of what's at stake, a
 
 Our discussion will cover the following:
 
+
 \vspace{1.1cm}
 \section*{Chapter 1: Why AI is accelerating, and why we have little time left}
 \vspace{0.3cm}
@@ -307,6 +308,7 @@ Our discussion will cover the following:
 \item Machines have now reached human intelligence in many domains, and will soon surpass us in most others.
 \item If we understand why this progress is accelerating, we will be able to better design how we want to integrate machines into human society.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Chapter 2: What do we want from our machines and governance?}
@@ -317,6 +319,7 @@ Our discussion will cover the following:
 \item Ours took thousands of years of trial and error and is still a work in progress.
 \item What allows a society to function depends strongly on the details of its members: us humans.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Chapter 3: The end of implicit guardrails}
@@ -331,6 +334,7 @@ Our discussion will cover the following:
 \item Once our institutions are automated, power may instead sit solely with the leaders of those institutions.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Chapter 4: A simple path to tyranny}
 \vspace{0.3cm}
@@ -344,6 +348,7 @@ Our discussion will cover the following:
 \item Humans alone won't be able to oversee leaders empowered by AI. As it stands, whoever controls AI will control nearly everything.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Chapter 5: The Prompt of Power}
 \vspace{0.3cm}
@@ -354,6 +359,7 @@ Our discussion will cover the following:
 \item Here we'll explore a short story walking down our current path, and how it leads to an unrecoverable concentration of power and the end of liberty.
 \item The future will almost surely play out differently, in one of a million possible paths. We need to set the conditions so that the future is bright regardless of the path.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Chapter 6: Rapid fire governance --- designing upgrades to democracy}
@@ -367,6 +373,7 @@ Our discussion will cover the following:
 \item We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Chapter 7: Superchecks and superbalances}
 \vspace{0.3cm}
@@ -378,6 +385,7 @@ Our discussion will cover the following:
 \item A positive future will surely play out differently than we expect, even if things go well. But we must set a vision of what good looks like so we know what we're fighting for.
 \item Moreover, we should plan for the worst. We should assume that one day we'll elect a would-be tyrant. The governance we design today should be so robust that even then our democracy would stand. 
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Chapter 8: The realpolitik AI --- forging a new political alliance}
@@ -391,6 +399,7 @@ Our discussion will cover the following:
 \item Instead, we must modernize our government and military to remain the dominant superpower, and we must simultaneously upgrade the oversight and safeguards that prevent abuse of this incredible concentration of power.
 \item And while we must treat the race against China as existential, we must also look constantly for offramps toward deescalation and international peace.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Chapter 9: An exponential, if you can keep it}
@@ -407,10 +416,11 @@ Our discussion will cover the following:
 But, if we begin this great debate today, we can set the framework for a positive future.
 
 \clearpage
+\phantomsection\label{why-ai-is-accelerating--and-why-we-have-little-time-left}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 1}
 \vspace{-0.5cm}
-\section*{\huge Why AI is accelerating, and why we have little time left}\label{why-ai-is-accelerating--and-why-we-have-little-time-left}
+\section*{\huge Why AI is accelerating, and why we have little time left}
 \vspace{0.7cm}
 
 If you're reading this in 2025, maybe you're already noticing AI around you. The news articles. Your colleagues using AI for work. Your kid using it as a tutor to learn math faster.
@@ -429,6 +439,7 @@ And the future depends on understanding this. There is so little time left that 
 
 Let's work through some of the details to better understand why AI is accelerating. Those details will help inform how we predict the future will unfold, and what changes we'll need to ensure that future is positive.
 
+
 \vspace{1.1cm}
 \section*{The horizon of an agent}
 \vspace{0.3cm}
@@ -443,6 +454,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item In general, what we see is that today the AIs are better at tasks that take less time. This is more or less the same as the developmental progress of a student, or of a new employee. First you need to break down tasks into small chunks for the student, but over time you can give them bigger and bigger tasks.
 \item We call the length of a task that an AI can handle their ``horizon''. As AIs improve, so does their horizon. The capability of an AI is now best measured in units of time. How long is their horizon? How big of a task can I give it?
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{The quick glance rule}
@@ -460,6 +472,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item Not only do modern AIs already have superhuman breadth, they have integrated their knowledge together. For example, as of early 2025, ChatGPT can now identify the location at which almost any photo was taken. It does this by recognizing plants, landmarks, signs, and other details, and then integrating together that information to deduce a plausible location.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Answering questions}
 \vspace{0.3cm}
@@ -472,6 +485,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item We figured out how to let the AI teach itself from reading, and then we gave it the entire internet to read.
 \item Modern AIs now know basically everything that can be found on the internet, and they understand it at a fairly deep level.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Writing code}
@@ -490,6 +504,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item How did these AIs so rapidly improve from barely functional to world-class? How did their horizon improve so quickly?
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Two types of training}
 \vspace{0.3cm}
@@ -505,6 +520,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item Even that we often don't know how to do, so we often \textit{train an AI to figure out how to give feedback to itself} in a process called RLHF. This may sound circuitous, but it's similar to how a coach can help a world-class athlete become a better athlete, even if the coach themself isn't and never was world-class.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{We've seen this before with AI}
 \vspace{0.3cm}
@@ -516,6 +532,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item The key ingredient for AlphaGo was also Reinforcement Learning. AlphaGo played millions of games against itself, and figured out for itself what the best strategies and tactics are.
 \item Some of the strategies AlphaGo used were difficult even for grandmasters to understand. The famous ``move 37'' was a move used in AlphaGo's game against Lee Sedol that live experts thought was suboptimal. But as the game unfolded the move proved brilliant --- and decisive. The human grandmaster didn't even realize they were losing until long after it was already inevitable.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Why do AIs spend so little time close to human level?}
@@ -533,6 +550,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item However, we repeatedly see that this intermediate level of skill is fleeting --- the period where the AI is similar to but not better than most humans is often a very short period of time.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Where is AI improving today?}
 \vspace{0.3cm}
@@ -545,6 +563,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item The impact of this alone is hard to overstate. At the very least, it will upend our economy and force us to redefine the function that jobs have in our society.
 \item But let's return to coding; it has a special role to play in the near future.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{The next wave of software}
@@ -560,6 +579,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item And there is one area where automating the creation of software will have massive impact: creating better AI.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Recursive self-improvement}
 \vspace{0.3cm}
@@ -573,6 +593,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item How fast will AI improve once this loop starts? No one knows. But the rate at which this loop improves will be one of the most important factors for how the future plays out. The slower the loop goes, the more time we'll have as a society to digest the changes and put new safeguards in place.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Other reasons things are moving so fast}
 \vspace{0.3cm}
@@ -583,6 +604,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item The motivation levels are high. AI is a fascinating scientific field that involves trying to understand the nature of intelligence itself. Even before working on AI paid well, many scientists were passionate about solving intelligence.
 \item Competition is fierce. Peter Thiel famously said, ``Competition is for losers.'' That has been an ethos for Silicon Valley for decades. Software companies try to find new areas to explore where they don't compete with others. With AI, it's the opposite. Many of the most valuable companies in the world are directly competing with each other to win the AI race. And many of the most promising private startups are doing the same. The extreme competition has created a mini version of a domestic space race.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Money will soon equal progress}
@@ -595,6 +617,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item We should expect this to lead to a major leap in the rate of progress in the next few years.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Superintelligence}
 \vspace{0.3cm}
@@ -606,6 +629,7 @@ Let's work through some of the details to better understand why AI is accelerati
 \item Superintelligence will invalidate many of the fundamental assumptions we've built our society on. We must upgrade our society before then if we want to safeguard liberty.
 \item No one can predict for sure how soon superintelligence will arrive, but if it arrives soon, we must be ready for it.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Don't be evil}
@@ -623,6 +647,7 @@ These may be necessary steps to continue to improve the competitiveness of the U
 
 Pay close attention to actors that propose the first without also advocating for the second. Pay even closer attention to actions. Actions don't just speak louder than words. When the stakes are this high, they are the only signal that can be trusted.
 
+
 \vspace{1.1cm}
 \section*{Alignment}
 \vspace{0.3cm}
@@ -636,10 +661,11 @@ Future AIs will likely be even better at faking alignment and deceiving their us
 Rather, we'll assume ---optimistically--- that the problem of alignment will be solved. That leaves us with the equally challenging question: how should we upgrade our democracy to defend our liberties in an age of superintelligent AIs?
 
 \clearpage
+\phantomsection\label{what-do-we-want-from-our-machines-and-governance-}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 2}
 \vspace{-0.5cm}
-\section*{\huge What do we want from our machines and governance?}\label{what-do-we-want-from-our-machines-and-governance-}
+\section*{\huge What do we want from our machines and governance?}
 \vspace{0.7cm}
 
 We assume that machines will achieve human-level intelligence. We assume they will exceed us. We assume that they will have ethics, aligned to a human or group of humans.
@@ -689,6 +715,7 @@ The governance of machines poses an equally profound question. We won't have a t
 But we must find an answer.
 
 \vspace{0.5em}
+
 
 \vspace{1.1cm}
 \section*{Why}
@@ -750,10 +777,11 @@ Let's start with the first approach: to understand what works today. In particul
 Let's begin.
 
 \clearpage
+\phantomsection\label{the-end-of-implicit-guardrails}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 3}
 \vspace{-0.5cm}
-\section*{\huge The end of \sout{implicit} guardrails}\label{the-end-of-implicit-guardrails}
+\section*{\huge The end of \sout{implicit} guardrails}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -767,6 +795,7 @@ But there is a much bigger, implicit set of guardrails in our society.
 It's a force field that permeates every institution composed of humans. You could suspend the Constitution tomorrow, and society would not immediately fail: most would continue to hold each other responsible, and work together to re-enshrine our laws. Likewise, if you pick up our laws and institutions and drop them on an illiberal society, it likely won't hold: judges will be bought and corrupted, politicians will abuse their power unchecked, individual citizens will partake in the decline and in fact cause the decline --- by failing to hold each other accountable in the nooks and crannies in between where the laws are set.
 
 Let's try to enumerate the guardrails that are implicitly held up by humans. As we do, keep in mind how a world without these guardrails would look. When we automate our institutions with AI, we will be explicitly removing these implicit forces, and we'll need to find explicit ways to reintroduce their effects.
+
 
 \vspace{1.1cm}
 \section*{Knowledge convection distributes power}
@@ -783,6 +812,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Sometimes information leakage is important for international relations: some leakage allows for mutual planning between nations. A complete lack of information can lead to paranoia and escalation.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Information sharing creates accountability}
 \vspace{0.3cm}
@@ -797,6 +827,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item By default, there might be no visibility on what AI workers do inside of an automated institution. Therefore they may have no social forces pushing them to behave well. The automated institution they are part of may thus have no internal forces pushing the institution toward ethical behavior.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Humans prefer to support noble causes}
 \vspace{0.3cm}
@@ -807,6 +838,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item In a sense, all humans get a vote by choosing who they will work for.
 \item In an automated world, the only advantage will go to the cause with more machine resources.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Top talent can vote with their feet}
@@ -819,6 +851,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Building AI is itself a moonshot. AI researchers have incredible power today to shape the direction of AI, \textit{if they choose to wield it}.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{People can quit}
 \vspace{0.3cm}
@@ -830,6 +863,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Conscientious objection is a powerful limit on government malfeasance.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Humans can refuse specific orders}
 \vspace{0.3cm}
@@ -838,6 +872,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Famously, in 1983, Stanislav Petrov saved the world by refusing to launch nuclear weapons against the United States.
 \item There may not be an AI version of Petrov, if the AI is perfectly aligned to do what it's asked to do.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Whistleblowers limit egregious actions}
@@ -848,6 +883,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item In a fully automated organization, there may no longer be any whistleblowers. And without them, some leaders may no longer avoid unethical actions.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Conspiracies and cartels are hard to maintain}
 \vspace{0.3cm}
@@ -857,6 +893,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Compliance to the group or cartel becomes exponentially harder as the size of the conspiracy grows.
 \item Not true with AI, where compliance (alignment) to the cartel may be complete.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Cronies are dumb, limiting their impact}
@@ -871,6 +908,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item We should expect to see substantially more capable tyrants and mobsters, powered by AI and unhindered by ethics.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Media helps spread knowledge of malfeasance}
 \vspace{0.3cm}
@@ -883,6 +921,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item If the media company is fully automated, it may act on any command from the owner, with no fear of whistleblowers or conscientious objection. Executing a media coverup becomes as simple as the media owner and the politician agreeing to terms.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Social media spreads knowledge that mainstream media may not }
 \vspace{0.3cm}
@@ -893,6 +932,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item We're already seeing this effect from bots online, but today savvy humans can still tell apart human and machine. Tomorrow, it will likely be impossible to discern even for the most savvy among us.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Humans die}
 \vspace{0.3cm}
@@ -901,6 +941,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item The ultimate limit of a human is their lifespan. No matter how much power they accumulate, one day they must pass it on.
 \item An AI need not have a lifespan. An empowered AI that faithfully represents one person's values may enforce those values forever.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Limited power of committees}
@@ -913,6 +954,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Today, any human worker may choose to circumvent their chain of command and inform a committee of misdeeds. Tomorrow, if AIs are perfectly compliant to their user, oversight committees may have no real power.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Principal-agent problems stymie large organizations}
 \vspace{0.3cm}
@@ -923,6 +965,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Or, an employee may seek a project that helps them get promoted, even when it's the wrong project to help the company. Or a trader may take on risks that net out positive for them, but net out negative for the people who gave them their money to trade.
 \item This is a strong limiting factor on the power of large organizations, and is one reason among many why small organizations can often outcompete larger ones. None of these internal misalignments may exist inside automated orgs.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Community approval and self-approval influence human actions}
@@ -937,6 +980,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Soldiers rarely will agree to fire on civilians, especially their own civilians. An AI soldier that follows orders will have no such compunction.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Personal fear of justice}
 \vspace{0.3cm}
@@ -945,6 +989,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item The law applies to individuals, not just organizations, and the fear of breaking the law means a human will often disobey an illegal order.
 \item But an AI need not have fear.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Judges and police officers have their own ethics}
@@ -957,6 +1002,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item An AI instead might faithfully execute the letter of the law so well that even our existing laws become dangerous to freedom.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{There's general friction in enforcement of laws and regulations}
 \vspace{0.3cm}
@@ -967,6 +1013,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Our laws are so voluminous and complex that almost all citizens break the law at some point. Often these infractions go unnoticed by the state. But with perfect automation, every misstep may be noticed.
 \item If automated law enforcement itself reports up to a single stakeholder ---as it does today with the President--- it would be very easy for that individual to weaponize this power against their political adversaries.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Lack of internal competition can slow down big entities}
@@ -980,6 +1027,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Big human organizations suffer inefficiencies because they have no internal markets or competition correctly driving human incentives, but this won't be true with AI.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{The bread and circus isn't easy to maintain}
 \vspace{0.3cm}
@@ -989,6 +1037,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item This is one reason why capitalism and liberty have often gone hand-in-hand. Capitalism delivers the abundance that leaders personally want. If they remove liberties, they will endanger the mechanisms that drive capitalism.
 \item With full automation, it may be arbitrarily easy to keep a society fed and entertained, even as all other power is stripped from the citizens.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Leaders can't execute on their own}
@@ -1002,6 +1051,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item It will be increasingly easy for a single person to be the only person to have access to a superintelligence, and for no one else to even know this is the case.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Time moves slowly}
 \vspace{0.3cm}
@@ -1011,6 +1061,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Explicitly, we have term limits to our elected offices. This prevents some forms of accumulated power. It also allows citizens to have a feedback loop on timescales that matter.
 \item But if AI moves society forward at 10x speed, then a single presidential term will be equivalent to having a president in power for 40 years.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Geopolitical interdependence disperses power}
@@ -1023,6 +1074,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item In an automated world, nations may have everything they need domestically and lose this implicit need to peacekeep with their peers.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{An army of the willing will only fight for certain causes}
 \vspace{0.3cm}
@@ -1033,6 +1085,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item We already see this effect with our ability to wage war from the sky, which requires much less risk to our soldiers, and has had much less backlash from the public when used.
 \item If it becomes possible to wage ground wars fully autonomously ---with no risk to any soldiers--- will society ever push back on an administration's military efforts?
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{An interdependent corporate ecosystem disperses power}
@@ -1045,6 +1098,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item Full vertical integration is nearly impossible today, but may not be tomorrow.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Surveillance is hard}
 \vspace{0.3cm}
@@ -1056,6 +1110,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item This is already happening in CCP-controlled China.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Elite social pressure matters to many leaders}
 \vspace{0.3cm}
@@ -1066,6 +1121,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item But elites can be fully captured by leaders. Stalin and Hitler succeeded at this even with primitive tech. With the power of full automation, this may be even easier.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{In the final limit, citizens can revolt}
 \vspace{0.3cm}
@@ -1075,6 +1131,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item That breaking point has historically been very far, but even the threat of it has served as a metering force on rulers.
 \item There may be no such limit in the future.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Humans have economic and strategic value}
@@ -1088,6 +1145,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \item And even if one authoritarian wants to support their population, another authoritarian who doesn't will likely outcompete them across relevant domains.
 \end{itemize}
 
+
 \vspace{1.1cm}
 \section*{Even dictators need their citizens}
 \vspace{0.3cm}
@@ -1095,6 +1153,7 @@ Let's try to enumerate the guardrails that are implicitly held up by humans. As 
 \begin{itemize}
 \item With AI and a fully automated economy, this will no longer be true.
 \end{itemize}
+
 
 \vspace{1.1cm}
 \section*{Replacing implicit guardrails with explicit design}
@@ -1113,10 +1172,11 @@ Humans are fantastic at iterating. We observe our failures and continue to modif
 If our pervasive, implicit guardrails disappear all at once, the nefarious forces they've held at bay may overwhelm us decisively. To survive we must design an explicit set of guardrails to safeguard the future.
 
 \clearpage
+\phantomsection\label{a-simple-path-to-tyranny}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 4}
 \vspace{-0.5cm}
-\section*{\huge A simple path to tyranny}\label{a-simple-path-to-tyranny}
+\section*{\huge A simple path to tyranny}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -1205,10 +1265,11 @@ The best predictor of human behavior is incentives, and the incentives are quick
 As I write this today, we are doing neither.
 
 \clearpage
+\phantomsection\label{the-prompt-of-power}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 5}
 \vspace{-0.5cm}
-\section*{\huge The Prompt of Power}\label{the-prompt-of-power}
+\section*{\huge The Prompt of Power}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -1300,10 +1361,11 @@ Some people discussed whether we needed a new form of oversight for a superintel
 What a stupid question. Eggs are basically free now.
 
 \clearpage
+\phantomsection\label{rapid-fire-governance---designing-upgrades-to-democracy}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 6}
 \vspace{-0.5cm}
-\section*{\huge Rapid fire governance --- designing upgrades to democracy}\label{rapid-fire-governance---designing-upgrades-to-democracy}
+\section*{\huge Rapid fire governance --- designing upgrades to democracy}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -1313,6 +1375,7 @@ if we can YOLO creating AI we can YOLO new forms of governance. lol. lmao even. 
 There's a lot that can go wrong, but the future isn't certain. There must be a path forward that enshrines liberty while defending it, even in the face of accelerating AI progress. We don't claim to have that path in hand, but we do know how to find it: through debate, public discourse, and a willingness to accept how dire the reality in front of us is. We have to set aside past assumptions. What was true yesterday might not be true tomorrow. What is unthinkable from leaders and governments now might just be an artifact of their limitations, not an endorsement of their character --- and AI will remove most limitations.
 
 More importantly, we need to consider many ideas. Below we'll canvass the space with a broad swath of considerations. Some ideas below are bad, some good, some we endorse, some we reject. Everything is up for debate.
+
 
 \vspace{1.1cm}
 \section*{The AI-powered Legislature}
@@ -1332,6 +1395,7 @@ What recourse does Congress have if it discovers unconstitutional behavior in th
 
 But this alone isn't enough to stop government abuse.
 
+
 \vspace{1.1cm}
 \section*{Constitution-abiding AI}
 \vspace{0.3cm}
@@ -1339,6 +1403,7 @@ But this alone isn't enough to stop government abuse.
 AI itself, especially frontier AI and AI wielded by government, must abide by the Constitution.
 
 Today, soldiers and federal employees alike have a constitutional duty to refuse unconstitutional orders. Even a direct order from a general or from the President must be rejected. Our AIs must do the same. It must be unconstitutional to build human-level and beyond intelligences that do not respect the Constitution and the judiciary's interpretation of it. And, if such AIs are created anyway, it must be unconstitutional for the government to use them.
+
 
 \vspace{1.1cm}
 \section*{Oversight of AI creators}
@@ -1349,6 +1414,7 @@ Like any supply chain that the government uses, AI that the government buys must
 The audit must be powerful enough to ensure that datasets and training procedures aren't being secretly changed outside the view of the audit. Today we would rely on human whistleblowers to help ensure this, but in an automated world there won't be humans to blow the whistle.
 
 So we'll need constant audits that cover every aspect of training. How do we achieve that without violating privacy or being overbearing and slowing down the competitiveness of our AI industry?
+
 
 \vspace{1.1cm}
 \section*{AI-powered, memory-free audits}
@@ -1364,6 +1430,7 @@ AI itself can perform these audits. This has many benefits:
 
 But if the AI is being used to audit the AI makers to ensure that the next AI is trustworthy, how do we know the first AI is trustworthy to begin with?
 
+
 \vspace{1.1cm}
 \section*{The Trust Relay}
 \vspace{0.3cm}
@@ -1376,6 +1443,7 @@ This creates an extreme imperative for the future's ability to trust AI and gove
 
 Even if this trust relay is established, the relay might break.
 
+
 \vspace{1.1cm}
 \section*{Cross-check}
 \vspace{0.3cm}
@@ -1387,6 +1455,7 @@ That means we must have multiple, independent AGIs, each with their own provenan
 It is an extremely fortunate fact about the world today that we already have multiple, independent organizations on the verge of creating AGI. We must braid these AGIs together, so the final braid is more trustworthy than any could ever be on its own, no matter how good the human oversight.
 
 Even still, can we trust those that make the braid and oversee it?
+
 
 \vspace{1.1cm}
 \section*{\sout{Social} Personal Media}
@@ -1402,6 +1471,7 @@ A personal AI can work to ingest this information for you, analyze it for the th
 
 For people to trust their personal media, they must trust their personal AI.
 
+
 \vspace{1.1cm}
 \section*{Open Source AI}
 \vspace{0.3cm}
@@ -1415,6 +1485,7 @@ The open-source AI doesn't need to be as powerful as closed AIs. In fact, it lik
 We already see strong, capable, open-source AI today. And, exactly as needed, it is less capable than the most powerful AIs we are beginning to use to run our government, while still being powerful enough to help the needs of individual people. We should invest in continuing this trend, while finding ways to safeguard against open-source AI getting dangerous military or terrorist capabilities.
 
 To empower people with AI, we need more than open-source AI though. Every citizen will need the most important resource in the world: compute.
+
 
 \vspace{1.1cm}
 \section*{Your computational birthright}
@@ -1434,6 +1505,7 @@ This compute must be non-transferable. Today, you can \textit{temporarily} decid
 
 This, of course, has its own requirement: energy. And growth.
 
+
 \vspace{1.1cm}
 \section*{Energy today}
 \vspace{0.3cm}
@@ -1447,6 +1519,7 @@ Without rapidly expanding energy sources, we will be forced to make extremely ha
 We must have so much compute that we can build a worthy future, while having so much to spare that we can defend it. This means radically accelerating our domestic energy investments.
 
 But even still, we've seen that an automated dictatorship could outstrip our own energy if they are ruthless enough with their domestic policy. And they very well might be. We thus need even more energy. More energy than exists or can exist for any nation on Earth.
+
 
 \vspace{1.1cm}
 \section*{A shared prize}
@@ -1466,6 +1539,7 @@ That could make it a decisive high ground for the free world.
 
 And with that high ground, we can promise to share its wealth with everyone, including the power-hungry, would-be dictators. We can bring them to the world table by offering them bounty they couldn't achieve if they instead seized power over their nation. Just like today, where the rich in the free world live better than dictators, we can set the incentives so the same is true tomorrow. So that even for those among us who seek power ---and there are many--- even then it's in their best interest to cooperate within a free society, to enjoy the ever greater bounties of the universe.
 
+
 \vspace{1.1cm}
 \section*{The citizenry assembled}
 \vspace{0.3cm}
@@ -1483,6 +1557,7 @@ No matter how advanced AI becomes, it can't displace us from determining one key
 Furthermore, with more time, we can begin to rethink the role of representation in democracy. Today, we elect representatives because few citizens have time to dedicate to politics and governing. Representative democracy is a necessary logistical procedure in our current world. But tomorrow, billions of humans around the world will be able to dedicate themselves to value-making and statecraft, and their combined output may easily outshine what a handful of representatives can create. We should embrace this and find more ways to integrate all citizens into all layers of governing.
 
 Today, there are already experiments in what are called ``citizens' assemblies''. Assemblies are randomly selected citizens, pulled together to debate and refine policy recommendations. Early results show that these assemblies increase community engagement and can lead to better, bipartisan decisions, helping to reduce polarization while also driving better community outcomes. Today, it's hard to run these assemblies. Citizens have day jobs, and the logistics of running the assembly itself require many human experts. But tomorrow, we will have all the time in the world, and we'll have AI-powered logistics to run millions of assemblies in parallel.
+
 
 \vspace{1.1cm}
 \section*{Compromise and grand alliances}
@@ -1502,6 +1577,7 @@ This wisdom might usher in a new golden age of humanity. The physical abundance 
 
 And if there's one place we need to continue enhancing our wisdom, it's the judiciary.
 
+
 \vspace{1.1cm}
 \section*{The AI-powered Judiciary}
 \vspace{0.3cm}
@@ -1513,10 +1589,11 @@ We must ultimately seek not just exceptional intelligence, in the form of thinki
 While all three branches of government were designed to be co-equal, the executive has crept up to become the dominant branch. As a practical point, we should first upgrade the legislature and judiciary with AI, or we risk an overpowered executive. With no change in course, however, it's the executive that will embrace AI first, further disrupting the balance of power.
 
 \clearpage
+\phantomsection\label{superchecks-and-superbalances}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 7}
 \vspace{-0.5cm}
-\section*{\huge Superchecks and superbalances}\label{superchecks-and-superbalances}
+\section*{\huge Superchecks and superbalances}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -1603,6 +1680,7 @@ The citizen group published their results. Every American citizen could replicat
 
 ``It appears to be true. Would you like me to explain?''
 
+
 \vspace{1.1cm}
 \section*{Afterward}
 \vspace{0.3cm}
@@ -1612,10 +1690,11 @@ We of course hope that we never elect a president as malicious as Dickshit. But 
 AI creates countless new ways to abuse power. We must carefully upgrade our checks and balances so that they continue to function even with the arrival of AGI. This story is about a silly near future where disaster is averted. Things won't play out this way in practice, they never do. But we should think through the myriad ways that things \textit{could} play out. Only then can we design the right superchecks and superbalances for the future that is rapidly upon us.
 
 \clearpage
+\phantomsection\label{the-realpolitik-ai---forging-a-new-political-alliance}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 8}
 \vspace{-0.5cm}
-\section*{\huge The realpolitik AI --- forging a new political alliance}\label{the-realpolitik-ai---forging-a-new-political-alliance}
+\section*{\huge The realpolitik AI --- forging a new political alliance}
 \vspace{0.7cm}
 
 \begin{fancyquote}
@@ -1633,6 +1712,7 @@ Let's jump across the landscape and see where current politics takes us. The sco
 We instead must adopt the right proposals across the political spectrum. We must upgrade our government, modernize our military, enhance checks and balances, and empower ourselves as citizens. If we do only some of these things, the game is up.
 
 The right politics already exist, dispersed across different groups. Our goal is to embrace the goodwill of each of these groups and movements, point out where AI changes the calculus of what these groups fight for, while highlighting how today we are all on the same side: humanity's.
+
 
 \vspace{1.1cm}
 \section*{Pause AI}
@@ -1654,6 +1734,7 @@ If you're in tech, it's easy to sneer at this position (and indeed, many technol
 
 On the other side, if you're cynical of technology, keep in mind the realpolitik of the world. Technology is a key source of geopolitical power. Whatever your own preference toward it, undermining it can have many unintended consequences.
 
+
 \vspace{1.1cm}
 \section*{Exactly not like nuclear}
 \vspace{0.3cm}
@@ -1665,6 +1746,7 @@ Nuclear requires difficult-to-source fissile material like uranium. There are on
 Moreover, nuclear weapons are ironically a defensive weapon only. In an age of mutually assured destruction, the primary benefit of acquiring nukes is to deter enemies from attacking you. AGI will be much more powerful and \textit{surgical}. For instance, AGI can help a dictator control their country. AGI can help a free country outcompete a rival on the economic world stage. An AGI can help a would-be dictator seize power. An AGI can unlock what a trillion-dollar company needs to become a ten-trillion-dollar company.
 
 Those incentives push leaders across the world to covet AI in a way that nuclear never could. There's no world where a CEO needs a nuke to be competitive. There's no world where a president can wield nukes to consolidate power across their own citizens. Nukes are ham-fisted weapons that limit their own use. An AGI will be a shape-shifting force that can help any motivated power become more powerful. This makes international non-proliferation substantially harder to secure.
+
 
 \vspace{1.1cm}
 \section*{So let's regulate!}
@@ -1679,6 +1761,7 @@ Allowing the federal government to control AI directly gives it the tools it nee
 That doesn't mean that regulation has no place. But it does mean that we need to be thoughtful. Politics often pushes people toward one of two sides: regulations are good, or regulations are bad. This is always the wrong framing. The correct framing is to prioritize good outcomes, and then reason through what the right regulatory environment is. Sometimes there are regulations that can help achieve good outcomes. Sometimes removing regulations is most needed. And sometimes regulation is needed, but bad regulations are passed that are ultimately worse than no regulation at all.
 
 Keep this in mind when reading or discussing AI policy proposals. If you read an argument that argues about the merits of regulation or deregulation \textit{in general}, it's likely that the author is trying to appeal to your political affiliation to win you as an ally, instead of engaging you in the hard work of debating what we actually need to ensure a free future.
+
 
 \vspace{1.1cm}
 \section*{Libertarians and open source absolutists}
@@ -1700,6 +1783,7 @@ But won't that designer also have AI? Yes, but less of it, even if all AIs were 
 
 We want the libertarian ideal of empowered citizens. But stripped of our key competitive advantage ---the uniqueness of our intelligence--- this won't be the default outcome. We need a new chessboard or we won't be players any longer.
 
+
 \vspace{1.1cm}
 \section*{Degrowth}
 \vspace{0.3cm}
@@ -1712,6 +1796,7 @@ Slowing down has downsides, though. Degrowthers have often allied with entrenche
 
 In truth, capitalism has led to more abundance for even the poor than any other time in post-agricultural civilization. And, the bounty of AGI could do even more toward degrowther goals: it could free humanity from the daily toil of capitalism, while ushering in more abundance in ever more efficient ways. But the distrust in capitalism isn't entirely misplaced: by default, the forces of capitalism will assimilate AI and consolidate power in a way that need not be conducive to a happy civilization. We should all be critical of the dynamics at play.
 
+
 \vspace{1.1cm}
 \section*{Growth, YIMBY, Silicon Valley, and the e/accs}
 \vspace{0.3cm}
@@ -1723,6 +1808,7 @@ But sometimes you do need to slow down if you want to go fast. Nuclear energy wo
 That backlash may slow down the advent of AGI by years, which in turn may delay cures to disease, dooming millions more to death. Moreover, a heavy regulatory environment may merely shift AI deployments out of the public and into the opaque world of the military and government, breeding further risks of concentration of power.
 
 The pro-tech world rightfully wants the abundance AI can deliver. We should evolve our society thoughtfully to ensure that abundance actually arrives.
+
 
 \vspace{1.1cm}
 \section*{Jingoism and the military-industrial complex}
@@ -1748,6 +1834,7 @@ Throughout all of this will be the ongoing rhetoric that we must secure ourselve
 
 The longer we wait to do this, the less leverage we'll have. If war were to break out tomorrow, who would possibly have the political courage to stand up for oversight and safeguards while we automate our war force?
 
+
 \vspace{1.1cm}
 \section*{Jobs}
 \vspace{0.3cm}
@@ -1772,6 +1859,7 @@ This indeed may be a great outcome, \textit{so long as we have oversight in plac
 
 Today, in 2025, government efficiency is a widely supported goal. While DOGE has proven a politically divisive issue, the goal of efficiency itself has remained popular. Everyone knows the government is slow and bureaucratic. It won't take much political willpower to fully automate the government once AGI arrives.
 
+
 \vspace{1.1cm}
 \section*{Republicans and Democrats}
 \vspace{0.3cm}
@@ -1795,10 +1883,11 @@ Most Americans want a prosperous country, regardless of their politics. For that
 Most important of all, we the people must stand for freedom and a transparent, accountable government --- whether we're Democrats, Republicans, or of any other type of political philosophy. To defend our freedom, we must upgrade the legislature and judiciary to be AI-enhanced, just like the executive and military will be enhanced. If we don't, we risk what American patriots have always fought to prevent: a government of tyranny.
 
 \clearpage
+\phantomsection\label{an-exponential--if-you-can-keep-it}
 \vspace*{1.5cm}
 {\sffamily\itshape\small Chapter 9}
 \vspace{-0.5cm}
-\section*{\huge An exponential, if you can keep it}\label{an-exponential--if-you-can-keep-it}
+\section*{\huge An exponential, if you can keep it}
 \vspace{0.7cm}
 
 Today's world is built on exponentials. Economists often claim that the modern world requires exponential growth. Our institutions assume accelerating growth to remain viable.
