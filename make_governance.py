@@ -479,7 +479,7 @@ def create_merged_version(processed_versions, local_only=False):
             display: block;
         }
         
-        @media (prefers-color-scheme: dark) {
+        /* @media (prefers-color-scheme: dark) { */
             .version-selector {
                 background-color: #2a2a2a;
                 border-left-color: #5abbff;
@@ -500,7 +500,7 @@ def create_merged_version(processed_versions, local_only=False):
                 background-color: #1e3a50;
                 border-color: #5abbff;
             }
-        }
+        /* } */
     '''
     
     # Create version content divs and prefix all anchor IDs with version name
