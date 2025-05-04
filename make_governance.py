@@ -194,9 +194,10 @@ def create_merged_version(processed_versions, local_only=False):
     
     # Create the version selector HTML
     version_selector_html = '''
-    <div class="version-selector">
-        <h2>Choose your own adventure</h2>
-        <div class="version-options">
+    <div class="version-selector-container">
+        <div class="version-selector">
+            <h2>Choose your own adventure</h2>
+            <div class="version-options">
     '''
     
     # Add version buttons
@@ -211,6 +212,7 @@ def create_merged_version(processed_versions, local_only=False):
             version_selector_html += f'<button class="version-button {is_active}" data-version="{button_id}">{user_choice}</button>\n'
     
     version_selector_html += '''
+            </div>
         </div>
     </div>
     '''
@@ -269,8 +271,14 @@ def create_merged_version(processed_versions, local_only=False):
                                 const firstHeader = firstTitleHeader || content.querySelector('h1');
                                 
                                 if (firstHeader) {
-                                    // Scroll the header to the top of the viewport
-                                    firstHeader.scrollIntoView({ behavior: 'smooth' });
+                                    // Scroll to position one header height above the header
+                                    const headerRect = firstHeader.getBoundingClientRect();
+                                    const scrollOffset = headerRect.height; // use 100% of the header's height as offset
+                                    const scrollPosition = window.pageYOffset + headerRect.top - scrollOffset;
+                                    window.scrollTo({
+                                        top: scrollPosition,
+                                        behavior: 'smooth'
+                                    });
                                 } else {
                                     // If no h1 found, scroll to the top of the content
                                     content.scrollIntoView({ behavior: 'smooth' });
@@ -408,16 +416,20 @@ def create_merged_version(processed_versions, local_only=False):
     # Create CSS for version selector
     version_css = '''
         /* Make the header container take up the full viewport height */
-        .header-container {
+        .above-the-folder {
             min-height: 100vh !important; /* Ensure header fills entire viewport height */
             margin-bottom: 0 !important; /* Remove default margin */
         }
 
         /* Version selector styling */
+        .version-selector-container {
+            min-height: 70vh;
+        }
+
         .version-selector {
             margin: 2rem 0;
             padding: 1.5rem;
-            margin-bottom: 50vh;
+            margin-top: 0vh;
             background-color: #f8f8f8;
             border-left: 4px solid #0066cc;
             border-radius: 4px;
