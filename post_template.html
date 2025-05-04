@@ -376,6 +376,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .hamburger-container.visible {
+            opacity: 1;
+            visibility: visible;
         }
         
         .hamburger-button {
@@ -760,6 +768,77 @@ POST
     (function() {
         // Function to add header links and generate table of contents
         function initPage() {
+            // Function to control hamburger visibility based on scroll position
+            function updateHamburgerVisibility() {
+                const hamburgerContainer = document.querySelector('.hamburger-container');
+                const versionSelector = document.querySelector('.version-selector');
+                
+                if (hamburgerContainer) {
+                    if (versionSelector) {
+                        // Version selector exists, show hamburger only when scrolled past it
+                        const versionSelectorRect = versionSelector.getBoundingClientRect();
+                        const versionSelectorBottom = versionSelectorRect.bottom;
+                        
+                        if (versionSelectorBottom < 0) {
+                            hamburgerContainer.classList.add('visible');
+                        } else {
+                            hamburgerContainer.classList.remove('visible');
+                        }
+                    } else {
+                        // No version selector - use first heading in the story as reference
+                        const storyDiv = document.getElementById('story');
+                        if (storyDiv) {
+                            const firstHeading = storyDiv.querySelector('h1, h2');
+                            if (firstHeading) {
+                                const headingRect = firstHeading.getBoundingClientRect();
+                                const headingTop = headingRect.top;
+                                
+                                if (headingTop < 0) {
+                                    hamburgerContainer.classList.add('visible');
+                                } else {
+                                    hamburgerContainer.classList.remove('visible');
+                                }
+                            } else {
+                                // No headings found, show after scrolling down a bit
+                                if (window.scrollY > 300) {
+                                    hamburgerContainer.classList.add('visible');
+                                } else {
+                                    hamburgerContainer.classList.remove('visible');
+                                }
+                            }
+                        } else {
+                            // Fallback - show after scrolling down a bit
+                            if (window.scrollY > 300) {
+                                hamburgerContainer.classList.add('visible');
+                            } else {
+                                hamburgerContainer.classList.remove('visible');
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Throttle function to improve scroll performance
+            function throttle(func, limit) {
+                let inThrottle;
+                return function() {
+                    const args = arguments;
+                    const context = this;
+                    if (!inThrottle) {
+                        func.apply(context, args);
+                        inThrottle = true;
+                        setTimeout(() => inThrottle = false, limit);
+                    }
+                };
+            }
+            
+            // Add scroll event listener with throttling (run max once every 100ms)
+            window.addEventListener('scroll', throttle(updateHamburgerVisibility, 100));
+            
+            // Run once on page load and after a delay to allow content to settle
+            updateHamburgerVisibility();
+            setTimeout(updateHamburgerVisibility, 500);
+            
             // Add anchor links to all headers
             function generateTableOfContents() {
                 const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
