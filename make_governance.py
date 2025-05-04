@@ -220,13 +220,31 @@ def create_merged_version(processed_versions, local_only=False):
     <script>
         // Execute immediately instead of waiting for DOMContentLoaded
         (function() {
+            // Modify scrollTargetY to scroll to version-selector
+            document.addEventListener('DOMContentLoaded', function() {
+                // Wait half a second.
+                setTimeout(() => {
+                    const chevronDown = document.querySelector('.chevron-down-container');
+                    if (chevronDown && window.scrollTargetY !== undefined) {
+                        // Get position of the chevron-down div.
+                        const rect = chevronDown.getBoundingClientRect();
+                        const targetY = window.pageYOffset + rect.top;
+                        
+                        // Update scrollTargetY to just enough to move the chevron-down div
+                        // to the very top of the screen.
+                        window.scrollTargetY = targetY - (window.innerHeight * 0.01);
+                        console.log("Updated scrollTargetY to:", window.scrollTargetY);
+                    }
+                }, 500);
+            });
+        
             // Version switching logic
             function setupVersionSelector() {
                 const versionButtons = document.querySelectorAll('.version-button');
                 const versionContents = document.querySelectorAll('.version-content');
                 let currentVersion = '';
                 
-                function switchToVersion(version) {
+                function switchToVersion(version, shouldScroll = false) {
                     // Deactivate all buttons and contents
                     versionButtons.forEach(btn => btn.classList.remove('active'));
                     versionContents.forEach(content => content.classList.remove('active'));
@@ -240,6 +258,25 @@ def create_merged_version(processed_versions, local_only=False):
                     const content = document.getElementById(version);
                     if (content) {
                         content.classList.add('active');
+                        
+                        // Only scroll if explicitly requested (from button click)
+                        if (shouldScroll) {
+                            // Scroll to the first title header in the activated version content
+                            setTimeout(() => {
+                                // Find the first h1 with the title-header class
+                                const firstTitleHeader = content.querySelector('h1.title-header');
+                                // If title-header not found, try to find the first h1 element
+                                const firstHeader = firstTitleHeader || content.querySelector('h1');
+                                
+                                if (firstHeader) {
+                                    // Scroll the header to the top of the viewport
+                                    firstHeader.scrollIntoView({ behavior: 'smooth' });
+                                } else {
+                                    // If no h1 found, scroll to the top of the content
+                                    content.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }, 50); // Small delay to ensure content is visible
+                        }
                     }
                     
                     // Save preference to localStorage
@@ -257,7 +294,11 @@ def create_merged_version(processed_versions, local_only=False):
                             history.pushState("", document.title, window.location.pathname + window.location.search);
                         }
                         const version = this.getAttribute('data-version');
-                        switchToVersion(version);
+                        // Pass true to indicate we should scroll to the header
+                        switchToVersion(version, true);
+                        
+                        // Prevent default scrolling behavior that might interfere with our custom scrolling
+                        return false;
                     });
                 });
                 
@@ -276,7 +317,7 @@ def create_merged_version(processed_versions, local_only=False):
                             // Switch to that version if needed
                             if (versionFromAnchor !== currentVersion && 
                                 document.querySelector(`.version-button[data-version="${versionFromAnchor}"]`)) {
-                                switchToVersion(versionFromAnchor);
+                                switchToVersion(versionFromAnchor, false);
                             }
                             
                             // Scroll to the element
@@ -338,13 +379,17 @@ def create_merged_version(processed_versions, local_only=False):
                 
                 // Check if there's a saved preference
                 const savedVersion = localStorage.getItem('preferred_version');
-                if (savedVersion) {
-                    switchToVersion(savedVersion);
-                } else {
-                    // Default to first version if no preference saved
-                    const defaultVersion = versionButtons[0].getAttribute('data-version');
-                    switchToVersion(defaultVersion);
-                }
+                
+                // Use setTimeout to ensure DOM is fully loaded
+                setTimeout(() => {
+                    if (savedVersion) {
+                        switchToVersion(savedVersion, false);
+                    } else {
+                        // Default to first version if no preference saved
+                        const defaultVersion = versionButtons[0].getAttribute('data-version');
+                        switchToVersion(defaultVersion, false);
+                    }
+                }, 100);
                 
                 // Run once on initial load
                 setTimeout(updateAnchorsInContent, 200);
@@ -362,10 +407,17 @@ def create_merged_version(processed_versions, local_only=False):
     
     # Create CSS for version selector
     version_css = '''
+        /* We want all the content to be below the fold. */
+        .container {
+            position: absolute;
+            top: 100vh;
+        }
+
         /* Version selector styling */
         .version-selector {
             margin: 2rem 0;
             padding: 1.5rem;
+            margin-bottom: 50vh;
             background-color: #f8f8f8;
             border-left: 4px solid #0066cc;
             border-radius: 4px;
