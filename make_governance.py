@@ -84,14 +84,13 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
             description_paragraphs = "".join([f"<p>{p}</p>" for p in paragraphs if p.strip()])
             description_html = f'<div class="description-block">{description_paragraphs}</div>'
             
-            # Find the first heading and place the description after it
+            # Find the first heading and place the description right before it.
             content_soup = BeautifulSoup(html_content, 'html.parser')
             first_heading = content_soup.find(['h1', 'h2', 'h3'])
             
             if first_heading:
-                # Insert the description block after the first heading
                 description_div = BeautifulSoup(description_html, 'html.parser')
-                first_heading.insert_after(description_div)
+                first_heading.insert_before(description_div)
                 # Update the HTML content
                 html_content = str(content_soup)
                 # Clear the description_html so it's not added twice
@@ -101,13 +100,25 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
         pdf_download_html = f'''
 <div class="pdf-download">
     <a href="/{book_version.uri}.pdf" target="_blank" download>
-        <span class="download-icon">📄</span> Download PDF version
+        <!-- <span class="download-icon">📄</span> Download PDF version -->
+        Download PDF version
     </a>
 </div>'''
-        
-        # Add pdf_download_html to the HTML content right after the first h1 header
+
+        # Delete the first h1 title-header if it exists.
+        # This is "Liberty by Design", but we already have a top title.
         soup = BeautifulSoup(html_content, 'html.parser')
-        first_h1 = soup.find('div')
+        title_header = soup.find('h1', class_='title-header')
+        if title_header:
+            title_header.decompose()  # Remove the first h1 title-header
+            # Update the HTML content
+            html_content = str(soup)
+        else:
+            print(f"Could not find title-header in {book_version.uri}.html to remove")
+
+        # Add pdf_download_html to the HTML content right after the first h1 title-header
+        soup = BeautifulSoup(html_content, 'html.parser')
+        first_h1 = soup.find('h1', class_='title-header')
         if first_h1:
             pdf_div = BeautifulSoup(pdf_download_html, 'html.parser')
             first_h1.insert_after(pdf_div)
@@ -273,7 +284,7 @@ def create_merged_version(processed_versions, local_only=False):
                                 if (firstHeader) {
                                     // Scroll to position one header height above the header
                                     const headerRect = firstHeader.getBoundingClientRect();
-                                    const scrollOffset = headerRect.height; // use 100% of the header's height as offset
+                                    const scrollOffset = 0.2 * headerRect.height; // use 20% of the header's height as offset
                                     const scrollPosition = window.pageYOffset + headerRect.top - scrollOffset;
                                     window.scrollTo({
                                         top: scrollPosition,
@@ -423,7 +434,7 @@ def create_merged_version(processed_versions, local_only=False):
 
         /* Version selector styling */
         .version-selector-container {
-            min-height: 70vh;
+            margin-bottom: 2rem;
         }
 
         .version-selector {

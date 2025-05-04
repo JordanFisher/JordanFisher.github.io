@@ -656,11 +656,12 @@
         /* PDF download link styling */
         .pdf-download {
             margin: 2rem 0;
-            padding: 1rem 1.5rem;
-            background-color: #f8f8f8;
+            padding: .2rem 1.5rem;
+            /* background-color: #f8f8f8; */
+            background-color: var(--bkg-color);
             border-left: 4px solid #0066cc;
             border-radius: 4px;
-            text-align: center;
+            /* text-align: center; */
             transition: all 0.2s ease;
         }
         
@@ -679,7 +680,7 @@
         }
         
         .download-icon {
-            font-size: 3.2rem;
+            font-size: 2.2rem;
             margin-right: 8px;
             vertical-align: middle;
         }
@@ -692,7 +693,8 @@
         
         /* @media (prefers-color-scheme: dark) { */
             .pdf-download {
-                background-color: #2a2a2a;
+                /* background-color: #2a2a2a; */
+                background-color: var(--bkg-color);
                 border-left-color: #5abbff;
             }
             
@@ -755,6 +757,16 @@
                 const scrollTarget = window.pageYOffset + pixelsOutOfView + safetyBuffer;
                 console.log('Chevron pixels out of view:', pixelsOutOfView);
                 console.log('Scrolling to:', scrollTarget);
+
+                // If we have to scroll, it means the chevron is below the fold.
+                // So we probably want to shift down the version-selector-container too by the same amount.
+                // We'll do this by increasing the margin-top of that container.
+                const versionSelectorContainer = document.querySelector('.version-selector-container');
+                if (versionSelectorContainer) {
+                    const currentMarginTop = parseInt(getComputedStyle(versionSelectorContainer).marginTop, 10);
+                    versionSelectorContainer.style.marginTop = (currentMarginTop + pixelsOutOfView + safetyBuffer) + 'px';
+                }
+
                 window.scrollTo({
                     top: scrollTarget,
                     behavior: 'smooth'
