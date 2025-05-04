@@ -614,18 +614,24 @@
             const headerOverlay = document.querySelector('.header-overlay');
             const storyContent = document.querySelector('.description-block');
 
-            // Immediately scroll to show the chevron if isn't fully in view.
+            // Immediately scroll to show the chevron if it isn't fully in view.
             const chevronDown = document.querySelector('.chevron-down-container');
             const chevronRect = chevronDown.getBoundingClientRect();
             const chevronTop = window.pageYOffset + chevronRect.top;
             const chevronHeight = chevronRect.height;
             const chevronBottom = chevronTop + chevronHeight;
             const windowHeight = window.innerHeight;
-            const scrollOffset = 0.4 * windowHeight; // Adjust this value as needed
-            const scrollTarget = chevronBottom - scrollOffset;
-            console.log('Chevron top:', chevronBottom);
-            console.log('Window height:', windowHeight);
-            if (chevronBottom > windowHeight) {
+            
+            // Calculate how much of the chevron is out of view
+            const pixelsOutOfView = Math.max(0, chevronBottom - windowHeight);
+            
+            // Add a small buffer (50px) to ensure it's visible on iPhones where the bottom may be cutoff
+            const safetyBuffer = 50;
+            
+            // Scroll just enough to bring the chevron into view with the safety buffer
+            if (pixelsOutOfView > 0) {
+                const scrollTarget = window.pageYOffset + pixelsOutOfView + safetyBuffer;
+                console.log('Chevron pixels out of view:', pixelsOutOfView);
                 console.log('Scrolling to:', scrollTarget);
                 window.scrollTo({
                     top: scrollTarget,
