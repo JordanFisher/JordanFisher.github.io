@@ -656,11 +656,12 @@
         /* PDF download link styling */
         .pdf-download {
             margin: 2rem 0;
-            padding: 1rem 1.5rem;
-            background-color: #f8f8f8;
+            padding: .2rem 1.5rem;
+            /* background-color: #f8f8f8; */
+            background-color: var(--bkg-color);
             border-left: 4px solid #0066cc;
             border-radius: 4px;
-            text-align: center;
+            /* text-align: center; */
             transition: all 0.2s ease;
         }
         
@@ -679,7 +680,7 @@
         }
         
         .download-icon {
-            font-size: 3.2rem;
+            font-size: 2.2rem;
             margin-right: 8px;
             vertical-align: middle;
         }
@@ -692,7 +693,8 @@
         
         /* @media (prefers-color-scheme: dark) { */
             .pdf-download {
-                background-color: #2a2a2a;
+                /* background-color: #2a2a2a; */
+                background-color: var(--bkg-color);
                 border-left-color: #5abbff;
             }
             
@@ -755,6 +757,16 @@
                 const scrollTarget = window.pageYOffset + pixelsOutOfView + safetyBuffer;
                 console.log('Chevron pixels out of view:', pixelsOutOfView);
                 console.log('Scrolling to:', scrollTarget);
+
+                // If we have to scroll, it means the chevron is below the fold.
+                // So we probably want to shift down the version-selector-container too by the same amount.
+                // We'll do this by increasing the margin-top of that container.
+                const versionSelectorContainer = document.querySelector('.version-selector-container');
+                if (versionSelectorContainer) {
+                    const currentMarginTop = parseInt(getComputedStyle(versionSelectorContainer).marginTop, 10);
+                    versionSelectorContainer.style.marginTop = (currentMarginTop + pixelsOutOfView + safetyBuffer) + 'px';
+                }
+
                 window.scrollTo({
                     top: scrollTarget,
                     behavior: 'smooth'
@@ -791,15 +803,16 @@
     <div class="container">
         <div id="story">
 
-<h1 class="title-header">Liberty by Design</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
-<div class="pdf-download">
-<a download="" href="/liberty_by_design_agi_pilled_version.pdf" target="_blank">
-<span class="download-icon">📄</span> Download PDF version
-    </a>
-</div>
+<div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <br/>
 <br/>
 <h1 class="title-header">Welcome to the curve</h1>
+<div class="pdf-download">
+<a download="" href="/liberty_by_design_agi_pilled_version.pdf" target="_blank">
+<!-- <span class="download-icon">📄</span> Download PDF version -->
+        Download PDF version
+    </a>
+</div>
 <p>AI will soon disrupt every foundation our society is built upon. If we want to control our future, there are many questions to answer. In this work we’ll focus on how our human governance needs to adjust to a world fully powered by machines. But there are many other important questions we won’t address. Two of those questions are particularly important:</p>
 <p>Can we determine how to maintain control over AIs that are smarter than us? And can we ensure companies and nations build AI responsibly, so that only safe AIs are built?</p>
 <p>The first question is studied in the field of AI Alignment:</p>

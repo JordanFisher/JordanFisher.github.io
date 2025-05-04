@@ -1,14 +1,12 @@
-# Liberty by Design
-
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
-
-[ 📄 Download PDF version ](/liberty_by_design_agi_pilled_version.pdf)
 
   
   
 
 
 # Welcome to the curve
+
+[ Download PDF version ](/liberty_by_design_agi_pilled_version.pdf)
 
 AI will soon disrupt every foundation our society is built upon. If we want to control our future, there are many questions to answer. In this work we’ll focus on how our human governance needs to adjust to a world fully powered by machines. But there are many other important questions we won’t address. Two of those questions are particularly important:
 

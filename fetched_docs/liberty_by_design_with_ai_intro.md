@@ -1,13 +1,11 @@
-# Liberty by Design
-
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
-
-[ 📄 Download PDF version ](/liberty_by_design_with_ai_intro.pdf)
 
   
 
 
 # Apologia
+
+[ Download PDF version ](/liberty_by_design_with_ai_intro.pdf)
 
 **This is currently a draft. If you’re reading this, please reach out to**** _jordan.efisher@gmail.com_****if you have comments or suggestions\!**
 
