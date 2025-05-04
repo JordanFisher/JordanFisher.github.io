@@ -594,7 +594,7 @@
     <div class="above-the-folder">
         <div class="header-container">
             <div style="overflow-x: hidden; width: 100%;">
-                <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
+                <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image" width="100%" height="auto" style="aspect-ratio: 1123/692;">
             </div>
             <div class="header-gradient"></div>
             <div class="header-overlay" id="header-clickable">
@@ -613,6 +613,25 @@
             const headerContainer = document.querySelector('.header-container');
             const headerOverlay = document.querySelector('.header-overlay');
             const storyContent = document.querySelector('.description-block');
+
+            // Immediately scroll to show the chevron if isn't fully in view.
+            const chevronDown = document.querySelector('.chevron-down-container');
+            const chevronRect = chevronDown.getBoundingClientRect();
+            const chevronTop = window.pageYOffset + chevronRect.top;
+            const chevronHeight = chevronRect.height;
+            const chevronBottom = chevronTop + chevronHeight;
+            const windowHeight = window.innerHeight;
+            const scrollOffset = 0.4 * windowHeight; // Adjust this value as needed
+            const scrollTarget = chevronBottom - scrollOffset;
+            console.log('Chevron top:', chevronBottom);
+            console.log('Window height:', windowHeight);
+            if (chevronBottom > windowHeight) {
+                console.log('Scrolling to:', scrollTarget);
+                window.scrollTo({
+                    top: scrollTarget,
+                    behavior: 'smooth'
+                });
+            }
             
             // Scroll functionality
             if (storyContent) {
