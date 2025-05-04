@@ -761,90 +761,130 @@ POST
         // Function to add header links and generate table of contents
         function initPage() {
             // Add anchor links to all headers
-            const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-            const feedbackEl = document.getElementById('copy-feedback');
-            const tocContent = document.getElementById('toc-content');
+            function generateTableOfContents() {
+                const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                const feedbackEl = document.getElementById('copy-feedback');
+                const tocContent = document.getElementById('toc-content');
+                const tocToggle = document.getElementById('toc-toggle');
+                const floatingToc = document.getElementById('floating-toc');
+                
+                // Clear existing TOC content
+                if (tocContent) {
+                    tocContent.innerHTML = '';
+                }
+                
+                // Create TOC list
+                const tocList = document.createElement('ul');
+                
+                // Get only visible headers (for version-specific content)
+                let visibleHeaders = Array.from(headers).filter(header => {
+                    // Skip headers without ids or in the header overlay
+                    if (!header.id || header.closest('.header-overlay')) {
+                        return false;
+                    }
+                    
+                    // In version selectors, only include headers from active version
+                    const parentVersionContent = header.closest('.version-content');
+                    if (parentVersionContent) {
+                        return parentVersionContent.classList.contains('active');
+                    }
+                    
+                    // Include headers not in version content
+                    return true;
+                });
+                
+                visibleHeaders.forEach(function(header) {
+                    // Create link icon if not already present
+                    if (!header.querySelector('.header-link')) {
+                        const linkIcon = document.createElement('span');
+                        linkIcon.innerHTML = '🔗';
+                        linkIcon.classList.add('header-link');
+                        linkIcon.setAttribute('title', 'Copy link to this section');
+                        
+                        // Add link to header
+                        header.insertBefore(linkIcon, header.firstChild);
+                        
+                        // Add click handler for copying link
+                        header.addEventListener('click', function(e) {
+                            // Get URL with hash
+                            const url = window.location.href.split('#')[0] + '#' + header.id;
+                            
+                            // Create a temporary element for copying
+                            const tempInput = document.createElement('input');
+                            document.body.appendChild(tempInput);
+                            tempInput.value = url;
+                            tempInput.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(tempInput);
+                            
+                            // Show feedback
+                            feedbackEl.classList.add('show');
+                            
+                            // Remove after animation completes
+                            setTimeout(function() {
+                                feedbackEl.classList.remove('show');
+                            }, 1500);
+                        });
+                    }
+                    
+                    // Add to TOC
+                    const tocItem = document.createElement('li');
+                    const tocLink = document.createElement('a');
+                    tocLink.href = '#' + header.id;
+                    tocLink.textContent = header.textContent.replace('🔗', '').trim();
+                    
+                    // Indent based on header level
+                    const headerLevel = parseInt(header.tagName.charAt(1));
+                    tocItem.style.marginLeft = ((headerLevel - 1) * 15) + 'px';
+                    
+                    tocItem.appendChild(tocLink);
+                    tocList.appendChild(tocItem);
+                    
+                    // Add click handler for TOC links
+                    tocLink.addEventListener('click', function(e) {
+                        // Hide the TOC after clicking a link
+                        floatingToc.classList.remove('active');
+                    });
+                });
+                
+                // Add TOC to the page
+                if (tocList.children.length > 0) {
+                    tocContent.appendChild(tocList);
+                } else {
+                    tocContent.innerHTML = '<p>No headers found in this document.</p>';
+                }
+            }
+            
+            // Generate TOC initially
+            generateTableOfContents();
+            
             const tocToggle = document.getElementById('toc-toggle');
             const floatingToc = document.getElementById('floating-toc');
             
-            // Create TOC list
-            const tocList = document.createElement('ul');
-            
-            headers.forEach(function(header) {
-                // Skip headers without ids or in the header overlay
-                if (!header.id || header.closest('.header-overlay')) {
-                    return;
-                }
-                
-                // Create link icon
-                const linkIcon = document.createElement('span');
-                linkIcon.innerHTML = '🔗';
-                linkIcon.classList.add('header-link');
-                linkIcon.setAttribute('title', 'Copy link to this section');
-                
-                // Add link to header
-                header.insertBefore(linkIcon, header.firstChild);
-                
-                // Add click handler for copying link
-                header.addEventListener('click', function(e) {
-                    // Get URL with hash
-                    const url = window.location.href.split('#')[0] + '#' + header.id;
-                    
-                    // Create a temporary element for copying
-                    const tempInput = document.createElement('input');
-                    document.body.appendChild(tempInput);
-                    tempInput.value = url;
-                    tempInput.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(tempInput);
-                    
-                    // Show feedback
-                    feedbackEl.classList.add('show');
-                    
-                    // Remove after animation completes
-                    setTimeout(function() {
-                        feedbackEl.classList.remove('show');
-                    }, 1500);
+            if (tocToggle && floatingToc) {
+                // Toggle TOC visibility
+                tocToggle.addEventListener('click', function() {
+                    floatingToc.classList.toggle('active');
                 });
                 
-                // Add to TOC
-                const tocItem = document.createElement('li');
-                const tocLink = document.createElement('a');
-                tocLink.href = '#' + header.id;
-                tocLink.textContent = header.textContent.replace('🔗', '').trim();
-                
-                // Indent based on header level
-                const headerLevel = parseInt(header.tagName.charAt(1));
-                tocItem.style.marginLeft = ((headerLevel - 1) * 15) + 'px';
-                
-                tocItem.appendChild(tocLink);
-                tocList.appendChild(tocItem);
-                
-                // Add click handler for TOC links
-                tocLink.addEventListener('click', function(e) {
-                    // Hide the TOC after clicking a link
-                    floatingToc.classList.remove('active');
+                // Close TOC when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!floatingToc.contains(e.target) && !tocToggle.contains(e.target)) {
+                        floatingToc.classList.remove('active');
+                    }
                 });
-            });
-            
-            // Add TOC to the page
-            if (tocList.children.length > 0) {
-                tocContent.appendChild(tocList);
-            } else {
-                tocContent.innerHTML = '<p>No headers found in this document.</p>';
             }
-            
-            // Toggle TOC visibility
-            tocToggle.addEventListener('click', function() {
-                floatingToc.classList.toggle('active');
-            });
-            
-            // Close TOC when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!floatingToc.contains(e.target) && !tocToggle.contains(e.target)) {
-                    floatingToc.classList.remove('active');
-                }
-            });
+
+            // Listen for version switching if version buttons exist
+            const versionButtons = document.querySelectorAll('.version-button');
+            if (versionButtons.length > 0) {
+                versionButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Give the DOM time to update with the new version content
+                        setTimeout(generateTableOfContents, 300);
+                    });
+                });
+            }
         }
         
         // Check if document is already loaded
