@@ -105,16 +105,17 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
     </a>
 </div>'''
 
-        # Delete the first h1 title-header if it exists.
-        # This is "Liberty by Design", but we already have a top title.
-        soup = BeautifulSoup(html_content, 'html.parser')
-        title_header = soup.find('h1', class_='title-header')
-        if title_header:
-            title_header.decompose()  # Remove the first h1 title-header
-            # Update the HTML content
-            html_content = str(soup)
-        else:
-            print(f"Could not find title-header in {book_version.uri}.html to remove")
+        if not book_version.physical_version:
+            # Delete the first h1 title-header if it exists.
+            # This is "Liberty by Design", but we already have a top title.
+            soup = BeautifulSoup(html_content, 'html.parser')
+            title_header = soup.find('h1', class_='title-header')
+            if title_header:
+                title_header.decompose()  # Remove the first h1 title-header
+                # Update the HTML content
+                html_content = str(soup)
+            else:
+                print(f"Could not find title-header in {book_version.uri}.html to remove")
 
         # Add pdf_download_html to the HTML content right after the first h1 title-header
         soup = BeautifulSoup(html_content, 'html.parser')

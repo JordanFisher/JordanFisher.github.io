@@ -7,7 +7,8 @@ from bs4 import BeautifulSoup
 import subprocess
 from dataclasses import dataclass
 from typing import List, Optional
-import generate_site
+import make_governance
+from liberty_by_design_versions import liberty_versions, BookVersion
 
 @dataclass
 class LatexDocument:
@@ -58,8 +59,6 @@ class LatexDocument:
         latex = latex.replace("$content$", self.content)
         
         return latex
-        
-    # Method removed as we now throw an exception if the template is missing
 
 
 def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument:
@@ -292,15 +291,6 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                 elif img and not include_images:
                     # Don't add anything - images and captions are skipped
                     pass
-# Skipping this for now. We don't want <em> blocks to become fancyquotes.
-#             # Check if this is a quote block (typically italicized paragraphs)
-#             elif element.find('em') and len(element.contents) == 1 and element.contents[0].name == 'em':
-#                 # If the entire paragraph is in italics, treat it as a quote
-#                 # Process with in_quote=True to avoid redundant italic formatting
-#                 para_content = process_inline_elements(element, in_quote=True, story_div=story_div)
-#                 latex_content += f"""\\begin{{fancyquote}}
-# {para_content}
-# \\end{{fancyquote}}\\vspace{{1.2cm}}\n\n"""
             else:
                 # Check if this is the table of contents placeholder or a TOC div
                 if element.name == 'div' and element.get('class'):
@@ -793,8 +783,28 @@ def ensure_latex_templates_dir():
             print(f"Warning: Could not create templates directory: {e}")
     return templates_dir
 
-# Function has been removed as custom cover functionality is no longer needed
-        
+def modify_html_for_latex(html_path, modified_html_path):
+    """Modify HTML for LaTeX conversion and save to a new file."""
+    with open(html_path, 'r') as f:
+        html_content = f.read()
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Find the first h1 with class title-header
+    first_title = soup.find('h1', class_='title-header')
+    if first_title:
+        # Empty the text content but keep the element
+        first_title.string = ""
+        print(f"First h1 title-header emptied successfully in {modified_html_path}.")
+    else:
+        print(f"No h1 title-header found in the HTML file {html_path}.")
+    
+    # Write the modified HTML to the new file
+    with open(modified_html_path, 'w') as f:
+        f.write(str(soup))
+    
+    return modified_html_path
+
 def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
     parser.add_argument('--output', default='liberty_by_design.pdf',
@@ -850,11 +860,11 @@ def main():
             print(f"Regenerating mobile PDF from existing LaTeX file {mobile_tex_filename}...")
             latex_to_pdf(mobile_latex_content, f"{output_base}_mobile.pdf")
     else:
-        # Generate site first to ensure HTML files are up-to-date
+        # Generate site using make_governance.py instead of generate_site.py
         if not args.skip_site_generation:
-            print("Generating site first...")
+            print("Running make_governance.py first...")
             try:
-                generate_site.main(local_only=args.local_only)
+                make_governance.main(local_only=args.local_only)
                 print("Site generation completed successfully.")
             except Exception as e:
                 print(f"Error generating site: {e}")
@@ -863,84 +873,53 @@ def main():
         # Ensure LaTeX templates directory exists
         ensure_latex_templates_dir()
         
-        # Path to the governance HTML file
-        html_path = os.path.join('posts', 'liberty_by_design_with_ai_intro.html')
-        
-        if not os.path.exists(html_path):
-            print(f"Error: HTML file {html_path} not found. Make sure the site has been generated.")
-            sys.exit(1)
-        
-        # Convert HTML to LaTeX
-        print(f"Converting {html_path} to LaTeX...")
-        latex_content_base = html_to_latex(html_path, include_images=args.include_images)
-        
-        # Generate print version
-        if generate_print:
-            print(f"Generating print version...")
-            print_latex_doc = LatexDocument(
+        # Process each version from liberty_by_design_versions.py
+        for version in liberty_versions:
+            version_uri = version.uri
+            
+            # Skip if not needed based on flags
+            if (version.physical_version and not generate_print) or (not version.physical_version and not generate_mobile):
+                continue
+                
+            html_path = os.path.join('posts', f"{version_uri}.html")
+            
+            if not os.path.exists(html_path):
+                print(f"Error: HTML file {html_path} not found. Make sure make_governance.py has been run.")
+                continue
+            
+            # Create a modified HTML file for LaTeX conversion
+            modified_html_path = html_path + ".modified.html"
+            modify_html_for_latex(html_path, modified_html_path)
+            
+            # Convert HTML to LaTeX
+            print(f"Converting {modified_html_path} to LaTeX...")
+            latex_content_base = html_to_latex(modified_html_path, include_images=args.include_images)
+            
+            # Determine template type based on version
+            template_type = "print" if version.physical_version else "mobile"
+            print(f"Using template type: {template_type} for version {version_uri}")
+            
+            # Generate LaTeX document
+            latex_doc = LatexDocument(
                 title=latex_content_base.title,
                 content=latex_content_base.content,
                 description=latex_content_base.description,
                 include_images=latex_content_base.include_images,
-                template_type="print"
+                template_type=template_type
             )
             
             # Generate the LaTeX content
-            print_latex_content = print_latex_doc.to_latex()
+            latex_content = latex_doc.to_latex()
             
             # Write LaTeX to file
-            print_tex_filename = f"{output_base}.tex"
-            with open(print_tex_filename, 'w') as f:
-                f.write(print_latex_content)
+            tex_filename = f"{version_uri}.tex"
+            with open(tex_filename, 'w') as f:
+                f.write(latex_content)
             
             # Convert LaTeX to PDF
-            print(f"Converting print LaTeX to PDF...")
-            latex_to_pdf(print_latex_content, f"{output_base}.pdf")
-        
-        # Generate mobile version
-        if generate_mobile:
-            print(f"Generating mobile version...")
-            mobile_latex_doc = LatexDocument(
-                title=latex_content_base.title,
-                content=latex_content_base.content,
-                description=latex_content_base.description,
-                include_images=latex_content_base.include_images,
-                template_type="mobile"
-            )
-            
-            # Generate the LaTeX content
-            mobile_latex_content = mobile_latex_doc.to_latex()
-            
-            # Write LaTeX to file
-            mobile_tex_filename = f"{output_base}_mobile.tex"
-            with open(mobile_tex_filename, 'w') as f:
-                f.write(mobile_latex_content)
-            
-            # Convert LaTeX to PDF
-            print(f"Converting mobile LaTeX to PDF...")
-            latex_to_pdf(mobile_latex_content, f"{output_base}_mobile.pdf")
-    
-    # Modify the HTML file to empty the first h1 title-header
-    html_path = os.path.join('posts', 'liberty_by_design_with_ai_intro.html')
-    if os.path.exists(html_path):
-        print(f"Modifying {html_path} to empty the first h1 title-header...")
-        with open(html_path, 'r') as f:
-            html_content = f.read()
-        
-        soup = BeautifulSoup(html_content, 'html.parser')
-        
-        # Find the first h1 with class title-header
-        first_title = soup.find('h1', class_='title-header')
-        if first_title:
-            # Empty the text content but keep the element
-            first_title.string = ""
-            print("First h1 title-header emptied successfully.")
-            
-            # Write the modified HTML back to the file
-            with open(html_path, 'w') as f:
-                f.write(str(soup))
-        else:
-            print("No h1 title-header found in the HTML file.")
+            print(f"Converting LaTeX to PDF for {version_uri}...")
+            pdf_filename = f"{version_uri}.pdf"
+            latex_to_pdf(latex_content, pdf_filename)
 
 
 if __name__ == "__main__":
