@@ -565,9 +565,9 @@ def escape_latex(text):
     # Replace all variants of apostrophes and quotes with standard ASCII apostrophe
     text = text.replace("’", "'").replace("‘", "`").replace("”", "''").replace("“", "``")
 
-    # Handle Unicode characters - replace with closest ASCII representation or remove
-    # This is a simple approach; for a more comprehensive solution, consider a Unicode to LaTeX package
+    # Handle Unicode characters - replace with closest ASCII representation or LaTeX commands
     unicode_chars = {
+        # Common punctuation
         '…': '...',
         '–': '--',
         '—': '---',
@@ -604,6 +604,83 @@ def escape_latex(text):
         '½': '$\\frac{1}{2}$',
         '¼': '$\\frac{1}{4}$',
         '¾': '$\\frac{3}{4}$',
+        
+        # Latin letters with diacritical marks - macrons
+        'ā': '\\={a}',
+        'ē': '\\={e}',
+        'ī': '\\={\\i}',
+        'ō': '\\={o}',
+        'ū': '\\={u}',
+        'Ā': '\\={A}',
+        'Ē': '\\={E}',
+        'Ī': '\\={I}',
+        'Ō': '\\={O}',
+        'Ū': '\\={U}',
+        
+        # Latin letters with acute accents
+        'á': "\\'a",
+        'é': "\\'e",
+        'í': "\\'\\i",
+        'ó': "\\'o",
+        'ú': "\\'u",
+        'Á': "\\'A",
+        'É': "\\'E",
+        'Í': "\\'I",
+        'Ó': "\\'O",
+        'Ú': "\\'U",
+        
+        # Latin letters with grave accents
+        'à': '\\`a',
+        'è': '\\`e',
+        'ì': '\\`\\i',
+        'ò': '\\`o',
+        'ù': '\\`u',
+        'À': '\\`A',
+        'È': '\\`E',
+        'Ì': '\\`I',
+        'Ò': '\\`O',
+        'Ù': '\\`U',
+        
+        # Latin letters with circumflex
+        'â': '\\^a',
+        'ê': '\\^e',
+        'î': '\\^\\i',
+        'ô': '\\^o',
+        'û': '\\^u',
+        'Â': '\\^A',
+        'Ê': '\\^E',
+        'Î': '\\^I',
+        'Ô': '\\^O',
+        'Û': '\\^U',
+        
+        # Latin letters with umlaut/diaeresis
+        'ä': '\\"a',
+        'ë': '\\"e',
+        'ï': '\\"\\i',
+        'ö': '\\"o',
+        'ü': '\\"u',
+        'Ä': '\\"A',
+        'Ë': '\\"E',
+        'Ï': '\\"I',
+        'Ö': '\\"O',
+        'Ü': '\\"U',
+        
+        # Other common Latin letters with diacritics
+        'ç': '\\c{c}',
+        'Ç': '\\c{C}',
+        'ñ': '\\~n',
+        'Ñ': '\\~N',
+        'ÿ': '\\"y',
+        'Ÿ': '\\"Y',
+        'ø': '{\\o}',
+        'Ø': '{\\O}',
+        'å': '{\\aa}',
+        'Å': '{\\AA}',
+        'æ': '{\\ae}',
+        'Æ': '{\\AE}',
+        'œ': '{\\oe}',
+        'Œ': '{\\OE}',
+        'ß': '{\\ss}',
         # Emojis (we'll replace with descriptive text)
         '🤘': '[rock hand]',
         '👉': '[pointing right]',
@@ -686,8 +763,16 @@ def escape_latex(text):
     for char, replacement in unicode_chars.items():
         text = text.replace(char, replacement)
 
-    # Remove any remaining non-ASCII characters
-    text = ''.join(c if ord(c) < 128 else ' ' for c in text)
+    # Process remaining non-ASCII characters with LaTeX encoding
+    result = []
+    for c in text:
+        if ord(c) < 128:
+            result.append(c)  # ASCII characters unchanged
+        else:
+            # For other Unicode characters, use LaTeX decimal representation
+            result.append(f"\\symbol{{{ord(c)}}}")
+    
+    text = ''.join(result)
 
     return text
 
