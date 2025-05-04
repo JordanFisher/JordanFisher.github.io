@@ -9,14 +9,16 @@
 \ifxetex
   % XeTeX-specific settings for better Unicode support
   \usepackage{fontspec}
-  \setmainfont{Times New Roman}
+  \setmainfont{EB Garamond}  % Use Garamond for body text
   \usepackage{xunicode}
   \usepackage{xltxtra}
 \else
   % pdfTeX settings
   \usepackage[utf8]{inputenc}
   \usepackage[T1]{fontenc}
-  \usepackage{lmodern}  % Latin Modern fonts - widely available
+  % Intentionally using ebgaramond without fallback
+  % This will fail loudly if the font isn't available
+  \usepackage{ebgaramond}  % EB Garamond font package for pdfLaTeX
   \usepackage{textcomp}  % Extended text companion symbols
   \usepackage{upquote}   % Straight quotes in verbatim environments
 \fi
@@ -34,7 +36,7 @@
 \checkandfixthelayout
 
 % Core packages - same as pocket book
-\usepackage{microtype}    % Better typography
+\usepackage[expansion=false]{microtype}    % Better typography with font expansion disabled
 \usepackage{graphicx}     % Image handling
 \usepackage{xcolor}       % Color management
 \usepackage{tikz}         % For full page image
@@ -95,12 +97,12 @@
 % Chapter style customization (Tufte style) - identical to book template
 \makechapterstyle{Tufte}{
   \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
-  \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
+  \renewcommand{\printchaptername}{\large\headingfont\itshape\chaptername}
   \renewcommand{\printchapternum}{\LARGE\thechapter \\}
   \renewcommand{\afterchapternum}{}
   \renewcommand{\printchaptertitle}[1]{
     \raggedright
-    \itshape\Huge{##1}}
+    \headingfont\itshape\Huge{##1}}
   \renewcommand{\afterchaptertitle}{
     \vskip3.5\onelineskip
   }
@@ -108,22 +110,22 @@
 \chapterstyle{Tufte}
 
 % Section heading styles - same as pocket book
-\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large}
+\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape\Large}
 \setbeforesecskip{1.5\onelineskip}
 \setaftersecskip{0.8\onelineskip}
 
-\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\large}
+\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape\large}
 \setbeforesubsecskip{\onelineskip}
 \setaftersubsecskip{.65\onelineskip}
 
-\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape}
+\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape}
 \setbeforesubsubsecskip{-.5\onelineskip}
 \setaftersubsubsecskip{.1\onelineskip}
 
 % Part style - same as pocket book
-\renewcommand{\partnamefont}{\centering\sffamily\scshape\Huge}
-\renewcommand{\partnumfont}{\sffamily\Huge}
-\renewcommand{\parttitlefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\partnamefont}{\centering\headingfont\scshape\Huge}
+\renewcommand{\partnumfont}{\headingfont\Huge}
+\renewcommand{\parttitlefont}{\centering\headingfont\scshape\Huge}
 \renewcommand{\beforepartskip}{\vspace*{\stretch{3}}}
 \renewcommand{\afterpartskip}{%
   \vspace*{\stretch{4}}
@@ -168,7 +170,7 @@
     backgroundcolor=white
   ]
   \color{quotecolor}
-  \sffamily\itshape
+  \headingfont\itshape
 }{%
   \end{mdframed}
 }
@@ -179,6 +181,9 @@
 \newcommand{\likecaption}{\color{black}\itshape}
 \setlength{\abovecaptionskip}{3ex}
 \captionsetup{labelformat=empty}
+
+% Preserve sans-serif for titles and headings
+\newcommand{\headingfont}{\sffamily}
 
 % Line spacing - same as pocket book
 \linespread{1.15}
@@ -215,11 +220,11 @@
 \thispagestyle{empty}
 \begin{flushleft}
 \vspace*{5cm}
-{\huge\sffamily\itshape Liberty by Design}\\[0.6cm]
-{\Large\sffamily\itshape Governing a Human-Machine Society}\\[1.5cm]
-{\large\sffamily\itshape Jordan Ezra Fisher}\\[0.3cm]
+{\huge\headingfont\itshape Liberty by Design}\\[0.6cm]
+{\Large\headingfont\itshape Governing a Human-Machine Society}\\[1.5cm]
+{\large\headingfont\itshape Jordan Ezra Fisher}\\[0.3cm]
 \vfill
-{\small\sffamily\itshape \today}
+{\small\headingfont\itshape \today}
 \end{flushleft}
 
 % Description block for main document

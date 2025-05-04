@@ -155,9 +155,9 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
             # Add more vertical space before each chapter entry.
             toc_content += f"""\\noalign{{\\vspace{{2em}}}}
 \\nopagebreak
-{{\\sffamily\\itshape {chapter_num}}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
+{{\\headingfont\\itshape {chapter_num}}} & {{\\headingfont\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 \\nopagebreak
-\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
+\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\headingfont\\itshape {heading_text}}} \\\\
 """
         
         # Close the TOC
@@ -196,7 +196,7 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     latex_content += f"""\\clearpage
 {label_markup}
 \\vspace*{{1.5cm}}
-{{\\sffamily\\itshape\\small {chapter_number_clean}}}
+{{\\headingfont\\itshape\\small {chapter_number_clean}}}
 \\vspace{{-0.5cm}}
 \\section*{{\\huge {header_text}}}
 \\vspace{{0.7cm}}
@@ -230,7 +230,7 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_clean = chapter_number.replace(':', '')
                     
                     latex_content += f"""{label_markup}
-{{\\sffamily\\itshape\\small {chapter_number_clean}}}
+{{\\headingfont\\itshape\\small {chapter_number_clean}}}
 \\vspace{{-0.5cm}}
 \\section*{{{header_text}}}
 \\vspace{{0.5cm}}
@@ -330,11 +330,11 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                         chapter_num = chapter_num.replace(':', '')
                         toc_content += f"""\\noalign{{\\vspace{{2em}}}}
 \\nopagebreak[4]
-{{\\sffamily\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
+{{\\headingfont\\itshape {chapter_num}}} & {{}} \\\\[0.3cm]
 \\nopagebreak[4]
-\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\sffamily\\itshape {heading_text}}} \\\\
+\\multicolumn{{2}}{{p{{\\textwidth}}}}{{\\Large\\headingfont\\itshape {heading_text}}} \\\\
 \\nopagebreak[4]
-{{}} & {{\\sffamily\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
+{{}} & {{\\headingfont\\itshape pg.~\\pageref{{{heading_id}}}}} \\\\[0.3cm]
 """
                     
                     # Close the TOC

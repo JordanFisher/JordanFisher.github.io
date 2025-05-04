@@ -6,14 +6,14 @@
 \ifxetex
   % XeTeX-specific settings for better Unicode support
   \usepackage{fontspec}
-  \setmainfont{Times New Roman}
+  \setmainfont{EB Garamond}  % Use Garamond for body text
   \usepackage{xunicode}
   \usepackage{xltxtra}
 \else
   % pdfTeX settings
   \usepackage[utf8]{inputenc}
   \usepackage[T1]{fontenc}
-  \usepackage{lmodern}
+  \usepackage{ebgaramond}  % EB Garamond font package for pdfLaTeX
   \usepackage{textcomp}  % Extended text companion symbols
   \usepackage{upquote}   % Straight quotes in verbatim environments
 \fi
@@ -21,7 +21,7 @@
 % Special handling for apostrophes in text mode
 \DeclareTextCommandDefault{\textasciiacute}{\symbol{"B4}}
 
-\usepackage{microtype}
+\usepackage[expansion=false]{microtype}    % Better typography with font expansion disabled
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{setspace}
@@ -33,6 +33,9 @@
 \usepackage{xcolor}
 \usepackage{needspace}
 \usepackage{afterpage}
+
+% Preserve sans-serif for titles and headings
+\newcommand{\headingfont}{\sffamily}
 
 % Configure hyperref for better internal references
 \hypersetup{
