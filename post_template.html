@@ -878,11 +878,33 @@ POST
             // Listen for version switching if version buttons exist
             const versionButtons = document.querySelectorAll('.version-button');
             if (versionButtons.length > 0) {
+                // Check for existing version selector functions that might load preferences
+                const existingSetupVersionSelector = window.setupVersionSelector;
+                
+                // Listen for version button clicks to update TOC
                 versionButtons.forEach(button => {
                     button.addEventListener('click', function() {
                         // Give the DOM time to update with the new version content
                         setTimeout(generateTableOfContents, 300);
                     });
+                });
+                
+                // Create a MutationObserver to detect when version content becomes active
+                // This helps when version is loaded from localStorage on page load
+                const versionObserver = new MutationObserver((mutations) => {
+                    mutations.forEach((mutation) => {
+                        if (mutation.attributeName === 'class' && 
+                            mutation.target.classList.contains('active') && 
+                            mutation.target.classList.contains('version-content')) {
+                            // Version content became active, regenerate TOC
+                            setTimeout(generateTableOfContents, 300);
+                        }
+                    });
+                });
+                
+                // Observe all version content divs for class changes
+                document.querySelectorAll('.version-content').forEach(content => {
+                    versionObserver.observe(content, { attributes: true });
                 });
             }
         }
