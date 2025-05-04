@@ -407,10 +407,10 @@ def create_merged_version(processed_versions, local_only=False):
     
     # Create CSS for version selector
     version_css = '''
-        /* We want all the content to be below the fold. */
-        .container {
-            position: absolute;
-            top: 100vh;
+        /* Make the header container take up the full viewport height */
+        .header-container {
+            min-height: 100vh !important; /* Ensure header fills entire viewport height */
+            margin-bottom: 0 !important; /* Remove default margin */
         }
 
         /* Version selector styling */
