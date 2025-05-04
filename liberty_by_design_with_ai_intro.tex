@@ -9,14 +9,16 @@
 \ifxetex
   % XeTeX-specific settings for better Unicode support
   \usepackage{fontspec}
-  \setmainfont{Times New Roman}
+  \setmainfont{EB Garamond}  % Use Garamond for body text
   \usepackage{xunicode}
   \usepackage{xltxtra}
 \else
   % pdfTeX settings
   \usepackage[utf8]{inputenc}
   \usepackage[T1]{fontenc}
-  \usepackage{lmodern}  % Latin Modern fonts - widely available
+  % Intentionally using ebgaramond without fallback
+  % This will fail loudly if the font isn't available
+  \usepackage{ebgaramond}  % EB Garamond font package for pdfLaTeX
   \usepackage{textcomp}  % Extended text companion symbols
   \usepackage{upquote}   % Straight quotes in verbatim environments
 \fi
@@ -34,7 +36,7 @@
 \checkandfixthelayout
 
 % Core packages - same as pocket book
-\usepackage{microtype}    % Better typography
+\usepackage[expansion=false]{microtype}    % Better typography with font expansion disabled
 \usepackage{graphicx}     % Image handling
 \usepackage{xcolor}       % Color management
 \usepackage{tikz}         % For full page image
@@ -97,12 +99,12 @@
 % Chapter style customization (Tufte style) - identical to book template
 \makechapterstyle{Tufte}{
   \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
-  \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
+  \renewcommand{\printchaptername}{\large\headingfont\itshape\chaptername}
   \renewcommand{\printchapternum}{\LARGE\thechapter \\}
   \renewcommand{\afterchapternum}{}
   \renewcommand{\printchaptertitle}[1]{
     \raggedright
-    \itshape\Huge{##1}}
+    \headingfont\itshape\Huge{##1}}
   \renewcommand{\afterchaptertitle}{
     \vskip3.5\onelineskip
   }
@@ -110,22 +112,22 @@
 \chapterstyle{Tufte}
 
 % Section heading styles - same as pocket book
-\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large}
+\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape\Large}
 \setbeforesecskip{1.5\onelineskip}
 \setaftersecskip{0.8\onelineskip}
 
-\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\large}
+\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape\large}
 \setbeforesubsecskip{\onelineskip}
 \setaftersubsecskip{.65\onelineskip}
 
-\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape}
+\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\headingfont\itshape}
 \setbeforesubsubsecskip{-.5\onelineskip}
 \setaftersubsubsecskip{.1\onelineskip}
 
 % Part style - same as pocket book
-\renewcommand{\partnamefont}{\centering\sffamily\scshape\Huge}
-\renewcommand{\partnumfont}{\sffamily\Huge}
-\renewcommand{\parttitlefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\partnamefont}{\centering\headingfont\scshape\Huge}
+\renewcommand{\partnumfont}{\headingfont\Huge}
+\renewcommand{\parttitlefont}{\centering\headingfont\scshape\Huge}
 \renewcommand{\beforepartskip}{\vspace*{\stretch{3}}}
 \renewcommand{\afterpartskip}{%
   \vspace*{\stretch{4}}
@@ -170,7 +172,7 @@
     backgroundcolor=white
   ]
   \color{quotecolor}
-  \sffamily\itshape
+  \headingfont\itshape
 }{%
   \end{mdframed}
 }
@@ -181,6 +183,9 @@
 \newcommand{\likecaption}{\color{black}\itshape}
 \setlength{\abovecaptionskip}{3ex}
 \captionsetup{labelformat=empty}
+
+% Preserve sans-serif for titles and headings
+\newcommand{\headingfont}{\sffamily}
 
 % Line spacing - same as pocket book
 \linespread{1.15}
@@ -217,11 +222,11 @@
 \thispagestyle{empty}
 \begin{flushleft}
 \vspace*{5cm}
-{\huge\sffamily\itshape Liberty by Design}\\[0.6cm]
-{\Large\sffamily\itshape Governing a Human-Machine Society}\\[1.5cm]
-{\large\sffamily\itshape Jordan Ezra Fisher}\\[0.3cm]
+{\huge\headingfont\itshape Liberty by Design}\\[0.6cm]
+{\Large\headingfont\itshape Governing a Human-Machine Society}\\[1.5cm]
+{\large\headingfont\itshape Jordan Ezra Fisher}\\[0.3cm]
 \vfill
-{\small\sffamily\itshape \today}
+{\small\headingfont\itshape \today}
 \end{flushleft}
 
 % Description block for main document
@@ -242,54 +247,54 @@ There are many important conversations happening about AI. But we are missing on
 \begin{longtable}{p{0.8\textwidth}r}
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 1} & {\sffamily\itshape pg.~\pageref{why-ai-is-accelerating--and-why-we-have-little-time-left}} \\[0.3cm]
+{\headingfont\itshape Chapter 1} & {\headingfont\itshape pg.~\pageref{why-ai-is-accelerating--and-why-we-have-little-time-left}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape Why AI is accelerating, and why we have little time left} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape Why AI is accelerating, and why we have little time left} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 2} & {\sffamily\itshape pg.~\pageref{what-do-we-want-from-our-machines-and-governance-}} \\[0.3cm]
+{\headingfont\itshape Chapter 2} & {\headingfont\itshape pg.~\pageref{what-do-we-want-from-our-machines-and-governance-}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape What do we want from our machines and governance?} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape What do we want from our machines and governance?} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 3} & {\sffamily\itshape pg.~\pageref{the-end-of-implicit-guardrails}} \\[0.3cm]
+{\headingfont\itshape Chapter 3} & {\headingfont\itshape pg.~\pageref{the-end-of-implicit-guardrails}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape The end of implicit guardrails} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape The end of implicit guardrails} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 4} & {\sffamily\itshape pg.~\pageref{a-simple-path-to-tyranny}} \\[0.3cm]
+{\headingfont\itshape Chapter 4} & {\headingfont\itshape pg.~\pageref{a-simple-path-to-tyranny}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape A simple path to tyranny} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape A simple path to tyranny} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 5} & {\sffamily\itshape pg.~\pageref{the-prompt-of-power}} \\[0.3cm]
+{\headingfont\itshape Chapter 5} & {\headingfont\itshape pg.~\pageref{the-prompt-of-power}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape The Prompt of Power} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape The Prompt of Power} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 6} & {\sffamily\itshape pg.~\pageref{rapid-fire-governance---designing-upgrades-to-democracy}} \\[0.3cm]
+{\headingfont\itshape Chapter 6} & {\headingfont\itshape pg.~\pageref{rapid-fire-governance---designing-upgrades-to-democracy}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape Rapid fire governance — designing upgrades to democracy} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape Rapid fire governance — designing upgrades to democracy} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 7} & {\sffamily\itshape pg.~\pageref{superchecks-and-superbalances}} \\[0.3cm]
+{\headingfont\itshape Chapter 7} & {\headingfont\itshape pg.~\pageref{superchecks-and-superbalances}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape Superchecks and superbalances} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape Superchecks and superbalances} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 8} & {\sffamily\itshape pg.~\pageref{the-realpolitik-ai---forging-a-new-political-alliance}} \\[0.3cm]
+{\headingfont\itshape Chapter 8} & {\headingfont\itshape pg.~\pageref{the-realpolitik-ai---forging-a-new-political-alliance}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape The realpolitik AI — forging a new political alliance} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape The realpolitik AI — forging a new political alliance} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 9} & {\sffamily\itshape pg.~\pageref{an-exponential--if-you-can-keep-it}} \\[0.3cm]
+{\headingfont\itshape Chapter 9} & {\headingfont\itshape pg.~\pageref{an-exponential--if-you-can-keep-it}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape An exponential, if you can keep it} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape An exponential, if you can keep it} \\
 \noalign{\vspace{2em}}
 \nopagebreak
-{\sffamily\itshape Chapter 10} & {\sffamily\itshape pg.~\pageref{a-crash-course-on-ai}} \\[0.3cm]
+{\headingfont\itshape Chapter 10} & {\headingfont\itshape pg.~\pageref{a-crash-course-on-ai}} \\[0.3cm]
 \nopagebreak
-\multicolumn{2}{p{\textwidth}}{\Large\sffamily\itshape A Crash Course on AI} \\
+\multicolumn{2}{p{\textwidth}}{\Large\headingfont\itshape A Crash Course on AI} \\
 \end{longtable}
 \vspace{0.5cm}
 \vspace{0.5em}
@@ -457,7 +462,7 @@ For those looking for a primer on AI, we recommend starting with Chapter 10: A C
 \clearpage
 \phantomsection\label{why-ai-is-accelerating--and-why-we-have-little-time-left}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 1}
+{\headingfont\itshape\small Chapter 1}
 \vspace{-0.5cm}
 \section*{\huge Why AI is accelerating, and why we have little time left}
 \vspace{0.7cm}
@@ -702,14 +707,14 @@ Rather, we'll assume ---optimistically--- that the problem of alignment will be 
 \clearpage
 \phantomsection\label{what-do-we-want-from-our-machines-and-governance-}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 2}
+{\headingfont\itshape\small Chapter 2}
 \vspace{-0.5cm}
 \section*{\huge What do we want from our machines and governance?}
 \vspace{0.7cm}
 
 We assume that machines will achieve human-level intelligence. We assume they will exceed us. We assume that they will have ethics, aligned to a human or group of humans.
 
-Then the question remains: which human or group of humans? To which other humans are those humans accountable and by what means? Where does the \textit{d mos} in democracy sit?
+Then the question remains: which human or group of humans? To which other humans are those humans accountable and by what means? Where does the \textit{d\={e}mos} in democracy sit?
 
 The ambition of humans leads to cathedrals and death camps. Prosperity and war. Governance is how we harness our collective ambitions to aim for the good. It's not just laws: it's culture, norms, and expectations we place upon ourselves, our neighbors, and our children. It's the combined wisdom of society for how we can stand both free and together to march forward.
 
@@ -818,7 +823,7 @@ Let's begin.
 \clearpage
 \phantomsection\label{the-end-of-implicit-guardrails}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 3}
+{\headingfont\itshape\small Chapter 3}
 \vspace{-0.5cm}
 \section*{\huge The end of \sout{implicit} guardrails}
 \vspace{0.7cm}
@@ -1213,7 +1218,7 @@ If our pervasive, implicit guardrails disappear all at once, the nefarious force
 \clearpage
 \phantomsection\label{a-simple-path-to-tyranny}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 4}
+{\headingfont\itshape\small Chapter 4}
 \vspace{-0.5cm}
 \section*{\huge A simple path to tyranny}
 \vspace{0.7cm}
@@ -1306,7 +1311,7 @@ As I write this today, we are doing neither.
 \clearpage
 \phantomsection\label{the-prompt-of-power}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 5}
+{\headingfont\itshape\small Chapter 5}
 \vspace{-0.5cm}
 \section*{\huge The Prompt of Power}
 \vspace{0.7cm}
@@ -1402,7 +1407,7 @@ What a stupid question. Eggs are basically free now.
 \clearpage
 \phantomsection\label{rapid-fire-governance---designing-upgrades-to-democracy}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 6}
+{\headingfont\itshape\small Chapter 6}
 \vspace{-0.5cm}
 \section*{\huge Rapid fire governance --- designing upgrades to democracy}
 \vspace{0.7cm}
@@ -1630,7 +1635,7 @@ While all three branches of government were designed to be co-equal, the executi
 \clearpage
 \phantomsection\label{superchecks-and-superbalances}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 7}
+{\headingfont\itshape\small Chapter 7}
 \vspace{-0.5cm}
 \section*{\huge Superchecks and superbalances}
 \vspace{0.7cm}
@@ -1731,7 +1736,7 @@ AI creates countless new ways to abuse power. We must carefully upgrade our chec
 \clearpage
 \phantomsection\label{the-realpolitik-ai---forging-a-new-political-alliance}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 8}
+{\headingfont\itshape\small Chapter 8}
 \vspace{-0.5cm}
 \section*{\huge The realpolitik AI --- forging a new political alliance}
 \vspace{0.7cm}
@@ -1924,7 +1929,7 @@ Most important of all, we the people must stand for freedom and a transparent, a
 \clearpage
 \phantomsection\label{an-exponential--if-you-can-keep-it}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 9}
+{\headingfont\itshape\small Chapter 9}
 \vspace{-0.5cm}
 \section*{\huge An exponential, if you can keep it}
 \vspace{0.7cm}
@@ -1978,7 +1983,7 @@ Now it's our turn.
 \clearpage
 \phantomsection\label{a-crash-course-on-ai}
 \vspace*{1.5cm}
-{\sffamily\itshape\small Chapter 10}
+{\headingfont\itshape\small Chapter 10}
 \vspace{-0.5cm}
 \section*{\huge A Crash Course on AI}
 \vspace{0.7cm}

@@ -8,3 +8,5 @@ token.pickle
 .env
 *.env
 
+
+**/.claude/settings.local.json
