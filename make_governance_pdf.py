@@ -173,7 +173,7 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         if element.name == 'h1' or element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
-            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
             
             # Only add page break if it's a title header (new document being inlined)
             if 'title-header' in element.get('class', []):
@@ -240,14 +240,14 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         elif element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
-            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
             
             header_text = process_inline_elements(element, story_div=story_div)
             latex_content += f"\\needspace{{3\\baselineskip}}\\vspace{{0.1cm}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
             # Get the ID for label if available
             element_id = element.get('id', '')
-            label_markup = f"\\label{{{element_id}}}" if element_id else ""
+            label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
             
             header_text = process_inline_elements(element, story_div=story_div)
             latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
@@ -423,7 +423,7 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     if child.name == 'h1' or child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
-                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
                         
                         # Handle h1 elements (similar to above, but simplified)
                         header_text = process_inline_elements(child, story_div=story_div)
@@ -431,14 +431,14 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     elif child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
-                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
                         
                         header_text = process_inline_elements(child, story_div=story_div)
                         latex_content += f"\\vspace{{0.1cm}}\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
-                        label_markup = f"\\label{{{element_id}}}" if element_id else ""
+                        label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
                         
                         header_text = process_inline_elements(child, story_div=story_div)
                         latex_content += f"\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"

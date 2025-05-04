@@ -1,5 +1,6 @@
 % Mobile-friendly LaTeX template
 % Based on pocket_book_template.tex, with mobile-optimized dimensions
+% Styled to match the book template's appearance while optimized for screen reading
 
 \documentclass[twoside,11pt]{memoir}
 
@@ -55,10 +56,13 @@
   breaklinks=true,
   pdfborder={0 0 1},
   colorlinks=true,        % Colored links for better visibility on screens
-  linkcolor=blue,         % Link color
+  linkcolor=blue,         % Link color for mobile (keep this for better screen reading)
   urlcolor=blue,          % URL color
   citecolor=blue,         % Citation link color
-  hypertexnames=false,
+  hypertexnames=true,     % Enable this to ensure refs work with any name
+  destlabel=true,         % Enable destination for every \label
+  implicit=true,          % Make all refs hyperlinks
+  naturalnames=true,      % Prefixes not needed for internal refs
   pdfpagemode=UseOutlines, % Show bookmarks panel when opening
   pdftitle={$title$},
 ]{hyperref}
@@ -86,7 +90,7 @@
 \makeevenfoot{part}{}{}{}
 \makeoddfoot{part}{}{}{}
 
-% Chapter style customization (Tufte style)
+% Chapter style customization (Tufte style) - identical to book template
 \makechapterstyle{Tufte}{
   \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
   \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
@@ -191,20 +195,20 @@
 
 \frontmatter
 
-% Custom title page with centered title for mobile
+% Custom title page with left-justified title matching the book template
 \thispagestyle{empty}
-\begin{center}
-\vspace*{1.5cm}
+\begin{flushleft}
+\vspace*{5cm}
 {\huge\sffamily\itshape Liberty by Design}\\[0.6cm]
 {\Large\sffamily\itshape Governing a Human-Machine Society}\\[1.5cm]
 {\large\sffamily\itshape Jordan Ezra Fisher}\\[0.3cm]
 \vfill
 {\small\sffamily\itshape \today}
-\end{center}
+\end{flushleft}
 
 % Description block for main document
 \begin{center}
-\vspace*{0.5cm}
+\vspace*{7cm}
 \begin{fancyquote}
 $main_description$
 \end{fancyquote}
@@ -213,10 +217,6 @@ $main_description$
 
 \mainmatter
 \setcounter{page}{1}
-
-% Add table of contents for mobile
-\tableofcontents
-\clearpage
 
 $content$
 
