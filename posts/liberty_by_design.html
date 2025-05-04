@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TITLE</title>
+    <title>Liberty by Design</title>
     <!-- Google Fonts -->
     <style>
         /* Playfair Display font */
@@ -15,6 +15,7 @@
         :root {
             --font-size: 1.25rem;
             --bkg-color: rgb(22, 22, 22);
+            --mobile-overlay-position: 64%; /* Position for header overlay on mobile */
         }
 
         * {
@@ -375,20 +376,27 @@
             }
             
             .header-overlay {
-                transform: translateY(40%); /* Less overlap on mobile */
+                position: absolute;
+                bottom: auto;
+                top: var(--mobile-overlay-position); /* Position down from the top of header container */
                 padding: 1.5rem;
+                transform: translateY(0);
+                max-height: calc(100vh - 40px); /* Ensure content doesn't go below viewport */
+                overflow: auto; /* Add scrolling if needed */
             }
             
             .header-overlay:hover {
-                transform: translateY(40%); /* Maintain position on hover */
+                transform: translateY(0) scale(1.01);
             }
             
             .header-gradient {
-                height: 65%; /* Taller gradient on mobile */
+                height: 100%; /* Full gradient on mobile */
             }
             
             .chevron-down {
-                display: none; /* Hide chevron on mobile */
+                display: inline-block; /* Show chevron on mobile */
+                margin-top: 10px; /* Normal top margin */
+                margin-bottom: 10px; /* Add bottom margin */
             }
         }
         
@@ -400,10 +408,24 @@
             
             .header-subtitle {
                 font-size: 1rem;
+                margin-bottom: 0.25rem;
             }
             
             .header-overlay {
                 padding: 1rem;
+                top: var(--mobile-overlay-position); /* Maintain same positioning on smaller screens */
+            }
+            
+            .chevron-down {
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .chevron-down:after {
+                width: 8px;
+                height: 8px;
             }
         }
         
@@ -557,10 +579,21 @@
             }
         }
     
+        /* Make the header container take up the full viewport height */
+        .above-the-folder {
+            min-height: 100vh !important; /* Ensure header fills entire viewport height */
+            margin-bottom: 0 !important; /* Remove default margin */
+        }
+
         /* Version selector styling */
+        .version-selector-container {
+            min-height: 70vh;
+        }
+
         .version-selector {
             margin: 2rem 0;
             padding: 1.5rem;
+            margin-top: 0vh;
             background-color: #f8f8f8;
             border-left: 4px solid #0066cc;
             border-radius: 4px;
@@ -638,22 +671,30 @@
 <body>
     <!-- Feedback element for copy operations -->
     <div id="copy-feedback" class="copy-feedback">Link copied to clipboard!</div>
-    <div class="header-container">
-        <div style="overflow-x: hidden; width: 100%;">
-            <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
-        </div>
-        <div class="header-gradient"></div>
-        <div class="header-overlay" id="header-clickable">
-            <h1 class="header-title">Liberty by Design</h1>
-            <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
-            <div class="chevron-down"></div>
+    <div class="above-the-folder">
+        <div class="header-container">
+            <div style="overflow-x: hidden; width: 100%;">
+                <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
+            </div>
+            <div class="header-gradient"></div>
+            <div class="header-overlay" id="header-clickable">
+                <h1 class="header-title">Liberty by Design</h1>
+                <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
+                <div class="chevron-down-container">
+                    <div class="chevron-down"></div>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const headerClickable = document.getElementById('header-clickable');
+            const headerContainer = document.querySelector('.header-container');
+            const headerOverlay = document.querySelector('.header-overlay');
             const storyContent = document.querySelector('.description-block');
+            
+            // Scroll functionality
             if (storyContent) {
                 // Get position of the story content
                 const rect = storyContent.getBoundingClientRect();
@@ -664,6 +705,7 @@
             } else {
                 window.scrollTargetY = 0;
             }
+            console.log('Scroll target Y:', window.scrollTargetY);
             
             if (headerClickable && storyContent) {
                 headerClickable.addEventListener('click', function() {
@@ -683,18 +725,20 @@
         <div id="story">
 
 
-    <div class="version-selector">
-        <h2>Choose your own adventure</h2>
-        <div class="version-options">
+    <div class="version-selector-container">
+        <div class="version-selector">
+            <h2>Choose your own adventure</h2>
+            <div class="version-options">
     <button class="version-button active" data-version="with_ai_intro">I'm new to AI</button>
 <button class="version-button " data-version="up_to_speed">I'm up to speed on AI</button>
 <button class="version-button " data-version="agi_pilled">I’m up to speed on AI and I think AGI is really fucking near 🥵</button>
 
+            </div>
         </div>
     </div>
     
 <div id="with_ai_intro" class="version-content active">
-<h1 class="title-header">Liberty by Design: Governing a Human-Machine Society</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
+<h1 class="title-header">Liberty by Design</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <div class="pdf-download">
 <a download="" href="/liberty_by_design_with_ai_intro.pdf" target="_blank">
 <span class="download-icon">📄</span> Download PDF version
@@ -1132,7 +1176,7 @@
 </ul>
 </div>
 <div id="up_to_speed" class="version-content ">
-<h1 class="title-header">Liberty by Design: Governing a Human-Machine Society</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
+<h1 class="title-header">Liberty by Design</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <div class="pdf-download">
 <a download="" href="/liberty_by_design_up_to_speed_version.pdf" target="_blank">
 <span class="download-icon">📄</span> Download PDF version
@@ -1516,7 +1560,7 @@
 <h1 class="title-header" id="up_to_speed-an-exponential--if-you-can-keep-it"><span class="chapter-number">Chapter 9: </span>An exponential, if you can keep it</h1><p>Today’s world is built on exponentials. Economists often claim that the modern world requires exponential growth. Our institutions assume accelerating growth to remain viable.</p><p>No exponential can last forever, though. Even with the coming of AI and automated economies, the human-machine world we build will eventually butt up against limits to growth. But those limits are far away. If we can create an enduring world where humans and machines thrive, the future will be an exponential for as far as we can imagine.</p><p>Exponentials happen when the next step is made easier by the last one. They aren’t quantum leaps; they are repeated cycles, constantly building bit by bit. The world we want to build will be built the same way. There is no single act or stroke of law that will ensure the positive future we all want. Instead, we must take actions, bit by bit, each one building on the last, so that the cycle accelerates.</p><p>Just as we build AI iteratively today, we must similarly evolve our government and society, with each iteration accelerating progress. So that the iterations build on themselves and accelerate. So that the tsunami of progress becomes irresistible.</p><p>We all have a place in this discussion. We are today, us humans, the most powerful each of us will ever be to meet this moment. There is no other time. It is now. It is here. Meet it.</p><p>Keep in mind the benevolence of those around you; we can build this together. But don’t lose sight of the infinite power that is at stake. There are monsters in this world, and even among the good there is weakness that becomes evil. As the curve accelerates, the world will feel like it’s coming apart. In those moments, many will act to seize power. We can resist them.</p><p>Many good people will also act out of fear, to protect themselves and those they love. When jobs are automated, when the economy becomes opaque and uncertain, when the world is on edge and teeters on war, it’s right to be fearful. You and I, dear reader, will be afraid. I am afraid.</p><p>When we’re afraid, when we’re up against impossible odds, what we control is who we are. What we stand for.</p><p>Stand for the good.</p><p>You’re part of this now. The future depends on your voice — use it.</p><p>Speak your mind. Start a group chat or write a blog. Debate with your friends. Educate yourself and others on the rapid pace of change.  Fight for good policies and standards, whether at work, for government, or in your community. Be critical of the motives of every leader, even if you like them — perhaps especially if you like them. But most importantly, join the conversation. This is our future to design.</p><p>And when the weight of the future weighs on you, remember: We've achieved greater things against worse odds.</p><p>On July 16, 1945, we detonated the first nuclear bomb — the first <em>super </em>weapon. The world had never seen a weapon of mass destruction before. The implication for world security was startling. In the decades that followed, it was the civil conversation that mattered most. The conversation was pervasive, and it provided the intellectual foundation and social pressure to push the world away from nuclear Armageddon. It didn't have to go so well, but it did, because of the collective force of humanity. Norms were set, treaties were signed, wars were averted.</p><p>Most important of all, we talked about the problem. At our family dinners, with friends, at rallies, and through protests. We forced the conversation, and the media and politicians centered themselves and their messaging around it in response. Ultimately that gave us the chance for our vote to matter. But our influence on cultural norms was just as important. Through that shared human culture, we influenced our geopolitical adversaries and the world writ large. We saw through a Cold War where the wrong side of a decision was utter annihilation.</p><p>Humanity won. That is our heritage. We are the children and the grandchildren of those heroes. The heroes that averted war, averted disaster, and delivered us the peace we've cherished for decades. </p><p>They were peacetime heroes.</p><p>Now it's our turn.</p><br/><p><div class="image-container"><img alt="me? fuck yeah" class="doc-image" src="images/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI_None.png"/><figcaption class="image-caption">me? fuck yeah</figcaption></div></p>
 </div>
 <div id="agi_pilled" class="version-content ">
-<h1 class="title-header">Liberty by Design: Governing a Human-Machine Society</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
+<h1 class="title-header">Liberty by Design</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <div class="pdf-download">
 <a download="" href="/liberty_by_design_agi_pilled_version.pdf" target="_blank">
 <span class="download-icon">📄</span> Download PDF version
@@ -1859,13 +1903,31 @@
     <script>
         // Execute immediately instead of waiting for DOMContentLoaded
         (function() {
+            // Modify scrollTargetY to scroll to version-selector
+            document.addEventListener('DOMContentLoaded', function() {
+                // Wait half a second.
+                setTimeout(() => {
+                    const chevronDown = document.querySelector('.chevron-down-container');
+                    if (chevronDown && window.scrollTargetY !== undefined) {
+                        // Get position of the chevron-down div.
+                        const rect = chevronDown.getBoundingClientRect();
+                        const targetY = window.pageYOffset + rect.top;
+                        
+                        // Update scrollTargetY to just enough to move the chevron-down div
+                        // to the very top of the screen.
+                        window.scrollTargetY = targetY - (window.innerHeight * 0.01);
+                        console.log("Updated scrollTargetY to:", window.scrollTargetY);
+                    }
+                }, 500);
+            });
+        
             // Version switching logic
             function setupVersionSelector() {
                 const versionButtons = document.querySelectorAll('.version-button');
                 const versionContents = document.querySelectorAll('.version-content');
                 let currentVersion = '';
                 
-                function switchToVersion(version) {
+                function switchToVersion(version, shouldScroll = false) {
                     // Deactivate all buttons and contents
                     versionButtons.forEach(btn => btn.classList.remove('active'));
                     versionContents.forEach(content => content.classList.remove('active'));
@@ -1879,6 +1941,31 @@
                     const content = document.getElementById(version);
                     if (content) {
                         content.classList.add('active');
+                        
+                        // Only scroll if explicitly requested (from button click)
+                        if (shouldScroll) {
+                            // Scroll to the first title header in the activated version content
+                            setTimeout(() => {
+                                // Find the first h1 with the title-header class
+                                const firstTitleHeader = content.querySelector('h1.title-header');
+                                // If title-header not found, try to find the first h1 element
+                                const firstHeader = firstTitleHeader || content.querySelector('h1');
+                                
+                                if (firstHeader) {
+                                    // Scroll to position one header height above the header
+                                    const headerRect = firstHeader.getBoundingClientRect();
+                                    const scrollOffset = headerRect.height; // use 100% of the header's height as offset
+                                    const scrollPosition = window.pageYOffset + headerRect.top - scrollOffset;
+                                    window.scrollTo({
+                                        top: scrollPosition,
+                                        behavior: 'smooth'
+                                    });
+                                } else {
+                                    // If no h1 found, scroll to the top of the content
+                                    content.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }, 50); // Small delay to ensure content is visible
+                        }
                     }
                     
                     // Save preference to localStorage
@@ -1896,7 +1983,11 @@
                             history.pushState("", document.title, window.location.pathname + window.location.search);
                         }
                         const version = this.getAttribute('data-version');
-                        switchToVersion(version);
+                        // Pass true to indicate we should scroll to the header
+                        switchToVersion(version, true);
+                        
+                        // Prevent default scrolling behavior that might interfere with our custom scrolling
+                        return false;
                     });
                 });
                 
@@ -1915,7 +2006,7 @@
                             // Switch to that version if needed
                             if (versionFromAnchor !== currentVersion && 
                                 document.querySelector(`.version-button[data-version="${versionFromAnchor}"]`)) {
-                                switchToVersion(versionFromAnchor);
+                                switchToVersion(versionFromAnchor, false);
                             }
                             
                             // Scroll to the element
@@ -1977,13 +2068,17 @@
                 
                 // Check if there's a saved preference
                 const savedVersion = localStorage.getItem('preferred_version');
-                if (savedVersion) {
-                    switchToVersion(savedVersion);
-                } else {
-                    // Default to first version if no preference saved
-                    const defaultVersion = versionButtons[0].getAttribute('data-version');
-                    switchToVersion(defaultVersion);
-                }
+                
+                // Use setTimeout to ensure DOM is fully loaded
+                setTimeout(() => {
+                    if (savedVersion) {
+                        switchToVersion(savedVersion, false);
+                    } else {
+                        // Default to first version if no preference saved
+                        const defaultVersion = versionButtons[0].getAttribute('data-version');
+                        switchToVersion(defaultVersion, false);
+                    }
+                }, 100);
                 
                 // Run once on initial load
                 setTimeout(updateAnchorsInContent, 200);

@@ -1,4 +1,4 @@
-# Liberty by Design: Governing a Human-Machine Society
+# Liberty by Design
 
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
 

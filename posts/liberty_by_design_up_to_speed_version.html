@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liberty by Design: Governing a Human-Machine Society [Up to speed version]</title>
+    <title>Liberty by Design</title>
     <!-- Google Fonts -->
     <style>
         /* Playfair Display font */
@@ -15,6 +15,7 @@
         :root {
             --font-size: 1.25rem;
             --bkg-color: rgb(22, 22, 22);
+            --mobile-overlay-position: 64%; /* Position for header overlay on mobile */
         }
 
         * {
@@ -375,20 +376,27 @@
             }
             
             .header-overlay {
-                transform: translateY(40%); /* Less overlap on mobile */
+                position: absolute;
+                bottom: auto;
+                top: var(--mobile-overlay-position); /* Position down from the top of header container */
                 padding: 1.5rem;
+                transform: translateY(0);
+                max-height: calc(100vh - 40px); /* Ensure content doesn't go below viewport */
+                overflow: auto; /* Add scrolling if needed */
             }
             
             .header-overlay:hover {
-                transform: translateY(40%); /* Maintain position on hover */
+                transform: translateY(0) scale(1.01);
             }
             
             .header-gradient {
-                height: 65%; /* Taller gradient on mobile */
+                height: 100%; /* Full gradient on mobile */
             }
             
             .chevron-down {
-                display: none; /* Hide chevron on mobile */
+                display: inline-block; /* Show chevron on mobile */
+                margin-top: 10px; /* Normal top margin */
+                margin-bottom: 10px; /* Add bottom margin */
             }
         }
         
@@ -400,10 +408,24 @@
             
             .header-subtitle {
                 font-size: 1rem;
+                margin-bottom: 0.25rem;
             }
             
             .header-overlay {
                 padding: 1rem;
+                top: var(--mobile-overlay-position); /* Maintain same positioning on smaller screens */
+            }
+            
+            .chevron-down {
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .chevron-down:after {
+                width: 8px;
+                height: 8px;
             }
         }
         
@@ -561,22 +583,30 @@
 <body>
     <!-- Feedback element for copy operations -->
     <div id="copy-feedback" class="copy-feedback">Link copied to clipboard!</div>
-    <div class="header-container">
-        <div style="overflow-x: hidden; width: 100%;">
-            <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
-        </div>
-        <div class="header-gradient"></div>
-        <div class="header-overlay" id="header-clickable">
-            <h1 class="header-title">Liberty by Design</h1>
-            <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
-            <div class="chevron-down"></div>
+    <div class="above-the-folder">
+        <div class="header-container">
+            <div style="overflow-x: hidden; width: 100%;">
+                <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image">
+            </div>
+            <div class="header-gradient"></div>
+            <div class="header-overlay" id="header-clickable">
+                <h1 class="header-title">Liberty by Design</h1>
+                <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
+                <div class="chevron-down-container">
+                    <div class="chevron-down"></div>
+                </div>
+            </div>
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const headerClickable = document.getElementById('header-clickable');
+            const headerContainer = document.querySelector('.header-container');
+            const headerOverlay = document.querySelector('.header-overlay');
             const storyContent = document.querySelector('.description-block');
+            
+            // Scroll functionality
             if (storyContent) {
                 // Get position of the story content
                 const rect = storyContent.getBoundingClientRect();
@@ -587,6 +617,7 @@
             } else {
                 window.scrollTargetY = 0;
             }
+            console.log('Scroll target Y:', window.scrollTargetY);
             
             if (headerClickable && storyContent) {
                 headerClickable.addEventListener('click', function() {
@@ -605,7 +636,7 @@
     <div class="container">
         <div id="story">
 
-<h1 class="title-header">Liberty by Design: Governing a Human-Machine Society</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
+<h1 class="title-header">Liberty by Design</h1><div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <div class="pdf-download">
 <a download="" href="/liberty_by_design_up_to_speed_version.pdf" target="_blank">
 <span class="download-icon">📄</span> Download PDF version
