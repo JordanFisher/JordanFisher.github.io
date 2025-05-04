@@ -52,7 +52,7 @@ In order to be first, a company building AI may cut corners and take on more ris
 
 How do we solve AI Alignment? What AI Policies will push us to build aligned AIs? These are two incredibly important, unanswered questions. If you’re interested in these, I encourage you to read and engage in these discussions. We need more people helping with AI Alignment and AI Policy.
 
-But in this work we’ll focus on a final, third question: the question of governance of a human-machine society. While AI Policy focuses on what governance might lead to the safe creation of AI, we will focus on what governance we need _after_ : how do we govern a world that is built on and powered exclusively by machines?
+But in this work we’ll focus on a final, third question: the question of governance of a human-machine society. While AI Policy focuses on what governance might lead to the safe creation of AI, we will focus on what governance we need _after_ : how do we govern a world that is built on and powered exclusively by machines, even if a small number of humans sit atop that power?
 
 Imagine we succeed at building powerful AI. Imagine further that we succeed at ensuring it’s safe and aligned to its users. How then do we want a human-machine society to look? How _should_ it look, to protect our freedoms and liberties?
 
@@ -73,7 +73,7 @@ Our discussion will cover the following:
 
   * Societies that allow for freedom and maximum human flourishing aren’t easy to build.
   * Ours took thousands of years of trial and error and is still a work in progress.
-  * What allows a society to function depends strongly on the details of its members: us humans.
+  * What allows a society to function depends strongly on the details of its members: at the moment, this is us humans.
 
 
 
@@ -82,7 +82,7 @@ Our discussion will cover the following:
   * Automating our economy and government will completely change all of those details.
   * As those details change, all of the implicit guardrails we rely upon for checks and balances on power will be swept away.
   * For example, institutions often avoid illegal actions because their human employees refuse to accept grossly unethical work. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won’t exist.
-  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could decide to rest power for themselves.
+  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could easily seize power for themselves.
   * Today, companies, governments, and militaries all require human labor to continue functioning. Ultimate power rests with humans: if they choose to leave an institution, that institution will fail.
   * Once our institutions are automated, power may sit solely with the leaders of those institutions.
 
