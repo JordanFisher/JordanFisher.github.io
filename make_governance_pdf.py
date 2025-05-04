@@ -194,16 +194,17 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     chapter_number_clean = chapter_number.replace(':', '')
                     
                     latex_content += f"""\\clearpage
+{label_markup}
 \\vspace*{{1.5cm}}
 {{\\sffamily\\itshape\\small {chapter_number_clean}}}
 \\vspace{{-0.5cm}}
-\\section*{{\\huge {header_text}}}{label_markup}
+\\section*{{\\huge {header_text}}}
 \\vspace{{0.7cm}}
 
 """
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\clearpage\n\\vspace*{{1.5cm}}\n\\section*{{\\huge {header_text}}}{label_markup}\n\\vspace{{0.7cm}}\n\n"
+                    latex_content += f"\\clearpage\n{label_markup}\n\\vspace*{{1.5cm}}\n\\section*{{\\huge {header_text}}}\n\\vspace{{0.7cm}}\n\n"
                 
                 # Look for a description block right after this title
                 next_elem = element.find_next_sibling()
@@ -228,29 +229,30 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                     # Format chapter number without the colon
                     chapter_number_clean = chapter_number.replace(':', '')
                     
-                    latex_content += f"""{{\\sffamily\\itshape\\small {chapter_number_clean}}}
+                    latex_content += f"""{label_markup}
+{{\\sffamily\\itshape\\small {chapter_number_clean}}}
 \\vspace{{-0.5cm}}
-\\section*{{{header_text}}}{label_markup}
+\\section*{{{header_text}}}
 \\vspace{{0.5cm}}
 
 """
                 else:
                     header_text = process_inline_elements(element, story_div=story_div)
-                    latex_content += f"\\vspace{{1.1cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+                    latex_content += f"{label_markup}\n\\vspace{{1.1cm}}\n\\section*{{{header_text}}}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h2':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
             
             header_text = process_inline_elements(element, story_div=story_div)
-            latex_content += f"\\needspace{{3\\baselineskip}}\\vspace{{0.1cm}}\n\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+            latex_content += f"{label_markup}\n\\needspace{{3\\baselineskip}}\\vspace{{0.1cm}}\n\\subsection*{{{header_text}}}\n\\vspace{{0.3cm}}\n\n"
         elif element.name == 'h3':
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
             
             header_text = process_inline_elements(element, story_div=story_div)
-            latex_content += f"\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
+            latex_content += f"{label_markup}\n\\needspace{{2\\baselineskip}}\n\\subsubsection*{{{header_text}}}\n\\vspace{{0.2cm}}\n\n"
         elif element.name == 'p':
             # Check if this paragraph contains an image container
             img_container = element.find('div', class_='image-container')
@@ -427,21 +429,21 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                         
                         # Handle h1 elements (similar to above, but simplified)
                         header_text = process_inline_elements(child, story_div=story_div)
-                        latex_content += f"\\vspace{{1.1cm}}\n\\section*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+                        latex_content += f"{label_markup}\n\\vspace{{1.1cm}}\n\\section*{{{header_text}}}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h2':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
                         
                         header_text = process_inline_elements(child, story_div=story_div)
-                        latex_content += f"\\vspace{{0.1cm}}\\subsection*{{{header_text}}}{label_markup}\n\\vspace{{0.3cm}}\n\n"
+                        latex_content += f"{label_markup}\n\\vspace{{0.1cm}}\n\\subsection*{{{header_text}}}\n\\vspace{{0.3cm}}\n\n"
                     elif child.name == 'h3':
                         # Get the ID for label if available
                         element_id = child.get('id', '')
                         label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
                         
                         header_text = process_inline_elements(child, story_div=story_div)
-                        latex_content += f"\\subsubsection*{{{header_text}}}{label_markup}\n\\vspace{{0.2cm}}\n\n"
+                        latex_content += f"{label_markup}\n\\subsubsection*{{{header_text}}}\n\\vspace{{0.2cm}}\n\n"
                     elif child.name == 'p':
                         para_content = process_inline_elements(child, story_div=story_div)
                         latex_content += para_content + "\n\n"
