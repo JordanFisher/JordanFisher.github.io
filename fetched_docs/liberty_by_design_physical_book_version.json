@@ -1,5 +1,5 @@
 {
-  "title": "Liberty by Design [Full version]",
+  "title": "Liberty by Design [Book version]",
   "body": {
     "content": [
       {
@@ -95,12 +95,225 @@
       },
       {
         "startIndex": 211,
-        "endIndex": 232,
+        "endIndex": 220,
         "paragraph": {
           "elements": [
             {
               "startIndex": 211,
-              "endIndex": 232,
+              "endIndex": 220,
+              "textRun": {
+                "content": "Apologia\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.2r4xr1epuix6",
+            "namedStyleType": "TITLE",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 220,
+        "endIndex": 221,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 220,
+              "endIndex": 221,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 221,
+        "endIndex": 354,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 221,
+              "endIndex": 292,
+              "textRun": {
+                "content": "This is currently a draft. If you\u2019re reading this, please reach out to ",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 292,
+              "endIndex": 316,
+              "textRun": {
+                "content": "jordan.efisher@gmail.com",
+                "textStyle": {
+                  "bold": true,
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "mailto:jordan.efisher@gmail.com"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 316,
+              "endIndex": 354,
+              "textRun": {
+                "content": " if you have comments or suggestions!\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 354,
+        "endIndex": 355,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 354,
+              "endIndex": 355,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 355,
+        "endIndex": 430,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 355,
+              "endIndex": 392,
+              "textRun": {
+                "content": "Or leave comments on the draft here: ",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 392,
+              "endIndex": 429,
+              "textRun": {
+                "content": "https://tinyurl.com/liberty-by-design",
+                "textStyle": {
+                  "bold": true,
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://tinyurl.com/liberty-by-design"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 429,
+              "endIndex": 430,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 430,
+        "endIndex": 431,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 430,
+              "endIndex": 431,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 431,
+        "endIndex": 432,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 431,
+              "endIndex": 432,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 432,
+        "endIndex": 453,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 432,
+              "endIndex": 453,
               "textRun": {
                 "content": "Welcome to the curve\n",
                 "textStyle": {}
@@ -115,13 +328,13 @@
         }
       },
       {
-        "startIndex": 232,
-        "endIndex": 753,
+        "startIndex": 453,
+        "endIndex": 974,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 232,
-              "endIndex": 753,
+              "startIndex": 453,
+              "endIndex": 974,
               "textRun": {
                 "content": "100,000 years ago, humanity was born. Despite being slower and weaker than almost every predator on Earth, humans rapidly became the apex predator across the entire planet. One thing set us apart: our intelligence. We wielded it directly as a weapon, to outsmart our prey when we hunted them. We wielded it to design even better weapons, to kill our prey faster, and with less risk to ourselves. And we wielded it to create the processes of science and technology and industry, that let our intelligence build on itself.\n",
                 "textStyle": {}
@@ -135,13 +348,13 @@
         }
       },
       {
-        "startIndex": 753,
-        "endIndex": 754,
+        "startIndex": 974,
+        "endIndex": 975,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 753,
-              "endIndex": 754,
+              "startIndex": 974,
+              "endIndex": 975,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -155,13 +368,13 @@
         }
       },
       {
-        "startIndex": 754,
-        "endIndex": 1180,
+        "startIndex": 975,
+        "endIndex": 1401,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 754,
-              "endIndex": 1180,
+              "startIndex": 975,
+              "endIndex": 1401,
               "textRun": {
                 "content": "Generation after generation, our intelligence has built on itself and let us spread across the planet. We\u2019ve invented incredible layers of technology, one on top of the other, each capitalizing on what came before to reach new heights. And our ability to create these layers has itself accelerated: there\u2019s been more progress in the last 100 years than the last 1,000 before that. All thanks to the power of our intelligence.\n",
                 "textStyle": {}
@@ -175,13 +388,13 @@
         }
       },
       {
-        "startIndex": 1180,
-        "endIndex": 1181,
+        "startIndex": 1401,
+        "endIndex": 1402,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1180,
-              "endIndex": 1181,
+              "startIndex": 1401,
+              "endIndex": 1402,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -195,13 +408,13 @@
         }
       },
       {
-        "startIndex": 1181,
-        "endIndex": 1501,
+        "startIndex": 1402,
+        "endIndex": 1722,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1181,
-              "endIndex": 1501,
+              "startIndex": 1402,
+              "endIndex": 1722,
               "textRun": {
                 "content": "We\u2019ve heaped up our accomplishments like a ziggurat toward the heavens \u2014 and the capstone to the tower is now in our hands. The very thing that we used to build the tower is what we\u2019ll place on top of it: intelligence itself, but this time an intelligence created by mankind, rather than the intelligence gifted to us. \n",
                 "textStyle": {}
@@ -215,13 +428,13 @@
         }
       },
       {
-        "startIndex": 1501,
-        "endIndex": 1502,
+        "startIndex": 1722,
+        "endIndex": 1723,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1501,
-              "endIndex": 1502,
+              "startIndex": 1722,
+              "endIndex": 1723,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -235,13 +448,13 @@
         }
       },
       {
-        "startIndex": 1502,
-        "endIndex": 1530,
+        "startIndex": 1723,
+        "endIndex": 1751,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1502,
-              "endIndex": 1530,
+              "startIndex": 1723,
+              "endIndex": 1751,
               "textRun": {
                 "content": "An artificial intelligence.\n",
                 "textStyle": {}
@@ -255,13 +468,13 @@
         }
       },
       {
-        "startIndex": 1530,
-        "endIndex": 1531,
+        "startIndex": 1751,
+        "endIndex": 1752,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1530,
-              "endIndex": 1531,
+              "startIndex": 1751,
+              "endIndex": 1752,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -275,13 +488,13 @@
         }
       },
       {
-        "startIndex": 1531,
-        "endIndex": 1668,
+        "startIndex": 1752,
+        "endIndex": 1889,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1531,
-              "endIndex": 1668,
+              "startIndex": 1752,
+              "endIndex": 1889,
               "textRun": {
                 "content": "For the first time in history, our creations will wield the same ultimate power that we do. The same power that launched us to the apex.\n",
                 "textStyle": {}
@@ -295,13 +508,13 @@
         }
       },
       {
-        "startIndex": 1668,
-        "endIndex": 1669,
+        "startIndex": 1889,
+        "endIndex": 1890,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1668,
-              "endIndex": 1669,
+              "startIndex": 1889,
+              "endIndex": 1890,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -315,13 +528,13 @@
         }
       },
       {
-        "startIndex": 1669,
-        "endIndex": 1776,
+        "startIndex": 1890,
+        "endIndex": 1997,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1669,
-              "endIndex": 1776,
+              "startIndex": 1890,
+              "endIndex": 1997,
               "textRun": {
                 "content": "For the second time in history, there will come to be a new intelligence great enough to master the world.\n",
                 "textStyle": {}
@@ -335,13 +548,13 @@
         }
       },
       {
-        "startIndex": 1776,
-        "endIndex": 1777,
+        "startIndex": 1997,
+        "endIndex": 1998,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1776,
-              "endIndex": 1777,
+              "startIndex": 1997,
+              "endIndex": 1998,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -355,13 +568,13 @@
         }
       },
       {
-        "startIndex": 1777,
-        "endIndex": 1985,
+        "startIndex": 1998,
+        "endIndex": 2206,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1777,
-              "endIndex": 1985,
+              "startIndex": 1998,
+              "endIndex": 2206,
               "textRun": {
                 "content": "This new intelligence will think faster than us and scale faster than us. It will help us push forward in every direction, including science and technology. The curve of progress will accelerate even faster.\n",
                 "textStyle": {}
@@ -375,13 +588,13 @@
         }
       },
       {
-        "startIndex": 1985,
-        "endIndex": 1986,
+        "startIndex": 2206,
+        "endIndex": 2207,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1985,
-              "endIndex": 1986,
+              "startIndex": 2206,
+              "endIndex": 2207,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -395,13 +608,13 @@
         }
       },
       {
-        "startIndex": 1986,
-        "endIndex": 2201,
+        "startIndex": 2207,
+        "endIndex": 2422,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1986,
-              "endIndex": 2201,
+              "startIndex": 2207,
+              "endIndex": 2422,
               "textRun": {
                 "content": "As we stand on the curve, looking out, how can we prepare for what happens next? How can we ensure what comes is our choice: an intentional layer on top of the tower, that will let us keep building into the future?\n",
                 "textStyle": {}
@@ -415,13 +628,13 @@
         }
       },
       {
-        "startIndex": 2201,
-        "endIndex": 2202,
+        "startIndex": 2422,
+        "endIndex": 2423,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2201,
-              "endIndex": 2202,
+              "startIndex": 2422,
+              "endIndex": 2423,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -435,13 +648,13 @@
         }
       },
       {
-        "startIndex": 2202,
-        "endIndex": 2493,
+        "startIndex": 2423,
+        "endIndex": 2714,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2202,
-              "endIndex": 2493,
+              "startIndex": 2423,
+              "endIndex": 2714,
               "textRun": {
                 "content": "If we want to control our future, there are many questions to answer. In this work we\u2019ll focus on how our human governance needs to adjust to a world fully powered by machines. But there are many other important questions we won\u2019t address. Two of those questions are particularly important:\n",
                 "textStyle": {}
@@ -455,13 +668,13 @@
         }
       },
       {
-        "startIndex": 2493,
-        "endIndex": 2494,
+        "startIndex": 2714,
+        "endIndex": 2715,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2493,
-              "endIndex": 2494,
+              "startIndex": 2714,
+              "endIndex": 2715,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -475,13 +688,13 @@
         }
       },
       {
-        "startIndex": 2494,
-        "endIndex": 2665,
+        "startIndex": 2715,
+        "endIndex": 2886,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2494,
-              "endIndex": 2665,
+              "startIndex": 2715,
+              "endIndex": 2886,
               "textRun": {
                 "content": "Can we determine how to maintain control over AIs that are smarter than us? And can we ensure companies and nations build AI responsibly, so that only safe AIs are built?\n",
                 "textStyle": {}
@@ -495,13 +708,13 @@
         }
       },
       {
-        "startIndex": 2665,
-        "endIndex": 2666,
+        "startIndex": 2886,
+        "endIndex": 2887,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2665,
-              "endIndex": 2666,
+              "startIndex": 2886,
+              "endIndex": 2887,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -515,13 +728,13 @@
         }
       },
       {
-        "startIndex": 2666,
-        "endIndex": 2726,
+        "startIndex": 2887,
+        "endIndex": 2947,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2666,
-              "endIndex": 2726,
+              "startIndex": 2887,
+              "endIndex": 2947,
               "textRun": {
                 "content": "The first question is studied in the field of AI Alignment:\n",
                 "textStyle": {}
@@ -535,13 +748,13 @@
         }
       },
       {
-        "startIndex": 2726,
-        "endIndex": 2727,
+        "startIndex": 2947,
+        "endIndex": 2948,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2726,
-              "endIndex": 2727,
+              "startIndex": 2947,
+              "endIndex": 2948,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -555,21 +768,21 @@
         }
       },
       {
-        "startIndex": 2727,
-        "endIndex": 3113,
+        "startIndex": 2948,
+        "endIndex": 3334,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2727,
-              "endIndex": 3024,
+              "startIndex": 2948,
+              "endIndex": 3245,
               "textRun": {
                 "content": "Today, we don\u2019t know how AIs work. Even though we are their creators, we don\u2019t understand how they think. We only partially know how to control them. It\u2019s relatively harmless to have AIs you can\u2019t perfectly control when those AIs are weaker than you, like an angry house cat that might murder you ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 3024,
-              "endIndex": 3046,
+              "startIndex": 3245,
+              "endIndex": 3267,
               "textRun": {
                 "content": "if only it were bigger",
                 "textStyle": {
@@ -578,8 +791,8 @@
               }
             },
             {
-              "startIndex": 3046,
-              "endIndex": 3113,
+              "startIndex": 3267,
+              "endIndex": 3334,
               "textRun": {
                 "content": ". But soon, AIs will be much bigger \u2014much smarter\u2014 than all of us.\n",
                 "textStyle": {}
@@ -593,13 +806,13 @@
         }
       },
       {
-        "startIndex": 3113,
-        "endIndex": 3114,
+        "startIndex": 3334,
+        "endIndex": 3335,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3113,
-              "endIndex": 3114,
+              "startIndex": 3334,
+              "endIndex": 3335,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -613,13 +826,13 @@
         }
       },
       {
-        "startIndex": 3114,
-        "endIndex": 3332,
+        "startIndex": 3335,
+        "endIndex": 3553,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3114,
-              "endIndex": 3332,
+              "startIndex": 3335,
+              "endIndex": 3553,
               "textRun": {
                 "content": "Many prominent leaders building the most advanced AIs think we will have AI greater than all of humanity combined by the end of the decade. We don\u2019t yet know how we\u2019ll control AI once it exceeds us, and time is short.\n",
                 "textStyle": {}
@@ -633,13 +846,13 @@
         }
       },
       {
-        "startIndex": 3332,
-        "endIndex": 3333,
+        "startIndex": 3553,
+        "endIndex": 3554,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3332,
-              "endIndex": 3333,
+              "startIndex": 3553,
+              "endIndex": 3554,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -653,13 +866,13 @@
         }
       },
       {
-        "startIndex": 3333,
-        "endIndex": 3392,
+        "startIndex": 3554,
+        "endIndex": 3613,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3333,
-              "endIndex": 3392,
+              "startIndex": 3554,
+              "endIndex": 3613,
               "textRun": {
                 "content": "The second question is explored in the field of AI Policy:\n",
                 "textStyle": {}
@@ -673,13 +886,13 @@
         }
       },
       {
-        "startIndex": 3392,
-        "endIndex": 3393,
+        "startIndex": 3613,
+        "endIndex": 3614,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3392,
-              "endIndex": 3393,
+              "startIndex": 3613,
+              "endIndex": 3614,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -693,13 +906,13 @@
         }
       },
       {
-        "startIndex": 3393,
-        "endIndex": 3915,
+        "startIndex": 3614,
+        "endIndex": 4136,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3393,
-              "endIndex": 3915,
+              "startIndex": 3614,
+              "endIndex": 4136,
               "textRun": {
                 "content": "The economic value of AI is extreme. Once AIs surpass humans at intellectual labor, the AI economy will by default exceed the entire value of the human economy. Because of that, there is currently an incredible race to build AI. Hundreds of billions of dollars is being invested to win this race. Whoever succeeds will capture trillions in value, and possibly a seat at the table that determines humanity\u2019s future. And the amazing pace of this race leaves little room for careful considerations like safety and alignment.\n",
                 "textStyle": {}
@@ -713,13 +926,13 @@
         }
       },
       {
-        "startIndex": 3915,
-        "endIndex": 3916,
+        "startIndex": 4136,
+        "endIndex": 4137,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3915,
-              "endIndex": 3916,
+              "startIndex": 4136,
+              "endIndex": 4137,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -733,13 +946,13 @@
         }
       },
       {
-        "startIndex": 3916,
-        "endIndex": 4528,
+        "startIndex": 4137,
+        "endIndex": 4749,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3916,
-              "endIndex": 4528,
+              "startIndex": 4137,
+              "endIndex": 4749,
               "textRun": {
                 "content": "In order to be first, a company building AI may cut corners and take on more risk than the rest of humanity might like. AI Policy seeks to set the regulations and incentives such that we prevent these types of decisions. And the race doesn\u2019t just exist between AI companies, it also exists between nations. The US and China are already racing to be first to create powerful AI. The future balance of geopolitical power may lie in the outcome. AI Policy seeks to ensure both that the race is won by democratic countries, but also to defuse the race and allow for international collaboration toward safe outcomes.\n",
                 "textStyle": {}
@@ -753,13 +966,13 @@
         }
       },
       {
-        "startIndex": 4528,
-        "endIndex": 4529,
+        "startIndex": 4749,
+        "endIndex": 4750,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4528,
-              "endIndex": 4529,
+              "startIndex": 4749,
+              "endIndex": 4750,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -773,13 +986,13 @@
         }
       },
       {
-        "startIndex": 4529,
-        "endIndex": 4818,
+        "startIndex": 4750,
+        "endIndex": 5039,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4529,
-              "endIndex": 4818,
+              "startIndex": 4750,
+              "endIndex": 5039,
               "textRun": {
                 "content": "How do we solve AI Alignment? What AI Policies will push us to build aligned AIs? These are two incredibly important, unanswered questions. If you\u2019re interested in these, I encourage you to read and engage in these discussions. We need more people helping with AI Alignment and AI Policy.\n",
                 "textStyle": {}
@@ -793,13 +1006,13 @@
         }
       },
       {
-        "startIndex": 4818,
-        "endIndex": 4819,
+        "startIndex": 5039,
+        "endIndex": 5040,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4818,
-              "endIndex": 4819,
+              "startIndex": 5039,
+              "endIndex": 5040,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -813,21 +1026,21 @@
         }
       },
       {
-        "startIndex": 4819,
-        "endIndex": 5140,
+        "startIndex": 5040,
+        "endIndex": 5415,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4819,
-              "endIndex": 5054,
+              "startIndex": 5040,
+              "endIndex": 5275,
               "textRun": {
                 "content": "But in this work we\u2019ll focus on a final, third question: the question of governance of a human-machine society. While AI Policy focuses on what governance might lead to the safe creation of AI, we will focus on what governance we need ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5054,
-              "endIndex": 5059,
+              "startIndex": 5275,
+              "endIndex": 5280,
               "textRun": {
                 "content": "after",
                 "textStyle": {
@@ -836,10 +1049,48 @@
               }
             },
             {
-              "startIndex": 5059,
-              "endIndex": 5140,
+              "startIndex": 5280,
+              "endIndex": 5336,
               "textRun": {
-                "content": ": how do we govern a world that is built on and powered exclusively by machines?\n",
+                "content": ": how do we govern a world that is built on and powered ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5336,
+              "endIndex": 5348,
+              "textRun": {
+                "content": "exclusively ",
+                "suggestedDeletionIds": [
+                  "suggest.nfd26wjgn62g"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5348,
+              "endIndex": 5359,
+              "textRun": {
+                "content": "by machines",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5359,
+              "endIndex": 5413,
+              "textRun": {
+                "content": ", even if a small number of humans sit atop that power",
+                "suggestedInsertionIds": [
+                  "suggest.q27gp444cr4"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 5413,
+              "endIndex": 5415,
+              "textRun": {
+                "content": "?\n",
                 "textStyle": {}
               }
             }
@@ -851,13 +1102,13 @@
         }
       },
       {
-        "startIndex": 5140,
-        "endIndex": 5141,
+        "startIndex": 5415,
+        "endIndex": 5416,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5140,
-              "endIndex": 5141,
+              "startIndex": 5415,
+              "endIndex": 5416,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -871,21 +1122,21 @@
         }
       },
       {
-        "startIndex": 5141,
-        "endIndex": 5377,
+        "startIndex": 5416,
+        "endIndex": 5652,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5141,
-              "endIndex": 5322,
+              "startIndex": 5416,
+              "endIndex": 5597,
               "textRun": {
                 "content": "Imagine we succeed at building powerful AI. Imagine further that we succeed at ensuring it\u2019s safe and aligned to its users. How then do we want a human-machine society to look? How ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 5322,
-              "endIndex": 5328,
+              "startIndex": 5597,
+              "endIndex": 5603,
               "textRun": {
                 "content": "should",
                 "textStyle": {
@@ -894,8 +1145,8 @@
               }
             },
             {
-              "startIndex": 5328,
-              "endIndex": 5377,
+              "startIndex": 5603,
+              "endIndex": 5652,
               "textRun": {
                 "content": " it look, to protect our freedoms and liberties?\n",
                 "textStyle": {}
@@ -909,13 +1160,13 @@
         }
       },
       {
-        "startIndex": 5377,
-        "endIndex": 5378,
+        "startIndex": 5652,
+        "endIndex": 5653,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5377,
-              "endIndex": 5378,
+              "startIndex": 5652,
+              "endIndex": 5653,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -929,13 +1180,13 @@
         }
       },
       {
-        "startIndex": 5378,
-        "endIndex": 5776,
+        "startIndex": 5653,
+        "endIndex": 6051,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5378,
-              "endIndex": 5776,
+              "startIndex": 5653,
+              "endIndex": 6051,
               "textRun": {
                 "content": "Corporations will adopt AI to automate themselves and enhance their efficiency. Governments will do the same. In fact, this is already happening. Once this process is complete, how will we exert influence on these institutions when we are no longer the force powering them? In what ways can we upgrade these institutions so that they continue to represent us, even once we aren't embedded in them?\n",
                 "textStyle": {}
@@ -949,13 +1200,13 @@
         }
       },
       {
-        "startIndex": 5776,
-        "endIndex": 5777,
+        "startIndex": 6051,
+        "endIndex": 6052,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5776,
-              "endIndex": 5777,
+              "startIndex": 6051,
+              "endIndex": 6052,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -969,13 +1220,13 @@
         }
       },
       {
-        "startIndex": 5777,
-        "endIndex": 6090,
+        "startIndex": 6052,
+        "endIndex": 6365,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 5777,
-              "endIndex": 6090,
+              "startIndex": 6052,
+              "endIndex": 6365,
               "textRun": {
                 "content": "We'll explore this core question of governance, the extent of what's at stake, and how we might fortify democracy for the human-machine age. And we\u2019ll analyze and discuss explicit enhancements to our checks and balances that we hope will offset the loss of implicit guardrails that currently keep democracy safe.\n",
                 "textStyle": {}
@@ -989,13 +1240,13 @@
         }
       },
       {
-        "startIndex": 6090,
-        "endIndex": 6091,
+        "startIndex": 6365,
+        "endIndex": 6366,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6090,
-              "endIndex": 6091,
+              "startIndex": 6365,
+              "endIndex": 6366,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1009,13 +1260,13 @@
         }
       },
       {
-        "startIndex": 6091,
-        "endIndex": 6132,
+        "startIndex": 6366,
+        "endIndex": 6407,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6091,
-              "endIndex": 6132,
+              "startIndex": 6366,
+              "endIndex": 6407,
               "textRun": {
                 "content": "Our discussion will cover the following:\n",
                 "textStyle": {}
@@ -1029,13 +1280,13 @@
         }
       },
       {
-        "startIndex": 6132,
-        "endIndex": 6133,
+        "startIndex": 6407,
+        "endIndex": 6408,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6132,
-              "endIndex": 6133,
+              "startIndex": 6407,
+              "endIndex": 6408,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1049,13 +1300,13 @@
         }
       },
       {
-        "startIndex": 6133,
-        "endIndex": 6135,
+        "startIndex": 6408,
+        "endIndex": 6410,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6133,
-              "endIndex": 6134,
+              "startIndex": 6408,
+              "endIndex": 6409,
               "richLink": {
                 "richLinkId": "kix.ir4z9erlk7h4",
                 "textStyle": {},
@@ -1067,8 +1318,8 @@
               }
             },
             {
-              "startIndex": 6134,
-              "endIndex": 6135,
+              "startIndex": 6409,
+              "endIndex": 6410,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1083,13 +1334,13 @@
         }
       },
       {
-        "startIndex": 6135,
-        "endIndex": 6238,
+        "startIndex": 6410,
+        "endIndex": 6513,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6135,
-              "endIndex": 6238,
+              "startIndex": 6410,
+              "endIndex": 6513,
               "textRun": {
                 "content": "Machines have now reached human intelligence in many domains, and will soon surpass us in most others.\n",
                 "textStyle": {}
@@ -1115,13 +1366,13 @@
         }
       },
       {
-        "startIndex": 6238,
-        "endIndex": 6377,
+        "startIndex": 6513,
+        "endIndex": 6652,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6238,
-              "endIndex": 6377,
+              "startIndex": 6513,
+              "endIndex": 6652,
               "textRun": {
                 "content": "If we understand why this progress is accelerating, we will be able to better design how we want to integrate machines into human society.\n",
                 "textStyle": {}
@@ -1149,13 +1400,13 @@
         }
       },
       {
-        "startIndex": 6377,
-        "endIndex": 6378,
+        "startIndex": 6652,
+        "endIndex": 6653,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6377,
-              "endIndex": 6378,
+              "startIndex": 6652,
+              "endIndex": 6653,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1169,13 +1420,13 @@
         }
       },
       {
-        "startIndex": 6378,
-        "endIndex": 6380,
+        "startIndex": 6653,
+        "endIndex": 6655,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6378,
-              "endIndex": 6379,
+              "startIndex": 6653,
+              "endIndex": 6654,
               "richLink": {
                 "richLinkId": "kix.aokw84aslxo0",
                 "textStyle": {},
@@ -1187,8 +1438,8 @@
               }
             },
             {
-              "startIndex": 6379,
-              "endIndex": 6380,
+              "startIndex": 6654,
+              "endIndex": 6655,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1203,13 +1454,13 @@
         }
       },
       {
-        "startIndex": 6380,
-        "endIndex": 6465,
+        "startIndex": 6655,
+        "endIndex": 6740,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6380,
-              "endIndex": 6465,
+              "startIndex": 6655,
+              "endIndex": 6740,
               "textRun": {
                 "content": "Societies that allow for freedom and maximum human flourishing aren\u2019t easy to build.\n",
                 "textStyle": {}
@@ -1235,13 +1486,13 @@
         }
       },
       {
-        "startIndex": 6465,
-        "endIndex": 6546,
+        "startIndex": 6740,
+        "endIndex": 6821,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6465,
-              "endIndex": 6546,
+              "startIndex": 6740,
+              "endIndex": 6821,
               "textRun": {
                 "content": "Ours took thousands of years of trial and error and is still a work in progress.\n",
                 "textStyle": {}
@@ -1267,15 +1518,34 @@
         }
       },
       {
-        "startIndex": 6546,
-        "endIndex": 6639,
+        "startIndex": 6821,
+        "endIndex": 6937,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6546,
-              "endIndex": 6639,
+              "startIndex": 6821,
+              "endIndex": 6903,
               "textRun": {
-                "content": "What allows a society to function depends strongly on the details of its members: us humans.\n",
+                "content": "What allows a society to function depends strongly on the details of its members: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 6903,
+              "endIndex": 6926,
+              "textRun": {
+                "content": "at the moment, this is ",
+                "suggestedInsertionIds": [
+                  "suggest.z77t9rms1t1i"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 6926,
+              "endIndex": 6937,
+              "textRun": {
+                "content": "us humans.\n",
                 "textStyle": {}
               }
             }
@@ -1299,13 +1569,13 @@
         }
       },
       {
-        "startIndex": 6639,
-        "endIndex": 6640,
+        "startIndex": 6937,
+        "endIndex": 6938,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6639,
-              "endIndex": 6640,
+              "startIndex": 6937,
+              "endIndex": 6938,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1319,13 +1589,13 @@
         }
       },
       {
-        "startIndex": 6640,
-        "endIndex": 6642,
+        "startIndex": 6938,
+        "endIndex": 6940,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6640,
-              "endIndex": 6641,
+              "startIndex": 6938,
+              "endIndex": 6939,
               "richLink": {
                 "richLinkId": "kix.xhmewqocnqev",
                 "textStyle": {},
@@ -1337,8 +1607,8 @@
               }
             },
             {
-              "startIndex": 6641,
-              "endIndex": 6642,
+              "startIndex": 6939,
+              "endIndex": 6940,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1353,13 +1623,13 @@
         }
       },
       {
-        "startIndex": 6642,
-        "endIndex": 6725,
+        "startIndex": 6940,
+        "endIndex": 7023,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6642,
-              "endIndex": 6725,
+              "startIndex": 6940,
+              "endIndex": 7023,
               "textRun": {
                 "content": "Automating our economy and government will completely change all of those details.\n",
                 "textStyle": {}
@@ -1385,13 +1655,13 @@
         }
       },
       {
-        "startIndex": 6725,
-        "endIndex": 6847,
+        "startIndex": 7023,
+        "endIndex": 7145,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6725,
-              "endIndex": 6847,
+              "startIndex": 7023,
+              "endIndex": 7145,
               "textRun": {
                 "content": "As those details change, all of the implicit guardrails we rely upon for checks and balances on power will be swept away.\n",
                 "textStyle": {}
@@ -1417,13 +1687,13 @@
         }
       },
       {
-        "startIndex": 6847,
-        "endIndex": 7175,
+        "startIndex": 7145,
+        "endIndex": 7473,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 6847,
-              "endIndex": 7175,
+              "startIndex": 7145,
+              "endIndex": 7473,
               "textRun": {
                 "content": "For example, institutions often avoid illegal actions because their human employees refuse to accept grossly unethical work. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won\u2019t exist.\n",
                 "textStyle": {}
@@ -1451,13 +1721,13 @@
         }
       },
       {
-        "startIndex": 7175,
-        "endIndex": 7537,
+        "startIndex": 7473,
+        "endIndex": 7835,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7175,
-              "endIndex": 7537,
+              "startIndex": 7473,
+              "endIndex": 7835,
               "textRun": {
                 "content": "If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could easily seize power for themselves.\n",
                 "textStyle": {}
@@ -1483,13 +1753,13 @@
         }
       },
       {
-        "startIndex": 7537,
-        "endIndex": 7734,
+        "startIndex": 7835,
+        "endIndex": 8032,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7537,
-              "endIndex": 7734,
+              "startIndex": 7835,
+              "endIndex": 8032,
               "textRun": {
                 "content": "Today, companies, governments, and militaries all require human labor to continue functioning. Ultimate power rests with humans: if they choose to leave an institution, that institution will fail.\n",
                 "textStyle": {}
@@ -1515,13 +1785,13 @@
         }
       },
       {
-        "startIndex": 7734,
-        "endIndex": 7832,
+        "startIndex": 8032,
+        "endIndex": 8130,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7734,
-              "endIndex": 7832,
+              "startIndex": 8032,
+              "endIndex": 8130,
               "textRun": {
                 "content": "Once our institutions are automated, power may sit solely with the leaders of those institutions.\n",
                 "textStyle": {}
@@ -1549,13 +1819,13 @@
         }
       },
       {
-        "startIndex": 7832,
-        "endIndex": 7833,
+        "startIndex": 8130,
+        "endIndex": 8131,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7832,
-              "endIndex": 7833,
+              "startIndex": 8130,
+              "endIndex": 8131,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1575,13 +1845,13 @@
         }
       },
       {
-        "startIndex": 7833,
-        "endIndex": 7835,
+        "startIndex": 8131,
+        "endIndex": 8133,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7833,
-              "endIndex": 7834,
+              "startIndex": 8131,
+              "endIndex": 8132,
               "richLink": {
                 "richLinkId": "kix.100jbxus78bn",
                 "textStyle": {},
@@ -1593,8 +1863,8 @@
               }
             },
             {
-              "startIndex": 7834,
-              "endIndex": 7835,
+              "startIndex": 8132,
+              "endIndex": 8133,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1609,13 +1879,13 @@
         }
       },
       {
-        "startIndex": 7835,
-        "endIndex": 8005,
+        "startIndex": 8133,
+        "endIndex": 8303,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7835,
-              "endIndex": 8005,
+              "startIndex": 8133,
+              "endIndex": 8303,
               "textRun": {
                 "content": "Gradually, and then all at once, we will enter a world where implicit checks on power are impotent. Will our remaining explicit checks on power be sufficient guardrails?\n",
                 "textStyle": {}
@@ -1643,13 +1913,13 @@
         }
       },
       {
-        "startIndex": 8005,
-        "endIndex": 8111,
+        "startIndex": 8303,
+        "endIndex": 8409,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8005,
-              "endIndex": 8111,
+              "startIndex": 8303,
+              "endIndex": 8409,
               "textRun": {
                 "content": "We\u2019ll argue that automation will make the task of seizing power substantially easier, and more rewarding.\n",
                 "textStyle": {}
@@ -1677,13 +1947,13 @@
         }
       },
       {
-        "startIndex": 8111,
-        "endIndex": 8265,
+        "startIndex": 8409,
+        "endIndex": 8563,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8111,
-              "endIndex": 8265,
+              "startIndex": 8409,
+              "endIndex": 8563,
               "textRun": {
                 "content": "We don\u2019t know if our AIs will be aligned, but we already know that many human leaders are not. History is replete with leaders who seize and abuse power.\n",
                 "textStyle": {}
@@ -1709,13 +1979,13 @@
         }
       },
       {
-        "startIndex": 8265,
-        "endIndex": 8450,
+        "startIndex": 8563,
+        "endIndex": 8748,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8265,
-              "endIndex": 8450,
+              "startIndex": 8563,
+              "endIndex": 8748,
               "textRun": {
                 "content": "If we don\u2019t change course, human-powered tyranny may be the default outcome of a machine-powered world. And it will be increasingly hard for us to resist this tyranny the later we act.\n",
                 "textStyle": {}
@@ -1741,21 +2011,21 @@
         }
       },
       {
-        "startIndex": 8450,
-        "endIndex": 8569,
+        "startIndex": 8748,
+        "endIndex": 8867,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8450,
-              "endIndex": 8480,
+              "startIndex": 8748,
+              "endIndex": 8778,
               "textRun": {
                 "content": "We must evolve our governance ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8480,
-              "endIndex": 8486,
+              "startIndex": 8778,
+              "endIndex": 8784,
               "textRun": {
                 "content": "before",
                 "textStyle": {
@@ -1764,16 +2034,16 @@
               }
             },
             {
-              "startIndex": 8486,
-              "endIndex": 8562,
+              "startIndex": 8784,
+              "endIndex": 8860,
               "textRun": {
                 "content": " strong AI arrives, or we may not have any power left as citizens to fix it ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8562,
-              "endIndex": 8567,
+              "startIndex": 8860,
+              "endIndex": 8865,
               "textRun": {
                 "content": "after",
                 "textStyle": {
@@ -1782,16 +2052,16 @@
               }
             },
             {
-              "startIndex": 8567,
-              "endIndex": 8568,
+              "startIndex": 8865,
+              "endIndex": 8866,
               "textRun": {
                 "content": ".",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 8568,
-              "endIndex": 8569,
+              "startIndex": 8866,
+              "endIndex": 8867,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1819,13 +2089,13 @@
         }
       },
       {
-        "startIndex": 8569,
-        "endIndex": 8698,
+        "startIndex": 8867,
+        "endIndex": 8996,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8569,
-              "endIndex": 8698,
+              "startIndex": 8867,
+              "endIndex": 8996,
               "textRun": {
                 "content": "Humans alone won\u2019t be able to oversee leaders empowered by AI. As it stands, whoever controls AI will control nearly everything.\n",
                 "textStyle": {}
@@ -1851,13 +2121,13 @@
         }
       },
       {
-        "startIndex": 8698,
-        "endIndex": 8699,
+        "startIndex": 8996,
+        "endIndex": 8997,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8698,
-              "endIndex": 8699,
+              "startIndex": 8996,
+              "endIndex": 8997,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1877,13 +2147,13 @@
         }
       },
       {
-        "startIndex": 8699,
-        "endIndex": 8701,
+        "startIndex": 8997,
+        "endIndex": 8999,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8699,
-              "endIndex": 8700,
+              "startIndex": 8997,
+              "endIndex": 8998,
               "richLink": {
                 "richLinkId": "kix.zajmq4mjnwic",
                 "textStyle": {},
@@ -1895,8 +2165,8 @@
               }
             },
             {
-              "startIndex": 8700,
-              "endIndex": 8701,
+              "startIndex": 8998,
+              "endIndex": 8999,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1911,13 +2181,13 @@
         }
       },
       {
-        "startIndex": 8701,
-        "endIndex": 8777,
+        "startIndex": 8999,
+        "endIndex": 9075,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8701,
-              "endIndex": 8777,
+              "startIndex": 8999,
+              "endIndex": 9075,
               "textRun": {
                 "content": "The forces and incentives are already at play to further concentrate power.\n",
                 "textStyle": {}
@@ -1945,13 +2215,13 @@
         }
       },
       {
-        "startIndex": 8777,
-        "endIndex": 8876,
+        "startIndex": 9075,
+        "endIndex": 9174,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8777,
-              "endIndex": 8876,
+              "startIndex": 9075,
+              "endIndex": 9174,
               "textRun": {
                 "content": "We can\u2019t predict how all those forces will play out, but we can think through different scenarios.\n",
                 "textStyle": {}
@@ -1979,13 +2249,13 @@
         }
       },
       {
-        "startIndex": 8876,
-        "endIndex": 9024,
+        "startIndex": 9174,
+        "endIndex": 9322,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8876,
-              "endIndex": 9024,
+              "startIndex": 9174,
+              "endIndex": 9322,
               "textRun": {
                 "content": "Here we\u2019ll explore a short story walking down our current path, and how it leads to an unrecoverable concentration of power and the end of liberty.\n",
                 "textStyle": {}
@@ -2013,13 +2283,13 @@
         }
       },
       {
-        "startIndex": 9024,
-        "endIndex": 9195,
+        "startIndex": 9322,
+        "endIndex": 9493,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9024,
-              "endIndex": 9195,
+              "startIndex": 9322,
+              "endIndex": 9493,
               "textRun": {
                 "content": "The future will almost surely play out differently, in one of a million possible paths. We need to set the conditions so that the future is bright regardless of the path.\n",
                 "textStyle": {}
@@ -2047,13 +2317,13 @@
         }
       },
       {
-        "startIndex": 9195,
-        "endIndex": 9196,
+        "startIndex": 9493,
+        "endIndex": 9494,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9195,
-              "endIndex": 9196,
+              "startIndex": 9493,
+              "endIndex": 9494,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2073,13 +2343,13 @@
         }
       },
       {
-        "startIndex": 9196,
-        "endIndex": 9198,
+        "startIndex": 9494,
+        "endIndex": 9496,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9196,
-              "endIndex": 9197,
+              "startIndex": 9494,
+              "endIndex": 9495,
               "richLink": {
                 "richLinkId": "kix.hrgt8i1xq89j",
                 "textStyle": {},
@@ -2091,8 +2361,8 @@
               }
             },
             {
-              "startIndex": 9197,
-              "endIndex": 9198,
+              "startIndex": 9495,
+              "endIndex": 9496,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2107,13 +2377,13 @@
         }
       },
       {
-        "startIndex": 9198,
-        "endIndex": 9253,
+        "startIndex": 9496,
+        "endIndex": 9551,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9198,
-              "endIndex": 9253,
+              "startIndex": 9496,
+              "endIndex": 9551,
               "textRun": {
                 "content": "So what should we do? What should those conditions be?\n",
                 "textStyle": {}
@@ -2141,13 +2411,13 @@
         }
       },
       {
-        "startIndex": 9253,
-        "endIndex": 9369,
+        "startIndex": 9551,
+        "endIndex": 9667,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9253,
-              "endIndex": 9369,
+              "startIndex": 9551,
+              "endIndex": 9667,
               "textRun": {
                 "content": "How can we upgrade our society and governance to be resilient to the multitude of forces pushing us toward tyranny?\n",
                 "textStyle": {}
@@ -2175,13 +2445,13 @@
         }
       },
       {
-        "startIndex": 9369,
-        "endIndex": 9479,
+        "startIndex": 9667,
+        "endIndex": 9777,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9369,
-              "endIndex": 9479,
+              "startIndex": 9667,
+              "endIndex": 9777,
               "textRun": {
                 "content": "We must leverage AI itself to become part of the checks and balances on how government and industry wield AI.\n",
                 "textStyle": {}
@@ -2207,13 +2477,13 @@
         }
       },
       {
-        "startIndex": 9479,
-        "endIndex": 9686,
+        "startIndex": 9777,
+        "endIndex": 9984,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9479,
-              "endIndex": 9686,
+              "startIndex": 9777,
+              "endIndex": 9984,
               "textRun": {
                 "content": "Passing laws is necessary but not sufficient. An executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don\u2019t also upgrade our oversight and enforcement.\n",
                 "textStyle": {}
@@ -2239,13 +2509,13 @@
         }
       },
       {
-        "startIndex": 9686,
-        "endIndex": 9855,
+        "startIndex": 9984,
+        "endIndex": 10153,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9686,
-              "endIndex": 9855,
+              "startIndex": 9984,
+              "endIndex": 10153,
               "textRun": {
                 "content": "We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions.\n",
                 "textStyle": {}
@@ -2271,13 +2541,13 @@
         }
       },
       {
-        "startIndex": 9855,
-        "endIndex": 9856,
+        "startIndex": 10153,
+        "endIndex": 10154,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9855,
-              "endIndex": 9856,
+              "startIndex": 10153,
+              "endIndex": 10154,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2297,13 +2567,13 @@
         }
       },
       {
-        "startIndex": 9856,
-        "endIndex": 9858,
+        "startIndex": 10154,
+        "endIndex": 10156,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9856,
-              "endIndex": 9857,
+              "startIndex": 10154,
+              "endIndex": 10155,
               "richLink": {
                 "richLinkId": "kix.893ct75mx727",
                 "textStyle": {},
@@ -2315,8 +2585,8 @@
               }
             },
             {
-              "startIndex": 9857,
-              "endIndex": 9858,
+              "startIndex": 10155,
+              "endIndex": 10156,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2331,13 +2601,13 @@
         }
       },
       {
-        "startIndex": 9858,
-        "endIndex": 9961,
+        "startIndex": 10156,
+        "endIndex": 10259,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9858,
-              "endIndex": 9961,
+              "startIndex": 10156,
+              "endIndex": 10259,
               "textRun": {
                 "content": "We should think through and imagine how things may go wrong, to better design a more resilient system.\n",
                 "textStyle": {}
@@ -2365,13 +2635,13 @@
         }
       },
       {
-        "startIndex": 9961,
-        "endIndex": 10069,
+        "startIndex": 10259,
+        "endIndex": 10367,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 9961,
-              "endIndex": 10069,
+              "startIndex": 10259,
+              "endIndex": 10367,
               "textRun": {
                 "content": "But we should also imagine how things might go right, to ensure we\u2019re building a future we want to live in.\n",
                 "textStyle": {}
@@ -2399,13 +2669,13 @@
         }
       },
       {
-        "startIndex": 10069,
-        "endIndex": 10214,
+        "startIndex": 10367,
+        "endIndex": 10512,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10069,
-              "endIndex": 10214,
+              "startIndex": 10367,
+              "endIndex": 10512,
               "textRun": {
                 "content": "Here we\u2019ll illustrate a positive, near future by telling a short story of how things might go well, assuming we upgrade our checks and balances.\n",
                 "textStyle": {}
@@ -2433,13 +2703,13 @@
         }
       },
       {
-        "startIndex": 10214,
-        "endIndex": 10390,
+        "startIndex": 10512,
+        "endIndex": 10688,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10214,
-              "endIndex": 10390,
+              "startIndex": 10512,
+              "endIndex": 10688,
               "textRun": {
                 "content": "A positive future will surely play out differently than we expect, even if things go well. But we must set a vision of what good looks like so we know what we\u2019re fighting for.\n",
                 "textStyle": {}
@@ -2467,13 +2737,13 @@
         }
       },
       {
-        "startIndex": 10390,
-        "endIndex": 10585,
+        "startIndex": 10688,
+        "endIndex": 10883,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10390,
-              "endIndex": 10585,
+              "startIndex": 10688,
+              "endIndex": 10883,
               "textRun": {
                 "content": "Moreover, we should plan for the worst. We should assume that one day we'll elect a would-be tyrant. The governance we design today should be so robust that even then our democracy would stand. \n",
                 "textStyle": {}
@@ -2501,13 +2771,13 @@
         }
       },
       {
-        "startIndex": 10585,
-        "endIndex": 10586,
+        "startIndex": 10883,
+        "endIndex": 10884,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10585,
-              "endIndex": 10586,
+              "startIndex": 10883,
+              "endIndex": 10884,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2527,13 +2797,13 @@
         }
       },
       {
-        "startIndex": 10586,
-        "endIndex": 10588,
+        "startIndex": 10884,
+        "endIndex": 10886,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10586,
-              "endIndex": 10587,
+              "startIndex": 10884,
+              "endIndex": 10885,
               "richLink": {
                 "richLinkId": "kix.yecu66oguftv",
                 "textStyle": {},
@@ -2545,8 +2815,8 @@
               }
             },
             {
-              "startIndex": 10587,
-              "endIndex": 10588,
+              "startIndex": 10885,
+              "endIndex": 10886,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2561,13 +2831,13 @@
         }
       },
       {
-        "startIndex": 10588,
-        "endIndex": 10658,
+        "startIndex": 10886,
+        "endIndex": 10956,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10588,
-              "endIndex": 10658,
+              "startIndex": 10886,
+              "endIndex": 10956,
               "textRun": {
                 "content": "The discussion around AI policy has rapidly become politically coded.\n",
                 "textStyle": {}
@@ -2593,13 +2863,13 @@
         }
       },
       {
-        "startIndex": 10658,
-        "endIndex": 10764,
+        "startIndex": 10956,
+        "endIndex": 11062,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10658,
-              "endIndex": 10764,
+              "startIndex": 10956,
+              "endIndex": 11062,
               "textRun": {
                 "content": "Adopting all the policies of the left, or all of the policies of the right, will likely lead to disaster.\n",
                 "textStyle": {}
@@ -2627,13 +2897,13 @@
         }
       },
       {
-        "startIndex": 10764,
-        "endIndex": 10834,
+        "startIndex": 11062,
+        "endIndex": 11132,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10764,
-              "endIndex": 10834,
+              "startIndex": 11062,
+              "endIndex": 11132,
               "textRun": {
                 "content": "If we only regulate and slow down AI, we will cede the race to China.\n",
                 "textStyle": {}
@@ -2661,13 +2931,13 @@
         }
       },
       {
-        "startIndex": 10834,
-        "endIndex": 11021,
+        "startIndex": 11132,
+        "endIndex": 11319,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 10834,
-              "endIndex": 11021,
+              "startIndex": 11132,
+              "endIndex": 11319,
               "textRun": {
                 "content": "If we only automate our military and the executive branch, without also upgrading our checks and balances, we will hand so much power over to our leaders that we may never be free again.\n",
                 "textStyle": {}
@@ -2695,13 +2965,13 @@
         }
       },
       {
-        "startIndex": 11021,
-        "endIndex": 11237,
+        "startIndex": 11319,
+        "endIndex": 11535,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11021,
-              "endIndex": 11237,
+              "startIndex": 11319,
+              "endIndex": 11535,
               "textRun": {
                 "content": "Instead, we must modernize our government and military to remain the dominant superpower, and we must simultaneously upgrade the oversight and safeguards that prevent abuse of this incredible concentration of power.\n",
                 "textStyle": {}
@@ -2727,21 +2997,21 @@
         }
       },
       {
-        "startIndex": 11237,
-        "endIndex": 11387,
+        "startIndex": 11535,
+        "endIndex": 11685,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11237,
-              "endIndex": 11386,
+              "startIndex": 11535,
+              "endIndex": 11684,
               "textRun": {
                 "content": "And while we must treat the race against China as existential, we must also look constantly for offramps toward deescalation and international peace.",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 11386,
-              "endIndex": 11387,
+              "startIndex": 11684,
+              "endIndex": 11685,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2769,13 +3039,13 @@
         }
       },
       {
-        "startIndex": 11387,
-        "endIndex": 11388,
+        "startIndex": 11685,
+        "endIndex": 11686,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11387,
-              "endIndex": 11388,
+              "startIndex": 11685,
+              "endIndex": 11686,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2795,13 +3065,13 @@
         }
       },
       {
-        "startIndex": 11388,
-        "endIndex": 11390,
+        "startIndex": 11686,
+        "endIndex": 11688,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11388,
-              "endIndex": 11389,
+              "startIndex": 11686,
+              "endIndex": 11687,
               "richLink": {
                 "richLinkId": "kix.bq2g3ksnxt3",
                 "textStyle": {},
@@ -2813,8 +3083,8 @@
               }
             },
             {
-              "startIndex": 11389,
-              "endIndex": 11390,
+              "startIndex": 11687,
+              "endIndex": 11688,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2829,13 +3099,13 @@
         }
       },
       {
-        "startIndex": 11390,
-        "endIndex": 11610,
+        "startIndex": 11688,
+        "endIndex": 11908,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11390,
-              "endIndex": 11610,
+              "startIndex": 11688,
+              "endIndex": 11908,
               "textRun": {
                 "content": "Intelligence is the most transformative power the world has ever seen. Until today, that power has been human alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won\u2019t be human.\n",
                 "textStyle": {}
@@ -2863,13 +3133,13 @@
         }
       },
       {
-        "startIndex": 11610,
-        "endIndex": 11750,
+        "startIndex": 11908,
+        "endIndex": 12048,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11610,
-              "endIndex": 11750,
+              "startIndex": 11908,
+              "endIndex": 12048,
               "textRun": {
                 "content": "The force of multiplied intelligence completely rewrites the rules of our world. With it we may see near infinite abundance, or total ruin.\n",
                 "textStyle": {}
@@ -2897,13 +3167,13 @@
         }
       },
       {
-        "startIndex": 11750,
-        "endIndex": 11829,
+        "startIndex": 12048,
+        "endIndex": 12127,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11750,
-              "endIndex": 11829,
+              "startIndex": 12048,
+              "endIndex": 12127,
               "textRun": {
                 "content": "We are on the exponential now. Where will it take us? We must decide together.\n",
                 "textStyle": {}
@@ -2931,13 +3201,13 @@
         }
       },
       {
-        "startIndex": 11829,
-        "endIndex": 11970,
+        "startIndex": 12127,
+        "endIndex": 12268,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11829,
-              "endIndex": 11970,
+              "startIndex": 12127,
+              "endIndex": 12268,
               "textRun": {
                 "content": "AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be.\n",
                 "textStyle": {}
@@ -2963,13 +3233,13 @@
         }
       },
       {
-        "startIndex": 11970,
-        "endIndex": 12106,
+        "startIndex": 12268,
+        "endIndex": 12404,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 11970,
-              "endIndex": 12106,
+              "startIndex": 12268,
+              "endIndex": 12404,
               "textRun": {
                 "content": "If we don\u2019t together lead this debate \u2014all of us\u2014 then the most important decisions of the future of our world will be made without us.\n",
                 "textStyle": {}
@@ -2995,13 +3265,13 @@
         }
       },
       {
-        "startIndex": 12106,
-        "endIndex": 12107,
+        "startIndex": 12404,
+        "endIndex": 12405,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12106,
-              "endIndex": 12107,
+              "startIndex": 12404,
+              "endIndex": 12405,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3015,21 +3285,21 @@
         }
       },
       {
-        "startIndex": 12107,
-        "endIndex": 12221,
+        "startIndex": 12405,
+        "endIndex": 12519,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12107,
-              "endIndex": 12172,
+              "startIndex": 12405,
+              "endIndex": 12470,
               "textRun": {
                 "content": "For those looking for a primer on AI, we recommend starting with ",
                 "textStyle": {}
               }
             },
             {
-              "startIndex": 12172,
-              "endIndex": 12173,
+              "startIndex": 12470,
+              "endIndex": 12471,
               "richLink": {
                 "richLinkId": "kix.d37qvoh4shcf",
                 "textStyle": {},
@@ -3041,8 +3311,8 @@
               }
             },
             {
-              "startIndex": 12173,
-              "endIndex": 12221,
+              "startIndex": 12471,
+              "endIndex": 12519,
               "textRun": {
                 "content": ". For everyone else, I\u2019ll see you on the curve.\n",
                 "textStyle": {}
@@ -3056,13 +3326,13 @@
         }
       },
       {
-        "startIndex": 12221,
-        "endIndex": 12222,
+        "startIndex": 12519,
+        "endIndex": 12520,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12221,
-              "endIndex": 12222,
+              "startIndex": 12519,
+              "endIndex": 12520,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3076,13 +3346,13 @@
         }
       },
       {
-        "startIndex": 12222,
-        "endIndex": 12238,
+        "startIndex": 12520,
+        "endIndex": 12536,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12222,
-              "endIndex": 12238,
+              "startIndex": 12520,
+              "endIndex": 12536,
               "textRun": {
                 "content": "TABLEOFCONTENTS\n",
                 "textStyle": {}
@@ -3096,13 +3366,13 @@
         }
       },
       {
-        "startIndex": 12238,
-        "endIndex": 12239,
+        "startIndex": 12536,
+        "endIndex": 12537,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12238,
-              "endIndex": 12239,
+              "startIndex": 12536,
+              "endIndex": 12537,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3122,13 +3392,13 @@
         }
       },
       {
-        "startIndex": 12239,
-        "endIndex": 12241,
+        "startIndex": 12537,
+        "endIndex": 12539,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12239,
-              "endIndex": 12240,
+              "startIndex": 12537,
+              "endIndex": 12538,
               "richLink": {
                 "richLinkId": "kix.o8hnqj7z6ouo",
                 "textStyle": {},
@@ -3140,8 +3410,8 @@
               }
             },
             {
-              "startIndex": 12240,
-              "endIndex": 12241,
+              "startIndex": 12538,
+              "endIndex": 12539,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3156,13 +3426,13 @@
         }
       },
       {
-        "startIndex": 12241,
-        "endIndex": 12243,
+        "startIndex": 12539,
+        "endIndex": 12541,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12241,
-              "endIndex": 12242,
+              "startIndex": 12539,
+              "endIndex": 12540,
               "richLink": {
                 "richLinkId": "kix.d1w7uvkyb7eb",
                 "textStyle": {},
@@ -3174,8 +3444,8 @@
               }
             },
             {
-              "startIndex": 12242,
-              "endIndex": 12243,
+              "startIndex": 12540,
+              "endIndex": 12541,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3190,13 +3460,13 @@
         }
       },
       {
-        "startIndex": 12243,
-        "endIndex": 12245,
+        "startIndex": 12541,
+        "endIndex": 12543,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12243,
-              "endIndex": 12244,
+              "startIndex": 12541,
+              "endIndex": 12542,
               "richLink": {
                 "richLinkId": "kix.d13l8vjd64z6",
                 "textStyle": {},
@@ -3208,8 +3478,8 @@
               }
             },
             {
-              "startIndex": 12244,
-              "endIndex": 12245,
+              "startIndex": 12542,
+              "endIndex": 12543,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3224,13 +3494,13 @@
         }
       },
       {
-        "startIndex": 12245,
-        "endIndex": 12247,
+        "startIndex": 12543,
+        "endIndex": 12545,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12245,
-              "endIndex": 12246,
+              "startIndex": 12543,
+              "endIndex": 12544,
               "richLink": {
                 "richLinkId": "kix.9v4yo89cvb0h",
                 "textStyle": {},
@@ -3242,8 +3512,8 @@
               }
             },
             {
-              "startIndex": 12246,
-              "endIndex": 12247,
+              "startIndex": 12544,
+              "endIndex": 12545,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3258,13 +3528,13 @@
         }
       },
       {
-        "startIndex": 12247,
-        "endIndex": 12249,
+        "startIndex": 12545,
+        "endIndex": 12547,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12247,
-              "endIndex": 12248,
+              "startIndex": 12545,
+              "endIndex": 12546,
               "richLink": {
                 "richLinkId": "kix.gd169zguikmk",
                 "textStyle": {},
@@ -3276,8 +3546,8 @@
               }
             },
             {
-              "startIndex": 12248,
-              "endIndex": 12249,
+              "startIndex": 12546,
+              "endIndex": 12547,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3292,13 +3562,13 @@
         }
       },
       {
-        "startIndex": 12249,
-        "endIndex": 12251,
+        "startIndex": 12547,
+        "endIndex": 12549,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12249,
-              "endIndex": 12250,
+              "startIndex": 12547,
+              "endIndex": 12548,
               "richLink": {
                 "richLinkId": "kix.sj80n8bllvz",
                 "textStyle": {},
@@ -3310,8 +3580,8 @@
               }
             },
             {
-              "startIndex": 12250,
-              "endIndex": 12251,
+              "startIndex": 12548,
+              "endIndex": 12549,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3326,13 +3596,13 @@
         }
       },
       {
-        "startIndex": 12251,
-        "endIndex": 12253,
+        "startIndex": 12549,
+        "endIndex": 12551,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12251,
-              "endIndex": 12252,
+              "startIndex": 12549,
+              "endIndex": 12550,
               "richLink": {
                 "richLinkId": "kix.xewhmpnsn2gc",
                 "textStyle": {},
@@ -3344,8 +3614,8 @@
               }
             },
             {
-              "startIndex": 12252,
-              "endIndex": 12253,
+              "startIndex": 12550,
+              "endIndex": 12551,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3360,13 +3630,13 @@
         }
       },
       {
-        "startIndex": 12253,
-        "endIndex": 12255,
+        "startIndex": 12551,
+        "endIndex": 12553,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12253,
-              "endIndex": 12254,
+              "startIndex": 12551,
+              "endIndex": 12552,
               "richLink": {
                 "richLinkId": "kix.ndhqb4cy71sl",
                 "textStyle": {},
@@ -3378,8 +3648,8 @@
               }
             },
             {
-              "startIndex": 12254,
-              "endIndex": 12255,
+              "startIndex": 12552,
+              "endIndex": 12553,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3394,13 +3664,13 @@
         }
       },
       {
-        "startIndex": 12255,
-        "endIndex": 12257,
+        "startIndex": 12553,
+        "endIndex": 12555,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12255,
-              "endIndex": 12256,
+              "startIndex": 12553,
+              "endIndex": 12554,
               "richLink": {
                 "richLinkId": "kix.dj6nxw6i1229",
                 "textStyle": {},
@@ -3412,8 +3682,8 @@
               }
             },
             {
-              "startIndex": 12256,
-              "endIndex": 12257,
+              "startIndex": 12554,
+              "endIndex": 12555,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3428,13 +3698,13 @@
         }
       },
       {
-        "startIndex": 12257,
-        "endIndex": 12258,
+        "startIndex": 12555,
+        "endIndex": 12556,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12257,
-              "endIndex": 12258,
+              "startIndex": 12555,
+              "endIndex": 12556,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3448,13 +3718,13 @@
         }
       },
       {
-        "startIndex": 12258,
-        "endIndex": 12259,
+        "startIndex": 12556,
+        "endIndex": 12557,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12258,
-              "endIndex": 12259,
+              "startIndex": 12556,
+              "endIndex": 12557,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3468,13 +3738,13 @@
         }
       },
       {
-        "startIndex": 12259,
-        "endIndex": 12260,
+        "startIndex": 12557,
+        "endIndex": 12558,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12259,
-              "endIndex": 12260,
+              "startIndex": 12557,
+              "endIndex": 12558,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3489,13 +3759,13 @@
         }
       },
       {
-        "startIndex": 12260,
-        "endIndex": 12269,
+        "startIndex": 12558,
+        "endIndex": 12567,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12260,
-              "endIndex": 12269,
+              "startIndex": 12558,
+              "endIndex": 12567,
               "textRun": {
                 "content": "Appendix\n",
                 "textStyle": {}
@@ -3510,13 +3780,13 @@
         }
       },
       {
-        "startIndex": 12269,
-        "endIndex": 12270,
+        "startIndex": 12567,
+        "endIndex": 12568,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12269,
-              "endIndex": 12270,
+              "startIndex": 12567,
+              "endIndex": 12568,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -3530,13 +3800,13 @@
         }
       },
       {
-        "startIndex": 12270,
-        "endIndex": 12272,
+        "startIndex": 12568,
+        "endIndex": 12570,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 12270,
-              "endIndex": 12271,
+              "startIndex": 12568,
+              "endIndex": 12569,
               "richLink": {
                 "richLinkId": "kix.8k7ulx88ksl1",
                 "textStyle": {},
@@ -3548,8 +3818,8 @@
               }
             },
             {
-              "startIndex": 12271,
-              "endIndex": 12272,
+              "startIndex": 12569,
+              "endIndex": 12570,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -5557,7 +5827,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LvyHqPVDAwoqY_otB51mn-Be8bOGfMd1wDzDHuDuNHgsGJTMV5u7QwdeLDy95RuF1JQrI4qBVhNTcJknQ",
+  "revisionId": "ALBJ4Lspj_-dyFOsDRrph5bJPx1wnzyYad6uzLCaGHN-2HtutDnPlL5EgJTUVuixYDzrBW0cSKkzPIcrIghmww",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
-  "documentId": "1hxjeF8IimYgvFNzCr9hugEILd9oz2kH4rEISnMlYCG4"
+  "documentId": "1-CifFI15IsW5fj4DvSrH9SmpKJbAELyeHTKCfdGT6rs"
 }

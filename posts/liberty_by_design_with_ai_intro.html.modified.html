@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liberty by Design</title>
-    <!-- Google Fonts -->
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Liberty by Design</title>
+<!-- Google Fonts -->
+<style>
         /* Playfair Display font */
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
         /* Montserrat font */
@@ -713,25 +714,24 @@
     </style>
 </head>
 <body>
-    <!-- Feedback element for copy operations -->
-    <div id="copy-feedback" class="copy-feedback">Link copied to clipboard!</div>
-    <div class="above-the-folder">
-        <div class="header-container">
-            <div style="overflow-x: hidden; width: 100%;">
-                <img src="liberty_by_design_header.png" alt="Liberty by Design Header" class="header-image" width="100%" height="auto" style="aspect-ratio: 1123/692;">
-            </div>
-            <div class="header-gradient"></div>
-            <div class="header-overlay" id="header-clickable">
-                <h1 class="header-title">Liberty by Design</h1>
-                <p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
-                <div class="chevron-down-container">
-                    <div class="chevron-down"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
+<!-- Feedback element for copy operations -->
+<div class="copy-feedback" id="copy-feedback">Link copied to clipboard!</div>
+<div class="above-the-folder">
+<div class="header-container">
+<div style="overflow-x: hidden; width: 100%;">
+<img alt="Liberty by Design Header" class="header-image" height="auto" src="liberty_by_design_header.png" style="aspect-ratio: 1123/692;" width="100%"/>
+</div>
+<div class="header-gradient"></div>
+<div class="header-overlay" id="header-clickable">
+<h1 class="header-title">Liberty by Design</h1>
+<p class="header-subtitle"><em>Governing a Human-Machine Society</em></p>
+<div class="chevron-down-container">
+<div class="chevron-down"></div>
+</div>
+</div>
+</div>
+</div>
+<script>
         document.addEventListener('DOMContentLoaded', function() {
             const headerClickable = document.getElementById('header-clickable');
             const headerContainer = document.querySelector('.header-container');
@@ -800,12 +800,11 @@
             }
         });
     </script>
-    <div class="container">
-        <div id="story">
-
+<div class="container">
+<div id="story">
 <div class="description-block"><p>There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?</p></div>
 <br/>
-<h1 class="title-header">Welcome to the curve</h1>
+<h1 class="title-header"></h1>
 <div class="pdf-download">
 <a download="" href="/liberty_by_design_with_ai_intro.pdf" target="_blank">
 <!-- <span class="download-icon">📄</span> Download PDF version -->
@@ -1236,30 +1235,26 @@
 <li><strong>Offense vs defense balance </strong>— when new technologies are introduced, they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it’s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. If you could predict how the balance would shift, it would likely influence your decision on many aspects of the technology, such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.</li>
 <li><strong>Robotics </strong>— today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically, this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily, this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.</li>
 </ul>
-
-        </div>
-        <div class="back-link">
-            <a href="/">&larr; Back</a>
-        </div>
-    </div>
-    
-    <!-- Hamburger menu and floating TOC -->
-    <div class="hamburger-container">
-        <div class="hamburger-button" id="toc-toggle">
-            <div class="hamburger-icon"></div>
-            <div class="hamburger-icon"></div>
-            <div class="hamburger-icon"></div>
-        </div>
-    </div>
-    
-    <div class="floating-toc table-of-contents" id="floating-toc">
-        <h2>Table of Contents</h2>
-        <div id="toc-content">
-            <!-- TOC will be generated here -->
-        </div>
-    </div>
-
-    <script>
+</div>
+<div class="back-link">
+<a href="/">← Back</a>
+</div>
+</div>
+<!-- Hamburger menu and floating TOC -->
+<div class="hamburger-container">
+<div class="hamburger-button" id="toc-toggle">
+<div class="hamburger-icon"></div>
+<div class="hamburger-icon"></div>
+<div class="hamburger-icon"></div>
+</div>
+</div>
+<div class="floating-toc table-of-contents" id="floating-toc">
+<h2>Table of Contents</h2>
+<div id="toc-content">
+<!-- TOC will be generated here -->
+</div>
+</div>
+<script>
     // Execute immediately instead of waiting for DOMContentLoaded
     (function() {
         // Function to add header links and generate table of contents
