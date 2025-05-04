@@ -15,18 +15,24 @@ class LatexDocument:
     content: str
     description: Optional[str] = None
     include_images: bool = False
+    template_type: str = "print"  # "print" or "mobile"
     
     def to_latex(self) -> str:
         """Generate a complete LaTeX document string using template file."""
-        template_path = os.path.join(os.path.dirname(__file__), "latex_templates", "pocket_book_template.tex")
+        # Select template based on template_type
+        if self.template_type == "mobile":
+            template_file = "mobile_template.tex"
+        else:  # Default to print template
+            template_file = "pocket_book_template.tex"
+            
+        template_path = os.path.join(os.path.dirname(__file__), "latex_templates", template_file)
         
         try:
             with open(template_path, "r") as f:
                 template = f.read()
         except FileNotFoundError:
-            # Fallback if template file is missing
-            print(f"Warning: Template file {template_path} not found. Using built-in template.")
-            return self._generate_fallback_template()
+            # Throw an exception if template file is missing
+            raise FileNotFoundError(f"Error: Template file {template_path} not found.")
             
         # Prepare description block with page break after
         description_block = ""
@@ -53,123 +59,7 @@ class LatexDocument:
         
         return latex
         
-    def _generate_fallback_template(self) -> str:
-        """Generate a fallback LaTeX document if template file is missing."""
-        latex = """\\documentclass[12pt,twoside]{book}
-
-% LaTeX engine detection
-\\usepackage{ifxetex}
-\\ifxetex
-  % XeTeX-specific settings for better Unicode support
-  \\usepackage{fontspec}
-  \\setmainfont{Times New Roman}
-  \\usepackage{xunicode}
-  \\usepackage{xltxtra}
-\\else
-  % pdfTeX settings
-  \\usepackage[utf8]{inputenc}
-  \\usepackage[T1]{fontenc}
-  \\usepackage{lmodern}
-  \\usepackage{textcomp}  % Extended text companion symbols
-  \\usepackage{upquote}   % Straight quotes in verbatim environments
-\\fi
-
-\\usepackage{microtype}
-\\usepackage{graphicx}
-\\usepackage{hyperref}
-\\usepackage{setspace}
-\\usepackage{parskip}
-\\usepackage{color}
-\\usepackage{soul}
-\\usepackage{titlesec}
-\\usepackage{mdframed}
-\\usepackage{xcolor}
-\\usepackage{needspace}
-\\usepackage{afterpage}
-\\usepackage{caption}
-\\usepackage{longtable}
-
-% Configure hyperref for better internal references
-\\hypersetup{
-  colorlinks=false,  % No colored links for print
-  pdfborder={0 0 0}, % Remove link borders
-  pdftitle={""" + self.title + """},
-  bookmarks=true,
-  pdfpagemode=FullScreen,
-}
-
-% A5 papersize
-\\usepackage[a5paper, inner=20mm, outer=10mm, top=15mm, bottom=15mm, twoside]{geometry}
-
-% Styling
-\\captionsetup{labelformat=empty}
-\\setstretch{1.15}
-\\setlength{\\parindent}{0pt}
-
-% Custom quote environment
-\\definecolor{quotecolor}{rgb}{0.4,0.4,0.4}
-\\definecolor{quotebackground}{rgb}{0.97,0.97,0.97}
-\\definecolor{quoteborder}{rgb}{0.85,0.85,0.85}
-
-\\newenvironment{fancyquote}{%
-  \\begin{mdframed}[
-    linecolor=quoteborder,
-    backgroundcolor=quotebackground,
-    linewidth=1pt,
-    leftmargin=0pt,
-    rightmargin=0pt,
-    innerleftmargin=10pt,
-    innerrightmargin=10pt,
-    innertopmargin=10pt,
-    innerbottommargin=10pt,
-    roundcorner=5pt
-  ]
-  \\color{quotecolor}
-  \\itshape
-}{%
-  \\end{mdframed}
-}
-
-\\title{""" + self.title + """}
-\\author{Jordan Ezra Fisher}
-\\date{\\today}
-
-\\begin{document}
-
-\\frontmatter
-\\maketitle
-\\thispagestyle{empty}
-"""
-        
-        # Add description as a styled quote with extra spacing if available
-        if self.description:
-            latex += """
-\\begin{center}
-\\vspace*{7cm}
-\\begin{fancyquote}
-""" + self.description + """
-\\end{fancyquote}
-\\vspace*{0.5cm}
-\\end{center}
-"""
-
-        latex += """
-\\mainmatter
-\\setcounter{page}{1}
-
-\\clearpage
-\\begin{center}
-\\vspace*{1cm}
-{\\Large\\bfseries """ + self.title + """}
-\\vspace*{1cm}
-\\end{center}
-
-""" + self.content + """
-
-\\end{document}
-"""
-        
-        return latex
+    # Method removed as we now throw an exception if the template is missing
 
 
 def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument:
@@ -903,50 +793,7 @@ def ensure_latex_templates_dir():
             print(f"Warning: Could not create templates directory: {e}")
     return templates_dir
 
-def merge_pdf_with_cover(original_pdf, cover_pdf, output_pdf):
-    """Merge a PDF with a custom cover and back page."""
-    try:
-        # Check if PyPDF2 is installed
-        import PyPDF2
-    except ImportError:
-        print("Error: PyPDF2 is not installed. Please install it using 'pip install PyPDF2'.")
-        return False
-    
-    try:
-        # Open the original PDF and the cover PDF
-        with open(original_pdf, 'rb') as pdf_file, open(cover_pdf, 'rb') as cover_file:
-            pdf_reader = PyPDF2.PdfReader(pdf_file)
-            cover_reader = PyPDF2.PdfReader(cover_file)
-            
-            # Create a new PDF writer
-            pdf_writer = PyPDF2.PdfWriter()
-            
-            # Add the cover page (first page of cover_pdf)
-            if len(cover_reader.pages) > 0:
-                pdf_writer.add_page(cover_reader.pages[0])
-            
-            # # Add all pages from the original PDF (except the first page)
-            # for page_num in range(1, len(pdf_reader.pages)):
-            #     pdf_writer.add_page(pdf_reader.pages[page_num])
-
-            # Add all pages from the original PDF (including the first page)
-            for page_num in range(len(pdf_reader.pages)):
-                pdf_writer.add_page(pdf_reader.pages[page_num])
-
-            # Add the back page (second page of cover_pdf)
-            if len(cover_reader.pages) > 1:
-                pdf_writer.add_page(cover_reader.pages[1])
-            
-            # Write the result to the output file
-            with open(output_pdf, 'wb') as output_file:
-                pdf_writer.write(output_file)
-            
-            print(f"Successfully created PDF with custom cover at {output_pdf}")
-            return True
-            
-    except Exception as e:
-        print(f"Error merging PDFs: {e}")
-        return False
+# Function has been removed as custom cover functionality is no longer needed
         
 def main():
     parser = argparse.ArgumentParser(description='Convert governance HTML to PDF')
@@ -960,24 +807,48 @@ def main():
                         help='Only regenerate PDF from existing LaTeX file, skip site and LaTeX generation')
     parser.add_argument('--local-only', action='store_true',
                         help='Use cached documents only without connecting to Google')
+    parser.add_argument('--mobile-only', action='store_true',
+                        help='Generate only the mobile version')
+    parser.add_argument('--print-only', action='store_true',
+                        help='Generate only the print version')
     args = parser.parse_args()
     
-    # Get the TeX filename from the output PDF filename
-    tex_filename = os.path.basename(args.output).replace('.pdf', '.tex')
+    # Determine which versions to generate
+    generate_print = not args.mobile_only
+    generate_mobile = not args.print_only
+    
+    # Get the output base name without extension for creating both formats
+    output_base = os.path.splitext(args.output)[0]
     
     # If pdf-only flag is set, skip site and LaTeX generation
     if args.pdf_only:
-        if not os.path.exists(tex_filename):
-            print(f"Error: LaTeX file {tex_filename} not found. Run without --pdf-only flag first.")
-            sys.exit(1)
-        
-        # Read existing LaTeX file
-        with open(tex_filename, 'r') as f:
-            latex_content = f.read()
+        if generate_print:
+            print_tex_filename = f"{output_base}.tex"
+            if not os.path.exists(print_tex_filename):
+                print(f"Error: LaTeX file {print_tex_filename} not found. Run without --pdf-only flag first.")
+                sys.exit(1)
             
-        # Convert LaTeX to PDF
-        print(f"Regenerating PDF from existing LaTeX file {tex_filename}...")
-        latex_to_pdf(latex_content, args.output)
+            # Read existing LaTeX file
+            with open(print_tex_filename, 'r') as f:
+                print_latex_content = f.read()
+                
+            # Convert LaTeX to PDF
+            print(f"Regenerating print PDF from existing LaTeX file {print_tex_filename}...")
+            latex_to_pdf(print_latex_content, f"{output_base}.pdf")
+            
+        if generate_mobile:
+            mobile_tex_filename = f"{output_base}_mobile.tex"
+            if not os.path.exists(mobile_tex_filename):
+                print(f"Error: LaTeX file {mobile_tex_filename} not found. Run without --pdf-only flag first.")
+                sys.exit(1)
+            
+            # Read existing LaTeX file
+            with open(mobile_tex_filename, 'r') as f:
+                mobile_latex_content = f.read()
+                
+            # Convert LaTeX to PDF
+            print(f"Regenerating mobile PDF from existing LaTeX file {mobile_tex_filename}...")
+            latex_to_pdf(mobile_latex_content, f"{output_base}_mobile.pdf")
     else:
         # Generate site first to ensure HTML files are up-to-date
         if not args.skip_site_generation:
@@ -1001,34 +872,53 @@ def main():
         
         # Convert HTML to LaTeX
         print(f"Converting {html_path} to LaTeX...")
-        latex_doc = html_to_latex(html_path, include_images=args.include_images)
+        latex_content_base = html_to_latex(html_path, include_images=args.include_images)
         
-        # Generate the LaTeX content
-        latex_content = latex_doc.to_latex()
+        # Generate print version
+        if generate_print:
+            print(f"Generating print version...")
+            print_latex_doc = LatexDocument(
+                title=latex_content_base.title,
+                content=latex_content_base.content,
+                description=latex_content_base.description,
+                include_images=latex_content_base.include_images,
+                template_type="print"
+            )
+            
+            # Generate the LaTeX content
+            print_latex_content = print_latex_doc.to_latex()
+            
+            # Write LaTeX to file
+            print_tex_filename = f"{output_base}.tex"
+            with open(print_tex_filename, 'w') as f:
+                f.write(print_latex_content)
+            
+            # Convert LaTeX to PDF
+            print(f"Converting print LaTeX to PDF...")
+            latex_to_pdf(print_latex_content, f"{output_base}.pdf")
         
-        # Write LaTeX to file with the same base name as the PDF
-        with open(tex_filename, 'w') as f:
-            f.write(latex_content)
-        
-        # Convert LaTeX to PDF
-        print(f"Converting LaTeX to PDF...")
-        latex_to_pdf(latex_content, args.output)
-    
-    # Always create a second version with custom cover
-    # Path to the cover PDF
-    # cover_pdf = os.path.join('liberty_by_design', 'cover_design_singularity_1.pdf')
-    cover_pdf = os.path.join('liberty_by_design', 'cover_design_liberty_2.pdf')    
-
-    if not os.path.exists(cover_pdf):
-        print(f"Error: Cover PDF {cover_pdf} not found.")
-        return
-    
-    # Generate output filename for the version with cover
-    output_with_cover = args.output.replace('.pdf', '_with_cover.pdf')
-    
-    # Merge the PDFs
-    print(f"Creating version with custom cover...")
-    merge_pdf_with_cover(args.output, cover_pdf, output_with_cover)
+        # Generate mobile version
+        if generate_mobile:
+            print(f"Generating mobile version...")
+            mobile_latex_doc = LatexDocument(
+                title=latex_content_base.title,
+                content=latex_content_base.content,
+                description=latex_content_base.description,
+                include_images=latex_content_base.include_images,
+                template_type="mobile"
+            )
+            
+            # Generate the LaTeX content
+            mobile_latex_content = mobile_latex_doc.to_latex()
+            
+            # Write LaTeX to file
+            mobile_tex_filename = f"{output_base}_mobile.tex"
+            with open(mobile_tex_filename, 'w') as f:
+                f.write(mobile_latex_content)
+            
+            # Convert LaTeX to PDF
+            print(f"Converting mobile LaTeX to PDF...")
+            latex_to_pdf(mobile_latex_content, f"{output_base}_mobile.pdf")
     
     # Modify the HTML file to empty the first h1 title-header
     html_path = os.path.join('posts', 'liberty_by_design.html')
