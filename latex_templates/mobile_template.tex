@@ -37,6 +37,8 @@
 \usepackage{microtype}    % Better typography
 \usepackage{graphicx}     % Image handling
 \usepackage{xcolor}       % Color management
+\usepackage{tikz}         % For full page image
+\usepackage{adjustbox}    % For advanced image sizing
 \usepackage{enumitem}     % Better lists
 \usepackage{caption}      % Caption handling
 \usepackage{mdframed}     % Framed environments
@@ -194,6 +196,17 @@
 \begin{document}
 
 \frontmatter
+
+% Full page cover image that fills the entire page (scaled 5% larger)
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture, overlay]
+  % Create a node that covers the entire page
+  \node[inner sep=0pt, anchor=center] at (current page.center) {
+    % Scale the image 5% larger than the page dimensions while maintaining aspect ratio
+    \includegraphics[width=1.05\paperwidth,height=1.05\paperheight,keepaspectratio]{liberty_by_design/cover_design_liberty_3.png}
+  };
+\end{tikzpicture}
+\clearpage
 
 % Custom title page with left-justified title matching the book template
 \thispagestyle{empty}
