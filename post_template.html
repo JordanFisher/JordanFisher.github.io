@@ -366,6 +366,69 @@
                 border-color: #444;
             }
         /* } */
+        
+        /* Hamburger menu and floating TOC */
+        .hamburger-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hamburger-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--bkg-color);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hamburger-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+        }
+        
+        .hamburger-icon {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 2px 0;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .floating-toc {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 280px;
+            max-width: 90vw;
+            max-height: 60vh;
+            overflow-y: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+        }
+        
+        .floating-toc.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
 
         /* Mobile adjustments */
         @media (max-width: 768px) {
@@ -675,19 +738,41 @@ POST
             <a href="/">&larr; Back</a>
         </div>
     </div>
+    
+    <!-- Hamburger menu and floating TOC -->
+    <div class="hamburger-container">
+        <div class="hamburger-button" id="toc-toggle">
+            <div class="hamburger-icon"></div>
+            <div class="hamburger-icon"></div>
+            <div class="hamburger-icon"></div>
+        </div>
+    </div>
+    
+    <div class="floating-toc table-of-contents" id="floating-toc">
+        <h2>Table of Contents</h2>
+        <div id="toc-content">
+            <!-- TOC will be generated here -->
+        </div>
+    </div>
 
     <script>
     // Execute immediately instead of waiting for DOMContentLoaded
     (function() {
-        // Function to add header links
-        function addHeaderLinks() {
+        // Function to add header links and generate table of contents
+        function initPage() {
             // Add anchor links to all headers
             const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
             const feedbackEl = document.getElementById('copy-feedback');
+            const tocContent = document.getElementById('toc-content');
+            const tocToggle = document.getElementById('toc-toggle');
+            const floatingToc = document.getElementById('floating-toc');
+            
+            // Create TOC list
+            const tocList = document.createElement('ul');
             
             headers.forEach(function(header) {
-                // Skip headers without ids
-                if (!header.id) {
+                // Skip headers without ids or in the header overlay
+                if (!header.id || header.closest('.header-overlay')) {
                     return;
                 }
                 
@@ -700,7 +785,7 @@ POST
                 // Add link to header
                 header.insertBefore(linkIcon, header.firstChild);
                 
-                // Add click handler
+                // Add click handler for copying link
                 header.addEventListener('click', function(e) {
                     // Get URL with hash
                     const url = window.location.href.split('#')[0] + '#' + header.id;
@@ -721,14 +806,52 @@ POST
                         feedbackEl.classList.remove('show');
                     }, 1500);
                 });
+                
+                // Add to TOC
+                const tocItem = document.createElement('li');
+                const tocLink = document.createElement('a');
+                tocLink.href = '#' + header.id;
+                tocLink.textContent = header.textContent.replace('🔗', '').trim();
+                
+                // Indent based on header level
+                const headerLevel = parseInt(header.tagName.charAt(1));
+                tocItem.style.marginLeft = ((headerLevel - 1) * 15) + 'px';
+                
+                tocItem.appendChild(tocLink);
+                tocList.appendChild(tocItem);
+                
+                // Add click handler for TOC links
+                tocLink.addEventListener('click', function(e) {
+                    // Hide the TOC after clicking a link
+                    floatingToc.classList.remove('active');
+                });
+            });
+            
+            // Add TOC to the page
+            if (tocList.children.length > 0) {
+                tocContent.appendChild(tocList);
+            } else {
+                tocContent.innerHTML = '<p>No headers found in this document.</p>';
+            }
+            
+            // Toggle TOC visibility
+            tocToggle.addEventListener('click', function() {
+                floatingToc.classList.toggle('active');
+            });
+            
+            // Close TOC when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!floatingToc.contains(e.target) && !tocToggle.contains(e.target)) {
+                    floatingToc.classList.remove('active');
+                }
             });
         }
         
         // Check if document is already loaded
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', addHeaderLinks);
+            document.addEventListener('DOMContentLoaded', initPage);
         } else {
-            addHeaderLinks();
+            initPage();
         }
     })();
     </script>
