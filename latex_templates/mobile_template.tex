@@ -1,0 +1,223 @@
+% Mobile-friendly LaTeX template
+% Based on pocket_book_template.tex, with mobile-optimized dimensions
+
+\documentclass[twoside,11pt]{memoir}
+
+% LaTeX engine detection
+\usepackage{iftex}
+\ifxetex
+  % XeTeX-specific settings for better Unicode support
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+  \usepackage{xunicode}
+  \usepackage{xltxtra}
+\else
+  % pdfTeX settings
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}  % Latin Modern fonts - widely available
+  \usepackage{textcomp}  % Extended text companion symbols
+  \usepackage{upquote}   % Straight quotes in verbatim environments
+\fi
+
+% Special handling for apostrophes in text mode
+\DeclareTextCommandDefault{\textasciiacute}{\symbol{"B4}}
+
+% Mobile-optimized dimensions - different from the print version
+\setstocksize{7in}{4in}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\setlrmarginsandblock{0.5in}{0.5in}{*}  % Left/right margins for mobile
+\setulmarginsandblock{0.5in}{0.7in}{*}  % Upper/lower margins for mobile
+\setheadfoot{5mm}{10mm}                % Smaller headheight for mobile
+\setheaderspaces{5mm}{*}{*}            % Explicit headspaces to avoid negative headsep
+\checkandfixthelayout
+
+% Core packages - same as pocket book
+\usepackage{microtype}    % Better typography
+\usepackage{graphicx}     % Image handling
+\usepackage{xcolor}       % Color management
+\usepackage{enumitem}     % Better lists
+\usepackage{caption}      % Caption handling
+\usepackage{mdframed}     % Framed environments
+\usepackage{titlesec}     % Section title formatting
+\usepackage{soul}         % Underline and highlighting
+\usepackage{ulem}         % Better strikethrough support
+\normalem                 % Ensure \emph still produces italics, not underline
+\usepackage{parskip}      % Better paragraph spacing
+
+% Configure hyperref for better internal references - mobile-optimized
+\usepackage[
+  linktocpage=true,
+  unicode=true,
+  bookmarks=true,
+  bookmarksnumbered=false,
+  bookmarksopen=false,
+  breaklinks=true,
+  pdfborder={0 0 1},
+  colorlinks=true,        % Colored links for better visibility on screens
+  linkcolor=blue,         % Link color
+  urlcolor=blue,          % URL color
+  citecolor=blue,         % Citation link color
+  hypertexnames=false,
+  pdfpagemode=UseOutlines, % Show bookmarks panel when opening
+  pdftitle={$title$},
+]{hyperref}
+
+% Page style setup - same as pocket book
+\makepagestyle{pocketbook}
+\makeoddhead{pocketbook}{}{}{}
+\makeevenhead{pocketbook}{}{}{}
+\newcommand{\myfooter}{\thepage}
+\makeevenfoot{pocketbook}{}{\myfooter}{}
+\makeoddfoot{pocketbook}{}{\myfooter}{}
+\pagestyle{pocketbook}
+
+% Plain page style modification
+\makeevenfoot{plain}{}{\myfooter}{}
+\makeoddfoot{plain}{}{\myfooter}{}
+
+% Chapter style
+\copypagestyle{chapter}{plain}
+\makeevenfoot{chapter}{}{\myfooter}{}
+\makeoddfoot{chapter}{}{\myfooter}{}
+
+% Part style
+\copypagestyle{part}{plain}
+\makeevenfoot{part}{}{}{}
+\makeoddfoot{part}{}{}{}
+
+% Chapter style customization (Tufte style)
+\makechapterstyle{Tufte}{
+  \renewcommand{\chapterheadstart}{\null \vskip3.0\onelineskip}
+  \renewcommand{\printchaptername}{\large\sffamily\itshape\chaptername}
+  \renewcommand{\printchapternum}{\LARGE\thechapter \\}
+  \renewcommand{\afterchapternum}{}
+  \renewcommand{\printchaptertitle}[1]{
+    \raggedright
+    \itshape\Huge{##1}}
+  \renewcommand{\afterchaptertitle}{
+    \vskip3.5\onelineskip
+  }
+}
+\chapterstyle{Tufte}
+
+% Section heading styles - same as pocket book
+\setsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\Large}
+\setbeforesecskip{1.5\onelineskip}
+\setaftersecskip{0.8\onelineskip}
+
+\setsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape\large}
+\setbeforesubsecskip{\onelineskip}
+\setaftersubsecskip{.65\onelineskip}
+
+\setsubsubsecheadstyle{\sethangfrom{\noindent ##1}\raggedright\sffamily\itshape}
+\setbeforesubsubsecskip{-.5\onelineskip}
+\setaftersubsubsecskip{.1\onelineskip}
+
+% Part style - same as pocket book
+\renewcommand{\partnamefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\partnumfont}{\sffamily\Huge}
+\renewcommand{\parttitlefont}{\centering\sffamily\scshape\Huge}
+\renewcommand{\beforepartskip}{\vspace*{\stretch{3}}}
+\renewcommand{\afterpartskip}{%
+  \vspace*{\stretch{4}}
+  \newpage%
+}
+
+% Customize TOC - same as pocket book
+\setlength{\cftbeforepartskip}{3ex}
+\setlength{\cftbeforechapterskip}{1.2ex}
+\setlength{\cftbeforesectionskip}{0.2ex}
+
+\cftsetindents{part}{0em}{1.8em}
+\cftsetindents{chapter}{0em}{1.8em}
+\cftsetindents{section}{1.8em}{2.2em}
+
+% Paragraph styling - same as pocket book
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{2ex}
+\midsloppy
+\raggedbottom
+
+% Define colors - modified for mobile
+\definecolor{quotecolor}{rgb}{0.25,0.25,0.25}
+\definecolor{quoteborder}{rgb}{0.6,0.6,0.6}
+\definecolor{links}{rgb}{0.0,0.0,0.8} % Blue links for screen reading
+
+% Custom quote environment - same as pocket book
+\newenvironment{fancyquote}{%
+  \begin{mdframed}[
+    topline=false,
+    rightline=false,
+    bottomline=false,
+    leftline=true,
+    linecolor=quoteborder,
+    linewidth=1.5pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    innerleftmargin=12pt,
+    innerrightmargin=0pt,
+    innertopmargin=6pt,
+    innerbottommargin=6pt,
+    backgroundcolor=white
+  ]
+  \color{quotecolor}
+  \sffamily\itshape
+}{%
+  \end{mdframed}
+}
+
+% Caption styling - same as pocket book
+\captiontitlefont{\itshape}
+\captionnamefont{}
+\newcommand{\likecaption}{\color{black}\itshape}
+\setlength{\abovecaptionskip}{3ex}
+\captionsetup{labelformat=empty}
+
+% Line spacing - same as pocket book
+\linespread{1.15}
+
+% Spacing and list configurations - same as pocket book
+\setlist[itemize]{leftmargin=12pt,itemindent=0pt,itemsep=2ex,labelindent=0pt,labelsep=8pt}
+\setlist[enumerate]{leftmargin=12pt,itemindent=0pt,itemsep=2ex,labelindent=0pt,labelsep=8pt}
+\setlist{nosep}
+
+% Title configuration
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\frontmatter
+
+% Custom title page with centered title for mobile
+\thispagestyle{empty}
+\begin{center}
+\vspace*{1.5cm}
+{\huge\sffamily\itshape Liberty by Design}\\[0.6cm]
+{\Large\sffamily\itshape Governing a Human-Machine Society}\\[1.5cm]
+{\large\sffamily\itshape Jordan Ezra Fisher}\\[0.3cm]
+\vfill
+{\small\sffamily\itshape \today}
+\end{center}
+
+% Description block for main document
+\begin{center}
+\vspace*{0.5cm}
+\begin{fancyquote}
+$main_description$
+\end{fancyquote}
+\vspace*{0.5cm}
+\end{center}
+
+\mainmatter
+\setcounter{page}{1}
+
+% Add table of contents for mobile
+\tableofcontents
+\clearpage
+
+$content$
+
+\end{document}
