@@ -182,8 +182,9 @@
 \setlength{\abovecaptionskip}{3ex}
 \captionsetup{labelformat=empty}
 
-% Preserve sans-serif for titles and headings
-\newcommand{\headingfont}{\sffamily}
+% Define heading font command to use Latin Modern Sans
+\DeclareRobustCommand{\lmssfamily}{\fontencoding{T1}\fontfamily{lmss}\selectfont}
+\newcommand{\headingfont}{\lmssfamily}
 
 % Line spacing - same as pocket book
 \linespread{1.15}

@@ -34,8 +34,9 @@
 \usepackage{needspace}
 \usepackage{afterpage}
 
-% Preserve sans-serif for titles and headings
-\newcommand{\headingfont}{\sffamily}
+% Define heading font command to use Latin Modern Sans
+\DeclareRobustCommand{\lmssfamily}{\fontencoding{T1}\fontfamily{lmss}\selectfont}
+\newcommand{\headingfont}{\lmssfamily}
 
 % Configure hyperref for better internal references
 \hypersetup{
