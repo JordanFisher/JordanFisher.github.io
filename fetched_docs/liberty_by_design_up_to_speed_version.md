@@ -8,33 +8,13 @@ There are many important conversations happening about AI. But we are missing on
 
 [ Download PDF version ](/liberty_by_design_up_to_speed_version.pdf)
 
-AI will soon disrupt every foundation our society is built upon. If we want to control our future, there are many questions to answer. In this work we’ll focus on how our human governance needs to adjust to a world fully powered by machines. But there are many other important questions we won’t address. Two of those questions are particularly important:
+The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up humanity, and ensure this new age that’s upon us is a noble one, not a dark one.
 
-Can we determine how to maintain control over AIs that are smarter than us? And can we ensure companies and nations build AI responsibly, so that only safe AIs are built?
-
-The first question is studied in the field of AI Alignment:
-
-Today, we don’t know how AIs work. Many prominent leaders building the most advanced AIs think we will have AI greater than all of humanity combined by the end of the decade. We don’t yet know how we’ll control AI once it exceeds us, and time is short.
-
-The second question is explored in the field of AI Policy:
-
-In order to be first, a company building AI may cut corners and take on more risk than the rest of humanity might like. AI Policy seeks to set the regulations and incentives such that we prevent these types of decisions. And the race doesn’t just exist between AI companies, it also exists between nations. The US and China are already racing to be first to create powerful AI. The future balance of geopolitical power may lie in the outcome. AI Policy seeks to ensure both that the race is won by democratic countries, but also to defuse the race and allow for international collaboration toward safe outcomes.
-
-How do we solve AI Alignment? What AI Policies will push us to build aligned AIs? These are two incredibly important, unanswered questions. If you’re interested in these, I encourage you to read and engage in these discussions. We urgently need more people helping with both.
-
-But in this work we’ll focus on a final, third question: the question of governance of a human-machine society. While AI Policy focuses on what governance might lead to the safe creation of AI, we will focus on what governance we need _after_ : how do we govern a world that is built on and powered exclusively by machines?
-
-Imagine we succeed at building powerful AI. Imagine further that we succeed at ensuring it’s safe and aligned to its users. How then do we want a human-machine society to look? How _should_ it look, to protect our freedoms and liberties?
-
-Corporations will adopt AI to automate themselves and enhance their efficiency. Governments will do the same. In fact, this is already happening. Once this process is complete, how will we exert influence on these institutions when we are no longer the force powering them? In what ways can we upgrade these institutions so that they continue to represent us, even once we aren't embedded in them?
-
-We'll explore this core question of governance, the extent of what's at stake, and how we might fortify democracy for the human-machine age. And we’ll analyze and discuss explicit enhancements to our checks and balances that we hope will offset the loss of implicit guardrails that currently keep democracy safe.
-
-Our discussion will cover the following:
+In this tiny book we’ll cover the basics:
 
 ## Chapter 1: Why AI is accelerating, and why we have little time left
 
-  * Machines have now reached human intelligence in many domains, and will soon surpass us in most others.
+  * Machines have now reached human intelligence in many domains, and will soon surpass humans in most others.
   * If we understand why this progress is accelerating, we will be able to better design how we want to integrate machines into human society.
 
 
@@ -42,17 +22,17 @@ Our discussion will cover the following:
 ## Chapter 2: What do we want from our machines and governance?
 
   * Societies that allow for freedom and maximum human flourishing aren’t easy to build.
-  * Ours took thousands of years of trial and error and is still a work in progress.
-  * What allows a society to function depends strongly on the details of its members: us humans.
+  * Our modern democracies took thousands of years of trial and error to arrive at and are still a work in progress.
+  * What makes for good governances of a society depends strongly on the details of its members: us humans.
 
 
 
 ## Chapter 3: The end of implicit guardrails
 
   * Automating our economy and government will completely change all of those details.
-  * As those details change, all of the implicit guardrails we rely upon for checks and balances on power will be swept away.
-  * For example, institutions often avoid illegal actions because their human employees refuse to accept grossly unethical work. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won’t exist.
-  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could decide to rest power for themselves.
+  * As those details change, many of the implicit guardrails we rely upon for checks and balances on power will be swept away.
+  * For example, institutions often avoid illegal actions because their human employees might refuse to accept unethical tasks. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won’t exist.
+  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could decide to wrest power for themselves.
   * Today, companies, governments, and militaries all require human labor to continue functioning. Ultimate power rests with humans: if they choose to leave an institution, that institution will fail.
   * Once our institutions are automated, power may instead sit solely with the leaders of those institutions.
 
@@ -63,37 +43,35 @@ Our discussion will cover the following:
   * Gradually, and then all at once, we will enter a world where implicit checks on power are impotent. Will our remaining explicit checks on power be sufficient guardrails?
   * We’ll argue that automation will make the task of seizing power substantially easier and more rewarding.
   * We don’t know if our AIs will be aligned, but we already know that many human leaders are not. History is replete with leaders who seize and abuse power.
-  * If we don’t change course, human-powered tyranny may be the default outcome of a machine-powered world. And it will be increasingly hard for us to resist this tyranny the later we act.
-  * We must evolve our governance _before_ strong AI arrives, or we may not have any power left as citizens to fix it _after_.__
-  * Humans alone won’t be able to oversee leaders empowered by AI. As it stands, whoever controls AI will control nearly everything.
+  * If we don’t change course, human-powered tyranny may be the default outcome of a machine-powered world.
+  * It will be increasingly hard for us to resist this tyranny the later we act. We must evolve our governance _before_ strong AI arrives, or we may not have any power left as citizens to fix it _after_.
 
 
 
 ## Chapter 5: The Prompt of Power
 
-  * The forces and incentives are already at play to further concentrate power.
+  * The incentives around AI are complex and will pull different countries, corporations, and societies in many different directions.
   * We can’t predict how all those forces will play out, but we can think through different scenarios.
-  * Here we’ll explore a short story walking down our current path, and how it leads to an unrecoverable concentration of power and the end of liberty.
+  * Here we’ll explore a short story of what may happen if we keep walking down our current path, and how it may lead to an unrecoverable concentration of power and the end of liberty.
   * The future will almost surely play out differently, in one of a million possible paths. We need to set the conditions so that the future is bright regardless of the path.
 
 
 
 ## Chapter 6: Rapid fire governance — designing upgrades to democracy
 
-  * So what should we do? What should those conditions be?
   * How can we upgrade our society and governance to be resilient to the multitude of forces pushing us toward tyranny?
-  * We must leverage AI itself to become part of the checks and balances on how government and industry wield AI.
   * Passing laws is necessary but not sufficient. An executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don’t also upgrade our oversight and enforcement.
-  * We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions.
+  * Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI.
+  * With AI, both the legislature and judiciary can scale their oversight ability, while still keeping humans at the helm.
 
 
 
-## Chapter 7: Superchecks and superbalances
+## Chapter 7: Superchecks and superbalances****
 
-  * We should think through and imagine how things may go wrong, to better design a more resilient system.
+  * We should think through and imagine how the design of our governance may fail, to better design a more resilient system.
   * But we should also imagine how things might go right, to ensure we’re building a future we want to live in.
   * Here we’ll illustrate a positive, near future by telling a short story of how things might go well, assuming we upgrade our checks and balances.
-  * A positive future will surely play out differently than we expect, even if things go well. But we must set a vision of what good looks like so we know what we’re fighting for.
+  * A positive future will surely play out differently than we expect, even if things go well. But setting a vision of what good could look like is important so we know what we're fighting for.
   * Moreover, we should plan for the worst. We should assume that one day we'll elect a would-be tyrant. The governance we design today should be so robust that even then our democracy would stand. 
 
 
@@ -111,15 +89,14 @@ Our discussion will cover the following:
 
 ## Chapter 9: An exponential, if you can keep it
 
-  * Intelligence is the most transformative power the world has ever seen. Until today, that power has been human alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won’t be human.
-  * The force of multiplied intelligence completely rewrites the rules of our world. With it we may see near infinite abundance, or total ruin.
-  * We are on the exponential now. Where will it take us? We must decide together.
-  * AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be.
-  * If we don’t together lead this debate —all of us— then the most important decisions of the future of our world will be made without us.
+  * Intelligence is the most transformative power the world has ever seen. Until today, that power has been a human power alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won’t be human.
+  * The force of multiplied intelligence rewrites the rules of our world. That force may deliver near infinite abundance, or total ruin.
+  * We are on the exponential now. AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be.
+  * If we don’t together contribute to this debate —all of us— then the most important decisions of the future of our world will be made without us.
 
 
 
-But, if we begin this great debate today, we can set the framework for a positive future.
+For those looking for a primer on AI, we recommend starting with Chapter 10: A Crash Course on AI. For everyone else, I’ll see you on the curve.
 
 ## Table of Contents
 
@@ -132,6 +109,7 @@ But, if we begin this great debate today, we can set the framework for a positiv
   * Chapter 7: Superchecks and superbalances
   * Chapter 8: The realpolitik AI — forging a new political alliance
   * Chapter 9: An exponential, if you can keep it
+  * Chapter 10: A Crash Course on AI
 
 
 
@@ -1375,3 +1353,51 @@ Now it's our turn.
 
 
 ![me? fuck yeah](images/1zG0-u7hqdocWZAdLpTae0aaapAV41fgSFD9jUmjGxyI_None.png)me? fuck yeah
+
+  
+  
+
+
+# Appendix
+
+# Chapter 10: A Crash Course on AI
+
+A brief overview of key terms, ideas, players, and political forces in the world of AI
+
+  * **AGI** — artificial general intelligence, AI that can do any mental task that a human can, including creative tasks like designing better AGIs. Often people disagree on the exact definition of AGI, so keep in mind that it's a bit fuzzy and tends to confuse the specifics of different proposals.
+  * **Model** — a generic way to refer to a specific AI. For example, you'd say “this model is great at writing,” rather than “this AI is great at writing.” If “AI” is analogous to “humanity”, then “model” is analogous to “human”.
+  * **Chatbot** — a model that you can chat with, as popularized by ChatGPT, Claude, and Gemini.
+  * **LLM** — large language model, a specific type of model that specializes in human language. All the major chatbots are LLMs.
+  * **Image model** — or image gen model, a model that specializes in creating images.
+  * **Training** — the process used for a model to learn what we want it to learn.
+  * **Pre-training** — a type of training where the model reads essentially the entire internet and learns as much as it can passively. Pre-training is the reason your chatbot knows basically everything. It's also the reason why AI got suddenly good just a few years ago.
+  * **Post-training** — a type of training where we try to make the model useful in very specific ways, rather than the broad ways that pre-training focuses on.
+  * **Next token prediction** — a token is like a word or part of a word. You'll often hear that models “just predict the next token”, which is indeed what pre-training is. Often this is said derisively, to suggest that the models couldn't learn sophisticated things. However…
+  * **Reinforcement learning** — a post-training process where the model _teaches itself how to solve new tasks._ Importantly, we don't even need to know how to solve the task ourselves, we just need to know whether a provided solution is good. This technique is fundamentally how models get _very good_ at specific tasks like writing poetry or computer code. It's also the way that the model can get _better than human_ : it isn't limited to learning from what humans have written, it figures things out on its own.
+  * **ASI** — artificial superintelligence, or often just “superintelligence”. Sometimes “transformational AI”. Like AGI, this is a fuzzy term, but broadly means AI that is better than all humans at all cognitive tasks. Better than Einstein at physics, etc.
+  * **Superhuman** — narrowly, if a model is better than all humans at a specific thing, we say it is superhuman at that task. Using reinforcement learning and other techniques, we have already made superhuman models at things like chess and Go, and we likely will have superhuman coding within a year, perhaps two.
+  * **Alignment** — we want models to do good things and not go against the wishes of humans or their users. The field of figuring out how to make sure this is the case is called Alignment. Notice that this is a confused \(but important\) term: the goal of making a model that always does good is at odds with the goal of making a model that always does what we ask it to do \(even if it's not good\). Often “alignment” is used to refer to both of these goals.
+  * **Loss of control** — a hypothetical situation where the creators of an AI lose control of it, potentially forever.
+  * **Recursive self-improvement** — we are training AI to get good at almost every task, and one of those tasks includes the task of building better AIs. Once an AI can build a better AI, that better AI can then build an even better AI, etc. This loop of an AI constantly improving itself is called recursive self-improvement. We don’t know how fast it will be, or how powerful an AI will become once it is able to do this. We don’t know when an AI will be able to start this loop. But many suspect it may be only a few years away. Often the arrival of this moment is assumed to be when “the singularity” will occur.
+  * **Singularity** — a term used to denote a future where technology is moving so quickly that humans can no longer keep up, usually used synonymously with the advent of superintelligence.
+  * **GPU** — graphics processing unit. Despite its name, these are used for powering AI. If AI is like nuclear technology, then GPUs are like uranium, and the geopolitical tension around the GPU supply chain will likely be similarly intense.
+  * **NVIDIA** — the most successful producer of GPUs in the world, and \(at various points in time\) the most valuable company in the world. While there are other producers of chips used for AI, NVIDIA builds the lion’s share of AI processors. NVIDIA is a savvy company, and fights hard to prevent monopsony: they carefully dole out their precious goods to many AI companies, to try to ensure there is not a winner-take-all outcome among builders of AI. They, of course, fight to be the winner-take-all _provider_ of AI chips.
+  * **TSMC** — NVIDIA _designs_ AI chips, but TSMC is the company that _builds_ them. Unlike NVIDIA, there is currently no competitor to TSMC that can build a comparable chip. This makes TSMC one of the biggest bottlenecks in scaling AI. It also creates a massive geopolitical risk: TSMC is based in Taiwan.
+  * **Taiwan** — the country where TSMC builds the top-end NVIDIA GPUs. Officially there is a “one China policy,” which is a political standoff between Taiwan and mainland China \(PRC, the People’s Republic of China\) where each claims to be the true government of a single, unified China. In practice, that is a status quo used by Taiwan to maintain independence while letting the PRC save face. The West has historically tacitly supported Taiwan’s independence, and the AI industry’s current extreme dependence on TSMC makes this even more important.
+  * **China** — of course, China knows this. China has had plans to absorb Taiwan for decades, but has mostly shied away due to the extreme scale such a conflict would require. But, as the race toward AI supremacy heats up, the Taiwan chess piece will become a critical focal point. America is racing to regain their ability to produce cutting-edge AI chips —which they previously had with Intel— while China is racing to gain this ability on the mainland for the first time. Both will take years to achieve, and the race to AGI might be over before then, placing even more pressure on the strategic importance of Taiwan.
+  * **ASML** — There is one further supply chain chokepoint with building AI. ASML is a Dutch company that builds the EUV machine used by TSMC to build the chips designed by NVIDIA to power AI built by OpenAI, Anthropic, DeepMind, and others. The EUV machine is the light source used to etch the nanoscale circuits onto AI chips. It’s widely believed that reproducing the ASML EUV technology is a multi-decade effort.
+  * **Europe** — in recent years Europe has been losing its competitive advantage in both software and hardware. On top of this, Europe has been aggressive about rolling out regulations that slow down software and AI deployments. Because of that, Europe has often been written off as no longer a key player in this race. However, they still hold ASML, they still have large budgets, a highly technical citizenry, and recently —with the ongoing deterioration of US-EU relations— an increased desire to catch up and stand on their own.
+  * **Compute thresholds** — there have been very few AI regulations passed. Of the few that have _almost_ passed, a common component is a “compute threshold”. AI gets more powerful as it uses more compute. So the basic idea of a compute threshold is to treat more powerful AIs differently based on whether they used a certain amount of compute. For example, this could allow for a regulation to apply to superintelligent AI, while simultaneously not applying to smaller AIs used by startups or independent citizens.
+  * **Misuse** — “AI misuse” or often just “misuse” for short, is the intentional misuse of AI. For example, using AI for terrorism, for misinformation, or for cyberhacking. Using AI to subvert democracy classifies as misuse, but is typically not discussed in that setting.
+  * **Safety** — “AI safety” or often just “safety”, is the study and practice of how to make sure AI doesn’t cause harm. Preventing misuse is one form of safety, as is preventing misalignment and loss of control.
+  * **AI lab** — sometimes “Frontier AI lab”, typically refers to one of the major companies building cutting-edge AI, such as DeepMind, Anthropic, DeepSeek, or OpenAI.
+  * **Pause AI** — a political movement focused on trying to temporarily pause the development of AI to allow for more time to establish safeguards and alignment. Sometimes also associated with Stop AI, which takes a stronger stance of trying to permanently stop the development of AI.
+  * **EA** — Effective Altruism is a philanthropic philosophy originating around 2011 that focuses on how to make charitable giving as effective as possible at helping people. Among many issues, the movement put an early focus on AI risks and funding researchers working on AI safety.
+  * **Doomer** — a person who believes that AI is very likely to cause human extinction. Some EAs are also doomers, although many aren’t, which has caused the EA movement to be strongly associated with doomerism and degrowth. Often, however, doomers tend to be libertarians who are pro-growth and pro-deregulation in all things _except_ for AI.
+  * **e/acc** — short for effective accelerationism, a countermovement that advocates for pro-growth policy and typically also a hands-off approach to AI safety.
+  * **Data center** — today the most powerful AIs require vast numbers of GPUs. Instead of being run on small computers, they must be run on large arrays of computers called data centers. This puts additional constraints on where AI capacity can be allocated. It requires land _and_ access to excess power.
+  * **YIMBY** — Yes In My Back Yard. YIMBYism is a countermovement against NIMBYism \(Not In My Backyard\). YIMBYs fight for growth because it leads to what most people need: cheaper housing, cheaper goods, and a lower cost of living.
+  * **Offense vs defense balance** — when new technologies are introduced, they disrupt any prior balance. In military strategy, one of those balances is offense vs defense. Sometimes a new technology makes offense substantially easier than defense, and sometimes it’s the reverse. As AI begins to automate research, we expect many new technologies to arrive rapidly. Each of those technologies will have a chance of disrupting the offense-defense balance, and it may be hard to predict in advance which way the balance will shift. If you could predict how the balance would shift, it would likely influence your decision on many aspects of the technology, such as: should it be regulated, should it be allowed in civilian settings, and should it be built at all.
+  * **Robotics** — today, AI is largely a software artifact that can automate digital work. However, AI is also rapidly progressing in its ability to control robots, which will allow it to automate physical work as well. Economically, this could be a massive win for expanding domestic industrial capacity and reducing prices for consumers. Militarily, this would allow for expanded military manufacturing capacity, as well as for new forms of automated warfare. Politically, advanced robotics will likely become a contentious issue as it begins to cause widespread unemployment.
+
+

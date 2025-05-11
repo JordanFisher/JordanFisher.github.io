@@ -1,6 +1,7 @@
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
 
   
+  
 
 
 # Welcome to the curve
@@ -61,58 +62,56 @@ Our discussion will cover the following:
 ## Chapter 2: What do we want from our machines and governance?
 
   * Societies that allow for freedom and maximum human flourishing aren’t easy to build.
-  * Ours took thousands of years of trial and error and is still a work in progress.
-  * What allows a society to function depends strongly on the details of its members: us humans.
+  * Our modern democracies took thousands of years of trial and error to arrive at and are still a work in progress.
+  * What makes for good governances of a society depends strongly on the details of its members: us humans.
 
 
 
 ## Chapter 3: The end of implicit guardrails
 
   * Automating our economy and government will completely change all of those details.
-  * As those details change, all of the implicit guardrails we rely upon for checks and balances on power will be swept away.
-  * For example, institutions often avoid illegal actions because their human employees refuse to accept grossly unethical work. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won’t exist.
-  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could easily seize power for themselves.
+  * As those details change, many of the implicit guardrails we rely upon for checks and balances on power will be swept away.
+  * For example, institutions often avoid illegal actions because their human employees might refuse to accept unethical tasks. Or, even if employees comply with illegal requests, human whistleblowers within the organization can alert the public to any abuses. Once an institution is fully automated, these restraints won’t exist.
+  * If we consider the military, the human component is even more important. Most soldiers would never fire on civilians, even if faced with a direct order to do so. This limits the ability of a commander to commit atrocities or to use their troops to enact a coup. With a fully automated armed forces, a motivated commander could decide to wrest power for themselves.
   * Today, companies, governments, and militaries all require human labor to continue functioning. Ultimate power rests with humans: if they choose to leave an institution, that institution will fail.
-  * Once our institutions are automated, power may sit solely with the leaders of those institutions.
+  * Once our institutions are automated, power may instead sit solely with the leaders of those institutions.
 
 
 
 ## Chapter 4: A simple path to tyranny
 
   * Gradually, and then all at once, we will enter a world where implicit checks on power are impotent. Will our remaining explicit checks on power be sufficient guardrails?
-  * We’ll argue that automation will make the task of seizing power substantially easier, and more rewarding.
+  * We’ll argue that automation will make the task of seizing power substantially easier and more rewarding.
   * We don’t know if our AIs will be aligned, but we already know that many human leaders are not. History is replete with leaders who seize and abuse power.
-  * If we don’t change course, human-powered tyranny may be the default outcome of a machine-powered world. And it will be increasingly hard for us to resist this tyranny the later we act.
-  * We must evolve our governance _before_ strong AI arrives, or we may not have any power left as citizens to fix it _after_.__
-  * Humans alone won’t be able to oversee leaders empowered by AI. As it stands, whoever controls AI will control nearly everything.
+  * If we don’t change course, human-powered tyranny may be the default outcome of a machine-powered world.
+  * It will be increasingly hard for us to resist this tyranny the later we act. We must evolve our governance _before_ strong AI arrives, or we may not have any power left as citizens to fix it _after_.
 
 
 
 ## Chapter 5: The Prompt of Power
 
-  * The forces and incentives are already at play to further concentrate power.
+  * The incentives around AI are complex and will pull different countries, corporations, and societies in many different directions.
   * We can’t predict how all those forces will play out, but we can think through different scenarios.
-  * Here we’ll explore a short story walking down our current path, and how it leads to an unrecoverable concentration of power and the end of liberty.
+  * Here we’ll explore a short story of what may happen if we keep walking down our current path, and how it may lead to an unrecoverable concentration of power and the end of liberty.
   * The future will almost surely play out differently, in one of a million possible paths. We need to set the conditions so that the future is bright regardless of the path.
 
 
 
 ## Chapter 6: Rapid fire governance — designing upgrades to democracy
 
-  * So what should we do? What should those conditions be?
   * How can we upgrade our society and governance to be resilient to the multitude of forces pushing us toward tyranny?
-  * We must leverage AI itself to become part of the checks and balances on how government and industry wield AI.
   * Passing laws is necessary but not sufficient. An executive branch powered by superintelligence will be too strong to control if we only upgrade our laws but don’t also upgrade our oversight and enforcement.
-  * We must enshrine the enforcement of laws inside the mechanisms of culture and government, and we must do it while we still have human-based trust in human institutions.
+  * Instead, we must leverage AI itself to become part of the checks and balances on how government and industry wield AI.
+  * With AI, both the legislature and judiciary can scale their oversight ability, while still keeping humans at the helm.
 
 
 
-## Chapter 7: Superchecks and superbalances
+## Chapter 7: Superchecks and superbalances****
 
-  * We should think through and imagine how things may go wrong, to better design a more resilient system.
+  * We should think through and imagine how the design of our governance may fail, to better design a more resilient system.
   * But we should also imagine how things might go right, to ensure we’re building a future we want to live in.
   * Here we’ll illustrate a positive, near future by telling a short story of how things might go well, assuming we upgrade our checks and balances.
-  * A positive future will surely play out differently than we expect, even if things go well. But we must set a vision of what good looks like so we know what we’re fighting for.
+  * A positive future will surely play out differently than we expect, even if things go well. But setting a vision of what good could look like is important so we know what we're fighting for.
   * Moreover, we should plan for the worst. We should assume that one day we'll elect a would-be tyrant. The governance we design today should be so robust that even then our democracy would stand. 
 
 
@@ -130,11 +129,10 @@ Our discussion will cover the following:
 
 ## Chapter 9: An exponential, if you can keep it
 
-  * Intelligence is the most transformative power the world has ever seen. Until today, that power has been human alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won’t be human.
-  * The force of multiplied intelligence completely rewrites the rules of our world. With it we may see near infinite abundance, or total ruin.
-  * We are on the exponential now. Where will it take us? We must decide together.
-  * AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be.
-  * If we don’t together lead this debate —all of us— then the most important decisions of the future of our world will be made without us.
+  * Intelligence is the most transformative power the world has ever seen. Until today, that power has been a human power alone. Now, with AI, we are on the precipice of unleashing that power a thousand fold, and it won’t be human.
+  * The force of multiplied intelligence rewrites the rules of our world. That force may deliver near infinite abundance, or total ruin.
+  * We are on the exponential now. AI is the defining event of our lifetime, but the outcome is not yet written. We all own the conversation for what we want the future to be.
+  * If we don’t together contribute to this debate —all of us— then the most important decisions of the future of our world will be made without us.
 
 
 
