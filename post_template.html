@@ -15,7 +15,7 @@
         :root {
             --font-size: 1.25rem;
             --bkg-color: rgb(22, 22, 22);
-            --mobile-overlay-position: 62%; /* Position for header overlay on mobile */
+            --mobile-overlay-position: 59%; /* Position for header overlay on mobile */
         }
 
         * {
@@ -750,7 +750,7 @@
             const pixelsOutOfView = Math.max(0, chevronBottom - windowHeight);
             
             // Add a small buffer (50px) to ensure it's visible on iPhones where the bottom may be cutoff
-            const safetyBuffer = 50;
+            const safetyBuffer = 43;
             
             // Scroll just enough to bring the chevron into view with the safety buffer
             if (pixelsOutOfView > 0) {
@@ -759,12 +759,13 @@
                 console.log('Scrolling to:', scrollTarget);
 
                 // If we have to scroll, it means the chevron is below the fold.
-                // So we probably want to shift down the version-selector-container too by the same amount.
-                // We'll do this by increasing the margin-top of that container.
+                // So we probably want to shift down the version-selector-container to be below the chevron.
                 const versionSelectorContainer = document.querySelector('.version-selector-container');
                 if (versionSelectorContainer) {
-                    const currentMarginTop = parseInt(getComputedStyle(versionSelectorContainer).marginTop, 10);
-                    versionSelectorContainer.style.marginTop = (currentMarginTop + pixelsOutOfView + safetyBuffer) + 'px';
+                    // Calculate the amount to shift down
+                    const version_shift = pixelsOutOfView + 38;
+                    versionSelectorContainer.style.marginTop = version_shift + 'px';
+                    console.log('Version selector margin-top updated to:', versionSelectorContainer.style.marginTop);
                 }
 
                 window.scrollTo({

@@ -155,7 +155,7 @@ def process_book_version(book_version: BookVersion, local_only: bool = False) ->
         return None
 
 
-def create_merged_version(processed_versions, local_only=False):
+def create_merged_version(processed_versions: list[BookVersion], local_only=False):
     """Create a merged version that combines all book versions with JavaScript switching.
     
     Args:
@@ -169,18 +169,15 @@ def create_merged_version(processed_versions, local_only=False):
     print("Creating merged Liberty by Design version with all variants...")
     
     # Find all the HTML files for the processed versions
-    version_files = {}
     version_contents = {}
     
     # Map version URIs to their corresponding user_choice values
     version_choices = {version.uri: version.user_choice for version in liberty_versions}
     
     # Read the HTML content from each version
-    for version_uri in processed_versions:
-        html_path = os.path.join('posts', f"{version_uri}.html")
-        if os.path.exists(html_path):
-            version_files[version_uri] = html_path
-            
+    for version in processed_versions:
+        html_path = os.path.join('posts', f"{version.uri}.html")
+        if os.path.exists(html_path):           
             # Read HTML content and extract the story div
             with open(html_path, 'r') as f:
                 html_content = f.read()
@@ -192,9 +189,11 @@ def create_merged_version(processed_versions, local_only=False):
             
             if story_div:
                 # Get the inner HTML of the story div
-                version_contents[version_uri] = str(story_div.decode_contents())
+                version_contents[version.uri] = str(story_div.decode_contents())
             else:
-                print(f"Could not find story div in {html_path}")
+                raise f"Could not find story div in {html_path}"
+        else:
+            raise FileNotFoundError(f"File not found: {html_path}")
     
     if not version_contents:
         print("No story content found in processed versions.")
@@ -213,11 +212,11 @@ def create_merged_version(processed_versions, local_only=False):
     '''
     
     # Add version buttons
-    for version_uri in processed_versions:
-        if version_uri in version_choices:
-            user_choice = version_choices[version_uri]
-            is_active = 'active' if version_uri == processed_versions[0] else ''
-            button_id = version_uri.replace('liberty_by_design_', '').replace('_version', '')
+    for version in processed_versions:
+        if version.uri in version_choices:
+            user_choice = version_choices[version.uri]
+            is_active = 'active' if version == processed_versions[0] else ''
+            button_id = version.uri.replace('liberty_by_design_', '').replace('_version', '')
             if button_id == 'liberty_by_design':
                 button_id = 'with_ai_intro'
                 
@@ -236,7 +235,7 @@ def create_merged_version(processed_versions, local_only=False):
         (function() {
             // Modify scrollTargetY to scroll to version-selector
             document.addEventListener('DOMContentLoaded', function() {
-                // Wait half a second.
+                // Wait a moment.
                 setTimeout(() => {
                     const chevronDown = document.querySelector('.chevron-down-container');
                     if (chevronDown && window.scrollTargetY !== undefined) {
@@ -249,7 +248,7 @@ def create_merged_version(processed_versions, local_only=False):
                         window.scrollTargetY = targetY - (window.innerHeight * 0.01);
                         console.log("Updated scrollTargetY to:", window.scrollTargetY);
                     }
-                }, 500);
+                }, 200);
             });
         
             // Version switching logic
@@ -463,7 +462,7 @@ def create_merged_version(processed_versions, local_only=False):
         .version-button {
             padding: 0.8rem 1.2rem;
             background-color: #ffffff;
-            border: 1px solid #ddd;
+            border: 2px solid #ddd;
             border-radius: 4px;
             font-size: 1.1rem;
             cursor: pointer;
@@ -477,7 +476,8 @@ def create_merged_version(processed_versions, local_only=False):
         }
 
         .version-button.active {
-            background-color: #e6f2ff;
+            /* background-color: #e6f2ff; */
+            background-color: var(--bkg-color);
             border-color: #0066cc;
             font-weight: 500;
         }
@@ -493,12 +493,14 @@ def create_merged_version(processed_versions, local_only=False):
         
         /* @media (prefers-color-scheme: dark) { */
             .version-selector {
-                background-color: #2a2a2a;
+                /* background-color: #2a2a2a; */
+                background-color: var(--bkg-color);
                 border-left-color: #5abbff;
             }
             
             .version-button {
-                background-color: #333;
+                /* background-color: #333; */
+                background-color: var(--bkg-color);
                 border-color: #555;
                 color: #f0f0f0;
             }
@@ -517,13 +519,13 @@ def create_merged_version(processed_versions, local_only=False):
     
     # Create version content divs and prefix all anchor IDs with version name
     version_divs = ''
-    for version_uri in processed_versions:
-        button_id = version_uri.replace('liberty_by_design_', '').replace('_version', '')
+    for version in processed_versions:
+        button_id = version.uri.replace('liberty_by_design_', '').replace('_version', '')
         if button_id == 'liberty_by_design':
             button_id = 'with_ai_intro'
             
         # Parse the content with BeautifulSoup to modify IDs
-        soup = BeautifulSoup(version_contents[version_uri], 'html.parser')
+        soup = BeautifulSoup(version_contents[version.uri], 'html.parser')
         
         # Find all elements with ID attributes and prefix them with the button_id
         for element in soup.find_all(id=True):
@@ -537,7 +539,7 @@ def create_merged_version(processed_versions, local_only=False):
                 for anchor in soup.find_all('a', href=f"#{original_id}"):
                     anchor['href'] = f"#{prefixed_id}"
         
-        is_active = 'active' if version_uri == processed_versions[0] else ''
+        is_active = 'active' if version == processed_versions[0] else ''
         version_divs += f'<div id="{button_id}" class="version-content {is_active}">{soup.decode_contents()}</div>\n'
     
     # Inject CSS into template head

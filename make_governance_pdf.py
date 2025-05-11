@@ -950,12 +950,8 @@ def main():
         # Generate site using make_governance.py instead of generate_site.py
         if not args.skip_site_generation:
             print("Running make_governance.py first...")
-            try:
-                make_governance.main(local_only=args.local_only)
-                print("Site generation completed successfully.")
-            except Exception as e:
-                print(f"Error generating site: {e}")
-                sys.exit(1)
+            make_governance.main(local_only=args.local_only)
+            print("Site generation completed successfully.")
         
         # Ensure LaTeX templates directory exists
         ensure_latex_templates_dir()
