@@ -78,21 +78,9 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
     story_div = soup.find('div', id='story')
     if not story_div:
         raise ValueError("Could not find #story div in HTML file")
-        
     
     # Get title
-    title_element = story_div.find('h1', class_='title-header')
-    if not title_element:
-        title_element = story_div.find('h1')
-    
-    if not title_element:
-        # title = "Tiny Book on Governance of Machine Intelligence"
-        title = "Liberty by Design"
-    else:
-        # Process the title element to preserve formatting
-        title = process_inline_elements(title_element)
-    
-    # No need to escape LaTeX special characters as process_inline_elements already did that
+    title = "Liberty by Design"
     
     # Get description if available
     description = None
@@ -105,8 +93,6 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
     latex_content = ""
     
     # Remove the title and description before processing content
-    if title_element:
-        title_element.extract()
     if description_block:
         description_block.extract()
         
@@ -171,6 +157,16 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
             continue
             
         if element.name == 'h1' or element.name == 'h2':
+            # Skip if this is the title (ie, if it has the same text as the book title).
+            if element.get_text(strip=True).lower().strip() == "Liberty by Design".lower().strip():
+                print("Skipping book title header...")
+                continue
+
+            if element.name == 'h1':
+                if 'title-header' in element.get('class', []):
+                    print(f"     {element} (title-header)")
+                else:
+                    print(f"     {element}")
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
@@ -877,14 +873,14 @@ def modify_html_for_latex(html_path, modified_html_path):
     
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # Find the first h1 with class title-header
-    first_title = soup.find('h1', class_='title-header')
-    if first_title:
-        # Empty the text content but keep the element
-        first_title.string = ""
-        print(f"First h1 title-header emptied successfully in {modified_html_path}.")
-    else:
-        print(f"No h1 title-header found in the HTML file {html_path}.")
+    # # Find the first h1 with class title-header
+    # first_title = soup.find('h1', class_='title-header')
+    # if first_title:
+    #     # Empty the text content but keep the element
+    #     first_title.string = ""
+    #     print(f"First h1 title-header emptied successfully in {modified_html_path}.")
+    # else:
+    #     print(f"No h1 title-header found in the HTML file {html_path}.")
     
     # Write the modified HTML to the new file
     with open(modified_html_path, 'w') as f:
