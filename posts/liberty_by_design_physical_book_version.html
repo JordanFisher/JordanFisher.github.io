@@ -749,9 +749,9 @@
             // Calculate how much of the chevron is out of view
             const pixelsOutOfView = Math.max(0, chevronBottom - windowHeight);
             
-            // Add a small buffer (50px) to ensure it's visible on iPhones where the bottom may be cutoff
-            const safetyBuffer = 43;
-            
+            // Add a small buffer to ensure it's visible on iPhones where the bottom may be cutoff
+            const safetyBuffer = 10;
+
             // Scroll just enough to bring the chevron into view with the safety buffer
             if (pixelsOutOfView > 0) {
                 const scrollTarget = window.pageYOffset + pixelsOutOfView + safetyBuffer;

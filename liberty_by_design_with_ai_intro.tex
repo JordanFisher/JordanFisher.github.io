@@ -70,7 +70,7 @@
   implicit=true,          % Make all refs hyperlinks
   naturalnames=true,      % Prefixes not needed for internal refs
   pdfpagemode=UseOutlines, % Show bookmarks panel when opening
-  pdftitle={},
+  pdftitle={Liberty by Design},
 ]{hyperref}
 
 % Page style setup - same as pocket book
@@ -184,8 +184,9 @@
 \setlength{\abovecaptionskip}{3ex}
 \captionsetup{labelformat=empty}
 
-% Preserve sans-serif for titles and headings
-\newcommand{\headingfont}{\sffamily}
+% Define heading font command to use Latin Modern Sans
+\DeclareRobustCommand{\lmssfamily}{\fontencoding{T1}\fontfamily{lmss}\selectfont}
+\newcommand{\headingfont}{\lmssfamily}
 
 % Line spacing - same as pocket book
 \linespread{1.15}
@@ -300,6 +301,12 @@ There are many important conversations happening about AI. But we are missing on
 \vspace{0.5em}
 
 \vspace{0.5em}
+
+\clearpage
+
+\vspace*{1.5cm}
+\section*{\huge Welcome to the curve}
+\vspace{0.7cm}
 
 100,000 years ago, humanity was born. Despite being slower and weaker than almost every predator on Earth, humans rapidly became the apex predator across the entire planet. One thing set us apart: our intelligence. We wielded it directly as a weapon, to outsmart our prey when we hunted them. We wielded it to design even better weapons, to kill our prey faster, and with less risk to ourselves. And we wielded it to create the processes of science and technology and industry, that let our intelligence build on itself.
 

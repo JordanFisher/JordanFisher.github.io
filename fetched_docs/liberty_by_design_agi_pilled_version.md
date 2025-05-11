@@ -1,12 +1,17 @@
 There are many important conversations happening about AI. But we are missing one of the most important: how must we upgrade democracy in the age of AI if we want to keep our freedom?
 
   
-  
 
 
-# Welcome to the curve
+# Apologia
 
 [ Download PDF version ](/liberty_by_design_agi_pilled_version.pdf)
+
+**This is currently a draft. If you’re reading this, please reach out to**** _jordan.efisher@gmail.com_****if you have comments or suggestions\!**
+
+**Or leave comments on the draft here:****_https://tinyurl.com/liberty-by-design_**
+
+# Welcome to the curve
 
 The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up humanity, and ensure this new age that’s upon us is a noble one, not a dark one.
 

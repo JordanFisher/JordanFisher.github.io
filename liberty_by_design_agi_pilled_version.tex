@@ -70,7 +70,7 @@
   implicit=true,          % Make all refs hyperlinks
   naturalnames=true,      % Prefixes not needed for internal refs
   pdfpagemode=UseOutlines, % Show bookmarks panel when opening
-  pdftitle={},
+  pdftitle={Liberty by Design},
 ]{hyperref}
 
 % Page style setup - same as pocket book
@@ -184,8 +184,9 @@
 \setlength{\abovecaptionskip}{3ex}
 \captionsetup{labelformat=empty}
 
-% Preserve sans-serif for titles and headings
-\newcommand{\headingfont}{\sffamily}
+% Define heading font command to use Latin Modern Sans
+\DeclareRobustCommand{\lmssfamily}{\fontencoding{T1}\fontfamily{lmss}\selectfont}
+\newcommand{\headingfont}{\lmssfamily}
 
 % Line spacing - same as pocket book
 \linespread{1.15}
@@ -289,7 +290,21 @@ There are many important conversations happening about AI. But we are missing on
 \vspace{0.5cm}
 \vspace{0.5em}
 
-\vspace{0.5em}
+\clearpage
+
+\vspace*{1.5cm}
+\section*{\huge Apologia}
+\vspace{0.7cm}
+
+\textbf{This is currently a draft. If you're reading this, please reach out to }\textbf{jordan.efisher@gmail.com}\textbf{ if you have comments or suggestions!}
+
+\textbf{Or leave comments on the draft here: }\textbf{https://tinyurl.com/liberty-by-design}
+
+\clearpage
+
+\vspace*{1.5cm}
+\section*{\huge Welcome to the curve}
+\vspace{0.7cm}
 
 The debate for how to govern a human-machine society may prove the greatest in our lifetime, perhaps as important as the founding debates around modern democracies themselves. Every one of us has a role to play: to engage in this debate, to shape it, to fight for governance that lifts up humanity, and ensure this new age that's upon us is a noble one, not a dark one.
 
