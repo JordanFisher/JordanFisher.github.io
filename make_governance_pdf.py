@@ -159,14 +159,16 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
         if element.name == 'h1' or element.name == 'h2':
             # Skip if this is the title (ie, if it has the same text as the book title).
             if element.get_text(strip=True).lower().strip() == "Liberty by Design".lower().strip():
-                print("Skipping book title header...")
+                # For debugging when we skip a header.
+                # print("Skipping book title header...")
                 continue
 
-            if element.name == 'h1':
-                if 'title-header' in element.get('class', []):
-                    print(f"     {element} (title-header)")
-                else:
-                    print(f"     {element}")
+            # if element.name == 'h1':
+            #     if 'title-header' in element.get('class', []):
+            #         print(f"     {element} (title-header)")
+            #     else:
+            #         print(f"     {element}")
+
             # Get the ID for label if available
             element_id = element.get('id', '')
             label_markup = f"\\phantomsection\\label{{{element_id}}}" if element_id else ""
@@ -178,7 +180,6 @@ def html_to_latex(html_path: str, include_images: bool = False) -> LatexDocument
                 
                 # Check for chapter number
                 chapter_number_tag = element.find('span', class_='chapter-number')
-                chapter_prefix = ""
                 
                 if chapter_number_tag:
                     chapter_number = chapter_number_tag.get_text().strip()
