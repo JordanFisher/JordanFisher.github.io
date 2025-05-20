@@ -8,14 +8,16 @@
 \ifxetex
   % XeTeX-specific settings for better Unicode support
   \usepackage{fontspec}
-  \setmainfont{EB Garamond}  % Use Garamond for body text
+  % \setmainfont{EB Garamond}  % Use Garamond for body text
+  % \setmainfont{Times New Roman}
   \usepackage{xunicode}
   \usepackage{xltxtra}
 \else
   % pdfTeX settings
   \usepackage[utf8]{inputenc}
   \usepackage[T1]{fontenc}
-  \usepackage{ebgaramond}  % EB Garamond font package for pdfLaTeX
+  \usepackage{lmodern}  % Latin Modern fonts - widely available
+  % \usepackage{ebgaramond}  % EB Garamond font package for pdfLaTeX
   \usepackage{textcomp}  % Extended text companion symbols
   \usepackage{upquote}   % Straight quotes in verbatim environments
 \fi
@@ -50,6 +52,8 @@
 % Define heading font command to use Latin Modern Sans
 \DeclareRobustCommand{\lmssfamily}{\fontencoding{T1}\fontfamily{lmss}\selectfont}
 \newcommand{\headingfont}{\lmssfamily}
+% Preserve sans-serif for titles and headings
+% \newcommand{\headingfont}{\sffamily}
 
 % Configure hyperref for better internal references
 \usepackage[
@@ -178,7 +182,7 @@
 \captionsetup{labelformat=empty}
 
 % Line spacing - using a simple linespread
-\linespread{1.15}
+\linespread{1.14}
 
 % Spacing and list configurations
 \setlist[itemize]{leftmargin=12pt,itemindent=0pt,itemsep=2ex,labelindent=0pt,labelsep=8pt}
