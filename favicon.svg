@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2530"/>
+      <stop offset="100%" style="stop-color:#121820"/>
+    </linearGradient>
+    <linearGradient id="f2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#88b4d0"/>
+      <stop offset="100%" style="stop-color:#5080a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" fill="url(#g2)"/>
+  <path d="M8 6 H24 V10 H12 V13 H22 V19 H12 V22 H24 V26 H8 V20 H20 V17 H8 V11 H20 V8 H8 Z" fill="url(#f2)"/>
+</svg>
