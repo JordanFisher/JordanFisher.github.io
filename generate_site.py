@@ -48,7 +48,7 @@ def upload_to_cloudflare_pages(project_name: str = "blog") -> bool:
             shutil.copy('styles.css', deploy_dir)
 
         # Copy any other root-level assets
-        for asset in ['singularity_design_horizontal_strip.png']:
+        for asset in ['singularity_design_horizontal_strip.png', 'favicon.svg']:
             if os.path.exists(asset):
                 shutil.copy(asset, deploy_dir)
 
