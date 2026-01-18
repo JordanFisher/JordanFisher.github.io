@@ -10,3 +10,6 @@ token.pickle
 
 
 **/.claude/settings.local.json
+
+# Large generated learning content (deployed separately to learn.3zr4.com)
+learn/

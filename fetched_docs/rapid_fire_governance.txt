@@ -55,7 +55,7 @@ This creates an extreme imperative for the future’s ability to trust AI and go
 Even if this trust relay is established, the relay might break.
 
 Cross-check
-Long chains only need a single chink to break. Therefore, we should weave multiple chains together, such that any given chain can have breakage, but we will still recover and repair the chain while maintaining trust in the overall braid.
+Long chains only need a single link to break. Therefore, we should weave multiple chains together, such that any given chain can have breakage, but we will still recover and repair the chain while maintaining trust in the overall braid.
 
 That means we must have multiple, independent AGIs, each with their own provenance in a trust relay. Furthermore, we must leverage each AGI to perform the audits on all the others, to create resilience to single breakage. In order for the braid to break, every chain must break at the same time.
 

@@ -818,7 +818,10 @@
       "magnitude": 36,
       "unit": "PT"
     },
-    "useCustomHeaderFooterMargins": true
+    "useCustomHeaderFooterMargins": true,
+    "documentFormat": {
+      "documentMode": "PAGELESS"
+    }
   },
   "namedStyles": {
     "styles": [
@@ -1171,7 +1174,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4LvJUeZX1eKIca_gacsWWQoBLG71_gRRM-2WcjMMR9w8l6l7NkLE4sn6BpCMSx5pVWj7HGl0-KIp8WV6Bw",
+  "revisionId": "AONSffySDgAM7gAd7b7xwpzKRJgDRVGwP_Ef8E0abDDPcIsGew6I2O--ZNV7FGEWPMdffA49lm5q9bRmKQkGHg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1tgyr9L9hymcLlVvgkkF1Bfrho_DWo7jkW8--AeQi2K8"
 }

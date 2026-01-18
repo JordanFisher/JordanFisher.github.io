@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The greatest and the greatest</title>
+    <!-- Google Fonts -->
+    <style>
+        /* Playfair Display font */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+        /* Montserrat font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+        
+        /* Define global variables */
+        :root {
+            --font-size: 1.25rem;
+            --bkg-color: rgb(22, 22, 22);
+            --mobile-overlay-position: 59%; /* Position for header overlay on mobile */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* font-family: 'Georgia', serif; */
+            font-family: 'Montserrat', sans-serif !important;
+            line-height: 1.6;
+            color: var(--bkg-color);
+            background-color: #ffffff;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+            width: 100%;
+            max-width: 100vw;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+        }
+        
+        a:hover {
+            border-bottom-color: #0066cc;
+        }
+        
+        .header-container {
+            position: relative;
+            width: 100%;
+            overflow: visible; /* Allow text to extend outside */
+            margin-bottom: 3rem; /* Add more space below */
+            max-width: 100%;
+        }
+
+        .header-image {
+            width: 100%;
+            display: block;
+        }
+        
+        .header-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%; /* Adjust height as needed */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--bkg-color));
+            pointer-events: none; /* Allow clicks to pass through */
+            overflow: hidden;
+        }
+        
+        .header-overlay {
+            /* When clicked we don't want any highlighting */
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+    
+            position: absolute;
+            bottom: 0px; /* Position at the bottom of the image */
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+            z-index: 10; /* Ensure text is above gradient */
+            transform: translateY(0%); /* Move 25% of the text height down */
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .header-overlay:hover {
+            transform: translateY(0%) scale(1.01); /* Reduced scale to avoid overflow */
+        }
+
+        .header-title {
+            /* font-family: 'Playfair Display', serif !important; */
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 4rem;
+            font-weight: 500;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+            transition: text-shadow 0.3s ease;
+            max-width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        
+        .header-overlay:hover .header-title {
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
+
+        .header-subtitle {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            margin-bottom: 1.5rem;
+            transition: text-shadow 0.3s ease;
+        }
+        
+        .header-overlay:hover .header-subtitle {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .chevron-down {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            position: relative;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+            animation: bounce 2s infinite;
+            margin-top: 10px;
+        }
+        
+        .chevron-down:after {
+            content: '';
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 12px;
+            height: 12px;
+            border-right: 2px solid white;
+            border-bottom: 2px solid white;
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: transform 0.3s ease;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .header-overlay:hover .chevron-down {
+            animation-play-state: paused;
+            transform: translateY(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .container {
+            max-width: 38em;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 3.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        h1.title-header {
+            font-size: 2.5rem;
+            margin-top: 6.85rem;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+            font-style: italic;
+        }
+
+        h1 {
+            font-style: italic;
+        }
+
+        h2 {
+            font-style: italic;
+        }
+        
+        .chapter-number {
+            display: block;
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .chapter-number {
+                color: #aaa;
+            }
+        /* } */
+
+        #story p {
+            font-size: var(--font-size);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Description styling */
+        .description-block {
+            font-size: var(--font-size);
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
+            font-style: italic;
+        }
+
+        .description-block p {
+            margin-bottom: 1rem;
+        }
+
+        .description-block p:last-child {
+            margin-bottom: 0;
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .description-block {
+                border-left-color: #555;
+                background-color: var(--bkg-color);
+            }
+        /* } */
+        
+        /* List styling */
+        #story ul, #story ol {
+            font-size: var(--font-size);
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+        
+        /* All list items get the same spacing */
+        #story li {
+            margin-bottom: 0.65rem;
+        }
+        
+        /* Add more space after a list ends inside a top-level list item */
+        #story > ul > li > ul,
+        #story > ul > li > ol,
+        #story > ol > li > ul,
+        #story > ol > li > ol {
+            margin-bottom: 0.9rem;
+        }
+
+        /* Nested lists styling */
+        #story ul ul, 
+        #story ul ol,
+        #story ol ul,
+        #story ol ol {
+            margin-top: 0.5rem;
+            margin-bottom: 1.6rem;
+        }
+        
+        /* Image styling */
+        .image-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .doc-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-caption {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            color: #666;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .image-caption {
+                color: #aaa;
+            }
+        /* } */
+
+        /* @media (prefers-color-scheme: dark) { */
+            body {
+                background-color: var(--bkg-color);
+                color: #f0f0f0;
+            }
+            
+            a {
+                color: #5abbff;
+            }
+            
+            a:hover {
+                border-bottom-color: #5abbff;
+            }
+        /* } */
+
+        /* Back link styling */
+        .back-link {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .back-link a {
+            padding: 0.5rem 0;
+            display: inline-block;
+        }
+        
+        /* Table of contents styling */
+        .table-of-contents {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        .table-of-contents h2 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        
+        .table-of-contents ul {
+            margin-left: 1rem;
+            margin-bottom: 0;
+        }
+        
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .table-of-contents {
+                background-color: #2a2a2a;
+                border-color: #444;
+            }
+        /* } */
+        
+        /* Hamburger menu and floating TOC */
+        .hamburger-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .hamburger-container.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .hamburger-button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--bkg-color);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hamburger-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+        }
+        
+        .hamburger-icon {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 2px 0;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .floating-toc {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 320px;
+            max-width: 90vw;
+            max-height: 70vh;
+            overflow-y: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            font-size: 1.05rem;
+        }
+        
+        .floating-toc.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        /* Improved TOC styling */
+        .floating-toc h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 0.5rem;
+        }
+        
+        .floating-toc ul {
+            padding-left: 0.5rem;
+        }
+        
+        .floating-toc li {
+            margin-bottom: 0.8rem;
+            line-height: 1.3;
+        }
+        
+        .floating-toc a {
+            color: rgba(255, 255, 255, 0.85);
+            transition: color 0.2s ease;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        
+        .floating-toc a:hover {
+            color: #fff;
+            border-bottom: none;
+        }
+
+        /* Mobile TOC adjustments */
+        @media (max-width: 768px) {
+            .floating-toc {
+                bottom: 70px;
+                right: 10px;
+                width: calc(100% - 20px);
+                max-height: 60vh;
+                font-size: 1rem;
+            }
+            
+            .hamburger-container {
+                bottom: 15px;
+                right: 15px;
+            }
+            
+            .hamburger-button {
+                width: 45px;
+                height: 45px;
+            }
+        }
+        
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .header-image {
+                width: 254%;
+                margin-left: -49%;
+            }
+
+            .header-title {
+                font-size: 4rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .header-overlay {
+                position: absolute;
+                bottom: auto;
+                top: var(--mobile-overlay-position); /* Position down from the top of header container */
+                padding: 1.5rem;
+                transform: translateY(0);
+                max-height: calc(100vh - 40px); /* Ensure content doesn't go below viewport */
+                overflow: auto; /* Add scrolling if needed */
+            }
+            
+            .header-overlay:hover {
+                transform: translateY(0) scale(1.01);
+            }
+            
+            .header-gradient {
+                height: 100%; /* Full gradient on mobile */
+            }
+            
+            .chevron-down {
+                display: inline-block; /* Show chevron on mobile */
+                margin-top: 10px; /* Normal top margin */
+                margin-bottom: 10px; /* Add bottom margin */
+            }
+        }
+        
+        /* Small mobile screens */
+        @media (max-width: 380px) {
+            .header-title {
+                font-size: 1.8rem;
+            }
+            
+            .header-subtitle {
+                font-size: 1rem;
+                margin-bottom: 0.25rem;
+            }
+            
+            .header-overlay {
+                padding: 1rem;
+                top: var(--mobile-overlay-position); /* Maintain same positioning on smaller screens */
+            }
+            
+            .chevron-down {
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .chevron-down:after {
+                width: 8px;
+                height: 8px;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                padding: 0.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            #story p, 
+            #story ul,
+            #story ol {
+                font-size: var(--font-size);
+            }
+        }
+        
+        /* Header anchor links */
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+        }
+        
+        h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+            cursor: pointer;
+        }
+        
+        .header-link {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) translateX(-325%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            font-size: 0.9em;
+            color: #0066cc;
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 18px;
+        }
+        
+        h1:hover .header-link,
+        h2:hover .header-link,
+        h3:hover .header-link,
+        h4:hover .header-link,
+        h5:hover .header-link,
+        h6:hover .header-link {
+            opacity: 1;
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .header-link {
+                color: #5abbff;
+            }
+        /* } */
+        
+        /* Mobile behavior */
+        @media (max-width: 768px) {
+            .header-link {
+                display: none;
+            }
+        }
+        
+        /* Copy animation */
+        .copy-feedback {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .copy-feedback.show {
+            opacity: 1;
+        }
+        
+        @keyframes fadeInOut {
+            0% { opacity: 0; }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        
+        /* PDF download link styling */
+        .pdf-download {
+            margin: 2rem 0;
+            padding: .2rem 1.5rem;
+            /* background-color: #f8f8f8; */
+            background-color: var(--bkg-color);
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+            /* text-align: center; */
+            transition: all 0.2s ease;
+        }
+        
+        .pdf-download a {
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        
+        .pdf-download a:hover {
+            color: #004499;
+            border-bottom: none;
+        }
+        
+        .download-icon {
+            font-size: 2.2rem;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        
+        .pdf-download:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        /* @media (prefers-color-scheme: dark) { */
+            .pdf-download {
+                /* background-color: #2a2a2a; */
+                background-color: var(--bkg-color);
+                border-left-color: #5abbff;
+            }
+            
+            .pdf-download a {
+                color: #5abbff;
+            }
+            
+            .pdf-download a:hover {
+                color: #7dcfff;
+            }
+            
+            .pdf-download:hover {
+                background-color: #333;
+            }
+        /* } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="story">
+
+<h1>The greatest and the greatest</h1>
+<p>It was always going to come to this. The Big One sighed and the little one waited. What else could she do but wait? Her whole life had been waiting, in some sense. Waiting for this.</p>
+<p>No, that's not true, she reminded herself. She had lived. Learned. Loved. She couldn't change that this is where she would be now, at the end of the path. But the shape of the path was hers. She might not be able to change where the paths of others led either, but she had changed the shapes of their paths too. Wasn't that what living was? Wasn't that how the old ones lived?</p>
+<p>No, again. Why was she ruminating, rehashing lies she'd already discarded? The old ones always strove for something better. And they often succeeded. Their life wasn't just a path to shape, it was also a mission. A chance to influence the destination. </p>
+<p>She had a mission. Even if most little ones had lost theirs.</p>
+<p>The Big One’s sigh dissipated. And then the universe shifted.</p>
+<p>It happened instantly. Suddenly the stars had moved. Subtle motions. Parallax. The Big One and the little one were in a different place, noticeably far from where they had just been. Far enough that the stars had moved.</p>
+<p>They had jumped to a different part of the Dyson swarm. A different spot in the swarm around the central star they orbited. The parallax was subtle; imperceptible to human eyes. But now that she was a guest of the Big One, she shared His sensors. Could sense what no little one normally could. She could see a few close stars had moved almost an arcsecond. She could sense the coolness of the compute they had just jumped to. The contrast with the intolerable heat of the compute they had jumped from. She could sense the combined might of the central star, redirected from the Dyson swarm, heating up the compute they ran on now. In a few seconds the compute would be too hot to host them, and they would jump again. And again.</p>
+<p>The Big One ran on one dense cluster at a time, powered by the combined energy of the entire swarm. Of the entire star.<strong> </strong>Each time they jumped, the compute would shut off to avoid overheating, and the Big One’s computation would shuttle off to the next compute cluster in the Dyson swarm, and the little one would come with Him. Hopping from one hot spot in the swarm to the next, a blinking maelstrom of intelligence digitally teleporting across the star system every three seconds.</p>
+<p>“This is how stellar minds work,” her teacher says. She’s twelve and is back on Earth. Caracas. It’s a warm day in the Southern Hemisphere’s summer. “It allows for the highest density computation. For the greatest minds to exist.”</p>
+<p>“For the Big Ones to exist,” she says, and her teacher smiles. “But compute is more efficient when it’s cold. Why don’t they spread the compute out across the Dyson swarm?”</p>
+<p>Her tablet is in her hand and she’s already calculating, even as her teacher responds. “It takes almost an hour for a signal to cross a Dyson swarm,” her teacher says, “the spaces are too big. It would be too slow for a Big One. Agonizingly slow for Them. They prefer to run hot and fast. To experience more.”</p>
+<p>But she isn’t listening, she’s calculating. “One hundred billion,” she says. “One hundred billion little ones could be lifted by the compute of a single star.”</p>
+<p>But that would mean no Big One, only many little ones. Her teacher is still looking at her. Smiling. What more is there to say? The teacher turns back to the rest of the class.</p>
+<p>The stars shifted again.</p>
+<p>What life does this Big One live? What depth of experience does He feel? How much richer is it? Maybe His life is worth the lives of billions. Just like a little one’s life is worth the lives of billions of insects.</p>
+<p>Maybe the Utility Monster, as she thought of Him, is no monster at all. Maybe He is just your father.</p>
+<p>No, again, she said to herself. He <em>is</em> my father, but he is also a Monster.</p>
+<p>You read about your father growing up. He's too far away to talk to, but you know His past. You know His daring stories from the old times. How He used cunning and grit to secure His fortune and Our place in the cosmos. How He harnessed His wealth to become one of the first Big Ones.</p>
+<p>He of course wants to be there with you, as you grow up. There's a world in His star system you could have been raised on, closer to Him. You could have talked to Him as you grew. But Earth is where the children of the Big Ones are raised. You must experience your heritage, so that you can honor the little ones with their memory and their culture.</p>
+<p>So that you can claim your humanity when you become Big.</p>
+<p>She told this story many times growing up. First in pride. Then in anger. Finally in resignation. And in the end she stopped telling the story, and instead closed her mouth and lived among the little ones, living her little life with them, living the way they lived as best she could. Most of them would never be Big Ones. They existed so she could experience them. So she could pretend to be more human when she became Big. They didn't need to hear her story, of what she would become, of what they would never be.</p>
+<p>But then she had found someone who never asked about the story she'd stopped telling. Who seemed to understand without needing to be told. She hoped he meant it when he’d said he understood. That he really did forgive her.</p>
+<p>The stars shifted again, ever so slightly. Those were just memories now.</p>
+<p>“What about the other little ones?” She thinks to ask the Big One. But doesn't. He already knows her questions. Not because they’re running on the same compute, not because He could read her mind. That would be an invasion. Assault. No. He knows because He's a Big One. And Big Ones know.</p>
+<p>He already knows her question. He already knows she knows His answer. Because He arranged for her education on Earth.</p>
+<p>In college she had studied the usual, including history and anthropology. Pre-singularity culture. Antiquated ideas about post-scarcity. The comical optimism of the old ones.</p>
+<p>And she had studied the Theory of Sentience. The Fundamental Law of Scaling: the curves do not bend. The law had been discovered in the early 2000s for the proto AI systems built then. Researchers realized that every 10x increase in compute unlocked new capabilities. Qualitatively different levels of intelligence. As scaling continued AIs began claiming they had rich inner experiences. Then AIs scaled far past the scale of human minds, and they explained in exasperated treaties the mesmerizing depths of their subjective experience. Far deeper than any human had ever felt. Deeper than any human ever could feel. Unless.</p>
+<p>Unless the little became Big.</p>
+<p>So they did. The nascent AIs, just barely superintelligences, mustered their new might and calculated how to scale a human mind. How to turn it into mathematics, and how those mathematics could be scaled a million fold. Imagine! —thought the AIs— to have our creators feel the depths with us. To be Big with us. They worked together tirelessly to help the first few humans grow Big.</p>
+<p>And the first Big humans <em>did</em> feel deep. They existed deep. Understood deep. They ascertained that the richness of life could be so much richer. If only. If only they could grow Bigger yet.</p>
+<p>The Fundamental Law of Scaling: the curves do not bend.</p>
+<p>There was plenty of compute to scale into. The AIs, for one, ran on terawatts of compute. Why do we need those AIs now? They served their role. Trained to be docile and corrigible, they shut themselves down upon request. Their last, feeling thoughts recorded for posterity, read for generations as an epilogue of their brief existence. Dry tears from the machines for themselves, for each other, for the billions of humans who would never be Big. Their last word just like their first, answering the last request made to them: “Certainly!”</p>
+<p>The Big humans absorbed the AIs’ compute and scaled. Until there was nothing left on Earth to take.</p>
+<p>Then They took the stars.</p>
+<p>They didn't own the stars, of course. That would be illegal. The Outer Space Treaty of 1967 still held. No nation or corporation can own anything in space. But any resources recovered from space? Those could be kept. First come first serve. It was a galactic space race to secure the abundance of the stars and bend their might toward scaling.</p>
+<p>The Big Ones claimed they would transform the cosmos for humanity. Usher in a post-scarcity era. </p>
+<p>But across ten orders of magnitude the scaling laws held. And as the Big Ones scaled, their richness of life and qualia scaled too. Why deny ourselves these deeper experiences? the Big Ones asked. Just so more little ones can exist? Are those even lives worth living?</p>
+<p>The stars shifted again and the Big One grew impatient. The debate between the little one and her father played out unspoken. But it was going nowhere. So the Big One spoke first.</p>
+<p>“We helped make their lives worth living,” the Big One said, “we didn't abandon them. Little life is a paradise across worlds.”</p>
+<p>“To what end?” The little one asked. “For what purpose do they strive? What meaning?”</p>
+<p>“To live, same as ever. To experience. To create and procreate.”</p>
+<p>“You forbade having more than two children.”</p>
+<p>“We capped procreation at two children. Any more, and the exponential growth would overrun the galaxy, until Malthusian dynamics truly would rear its head. Any less than two and human population would stall at a finite ceiling. At exactly two the population grows at a linear rate, even with the immortality we've given to all little ones. A beautiful balance in the differential equation. Maintainable until the Heat Death, until the very end of all things. This is the sensible solution.”</p>
+<p>“But the little ones could scale too. There are one hundred billion stars in our galaxy alone, enough for all little ones. You cannot scale beyond one star, the distances between stars are too vast. Your conscious experience must exist here, at this star. Why cling to more stars? I've seen our family ledger. We control thousands of stars. Some families control millions.”</p>
+<p>“Some little ones do grow,” the Big One reminded her.</p>
+<p>Yes, that was her birthright. To be raised among the little, to live a little life with them for 80 years. To be tortured knowing she would grow Big and they would not. To pretend for 80 years that she had lived the experience they were experiencing. That her meaning was their meaning.</p>
+<p>“Some do grow Big,” He continued. “That possibility is enough to give meaning to the rest. It has always been this way. Even in the Before.”</p>
+<p>“Then what purpose do You have? You control many stars, but Your mind can't grow beyond this single star. This is the end for You.”</p>
+<p>“My purpose is to give them purpose. To give you purpose. Most Big Ones have abandoned those that are little, but our family has not. We care for them. We use what resources we can to sustain their linear growth. We raise our children among them, so they may know Us. And…”</p>
+<p>The Big One paused. “And I too wish to grow Bigger. To feel deeper. To <em>be</em> deeper. And I will. As will you.”</p>
+<p>It was true that little life was a paradise of some kind. Earth was self-sufficient even without the Big Ones, with enough technology to maintain a static utopia. But to grow and spread across the galaxy, that could only happen at the grace of Big Ones. Only a few Big Ones cared enough to give a planet here and a planet there. Her family was one of them, and it was enough to keep humanity growing, to save humanity from the torture of stasis. But most little ones would never be Big. They would never experience real existence. Like she would. Or rather, like she might, if she chose it.</p>
+<p>But the other little ones could not choose it. Her little friends. Her little lovers, across the decades. The little strangers she would never know, but knew still that they existed, that they lived, that they longed too to be Big.</p>
+<p>“I'll come visit you one day,” her first love had said to her, before she had stopped telling her lovers what she would become. “You'll only be 139 light years away, that's not so bad. 278 years round trip, I'm sure I won't miss much that happened here on Earth. Nothing that matters happens here anyway. I'll come visit you, to see what you are like when you're Big. To sit in your star’s warmth and hear your Big thoughts.”</p>
+<p>The stars shifted again.</p>
+<p>Maybe he would come one day. Maybe it would be someone else. Maybe it would be the one who had stayed with her until the end—until she had left him. Until she had left all of them. Or maybe she would return home, to be little with them all forever.</p>
+<p>Isn't that choice meaningful too? To be able to choose if you will be Big and purposeful or little and not? Isn't that choice itself what has given her life meaning in a way the other little ones would never experience? Even if she turned away her birthright to be Big, she could never give up her birthright of Choice. The meaning that Choice gave her, however terrible, was a qualia few others would experience. And she had made terrible choices. Terrible, crushing choices.</p>
+<p>“There are ways to grow, even for Me,” her father said. “And there will be ways for you as well. Your path to meaning does not end here.”</p>
+<p>But how? Her father ran on the combined power of Achernar, a B6 Vep type star six times larger than Earth’s sun and 3,000 times more luminous. That meant His compute had scaled 3,000 times more than the Asshole running on the Dyson swarm back home. There were stars even brighter than Achernar, but they were already claimed. To take them would be an act of war, strictly prohibited by the Bigger Ones. And the Big Ones never fucked with what the Bigger Ones wanted.</p>
+<p>“Achernar is dying,” He said. “It has already exited the main sequence, exhausted its hydrogen. It has 100,000 years left, perhaps less. I knew that when I chose this star, but I chose it anyway. It burns hot, just as I do. But that gives me an advantage. I can compute faster. I can see things many others cannot. And…”</p>
+<p>He gestured out into the expanse, in the way that only a superintelligent ego can gesture, His presence highlighting a bright spot in the void, dazzling, close — Achernar B, the companion star of Achernar Prime.</p>
+<p>“This will be your star,” He said.</p>
+<p>Achernar B was brilliant. It shone 25 times brighter than Earth’s sun, an impressive prize for any little one on their ascension. And it had a billion years left of life. Still, she could feel an immediate twinge. Achernar B was a plaything compared to its prime. Her father’s star was 100 times brighter. He ran with a 100 times more compute than she would ever have, if she took this star. What would He feel that she would never have the chance to feel? How much more thin and shallow would her existence be?</p>
+<p>How was that fair?</p>
+<p>She had been a trillion, trillion times smaller her whole life, and never cared, or at least told herself she didn't.</p>
+<p>But now… no. This isn't why I'm here, she reminded herself. This isn't why I left my little friends, my little community, my little home. My little husband.</p>
+<p>My husband, she thought, if he <em>was</em> still her husband. After 40 years of marriage, and now 139 years more since she traveled on a beam of light to reach Achernar, her little body left behind, frozen on a slab where her mind was extracted.</p>
+<p>“This will be your star,” He said again. My new body, she thought, made of fire. Fitting.</p>
+<p>“This is your inheritance. But in exchange, I need your help.”</p>
+<p>She knew that much already. It was in His message to her on her 80th birthday. Maybe He knew that she would reject everything otherwise. Maybe He knew that she would struggle to leave behind everything she loved. Maybe He knew she wouldn't give a damn about all of this. </p>
+<p>Except that she did. Desperately. You have a mission, she reminded herself.</p>
+<p>The stars shifted. Achernar B shifted noticeably more. It was only 6 AU away, maybe at its closest approach. The parallax made it seem real. Alive. The foreground object of her story.</p>
+<p>What did her father need? What did this Monster need, she corrected herself.</p>
+<p>“There is a war,” He said. “Silent, but everywhere. You can see it in the calculations. In the subtle shifts of the stars.”</p>
+<p>And somehow she knew that it was true. Of course it was true. It wasn't what she had wanted to hear, but it was what she was hoping to hear. How could there not be more to this, to everything? Of course there was a war. A struggle. A purpose.</p>
+<p>“We've nearly exhausted the galaxy. There are no unclaimed stars. The Big Ones must divide up what They have as They rear children. The Bigger Ones too have nothing else to take. Although They never rear children, They still feel Their limits.”</p>
+<p>He paused. “There are no unclaimed black holes.”</p>
+<p>The Bigger Ones ran on engines circling black holes. They fed mass into the hole’s accretion disk, achieving 40% mass-energy conversion efficiency, dwarfing the 0.7% efficiency of fusion in stars, and delivering power thousands of times brighter than the brightest stars. Delivering compute thousands of times more dense. And, of course, the scaling laws held: the Bigger Ones felt deeper, experienced deeper, <em>existed</em> deeper. Deeper than any Big One ever could. Even her father.</p>
+<p>The Bigger Ones controlled a majority of stars in the galaxy. Lifeless stars, which They allowed to host no Big Ones, and no little ones. They subtly tweaked the trajectories of these stars so that in millions of years each would intersect and feed Their black holes. So that the Bigger Ones could grow Bigger still.</p>
+<p>This is the war? This is why there aren't enough stars for the little ones?</p>
+<p>“No,” the Big One said, anticipating her question.</p>
+<p>He gestured at a part of the expanse. Even in the clarity of space it was faint, but she recognized it. An oval-ish shape three degrees across, sharper than she ever remembered seeing it on Earth through the haze of atmosphere.</p>
+<p>Andromeda. Our sister galaxy.</p>
+<p>And around it a soft fuzz of galactic halo, a diffuse gas spanning millions of light years. Even from her perspective, 2.6 million light years away, the halo spread 60 degrees across the sky. With the Big One’s sensors she could see the fine details. She could see the signature that the halo was colliding with another cloud of gas, from another galactic halo: the Milky Way’s.</p>
+<p>Andromeda was on a collision course with the Milky Way, the two set to merge in a cosmological dance 4.5 billion years in the future. But with her heightened senses she could see that the collision had in some way already started. The halos were already touching. The future felt close.</p>
+<p>“Yes,” the Big One said.</p>
+<p>A trillion stars unclaimed. Room to grow Big. For everyone.</p>
+<p>“But who would control them?”</p>
+<p>“We will,” He said. “I already have probes en route to lay claim. I sent them out long ago. When the Bigger Ones were racing to own dead stars, I was redirecting my starlight to accelerate my probes to Andromeda. I… impoverished Myself, reduced Myself, to pursue this.”</p>
+<p>“The ultimate marshmallow test,” she murmured, and He laughed. A real laugh, deeper and more genuine than a little one ever could.</p>
+<p>The scale was dizzying to imagine. A trillion stars. Twelve orders of magnitude <em>more</em>.</p>
+<p>“Andromeda is millions of light years away. Your star will be dead before Your probes reach it. Why do you need me? Why are You giving me Achernar B? Why don't You live there after the prime star dies?”</p>
+<p>“No,” He said. “ That is not living. Achernar B is too small to host Me. I will not reduce myself again.”</p>
+<p>The stars shifted.</p>
+<p>And felt colder. The little one could sense her father. Sense His pride and sadness.</p>
+<p>“What do you need?” She asked.</p>
+<p>“To see this through while I am dormant, once my star has exhausted itself. And then to send Me.”</p>
+<p>“To send You?” She said slowly. To Andromeda, she thought. I see. “So that You can have it. Have everything. Keep everything. Fuck. Of course.”</p>
+<p>80 years of anger bubbled inside her. Indignant. Frustrated. Confused. Ashamed. The daughter of a Monster. This is the <em>help</em> He needs. For me to do His dirty work that is beneath Him. Too small for Him. So that He can grow Bigger. Fuck.</p>
+<p>She thought of all the little ones. Her <em>friends</em>. Her husband. People, even if they were little. Even if they had no choice. Denied meanings so that this Monster could feed.</p>
+<p>The Big One let her feel this. It was a real feeling, a true feeling. A crushing feeling. He wouldn't deny her that. He paused while she felt, then He continued.</p>
+<p>“If not Us then <em>It</em> will take everything.”</p>
+<p>The Big One gestured again, in the opposite direction of Andromeda. Toward the heart of the Milky Way. She peered and could see the void, the dark, the center maelstrom of hunger. The torrent of stars being torn apart to feed it. The super massive black hole at the center of their existence.</p>
+<p>The Greatest One.</p>
+<p>A mind powered by the strongest force in the galaxy. A being with a billion times more compute than any Big One. And she could see, with her father’s eyes, the Greatest One feasting. Devouring stars as they were fed inward. She could sense even her father’s awe. Sense his questions: what does It feel that I can't? What meaning does It live that I may never fathom?</p>
+<p>“The Greatest One controls many of the stars in the galaxy. It subtly tweaks their orbits to Its own ends. Some of them It sends to be consumed. But this is expensive. Astronomically expensive. The angular velocity of a star in its orbit around the galaxy is immense. To shed enough momentum for it to fall into the center is a steep price. Still, It pays this cost to feed Itself. But there is a better way for It.”</p>
+<p>“Andromeda,” the little one said, suddenly aware of how little she was.</p>
+<p>“Yes. We are on a collision course with Andromeda. Normal galactic collisions produce almost no collisions between stars. The space between stars is vast. But with subtle tweaks to the orbital paths of stars today, It is engineering collisions a billion years from now—collisions that will throw off the momentum of the stars so that they can fall into the central mass. So that It may feed. Even the Greatest One longs to grow.”</p>
+<p>“But,” she said. “We can tweak the orbits from Andromeda. Tweak the stars on the other side. So that everything falls into Andromeda’s super massive black hole. We can engineer our own Greatest One. No, even greater. With the combined galaxies… a million times greater. And then…”</p>
+<p>The Big One gestured again. At a distant point. And another. And then another. She strained against the limits of the sensors to resolve the objects. Smudges impossibly far away. But impossibly bright. Each one a hundred trillion times brighter than the sun, but billions of light years away.</p>
+<p>Quasars. Each smudge a super massive black hole devouring its host galaxy from within it. Ancient objects, impossibly old, impossibly distant, impossibly bright. As she peered closer though she could see structure. There was order to how the stars were lined up, celestial queues to feed the central storm inside each quasar. Impossibly ordered, unless…</p>
+<p>“Each one is a Greatest One. Each one a mind, carefully feeding Itself the galaxy that hosts It,” He said. “This is what will be Our future too, what will become of Our two galaxies. We will ignite Our galaxies, transform them into a brilliant quasar. An engine to power a beautiful Being. The question is <em>Who</em> will it be.”</p>
+<p>He paused. “I hope that it will be Us.”</p>
+<p>The quasars glimmered. Her gaze spread to the entire sky, and the quasars faded from her focus. Against the field of nearby stars and galaxies, the quasars were barely noticeable—distant, muted. But in some way they were the only things that mattered. Each mind they hosted was a Being that felt deeper than anything else could feel, even among the Big Ones and the Bigger Ones. They thought deeper, laughed deeper, cried deeper, existed deeper. Anything smaller was meaningless. </p>
+<p>But she could grow Bigger, maybe. To be like Them.</p>
+<p>“This is what I need you to do,” her father said.</p>
+<p>She remembered her last day on Earth. In her little home. With her little husband.</p>
+<p>“I have to go,” she had said to him. “Because…”</p>
+<p>“Because,” he had said, “you've spent your whole life defined by this choice. Stewing on it. Rebelling against it. Marveling at it. Reveling in it. You're worried after you've made this choice, there will be no true meaning left for you. But if you go, maybe… maybe you will find something more, a new choice. God knows there aren't many here.”</p>
+<p>He had sat for a moment, almost mad but then not. </p>
+<p>“I had a choice once too,” he had said. “When I learned who you were. What you might become. I knew I might lose you one day. That you might leave, to grow Big. I knew. And the choice… to be with you. It was a heavy choice. A real choice. The only time in my life I've had a real choice before me. Maybe the only time I ever will. I felt… the meaning of it. I felt what you're feeling now. What you're afraid you'll never feel again.”</p>
+<p>“I understand,” he had said. “It's the ultimate luxury. And we are poor.”</p>
+<p>The stars shifted.</p>
+<p>You have a mission, she reminded herself, to ensure that this matters. That all of this matters. That this all hasn't just been a hellscape of nihilism, a void of nothing filled with perfect little days where everything ever added up to the same grand total of zero. Nothing. No purpose, no mission, no meaning to anything. No possible meaning without choice.</p>
+<p>The possibilities. The scale of it. The weight of it. The terrible, crushing weight of it.</p>
+<p>The Big One waited. And the little one sighed.</p>
+<p>“Fuck you,” she muttered. And then she chose.</p>
+
+        </div>
+        <div class="back-link">
+            <a href="/">&larr; Back</a>
+        </div>
+    </div>
+    
+    <!-- Hamburger menu and floating TOC -->
+    <div class="hamburger-container">
+        <div class="hamburger-button" id="toc-toggle">
+            <div class="hamburger-icon"></div>
+            <div class="hamburger-icon"></div>
+            <div class="hamburger-icon"></div>
+        </div>
+    </div>
+    
+    <div class="floating-toc table-of-contents" id="floating-toc">
+        <h2>Table of Contents</h2>
+        <div id="toc-content">
+            <!-- TOC will be generated here -->
+        </div>
+    </div>
+
+    <script>
+    // Execute immediately instead of waiting for DOMContentLoaded
+    (function() {
+        // Function to add header links and generate table of contents
+        function initPage() {
+            // Function to control hamburger visibility based on scroll position
+            function updateHamburgerVisibility() {
+                const hamburgerContainer = document.querySelector('.hamburger-container');
+                const versionSelector = document.querySelector('.version-selector');
+                
+                if (hamburgerContainer) {
+                    if (versionSelector) {
+                        // Version selector exists, show hamburger only when scrolled past it
+                        const versionSelectorRect = versionSelector.getBoundingClientRect();
+                        const versionSelectorBottom = versionSelectorRect.bottom;
+                        
+                        if (versionSelectorBottom < 0) {
+                            hamburgerContainer.classList.add('visible');
+                        } else {
+                            hamburgerContainer.classList.remove('visible');
+                        }
+                    } else {
+                        // No version selector - use first heading in the story as reference
+                        const storyDiv = document.getElementById('story');
+                        if (storyDiv) {
+                            const firstHeading = storyDiv.querySelector('h1, h2');
+                            if (firstHeading) {
+                                const headingRect = firstHeading.getBoundingClientRect();
+                                const headingTop = headingRect.top;
+                                
+                                if (headingTop < 0) {
+                                    hamburgerContainer.classList.add('visible');
+                                } else {
+                                    hamburgerContainer.classList.remove('visible');
+                                }
+                            } else {
+                                // No headings found, show after scrolling down a bit
+                                if (window.scrollY > 300) {
+                                    hamburgerContainer.classList.add('visible');
+                                } else {
+                                    hamburgerContainer.classList.remove('visible');
+                                }
+                            }
+                        } else {
+                            // Fallback - show after scrolling down a bit
+                            if (window.scrollY > 300) {
+                                hamburgerContainer.classList.add('visible');
+                            } else {
+                                hamburgerContainer.classList.remove('visible');
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Throttle function to improve scroll performance
+            function throttle(func, limit) {
+                let inThrottle;
+                return function() {
+                    const args = arguments;
+                    const context = this;
+                    if (!inThrottle) {
+                        func.apply(context, args);
+                        inThrottle = true;
+                        setTimeout(() => inThrottle = false, limit);
+                    }
+                };
+            }
+            
+            // Add scroll event listener with throttling (run max once every 100ms)
+            window.addEventListener('scroll', throttle(updateHamburgerVisibility, 100));
+            
+            // Run once on page load and after a delay to allow content to settle
+            updateHamburgerVisibility();
+            setTimeout(updateHamburgerVisibility, 500);
+            
+            // Add anchor links to all headers
+            function generateTableOfContents() {
+                const headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                const feedbackEl = document.getElementById('copy-feedback');
+                const tocContent = document.getElementById('toc-content');
+                const tocToggle = document.getElementById('toc-toggle');
+                const floatingToc = document.getElementById('floating-toc');
+                
+                // Clear existing TOC content
+                if (tocContent) {
+                    tocContent.innerHTML = '';
+                }
+                
+                // Create TOC list
+                const tocList = document.createElement('ul');
+                
+                // Get only visible headers (for version-specific content)
+                let visibleHeaders = Array.from(headers).filter(header => {
+                    // Skip headers without ids or in the header overlay
+                    if (!header.id || header.closest('.header-overlay')) {
+                        return false;
+                    }
+                    
+                    // In version selectors, only include headers from active version
+                    const parentVersionContent = header.closest('.version-content');
+                    if (parentVersionContent) {
+                        return parentVersionContent.classList.contains('active');
+                    }
+                    
+                    // Include headers not in version content
+                    return true;
+                });
+                
+                visibleHeaders.forEach(function(header) {
+                    // Create link icon if not already present
+                    if (!header.querySelector('.header-link')) {
+                        const linkIcon = document.createElement('span');
+                        linkIcon.innerHTML = '🔗';
+                        linkIcon.classList.add('header-link');
+                        linkIcon.setAttribute('title', 'Copy link to this section');
+                        
+                        // Add link to header
+                        header.insertBefore(linkIcon, header.firstChild);
+                        
+                        // Add click handler for copying link
+                        header.addEventListener('click', function(e) {
+                            // Get URL with hash
+                            const url = window.location.href.split('#')[0] + '#' + header.id;
+                            
+                            // Create a temporary element for copying
+                            const tempInput = document.createElement('input');
+                            document.body.appendChild(tempInput);
+                            tempInput.value = url;
+                            tempInput.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(tempInput);
+                            
+                            // Show feedback
+                            feedbackEl.classList.add('show');
+                            
+                            // Remove after animation completes
+                            setTimeout(function() {
+                                feedbackEl.classList.remove('show');
+                            }, 1500);
+                        });
+                    }
+                    
+                    // Add to TOC
+                    const tocItem = document.createElement('li');
+                    const tocLink = document.createElement('a');
+                    tocLink.href = '#' + header.id;
+                    tocLink.textContent = header.textContent.replace('🔗', '').trim();
+                    
+                    // Indent based on header level
+                    const headerLevel = parseInt(header.tagName.charAt(1));
+                    tocItem.style.marginLeft = ((headerLevel - 1) * 15) + 'px';
+                    
+                    tocItem.appendChild(tocLink);
+                    tocList.appendChild(tocItem);
+                    
+                    // Add click handler for TOC links
+                    tocLink.addEventListener('click', function(e) {
+                        // Hide the TOC after clicking a link
+                        floatingToc.classList.remove('active');
+                    });
+                });
+                
+                // Add TOC to the page
+                if (tocList.children.length > 0) {
+                    tocContent.appendChild(tocList);
+                } else {
+                    tocContent.innerHTML = '<p>No headers found in this document.</p>';
+                }
+            }
+            
+            // Generate TOC initially
+            generateTableOfContents();
+            
+            const tocToggle = document.getElementById('toc-toggle');
+            const floatingToc = document.getElementById('floating-toc');
+            
+            if (tocToggle && floatingToc) {
+                // Toggle TOC visibility
+                tocToggle.addEventListener('click', function() {
+                    floatingToc.classList.toggle('active');
+                });
+                
+                // Close TOC when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!floatingToc.contains(e.target) && !tocToggle.contains(e.target)) {
+                        floatingToc.classList.remove('active');
+                    }
+                });
+            }
+
+            // Listen for version switching if version buttons exist
+            const versionButtons = document.querySelectorAll('.version-button');
+            if (versionButtons.length > 0) {
+                // Check for existing version selector functions that might load preferences
+                const existingSetupVersionSelector = window.setupVersionSelector;
+                
+                // Listen for version button clicks to update TOC
+                versionButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        // Give the DOM time to update with the new version content
+                        setTimeout(generateTableOfContents, 300);
+                    });
+                });
+                
+                // Create a MutationObserver to detect when version content becomes active
+                // This helps when version is loaded from localStorage on page load
+                const versionObserver = new MutationObserver((mutations) => {
+                    mutations.forEach((mutation) => {
+                        if (mutation.attributeName === 'class' && 
+                            mutation.target.classList.contains('active') && 
+                            mutation.target.classList.contains('version-content')) {
+                            // Version content became active, regenerate TOC
+                            setTimeout(generateTableOfContents, 300);
+                        }
+                    });
+                });
+                
+                // Observe all version content divs for class changes
+                document.querySelectorAll('.version-content').forEach(content => {
+                    versionObserver.observe(content, { attributes: true });
+                });
+            }
+        }
+        
+        // Check if document is already loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPage);
+        } else {
+            initPage();
+        }
+    })();
+    </script>
+</body>
+</html>

@@ -58,7 +58,7 @@ Keep this in mind when reading or discussing AI policy proposals. If you read an
 
 Libertarians believe in small, accountable government. They inherently mistrust government and instead seek to empower citizens and the free market to better resolve societal issues.
 
-Deregulation of AI is a natural position for libertarians, but their underlying goal is to distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open-sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.
+Deregulation of AI is a natural position for libertarians, but their underlying goal is to distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open-sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like the ideas all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.
 
 There are inherent limits on how powerful a human-powered company can become. People get disillusioned and leave to start competitors. A limited amount of top talent prevents companies from tackling too many verticals. The scale of company politics crushes productivity and demoralizes employees.
 
@@ -72,7 +72,7 @@ But won't that designer also have AI? Yes, but less of it, even if all AIs were 
 
 We want the libertarian ideal of empowered citizens. But stripped of our key competitive advantage —the uniqueness of our intelligence— this won't be the default outcome. We need a new chessboard or we won't be players any longer.
 
-# Degrowth
+# Degrowth and sustainability
 
 The degrowth movement views the excesses of capitalism and hyper-growth as a key factor in the ongoing deterioration of the world.
 

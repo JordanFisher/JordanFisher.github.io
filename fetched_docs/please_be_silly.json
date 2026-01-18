@@ -1061,7 +1061,10 @@
       "magnitude": 36,
       "unit": "PT"
     },
-    "useCustomHeaderFooterMargins": true
+    "useCustomHeaderFooterMargins": true,
+    "documentFormat": {
+      "documentMode": "PAGELESS"
+    }
   },
   "namedStyles": {
     "styles": [
@@ -1414,7 +1417,7 @@
       }
     ]
   },
-  "revisionId": "ALBJ4Lv3UMqFCAXCjt5NpYFtNgRHeCBBsqP21jsmspyQaw4tXlDIZoSJ4Q_Z0R5MSZn62wabsJB9XsY1UVAyTA",
+  "revisionId": "AONSffx9zOk3EqFSJXsB4Qq2L90sPXnNHGQ4nQqMSLOQO0taUtnSLybDXyuiwL33mGgw933QVWqWho5KDK3e3w",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.ufriq1teeu3s": {
@@ -1422,7 +1425,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXec1fAl39TtBzx2QSrQb8IudVswGLObEKS1Q-J8qbDZw9txXqJEXNjjDK0WPlKBAS3h4lCdKZPPmv_rde97ti21vLCCHs8WOl67URH_791hv9UNfrICGK2-hLg_SKGLGe7pPOuFjQ?key=ve2Jg3zs-CGAC7cPjZg6B1O7",
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjcGASO-WgQn1hpMxupC61LQiwm-Wpbb9JtWG0UtWR-vjfuPSbpSvFmWJmyqOKjw25yxP1AuEuKKbiVpDMHac1FMs6CkrQdGW_pbZY3Z4fS5AyE2JK5kkKk4MuJQeoAC6-coMs61RY9e0Eg1NqYRZFmnKq?key=ve2Jg3zs-CGAC7cPjZg6B1O7",
             "cropProperties": {}
           },
           "description": "this meme is extremely unnecessary for the point i'm making",

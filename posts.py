@@ -11,6 +11,8 @@ class Post:
 
 
 posts = [
+    Post(uris=["the_greatest_and_the_greatest"], gdoc_url="https://docs.google.com/document/d/16baCR1BKS_OdrrWeaLUa8aDaI_l-t7NxsJcQNjzZaw0/"),
+
     Post(title="Liberty by Design", uris=["liberty_by_design"], url="https://jordanfisher.github.io/posts/liberty_by_design.html"),
 
     Post(uris=["superchecks_superbalances"], gdoc_url="https://docs.google.com/document/d/141zqb94MsAcwBFyk-srcTPEtN3dpDzJe6pN0wts_pcM/"),

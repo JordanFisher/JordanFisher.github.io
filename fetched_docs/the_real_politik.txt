@@ -49,7 +49,7 @@ Keep this in mind when reading or discussing AI policy proposals. If you read an
 Libertarians and open source absolutists
 Libertarians believe in small, accountable government. They inherently mistrust government and instead seek to empower citizens and the free market to better resolve societal issues.
 
-Deregulation of AI is a natural position for libertarians, but their underlying goal is to distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open-sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.
+Deregulation of AI is a natural position for libertarians, but their underlying goal is to distribute this new power among the people so that power can't concentrate into the government. To further that goal, they often suggest open-sourcing AI, so that it's freely available, which will help small companies compete against big companies, and help citizens stand up to tyranny. In general: let's level the playing field and keep the extreme power of AI distributed. Like the ideas all our other heroes from different political backgrounds, this too is noble. And this too requires nuance.
 
 There are inherent limits on how powerful a human-powered company can become. People get disillusioned and leave to start competitors. A limited amount of top talent prevents companies from tackling too many verticals. The scale of company politics crushes productivity and demoralizes employees.
 
@@ -62,7 +62,7 @@ Today, a passionate designer can leave a company and build a new product that de
 But won't that designer also have AI? Yes, but less of it, even if all AIs were open source. With AI, we know that more is more. If you have 100x the budget to spend on the AI thinking, you will get much better results. And big companies have millions of times more resources than small companies. In the age of AGI, money buys results, and more money will always buy better results, and more of them. The result is that money will breed money, and will never again be beholden to human genius and drive.
 
 We want the libertarian ideal of empowered citizens. But stripped of our key competitive advantage —the uniqueness of our intelligence— this won't be the default outcome. We need a new chessboard or we won't be players any longer.
-Degrowth
+Degrowth and sustainability
 The degrowth movement views the excesses of capitalism and hyper-growth as a key factor in the ongoing deterioration of the world.
 
 Degrowthers often point to environmental factors to detract from AI, such as the energy requirements to train AIs or the ongoing energy demands of AI data centers. Like the environmental movement it grew out of, degrowthers want to protect the most precious things in the world from the dangers of industrialization: nature, our social fabric, and ultimately our humanity. Noble goals.

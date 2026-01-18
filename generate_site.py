@@ -1,6 +1,8 @@
 import json
 import os
 import shutil
+import subprocess
+import tempfile
 from typing import Optional, Dict
 import google
 from google.oauth2.credentials import Credentials
@@ -12,6 +14,90 @@ from convert import convert_doc_to_text, convert_doc_to_html, set_docs_service, 
 import html2text
 
 from posts import posts
+
+
+def upload_to_cloudflare_pages(project_name: str = "blog") -> bool:
+    """
+    Upload the generated site to Cloudflare Pages using Wrangler CLI.
+
+    Args:
+        project_name: Cloudflare Pages project name (default: "blog")
+
+    Returns:
+        True if deployment succeeded, False otherwise
+    """
+    from pathlib import Path
+
+    print(f"\nDeploying to Cloudflare Pages project '{project_name}'...")
+
+    # Create temporary deployment directory with the files we want to deploy
+    deploy_dir = tempfile.mkdtemp(prefix='blog-deploy-')
+
+    try:
+        print(f"Creating deployment directory: {deploy_dir}")
+
+        # Copy index.html
+        shutil.copy('index.html', deploy_dir)
+
+        # Copy posts directory
+        if os.path.exists('posts'):
+            shutil.copytree('posts', os.path.join(deploy_dir, 'posts'))
+
+        # Copy styles.css if it exists
+        if os.path.exists('styles.css'):
+            shutil.copy('styles.css', deploy_dir)
+
+        # Copy any other root-level assets
+        for asset in ['singularity_design_horizontal_strip.png']:
+            if os.path.exists(asset):
+                shutil.copy(asset, deploy_dir)
+
+        # Count files to deploy
+        file_count = sum(1 for _ in Path(deploy_dir).rglob('*') if _.is_file())
+        print(f"Deploying {file_count} files...")
+
+        # Build the wrangler command
+        cmd = [
+            'npx', 'wrangler', 'pages', 'deploy', deploy_dir,
+            '--project-name', project_name,
+            '--branch', 'main',
+        ]
+
+        print(f"Running: {' '.join(cmd)}")
+
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=300
+        )
+
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+
+        if result.returncode == 0:
+            print("Successfully deployed to Cloudflare Pages!")
+            return True
+        else:
+            print(f"Deployment failed with return code {result.returncode}")
+            return False
+
+    except subprocess.TimeoutExpired:
+        print("Deployment timed out after 5 minutes")
+        return False
+    except FileNotFoundError:
+        print("Error: npx/wrangler not found. Install with: npm install -g wrangler")
+        print("Or authenticate with: npx wrangler login")
+        return False
+    except Exception as e:
+        print(f"Deployment failed: {e}")
+        return False
+    finally:
+        # Clean up temporary directory
+        if os.path.exists(deploy_dir):
+            shutil.rmtree(deploy_dir)
+            print("Cleaned up temporary directory")
 
 
 # If modifying these scopes, delete the file token.pickle.
@@ -330,18 +416,27 @@ def main(local_only=False):
 
 if __name__ == '__main__':
     import argparse
-    
+
     parser = argparse.ArgumentParser(description='Generate blog site from Google Docs')
-    parser.add_argument('--local-only', action='store_true', 
+    parser.add_argument('--local-only', action='store_true',
                         help='Use cached documents only without connecting to Google')
+    parser.add_argument('--upload-to-pages', action='store_true',
+                        help='Upload generated site to Cloudflare Pages after generation')
+    parser.add_argument('--pages-project-name', default='blog',
+                        help='Cloudflare Pages project name (default: blog)')
     args = parser.parse_args()
-    
+
     try:
         documents = main(local_only=args.local_only)
         if documents:
             print(f"Processed {len(documents)} documents.")
         else:
             print("No documents were processed.")
+
+        # Deploy to Cloudflare Pages if requested
+        if args.upload_to_pages:
+            upload_to_cloudflare_pages(project_name=args.pages_project_name)
+
     except google.auth.exceptions.RefreshError as e:
         if not args.local_only:
             print()

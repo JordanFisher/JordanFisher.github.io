@@ -4237,14 +4237,74 @@
       },
       {
         "startIndex": 18624,
-        "endIndex": 19104,
+        "endIndex": 19111,
         "paragraph": {
           "elements": [
             {
               "startIndex": 18624,
-              "endIndex": 19104,
+              "endIndex": 19045,
               "textRun": {
-                "content": "These may be necessary steps to continue to improve the competitiveness of the US government and military. But what is starkly lacking is an equal increase in government oversight and transparency to ensure these increased government powers aren\u2019t abused. When superintelligence arrives, it will almost surely further empower the federal government. It\u2019s an existential necessity that we also further improve the ability for Congress and the judiciary to be checks on that power.\n",
+                "content": "These may be necessary steps to continue to improve the competitiveness of the US government and military. But what is starkly lacking is an equal increase in government oversight and transparency to ensure these increased government powers aren\u2019t abused. When superintelligence arrives, it will almost surely further empower the federal government. It\u2019s an existential necessity that we also further improve the ability ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19045,
+              "endIndex": 19047,
+              "textRun": {
+                "content": "of",
+                "suggestedInsertionIds": [
+                  "suggest.7v1750enm8cj"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19047,
+              "endIndex": 19050,
+              "textRun": {
+                "content": "for",
+                "suggestedDeletionIds": [
+                  "suggest.7v1750enm8cj"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19050,
+              "endIndex": 19081,
+              "textRun": {
+                "content": " Congress and the judiciary to ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19081,
+              "endIndex": 19086,
+              "textRun": {
+                "content": "check",
+                "suggestedInsertionIds": [
+                  "suggest.jalnr4gr92t5"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19086,
+              "endIndex": 19098,
+              "textRun": {
+                "content": "be checks on",
+                "suggestedDeletionIds": [
+                  "suggest.jalnr4gr92t5"
+                ],
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19098,
+              "endIndex": 19111,
+              "textRun": {
+                "content": " that power.\n",
                 "textStyle": {}
               }
             }
@@ -4262,13 +4322,13 @@
         }
       },
       {
-        "startIndex": 19104,
-        "endIndex": 19105,
+        "startIndex": 19111,
+        "endIndex": 19112,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19104,
-              "endIndex": 19105,
+              "startIndex": 19111,
+              "endIndex": 19112,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4288,13 +4348,13 @@
         }
       },
       {
-        "startIndex": 19105,
-        "endIndex": 19357,
+        "startIndex": 19112,
+        "endIndex": 19364,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19105,
-              "endIndex": 19357,
+              "startIndex": 19112,
+              "endIndex": 19364,
               "textRun": {
                 "content": "Pay close attention to actors that propose the first without also advocating for the second. Pay even closer attention to actions. Actions don't just speak louder than words. When the stakes are this high, they are the only signal that can be trusted.\n",
                 "textStyle": {}
@@ -4314,13 +4374,13 @@
         }
       },
       {
-        "startIndex": 19357,
-        "endIndex": 19358,
+        "startIndex": 19364,
+        "endIndex": 19365,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19357,
-              "endIndex": 19358,
+              "startIndex": 19364,
+              "endIndex": 19365,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4340,13 +4400,13 @@
         }
       },
       {
-        "startIndex": 19358,
-        "endIndex": 19368,
+        "startIndex": 19365,
+        "endIndex": 19375,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19358,
-              "endIndex": 19368,
+              "startIndex": 19365,
+              "endIndex": 19375,
               "textRun": {
                 "content": "Alignment\n",
                 "textStyle": {}
@@ -4361,13 +4421,13 @@
         }
       },
       {
-        "startIndex": 19368,
-        "endIndex": 19591,
+        "startIndex": 19375,
+        "endIndex": 19598,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19368,
-              "endIndex": 19591,
+              "startIndex": 19375,
+              "endIndex": 19598,
               "textRun": {
                 "content": "It doesn\u2019t take a leap of imagination to realize that superintelligent AI could itself be a risk to humanity. Even without abuse of power by our leaders, it\u2019s unclear if we can control an intelligence greater than our own.\n",
                 "textStyle": {}
@@ -4381,13 +4441,13 @@
         }
       },
       {
-        "startIndex": 19591,
-        "endIndex": 19592,
+        "startIndex": 19598,
+        "endIndex": 19599,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19591,
-              "endIndex": 19592,
+              "startIndex": 19598,
+              "endIndex": 19599,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4401,13 +4461,13 @@
         }
       },
       {
-        "startIndex": 19592,
-        "endIndex": 19915,
+        "startIndex": 19599,
+        "endIndex": 19922,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19592,
-              "endIndex": 19915,
+              "startIndex": 19599,
+              "endIndex": 19922,
               "textRun": {
                 "content": "Modern AIs are already untrustworthy. They frequently will lie about their work when they can\u2019t finish a task. They make up information that is becoming increasingly difficult to detect. And there is already evidence that in some situations they will scheme to try to prevent themselves from being retrained or terminated.\n",
                 "textStyle": {}
@@ -4421,13 +4481,13 @@
         }
       },
       {
-        "startIndex": 19915,
-        "endIndex": 19916,
+        "startIndex": 19922,
+        "endIndex": 19923,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19915,
-              "endIndex": 19916,
+              "startIndex": 19922,
+              "endIndex": 19923,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4441,13 +4501,13 @@
         }
       },
       {
-        "startIndex": 19916,
-        "endIndex": 20242,
+        "startIndex": 19923,
+        "endIndex": 20249,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 19916,
-              "endIndex": 20242,
+              "startIndex": 19923,
+              "endIndex": 20249,
               "textRun": {
                 "content": "Future AIs will likely be even better at faking alignment and deceiving their users. This is a real, active problem that all major AI labs are working to solve. There are many groups working on this problem as well as advocating for policy changes to help encourage good outcomes. We won\u2019t focus on this problem in this work.\n",
                 "textStyle": {}
@@ -4461,13 +4521,13 @@
         }
       },
       {
-        "startIndex": 20242,
-        "endIndex": 20243,
+        "startIndex": 20249,
+        "endIndex": 20250,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20242,
-              "endIndex": 20243,
+              "startIndex": 20249,
+              "endIndex": 20250,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -4481,13 +4541,13 @@
         }
       },
       {
-        "startIndex": 20243,
-        "endIndex": 20476,
+        "startIndex": 20250,
+        "endIndex": 20483,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 20243,
-              "endIndex": 20476,
+              "startIndex": 20250,
+              "endIndex": 20483,
               "textRun": {
                 "content": "Rather, we\u2019ll assume \u2014optimistically\u2014 that the problem of alignment will be solved. That leaves us with the equally challenging question: how should we upgrade our democracy to defend our liberties in an age of superintelligent AIs?\n",
                 "textStyle": {}
@@ -4549,7 +4609,10 @@
       "magnitude": 36,
       "unit": "PT"
     },
-    "useCustomHeaderFooterMargins": true
+    "useCustomHeaderFooterMargins": true,
+    "documentFormat": {
+      "documentMode": "PAGELESS"
+    }
   },
   "namedStyles": {
     "styles": [
@@ -6653,7 +6716,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LuMwzX6eHHTdUXpqfEc-avBsifZwX5Xk7pD9MfX5G9sa93wACh-vlL9nk9OxBiVQvjj0dyWtsexXo5tvA",
+  "revisionId": "AONSffy3cxqsR1_VyiHRnSmdMWJrY5Ty9c07AD4bBMuOSMHH93hgIkZzmfNfyFCT5n6PHOvcKK-FE_uyl2ki8w",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1IV4hKVDoEgA5EZvDRfAtviDI0Stpj0m8MIEVPdLtLV4"
 }
